@@ -1,0 +1,1285 @@
+/* Font - Franklin Gothic ATF */
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Med.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Med_Italic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Bold_Italic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Hvy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('assets/fonts/Franklin_Gothic_ATF_Hvy_Italic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* CSS Variables */
+:root {
+    --coral: #E15A4A;
+    --coral-dark: #D14A3A;
+    --text-dark: #2D2D2D;
+    --text-gray: #666666;
+    --bg-light: #FAFAFA;
+    --bg-footer: #F5F5F5;
+    --white: #FFFFFF;
+    --font-family: 'Franklin Gothic ATF', Arial, sans-serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-dark);
+    background-color: var(--white);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    z-index: 1000;
+    padding: 20px 40px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.header-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--coral);
+    transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.signin-link {
+    font-size: 16px;
+    color: var(--coral);
+    font-weight: 500;
+}
+
+.signin-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link-active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Page Header Spacer - for sub-pages */
+.page-header-spacer {
+    height: 120px;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.circles-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Circle Tracks */
+.circle-track {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Fade-in animation for outer rings */
+@keyframes fadeInRing {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+    to {
+        opacity: var(--target-opacity);
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* Ring 7 - Outermost, faintest, slowest */
+.ring-7 {
+    width: 2400px;
+    height: 2400px;
+    --target-opacity: 0.15;
+    opacity: 0;
+    animation: 
+        fadeInRing 1.5s ease-out 2s forwards,
+        rotateCounterClockwise 800s linear 2s infinite;
+}
+
+/* Ring 6 */
+.ring-6 {
+    width: 2100px;
+    height: 2100px;
+    --target-opacity: 0.25;
+    opacity: 0;
+    animation: 
+        fadeInRing 1.5s ease-out 1.6s forwards,
+        rotateClockwise 700s linear 1.6s infinite;
+}
+
+/* Ring 5 */
+.ring-5 {
+    width: 1800px;
+    height: 1800px;
+    --target-opacity: 0.4;
+    opacity: 0;
+    animation: 
+        fadeInRing 1.5s ease-out 1.2s forwards,
+        rotateCounterClockwise 600s linear 1.2s infinite;
+}
+
+/* Ring 4 */
+.ring-4 {
+    width: 1520px;
+    height: 1520px;
+    --target-opacity: 0.55;
+    opacity: 0;
+    animation: 
+        fadeInRing 1.5s ease-out 0.8s forwards,
+        rotateClockwise 520s linear 0.8s infinite;
+}
+
+/* Ring 3 */
+.ring-3 {
+    width: 1260px;
+    height: 1260px;
+    --target-opacity: 0.75;
+    opacity: 0;
+    animation: 
+        fadeInRing 1.5s ease-out 0.4s forwards,
+        rotateCounterClockwise 450s linear 0.4s infinite;
+}
+
+.outer-circle {
+    width: 920px;
+    height: 920px;
+    animation: rotateClockwise 180s linear infinite;
+}
+
+.inner-circle {
+    width: 680px;
+    height: 680px;
+    animation: rotateCounterClockwise 140s linear infinite;
+}
+
+@keyframes rotateClockwise {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes rotateCounterClockwise {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(-360deg); }
+}
+
+/* Balls - positioned with CSS custom properties for each position */
+.ball {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Outer Circle Balls - 24 balls with varied sizes */
+.outer-circle .ball {
+    --total: 24;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 440px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+}
+
+/* Counter-rotate outer balls to keep upright */
+.outer-circle .ball img {
+    animation: counterRotateClockwise 180s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes counterRotateClockwise {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+/* Inner Circle Balls - 12 balls */
+.inner-circle .ball {
+    --total: 12;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 320px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+}
+
+/* Counter-rotate inner balls */
+.inner-circle .ball img {
+    animation: counterRotateCounterClockwise 140s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes counterRotateCounterClockwise {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Ring 7 Balls - 44 balls */
+.ring-7 .ball {
+    --total: 44;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 1170px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+    width: 55px;
+    height: 55px;
+}
+
+.ring-7 .ball img {
+    animation: counterRotateCounterClockwiseSlow 800s linear infinite;
+}
+
+@keyframes counterRotateCounterClockwiseSlow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Ring 6 Balls - 40 balls */
+.ring-6 .ball {
+    --total: 40;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 1020px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+    width: 60px;
+    height: 60px;
+}
+
+.ring-6 .ball img {
+    animation: counterRotateClockwiseMed 700s linear infinite;
+}
+
+@keyframes counterRotateClockwiseMed {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+/* Ring 5 Balls - 36 balls */
+.ring-5 .ball {
+    --total: 36;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 870px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+    width: 65px;
+    height: 65px;
+}
+
+.ring-5 .ball img {
+    animation: counterRotateCounterClockwiseMed 600s linear infinite;
+}
+
+@keyframes counterRotateCounterClockwiseMed {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Ring 4 Balls - 32 balls */
+.ring-4 .ball {
+    --total: 32;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 730px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+    width: 70px;
+    height: 70px;
+}
+
+.ring-4 .ball img {
+    animation: counterRotateClockwiseFast 520s linear infinite;
+}
+
+@keyframes counterRotateClockwiseFast {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+/* Ring 3 Balls - 28 balls */
+.ring-3 .ball {
+    --total: 28;
+    --angle: calc(360deg / var(--total) * var(--i));
+    --radius: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
+    width: 75px;
+    height: 75px;
+}
+
+.ring-3 .ball img {
+    animation: counterRotateCounterClockwiseFast 450s linear infinite;
+}
+
+@keyframes counterRotateCounterClockwiseFast {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Varied ball sizes for outer circle */
+.outer-circle .ball:nth-child(1) { width: 95px; height: 95px; }
+.outer-circle .ball:nth-child(2) { width: 85px; height: 85px; }
+.outer-circle .ball:nth-child(3) { width: 110px; height: 110px; }
+.outer-circle .ball:nth-child(4) { width: 75px; height: 75px; }
+.outer-circle .ball:nth-child(5) { width: 100px; height: 100px; }
+.outer-circle .ball:nth-child(6) { width: 90px; height: 90px; }
+.outer-circle .ball:nth-child(7) { width: 80px; height: 80px; }
+.outer-circle .ball:nth-child(8) { width: 115px; height: 115px; }
+.outer-circle .ball:nth-child(9) { width: 70px; height: 70px; }
+.outer-circle .ball:nth-child(10) { width: 95px; height: 95px; }
+.outer-circle .ball:nth-child(11) { width: 85px; height: 85px; }
+.outer-circle .ball:nth-child(12) { width: 100px; height: 100px; }
+.outer-circle .ball:nth-child(13) { width: 75px; height: 75px; }
+.outer-circle .ball:nth-child(14) { width: 90px; height: 90px; }
+.outer-circle .ball:nth-child(15) { width: 110px; height: 110px; }
+.outer-circle .ball:nth-child(16) { width: 80px; height: 80px; }
+.outer-circle .ball:nth-child(17) { width: 95px; height: 95px; }
+.outer-circle .ball:nth-child(18) { width: 105px; height: 105px; }
+.outer-circle .ball:nth-child(19) { width: 70px; height: 70px; }
+.outer-circle .ball:nth-child(20) { width: 90px; height: 90px; }
+.outer-circle .ball:nth-child(21) { width: 100px; height: 100px; }
+.outer-circle .ball:nth-child(22) { width: 85px; height: 85px; }
+.outer-circle .ball:nth-child(23) { width: 75px; height: 75px; }
+.outer-circle .ball:nth-child(24) { width: 115px; height: 115px; }
+
+/* Varied ball sizes for inner circle */
+.inner-circle .ball:nth-child(1) { width: 85px; height: 85px; }
+.inner-circle .ball:nth-child(2) { width: 70px; height: 70px; }
+.inner-circle .ball:nth-child(3) { width: 95px; height: 95px; }
+.inner-circle .ball:nth-child(4) { width: 75px; height: 75px; }
+.inner-circle .ball:nth-child(5) { width: 90px; height: 90px; }
+.inner-circle .ball:nth-child(6) { width: 80px; height: 80px; }
+.inner-circle .ball:nth-child(7) { width: 100px; height: 100px; }
+.inner-circle .ball:nth-child(8) { width: 70px; height: 70px; }
+.inner-circle .ball:nth-child(9) { width: 85px; height: 85px; }
+.inner-circle .ball:nth-child(10) { width: 95px; height: 95px; }
+.inner-circle .ball:nth-child(11) { width: 75px; height: 75px; }
+.inner-circle .ball:nth-child(12) { width: 90px; height: 90px; }
+
+.ball img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background: linear-gradient(135deg, #e8e8e8, #f5f5f5);
+    border: 3px solid var(--white);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+/* Hero Content */
+.hero-content {
+    text-align: center;
+    max-width: 580px;
+    z-index: 10;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 35%, rgba(255,255,255,0.85) 55%, rgba(255,255,255,0.5) 70%, transparent 85%);
+    padding: 100px 80px;
+    border-radius: 50%;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 28px;
+    letter-spacing: -0.02em;
+}
+
+.hero-content h1 .highlight {
+    color: var(--coral);
+    font-weight: 700;
+}
+
+.hero-content .subtitle {
+    font-size: 21px;
+    color: var(--text-dark);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* Description Section */
+.description {
+    padding: 60px 40px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.description-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.description-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin-bottom: 30px;
+}
+
+.cta-link {
+    display: block;
+    font-size: 22px;
+    color: var(--coral);
+    text-decoration: underline;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.cta-link:hover {
+    color: var(--coral-dark);
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--coral);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px 100px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.cta-button:hover {
+    background: var(--coral-dark);
+}
+
+/* Footer */
+.footer {
+    background: var(--bg-footer);
+    padding: 50px 40px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer-brand {
+    flex-shrink: 0;
+}
+
+.footer-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.footer-brand address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+}
+
+.footer-brand address a {
+    color: var(--coral);
+}
+
+.footer-brand address a:hover {
+    text-decoration: underline;
+}
+
+.footer-flag {
+    margin-bottom: 15px;
+}
+
+.flag-icon {
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: var(--text-gray);
+}
+
+.footer-links {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    font-size: 14px;
+    color: var(--text-gray);
+    transition: color 0.2s;
+}
+
+.footer-column a:hover {
+    color: var(--coral);
+}
+
+/* ======================= */
+/* SECTION BASE STYLES */
+/* ======================= */
+.section {
+    padding: 120px 40px;
+}
+
+.section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--coral);
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    color: var(--text-gray);
+    margin-bottom: 80px;
+    max-width: 600px;
+}
+
+/* ======================= */
+/* QUOTES */
+/* ======================= */
+.quote {
+    position: relative;
+    padding: 40px 0;
+    margin: 40px 0;
+    border-left: 4px solid var(--coral);
+    padding-left: 40px;
+}
+
+.quote p {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.6;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+}
+
+.quote cite {
+    font-size: 16px;
+    font-style: normal;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.quote-large {
+    text-align: center;
+    border-left: none;
+    padding-left: 0;
+    padding: 80px 40px;
+    background: var(--bg-footer);
+    border-radius: 24px;
+    margin: 80px 0;
+}
+
+.quote-large p {
+    font-size: 28px;
+    max-width: 800px;
+    margin: 0 auto 24px;
+}
+
+/* ======================= */
+/* FEATURED IMAGES */
+/* ======================= */
+.featured-image {
+    width: 100%;
+    margin: 80px 0;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    background: linear-gradient(135deg, #e8e8e8, #f5f5f5);
+    min-height: 400px;
+}
+
+/* ======================= */
+/* VIDEO EMBEDS */
+/* ======================= */
+.video-embed {
+    margin: 80px 0;
+}
+
+.video-container {
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-container video {
+    width: 100%;
+    display: block;
+}
+
+.video-caption {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-gray);
+    margin-top: 16px;
+}
+
+/* ======================= */
+/* SFAI ARTISTS SECTION */
+/* ======================= */
+.section-artists {
+    background: var(--white);
+}
+
+.artist-story {
+    margin-bottom: 120px;
+}
+
+.artist-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.artist-headshot {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 4px solid var(--bg-footer);
+}
+
+.artist-headshot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(135deg, #e8e8e8, #f5f5f5);
+}
+
+.artist-info {
+    flex: 1;
+}
+
+.artist-name {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 4px;
+}
+
+.artist-title {
+    font-size: 18px;
+    color: var(--text-gray);
+}
+
+.artist-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.artist-description {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin-bottom: 32px;
+}
+
+.artist-gallery {
+    width: 100%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.gallery-item {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #e8e8e8, #f5f5f5);
+}
+
+/* ======================= */
+/* CROQUI SECTION */
+/* ======================= */
+.section-croqui {
+    background: var(--bg-footer);
+}
+
+.feature {
+    margin-bottom: 160px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.feature:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.feature-header {
+    margin-bottom: 60px;
+}
+
+.feature-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--coral);
+    background: rgba(225, 90, 74, 0.1);
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+}
+
+.feature-description {
+    font-size: 20px;
+    line-height: 1.6;
+    color: var(--text-gray);
+    max-width: 700px;
+}
+
+.feature-media {
+    margin-bottom: 60px;
+    border-radius: 24px;
+    overflow: hidden;
+    background: #000;
+}
+
+.feature-video {
+    width: 100%;
+    display: block;
+    min-height: 500px;
+    object-fit: cover;
+    background: linear-gradient(135deg, #2d2d2d, #1a1a1a);
+}
+
+.feature-visual {
+    margin-bottom: 60px;
+}
+
+.feature-diagram {
+    width: 100%;
+    border-radius: 24px;
+    background: var(--white);
+}
+
+.feature-quote {
+    max-width: 800px;
+    margin-top: 60px;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.stats-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.stat-box {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 40px 32px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+
+.stat-number {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+}
+
+.stat-label {
+    display: block;
+    font-size: 15px;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+/* ======================= */
+/* ABOUT SECTION */
+/* ======================= */
+.section-about {
+    background: var(--white);
+}
+
+.about-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.about-block-reverse {
+    direction: rtl;
+}
+
+.about-block-reverse > * {
+    direction: ltr;
+}
+
+.about-image {
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    background: linear-gradient(135deg, #e8e8e8, #f5f5f5);
+    min-height: 400px;
+}
+
+.about-text h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 24px;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+/* ======================= */
+/* SECTION RESPONSIVE */
+/* ======================= */
+@media (max-width: 1000px) {
+    .section {
+        padding: 80px 30px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .section-subtitle {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .artist-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats-grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-block {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-block-reverse {
+        direction: ltr;
+    }
+
+    .feature-title {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .artist-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artist-headshot {
+        width: 100px;
+        height: 100px;
+    }
+
+    .artist-name {
+        font-size: 24px;
+    }
+
+    .gallery-grid {
+        gap: 12px;
+    }
+
+    .stats-grid,
+    .stats-grid-3 {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .stat-box {
+        padding: 24px 16px;
+    }
+
+    .stat-number {
+        font-size: 32px;
+    }
+
+    .stat-label {
+        font-size: 13px;
+    }
+
+    .feature-title {
+        font-size: 32px;
+    }
+
+    .feature-description {
+        font-size: 17px;
+    }
+
+    .feature-video {
+        min-height: 300px;
+    }
+
+    .quote p {
+        font-size: 18px;
+    }
+
+    .quote-large {
+        padding: 40px 24px;
+        margin: 40px 0;
+    }
+
+    .quote-large p {
+        font-size: 20px;
+    }
+
+    .featured-image {
+        border-radius: 16px;
+        margin: 40px 0;
+    }
+
+    .featured-image img {
+        min-height: 250px;
+    }
+
+    .about-text h3 {
+        font-size: 24px;
+    }
+
+    .about-image img {
+        min-height: 280px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+    .ring-7 {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ring-6 {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ring-5 {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .ring-4, .ring-3 {
+        display: none;
+    }
+
+    .circles-container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .outer-circle {
+        width: 620px;
+        height: 620px;
+    }
+
+    .outer-circle .ball {
+        --radius: 295px;
+    }
+
+    .outer-circle .ball:nth-child(n) {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .inner-circle {
+        width: 420px;
+        height: 420px;
+    }
+
+    .inner-circle .ball {
+        --radius: 195px;
+    }
+
+    .inner-circle .ball:nth-child(n) {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .hero-content {
+        padding: 60px 50px;
+        max-width: 380px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .hero-content .subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 20px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .outer-circle {
+        width: 480px;
+        height: 480px;
+    }
+
+    .outer-circle .ball {
+        --radius: 225px;
+    }
+
+    .outer-circle .ball:nth-child(n) {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    .inner-circle {
+        width: 320px;
+        height: 320px;
+    }
+
+    .inner-circle .ball {
+        --radius: 145px;
+    }
+
+    .inner-circle .ball:nth-child(n) {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .hero-content {
+        padding: 40px 30px;
+        max-width: 280px;
+    }
+
+    .hero-content h1 {
+        font-size: 22px;
+    }
+
+    .hero-content .subtitle {
+        font-size: 14px;
+    }
+
+    .description {
+        padding: 40px 20px 60px;
+    }
+
+    .cta-link {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        padding: 15px 50px;
+        font-size: 16px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
