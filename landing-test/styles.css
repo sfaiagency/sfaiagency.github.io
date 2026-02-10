@@ -288,13 +288,14 @@ a {
 
 /* Counter-rotate outer balls to keep upright */
 .outer-circle .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateClockwise 180s linear infinite;
     transform-origin: center center;
 }
 
 @keyframes counterRotateClockwise {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(-360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) - 360deg)); }
 }
 
 /* Inner Circle Balls - 12 balls */
@@ -309,13 +310,14 @@ a {
 
 /* Counter-rotate inner balls */
 .inner-circle .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateCounterClockwise 140s linear infinite;
     transform-origin: center center;
 }
 
 @keyframes counterRotateCounterClockwise {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
 }
 
 /* Ring 7 Balls - 44 balls */
@@ -331,12 +333,13 @@ a {
 }
 
 .ring-7 .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateCounterClockwiseSlow 800s linear 2s infinite;
 }
 
 @keyframes counterRotateCounterClockwiseSlow {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
 }
 
 /* Ring 6 Balls - 40 balls */
@@ -352,12 +355,13 @@ a {
 }
 
 .ring-6 .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateClockwiseMed 700s linear 1.6s infinite;
 }
 
 @keyframes counterRotateClockwiseMed {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(-360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) - 360deg)); }
 }
 
 /* Ring 5 Balls - 36 balls */
@@ -373,12 +377,13 @@ a {
 }
 
 .ring-5 .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateCounterClockwiseMed 600s linear 1.2s infinite;
 }
 
 @keyframes counterRotateCounterClockwiseMed {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
 }
 
 /* Ring 4 Balls - 32 balls */
@@ -394,12 +399,13 @@ a {
 }
 
 .ring-4 .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateClockwiseFast 520s linear 0.8s infinite;
 }
 
 @keyframes counterRotateClockwiseFast {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(-360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) - 360deg)); }
 }
 
 /* Ring 3 Balls - 28 balls */
@@ -415,12 +421,13 @@ a {
 }
 
 .ring-3 .ball img {
+    --counter-angle: 0deg;
     animation: counterRotateCounterClockwiseFast 450s linear 0.4s infinite;
 }
 
 @keyframes counterRotateCounterClockwiseFast {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from { transform: rotate(var(--counter-angle)); }
+    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
 }
 
 /* Varied ball sizes for outer circle */

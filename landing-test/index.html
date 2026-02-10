@@ -363,6 +363,24 @@
     </div>
 
     <script>
+        // Fix image orientations to maintain gravity
+        document.addEventListener('DOMContentLoaded', function() {
+            const rings = document.querySelectorAll('.circle-track');
+            
+            rings.forEach(ring => {
+                const balls = ring.querySelectorAll('.ball');
+                const totalBalls = balls.length;
+                
+                balls.forEach((ball, index) => {
+                    const img = ball.querySelector('img');
+                    const angle = (360 / totalBalls) * index;
+                    
+                    // Set CSS variable for the counter-rotation
+                    img.style.setProperty('--counter-angle', `-${angle}deg`);
+                });
+            });
+        });
+
         // Modal functionality
         const modal = document.getElementById('signupModal');
         const ctaButton = document.querySelector('.cta-button');
