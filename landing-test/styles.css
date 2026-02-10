@@ -464,7 +464,6 @@ a {
 }
 
 .supporter-logo {
-    height: 50px;
     width: 50%;
     object-fit: contain;
 }
@@ -1195,7 +1194,6 @@ a {
     }
 
     .supporter-logo {
-        height: 40px;
         width: 50%;
     }
 
