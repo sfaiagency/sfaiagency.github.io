@@ -178,95 +178,52 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-/* Fade-in animation for outer rings */
-@keyframes fadeInRing {
-    from {
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(0.95);
-    }
-    to {
-        opacity: var(--target-opacity);
-        transform: translate(-50%, -50%) scale(1);
-    }
+    will-change: transform;
 }
 
 /* Ring 7 - Outermost, faintest, slowest */
 .ring-7 {
     width: 2400px;
     height: 2400px;
-    --target-opacity: 0.15;
     opacity: 0;
-    animation: 
-        fadeInRing 1.5s ease-out 2s forwards,
-        rotateCounterClockwise 800s linear 2s infinite;
 }
 
 /* Ring 6 */
 .ring-6 {
     width: 2100px;
     height: 2100px;
-    --target-opacity: 0.25;
     opacity: 0;
-    animation: 
-        fadeInRing 1.5s ease-out 1.6s forwards,
-        rotateClockwise 700s linear 1.6s infinite;
 }
 
 /* Ring 5 */
 .ring-5 {
     width: 1800px;
     height: 1800px;
-    --target-opacity: 0.4;
     opacity: 0;
-    animation: 
-        fadeInRing 1.5s ease-out 1.2s forwards,
-        rotateCounterClockwise 600s linear 1.2s infinite;
 }
 
 /* Ring 4 */
 .ring-4 {
     width: 1520px;
     height: 1520px;
-    --target-opacity: 0.55;
     opacity: 0;
-    animation: 
-        fadeInRing 1.5s ease-out 0.8s forwards,
-        rotateClockwise 520s linear 0.8s infinite;
 }
 
 /* Ring 3 */
 .ring-3 {
     width: 1260px;
     height: 1260px;
-    --target-opacity: 0.75;
     opacity: 0;
-    animation: 
-        fadeInRing 1.5s ease-out 0.4s forwards,
-        rotateCounterClockwise 450s linear 0.4s infinite;
 }
 
 .outer-circle {
     width: 920px;
     height: 920px;
-    animation: rotateClockwise 180s linear infinite;
 }
 
 .inner-circle {
     width: 680px;
     height: 680px;
-    animation: rotateCounterClockwise 140s linear infinite;
-}
-
-@keyframes rotateClockwise {
-    from { transform: translate(-50%, -50%) rotate(0deg); }
-    to { transform: translate(-50%, -50%) rotate(360deg); }
-}
-
-@keyframes rotateCounterClockwise {
-    from { transform: translate(-50%, -50%) rotate(0deg); }
-    to { transform: translate(-50%, -50%) rotate(-360deg); }
 }
 
 /* Balls - positioned with CSS custom properties for each position */
@@ -286,18 +243,6 @@ a {
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
 }
 
-/* Counter-rotate outer balls to keep upright */
-.outer-circle .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateClockwise 180s linear infinite;
-    transform-origin: center center;
-}
-
-@keyframes counterRotateClockwise {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) - 360deg)); }
-}
-
 /* Inner Circle Balls - 12 balls */
 .inner-circle .ball {
     --total: 12;
@@ -306,18 +251,6 @@ a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
-}
-
-/* Counter-rotate inner balls */
-.inner-circle .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateCounterClockwise 140s linear infinite;
-    transform-origin: center center;
-}
-
-@keyframes counterRotateCounterClockwise {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
 }
 
 /* Ring 7 Balls - 44 balls */
@@ -332,16 +265,6 @@ a {
     height: 55px;
 }
 
-.ring-7 .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateCounterClockwiseSlow 800s linear 2s infinite;
-}
-
-@keyframes counterRotateCounterClockwiseSlow {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
-}
-
 /* Ring 6 Balls - 40 balls */
 .ring-6 .ball {
     --total: 40;
@@ -352,16 +275,6 @@ a {
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
     width: 60px;
     height: 60px;
-}
-
-.ring-6 .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateClockwiseMed 700s linear 1.6s infinite;
-}
-
-@keyframes counterRotateClockwiseMed {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) - 360deg)); }
 }
 
 /* Ring 5 Balls - 36 balls */
@@ -376,16 +289,6 @@ a {
     height: 65px;
 }
 
-.ring-5 .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateCounterClockwiseMed 600s linear 1.2s infinite;
-}
-
-@keyframes counterRotateCounterClockwiseMed {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
-}
-
 /* Ring 4 Balls - 32 balls */
 .ring-4 .ball {
     --total: 32;
@@ -398,16 +301,6 @@ a {
     height: 70px;
 }
 
-.ring-4 .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateClockwiseFast 520s linear 0.8s infinite;
-}
-
-@keyframes counterRotateClockwiseFast {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) - 360deg)); }
-}
-
 /* Ring 3 Balls - 28 balls */
 .ring-3 .ball {
     --total: 28;
@@ -418,16 +311,6 @@ a {
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
     width: 75px;
     height: 75px;
-}
-
-.ring-3 .ball img {
-    --counter-angle: 0deg;
-    animation: counterRotateCounterClockwiseFast 450s linear 0.4s infinite;
-}
-
-@keyframes counterRotateCounterClockwiseFast {
-    from { transform: rotate(var(--counter-angle)); }
-    to { transform: rotate(calc(var(--counter-angle) + 360deg)); }
 }
 
 /* Varied ball sizes for outer circle */
@@ -479,6 +362,7 @@ a {
     border: 3px solid var(--white);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     display: block;
+    will-change: transform;
 }
 
 /* Hero Content */
