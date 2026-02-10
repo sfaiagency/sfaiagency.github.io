@@ -443,6 +443,32 @@ a {
     background: var(--coral-dark);
 }
 
+/* Supported By */
+.supported-by {
+    margin-top: 50px;
+}
+
+.supported-by-label {
+    font-size: 14px;
+    color: var(--text-dark);
+    opacity: 0.6;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.supported-by-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.supporter-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
 /* Footer */
 .footer {
     background: var(--bg-footer);
@@ -1162,6 +1188,14 @@ a {
     .cta-button {
         padding: 15px 50px;
         font-size: 16px;
+    }
+
+    .supported-by {
+        margin-top: 40px;
+    }
+
+    .supporter-logo {
+        height: 40px;
     }
 
     .footer-content {
