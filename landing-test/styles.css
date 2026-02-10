@@ -445,7 +445,7 @@ a {
 
 /* Supported By */
 .supported-by {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .supported-by-label {
@@ -465,7 +465,7 @@ a {
 
 .supporter-logo {
     height: 50px;
-    width: auto;
+    width: 50%;
     object-fit: contain;
 }
 
@@ -1191,11 +1191,12 @@ a {
     }
 
     .supported-by {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .supporter-logo {
         height: 40px;
+        width: 50%;
     }
 
     .footer-content {
