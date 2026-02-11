@@ -1079,41 +1079,55 @@ a {
         display: none;
     }
 
+    .hero {
+        padding-top: 80px;
+    }
+
     .circles-container {
         width: 100vw;
         height: 100vh;
     }
 
     .outer-circle {
-        width: 620px;
-        height: 620px;
+        width: 660px;
+        height: 660px;
     }
 
     .outer-circle .ball {
-        --radius: 295px;
+        --radius: 315px;
     }
 
-    .outer-circle .ball:nth-child(n) {
-        width: 60px !important;
-        height: 60px !important;
+    .outer-circle .ball:nth-child(odd) {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .outer-circle .ball:nth-child(even) {
+        width: 62px !important;
+        height: 62px !important;
     }
 
     .inner-circle {
-        width: 420px;
-        height: 420px;
+        width: 450px;
+        height: 450px;
     }
 
     .inner-circle .ball {
-        --radius: 195px;
+        --radius: 210px;
     }
 
-    .inner-circle .ball:nth-child(n) {
+    .inner-circle .ball:nth-child(odd) {
+        width: 62px !important;
+        height: 62px !important;
+    }
+
+    .inner-circle .ball:nth-child(even) {
         width: 55px !important;
         height: 55px !important;
     }
 
     .hero-content {
-        padding: 60px 50px;
+        padding: 55px 45px;
         max-width: 380px;
     }
 
@@ -1135,45 +1149,59 @@ a {
         display: none;
     }
 
+    .hero {
+        padding-top: 60px;
+    }
+
     .outer-circle {
-        width: 480px;
-        height: 480px;
+        width: 560px;
+        height: 560px;
     }
 
     .outer-circle .ball {
-        --radius: 225px;
+        --radius: 265px;
     }
 
-    .outer-circle .ball:nth-child(n) {
-        width: 45px !important;
-        height: 45px !important;
+    .outer-circle .ball:nth-child(odd) {
+        width: 62px !important;
+        height: 62px !important;
+    }
+
+    .outer-circle .ball:nth-child(even) {
+        width: 54px !important;
+        height: 54px !important;
     }
 
     .inner-circle {
-        width: 320px;
-        height: 320px;
+        width: 370px;
+        height: 370px;
     }
 
     .inner-circle .ball {
-        --radius: 145px;
+        --radius: 170px;
     }
 
-    .inner-circle .ball:nth-child(n) {
-        width: 40px !important;
-        height: 40px !important;
+    .inner-circle .ball:nth-child(odd) {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .inner-circle .ball:nth-child(even) {
+        width: 48px !important;
+        height: 48px !important;
     }
 
     .hero-content {
         padding: 40px 30px;
-        max-width: 280px;
+        max-width: 310px;
     }
 
     .hero-content h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .hero-content .subtitle {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .description {
@@ -1205,6 +1233,67 @@ a {
     .footer-links {
         flex-wrap: wrap;
         gap: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding-top: 50px;
+    }
+
+    .outer-circle {
+        width: 460px;
+        height: 460px;
+    }
+
+    .outer-circle .ball {
+        --radius: 215px;
+    }
+
+    .outer-circle .ball:nth-child(odd) {
+        width: 54px !important;
+        height: 54px !important;
+    }
+
+    .outer-circle .ball:nth-child(even) {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .inner-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .inner-circle .ball {
+        --radius: 135px;
+    }
+
+    .inner-circle .ball:nth-child(odd) {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .inner-circle .ball:nth-child(even) {
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    .hero-content {
+        padding: 30px 20px;
+        max-width: 260px;
+    }
+
+    .hero-content h1 {
+        font-size: 21px;
+    }
+
+    .hero-content .subtitle {
+        font-size: 14px;
+    }
+
+    .ball img {
+        border: 2px solid var(--white);
     }
 }
 
