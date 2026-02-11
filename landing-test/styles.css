@@ -1081,11 +1081,13 @@ a {
 
     .hero {
         padding-top: 80px;
+        overflow: visible;
     }
 
     .circles-container {
         width: 100vw;
         height: 100vh;
+        transform: translateY(-5vh);
     }
 
     .outer-circle {
@@ -1151,6 +1153,10 @@ a {
 
     .hero {
         padding-top: 60px;
+    }
+
+    .circles-container {
+        transform: translateY(-7vh);
     }
 
     .outer-circle {
@@ -1239,6 +1245,10 @@ a {
 @media (max-width: 480px) {
     .hero {
         padding-top: 50px;
+    }
+
+    .circles-container {
+        transform: translateY(-8vh);
     }
 
     .outer-circle {
