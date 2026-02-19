@@ -401,7 +401,8 @@ a {
 }
 
 .cta-button {
-    display: inline-block;
+    display: block;
+    width: 100%;
     background: var(--coral);
     color: var(--white);
     font-size: 18px;
@@ -409,6 +410,7 @@ a {
     padding: 18px 100px;
     border-radius: 8px;
     transition: background 0.2s;
+    text-align: center;
 }
 
 .cta-button:hover {
