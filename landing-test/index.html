@@ -284,6 +284,7 @@
             </p>
             <a href="#signup" class="cta-button">Become an early adopter and get protected</a>
             <a href="#sample-report" class="cta-button sample-report-link">See a sample report</a>
+            <a href="#early-adopters" class="cta-button early-adopters-link">See our early adopters</a>
             <div class="supported-by">
                 <p class="supported-by-label">Supported by</p>
                 <div class="supported-by-logos">
@@ -343,6 +344,91 @@
                 <button type="submit" class="form-submit-btn">Submit Application</button>
                 <div class="form-message" id="formMessage"></div>
             </form>
+        </div>
+    </div>
+
+    <!-- Early Adopters Modal -->
+    <div id="earlyAdoptersModal" class="modal report-modal">
+        <div class="modal-content report-modal-content early-adopters-modal-content">
+            <span class="modal-close early-adopters-modal-close">&times;</span>
+
+            <div class="report-header">
+                <h2 class="report-title">Our Early Adopters</h2>
+            </div>
+
+            <div class="early-adopters-grid">
+                <div class="early-adopter-card">
+                    <img src="artists/David Carson/profile.jpg" alt="David Carson" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">David Carson</h3>
+                        <p class="early-adopter-title">Pulitzer Prize-winning photojournalist</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/Sparaboom/example0.jpg" alt="Gus D'Angelo / Sparaboom" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Gus D'Angelo / Sparaboom</h3>
+                        <p class="early-adopter-title">Cartoonist and illustrator</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="assets/logos/herbblock-logo.jpg" alt="Herblock Foundation" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Herblock Foundation</h3>
+                        <p class="early-adopter-title">Preserving the legacy of America's preeminent editorial cartoonist</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/Keith Knight/profile.jpg" alt="Keith Knight" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Keith Knight</h3>
+                        <p class="early-adopter-title">Cartoonist and co-creator of Hulu's Woke</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/KAL/profile.jpg" alt="Kevin Kallaugher" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Kevin Kallaugher (KAL)</h3>
+                        <p class="early-adopter-title">Editorial cartoonist, The Economist</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/Rod Emmerson/profile.jpg" alt="Rod Emmerson" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Rod Emmerson</h3>
+                        <p class="early-adopter-title">Editorial cartoonist, New Zealand Herald</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/Scott Stantis/profile.jpg" alt="Scott Stantis" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Scott Stantis</h3>
+                        <p class="early-adopter-title">Editorial cartoonist, Chicago Tribune</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/Stefie Gan/profile.jpg" alt="Stefie Gan" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Stefie Gan</h3>
+                        <p class="early-adopter-title">Award-winning animator, filmmaker, and illustrator</p>
+                    </div>
+                </div>
+
+                <div class="early-adopter-card">
+                    <img src="artists/Ted Rall/profile.jpg" alt="Ted Rall" class="early-adopter-photo">
+                    <div class="early-adopter-info">
+                        <h3 class="early-adopter-name">Ted Rall</h3>
+                        <p class="early-adopter-title">Syndicated political cartoonist, columnist, and author</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -2163,6 +2249,11 @@
         const reportButton = document.querySelector('.sample-report-link');
         const reportCloseBtn = document.querySelector('.report-modal-close');
 
+        // Early adopters modal
+        const earlyAdoptersModal = document.getElementById('earlyAdoptersModal');
+        const earlyAdoptersButton = document.querySelector('.early-adopters-link');
+        const earlyAdoptersCloseBtn = document.querySelector('.early-adopters-modal-close');
+
         // Open signup modal when clicking CTA button
         ctaButton.addEventListener('click', function(e) {
             e.preventDefault();
@@ -2174,6 +2265,13 @@
         reportButton.addEventListener('click', function(e) {
             e.preventDefault();
             reportModal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Open early adopters modal when clicking early adopters button
+        earlyAdoptersButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            earlyAdoptersModal.style.display = 'block';
             document.body.style.overflow = 'hidden';
         });
 
@@ -2189,6 +2287,12 @@
             document.body.style.overflow = 'auto';
         });
 
+        // Close early adopters modal when clicking X
+        earlyAdoptersCloseBtn.addEventListener('click', function() {
+            earlyAdoptersModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
         // Close modals when clicking outside
         window.addEventListener('click', function(e) {
             if (e.target === modal) {
@@ -2197,6 +2301,10 @@
             }
             if (e.target === reportModal) {
                 reportModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+            if (e.target === earlyAdoptersModal) {
+                earlyAdoptersModal.style.display = 'none';
                 document.body.style.overflow = 'auto';
             }
         });

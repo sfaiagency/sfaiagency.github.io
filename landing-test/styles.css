@@ -1764,3 +1764,77 @@ a {
         font-size: 32px;
     }
 }
+
+/* ======================= */
+/* EARLY ADOPTERS MODAL */
+/* ======================= */
+.early-adopters-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.early-adopter-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.early-adopter-card:last-child {
+    border-bottom: none;
+}
+
+.early-adopter-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 3px solid #e8e8e8;
+    transition: border-color 0.2s;
+}
+
+.early-adopter-card:hover .early-adopter-photo {
+    border-color: var(--coral);
+}
+
+.early-adopter-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.early-adopter-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+}
+
+.early-adopter-title {
+    font-size: 15px;
+    color: var(--text-gray);
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .early-adopter-card {
+        gap: 16px;
+        padding: 18px 0;
+    }
+
+    .early-adopter-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .early-adopter-name {
+        font-size: 17px;
+    }
+
+    .early-adopter-title {
+        font-size: 13px;
+    }
+}
