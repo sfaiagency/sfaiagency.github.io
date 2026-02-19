@@ -1449,18 +1449,11 @@ a {
 /* SAMPLE REPORT LINK */
 /* ======================= */
 .sample-report-link {
-    display: block;
     margin-top: 16px;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--coral);
-    cursor: pointer;
-    transition: opacity 0.2s;
 }
 
 .sample-report-link:hover {
-    opacity: 0.7;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* ======================= */
