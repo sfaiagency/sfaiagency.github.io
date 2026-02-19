@@ -120,6 +120,12 @@ a {
     gap: 40px;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .nav-link {
     font-size: 18px;
     font-weight: 600;
@@ -413,10 +419,11 @@ a {
     color: var(--white);
     font-size: 18px;
     font-weight: 600;
-    padding: 18px 100px;
+    padding: 18px 24px;
     border-radius: 8px;
     transition: background 0.2s;
     text-align: center;
+    white-space: nowrap;
 }
 
 .cta-button:hover {
@@ -1173,8 +1180,9 @@ a {
     }
 
     .cta-button {
-        padding: 15px 50px;
+        padding: 15px 20px;
         font-size: 16px;
+        white-space: normal;
     }
 
     .supported-by {
