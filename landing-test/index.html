@@ -287,8 +287,8 @@
                 We are now rolling out this tool to our early adopters, who can use it to protect their unique style and body of work at no cost while providing feedback on the technology. Through this close partnership, we are ensuring that the tool meets the needs of artists working across modalities, domains, and scales.
             </p>
             <div class="cta-buttons">
-                <a href="#signup" class="cta-button">Become an early adopter and get protected</a>
-                <a href="#sample-report" class="cta-button">See a sample report</a>
+                <a href="#signup" class="cta-button signup-link">Become an early adopter and get protected</a>
+                <a href="#sample-report" class="cta-button sample-report-link">See a sample report</a>
                 <a href="#early-adopters" class="cta-button early-adopters-link">See some of our early adopters</a>
             </div>
             <div class="supported-by">
@@ -2250,7 +2250,7 @@
 
         // Modal functionality
         const modal = document.getElementById('signupModal');
-        const ctaButton = document.querySelector('.cta-button');
+        const ctaButton = document.querySelector('.signup-link');
         const closeBtn = document.querySelector('#signupModal .modal-close');
         const form = document.getElementById('signupForm');
         const formMessage = document.getElementById('formMessage');
@@ -2266,43 +2266,55 @@
         const earlyAdoptersCloseBtn = document.querySelector('.early-adopters-modal-close');
 
         // Open signup modal when clicking CTA button
-        ctaButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            modal.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-        });
+        if (ctaButton && modal) {
+            ctaButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        }
 
         // Open report modal when clicking sample report button
-        reportButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            reportModal.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-        });
+        if (reportButton && reportModal) {
+            reportButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                reportModal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        }
 
         // Open early adopters modal when clicking early adopters button
-        earlyAdoptersButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            earlyAdoptersModal.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-        });
+        if (earlyAdoptersButton && earlyAdoptersModal) {
+            earlyAdoptersButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                earlyAdoptersModal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        }
 
         // Close signup modal when clicking X
-        closeBtn.addEventListener('click', function() {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        });
+        if (closeBtn && modal) {
+            closeBtn.addEventListener('click', function() {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            });
+        }
 
         // Close report modal when clicking X
-        reportCloseBtn.addEventListener('click', function() {
-            reportModal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        });
+        if (reportCloseBtn && reportModal) {
+            reportCloseBtn.addEventListener('click', function() {
+                reportModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            });
+        }
 
         // Close early adopters modal when clicking X
-        earlyAdoptersCloseBtn.addEventListener('click', function() {
-            earlyAdoptersModal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        });
+        if (earlyAdoptersCloseBtn && earlyAdoptersModal) {
+            earlyAdoptersCloseBtn.addEventListener('click', function() {
+                earlyAdoptersModal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            });
+        }
 
         // Close modals when clicking outside
         window.addEventListener('click', function(e) {
