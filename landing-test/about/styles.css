@@ -87,6 +87,12 @@ a {
     width: auto;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .nav-link {
     font-size: 18px;
     font-weight: 600;
@@ -96,6 +102,11 @@ a {
 
 .nav-link:hover {
     opacity: 0.8;
+}
+
+.nav-link-active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 /* About Hero */
@@ -157,6 +168,14 @@ a {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.team-member-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 .team-member-info h3 {
