@@ -385,11 +385,18 @@ a {
     text-align: left;
 }
 
+.description-content > p {
+    margin-bottom: 18px;
+}
+
+.description-content > p:last-of-type {
+    margin-bottom: 36px;
+}
+
 .description-text {
     font-size: 16px;
     line-height: 1.7;
     color: var(--text-dark);
-    margin-bottom: 30px;
 }
 
 .cta-link {
