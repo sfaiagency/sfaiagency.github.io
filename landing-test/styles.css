@@ -1462,17 +1462,6 @@ a {
 }
 
 /* ======================= */
-/* SAMPLE REPORT LINK */
-/* ======================= */
-.sample-report-link {
-    margin-top: 16px;
-}
-
-.sample-report-link:hover {
-    text-decoration: none;
-}
-
-/* ======================= */
 /* REPORT MODAL */
 /* ======================= */
 .report-modal-content {
