@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - SFAI.agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="../" class="logo">
+                    <img src="../assets/logo.png" alt="SFAI Agency">
+                </a>
+            </div>
+            <div class="header-right">
+                <a href="../" class="nav-link">Home</a>
+                <a href="../research/" class="nav-link">Research</a>
+                <a href="./" class="nav-link nav-link-active">Blog</a>
+                <a href="../about/" class="nav-link">About</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="blog-content">
+            <h1><span class="highlight">Blog</span></h1>
+            <p class="blog-description">
+                Notes, essays, and field reports from the team at SFAI.agency.
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="blog-featured" id="featured-section">
+        <div class="blog-featured-inner">
+            <div class="featured-label">Featured</div>
+            <div id="featured-post" class="featured-post-placeholder">Loading featured post&hellip;</div>
+        </div>
+    </section>
+
+    <!-- Post List -->
+    <section class="blog-list">
+        <div class="blog-list-inner">
+            <h2>All posts</h2>
+            <div id="post-list" class="post-list">
+                <p class="post-list-status">Loading posts&hellip;</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../assets/logo.png" alt="SFAI" class="footer-logo">
+                <address>
+                    <a href="mailto:info@sfai.agency">info@sfai.agency</a>
+                </address>
+                <p class="copyright">&copy; 2026, The SFAI Agency, San Francisco, CA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function () {
+        const POSTS_URL = 'posts/manifest.json';
+
+        function escapeHtml(s) {
+            return String(s)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function formatDate(iso) {
+            if (!iso) return '';
+            const d = new Date(iso + (iso.length === 10 ? 'T12:00:00' : ''));
+            if (isNaN(d.getTime())) return iso;
+            return d.toLocaleDateString('en-US', {
+                year: 'numeric', month: 'long', day: 'numeric'
+            });
+        }
+
+        function postUrl(slug) {
+            return 'post/?slug=' + encodeURIComponent(slug);
+        }
+
+        function renderFeatured(post) {
+            const el = document.getElementById('featured-post');
+            if (!post) {
+                document.getElementById('featured-section').style.display = 'none';
+                return;
+            }
+            const img = post.image
+                ? `<div class="featured-post-image"><img src="${escapeHtml(post.image)}" alt=""></div>`
+                : `<div class="featured-post-image featured-post-image-placeholder" aria-hidden="true"></div>`;
+            el.classList.remove('featured-post-placeholder');
+            el.innerHTML = `
+                <a href="${escapeHtml(postUrl(post.slug))}" class="featured-post">
+                    ${img}
+                    <div class="featured-post-body">
+                        <p class="featured-post-date">${escapeHtml(formatDate(post.date))}</p>
+                        <h3 class="featured-post-title">${escapeHtml(post.title)}</h3>
+                        <p class="featured-post-excerpt">${escapeHtml(post.excerpt || '')}</p>
+                        <span class="featured-post-cta">Read post &rarr;</span>
+                    </div>
+                </a>`;
+        }
+
+        function renderList(posts) {
+            const container = document.getElementById('post-list');
+            if (!posts.length) {
+                container.innerHTML = '<p class="post-list-status">No posts yet.</p>';
+                return;
+            }
+            container.innerHTML = posts.map(function (post) {
+                return `
+                    <a href="${escapeHtml(postUrl(post.slug))}" class="post-item">
+                        <div class="post-item-meta">
+                            <span class="post-item-date">${escapeHtml(formatDate(post.date))}</span>
+                        </div>
+                        <div class="post-item-body">
+                            <h3 class="post-item-title">${escapeHtml(post.title)}</h3>
+                            <p class="post-item-excerpt">${escapeHtml(post.excerpt || '')}</p>
+                        </div>
+                    </a>`;
+            }).join('');
+        }
+
+        fetch(POSTS_URL, { cache: 'no-cache' })
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('manifest')); })
+            .then(function (posts) {
+                posts = posts.slice().sort(function (a, b) {
+                    return (b.date || '').localeCompare(a.date || '');
+                });
+                const featured = posts.find(function (p) { return p.featured; }) || posts[0];
+                const rest = posts.filter(function (p) { return p !== featured; });
+                renderFeatured(featured);
+                renderList(rest);
+            })
+            .catch(function () {
+                document.getElementById('featured-section').style.display = 'none';
+                document.getElementById('post-list').innerHTML =
+                    '<p class="post-list-status">Could not load posts.</p>';
+            });
+    })();
+    </script>
+</body>
+</html>

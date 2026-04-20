@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post - SFAI.agency</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="../../" class="logo">
+                    <img src="../../assets/logo.png" alt="SFAI Agency">
+                </a>
+            </div>
+            <div class="header-right">
+                <a href="../../" class="nav-link">Home</a>
+                <a href="../../research/" class="nav-link">Research</a>
+                <a href="../" class="nav-link nav-link-active">Blog</a>
+                <a href="../../about/" class="nav-link">About</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article -->
+    <article class="post-article">
+        <div class="post-article-inner">
+            <a href="../" class="post-back-link">&larr; All posts</a>
+            <header class="post-header" id="post-header" hidden>
+                <p class="post-date" id="post-date"></p>
+                <h1 class="post-title" id="post-title"></h1>
+                <p class="post-byline" id="post-byline" hidden></p>
+            </header>
+            <div class="post-body" id="post-body">
+                <p>Loading post&hellip;</p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../../assets/logo.png" alt="SFAI" class="footer-logo">
+                <address>
+                    <a href="mailto:info@sfai.agency">info@sfai.agency</a>
+                </address>
+                <p class="copyright">&copy; 2026, The SFAI Agency, San Francisco, CA</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- markdown-it + footnote plugin for full markdown support -->
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-footnote@3.0.3/dist/markdown-it-footnote.min.js"></script>
+    <script>
+    (function () {
+        function getSlug() {
+            const params = new URLSearchParams(window.location.search);
+            return (params.get('slug') || '').replace(/[^a-zA-Z0-9_-]/g, '');
+        }
+
+        function formatDate(iso) {
+            if (!iso) return '';
+            const d = new Date(iso + (iso.length === 10 ? 'T12:00:00' : ''));
+            if (isNaN(d.getTime())) return iso;
+            return d.toLocaleDateString('en-US', {
+                year: 'numeric', month: 'long', day: 'numeric'
+            });
+        }
+
+        function setError(msg) {
+            document.getElementById('post-body').innerHTML =
+                '<p>' + msg + ' <a href="../">Back to blog</a>.</p>';
+        }
+
+        const slug = getSlug();
+        if (!slug) {
+            setError('No post specified.');
+            return;
+        }
+
+        const md = window.markdownit({
+            html: true,          // allow raw HTML (iframes, embeds) in authored markdown
+            linkify: true,
+            typographer: true,
+            breaks: false
+        }).use(window.markdownitFootnote);
+
+        // Open external links in a new tab
+        const defaultLinkRender = md.renderer.rules.link_open ||
+            function (tokens, idx, options, env, self) {
+                return self.renderToken(tokens, idx, options);
+            };
+        md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+            const href = tokens[idx].attrGet('href') || '';
+            if (/^https?:\/\//i.test(href)) {
+                tokens[idx].attrSet('target', '_blank');
+                tokens[idx].attrSet('rel', 'noopener noreferrer');
+            }
+            return defaultLinkRender(tokens, idx, options, env, self);
+        };
+
+        Promise.all([
+            fetch('../posts/manifest.json', { cache: 'no-cache' }).then(function (r) {
+                return r.ok ? r.json() : [];
+            }),
+            fetch('../posts/' + slug + '.md', { cache: 'no-cache' }).then(function (r) {
+                if (!r.ok) throw new Error('not-found');
+                return r.text();
+            })
+        ]).then(function (results) {
+            const manifest = results[0] || [];
+            const markdown = results[1];
+            const meta = manifest.find(function (p) { return p.slug === slug; }) || {};
+
+            // Title / date / byline
+            const titleEl = document.getElementById('post-title');
+            const dateEl = document.getElementById('post-date');
+            const bylineEl = document.getElementById('post-byline');
+
+            titleEl.textContent = meta.title || slug;
+            document.title = (meta.title || slug) + ' — SFAI.agency';
+            dateEl.textContent = formatDate(meta.date);
+            if (meta.author) {
+                bylineEl.textContent = 'By ' + meta.author;
+                bylineEl.hidden = false;
+            }
+            document.getElementById('post-header').hidden = false;
+
+            // Render markdown body
+            document.getElementById('post-body').innerHTML = md.render(markdown);
+        }).catch(function () {
+            setError('Post not found.');
+        });
+    })();
+    </script>
+</body>
+</html>
