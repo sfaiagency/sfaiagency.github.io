@@ -141,7 +141,7 @@ a {
 
 /* Publications */
 .research-papers {
-    padding: 40px 40px 100px;
+    padding: 60px 40px 100px;
     display: flex;
     justify-content: center;
 }
@@ -350,7 +350,7 @@ a {
     }
 
     .header-right {
-        gap: 20px;
+        gap: 18px;
     }
 
     .nav-link {
@@ -362,7 +362,7 @@ a {
     }
 
     .research-hero {
-        padding: 120px 20px 30px;
+        padding: 120px 20px 40px;
     }
 
     .research-content h1 {
@@ -374,7 +374,7 @@ a {
     }
 
     .research-papers {
-        padding: 20px 20px 60px;
+        padding: 40px 20px 60px;
     }
 
     .research-papers-content h2 {
