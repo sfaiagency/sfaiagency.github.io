@@ -117,13 +117,13 @@ a {
 
 /* Blog Hero */
 .blog-hero {
-    padding: 160px 40px 40px;
+    padding: 160px 40px 60px;
     display: flex;
     justify-content: center;
 }
 
 .blog-content {
-    max-width: 760px;
+    max-width: 700px;
     width: 100%;
 }
 
@@ -145,16 +145,24 @@ a {
     color: var(--text-dark);
 }
 
-/* Featured */
-.blog-featured {
-    padding: 20px 40px 40px;
+/* Body (featured + list) — mirrors About's who-we-are section */
+.blog-body {
+    padding: 60px 40px 100px;
     display: flex;
     justify-content: center;
 }
 
-.blog-featured-inner {
-    max-width: 760px;
+.blog-body-inner {
+    max-width: 700px;
     width: 100%;
+}
+
+.blog-subsection {
+    margin-bottom: 60px;
+}
+
+.blog-subsection:last-child {
+    margin-bottom: 0;
 }
 
 .featured-label {
@@ -256,18 +264,7 @@ a {
 }
 
 /* Post List */
-.blog-list {
-    padding: 40px 40px 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.blog-list-inner {
-    max-width: 760px;
-    width: 100%;
-}
-
-.blog-list-inner h2 {
+.blog-subsection h2 {
     font-size: 24px;
     font-weight: 800;
     color: var(--text-dark);
@@ -388,13 +385,13 @@ a {
 /* POST VIEW                           */
 /* =================================== */
 .post-article {
-    padding: 140px 40px 80px;
+    padding: 160px 40px 100px;
     display: flex;
     justify-content: center;
 }
 
 .post-article-inner {
-    max-width: 720px;
+    max-width: 700px;
     width: 100%;
 }
 
@@ -620,7 +617,7 @@ a {
     }
 
     .nav-link {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .logo img {
@@ -628,7 +625,7 @@ a {
     }
 
     .blog-hero {
-        padding: 120px 20px 20px;
+        padding: 120px 20px 40px;
     }
 
     .blog-content h1 {
@@ -639,8 +636,12 @@ a {
         font-size: 15px;
     }
 
-    .blog-featured {
-        padding: 10px 20px 30px;
+    .blog-body {
+        padding: 40px 20px 60px;
+    }
+
+    .blog-subsection {
+        margin-bottom: 40px;
     }
 
     .featured-post {
@@ -655,10 +656,6 @@ a {
 
     .featured-post-title {
         font-size: 22px;
-    }
-
-    .blog-list {
-        padding: 20px 20px 60px;
     }
 
     .post-item {
@@ -676,7 +673,7 @@ a {
     }
 
     .post-article {
-        padding: 110px 20px 60px;
+        padding: 120px 20px 60px;
     }
 
     .post-title {

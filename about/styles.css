@@ -250,6 +250,14 @@ a {
         padding: 15px 20px;
     }
 
+    .header-right {
+        gap: 18px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
     .logo img {
         height: 45px;
     }
