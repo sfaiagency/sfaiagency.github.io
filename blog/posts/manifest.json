@@ -1,10 +1,1 @@
-[
-  {
-    "slug": "welcome",
-    "title": "Welcome to the SFAI.agency blog",
-    "date": "2026-04-20",
-    "author": "SFAI Agency",
-    "excerpt": "An introduction to the blog: what it is, what we'll be writing about, and how posts are authored as plain markdown files in the repo.",
-    "featured": true
-  }
-]
+[]
