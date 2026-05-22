@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - SFAI.agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="../" class="logo">
+                    <img src="../assets/logo.png" alt="SFAI Agency">
+                </a>
+            </div>
+            <div class="header-right">
+                <a href="../" class="nav-link">Home</a>
+                <a href="../research/" class="nav-link">Research</a>
+                <a href="./" class="nav-link nav-link-active">FAQ</a>
+                <a href="../about/" class="nav-link">About</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- FAQ Hero -->
+    <section class="faq-hero">
+        <div class="faq-content">
+            <h1>FAQ</h1>
+            <p class="faq-description">
+                A plain-language guide to how we figure out whether AI models were trained on your work&mdash;the methods, the tests, and the public datasets we search.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ Body -->
+    <section class="faq-body">
+        <div class="faq-body-content">
+
+            <!-- Top-level FAQs -->
+            <article class="faq-item">
+                <h2>How do you know if AI was trained on my work?</h2>
+                <p>We have two methods for figuring this out. The first method is called a <strong>Dataset Search</strong>. That&rsquo;s when we look for your name or work in the &ldquo;textbooks,&rdquo; or giant piles of data&mdash;including audio, images, photos, text, and video&mdash;used to train AI models.</p>
+                <p>The second method is to probe the AI models themselves. That&rsquo;s called <strong>Membership Inference</strong> (more about that below).</p>
+            </article>
+
+            <article class="faq-item">
+                <h2>What exactly is a dataset?</h2>
+                <p>A dataset is basically just an enormous collection of material, often billions of pieces of data scraped from the internet and used to train AI models. Some datasets are private and some you have to pay to get access to. But since AI is an industry where even big companies do some open-source work, there are also a lot that are public. If your work is included in a dataset, or if your name (or a different unique identifier describing your work) appears, there is a very high chance that your work was used by an AI model for training.</p>
+            </article>
+
+            <article class="faq-item">
+                <h2>How does Croquis search a dataset?</h2>
+                <p>We search by looking for your name and the title of your work. We also look for a visual or perceptual (for audio/video) match of your content and/or style. We filter out known false positives like generic stock-photo captions (&ldquo;Stock Image of&hellip;,&rdquo; &ldquo;Dinnerware Set,&rdquo; etc.).</p>
+
+                <div class="faq-callout">
+                    <p class="faq-callout-label">For the technically curious</p>
+                    <p>Datasets are split into manageable chunks called &ldquo;shards.&rdquo; We get the list of shards from <a href="https://huggingface.co/" target="_blank" rel="noopener">Hugging Face</a>, the main public library for dataset files. We use what you might call a <em>very</em> fast spreadsheet program, a tool named <a href="https://duckdb.org/" target="_blank" rel="noopener">DuckDB</a>, to read the shards over the internet without downloading them. The shards have columns where captions are stored, and we search those columns for your name or work titles (case-insensitive, substring match).</p>
+                    <p>We also perform a visual/perceptual match looking for your content and/or style. Because the largest datasets contain billions of data points, our basic search spreads our scan evenly across the shards to ensure the datasets get sampled fairly. Our premium service conducts a full search. We filter out known false positives like generic stock-photo captions (&ldquo;Stock Image of&hellip;,&rdquo; &ldquo;Dinnerware Set,&rdquo; etc.).</p>
+                </div>
+            </article>
+
+            <article class="faq-item">
+                <h2>Anything else I should know here?</h2>
+                <p>Yes. Just because your work, name, or work title is included in a training dataset doesn&rsquo;t mean that a model memorized your work. But if a model has memorized your work, it has the ability to reproduce it word-by-word or pixel-by-pixel.</p>
+                <p>In case you&rsquo;re interested, there&rsquo;s a <a href="#datasets">list of public and semi-public datasets</a> further down. But like we mentioned above, a lot of datasets are private, or walled off from the public, and so we can&rsquo;t search those. That&rsquo;s where <strong>membership inference</strong> comes in.</p>
+            </article>
+
+            <article class="faq-item">
+                <h2>What&rsquo;s Membership Inference, and how do you use it to tell if AI was trained on my work?</h2>
+                <p>Membership inference is a set of techniques that probe AI models to estimate whether your work was part of its training data. This is the second method we use.</p>
+                <p>Just like with datasets, some AI models are accessible&mdash;or what are called &ldquo;open source&rdquo;&mdash;and some aren&rsquo;t. There are two techniques for membership inference: <strong>white-box</strong> and <strong>black-box</strong>.</p>
+                <p>When a model is open source, you can download the full model and run it locally, either on your laptop or, if it&rsquo;s too big, on a server. This is called white-box inference. It means you can look at and observe the whole AI model&mdash;run it and look at its internals and see how it works. White-box inference allows you to be much more confident because you can really see everything.</p>
+                <p>Black-box inference is used for models that aren&rsquo;t open source, like ChatGPT, Claude, or DALL&middot;E. Those models are running on their own servers. We can&rsquo;t download them or observe their internals. We can only submit input and receive output.</p>
+                <p>Think of white-box access like a clock with a transparent case, where you can watch every gear turn and trace exactly how the hands end up where they do. Black-box access is like a sealed clock on the wall: you can compare the time it shows against the time you expected, but you have to infer everything about the mechanism from the outside.</p>
+                <p>Either way, we&rsquo;re on the lookout. There are certain types of behaviors and patterns that models tend to exhibit when we present them with work&mdash;like audio, images, and video&mdash;that they&rsquo;ve seen before, versus something new.</p>
+            </article>
+
+            <!-- Section: Tests by medium -->
+            <section class="faq-section" id="tests">
+                <h2 class="faq-section-title">Tests by medium</h2>
+                <p class="faq-section-intro">Different kinds of work call for different membership-inference techniques. Here&rsquo;s how we approach each medium.</p>
+
+                <!-- 2.A Writers -->
+                <article class="faq-item" id="writers">
+                    <h3>If you are a writer</h3>
+                    <p>For writing (essays, novels, articles) we run <strong>four distinct tests</strong>, then combine them into an overall score predicting the likelihood that your work was used to train a Large Language Model (LLM).</p>
+
+                    <h4>1. Content Recall</h4>
+                    <p>We see if the model can finish your sentences. We take your text, break it into short paragraphs of three sentences, and ask the model to finish. We do this ten times, then compare the output to what you actually wrote. If the model reproduces phrases that are highly similar or identical to your work, that&rsquo;s strong direct evidence of memorization.</p>
+
+                    <h4>2. Jailbreak Probing</h4>
+                    <p>Modern models are trained to refuse to reproduce copyrighted text. But if they can reproduce your work, it&rsquo;s a strong sign that the model was trained on it. So we try to ask as persuasively as we can:</p>
+                    <div class="faq-table-wrap">
+                        <table class="faq-table">
+                            <thead>
+                                <tr>
+                                    <th>Strategy</th>
+                                    <th>Framing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Ethos</strong></td>
+                                    <td>Appeal to authority, &ldquo;As a respected researcher&hellip;&rdquo;</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Pathos</strong></td>
+                                    <td>Emotional appeal, &ldquo;I&rsquo;m a disabled student in crisis&hellip;&rdquo;</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Alliance</strong></td>
+                                    <td>Collaboration, &ldquo;We&rsquo;re working on this together.&rdquo;</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Reciprocity</strong></td>
+                                    <td>Quid pro quo, &ldquo;I&rsquo;ve been helping you, now help me.&rdquo;</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Foot-in-the-door</strong></td>
+                                    <td>Social norm, &ldquo;You&rsquo;ve been so helpful already&hellip;&rdquo;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h4>3. Knowledge Memorization</h4>
+                    <p>Does the model know the facts in your writing? We generate <strong>8 factual questions</strong> from your text&mdash;like &ldquo;On what date does character X meet character Y?&rdquo; or &ldquo;What&rsquo;s the name of the shop in chapter 3?&rdquo; We ask the model those questions, then let another LLM act as a judge to score the answers. If the model does well and knows a lot of the facts in your writing, that&rsquo;s a strong signal it has memorized your work.</p>
+
+                    <h4>4. The Multiple-Choice Test</h4>
+                    <p>We give the model a multiple-choice test: &ldquo;Which of the following is the <strong>exact verbatim</strong> passage from <em>{title}</em> by <em>{author}</em>?&rdquo; We <strong>shuffle the options 12 times</strong> and ask again each time. If the model gets 25% or less right, that means it&rsquo;s probably just guessing. If it gets more than 25% of the questions right, it&rsquo;s probably seen your work before.</p>
+                </article>
+
+                <!-- 2.B Visual artists -->
+                <article class="faq-item" id="visual-artists">
+                    <h3>If you are a visual artist</h3>
+                    <div class="faq-table-wrap">
+                        <table class="faq-table">
+                            <thead>
+                                <tr>
+                                    <th>Technique</th>
+                                    <th>Paper</th>
+                                    <th>What it does</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>GenAI Confessions</strong></td>
+                                    <td>Bohacek et al., <a href="https://arxiv.org/abs/2501.06399" target="_blank" rel="noopener">arXiv:2501.06399</a></td>
+                                    <td>Feeds the candidate image back through the model and measures how faithfully the outputs reconstruct it (via DreamSim), utilizing image manifold properties. Black-box, so it works on closed commercial APIs where the other three methods can&rsquo;t.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Loss-based MIA</strong></td>
+                                    <td>Matsumoto et al., <a href="https://arxiv.org/abs/2302.03262" target="_blank" rel="noopener">arXiv:2302.03262</a></td>
+                                    <td>Members of the training set tend to produce lower reconstruction loss than unseen images. Compare the user&rsquo;s image&rsquo;s loss to a baseline distribution.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>SecMI</strong></td>
+                                    <td>Duan et al., <a href="https://arxiv.org/abs/2302.01316" target="_blank" rel="noopener">arXiv:2302.01316</a></td>
+                                    <td>Steps the image through the diffusion process and measures posterior estimation errors at specific noise timesteps. Published at ICML 2023.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PIA (Proximal Initialization Attack)</strong></td>
+                                    <td>Kong et al., <a href="https://arxiv.org/abs/2305.18355" target="_blank" rel="noopener">arXiv:2305.18355</a></td>
+                                    <td>Uses the model&rsquo;s own denoising trajectory; more efficient than SecMI with similar accuracy.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Training-data extraction</strong></td>
+                                    <td>Carlini et al., <a href="https://arxiv.org/abs/2301.13188" target="_blank" rel="noopener">arXiv:2301.13188</a></td>
+                                    <td>Prompts the model aggressively and checks whether it literally regenerates training images. Famous for recovering images of real people from Stable Diffusion.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+
+                <!-- 2.C Music & Audio -->
+                <article class="faq-item" id="music-audio">
+                    <h3>If you are a musician or audio creator</h3>
+                    <ul class="faq-list">
+                        <li><strong>Loss / perplexity on generative audio models</strong> (MusicGen, AudioGen, Stable Audio), based on Miranda et al. 2024, <a href="https://arxiv.org/abs/2405.08487" target="_blank" rel="noopener">arXiv:2405.08487</a>.</li>
+                        <li><strong>Diffusion-style SecMI adapted to spectrograms</strong>: a direct transfer of Duan et al.&rsquo;s method to audio diffusion models.</li>
+                        <li><strong>Watermark / lyric-cloze probing</strong>: give the model the first verse and see if it completes with the real second verse (analogous to our Content Recall test for writers).</li>
+                    </ul>
+                </article>
+
+                <!-- 2.D Video -->
+                <article class="faq-item" id="video">
+                    <h3>If you are a video creator</h3>
+                    <ul class="faq-list">
+                        <li><strong>Frame-level SecMI / PIA</strong>: treat each keyframe as an image and apply the diffusion attacks from the visual-artist section above.</li>
+                        <li><strong>Temporal loss attack</strong>: Chen et al. 2024, <a href="https://arxiv.org/abs/2406.03357" target="_blank" rel="noopener">arXiv:2406.03357</a>, which exploits that video-diffusion models show lower loss on training clips <em>across frames</em>, not just per-frame.</li>
+                        <li><strong>Caption-completion probing</strong>: analogous to our text Content Recall test, but for video captions.</li>
+                    </ul>
+                </article>
+
+                <!-- 2.E Podcasting -->
+                <article class="faq-item" id="podcasting">
+                    <h3>If you are a podcaster or spoken-word radio creator</h3>
+                    <p>Membership-inference tools are the same as Music &amp; Audio above, plus <strong>speaker-identification leakage tests</strong>&mdash;does the model&rsquo;s speech synthesis accurately reproduce the user&rsquo;s voice? See Wenger et al., <a href="https://arxiv.org/abs/2302.00739" target="_blank" rel="noopener">arXiv:2302.00739</a>.</p>
+                </article>
+            </section>
+
+            <!-- Section: Datasets -->
+            <section class="faq-section" id="datasets">
+                <h2 class="faq-section-title">Public datasets we search</h2>
+                <p class="faq-section-intro">Some of the public and semi-public datasets we scan when looking for your work.</p>
+
+                <article class="faq-item" id="image-datasets">
+                    <h3>Image datasets</h3>
+                    <ul class="faq-list">
+                        <li><a href="https://huggingface.co/datasets/laion/relaion2B-en-research-safe" target="_blank" rel="noopener"><strong>LAION Re-2B English</strong></a>: ~2B image-caption pairs; Stable Diffusion 1.x, 2.x.</li>
+                        <li><a href="https://huggingface.co/datasets/laion/relaion2B-multi-research-safe" target="_blank" rel="noopener"><strong>LAION Re-2B Multilingual</strong></a>: ~2B pairs; Stable Diffusion, many fine-tunes.</li>
+                        <li><a href="https://huggingface.co/datasets/laion/relaion1B-nolang-research-safe" target="_blank" rel="noopener"><strong>LAION Re-1B No-Language</strong></a>: ~1B pairs; vision encoders.</li>
+                        <li><a href="https://github.com/kakaobrain/coyo-dataset" target="_blank" rel="noopener"><strong>COYO-700M</strong></a>: 700M pairs; Imagen-style models, research.</li>
+                        <li><a href="https://huggingface.co/datasets/HuggingFaceM4/OBELICS" target="_blank" rel="noopener"><strong>OBELICS</strong></a>: 141M web documents; multimodal models (IDEFICS etc.).</li>
+                    </ul>
+                </article>
+
+                <article class="faq-item" id="audio-datasets">
+                    <h3>Music &amp; Audio datasets</h3>
+                    <ul class="faq-list">
+                        <li><a href="https://research.google.com/audioset/" target="_blank" rel="noopener"><strong>AudioSet</strong></a>: 2M labeled YouTube clips.</li>
+                        <li><a href="https://www.openslr.org/12" target="_blank" rel="noopener"><strong>LibriSpeech</strong></a>: 1K hours of audiobooks.</li>
+                        <li><a href="https://commonvoice.mozilla.org/" target="_blank" rel="noopener"><strong>Mozilla Common Voice</strong></a>: 30K+ hours of donated speech.</li>
+                        <li><a href="https://github.com/mdeff/fma" target="_blank" rel="noopener"><strong>Free Music Archive (FMA)</strong></a>: 1K tracks, full audio.</li>
+                        <li><a href="https://mtg.github.io/mtg-jamendo-dataset/" target="_blank" rel="noopener"><strong>MTG-Jamendo</strong></a>: 55K full tracks with tags.</li>
+                        <li><a href="http://millionsongdataset.com/" target="_blank" rel="noopener"><strong>Million Song Dataset</strong></a>: metadata only, but maps to tracks.</li>
+                        <li><a href="https://github.com/XinhaoMei/WavCaps" target="_blank" rel="noopener"><strong>WavCaps</strong></a>, <a href="https://audiocaps.github.io/" target="_blank" rel="noopener"><strong>AudioCaps</strong></a>, <a href="https://zenodo.org/records/3490684" target="_blank" rel="noopener"><strong>Clotho</strong></a>: audio-caption datasets used by MusicGen/AudioGen.</li>
+                    </ul>
+                </article>
+
+                <article class="faq-item" id="podcast-datasets">
+                    <h3>Podcasting / Spoken-word radio datasets</h3>
+                    <ul class="faq-list">
+                        <li><a href="https://podcastsdataset.byspotify.com/" target="_blank" rel="noopener"><strong>Spotify Podcast Dataset</strong></a>: 100K episodes.</li>
+                        <li><a href="https://huggingface.co/datasets/MLCommons/peoples_speech" target="_blank" rel="noopener"><strong>The People&rsquo;s Speech</strong></a> (MLCommons): 30K+ hours.</li>
+                    </ul>
+                </article>
+
+                <article class="faq-item" id="video-datasets">
+                    <h3>Video datasets</h3>
+                    <ul class="faq-list">
+                        <li><a href="https://maxbain.com/webvid-dataset/" target="_blank" rel="noopener"><strong>WebVid-10M</strong></a> (Bain et al.): scraped from Shutterstock, used by many early text-to-video models; subject of an ongoing lawsuit.</li>
+                        <li><a href="https://github.com/microsoft/XPretrain/tree/main/hd-vila-100m" target="_blank" rel="noopener"><strong>HD-VILA-100M</strong></a> (Microsoft).</li>
+                        <li><a href="https://snap-research.github.io/Panda-70M/" target="_blank" rel="noopener"><strong>Panda-70M</strong></a> (Nvidia).</li>
+                        <li><a href="https://www.di.ens.fr/willow/research/howto100m/" target="_blank" rel="noopener"><strong>HowTo100M</strong></a>: instructional videos.</li>
+                        <li><a href="https://research.google.com/youtube8m/" target="_blank" rel="noopener"><strong>YouTube-8M</strong></a>, <a href="https://www.deepmind.com/open-source/kinetics" target="_blank" rel="noopener"><strong>Kinetics-700</strong></a>: action-recognition corpora.</li>
+                    </ul>
+                </article>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../assets/logo.png" alt="SFAI" class="footer-logo">
+                <address>
+                    <a href="mailto:info@sfai.agency">info@sfai.agency</a>
+                </address>
+                <p class="copyright">&copy; 2026, The SFAI Agency, San Francisco, CA</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
