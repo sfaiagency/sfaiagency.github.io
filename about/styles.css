@@ -185,6 +185,13 @@ a {
     margin-bottom: 4px;
 }
 
+.team-member-role {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 4px;
+}
+
 .team-member-title {
     font-size: 16px;
     color: var(--text-gray);
