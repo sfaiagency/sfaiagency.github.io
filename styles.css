@@ -1077,7 +1077,7 @@ a {
 
     .hero {
         padding-top: 80px;
-        overflow: visible;
+        overflow: hidden;
     }
 
     .circles-container {
@@ -1130,8 +1130,16 @@ a {
         padding: 15px 20px;
     }
 
-    .header-nav {
-        display: none;
+    .logo img {
+        height: 40px;
+    }
+
+    .header-right {
+        gap: 14px;
+    }
+
+    .nav-link {
+        font-size: 14px;
     }
 
     .hero {
