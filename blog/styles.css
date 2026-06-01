@@ -78,6 +78,8 @@ a {
     background: var(--white);
     z-index: 1000;
     padding: 20px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .header-inner {
@@ -613,15 +615,15 @@ a {
     }
 
     .header-right {
-        gap: 18px;
+        gap: 14px;
     }
 
     .nav-link {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .logo img {
-        height: 45px;
+        height: 40px;
     }
 
     .blog-hero {
