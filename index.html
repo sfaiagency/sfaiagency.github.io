@@ -2356,6 +2356,18 @@
             });
         }
 
+        // Auto-open signup modal when the page is loaded with a signup indicator,
+        // e.g. https://example.com/?signup or https://example.com/#signup
+        // This lets us share a direct link that opens the form right away.
+        if (modal) {
+            const params = new URLSearchParams(window.location.search);
+            const wantsSignup = params.has('signup') || window.location.hash === '#signup';
+            if (wantsSignup) {
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
         // Open report modal when clicking sample report button
         if (reportButton && reportModal) {
             reportButton.addEventListener('click', function(e) {
