@@ -19,6 +19,7 @@
                 <a href="../" class="nav-link">Home</a>
                 <a href="../research/" class="nav-link">Research</a>
                 <a href="./" class="nav-link nav-link-active">Blog</a>
+                <a href="../faq/" class="nav-link">FAQ</a>
                 <a href="../about/" class="nav-link">About</a>
             </div>
         </div>
@@ -41,7 +42,7 @@
                 <div class="featured-label">Featured</div>
                 <div id="featured-post" class="featured-post-placeholder">Loading featured post&hellip;</div>
             </div>
-            <div class="blog-subsection">
+            <div class="blog-subsection" id="all-posts-section">
                 <h2>All posts</h2>
                 <div id="post-list" class="post-list">
                     <p class="post-list-status">Loading posts&hellip;</p>
@@ -114,7 +115,9 @@
         function renderList(posts) {
             const container = document.getElementById('post-list');
             if (!posts.length) {
-                container.innerHTML = '<p class="post-list-status">No posts yet.</p>';
+                // Nothing beyond the featured post yet — hide the whole section
+                // rather than showing an empty "All posts" list.
+                document.getElementById('all-posts-section').style.display = 'none';
                 return;
             }
             container.innerHTML = posts.map(function (post) {
