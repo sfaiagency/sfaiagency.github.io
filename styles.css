@@ -328,7 +328,7 @@ body.nav-open {
 .outer-circle .ball {
     --total: 24;
     --angle: calc(360deg / var(--total) * var(--i));
-    --radius: 440px;
+    --radius: 420px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
@@ -348,7 +348,7 @@ body.nav-open {
 .ring-7 .ball {
     --total: 44;
     --angle: calc(360deg / var(--total) * var(--i));
-    --radius: 1170px;
+    --radius: 940px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
@@ -360,7 +360,7 @@ body.nav-open {
 .ring-6 .ball {
     --total: 40;
     --angle: calc(360deg / var(--total) * var(--i));
-    --radius: 1020px;
+    --radius: 830px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
@@ -372,7 +372,7 @@ body.nav-open {
 .ring-5 .ball {
     --total: 36;
     --angle: calc(360deg / var(--total) * var(--i));
-    --radius: 870px;
+    --radius: 725px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
@@ -384,7 +384,7 @@ body.nav-open {
 .ring-4 .ball {
     --total: 32;
     --angle: calc(360deg / var(--total) * var(--i));
-    --radius: 730px;
+    --radius: 620px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
@@ -396,7 +396,7 @@ body.nav-open {
 .ring-3 .ball {
     --total: 28;
     --angle: calc(360deg / var(--total) * var(--i));
-    --radius: 600px;
+    --radius: 520px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(-1 * var(--radius)));
@@ -539,11 +539,12 @@ body.nav-open {
 .supported-by-logos {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 36px;
 }
 
 .supporter-logo {
-    width: 50%;
+    height: 46px;
+    width: auto;
     object-fit: contain;
 }
 
@@ -1243,13 +1244,13 @@ body.nav-open {
     }
 
     .ring-4 .ball {
-        --radius: 545px;
+        --radius: 465px;
         width: 58px !important;
         height: 58px !important;
     }
 
     .ring-3 .ball {
-        --radius: 420px;
+        --radius: 370px;
         width: 66px !important;
         height: 66px !important;
     }
@@ -1260,7 +1261,7 @@ body.nav-open {
     }
 
     .outer-circle .ball {
-        --radius: 295px;
+        --radius: 275px;
         width: 74px !important;
         height: 74px !important;
     }
@@ -1308,7 +1309,8 @@ body.nav-open {
     }
 
     .supporter-logo {
-        width: 50%;
+        height: 36px;
+        width: auto;
     }
 
     .footer-content {
@@ -1332,13 +1334,13 @@ body.nav-open {
     }
 
     .ring-4 .ball {
-        --radius: 480px;
+        --radius: 416px;
         width: 54px !important;
         height: 54px !important;
     }
 
     .ring-3 .ball {
-        --radius: 372px;
+        --radius: 331px;
         width: 60px !important;
         height: 60px !important;
     }
@@ -1349,7 +1351,7 @@ body.nav-open {
     }
 
     .outer-circle .ball {
-        --radius: 268px;
+        --radius: 246px;
         width: 66px !important;
         height: 66px !important;
     }
