@@ -1202,6 +1202,7 @@ body.nav-open {
 
     .hero-content h1 {
         font-size: 28px;
+        margin-bottom: 16px;
     }
 
     .hero-content .subtitle {
@@ -1284,6 +1285,7 @@ body.nav-open {
 
     .hero-content h1 {
         font-size: 24px;
+        margin-bottom: 12px;
     }
 
     .hero-content .subtitle {
@@ -1374,6 +1376,7 @@ body.nav-open {
 
     .hero-content h1 {
         font-size: 21px;
+        margin-bottom: 10px;
     }
 
     .hero-content .subtitle {
