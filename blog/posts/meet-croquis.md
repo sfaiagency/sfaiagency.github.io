@@ -35,5 +35,5 @@ We're so glad you asked! You can post one of the following on your socials — o
 - There's no "I" in art! #creativeconsent
 
 <figure>
-  <img src="../../assets/blog/blog-post-banner-logo.png" alt="Croquis">
+  <img src="../../assets/blog/blog-post-banner-logo.png" alt="Croquis" style="width: 50%;">
 </figure>
