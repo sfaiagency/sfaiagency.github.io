@@ -2,7 +2,33 @@
 // overlay from the links already present in the desktop header, so each
 // page keeps a single source of truth for its navigation.
 (function () {
+    // Inject the mobile-nav styles from here so the hamburger works on every
+    // page regardless of which (possibly cached) stylesheet that page loads.
+    function injectStyles() {
+        if (document.getElementById('mobile-nav-styles')) return;
+        var css = [
+            '.nav-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;padding:0;margin:0;background:none;border:none;cursor:pointer;}',
+            '.nav-toggle span{display:block;width:26px;height:3px;border-radius:3px;background:var(--coral,#E15A4A);transition:transform .3s ease,opacity .3s ease;}',
+            '.nav-toggle.open span:nth-child(1){transform:translateY(8px) rotate(45deg);}',
+            '.nav-toggle.open span:nth-child(2){opacity:0;}',
+            '.nav-toggle.open span:nth-child(3){transform:translateY(-8px) rotate(-45deg);}',
+            '.mobile-nav{position:fixed;inset:0;z-index:999;background:var(--white,#FFFFFF);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .3s ease,transform .3s ease,visibility .3s;}',
+            '.mobile-nav.open{opacity:1;visibility:visible;transform:translateY(0);}',
+            '.mobile-nav-links{display:flex;flex-direction:column;align-items:center;gap:34px;}',
+            '.mobile-nav-links a{font-size:28px;font-weight:600;color:var(--coral,#E15A4A);}',
+            '.mobile-nav-links a.mobile-nav-active{text-decoration:underline;text-underline-offset:6px;}',
+            'body.nav-open{overflow:hidden;}',
+            '@media (max-width:768px){.header-right,.header-nav{display:none;}.nav-toggle{display:flex;}}'
+        ].join('');
+        var style = document.createElement('style');
+        style.id = 'mobile-nav-styles';
+        style.textContent = css;
+        document.head.appendChild(style);
+    }
+
     document.addEventListener('DOMContentLoaded', function () {
+        injectStyles();
+
         var headerInner = document.querySelector('.header .header-inner');
         if (!headerInner) return;
 
