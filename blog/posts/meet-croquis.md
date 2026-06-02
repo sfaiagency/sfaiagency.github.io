@@ -22,9 +22,9 @@ Initial funding came from grants from the Herb Block Foundation and the Brown In
 
 ## How do I use it?
 
-Croquis is coming soon! If you'd like to join our waiting list, you can do so [here](mailto:info@sfai.agency?subject=Croquis%20waiting%20list).
+Croquis is coming soon! If you'd like to join our waiting list, you can do so [here](https://sfai.agency/?signup).
 
-We're also working with design partners — organizations that are willing to help us by testing Croquis and sharing feedback. Let us know if you're interested [here](mailto:info@sfai.agency?subject=Croquis%20design%20partner).
+We're also working with design partners — organizations that are willing to help us by testing Croquis and sharing feedback. Let us know if you're interested [here](mailto:mark@sfai.agency,sally@sfai.agency?subject=Croquis%20design%20partner).
 
 ## Grr! It makes me so angry that artists' work is used without their permission! Is there anything else I can do?
 
