@@ -33,3 +33,7 @@ We're so glad you asked! You can post one of the following on your socials — o
 - © This means you, AI! #creativeconsent
 - Stop stealing creativity! #creativeconsent
 - There's no "I" in art! #creativeconsent
+
+<figure>
+  <img src="../../assets/blog/blog-post-banner-logo.png" alt="Croquis">
+</figure>
