@@ -212,7 +212,7 @@ a {
 
 /* Footer */
 .footer {
-    background: var(--bg-footer);
+    background: #2E7D32;
     padding: 50px 40px;
     border-top: 1px solid #e0e0e0;
 }
@@ -236,12 +236,13 @@ a {
     font-style: normal;
     font-size: 14px;
     line-height: 1.6;
-    color: var(--text-gray);
+    color: var(--white);
     margin-bottom: 15px;
 }
 
 .footer-brand address a {
-    color: var(--coral);
+    color: var(--white);
+    text-decoration: underline;
 }
 
 .footer-brand address a:hover {
@@ -250,7 +251,7 @@ a {
 
 .copyright {
     font-size: 13px;
-    color: var(--text-gray);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Responsive */

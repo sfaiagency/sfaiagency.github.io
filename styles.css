@@ -550,7 +550,7 @@ body.nav-open {
 
 /* Footer */
 .footer {
-    background: var(--bg-footer);
+    background: #2E7D32;
     padding: 50px 40px;
     border-top: 1px solid #e0e0e0;
 }
@@ -577,12 +577,13 @@ body.nav-open {
     font-style: normal;
     font-size: 14px;
     line-height: 1.6;
-    color: var(--text-dark);
+    color: var(--white);
     margin-bottom: 15px;
 }
 
 .footer-brand address a {
-    color: var(--coral);
+    color: var(--white);
+    text-decoration: underline;
 }
 
 .footer-brand address a:hover {
@@ -599,7 +600,7 @@ body.nav-open {
 
 .copyright {
     font-size: 13px;
-    color: var(--text-gray);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-links {
@@ -616,18 +617,18 @@ body.nav-open {
 .footer-column h4 {
     font-size: 14px;
     font-weight: 600;
-    color: var(--text-dark);
+    color: var(--white);
     margin-bottom: 5px;
 }
 
 .footer-column a {
     font-size: 14px;
-    color: var(--text-gray);
+    color: rgba(255, 255, 255, 0.85);
     transition: color 0.2s;
 }
 
 .footer-column a:hover {
-    color: var(--coral);
+    color: var(--white);
 }
 
 /* ======================= */
