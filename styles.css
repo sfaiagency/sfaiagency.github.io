@@ -1922,75 +1922,140 @@ body.nav-open {
 }
 
 /* ======================= */
-/* EARLY ADOPTERS MODAL */
+/* EARLY ADOPTERS SECTION */
 /* ======================= */
+.early-adopters-section {
+    padding: 80px 40px 110px;
+    background: var(--bg-light);
+    border-top: 1px solid #ededed;
+}
+
+.early-adopters-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.early-adopters-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--coral);
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+}
+
+.early-adopters-subhead {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--text-gray);
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 64px;
+}
+
+.early-adopters-category {
+    margin-bottom: 60px;
+}
+
+.early-adopters-category:last-child {
+    margin-bottom: 0;
+}
+
+.early-adopters-category-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-dark);
+    text-align: center;
+    margin-bottom: 36px;
+}
+
 .early-adopters-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 28px;
 }
 
 .early-adopter-card {
+    width: 210px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 24px;
-    padding: 24px 0;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.early-adopter-card:last-child {
-    border-bottom: none;
+    text-align: center;
 }
 
 .early-adopter-photo {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    flex-shrink: 0;
     border: 3px solid #e8e8e8;
-    transition: border-color 0.2s;
+    background: var(--white);
+    transition: border-color 0.2s, transform 0.2s;
 }
 
 .early-adopter-card:hover .early-adopter-photo {
     border-color: var(--coral);
-}
-
-.early-adopter-info {
-    flex: 1;
-    min-width: 0;
+    transform: translateY(-3px);
 }
 
 .early-adopter-name {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 4px;
     letter-spacing: -0.01em;
+    margin: 16px 0 4px;
 }
 
 .early-adopter-title {
-    font-size: 15px;
+    font-size: 13px;
     color: var(--text-gray);
-    line-height: 1.4;
+    line-height: 1.45;
 }
 
 @media (max-width: 768px) {
+    .early-adopters-section {
+        padding: 56px 20px 72px;
+    }
+
+    .early-adopters-heading {
+        font-size: 30px;
+    }
+
+    .early-adopters-subhead {
+        font-size: 16px;
+        margin-bottom: 44px;
+    }
+
+    .early-adopters-category {
+        margin-bottom: 44px;
+    }
+
+    .early-adopters-category-title {
+        margin-bottom: 28px;
+    }
+
+    .early-adopters-grid {
+        gap: 30px 18px;
+    }
+
     .early-adopter-card {
-        gap: 16px;
-        padding: 18px 0;
+        width: 140px;
     }
 
     .early-adopter-photo {
-        width: 60px;
-        height: 60px;
+        width: 96px;
+        height: 96px;
     }
 
     .early-adopter-name {
-        font-size: 17px;
+        font-size: 15px;
+        margin-top: 12px;
     }
 
     .early-adopter-title {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
