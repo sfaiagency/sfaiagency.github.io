@@ -465,6 +465,14 @@ body.nav-open {
     justify-content: center;
 }
 
+.description--intro {
+    padding-bottom: 56px;
+}
+
+.description--actions {
+    padding-top: 64px;
+}
+
 .description-content {
     max-width: 600px;
     text-align: left;
@@ -1925,9 +1933,10 @@ body.nav-open {
 /* EARLY ADOPTERS SECTION */
 /* ======================= */
 .early-adopters-section {
-    padding: 80px 40px 110px;
+    padding: 76px 40px 88px;
     background: var(--bg-light);
     border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
 }
 
 .early-adopters-inner {
