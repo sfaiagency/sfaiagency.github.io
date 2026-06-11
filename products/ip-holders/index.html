@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For IP Holders - SFAI.agency</title>
-    <meta name="description" content="Portfolio-scale monitoring, transparent evidence, and managed licensing options for studios, publishers, estates, and rights organizations.">
+    <title>IP Holders - SFAI.agency</title>
+    <meta name="description" content="Portfolio-scale protection and licensing for studios, publishers, estates, and rights organizations: audit AI use of your catalog and license it only on your terms.">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../../nav.css">
 </head>
@@ -25,15 +25,15 @@
                     <div class="nav-dropdown">
                         <div class="nav-dropdown-inner">
                             <a href="../artists/" class="nav-card">
-                                <span class="nav-card-title">For Artists</span>
+                                <span class="nav-card-title">Artists</span>
                                 <span class="nav-card-desc">Protect your work and style, and license it only if you choose.</span>
                             </a>
                             <a href="../ip-holders/" class="nav-card nav-card-active">
-                                <span class="nav-card-title">For IP Holders</span>
+                                <span class="nav-card-title">IP Holders</span>
                                 <span class="nav-card-desc">Portfolio-scale protection for studios, publishers, and estates.</span>
                             </a>
                             <a href="../ai-companies/" class="nav-card">
-                                <span class="nav-card-title">For AI Companies</span>
+                                <span class="nav-card-title">AI Companies</span>
                                 <span class="nav-card-desc">License consented creative data for training and generation.</span>
                             </a>
                         </div>
@@ -66,35 +66,42 @@
     <section class="product-hero">
         <div class="product-hero-content">
             <p class="product-eyebrow">Products</p>
-            <h1>For <span class="highlight">IP Holders</span></h1>
+            <h1><span class="highlight">IP Holders</span></h1>
             <p class="product-description">
                 Studios, publishers, estates, and rights organizations manage catalogs that span thousands of works and many creators. Our technology can identify when large AI models have incorporated copyrighted work from your portfolio during their training or down-stream generation&mdash;at the scale you operate.
             </p>
             <p class="product-description">
-                We provide transparent reports with supporting evidence for the works in your catalog, enabling you to address past usage and move towards a clearer and more collaborative future for the rights you manage.
+                The product comes in two parts. <strong>Protect</strong>: transparent, evidence-backed auditing across your whole catalog. <strong>License</strong>: decide whether&mdash;and under what conditions&mdash;any of it is available for AI training and generation. Including not at all.
             </p>
         </div>
     </section>
 
-    <!-- Feature Highlights -->
-    <section class="product-features">
-        <div class="product-features-content">
+    <!-- Protect / License -->
+    <section class="product-pillars">
+        <div class="product-pillars-content">
             <h2>What you get</h2>
-            <div class="feature-cards">
-                <div class="feature-card">
-                    <div class="feature-card-glyph" aria-hidden="true"><span></span></div>
-                    <h3>Audit at portfolio scale</h3>
-                    <p>The same dataset search and membership inference we run for individual artists, applied across a managed portfolio of many assets&mdash;spanning modalities, domains, and scales.</p>
+            <div class="pillars-grid">
+                <div class="pillar-card" id="protect">
+                    <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 7.8-7 9-4-1.2-7-4.4-7-9V6l7-3z"/><path d="M9 11.5l2 2 4-4.5"/></svg></div>
+                    <h3>Protect</h3>
+                    <p class="pillar-lede">Know where the works in your catalog have gone&mdash;at the scale you operate.</p>
+                    <ul class="pillar-list">
+                        <li>Audit your full catalog: we search the giant public datasets used to train AI models and probe the models themselves, across modalities, domains, and scales.</li>
+                        <li>Get transparent, per-work reports with supporting evidence, so your team can act with confidence.</li>
+                        <li>Monitor continuously. As new models and datasets appear, the analysis runs again across your portfolio.</li>
+                        <li>Add protection at the source, with extra safeguards for the works you publish across your own sites and platforms.</li>
+                    </ul>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-card-glyph" aria-hidden="true"><span></span></div>
-                    <h3>Evidence for every work</h3>
-                    <p>Transparent reporting with supporting evidence across your catalog: which datasets and models were checked and what we found, so your team can act with confidence.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-card-glyph" aria-hidden="true"><span></span></div>
-                    <h3>Managed licensing, on your terms</h3>
-                    <p>Explore licensing works from your catalog for AI training and generation&mdash;only if you so choose, with full control over which works, which partners, and on what terms.</p>
+                <div class="pillar-card" id="license">
+                    <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7.5h2.5M11.5 7.5H20"/><circle cx="9" cy="7.5" r="2.5"/><path d="M4 16.5h8.5M17.5 16.5H20"/><circle cx="15" cy="16.5" r="2.5"/></svg></div>
+                    <h3>License</h3>
+                    <p class="pillar-lede">Decide whether&mdash;and under what conditions&mdash;any part of your catalog is available to AI.</p>
+                    <ul class="pillar-list">
+                        <li>Choose whether works from your catalog can be used for AI training or generation at all. Keeping everything off the table is always an option.</li>
+                        <li>If you opt in, you set the conditions per work and per partner: scope, terms, and compensation.</li>
+                        <li>Manage it as a portfolio: licensing decisions, terms, and revenue handled at the scale of many assets, not one work at a time.</li>
+                        <li>Retain full control for the rights holders you represent&mdash;nothing is licensed without your decision.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -113,12 +120,12 @@
                 <div class="step">
                     <span class="step-number">2</span>
                     <h3>We monitor datasets and models</h3>
-                    <p>We search public training datasets and probe AI models across your catalog, building a clear picture of where your works appear.</p>
+                    <p>We search public training datasets and probe AI models across your catalog, and keep watching as new models and datasets appear.</p>
                 </div>
                 <div class="step">
                     <span class="step-number">3</span>
                     <h3>Act on the evidence</h3>
-                    <p>Use the reports to address past usage, protect the catalog going forward, or explore licensing at scale.</p>
+                    <p>Use the reports to address past usage, protect the catalog going forward, and set licensing terms&mdash;work by work, partner by partner.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +145,7 @@
 
     <!-- Other Audiences -->
     <section class="product-switcher">
-        <p class="product-switcher-content">An individual creator? See <a href="../artists/">For Artists</a>. Building AI models? See <a href="../ai-companies/">For AI Companies</a>.</p>
+        <p class="product-switcher-content">An individual creator? See <a href="../artists/">Artists</a>. Building AI models? See <a href="../ai-companies/">AI Companies</a>.</p>
     </section>
 
     <!-- Footer -->

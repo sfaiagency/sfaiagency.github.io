@@ -166,6 +166,8 @@ a {
 }
 
 .product-features-content h2,
+.product-pillars-content h2,
+.product-regs-content h2,
 .product-steps-content h2 {
     font-size: 28px;
     font-weight: 800;
@@ -250,6 +252,169 @@ a {
 
 .feature-card p a:hover {
     text-decoration: underline;
+}
+
+/* Product pillars (Protect / License) */
+.product-pillars {
+    padding: 40px 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-pillars-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.pillar-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 34px 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pillar-card:hover {
+    border-color: var(--coral);
+    box-shadow: 0 4px 20px rgba(225, 90, 74, 0.08);
+}
+
+.pillar-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: linear-gradient(135deg, #E15A4A 0%, #F6A08F 100%);
+}
+
+.pillar-card:nth-child(2) .pillar-icon {
+    background: linear-gradient(135deg, #2D2D2D 0%, #5A5A5A 100%);
+}
+
+.pillar-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.pillar-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.pillar-lede {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+
+.pillar-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 2px;
+}
+
+.pillar-list li {
+    position: relative;
+    padding-left: 24px;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+.pillar-list li::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--coral);
+}
+
+.pillar-list a {
+    color: var(--coral);
+    font-weight: 600;
+}
+
+.pillar-list a:hover {
+    text-decoration: underline;
+}
+
+/* Regulation cards (AI Companies) */
+.product-regs {
+    padding: 40px 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-regs-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.regs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.reg-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 26px 24px;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    background: var(--bg-light);
+}
+
+.reg-chip {
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--coral);
+    background: rgba(225, 90, 74, 0.1);
+    padding: 4px 12px;
+    border-radius: 999px;
+}
+
+.reg-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--text-dark);
+}
+
+.reg-card p {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+.regs-note {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-gray);
 }
 
 /* How it works */
@@ -437,6 +602,8 @@ a {
 /* Responsive */
 @media (max-width: 900px) {
     .feature-cards,
+    .pillars-grid,
+    .regs-grid,
     .steps-grid {
         grid-template-columns: 1fr;
         max-width: 520px;
@@ -473,11 +640,23 @@ a {
         font-size: 15px;
     }
 
-    .product-features {
+    .product-features,
+    .product-pillars,
+    .product-regs {
         padding: 20px 20px 10px;
     }
 
+    .pillar-card {
+        padding: 26px 22px;
+    }
+
+    .pillar-card h3 {
+        font-size: 21px;
+    }
+
     .product-features-content h2,
+    .product-pillars-content h2,
+    .product-regs-content h2,
     .product-steps-content h2 {
         font-size: 22px;
     }
