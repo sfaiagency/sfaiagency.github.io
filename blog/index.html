@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - SFAI.agency</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../nav.css">
 </head>
 <body>
     <!-- Header -->
@@ -18,9 +19,44 @@
             <div class="header-right">
                 <a href="../" class="nav-link">Home</a>
                 <a href="../research/" class="nav-link">Research</a>
-                <a href="./" class="nav-link nav-link-active">Blog</a>
-                <a href="../faq/" class="nav-link">FAQ</a>
-                <a href="../about/" class="nav-link">About</a>
+                <div class="nav-group">
+                    <button type="button" class="nav-group-toggle" aria-haspopup="true" aria-expanded="false">Products<span class="nav-caret" aria-hidden="true"></span></button>
+                    <div class="nav-dropdown">
+                        <div class="nav-dropdown-inner">
+                            <a href="../products/artists/" class="nav-card">
+                                <span class="nav-card-title">Artists</span>
+                                <span class="nav-card-desc">Protect your work and style, and license it only if you choose.</span>
+                            </a>
+                            <a href="../products/ip-holders/" class="nav-card">
+                                <span class="nav-card-title">IP Holders</span>
+                                <span class="nav-card-desc">Portfolio-scale protection for studios, publishers, and estates.</span>
+                            </a>
+                            <a href="../products/ai-companies/" class="nav-card">
+                                <span class="nav-card-title">AI Companies</span>
+                                <span class="nav-card-desc">License consented creative data for training and generation.</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group">
+                    <button type="button" class="nav-group-toggle nav-link-active" aria-haspopup="true" aria-expanded="false">Company<span class="nav-caret" aria-hidden="true"></span></button>
+                    <div class="nav-dropdown">
+                        <div class="nav-dropdown-inner">
+                            <a href="../about/" class="nav-card">
+                                <span class="nav-card-title">About</span>
+                                <span class="nav-card-desc">Who we are and why we&rsquo;re building this.</span>
+                            </a>
+                            <a href="../blog/" class="nav-card nav-card-active">
+                                <span class="nav-card-title">Blog</span>
+                                <span class="nav-card-desc">News and notes from the agency.</span>
+                            </a>
+                            <a href="../faq/" class="nav-card">
+                                <span class="nav-card-title">FAQ</span>
+                                <span class="nav-card-desc">How our detection methods work.</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

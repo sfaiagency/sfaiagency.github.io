@@ -1,0 +1,687 @@
+/* Shared stylesheet for the three product pages
+   (products/artists/, products/ip-holders/, products/ai-companies/). */
+
+/* Font - Franklin Gothic ATF */
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('../assets/fonts/Franklin_Gothic_ATF.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('../assets/fonts/Franklin_Gothic_ATF_Med.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('../assets/fonts/Franklin_Gothic_ATF_Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic ATF';
+    src: url('../assets/fonts/Franklin_Gothic_ATF_Hvy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* CSS Variables */
+:root {
+    --coral: #E15A4A;
+    --coral-dark: #D14A3A;
+    --text-dark: #2D2D2D;
+    --text-gray: #666666;
+    --bg-light: #FAFAFA;
+    --bg-footer: #F5F5F5;
+    --white: #FFFFFF;
+    --font-family: 'Franklin Gothic ATF', Arial, sans-serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-dark);
+    background-color: var(--white);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    z-index: 1000;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--coral);
+    transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+.nav-link-active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Product Hero */
+.product-hero {
+    padding: 160px 40px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-hero-content {
+    max-width: 700px;
+}
+
+.product-eyebrow {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-gray);
+    margin-bottom: 14px;
+}
+
+.product-hero-content h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: var(--text-dark);
+}
+
+.product-hero-content .highlight {
+    color: var(--coral);
+}
+
+.product-description {
+    font-size: 17px;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+/* Feature highlights */
+.product-features {
+    padding: 40px 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-features-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.product-features-content h2,
+.product-pillars-content h2,
+.product-regs-content h2,
+.product-steps-content h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 26px 24px;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.feature-card:hover {
+    border-color: var(--coral);
+    box-shadow: 0 4px 20px rgba(225, 90, 74, 0.08);
+    transform: translateY(-1px);
+}
+
+.feature-card-glyph {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #E15A4A 0%, #F6A08F 100%);
+}
+
+.feature-card:nth-child(2) .feature-card-glyph {
+    background: linear-gradient(135deg, #2D2D2D 0%, #5A5A5A 100%);
+}
+
+.feature-card:nth-child(3) .feature-card-glyph {
+    background: linear-gradient(135deg, #D14A3A 0%, #E15A4A 60%, #F6A08F 100%);
+}
+
+.feature-card-glyph span {
+    width: 16px;
+    height: 16px;
+    border: 2.5px solid rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+}
+
+.feature-card:nth-child(2) .feature-card-glyph span {
+    border-radius: 3px;
+}
+
+.feature-card:nth-child(3) .feature-card-glyph span {
+    border-radius: 50% 50% 50% 0;
+}
+
+.feature-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-dark);
+}
+
+.feature-card p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+.feature-card p a {
+    color: var(--coral);
+    font-weight: 600;
+}
+
+.feature-card p a:hover {
+    text-decoration: underline;
+}
+
+/* Product pillars (Protect / License) */
+.product-pillars {
+    padding: 40px 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-pillars-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.pillar-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 34px 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pillar-card:hover {
+    border-color: var(--coral);
+    box-shadow: 0 4px 20px rgba(225, 90, 74, 0.08);
+}
+
+.pillar-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: linear-gradient(135deg, #E15A4A 0%, #F6A08F 100%);
+}
+
+.pillar-card:nth-child(2) .pillar-icon {
+    background: linear-gradient(135deg, #2D2D2D 0%, #5A5A5A 100%);
+}
+
+.pillar-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.pillar-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.pillar-lede {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+
+.pillar-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 2px;
+}
+
+.pillar-list li {
+    position: relative;
+    padding-left: 24px;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+.pillar-list li::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--coral);
+}
+
+.pillar-list a {
+    color: var(--coral);
+    font-weight: 600;
+}
+
+.pillar-list a:hover {
+    text-decoration: underline;
+}
+
+/* Regulation cards (AI Companies) */
+.product-regs {
+    padding: 40px 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-regs-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.regs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.reg-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 26px 24px;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    background: var(--bg-light);
+}
+
+.reg-chip {
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--coral);
+    background: rgba(225, 90, 74, 0.1);
+    padding: 4px 12px;
+    border-radius: 999px;
+}
+
+.reg-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--text-dark);
+}
+
+.reg-card p {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+.regs-note {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+/* How it works */
+.product-steps {
+    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-steps-content {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.step {
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--coral);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+.step h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--text-dark);
+}
+
+.step p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-gray);
+}
+
+/* Call to action */
+.product-cta {
+    padding: 50px 40px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-cta-content {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    background: var(--bg-light);
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 50px 40px;
+}
+
+.product-cta-content h2 {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 14px;
+    color: var(--text-dark);
+}
+
+.product-cta-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-gray);
+    margin-bottom: 28px;
+}
+
+.product-cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--coral);
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 28px;
+    border-radius: 8px;
+    transition: background 0.2s;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background: var(--coral-dark);
+}
+
+.cta-button-secondary {
+    background: var(--white);
+    color: var(--coral);
+    border: 2px solid var(--coral);
+    padding: 13px 26px;
+}
+
+.cta-button-secondary:hover {
+    background: rgba(225, 90, 74, 0.07);
+}
+
+/* Cross-links to the other audiences */
+.product-switcher {
+    padding: 0 40px 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-switcher-content {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-gray);
+}
+
+.product-switcher-content a {
+    color: var(--coral);
+    font-weight: 600;
+}
+
+.product-switcher-content a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background: var(--bg-footer);
+    padding: 50px 40px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    flex-shrink: 0;
+}
+
+.footer-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.footer-brand address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-gray);
+    margin-bottom: 15px;
+}
+
+.footer-brand address a {
+    color: var(--coral);
+}
+
+.footer-brand address a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 13px;
+    color: var(--text-gray);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .feature-cards,
+    .pillars-grid,
+    .regs-grid,
+    .steps-grid {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 20px;
+    }
+
+    .header-right {
+        gap: 12px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .product-hero {
+        padding: 120px 20px 40px;
+    }
+
+    .product-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .product-description {
+        font-size: 15px;
+    }
+
+    .product-features,
+    .product-pillars,
+    .product-regs {
+        padding: 20px 20px 10px;
+    }
+
+    .pillar-card {
+        padding: 26px 22px;
+    }
+
+    .pillar-card h3 {
+        font-size: 21px;
+    }
+
+    .product-features-content h2,
+    .product-pillars-content h2,
+    .product-regs-content h2,
+    .product-steps-content h2 {
+        font-size: 22px;
+    }
+
+    .product-steps {
+        padding: 40px 20px;
+    }
+
+    .product-cta {
+        padding: 30px 20px 50px;
+    }
+
+    .product-cta-content {
+        padding: 36px 22px;
+    }
+
+    .product-cta-content h2 {
+        font-size: 22px;
+    }
+
+    .product-switcher {
+        padding: 0 20px 60px;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+}

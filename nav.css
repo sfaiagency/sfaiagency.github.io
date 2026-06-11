@@ -1,0 +1,134 @@
+/* Shared navigation styles: desktop dropdown groups ("Products", "Company").
+   Linked from every page so the dropdown markup in each header stays styled
+   even before nav.js runs. Mobile menu styles live in nav.js, which builds
+   that DOM. */
+
+.nav-group {
+    position: relative;
+}
+
+.nav-group-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--coral, #E15A4A);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.nav-group-toggle:hover {
+    opacity: 0.7;
+}
+
+.nav-group-toggle.nav-link-active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.nav-caret {
+    width: 7px;
+    height: 7px;
+    margin-top: -4px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease, margin-top 0.2s ease;
+}
+
+.nav-group:hover .nav-caret,
+.nav-group:focus-within .nav-caret,
+.nav-group.open .nav-caret {
+    transform: rotate(-135deg);
+    margin-top: 4px;
+}
+
+/* The panel is right-aligned to its group so it never runs off the viewport
+   edge for the last items in the nav. The padding-top keeps an invisible
+   hover bridge between the toggle and the box. */
+.nav-dropdown {
+    position: absolute;
+    top: 100%;
+    right: -16px;
+    padding-top: 18px;
+    z-index: 1001;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+}
+
+.nav-group:hover .nav-dropdown,
+.nav-group:focus-within .nav-dropdown,
+.nav-group.open .nav-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav-dropdown-inner {
+    display: flex;
+    gap: 6px;
+    padding: 12px;
+    background: var(--white, #FFFFFF);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 14px 44px rgba(0, 0, 0, 0.12);
+}
+
+.nav-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 212px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    transition: background 0.15s;
+}
+
+.nav-card:hover {
+    background: rgba(225, 90, 74, 0.07);
+}
+
+.nav-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--coral, #E15A4A);
+}
+
+.nav-card-desc {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: var(--text-gray, #666666);
+}
+
+.nav-card-active .nav-card-title {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 960px) {
+    .nav-card {
+        width: 178px;
+        padding: 12px 13px;
+    }
+
+    .nav-card-desc {
+        font-size: 12px;
+    }
+}
+
+/* On mobile the whole desktop nav is hidden (see each page's stylesheet and
+   nav.js); the dropdown groups reappear as labeled sections in the
+   full-screen menu that nav.js builds. */
+@media (max-width: 768px) {
+    .nav-group {
+        display: none;
+    }
+}
