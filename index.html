@@ -2364,6 +2364,13 @@
             }
         }
 
+        // Auto-open the sample report modal when the page is loaded with
+        // #sample-report, so other pages can deep-link straight to it.
+        if (reportModal && window.location.hash === '#sample-report') {
+            reportModal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
         // Open report modal when clicking sample report button
         if (reportButton && reportModal) {
             reportButton.addEventListener('click', function(e) {
