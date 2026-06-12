@@ -24,12 +24,12 @@
                     <div class="nav-dropdown">
                         <div class="nav-dropdown-inner">
                             <a href="products/artists/" class="nav-card">
-                                <span class="nav-card-title">Artists</span>
-                                <span class="nav-card-desc">Protect your work and style, and license it only if you choose.</span>
+                                <span class="nav-card-title">Individual creators</span>
+                                <span class="nav-card-desc">Protect your work and style. License it&mdash;if you choose.</span>
                             </a>
                             <a href="products/ip-holders/" class="nav-card">
-                                <span class="nav-card-title">IP Holders</span>
-                                <span class="nav-card-desc">Portfolio-scale protection for studios, publishers, and estates.</span>
+                                <span class="nav-card-title">Enterprise</span>
+                                <span class="nav-card-desc">Portfolio-scale protection and licensing for studios, publishers, and estates.</span>
                             </a>
                             <a href="products/ai-companies/" class="nav-card">
                                 <span class="nav-card-title">AI Companies</span>
@@ -2362,6 +2362,13 @@
                 modal.style.display = 'block';
                 document.body.style.overflow = 'hidden';
             }
+        }
+
+        // Auto-open the sample report modal when the page is loaded with
+        // #sample-report, so other pages can deep-link straight to it.
+        if (reportModal && window.location.hash === '#sample-report') {
+            reportModal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
         }
 
         // Open report modal when clicking sample report button
