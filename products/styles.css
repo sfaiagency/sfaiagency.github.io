@@ -1,35 +1,7 @@
 /* Shared stylesheet for the three product pages
    (products/artists/, products/ip-holders/, products/ai-companies/). */
 
-/* Font - Franklin Gothic ATF */
-@font-face {
-    font-family: 'Franklin Gothic ATF';
-    src: url('../assets/fonts/Franklin_Gothic_ATF.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Franklin Gothic ATF';
-    src: url('../assets/fonts/Franklin_Gothic_ATF_Med.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Franklin Gothic ATF';
-    src: url('../assets/fonts/Franklin_Gothic_ATF_Bold.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Franklin Gothic ATF';
-    src: url('../assets/fonts/Franklin_Gothic_ATF_Hvy.otf') format('opentype');
-    font-weight: 800;
-    font-style: normal;
-}
-
+/* Font: ATF Franklin Gothic — served via Adobe Fonts (Typekit), embedded in the page <head>. Licensed self-hosting was replaced with Adobe's web project (kit hhx2fen). */
 /* CSS Variables */
 :root {
     --coral: #E15A4A;
@@ -39,7 +11,7 @@
     --bg-light: #FAFAFA;
     --bg-footer: #F5F5F5;
     --white: #FFFFFF;
-    --font-family: 'Franklin Gothic ATF', Arial, sans-serif;
+    --font-family: 'franklin-gothic-atf', Arial, sans-serif;
 }
 
 /* Reset */
