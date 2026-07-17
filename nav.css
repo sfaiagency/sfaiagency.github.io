@@ -119,6 +119,14 @@
         padding: 12px 13px;
     }
 
+    /* With four product cards a single row overflows the left edge of
+       narrow-desktop viewports, so wrap dropdowns of 4+ cards into two
+       columns (width fits exactly two cards + gap + padding + border). */
+    .nav-dropdown-inner:has(> .nav-card:nth-child(4)) {
+        flex-wrap: wrap;
+        width: 388px;
+    }
+
     .nav-card-desc {
         font-size: 12px;
     }
