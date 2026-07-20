@@ -22,6 +22,7 @@
             '.mobile-nav-group{display:flex;flex-direction:column;align-items:center;gap:14px;padding-top:6px;}',
             '.mobile-nav-group-label{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text-gray,#666666);}',
             '.mobile-nav-group a{font-size:21px;font-weight:600;color:var(--coral,#E15A4A);}',
+            '.mobile-nav-group a.mobile-nav-sublink{font-size:17px;font-weight:500;}',
             '.mobile-nav a.mobile-nav-active{text-decoration:underline;text-underline-offset:6px;}',
             'body.nav-open{overflow:hidden;}',
             '@media (max-width:768px){.header-right,.header-nav{display:none;}.nav-toggle{display:flex;}}'
@@ -110,8 +111,21 @@
                 label.textContent = groupToggle ? groupToggle.textContent.trim() : '';
                 section.appendChild(label);
                 item.querySelectorAll('.nav-card').forEach(function (card) {
+                    // A card is either a plain <a class="nav-card"> or a <div>
+                    // wrapping a .nav-card-link plus .nav-card-sub links.
+                    var main = card.tagName === 'A' ? card : card.querySelector('.nav-card-link');
+                    if (!main) return;
                     var title = card.querySelector('.nav-card-title');
-                    section.appendChild(makeLink(card, title ? title.textContent : null));
+                    section.appendChild(makeLink(main, title ? title.textContent : null));
+                });
+                var seenSubs = {};
+                item.querySelectorAll('.nav-card-sub a').forEach(function (sub) {
+                    var href = sub.getAttribute('href');
+                    if (seenSubs[href]) return;
+                    seenSubs[href] = true;
+                    var link = makeLink(sub);
+                    link.className += (link.className ? ' ' : '') + 'mobile-nav-sublink';
+                    section.appendChild(link);
                 });
                 nav.appendChild(section);
             }
