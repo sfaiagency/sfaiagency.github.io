@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enterprise - SFAI.agency</title>
-    <meta name="description" content="Portfolio-scale protection and licensing for studios, publishers, estates, and rights organizations: audit AI use of your catalog and license it only on your terms.">
+    <title>Protect - SFAI.agency</title>
+    <meta name="description" content="Detect AI use of creative work with evidence you can act on: we search public training datasets and probe the models themselves, for individual creators, enterprises, and legal teams.">
     <link rel="stylesheet" href="https://use.typekit.net/hhx2fen.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../../nav.css">
@@ -27,7 +27,7 @@
                         <div class="nav-dropdown-inner nav-dropdown-mega">
                             <div class="nav-mega-col">
                                 <span class="nav-dropdown-label">Products</span>
-                                <a href="../protect/" class="nav-card nav-mega-item" data-product="protect">
+                                <a href="../protect/" class="nav-card nav-mega-item nav-card-active" data-product="protect">
                                     <span class="nav-card-title">Protect</span>
                                     <span class="nav-card-desc">Detect AI use of creative work&mdash;with evidence you can act on.</span>
                                 </a>
@@ -47,7 +47,7 @@
                                         <span class="nav-card-title">Individual creators</span>
                                         <span class="nav-card-desc">Protect your work and style. License it&mdash;if you choose.</span>
                                     </a>
-                                    <a href="../ip-holders/" class="nav-card nav-use nav-card-active" data-use="ip-holders">
+                                    <a href="../ip-holders/" class="nav-card nav-use" data-use="ip-holders">
                                         <span class="nav-card-title">Enterprise</span>
                                         <span class="nav-card-desc">Portfolio-scale protection and licensing for studios, publishers, and estates.</span>
                                     </a>
@@ -91,46 +91,67 @@
     <section class="product-hero">
         <div class="product-hero-content">
             <p class="product-eyebrow">Products</p>
-            <h1><span class="highlight">Enterprise</span></h1>
+            <h1><span class="highlight">Protect</span></h1>
             <p class="product-description">
-                Studios, publishers, estates, and rights organizations manage catalogs that span thousands of works and creators. Our technology can identify when large AI models have incorporated copyrighted work from your portfolios during their training or down-stream generation&mdash;at the scale you operate.
+                Our proprietary <a href="../../croquis.html">Croquis</a> tool detects creative works inside AI training datasets and models. We search the giant public datasets used to train AI, and we probe the models themselves&mdash;across modalities, domains, and scales. If work has been taken, we can show it, with evidence.
             </p>
             <p class="product-description">
-                Two simple steps: <strong>Protect</strong>: know where your work has gone and guard it going forward. <strong>License</strong>: decide if your work is available to be used for AI training and generation. And if so, under what conditions. Charge for it. Or, opt out completely.
+                Protection isn&rsquo;t one-size-fits-all. The same technology works for a single artist watching over their own portfolio, a rights organization managing thousands of works, and a legal team that needs findings solid enough to build a case on.
             </p>
         </div>
     </section>
 
-    <!-- Protect / License -->
-    <section class="product-pillars">
-        <div class="product-pillars-content">
+    <!-- Who it's for -->
+    <section class="product-regs">
+        <div class="product-regs-content">
+            <h2>Who it&rsquo;s for</h2>
+            <div class="regs-grid">
+                <a class="reg-card" href="../artists/">
+                    <span class="reg-chip">Individuals</span>
+                    <h3>Individual creators</h3>
+                    <p>Protect your work and your style. See where your work has appeared, get the report, and decide what happens next.</p>
+                    <span class="reg-card-cta">See Individual creators &rarr;</span>
+                </a>
+                <a class="reg-card" href="../ip-holders/">
+                    <span class="reg-chip">Portfolios</span>
+                    <h3>Enterprise</h3>
+                    <p>Studios, publishers, estates, and rights organizations: audits and continuous monitoring across catalogs of thousands of works.</p>
+                    <span class="reg-card-cta">See Enterprise &rarr;</span>
+                </a>
+                <a class="reg-card" href="../legal/">
+                    <span class="reg-chip">Litigation</span>
+                    <h3>Legal</h3>
+                    <p>Law firms and litigation teams: screen potential claims and build documented, reproducible evidence for the works at issue.</p>
+                    <span class="reg-card-cta">See Legal &rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="product-features">
+        <div class="product-features-content">
             <h2>Features</h2>
-            <div class="pillars-grid">
-                <div class="pillar-card" id="protect">
-                    <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 7.8-7 9-4-1.2-7-4.4-7-9V6l7-3z"/><path d="M9 11.5l2 2 4-4.5"/></svg></div>
-                    <h3>Protect</h3>
-                    <p class="pillar-lede">Know where the works in your catalog have gone&mdash;at the scale you operate.</p>
-                    <ul class="pillar-list">
-                        <li>Audit your full catalog: we search the giant public datasets used to train AI models and probe the models themselves, across modalities, domains, and scales.</li>
-                        <li>Get transparent, per-work reports with supporting evidence, so your team can act with confidence.</li>
-                        <li>Monitor continuously. As new models and datasets appear, the analysis runs again across your portfolio.</li>
-                        <li>Add protection at the source, with extra safeguards for the works you publish across your own sites and platforms.</li>
-                    </ul>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="feature-card-glyph" aria-hidden="true"><span></span></div>
+                    <h3>Find the work</h3>
+                    <p>We look for names and works in public training datasets and probe AI models directly using membership inference&mdash;the methods we explain in plain language in our <a href="../../faq/">FAQ</a>.</p>
                 </div>
-                <div class="pillar-card" id="license">
-                    <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7.5h2.5M11.5 7.5H20"/><circle cx="9" cy="7.5" r="2.5"/><path d="M4 16.5h8.5M17.5 16.5H20"/><circle cx="15" cy="16.5" r="2.5"/></svg></div>
-                    <h3>License</h3>
-                    <p class="pillar-lede">Decide whether&mdash;and under what conditions&mdash;any part of your catalog is available to AI.</p>
-                    <ul class="pillar-list">
-                        <li>Choose whether works from your catalog can be used for AI training or generation at all. Keeping everything off the table is always an option.</li>
-                        <li>If you opt in, you set the conditions per work and per partner: scope, terms, and compensation.</li>
-                        <li>Manage it as a portfolio: licensing decisions, terms, and revenue handled at the scale of many assets, not one work at a time.</li>
-                        <li>Retain full control for the rights holders you represent&mdash;nothing is licensed without your decision.</li>
-                    </ul>
+                <div class="feature-card">
+                    <div class="feature-card-glyph" aria-hidden="true"><span></span></div>
+                    <h3>Evidence you can act on</h3>
+                    <p>Transparent, per-work reports with supporting evidence: which datasets and models we checked, what we found, and how confident we are.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-glyph" aria-hidden="true"><span></span></div>
+                    <h3>Keep watch</h3>
+                    <p>As new models and datasets appear, the analysis runs again. And for work published on your own sites, we add safeguards at the source to resist scraping.</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- How It Works -->
     <section class="product-steps">
@@ -139,18 +160,18 @@
             <div class="steps-grid">
                 <div class="step">
                     <span class="step-number">1</span>
-                    <h3>Share your catalog</h3>
-                    <p>Tell us about the portfolio you manage&mdash;the works, the creators, the modalities, and the scale.</p>
+                    <h3>Tell us what to protect</h3>
+                    <p>A single portfolio, a catalog of thousands of works, or the works at the center of a claim&mdash;across text, image, and other modalities.</p>
                 </div>
                 <div class="step">
                     <span class="step-number">2</span>
-                    <h3>We monitor datasets and models</h3>
-                    <p>We search public training datasets and probe AI models across your catalog, and keep watching as new models and datasets appear.</p>
+                    <h3>We search datasets and probe models</h3>
+                    <p>Croquis checks the public datasets used to train AI models and probes the models themselves, and keeps checking as new ones appear.</p>
                 </div>
                 <div class="step">
                     <span class="step-number">3</span>
                     <h3>Act on the evidence</h3>
-                    <p>Use the reports to address past usage, protect the catalog going forward, and set licensing terms&mdash;work by work, partner by partner.</p>
+                    <p>Use the reports to guard work going forward, set licensing terms from a position of knowledge, or take the findings to your legal team.</p>
                 </div>
             </div>
         </div>
@@ -159,8 +180,8 @@
     <!-- Call to Action -->
     <section class="product-cta">
         <div class="product-cta-content">
-            <h2>Protection and representation at scale</h2>
-            <p>We work with rights holders managing portfolios of many assets across modalities, domains, and scales. Let&rsquo;s talk about yours.</p>
+            <h2>Know where your work has gone</h2>
+            <p>Protection starts with visibility&mdash;whoever you are and whatever scale you work at. See a sample of our findings <a href="../../#sample-report">here</a>, or start the conversation.</p>
             <div class="product-cta-buttons">
                 <a href="mailto:info@sfai.agency" class="cta-button">Get in touch</a>
                 <a href="../../research/" class="cta-button cta-button-secondary">See our research</a>
@@ -168,9 +189,9 @@
         </div>
     </section>
 
-    <!-- Other Audiences -->
+    <!-- Other Products -->
     <section class="product-switcher">
-        <p class="product-switcher-content">An individual creator? See <a href="../artists/">Individual creators</a>. Building AI models? See <a href="../ai-companies/">AI Companies</a>. A law firm building a case? See <a href="../legal/">Legal</a>. Verifying AI compliance? See <a href="../audit/">Audit</a>.</p>
+        <p class="product-switcher-content">Ready to set terms for AI use of your work? See <a href="../license/">License</a>. Verifying a company&rsquo;s AI claims? See <a href="../audit/">Audit</a>.</p>
     </section>
 
     <!-- Footer -->

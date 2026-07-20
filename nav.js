@@ -22,6 +22,7 @@
             '.mobile-nav-group{display:flex;flex-direction:column;align-items:center;gap:14px;padding-top:6px;}',
             '.mobile-nav-group-label{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text-gray,#666666);}',
             '.mobile-nav-group a{font-size:21px;font-weight:600;color:var(--coral,#E15A4A);}',
+            '.mobile-nav-group a.mobile-nav-sublink{font-size:17px;font-weight:500;}',
             '.mobile-nav a.mobile-nav-active{text-decoration:underline;text-underline-offset:6px;}',
             'body.nav-open{overflow:hidden;}',
             '@media (max-width:768px){.header-right,.header-nav{display:none;}.nav-toggle{display:flex;}}'
@@ -63,6 +64,39 @@
         document.addEventListener('click', function (e) {
             var inGroup = e.target.closest && e.target.closest('.nav-group');
             if (!inGroup) closeGroups(null);
+        });
+
+        // ----- Products mega dropdown -----
+        // The left "Products" column drives the right "Use cases" column:
+        // hovering or focusing a product shows only its use cases, in that
+        // product's own order. Protect is selected by default.
+        var MEGA_USES = {
+            protect: ['artists', 'ip-holders'],
+            license: ['artists', 'ip-holders', 'ai-companies'],
+            audit: ['legal', 'ai-companies', 'ip-holders']
+        };
+        headerInner.querySelectorAll('.nav-dropdown-mega').forEach(function (mega) {
+            var items = mega.querySelectorAll('.nav-mega-item');
+            var uses = mega.querySelectorAll('.nav-use');
+            function select(product) {
+                items.forEach(function (item) {
+                    item.classList.toggle('nav-mega-active', item.getAttribute('data-product') === product);
+                });
+                var order = MEGA_USES[product] || [];
+                uses.forEach(function (use) {
+                    var idx = order.indexOf(use.getAttribute('data-use'));
+                    use.style.display = idx === -1 ? 'none' : '';
+                    use.style.order = idx;
+                });
+            }
+            items.forEach(function (item) {
+                ['mouseenter', 'focus'].forEach(function (evt) {
+                    item.addEventListener(evt, function () {
+                        select(item.getAttribute('data-product'));
+                    });
+                });
+            });
+            select('protect');
         });
 
         // ----- Mobile menu -----
@@ -111,7 +145,13 @@
                 section.appendChild(label);
                 item.querySelectorAll('.nav-card').forEach(function (card) {
                     var title = card.querySelector('.nav-card-title');
-                    section.appendChild(makeLink(card, title ? title.textContent : null));
+                    var link = makeLink(card, title ? title.textContent : null);
+                    // Use-case links render smaller than product links so the
+                    // two levels read distinctly in the flat mobile list.
+                    if (card.classList.contains('nav-use')) {
+                        link.className += (link.className ? ' ' : '') + 'mobile-nav-sublink';
+                    }
+                    section.appendChild(link);
                 });
                 nav.appendChild(section);
             }
