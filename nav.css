@@ -139,8 +139,9 @@
 }
 
 .nav-mega-uses {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-content: start;
     gap: 4px;
 }
 
