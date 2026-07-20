@@ -67,8 +67,8 @@
         });
 
         // ----- Products mega dropdown -----
-        // The left "Products" column drives the right "Use cases" column:
-        // hovering or focusing a product shows only its use cases, in that
+        // The left "Products" column drives the right "Solutions" column:
+        // hovering or focusing a product shows only its relevant solutions, in
         // product's own order. Protect is selected by default.
         var MEGA_USES = {
             protect: ['artists', 'ip-holders'],
