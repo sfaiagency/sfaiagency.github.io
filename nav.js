@@ -66,6 +66,39 @@
             if (!inGroup) closeGroups(null);
         });
 
+        // ----- Products mega dropdown -----
+        // The left "Products" column drives the right "Use cases" column:
+        // hovering or focusing a product shows only its use cases, in that
+        // product's own order. Protect is selected by default.
+        var MEGA_USES = {
+            protect: ['artists', 'ip-holders'],
+            license: ['artists', 'ip-holders', 'ai-companies'],
+            audit: ['legal', 'ai-companies', 'ip-holders']
+        };
+        headerInner.querySelectorAll('.nav-dropdown-mega').forEach(function (mega) {
+            var items = mega.querySelectorAll('.nav-mega-item');
+            var uses = mega.querySelectorAll('.nav-use');
+            function select(product) {
+                items.forEach(function (item) {
+                    item.classList.toggle('nav-mega-active', item.getAttribute('data-product') === product);
+                });
+                var order = MEGA_USES[product] || [];
+                uses.forEach(function (use) {
+                    var idx = order.indexOf(use.getAttribute('data-use'));
+                    use.style.display = idx === -1 ? 'none' : '';
+                    use.style.order = idx;
+                });
+            }
+            items.forEach(function (item) {
+                ['mouseenter', 'focus'].forEach(function (evt) {
+                    item.addEventListener(evt, function () {
+                        select(item.getAttribute('data-product'));
+                    });
+                });
+            });
+            select('protect');
+        });
+
         // ----- Mobile menu -----
         // Mirror the desktop nav: plain links stay top-level, dropdown groups
         // become labeled sections.
@@ -111,20 +144,13 @@
                 label.textContent = groupToggle ? groupToggle.textContent.trim() : '';
                 section.appendChild(label);
                 item.querySelectorAll('.nav-card').forEach(function (card) {
-                    // A card is either a plain <a class="nav-card"> or a <div>
-                    // wrapping a .nav-card-link plus .nav-card-sub links.
-                    var main = card.tagName === 'A' ? card : card.querySelector('.nav-card-link');
-                    if (!main) return;
                     var title = card.querySelector('.nav-card-title');
-                    section.appendChild(makeLink(main, title ? title.textContent : null));
-                });
-                var seenSubs = {};
-                item.querySelectorAll('.nav-card-sub a').forEach(function (sub) {
-                    var href = sub.getAttribute('href');
-                    if (seenSubs[href]) return;
-                    seenSubs[href] = true;
-                    var link = makeLink(sub);
-                    link.className += (link.className ? ' ' : '') + 'mobile-nav-sublink';
+                    var link = makeLink(card, title ? title.textContent : null);
+                    // Use-case links render smaller than product links so the
+                    // two levels read distinctly in the flat mobile list.
+                    if (card.classList.contains('nav-use')) {
+                        link.className += (link.className ? ' ' : '') + 'mobile-nav-sublink';
+                    }
                     section.appendChild(link);
                 });
                 nav.appendChild(section);
