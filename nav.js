@@ -69,11 +69,14 @@
         // ----- Products mega dropdown -----
         // The left "Products" column drives the right "Solutions" column:
         // hovering or focusing a product shows only its relevant solutions, in
-        // product's own order. Protect is selected by default.
+        // the product's own order, and swaps in that product's description for
+        // each solution (data-desc-<product> attributes) so the copy always
+        // matches the selected product. The first listed product is selected
+        // by default.
         var MEGA_USES = {
             protect: ['artists', 'ip-holders'],
             license: ['artists', 'ip-holders', 'ai-companies'],
-            audit: ['legal', 'ai-companies', 'ip-holders']
+            audit: ['legal']
         };
         headerInner.querySelectorAll('.nav-dropdown-mega').forEach(function (mega) {
             var items = mega.querySelectorAll('.nav-mega-item');
@@ -87,6 +90,9 @@
                     var idx = order.indexOf(use.getAttribute('data-use'));
                     use.style.display = idx === -1 ? 'none' : '';
                     use.style.order = idx;
+                    var desc = use.querySelector('.nav-card-desc');
+                    var text = use.getAttribute('data-desc-' + product);
+                    if (desc && text) desc.textContent = text;
                 });
             }
             items.forEach(function (item) {
@@ -96,7 +102,8 @@
                     });
                 });
             });
-            select('protect');
+            var first = items.length ? items[0].getAttribute('data-product') : null;
+            if (first) select(first);
         });
 
         // ----- Mobile menu -----
