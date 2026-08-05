@@ -140,7 +140,9 @@
 
 .nav-mega-uses {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    /* Fixed card-width tracks so the panel keeps the same width no matter
+       how many solutions the selected product shows. */
+    grid-template-columns: repeat(2, 212px);
     align-content: start;
     gap: 4px;
 }
