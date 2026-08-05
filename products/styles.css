@@ -178,6 +178,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--white);
     background: linear-gradient(135deg, #E15A4A 0%, #F6A08F 100%);
 }
 
@@ -189,19 +190,9 @@ a {
     background: linear-gradient(135deg, #D14A3A 0%, #E15A4A 60%, #F6A08F 100%);
 }
 
-.feature-card-glyph span {
-    width: 16px;
-    height: 16px;
-    border: 2.5px solid rgba(255, 255, 255, 0.95);
-    border-radius: 50%;
-}
-
-.feature-card:nth-child(2) .feature-card-glyph span {
-    border-radius: 3px;
-}
-
-.feature-card:nth-child(3) .feature-card-glyph span {
-    border-radius: 50% 50% 50% 0;
+.feature-card-glyph svg {
+    width: 24px;
+    height: 24px;
 }
 
 .feature-card h3 {
@@ -381,6 +372,36 @@ a {
     color: var(--text-gray);
 }
 
+/* Clickable audience cards on the Protect/License hub pages */
+a.reg-card {
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+a.reg-card:hover {
+    border-color: rgba(225, 90, 74, 0.45);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.reg-card-cta {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--coral);
+}
+
+/* Chevron drawn to match the nav caret, pointing into the linked page */
+.reg-card-cta::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
 .regs-note {
     margin-top: 22px;
     text-align: center;
@@ -408,28 +429,46 @@ a {
 }
 
 .step {
-    padding: 4px 8px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 26px 24px;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.step:hover {
+    border-color: var(--coral);
+    box-shadow: 0 4px 20px rgba(225, 90, 74, 0.08);
+    transform: translateY(-1px);
 }
 
 .step-number {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: var(--coral);
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #E15A4A 0%, #F6A08F 100%);
     color: var(--white);
     font-size: 20px;
     font-weight: 800;
-    margin-bottom: 14px;
+}
+
+.step:nth-child(2) .step-number {
+    background: linear-gradient(135deg, #2D2D2D 0%, #5A5A5A 100%);
+}
+
+.step:nth-child(3) .step-number {
+    background: linear-gradient(135deg, #D14A3A 0%, #E15A4A 60%, #F6A08F 100%);
 }
 
 .step h3 {
     font-size: 17px;
     font-weight: 700;
-    margin-bottom: 8px;
     color: var(--text-dark);
 }
 
@@ -502,30 +541,6 @@ a {
 
 .cta-button-secondary:hover {
     background: rgba(225, 90, 74, 0.07);
-}
-
-/* Cross-links to the other audiences */
-.product-switcher {
-    padding: 0 40px 90px;
-    display: flex;
-    justify-content: center;
-}
-
-.product-switcher-content {
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-    color: var(--text-gray);
-}
-
-.product-switcher-content a {
-    color: var(--coral);
-    font-weight: 600;
-}
-
-.product-switcher-content a:hover {
-    text-decoration: underline;
 }
 
 /* Footer */
@@ -647,10 +662,6 @@ a {
 
     .product-cta-content h2 {
         font-size: 22px;
-    }
-
-    .product-switcher {
-        padding: 0 20px 60px;
     }
 
     .footer {

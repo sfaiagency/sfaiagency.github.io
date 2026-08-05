@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Companies - SFAI.agency</title>
-    <meta name="description" content="Regulations like the EU AI Act and California AB 2013 are making training-data provenance mandatory. License creative data that rights holders have chosen to make available, with consent documented.">
+    <title>AI Training Audit - SFAI.agency</title>
+    <meta name="description" content="An independent testing service that determines whether a company's AI practice matches its stated policies across the jurisdictions where it operates and sells&mdash;with detailed, transparent audit reports.">
     <link rel="stylesheet" href="https://use.typekit.net/hhx2fen.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../../nav.css">
@@ -35,7 +35,7 @@
                                     <span class="nav-card-title">License</span>
                                     <span class="nav-card-desc">License your work on your terms or find work licensed for AI.</span>
                                 </a>
-                                <a href="../audit/" class="nav-card nav-mega-item" data-product="audit">
+                                <a href="../audit/" class="nav-card nav-mega-item nav-card-active" data-product="audit">
                                     <span class="nav-card-title">Audit</span>
                                     <span class="nav-card-desc">Verify AI disclosure and data-policy compliance across jurisdictions.</span>
                                 </a>
@@ -51,7 +51,7 @@
                                         <span class="nav-card-title">Enterprise</span>
                                         <span class="nav-card-desc">Portfolio-scale protection for studios, publishers, and estates.</span>
                                     </a>
-                                    <a href="../ai-companies/" class="nav-card nav-use nav-card-active" data-use="ai-companies">
+                                    <a href="../ai-companies/" class="nav-card nav-use" data-use="ai-companies">
                                         <span class="nav-card-title">AI Companies</span>
                                         <span class="nav-card-desc">Find creative data licensed for AI training and generation.</span>
                                     </a>
@@ -91,62 +91,79 @@
     <section class="product-hero">
         <div class="product-hero-content">
             <p class="product-eyebrow">Products</p>
-            <h1><span class="highlight">AI Companies</span></h1>
+            <h1><span class="highlight">AI training audit</span></h1>
             <p class="product-description">
-                We believe in a clearer and more collaborative future&mdash;one that gives agency to creatives and AI innovators alike. For AI companies, that future is no longer optional: regulators on both sides of the Atlantic now expect you to know&mdash;and show&mdash;what your models were trained on.
+                AI transparency is no longer voluntary. In Australia, California, the EU, and New Zealand it is now mandatory for companies to disclose how they train their AI systems and how data moves through them. Any company operating across borders must answer to all of these regimes at once. But a published disclosure is just a claim. The question that matters is whether the model and the data behind it actually match what was declared.
             </p>
             <p class="product-description">
-                We offer a straightforward way to get there: license creative work whose rights holders have chosen to make it available for training and generation, with consent and provenance documented from the start.
+                We provide an independent testing service which determines whether a company&rsquo;s AI practice matches its stated policies&mdash;in the jurisdictions where it operates, as well as the ones in which it sells its products. Using the same detection technology we built to detect creative works inside training datasets and models, we provide detailed and transparent audit reports for regulators and rights organizations tasked with evaluating a provider&rsquo;s claims, as well as for companies verifying their own compliance&mdash;or a vendor&rsquo;s&mdash;before someone else does.
             </p>
         </div>
     </section>
 
-    <!-- Why licensed data -->
+    <!-- Verify / Test -->
+    <section class="product-pillars">
+        <div class="product-pillars-content">
+            <h2>Features</h2>
+            <div class="pillars-grid">
+                <div class="pillar-card" id="verify">
+                    <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16M4 12h16M4 18.5h9"/><path d="M16.5 17.5l2 2 3.5-4"/></svg></div>
+                    <h3>Verify disclosures</h3>
+                    <p class="pillar-lede">Check what a company has published against what its models and datasets actually contain.</p>
+                    <ul class="pillar-list">
+                        <li>Compare a provider&rsquo;s published training-content summary&mdash;like the one the EU AI Act now requires&mdash;against independent evidence of what the model was trained on.</li>
+                        <li>Test California-style dataset disclosures for completeness: sources, copyrighted material, and personal information that the documentation should have declared.</li>
+                        <li>Probe for material the disclosure doesn&rsquo;t mention&mdash;works, datasets, and data categories that show up in model behavior but not in the paperwork.</li>
+                        <li>Document every gap with reproducible evidence, so a finding of &ldquo;the disclosure is incomplete&rdquo; is a demonstration, not an opinion.</li>
+                    </ul>
+                </div>
+                <div class="pillar-card" id="test">
+                    <div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v3M12 17.5v3M3.5 12h3M17.5 12h3"/><circle cx="12" cy="12" r="2"/></svg></div>
+                    <h3>Test policies in practice</h3>
+                    <p class="pillar-lede">Stated policies are promises. We test whether day-to-day practice keeps them.</p>
+                    <ul class="pillar-list">
+                        <li>Check whether rights reservations are honored: when creators and publishers opt out of text-and-data mining, does the provider&rsquo;s data pipeline actually respect it?</li>
+                        <li>Test cross-jurisdiction consistency&mdash;whether the practice a company follows at home holds up against the disclosure and data-policy rules of the markets it sells into.</li>
+                        <li>Trace how scraped and indirectly collected data is handled against the notification and privacy-policy duties now arriving in Australia and New Zealand.</li>
+                        <li>Monitor over time: disclosures must be kept current as models are retrained, and we re-run the audit as models, datasets, and obligations change.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards we audit against -->
     <section class="product-regs">
         <div class="product-regs-content">
-            <h2>Why licensed data&mdash;and why now</h2>
+            <h2>Standards we audit against</h2>
             <div class="regs-grid">
                 <div class="reg-card">
                     <span class="reg-chip">European Union</span>
                     <h3>AI Act, Article 53</h3>
-                    <p>Providers of general-purpose AI models must put in place a copyright policy that identifies and respects rights holders&rsquo; reservations, and publish a sufficiently detailed summary of the content used in training. These obligations began applying to new models in August 2025.</p>
+                    <p>General-purpose AI providers must publish a sufficiently detailed summary of training content&mdash;using the AI Office&rsquo;s mandatory template&mdash;and maintain a copyright policy that respects rights reservations. In force since August 2025, with AI Office enforcement and fines from August 2026.</p>
                 </div>
                 <div class="reg-card">
                     <span class="reg-chip">European Union</span>
                     <h3>DSM Copyright Directive, Article 4</h3>
-                    <p>The text-and-data-mining exception only covers works whose rights holders haven&rsquo;t reserved their rights. Where rights are reserved&mdash;as a growing share of creators and publishers now do&mdash;training requires authorization. In other words: a license.</p>
+                    <p>Text-and-data mining is only permitted where rights holders haven&rsquo;t reserved their rights. A provider&rsquo;s copyright policy is testable: either reserved works stay out of the training pipeline, or they don&rsquo;t.</p>
                 </div>
                 <div class="reg-card">
                     <span class="reg-chip">California</span>
                     <h3>AB 2013: Training Data Transparency</h3>
-                    <p>Since January 2026, developers of generative AI systems made available in California must publicly document the datasets used to train them&mdash;including whether they contain copyrighted or licensed material.</p>
+                    <p>Since January 2026, developers of generative AI systems available in California must publicly document their training datasets&mdash;sources, copyrighted material, and personal information included&mdash;and keep the disclosure current as systems change.</p>
+                </div>
+                <div class="reg-card">
+                    <span class="reg-chip">Australia</span>
+                    <h3>Privacy Act reforms</h3>
+                    <p>From December 2026, organizations covered by the Australian Privacy Principles must disclose in their privacy policies the kinds of personal information used in substantially automated decisions&mdash;and the Privacy Commissioner&rsquo;s guidance sets clear expectations for AI data governance today.</p>
+                </div>
+                <div class="reg-card">
+                    <span class="reg-chip">New Zealand</span>
+                    <h3>Privacy Act 2020 &amp; IPP 3A</h3>
+                    <p>New Zealand&rsquo;s privacy principles apply across the AI lifecycle, and from May 2026 the new IPP 3A requires agencies that collect personal information indirectly&mdash;the way training data is typically gathered&mdash;to tell people about it.</p>
                 </div>
             </div>
-            <p class="regs-note">Meanwhile, U.S. courts are testing the boundaries of fair use in a growing wave of copyright litigation. Documented consent and provenance are quickly becoming the safest foundation to build on.</p>
-        </div>
-    </section>
-
-    <!-- Feature Highlights -->
-    <section class="product-features">
-        <div class="product-features-content">
-            <h2>Features</h2>
-            <div class="feature-cards">
-                <div class="feature-card">
-                    <div class="feature-card-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7.5" ry="3"/><path d="M4.5 5.5v13c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-13"/><path d="M4.5 12c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3"/></svg></div>
-                    <h3>License data, cleanly</h3>
-                    <p>Explore creative work&mdash;across modalities and domains&mdash;that artists and rights holders have explicitly chosen to license for AI training and down-stream generation.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-card-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a1.5 1.5 0 0 0-1.5 1.5v15A1.5 1.5 0 0 0 7 21h10a1.5 1.5 0 0 0 1.5-1.5V7.5L14 3z"/><path d="M14 3v4.5h4.5"/><path d="M9 13.5l2 2 4-4.5"/></svg></div>
-                    <h3>Provenance you can stand behind</h3>
-                    <p>Our <a href="../../research/">research</a> includes a data provenance framework for generative AI datasets, so consent and sourcing are documented rather than assumed&mdash;ready for the disclosures regulators now expect.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-card-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 5.5a3.5 3.5 0 0 1 0 7"/><path d="M17.5 14.5c2.3.9 3.5 3 3.5 5.5"/></svg></div>
-                    <h3>Partner with creators</h3>
-                    <p>Compensation flows to the people who make the work that makes AI work&mdash;turning rights holders from adversaries into partners.</p>
-                </div>
-            </div>
+            <p class="regs-note">The rulebook is still growing, and we track it as it does. As with all our work: we provide independent technical findings, not legal advice&mdash;your counsel and compliance teams decide what to do with them.</p>
         </div>
     </section>
 
@@ -157,18 +174,18 @@
             <div class="steps-grid">
                 <div class="step">
                     <span class="step-number">1</span>
-                    <h3>Tell us what you need</h3>
-                    <p>The modalities, domains, and scale you&rsquo;re after&mdash;whether for training, fine-tuning, or generation.</p>
+                    <h3>Define the audit</h3>
+                    <p>The company or model in question, the jurisdictions that apply, and the disclosures and policies to test&mdash;whether you&rsquo;re a regulator, a rights organization, or the company itself.</p>
                 </div>
                 <div class="step">
                     <span class="step-number">2</span>
-                    <h3>We match consented catalogs</h3>
-                    <p>We connect you with artists and rights holders who have chosen to license their work, with provenance documented.</p>
+                    <h3>We test claims against reality</h3>
+                    <p>We review the published disclosures, search the underlying datasets, and probe the models&mdash;independently checking whether stated policy matches observed practice.</p>
                 </div>
                 <div class="step">
                     <span class="step-number">3</span>
-                    <h3>License as needed</h3>
-                    <p>Agree on terms directly with rights holders, with attribution and compensation built in from the start.</p>
+                    <h3>Get the audit report</h3>
+                    <p>Findings mapped to each jurisdiction&rsquo;s requirements, with reproducible evidence for every gap&mdash;and ongoing monitoring as models and obligations change.</p>
                 </div>
             </div>
         </div>
@@ -177,8 +194,8 @@
     <!-- Call to Action -->
     <section class="product-cta">
         <div class="product-cta-content">
-            <h2>Build with consented data</h2>
-            <p>If you&rsquo;re exploring licensed creative data for training or generation&mdash;or preparing for the disclosure rules already in force&mdash;we&rsquo;d like to hear from you.</p>
+            <h2>Trust, but verify</h2>
+            <p>Whether you&rsquo;re checking a provider&rsquo;s claims, a vendor&rsquo;s pipeline, or your own compliance before regulators do&mdash;an independent audit starts with a conversation.</p>
             <div class="product-cta-buttons">
                 <a href="mailto:info@sfai.agency" class="cta-button">Get in touch</a>
                 <a href="../../research/" class="cta-button cta-button-secondary">See our research</a>
