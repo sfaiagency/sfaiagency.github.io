@@ -1,0 +1,2559 @@
+{
+ "artistName": "Jon Whitcomb",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Jon Whitcomb",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 56,
+   "mentionsFound": 56,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 56,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 56,
+   "rows": [
+    {
+     "text": "View Couple in ski lodge about to kiss by Jon Whitcomb on artnet. Browse upcoming and past auction lots by Jon Whitcomb. Romance Art, Vintage Romance, Vintage Love, Vintage Ads, Vintage Posters, Pin Up Illustration, Vintage Illustration Art, Vintage Couples, Romantic Couples",
+     "imageUrl": "https://i.pinimg.com/236x/50/eb/90/50eb906759eb42bdd29d619eb24e9afa.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "During the war, ad woman Jean Rindlaud kept Oneida silverplate at the top of people's minds with her \"Back Home for Keeps\" campaign, illustrated by Jon Whitcomb. After the war, the slogan was altered to \"This Is for Keeps.\" Click on image to see the ads larger. (Courtesy of Picador",
+     "imageUrl": "https://d3h6k4kfl8m9p0.cloudfront.net/uploads/2016/06/13165040/military-double-1024x695.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "via -- Minimal face by Jon Whitcomb, who specialized in the \"big face\" type of illustration that emerged in women's magazines during the and remained dominant into the Art And Illustration, Drawing Sketches, Pencil Drawings, Art Drawings, Sketching, Face Sketch, Drawing Portraits, Drawing Eyes, Insp",
+     "imageUrl": "https://i.pinimg.com/236x/4e/31/c4/4e31c4944eb23a5107d3e8a787a8dc08--art-sketches-art-drawings.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "via -- Minimal face by Jon Whitcomb, who specialized in the \"big face\" type of illustration that emerged in women's magazines during the and remained dominant into the Drawing Sketches, Art Drawings, Pencil Drawings, Sketching, Face Sketch, Drawing Portraits, Drawing Eyes, Collage Kunst, Arte Sketch",
+     "imageUrl": "https://i.pinimg.com/236x/6b/f6/40/6bf640598909f5bd9ba7e93683a97f45--art-sketches-art-drawings.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Receiving a \"Token of Love.\" Illustration by Jon Whitcomb. Pin Up Vintage, Retro Vintage, Retro Kunst, Retro Art, Romance Art, Vintage Romance, Vintage Pictures, Vintage Images, Retro Images",
+     "imageUrl": "https://i.pinimg.com/236x/33/67/26/3367265af472c476c2f627559f69805f--vintage-humor-vintage-romance.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Receptionist (artwork by Jon Whitcomb) Vintage Office, Retro Vintage, Vintage Pins, Retro Illustration, Vintage Illustrations, Pulp Art, Office Art, Romance, Pin Up Art",
+     "imageUrl": "https://i.pinimg.com/236x/02/68/de/0268de77655aa5c72d1a438ec35726ba--rockabilly-girls-pin-up-girls.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956 Elizabeth Taylor, Golden Age Of Hollywood, Classic Hollywood, Old Hollywood, Hollywood Magazine, Vintage Magazines, Vintage Ads, Vintage Images, Tommy Mels",
+     "imageUrl": "https://i.pinimg.com/236x/54/7e/0f/547e0f2c2bd198838dcf45b0c71f33ed--vintage-magazines-fashion-magazines.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1944 Corsairs | Climb Right Into the Fight! | Get 'Em Up - For Your Navy! by Jon Whitcomb",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/0052/7794/1863/products/18040323_300x300.jpg?v=1554234794",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1958 Kotex with 2 Lovely Women By Jon Whitcomb (Image1",
+     "imageUrl": "https://www.tias.com/stores/adsbydee/pictures/16427a.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Love at War, Lovers in a troubled moment . Handsome men and beautiful women. - Modern Painting by Jon Whitcomb",
+     "imageUrl": "https://a.1stdibscdn.com/jon-whitcomb-paintings-love-at-war-lovers-in-a-troubled-moment-for-sale-picture-3/a_3853/a_49900211568241603883/johWhitcombverso_master.jpg?width=768",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage Ad Community Silver 1946 illustration by Jon Whitcomb",
+     "imageUrl": "https://envisioningtheamericandream.files.wordpress.com/2013/03/community-silver-46-swscan02786-copy.jpg?w=710",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Lighting His Cigarette,\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943_u-L-PDVNX50.jpg?w=300&h=375",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Polly Bergen April 19-25 1958 Illustration by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/2d/28/d0/2d28d06ed6faa8816a9d6fb8e6bbc1d7--polly-bergen-television-tv.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "He Volunteered For Submarine Service by Jon Whitcomb",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jon-whitcomb-he-volunteered-for-submarine-service_u-l-f743dw0.jpg?src=gp&w=300&h=300",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Lighting His Cigarette,\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943_u-L-PDVNX50.jpg?src=gp&w=300&h=375",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sailor and Woman Embracing by Jon Whitcomb - The Lucas Museum of Narrative Art Romance Art, Vintage Romance, Vintage Art, Retro Kunst, Retro Art, Comic Kunst, Comic Art, Comic Books, Lucas Museum",
+     "imageUrl": "https://i.pinimg.com/236x/fe/ce/26/fece265c22b86c5363e3e5e24261e47d--vintage-art-romance-vintage.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Kotex ad illustration Mother and Daughter by jon Whitcomb",
+     "imageUrl": "https://envisioningtheamericandream.files.wordpress.com/2016/04/kotex-mother-daughter-swscan05937.jpg?w=710",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1944 Corsairs | Climb Right Into the Fight! | Get 'Em Up - For Your Navy! by Jon Whitcomb - Golden Age Posters",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/0052/7794/1863/products/18040323_large.jpg?v=1608403367",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Shall we dance?illustration by Jon Whitcomb. Vintage Romance, Vintage Glamour, Vintage Love, Vintage Ads, Vintage Images, Illustration Mode, Magazine Illustration, Fashion Art, Vintage Fashion",
+     "imageUrl": "https://i.pinimg.com/236x/a7/d0/aa/a7d0aa6a098ebae8af46908967709a80--vintage-cartoon-vintage-retro.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration For A Cadillac Advertisment by Jon Whitcomb, 1956",
+     "imageUrl": "http://www.bonzasheila.com/art/archives/nov11/images/28.%20Whitcomb,%20Jon%20-%20Illustration%20For%20A%20Cadillac%20Advertisment,%201956.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vibrant Printed Felt Bookmark - Romantic Illustration by Jon Whitcomb, They're Playing Our Song",
+     "imageUrl": "https://img-fs-3.wnlimg.com/p/bc0/674/365/2856c5076694e30917be594/x200-q90.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "All About Girls by Jon Whitcomb",
+     "imageUrl": "https://static.wixstatic.com/media/682c9a_1dc40047658f43e2bb2111496ec43d93~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_499,h_665,al_c,q_85,usm_0.66_1.00_0.01/682c9a_1dc40047658f43e2bb2111496ec43d93~mv2_d_3024_4032_s_4_2.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Love at War, Lovers in a troubled moment . Handsome men and beautiful women. - Painting by Jon Whitcomb",
+     "imageUrl": "https://a.1stdibscdn.com/jon-whitcomb-paintings-love-at-war-lovers-in-a-troubled-moment-for-sale-picture-2/a_3853/a_49900211568241599794/JonWhitcomb_WarLoveCU_master.jpg?width=768",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "View Couple in ski lodge about to kiss by Jon Whitcomb on artnet. Browse upcoming and past auction lots by Jon Whitcomb. Romance Art, Vintage Romance, Vintage Love, Vintage Ads, Vintage Posters, Pin Up Illustration, Vintage Illustration Art, Vintage Couples, Romantic Couples",
+    "During the war, ad woman Jean Rindlaud kept Oneida silverplate at the top of people's minds with her \"Back Home for Keeps\" campaign, illustrated by Jon Whitcomb. After the war, the slogan was altered to \"This Is for Keeps.\" Click on image to see the ads larger. (Courtesy of Picador",
+    "via -- Minimal face by Jon Whitcomb, who specialized in the \"big face\" type of illustration that emerged in women's magazines during the and remained dominant into the Art And Illustration, Drawing Sketches, Pencil Drawings, Art Drawings, Sketching, Face Sketch, Drawing Portraits, Drawing Eyes, Insp",
+    "via -- Minimal face by Jon Whitcomb, who specialized in the \"big face\" type of illustration that emerged in women's magazines during the and remained dominant into the Drawing Sketches, Art Drawings, Pencil Drawings, Sketching, Face Sketch, Drawing Portraits, Drawing Eyes, Collage Kunst, Arte Sketch",
+    "Receiving a \"Token of Love.\" Illustration by Jon Whitcomb. Pin Up Vintage, Retro Vintage, Retro Kunst, Retro Art, Romance Art, Vintage Romance, Vintage Pictures, Vintage Images, Retro Images",
+    "Receptionist (artwork by Jon Whitcomb) Vintage Office, Retro Vintage, Vintage Pins, Retro Illustration, Vintage Illustrations, Pulp Art, Office Art, Romance, Pin Up Art",
+    "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956 Elizabeth Taylor, Golden Age Of Hollywood, Classic Hollywood, Old Hollywood, Hollywood Magazine, Vintage Magazines, Vintage Ads, Vintage Images, Tommy Mels",
+    "1944 Corsairs | Climb Right Into the Fight! | Get 'Em Up - For Your Navy! by Jon Whitcomb",
+    "1958 Kotex with 2 Lovely Women By Jon Whitcomb (Image1",
+    "Love at War, Lovers in a troubled moment . Handsome men and beautiful women. - Modern Painting by Jon Whitcomb"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 312,
+   "mentionsFound": 312,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 312,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 312,
+   "rows": [
+    {
+     "text": "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
+     "imageUrl": "https://i.pinimg.com/236x/81/e2/0c/81e20ccb06a493130427527ca8a5bebd.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0017601549625396729,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Year's - detail from 1956 Cadillac ad. Art by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/1b/23/a6/1b23a6bc4beea20b982752551fc1a27b.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 7.845249638194218e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Lighting His Cigarette,\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943_u-L-PDVNX60.jpg?src=gp&w=300&h=375",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0004749894142150879,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "COLLIER'S COVER 1941 pretty girl plays Chinese chekers by Jon Whitcomb",
+     "imageUrl": "http://www.jumpingfrog.com/images/magazineads6/mgd6864.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.009069561958312988,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Lighting His Cigarette,\"\"\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"\"\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943_u-L-Q14NRF40.jpg?src=gp&w=300&h=375",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0008947551250457764,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Colliers July 14 1945 Cover Art by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/736x/83/08/dd/8308ddfb83a31059fee421f56db2a2b6.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.002281010150909424,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Red Cross nurse & a WAVE (?) illustrated by Jon Whitcomb, on the cover of Collier's magazine cover, 1943.",
+     "imageUrl": "https://i.pinimg.com/736x/44/67/26/44672693dd31fb11cd220ccb1973baeb.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0009336471557617188,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
+     "imageUrl": "https://i.pinimg.com/236x/81/e2/0c/81e20ccb06a493130427527ca8a5bebd--women-in-hats-big-hats.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0017601549625396729,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Vintage Poster I'm Proud Of You Folks Too WWII US Navy Home Front Work - Print by Jon Whitcomb",
+     "imageUrl": "https://a.1stdibscdn.com/jon-whitcomb-prints-works-on-paper-original-vintage-poster-im-proud-of-you-folks-too-wwii-us-navy-home-front-work-for-sale-picture-2/a_436/1612884261091/PW0674a_master.jpg?width=768",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0002371668815612793,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Leopard Gloves, art by Jon Whitcomb - Detail from cover of Cosmopolitan Magazine - October 1949",
+     "imageUrl": "https://64.media.tumblr.com/tumblr_m4ig97WZit1r9qhhio1_500.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.019975662231445312,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage Beauty by Jon Whitcomb...",
+     "imageUrl": "https://st-us.jigsawplanet.com/i/d799db00bb064504007cd6a4870e11f4af/160/jp.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0008681714534759521,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration by Jon Whitcomb for the story The One I Love., via Flickr.",
+     "imageUrl": "https://i.pinimg.com/236x/07/01/d4/0701d4b2102df38c1921f1fb48fc25ad--pin-up-vintage-romance-vintage.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00023895502090454102,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A strikingly beautiful painting by Jon Whitcomb, 1944. Red Cross nurse and Navy Nurse",
+     "imageUrl": "http://i.pinimg.com/236x/b0/01/bc/b001bc3f7835ad65b80660082e4386aa.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010268688201904297,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Naval Officer & Woman,\"\"\"\" August 8, 1942 Giclee Print by Jon Whitcomb\"\"\"",
+     "imageUrl": "https://cache2.allpostersimages.com/p/MED/58/5869/TLSSG00Z/posters/jon-whitcomb-naval-officer-woman-august-8-1942.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00278356671333313,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Community ~ Cutlery Adverts [1952-1953] Illustratrated by Jon Whitcomb",
+     "imageUrl": "https://www.ghostofthedoll.co.uk/retromusings/wp-content/plugins/special-recent-posts/cache/srpthumb-p26083-100x100-no.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0007592439651489258,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Year's - detail from 1956 Cadillac ad. Art by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/1b/23/a6/1b23a6bc4beea20b982752551fc1a27b--vintage-glam-retro-vintage.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 7.845249638194218e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A 1944 poster by Jon Whitcomb published by the Navy Department's Industrial Incentive Division.",
+     "imageUrl": "http://si.wsj.net/public/resources/images/PJ-BD682_Pritzk_E_20111109174721.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00015476346015930176,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1950 Oneida Community Silver Ad - art by Jon Whitcomb - Yours to live with",
+     "imageUrl": "https://www.vintagepaperads.com/thumbnail.asp?file=assets/images/BIGKK0333.jpg&maxx=150&maxy=0",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 6.547766679432243e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage winter sweethearts. 1940s  by  Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/originals/5e/4d/92/5e4d92dbb4becb0aafd60aed8cceeddc.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.007518857717514038,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1950 Oneida Community Silver Ad - art by Jon Whitcomb - Yours to Love",
+     "imageUrl": "https://www.vintagepaperads.com/thumbnail.asp?file=assets/images/BIGKK0334.jpg&maxx=150&maxy=0",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 8.42192366690142e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Naval Officer & Woman,\"\"\"\" Saturday Evening Post Cover, August 8, 1942 by Jon Whitcomb\"\"\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jon-whitcomb-naval-officer-woman-saturday-evening-post-cover-august-8-1942_u-l-pdvmfp0.jpg?src=gp&w=300&h=300",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0036438703536987305,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Lighting His Cigarette,\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943_u-l-pdvnx50.jpg?src=gp&w=300&h=300",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00022399425506591797,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Women serving their country during WWII...illustration by Jon Whitcomb, 1944.",
+     "imageUrl": "https://i.pinimg.com/236x/2e/4e/e3/2e4ee369a0dada2f60831ac6da59dc73.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010621249675750732,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Colliers July 14 1945 Cover Art by  Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/83/08/dd/8308ddfb83a31059fee421f56db2a2b6.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0008025169372558594,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Vintage Poster I'm Proud Of You Folks Too WWII US Navy Home Front Work - Orange Print by Jon Whitcomb",
+     "imageUrl": "https://a.1stdibscdn.com/jon-whitcomb-prints-works-on-paper-original-vintage-poster-im-proud-of-you-folks-too-wwii-us-navy-home-front-work-for-sale-picture-3/a_436/1612884261954/PW0674b_master.jpg?width=768",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 7.671200000913814e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage Illustrations Illustrated by Jon Whitcomb - Am I the only one who thinks she is sneaking a look at her watch? If so, this guy is wasting his time. Retro Kunst, Retro Art, Pin Ups Vintage, Vintage Images, Vintage Fur, Romance Art, Vintage Romance, Pulp Fiction Kunst, Pop Art",
+     "imageUrl": "https://i.pinimg.com/236x/7b/42/87/7b4287754257f8500c7572c38efd4e0d--romance-vintage-retro-vintage.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0013175010681152344,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Lighting His Cigarette,\"\"\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"\"\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943_u-L-PDVNX50.jpg?artWidth=300&artHeight=375",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00038108229637145996,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Naval Officer & Woman,\"\"\"\" Saturday Evening Post Cover, August 8, 1942 by Jon Whitcomb\"\"\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jon-whitcomb-naval-officer-woman-saturday-evening-post-cover-august-8-1942_u-l-pdvmf80.jpg?src=gp&w=300&h=300",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0020928680896759033,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"PG409 \"\"\"\"Catalina Swim Suits\"\"\"\" Poster by Jon Whitcomb (1952)\"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/49/40/85/494085d4f619fd7fd5000340f031d5ee--vintage-advertisements-vintage-ads.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0008209347724914551,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration by Jon Whitcomb for the story The One I Love.",
+     "imageUrl": "https://i.pinimg.com/236x/a5/7b/8f/a57b8fe58dc971062835d0f323989908.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0003120005130767822,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A strikingly beautiful painting by Jon Whitcomb, 1944. #Red_Cross #WW2 #vintage #nurse #1940s",
+     "imageUrl": "https://i.pinimg.com/736x/b0/01/bc/b001bc3f7835ad65b80660082e4386aa.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.004840552806854248,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1944 Corsairs | Climb Right Into the Fight! | Get 'Em Up - For Your Navy! by Jon Whitcomb",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/0052/7794/1863/products/18040323_1024x1024@2x.jpg?v=1554234794",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 2.612657681311248e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Colliers July 14 1945 Cover Art by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/83/08/dd/8308ddfb83a31059fee421f56db2a2b6--vintage-housewife-july-.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0008025169372558594,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Janet Leigh~ Lustre-Creme shampoo, ART by Jon Whitcomb...",
+     "imageUrl": "https://i.pinimg.com/236x/6d/b6/ef/6db6ef6d7927521ee89d59b017948834--retro-ads-vintage-advertisements.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 1.930757935042493e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Reading, glorious reading. Illustration by Jon Whitcomb",
+     "imageUrl": "http://lyraselene.com/wp-content/uploads/2013/04/little-girl-reading-e1367065006793.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0006580054759979248,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "COLLIER'S COVER 1956 woman's eyelash loose behind fan by Jon Whitcomb",
+     "imageUrl": "http://www.jumpingfrog.com/images/magazineads6/mgd8388.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00041177868843078613,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Corsairs Climb Right Into the Fight\"\"\"\" by Jon Whitcomb (1943). Official Navy Poster. (lhboudreau) Tags: museum plane poster airplane washingtondc smithsonian flying dc washington aircraft aviation wwii airplanes flight exhibit worldwarii planes corsair airspace usnavy exhibits nationalairand",
+     "imageUrl": "https://farm6.static.flickr.com/5462/9916268723_697d2825fc_m.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 2.4423223976555164e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration by Jon Whitcomb for the story Wedding In The Spring",
+     "imageUrl": "https://i.pinimg.com/236x/97/b1/d5/97b1d5ae5f9939af63051292f4f6fcaa--vintage-romance-retro-vintage.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010637342929840088,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "He Volunteered For Submarine Service Posters by Jon Whitcomb",
+     "imageUrl": "http://cache2.allpostersimages.com/p/LRG/78/7874/OCW8300Z/posters/jon-whitcomb-he-volunteered-for-submarine-service.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0016174614429473877,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Janet Leigh for Lustre-Cream, 1963.  Illustrated by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/b1/1b/96/b11b963edd1b5e372c1f60748ae79171.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 1.4950006516301073e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Women serving their country during WWII...illustration by Jon Whitcomb, 1944.",
+     "imageUrl": "https://i.pinimg.com/236x/2e/4e/e3/2e4ee369a0dada2f60831ac6da59dc73--american-red-cross-american-a.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010621249675750732,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "beautiful painting by Jon Whitcomb, 1944. Red Cross nurse and Navy Nurse",
+     "imageUrl": "https://images.squarespace-cdn.com/content/547ae33ce4b066b3423c4e30/1435810561458-IH5F8BBXE5CBEHIBFWRP/b001bc3f7835ad65b80660082e4386aa.jpg?content-type=image%2Fjpeg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010268688201904297,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"Naval Officer & Woman,\"\"\"\" Saturday Evening Post Cover, August 8, 1942 Giclee Print by Jon Whitcomb\"\"\"",
+     "imageUrl": "https://cache2.allpostersimages.com/p/MED/58/5869/5ISSG00Z/posters/jon-whitcomb-naval-officer-woman-saturday-evening-post-cover-august-8-1942.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.006101012229919434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Half painted pin-up art by Jon Whitcomb of a couple in car hugging",
+     "imageUrl": "http://3.bp.blogspot.com/-sK8LMAN8yQs/UTB70lbevXI/AAAAAAAAATw/xSdqXz-YdFo/s1600/hold_me.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.004447430372238159,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "&quot;Naval Officer &amp; Woman,&quot; Saturday Evening Post Cover, August 8, 1942 Giclee Print by Jon Whitcomb",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/58/5869/5ISSG00Z/posters/jon-whitcomb-naval-officer-woman-saturday-evening-post-cover-august-8-1942.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.006101012229919434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956",
+     "imageUrl": "https://i.pinimg.com/236x/82/64/fb/8264fba0b336cfa5b68eb1bea39ce786--vintage-magazines-fashion-magazines.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 1.0950621799565852e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pin Up by Jon Whitcomb Pin Up Vintage, Vintage Beauty, 50s Vintage, Retro Images, Vintage Pictures, Dibujos Pin Up, Fashion Art, Vintage Fashion, Illustration Noel",
+     "imageUrl": "https://i.pinimg.com/236x/07/d3/5e/07d35e58a155bbf2425c7702eea4ec52--jon-whitcomb-christmas-graphics.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0007872581481933594,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"During the war, ad woman Jean Rindlaud kept Oneida silverplate at the top of people's minds with her \"\"Back Home for Keeps\"\" campaign, illustrated by Jon Whitcomb. After the war, the slogan was altered to \"\"This Is for Keeps.\"\" Click on image to see the ads larger. (Courtesy of Picador)\"",
+     "imageUrl": "http://cf.collectorsweekly.com/uploads/2016/06/13165040/military-double-1024x695.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00012026681361021474,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Community ~ Cutlery Adverts [1946] Illustratrated by Jon Whitcomb",
+     "imageUrl": "https://www.ghostofthedoll.co.uk/retromusings/wp-content/plugins/special-recent-posts/cache/srpthumb-p26016-100x100-no.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.005636006593704224,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Romance by the Beach\"\"\"\" story illustration c. -\"\"\"\"A Romance by the Beach\"\"\"\" story illustration c. - vintagegal: Illustration by Jon Whitcomb c. 1960 This lovely lady appeared in an ad for Jantzen swimsuits in the UK. Retro Images, Vintage Images, Vintage Posters, Foto Glamour, Arte Pop, Pulp A",
+     "imageUrl": "https://i.pinimg.com/236x/1d/f5/4f/1df54f53227fb48eacad59ee8be2209d--girl-on-beach-the-beach.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.018938064575195312,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Portrait Over Manhattan, Oil Painting by Jon Whitcomb",
+     "imageUrl": "https://a.1stdibscdn.com/jon-whitcomb-paintings-portrait-over-manhattan-oil-painting-by-jon-whitcomb-for-sale/a_466/1539379836910/Whitcomb_Portrait_Over_Manhattan_master.JPG?width=240",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00014790892601013184,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A 1944 poster by Jon Whitcomb published by the Navy Department's Industrial Incentive Division.",
+     "imageUrl": "https://si.wsj.net/public/resources/images/PJ-BD682_Pritzk_E_20111109174721.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00015476346015930176,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A strikingly beautiful painting by Jon Whitcomb, 1944. Red Cross nurse and Navy Nurse",
+     "imageUrl": "https://i.pinimg.com/236x/b0/01/bc/b001bc3f7835ad65b80660082e4386aa--american-red-cross-american-a.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010268688201904297,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "vintagegal:  Illustration by Jon Whitcomb c. 1950's",
+     "imageUrl": "https://64.media.tumblr.com/tumblr_m3bie0XAoz1qa70eyo1_500.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.005896419286727905,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "&quot;Lighting His Cigarette,&quot; Saturday Evening Post Cover, October 23, 1943 Giclee Print by Jon Whitcomb",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/58/5869/2JSSG00Z/posters/jon-whitcomb-lighting-his-cigarette-saturday-evening-post-cover-october-23-1943.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.001092463731765747,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration by Jon Whitcomb for the story The One I Love., via Flickr.",
+     "imageUrl": "https://i.pinimg.com/236x/07/01/d4/0701d4b2102df38c1921f1fb48fc25ad.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00023895502090454102,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "&quot;Naval Officer &amp; Woman,&quot; August 8, 1942 Giclee Print by Jon Whitcomb",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/58/5869/TLSSG00Z/posters/jon-whitcomb-naval-officer-woman-august-8-1942.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00278356671333313,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration by Jon Whitcomb for the story Wedding In The Spring.  via Flickr",
+     "imageUrl": "https://i.pinimg.com/236x/97/b1/d5/97b1d5ae5f9939af63051292f4f6fcaa.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010637342929840088,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vibrant Printed Felt Bookmark -  Romantic Illustration by Jon Whitcomb, They're Playing Our Song",
+     "imageUrl": "https://cdn-img-3.wanelo.com/p/bc0/674/365/2856c5076694e30917be594/x200-q90.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.010683506727218628,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage Beauty by Jon Whitcomb...",
+     "imageUrl": "https://www.jigsawplanet.com/i/d799db00bb064504007cd6a4870e11f4af/160/jp.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0007868111133575439,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
+    "New Year's - detail from 1956 Cadillac ad. Art by Jon Whitcomb",
+    "\"\"\"Lighting His Cigarette,\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"",
+    "COLLIER'S COVER 1941 pretty girl plays Chinese chekers by Jon Whitcomb",
+    "\"\"\"\"\"\"\"Lighting His Cigarette,\"\"\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"\"\"",
+    "Colliers July 14 1945 Cover Art by Jon Whitcomb",
+    "Red Cross nurse & a WAVE (?) illustrated by Jon Whitcomb, on the cover of Collier's magazine cover, 1943.",
+    "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
+    "Original Vintage Poster I'm Proud Of You Folks Too WWII US Navy Home Front Work - Print by Jon Whitcomb",
+    "Leopard Gloves, art by Jon Whitcomb - Detail from cover of Cosmopolitan Magazine - October 1949"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 19,
+   "mentionsFound": 19,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 19,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 19,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 118,
+   "mentionsFound": 118,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 118,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 118,
+   "rows": [
+    {
+     "text": "\"May 23, 1964. Mary Tyler Moore of CBS's \"\"The Dick Van Dyke Show\"\" (illus. by Jon Whitcomb).\"",
+     "imageUrl": "https://i.pinimg.com/236x/b4/1a/c0/b41ac046ed69b65f28fdeeef723b4548.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0005541443824768066,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Propaganda poster from World War II. (Illustration by Jon Whitcomb)",
+     "imageUrl": "http://www.mintpressnews.com/wp-content/uploads/2012/05/1944_JonWhitcomb_USNavy_3214638694-690x388.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0004994869232177734,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Reading, glorious reading. Illustration by Jon Whitcomb",
+     "imageUrl": "http://www.lyraselene.com/wp-content/uploads/2013/04/little-girl-reading-e1367065006793.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0006580054759979248,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cadillac Sedan de Ville 1956 by Jon Whitcomb",
+     "imageUrl": "https://velvetlimelight.files.wordpress.com/2017/01/cadillac_sedan_deville_1956_jon_whitcomb.jpg?w=610&",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 1.4055272004043218e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage Beauty by Jon Whitcomb...",
+     "imageUrl": "https://www.jigsawplanet.com/i/a5d3d900d805800200db5ed27c0b76981b/160/jp.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0041886866092681885,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Joanne Dru by Jon Whitcomb Vintage Ads, Vintage Images, Vintage Posters, Estilo Pin Up, Vintage Housewife, Arte Pop, Pin Up Art, Vintage Hairstyles, 90s Hairstyles",
+     "imageUrl": "https://i.pinimg.com/236x/46/03/2d/46032d0b9685ec1714688b747a00115e--yellow-art-commercial-art.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 5.167670678929426e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "SHIRLEY JONES illustration (detail) by JON WHITCOMB for Lustre-Creme Shampoo. Ladies Home Journal Nov 1963. (minkshmink)",
+     "imageUrl": "https://i.pinimg.com/736x/f1/cb/13/f1cb1396c2e3965b3f9cf4237689a7a3--retro-art-pulp-art.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.027357667684555054,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "SHIRLEY JONES illustration (detail) by JON WHITCOMB for Lustre-Creme Shampoo. Ladies Home Journal Nov 1963. (minkshmink)",
+     "imageUrl": "https://i.pinimg.com/236x/f1/cb/13/f1cb1396c2e3965b3f9cf4237689a7a3--retro-art-pulp-art.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0005329251289367676,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cannon stockings advertisement, 1950s Illustration by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/4c/dd/04/4cdd045ccd6d7bd4f5f3897f2f246056.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.07146987318992615,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "60 mentions J'aime, 1 commentaires - @ilovevintageads sur Instagram: \u00abCosmopolitan by Jon Whitcomb (1949)\u2026\u00bb",
+     "imageUrl": "https://i.pinimg.com/236x/05/8f/3f/058f3f105081f8ba561eff3d35a0e37e.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0010942816734313965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Glass Slipper (1955) starring Leslie Caron & Michael Wilding \u2014 illustration by Jon Whitcomb",
+     "imageUrl": "https://i.pinimg.com/236x/6c/c4/bc/6cc4bcbd2945943c00737d4a207f3c90--michael-wilding-elsa-lanchester.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.0007750391960144043,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1964 Beautiful Shirley Jones Lustre-Cr\u00e8me Shampoo Nice Drawing by Jon Whitcomb Original Vintage Advertisement",
+     "imageUrl": "https://i.etsystatic.com/12818406/r/il/e72c4a/2426042631/il_570xN.2426042631_cjq9.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": 0.00025722384452819824,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"May 23, 1964. Mary Tyler Moore of CBS's \"\"The Dick Van Dyke Show\"\" (illus. by Jon Whitcomb).\"",
+    "Propaganda poster from World War II. (Illustration by Jon Whitcomb)",
+    "Reading, glorious reading. Illustration by Jon Whitcomb",
+    "Cadillac Sedan de Ville 1956 by Jon Whitcomb",
+    "Vintage Beauty by Jon Whitcomb...",
+    "Joanne Dru by Jon Whitcomb Vintage Ads, Vintage Images, Vintage Posters, Estilo Pin Up, Vintage Housewife, Arte Pop, Pin Up Art, Vintage Hairstyles, 90s Hairstyles",
+    "SHIRLEY JONES illustration (detail) by JON WHITCOMB for Lustre-Creme Shampoo. Ladies Home Journal Nov 1963. (minkshmink)",
+    "SHIRLEY JONES illustration (detail) by JON WHITCOMB for Lustre-Creme Shampoo. Ladies Home Journal Nov 1963. (minkshmink)",
+    "Cannon stockings advertisement, 1950s Illustration by Jon Whitcomb",
+    "60 mentions J'aime, 1 commentaires - @ilovevintageads sur Instagram: \u00abCosmopolitan by Jon Whitcomb (1949)\u2026\u00bb"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 78,
+   "mentionsFound": 78,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 78,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 78,
+   "rows": [
+    {
+     "text": "John V. Romita Sr., often credited as simply John Romita (born January 24, 1930), is an American comic-book artist best known for his work on Marvel Comics' The Amazing Spider-Man. He was inducted into the Will Eisner Comic Book Hall of Fame in 2002. Romita is the father of John Romita Jr., also a c",
+     "imageUrl": null,
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u201cShe\u2019s in love\u2026 and she loves Community.\u201d\n\nThis illustrated ad campaign for Community silverplate cutlery ran from late 1952 and throughout 1953. The artwork was by Jon Whitcomb and featured young married women daydreaming about their new cutlery.\n\nThe four spoons shown in each image were from the s",
+     "imageUrl": null,
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Like another of the comic book greats, Joe Kubert,  Jose started at a very young age, working for a number of publishers and agencies in his native Spain while he was still in his late teens.  Even then, his draftsmanship and technique show an unusual strength. His pencil portraits remind me a great",
+     "imageUrl": null,
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This illustrated ad campaign for Community silverplate cutlery ran throughout 1947. The artwork was by Jon Whitcomb and featured young couples who plan to get married.\n\nThe three spoons shown in each image were from the sets Coronation, Lady Hamilton and Milady, then in December the new Morning Star",
+     "imageUrl": null,
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This illustrated ad campaign for Community silverplate cutlery dates from 1954. The artwork was by Jon Whitcomb and took a change in style from the previous ten years. This also seems to be the last ad campaign with Jon Whitcomb\u2019s illustrations. The ads featured sitting couples, shown from the shoul",
+     "imageUrl": null,
+     "keyword": "jon whitcomb",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "John V. Romita Sr., often credited as simply John Romita (born January 24, 1930), is an American comic-book artist best known for his work on Marvel Comics' The Amazing Spider-Man. He was inducted into the Will Eisner Comic Book Hall of Fame in 2002. Romita is the father of John Romita Jr., also a c",
+    "\u201cShe\u2019s in love\u2026 and she loves Community.\u201d\n\nThis illustrated ad campaign for Community silverplate cutlery ran from late 1952 and throughout 1953. The artwork was by Jon Whitcomb and featured young married women daydreaming about their new cutlery.\n\nThe four spoons shown in each image were from the s",
+    "Like another of the comic book greats, Joe Kubert,  Jose started at a very young age, working for a number of publishers and agencies in his native Spain while he was still in his late teens.  Even then, his draftsmanship and technique show an unusual strength. His pencil portraits remind me a great",
+    "This illustrated ad campaign for Community silverplate cutlery ran throughout 1947. The artwork was by Jon Whitcomb and featured young couples who plan to get married.\n\nThe three spoons shown in each image were from the sets Coronation, Lady Hamilton and Milady, then in December the new Morning Star",
+    "This illustrated ad campaign for Community silverplate cutlery dates from 1954. The artwork was by Jon Whitcomb and took a change in style from the previous ten years. This also seems to be the last ad campaign with Jon Whitcomb\u2019s illustrations. The ads featured sitting couples, shown from the shoul"
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 1,
+   "mentionsFound": 1,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 1,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 0,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Jon Whitcomb"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "jon whitcomb",
+    "tier": "namematch",
+    "count": 584,
+    "captionHits": 505,
+    "longformHits": 79,
+    "longformRatio": 0.135,
+    "perDataset": {
+     "coyo700m": 56,
+     "laion1b-nolang": 118,
+     "laion2b-en": 312,
+     "laion2b-multi": 19,
+     "obelics": 78,
+     "pile": 1
+    },
+    "reason": null
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 6,
+   "totalDatasets": 7,
+   "credibleMentions": 584,
+   "highConfidenceMentions": 0,
+   "nameMatchMentions": 584,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 100,
+  "evidenceWithheld": {
+   "unverified": 396,
+   "person_photo": 29,
+   "unrelated": 5,
+   "storefront": 8,
+   "explicit": 3
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-jon-whitcomb",
+ "cohort": "billy-ireland",
+ "collection": "Jon Whitcomb Collection",
+ "summary": {
+  "datasetsPresent": 6,
+  "totalDatasets": 7,
+  "totalMentions": 584,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 584,
+  "datasetsPresent": 6,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

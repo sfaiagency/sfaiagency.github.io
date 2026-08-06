@@ -1,0 +1,838 @@
+{
+ "artistName": "Mark D. Winchester",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Mark D. Winchester",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 1,
+   "mentionsFound": 1,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 1,
+   "thirdPartyCount": 166,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 167,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 2,
+   "mentionsFound": 2,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 2,
+   "thirdPartyCount": 865,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 867,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 80,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 80,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 197,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 197,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 627,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 627,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 2,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 2,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 4,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 4,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Bringing Up Father",
+   "Bringing up father",
+   "Happy hooligan",
+   "Mark D. Winchester"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "mark d. winchester",
+    "tier": "namematch",
+    "count": 3,
+    "captionHits": 3,
+    "longformHits": 0,
+    "longformRatio": 0.0,
+    "perDataset": {
+     "coyo700m": 1,
+     "laion2b-en": 2
+    },
+    "reason": null
+   },
+   {
+    "keyword": "bringing up father",
+    "tier": "thirdparty",
+    "count": 1100,
+    "captionHits": 738,
+    "longformHits": 362,
+    "longformRatio": 0.329,
+    "perDataset": {
+     "coyo700m": 100,
+     "laion2b-en": 561,
+     "laion2b-multi": 18,
+     "obelics": 357,
+     "laion1b-nolang": 59,
+     "pile": 1,
+     "c4-en": 4
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   },
+   {
+    "keyword": "happy hooligan",
+    "tier": "thirdparty",
+    "count": 841,
+    "captionHits": 570,
+    "longformHits": 271,
+    "longformRatio": 0.322,
+    "perDataset": {
+     "coyo700m": 66,
+     "laion1b-nolang": 138,
+     "laion2b-en": 304,
+     "laion2b-multi": 62,
+     "obelics": 270,
+     "pile": 1
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 2,
+   "totalDatasets": 7,
+   "credibleMentions": 3,
+   "highConfidenceMentions": 0,
+   "nameMatchMentions": 3,
+   "thirdPartyPropertyMentions": 1941,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 0,
+  "evidenceWithheld": {
+   "person_photo": 3
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-mark-d-winchester",
+ "cohort": "billy-ireland",
+ "collection": "Mark D. Winchester Collection of Comics Art and Papers",
+ "summary": {
+  "datasetsPresent": 2,
+  "totalDatasets": 7,
+  "totalMentions": 3,
+  "confirmedModels": 49,
+  "estimatedMonthlyUsers": 24073000,
+  "estimatedTotalGenerations": 4814600000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 3,
+  "datasetsPresent": 2,
+  "membershipInference": null,
+  "confirmedModels": 49,
+  "estimatedMonthlyUsers": 24073000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

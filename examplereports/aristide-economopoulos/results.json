@@ -1,0 +1,3630 @@
+{
+ "artistName": "Aristide Economopoulos",
+ "modality": "photography",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 41,
+   "mentionsFound": 41,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 41,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 73,
+   "totalIncludingLowConfidence": 114,
+   "rows": [
+    {
+     "text": "Photo by Aristide Economopoulos/The Star-Ledger",
+     "imageUrl": "https://www.nj.com/resizer/BpFqnBS8ASl1ZwGnPkAE5CHBLKc=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/NSWIASXJ3NANHN5JWYTND4ZEZ4.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Airport workers photograph and video the team as they arrive. Credit: Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": "https://i1.wp.com/portfolio.panynj.gov/wp-content/uploads/2019/07/img_2733.jpg?w=432&h=288&ssl=1",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "NYPPA President Bruce Cotler presents Aristide Economopoulos | NJ Advance Media with The Canon Photographer of the Year Award at the 198 Gallery in Brooklyn on May 17, 2018",
+     "imageUrl": "https://images.squarespace-cdn.com/content/v1/56d9c4787c65e401653dd1c6/1526620797666-SQSVO5A1M9L9R52MPHKM/ke17ZwdGBToddI8pDm48kDnrEEhVia6EQe4EeMGMQtp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k6sq9GEl9ZUDkp1sRKcAyKKXw_fCDjYhBvW5rGPTi06G-Nau3cvhjd8SdYvC0FA8g/poy.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Protestors chant in Terminal B at the Newark International Airport prior to addressing the media, in Newark, NJ., Thursday March 16, 2017. A diverse group of advocates and immigrant New Jerseyans gathered to condemn Trump&#39;s updated travel ban. (Aristide Economopoulos/NJ Advance Media via AP",
+     "imageUrl": "https://twt-thumbs.washtimes.com/media/image/2017/03/16/trump_travel_ban_new_jersey_93173_c0-217-5184-3239_s885x516.jpg?7d82ae4499eec61a4558b42b6fa0fdec2c219c6e",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jesse Weick, left, congratulates Tyler Selby after scoring the first goal in the first half of the state title game Saturday in Ewing. (Aristide Economopoulos/The Star-Ledger",
+     "imageUrl": "https://barringtonbulletin.files.wordpress.com/2012/12/11936054-standard.jpg?w=245&h=300",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A girl tweets during her prom. For many teenagers, social media has become integral important outlets of who they are. \u00a9Aristide Economopoulos, US, Winner, Arts &amp; Culture, Professional, 2015 Sony World Photography Awards.",
+     "imageUrl": "http://www.londonglam.co.uk/inc/i09/media/u/1429871273760.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "NYPPA President Bruce Cotler presents Aristide Economopoulos | NJ Advance Media with The Canon Photographer of the Year Award at the 198 Gallery in Brooklyn on May 17, 2018",
+     "imageUrl": "https://i1.wp.com/images.squarespace-cdn.com/content/v1/56d9c4787c65e401653dd1c6/1526620797666-SQSVO5A1M9L9R52MPHKM/ke17ZwdGBToddI8pDm48kDnrEEhVia6EQe4EeMGMQtp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k6sq9GEl9ZUDkp1sRKcAyKKXw_fCDjYhBvW5rGPTi06G-Nau3cvhjd8SdYvC0FA8g/poy.jpg?w=1170&ssl=1",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A woman and a 11 year-old boy's bodies were found dead in the Rockaway River at Grace Lord Park Tuesday evening. Tuesday, February 23, 2021. Boonton, N.J. USA (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/GLPGc0K6YUsF5jsD7347FO3ZAqQ=/600x450/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/YKJF6DAFUFDR3PQCS5QV57BJDI.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Residents of Knoll Heights assisted living in Sparta get their first Covid-19 Moderna vaccine shot Friday afternoon. Friday, February 12, 2021. Sparta, N.J. USA (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/thOXGjkJpDZfLrg4jEH1_j1Zn7k=/600x450/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/QWLILI63ZNGSLAKKTOJVOK652Y.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jack Ciattarelli Hopes To Become the Republican Gubernatorial\u00a0 Candidate in New Jersey (NJ Advance Media/ Aristide Economopoulos",
+     "imageUrl": "https://luxekurves.com/wp-content/uploads/2021/03/KI2I75Q7LBC6ZASV5SUPA3IRNY.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Keith Chaudruc, left, of Madison, debates Christie after he was invited to come up on stage with him. (Photo: Aristide Economopoulos/The Star-Ledger",
+     "imageUrl": "http://socialistalternative.org/wp-content/uploads/2015/05/fdd7d7a8b08ce0c6-300x200.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "- 1st Place - Aristide Economopoulos - Phone Obsessed - NJ Advance Media",
+     "imageUrl": "https://i0.wp.com/images.squarespace-cdn.com/content/v1/56d9c4787c65e401653dd1c6/1551547751679-DTZE1KOY0EQ85D1Y28DU/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/08938.jpg?w=1170&ssl=1",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Phil Murphy is calling for massive changes to how New Jersey gets its electricity. Photo: Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": "https://bizrepublic.com/wp-content/uploads/2018/07/Estado-de-Nueva-Jersey-culmina-tras-10-a%C3%B1os-la-reforma.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Newark Archbishop John J. Meyers, seen here in March, has come under criticism for his handling of the Rev. Michael Fugee.Aristide Economopoulos/The Star-Ledger",
+     "imageUrl": "https://rapevictimsofthecatholicchurch.files.wordpress.com/2013/07/meyers.jpg?w=229&h=300",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Retired neurosurgeon Ben Carson, left, talks to businessman Donald Trump prior to the start of the debate. The GOP Debate Hall at the Ronald Reagan Library. Wednesday September 16, 2015. Simi Valley, CA, USA (Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": "https://ruanofaxas.files.wordpress.com/2016/08/carson-trump.jpg?w=577&h=447",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sayreville cheerleaders have the schools logo on their masks. The season opening North Brunswick at Sayreville football game. Friday, October 2, 2020. Parlin, NJ USA (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/qUcBT_xYduUlhoq6sST8jl7KFxE=/300x225/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/V3FDBWCF5RHDVO5ADIXDTK6ERI.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Hillary Clinton is paid 90% less in speech at Rutger's University. Photo credit to NJ.com. Photo Credit to Aristide Economopoulos | NJ Advance Media for NJ.com.",
+     "imageUrl": "https://us4trump.com/wp-content/uploads/2018/03/778_hrc05-1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-Ledger Flights were delayed and canceled after a security breach at...",
+     "imageUrl": "http://media3.picsearch.com/is?PyGGCQQYuTA1EXqexjHX7eH2vPwVbnGwI-1H1u9o-TM&height=226",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Carli Lloyd and the U.S. women's soccer team have an opportunity to inspire the next generation of female athletes. (Aristide Economopoulos | NJ Advance Media",
+     "imageUrl": "https://www.nj.com/resizer/x2N_K9tq7hUjsW1mnkxSnM1kGfA=/300x225/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SWCUNURAPZFKZJMVIVHAS3HIJM.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stephen Finley went to prison for stealing body parts from cadavers that passed through his Newark funeral home. After his release, he took a job at Rosemount Crematory. Aristide Economopoulos/The Star-Ledger",
+     "imageUrl": "https://markmuellerjournalism.files.wordpress.com/2015/10/stephen-finley-e1446316374219.jpg?w=260&h=300",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Law enforcement gather outside the emergency room of University Hospital after a shoot out in Linden where officers and terror suspect was Ahmad Khan Rahami were wounded and Rahami was apprehended Monday, Sept. 19, 2016. Newark, NJ, USA (Aristide Economopoulos | NJ Advance Media via AP",
+     "imageUrl": "https://s3.amazonaws.com/darkroom-cdn/2016/09/APphoto_Manhattan-Explosion-5-760x507.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Scott Thompson of Rumson, a member of Clean Ocean Action, waits for a rally on the Asbury Park Boardwalk to oppose offshore drilling in January 2016. (Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": "https://www.nj.com/resizer/bXsBqfpmhsM1HgLABRYYNqsaRUQ=/300x225/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/CHCR2ULMVREAPIUG3XAVWKQT3U.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "RNS photo by Aristide Economopoulos/The Star-Ledger.",
+     "imageUrl": "https://religionnews.com/wp-content/uploads/2012/02/thumbRNSHOUSTONFUNERAL021612.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u00a9Aristide Economopoulos, US, Winner, Arts & Culture, Professional, 2015 Sony World Photography Awards",
+     "imageUrl": "https://naturpixel.com/wp-content/plugins/justified-image-grid/timthumb.php?src=https%3A%2F%2Fnaturpixel.com%2Fwp-content%2Fuploads%2F130735710219536321_Aristide-Economopoulos_United-States_Winner_Professional_Arts-Culture_2015_3.PR_-1024x683.jpg&h=800&q=90&f=.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "People speak to members of the New York Police Department while waiting hours prior to the arrival of Pope Francis, Thursday, Sept 24, 2015, in New York. (Aristide Economopoulos /The Star-Ledger via AP, Pool",
+     "imageUrl": "https://s.hdnux.com/photos/47/25/33/10311362/5/1200x0.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The terrorist attacks on the World Trade Center Twin Towers on September 11, 2001. (photo: Aristide Economopoulos",
+     "imageUrl": "https://readersupportednews.org/images/stories/article_imgs22/022453-september-11-2001-091116.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u00a9 Aristide Economopoulos, US, Winner, Arts &amp; Culture, Professional, 2015 Sony World Photography Awards",
+     "imageUrl": "https://assets.prophotos.ru/data/articles/0001/6840/104835/thumb_630.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-Ledger John Morreale a former resident of Perth Amboy who now lives...",
+     "imageUrl": "https://media3.picsearch.com/is?G3VptaIUJNxa80PmRyqiVlUggJMoFo_vpjDTtzhqtRE&height=226",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Photo by Aristide Economopoulos/The Star-Ledger",
+    "Airport workers photograph and video the team as they arrive. Credit: Aristide Economopoulos | NJ Advance Media for NJ.com",
+    "NYPPA President Bruce Cotler presents Aristide Economopoulos | NJ Advance Media with The Canon Photographer of the Year Award at the 198 Gallery in Brooklyn on May 17, 2018",
+    "Protestors chant in Terminal B at the Newark International Airport prior to addressing the media, in Newark, NJ., Thursday March 16, 2017. A diverse group of advocates and immigrant New Jerseyans gathered to condemn Trump&#39;s updated travel ban. (Aristide Economopoulos/NJ Advance Media via AP",
+    "Jesse Weick, left, congratulates Tyler Selby after scoring the first goal in the first half of the state title game Saturday in Ewing. (Aristide Economopoulos/The Star-Ledger",
+    "A girl tweets during her prom. For many teenagers, social media has become integral important outlets of who they are. \u00a9Aristide Economopoulos, US, Winner, Arts &amp; Culture, Professional, 2015 Sony World Photography Awards.",
+    "NYPPA President Bruce Cotler presents Aristide Economopoulos | NJ Advance Media with The Canon Photographer of the Year Award at the 198 Gallery in Brooklyn on May 17, 2018",
+    "A woman and a 11 year-old boy's bodies were found dead in the Rockaway River at Grace Lord Park Tuesday evening. Tuesday, February 23, 2021. Boonton, N.J. USA (Aristide Economopoulos | NJ Advance Media)",
+    "Residents of Knoll Heights assisted living in Sparta get their first Covid-19 Moderna vaccine shot Friday afternoon. Friday, February 12, 2021. Sparta, N.J. USA (Aristide Economopoulos | NJ Advance Media)",
+    "Jack Ciattarelli Hopes To Become the Republican Gubernatorial\u00a0 Candidate in New Jersey (NJ Advance Media/ Aristide Economopoulos"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 192,
+   "mentionsFound": 192,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 192,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 196,
+   "totalIncludingLowConfidence": 388,
+   "rows": [
+    {
+     "text": "Firefighters respond after a jet crashed into a building near Teterboro Airport in Carlstadt, N.J., Monday, May 15, 2017. (Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "https://i.dailymail.co.uk/1/2017/05/16/03/wire-577659-1494903215-375_634x422.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.006227821111679077,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Former Gov. Jim McGreevey, the chair of the  New Jersey Reentry Program talks to participants at their Newark office. (Aristide Economopoulos   NJ Advance Media)    (Aristide Economopoulos   NJ Adva/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/619567808084755553/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0004172027111053467,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Protestors chant in Terminal B at the Newark International Airport prior to addressing the media, in Newark, NJ., Thursday March 16, 2017. A diverse group of advocates and immigrant New Jerseyans gathered to condemn Trump's updated travel ban. (Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "http://twt-thumbs.washtimes.com/media/image/2017/03/16/trump_travel_ban_new_jersey_93173_c0-217-5184-3238_s326x190.jpg?237c95e4d4c0a50a0fa1999c90cdf8e256feee49",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0005811452865600586,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Phil Murphy address a group of labor unions during a 2017 rally with Senate President Stephen Sweeney. (Aristide Economopoulos)",
+     "imageUrl": "https://www.nj.com/resizer/nqlSm9n8W6CHbDVJLUPzbcxkfXc=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/D3T6IB3LJ5BUBH3IAS5AJJT5PM.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0016540884971618652,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In this June 26, 2018 photo, Bergen County Prosecutors Office and Sheriff's Department investigate a body found in the home of Giants cornerback Janoris Jenkins in Fair Lawn, N.J. Authorities have identified the dead man as Roosevelt Rene, a family friend of Jenkins. (Aristide Economopoulos/The Star",
+     "imageUrl": "https://www.sun-sentinel.com/resizer/-7lxsWRKrqzP4DHDLoruSx6rGNk=/415x303/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/6TLJD2PLDVCKJDXKDCVRSUOYRY.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.01472407579421997,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Hundreds of mourners remember the life of Alexis \"\"\"\"Lexi\"\"\"\" Faye, the 17-year-old Newton High School student killed last weekend in a crash a day after her prom, at a vigil at the school's athletic field. Wednesday May 15, 2019. (Aristide Economopoulos ",
+     "imageUrl": "https://www.nj.com/resizer/IhlIJ4vJZbiNAN0EMjNS88HCeRY=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/5W4D6NROM5GTXKMVDEME2ANTMY.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.001084059476852417,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Carla Breccia, center, and Julian Botta, right, recite the Hippocratic Oath with fellow class of 2017 Rutgers medical students at the end of the white coat ceremony for new Robert Wood Johnson Medical School students in New Brunswick.(Aristide Economopoulos/The Star-Ledger )",
+     "imageUrl": "https://image.nj.com/home/njo-media/width600/img/ledgerupdates_impact/photo/2013/08/rutgers-white-coatjpg-393d70b3178395ee.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0006327629089355469,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Goethals Bridge spans the Arthur Kill linking Elizabeth, New Jersey, bottom, with the Howland Hook area of Staten Island, New York. ARISTIDE ECONOMOPOULOS/THE STAR-LEDGER Photo: Economopoulos, Aristide, SL / The Star Ledger",
+     "imageUrl": "https://s.hdnux.com/photos/06/11/12/1610389/3/628x471.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 1.2523773875727784e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Kevin Baker, left, and Sean Washington have spent 25 years behind bars for murders they say they did not commit. (Aristide Economopoulos | NJ Advance Media for NJ.com) (Aristide Economopoulos/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/594317645625214049/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 7.233295036712661e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Brendan Gill and Phil Murphy in Newark during the campaign.\u00a0(Aristide Economopoulos / NJ Advance Media)",
+     "imageUrl": "https://image.nj.com/home/njo-media/width600/img/new_jersey_opinion/photo/arisjpg-d52036b44f553afc.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00021922588348388672,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Chris Christie listens to George Sherman, the CIO of Global Technology Infrastructure for JP Morgan Chase, in 2016 before he announces JPMorgan Chase is moving to Jersey City. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://i.nj.com/resizer/nsEFHrDxTPSuYA6YOMzzCk6XpJY=/600x0/arc-anglerfish-arc2-prod-advancelocal/public/YPHX2MGOIRCODD7PWAFCK7HPQE.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0036627352237701416,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy (left) and U.S. Sen. Cory Booker (right) take a selfie with audience members in Atlantic City last year. (Aristide Economopoulos | NJ Adva                    /)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/590293656275207265/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 3.253795875934884e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Democratic presidential hopeful Sen. Cory Booker says Alabama should have looked to Colorado if its aim was to lower the abortion rate rather than craft a bill he calls a \"\"\"\"direct assault\"\"\"\" on women's rights (Aristide Economopoulos ",
+     "imageUrl": "https://www.al.com/resizer/3EK_gdGe1MHBG8srfb3RXouHFSU=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/HVOAWG7HEJB43NQ2ETUIMDD4PY.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.000953376293182373,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mallory Hagan, Miss America 2013, waves to people on her float at the Miss America Show Us Your Shoes Parade in September 2013. In emails to staff, Sam Haskell, pageant CEO, called Hagan 'huge' and 'gross,' insulting her appearance. (Aristide Economopoulos/The Star-Ledger)",
+     "imageUrl": "https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.nj.com/home/njo-media/width2048/img/entertainment_impact/photo/23929842-standard.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.06211733818054199,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "There's a new chill between Gov. Murphy and the Democratic leaders of the Senate and Assembly. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://i.nj.com/resizer/YpBfnhEwy4iWA777QKf_2umr7m4=/600x0/arc-anglerfish-arc2-prod-advancelocal/public/HELRSHA6HNDTLE3RVL2G5A5QUM.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.001606374979019165,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Watching little Raina McCloskey romp around the Westminster dog show ring with her borzoi buddy, it was hard to tell who was leading whom. (Photo: Aristide Economopoulos/Facebook)",
+     "imageUrl": "https://www.canadianinquirer.net/wp-content/uploads/2017/02/16730679_10213396403807776_8869714041276776204_n.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0004210174083709717,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-Ledger Heather O 'Reilly who is preparing to play in the Women's...",
+     "imageUrl": "https://media4.picsearch.com/is?26gCeTQdC43VPXHxKBQsk5qPpyKKjpYAZFhHdacDPFM&height=214",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.016703695058822632,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Phil Murphy (right) and his wife, Tammy Murphy, board the \"\"chamber train\"\" in 2017. He was campaigning at the time but is now governor of New Jersey. (Aristide Economopoulos/)\"",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/588089184009356385/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 8.572553633712232e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Michael \"\"The Situation\"\" Sorrentino leaves federal court with his fiancee Lauren Pesce after his sentencing in Newark, N.J., on Friday, Oct. 5, 2018. Sorrentino pleaded guilty to tax evasion in January, and was sentenced Friday to eight months in prison. (Aristide Economopoulos/NJ Advance Media vi",
+     "imageUrl": "https://i2.wp.com/metro.co.uk/wp-content/uploads/2018/10/sei_33742264-b16c.jpg?quality=90&strip=all&zoom=1&resize=644%2C428&ssl=1",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.3792727589607239,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A firefighter stands looks over the scene after a jet crashed into a building near Teterboro Airport in Carlstadt, N.J., Monday, May 15, 2017. (Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "https://i.dailymail.co.uk/1/2017/05/16/03/wire-577657-1494903193-660_634x422.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00023362040519714355,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<strong>Union beach, New Jersey, US: <em>Ghosts of Hurricane Sandy</em> by Aristide Economopoulos</strong>",
+     "imageUrl": "https://i.pinimg.com/236x/35/83/7e/35837ec0fe35d6fb7a89f975cea2433c.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 5.285404768073931e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov.-elect Phil Murphy.(Aristide Economopoulos/NJ Advance Media)",
+     "imageUrl": "http://image.nj.com/home/njo-media/width600/img/politics_impact/photo/me37jpg-d5a9907420e559c1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0003485381603240967,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A firefighter stands looks over the scene after a jet crashed into a building near Teterboro Airport in Carlstadt, N.J., Monday, May 15, 2017. (Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "https://i.dailymail.co.uk/1/2017/05/16/03/wire-577629-1494902577-903_634x422.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00023362040519714355,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy is pictured last year in Union Township. (Aristide Economopoulos   NJ Advance Media for NJ.com/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/604396670337533025/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0002206563949584961,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "President Donald Trump (left) stands with U.S. Rep. Jeff Van Drew during a rally at the Wildwoods Convention Center on Tuesday night. (Aristide Economopoulos | NJ Adva/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/595279067343701089/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 1.2810158295906149e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy thanks Rep. Bonnie Watson Coleman after signing legislatio on women's health care funding in February 2018. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.nj.com/resizer/y8ugcLfxaXw2_c5JoWhJijkxn6Q=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/GFOW7IE4CJHEXMDDNHBCZU5WSA.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.025119870901107788,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Chris Christie listens to George Sherman, the CIO of Global Technology Infrastructure for JP Morgan Chase, in 2016 before he announces JPMorgan Chase is moving to Jersey City. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.nj.com/resizer/VilfFpOC0aWeo2dUTP7OM7BrSEA=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/YPHX2MGOIRCODD7PWAFCK7HPQE.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0036627352237701416,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "People speak to members of the New York Police Department while waiting hours prior to the arrival of Pope Francis, Thursday, Sept 24, 2015, in New York. (Aristide Economopoulos /The Star-Ledger via AP, Pool)",
+     "imageUrl": "https://s.hdnux.com/photos/47/25/33/10311362/5/920x920.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0033993422985076904,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Phil Murphy is calling for massive changes to how New Jersey gets its electricity. Photo: Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": "http://bizrepublic.com/wp-content/uploads/2018/07/Estado-de-Nueva-Jersey-culmina-tras-10-a%C3%B1os-la-reforma-300x170.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00014019012451171875,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lt. Gov. Kim Guadagno greets supporters prior to voting during the primary gubernatorial election, in Monmouth Beach, N.J., June 6, 2017. (Photo: Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "https://s.yimg.com/ny/api/res/1.2/kPD5PdJRwx9YGlQ56y.zBQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNi42NjY2NjY2NjY2NjY3/https://s.yimg.com/uu/api/res/1.2/c7q5wPsIVOxBhJ3NuWuB1A--~B/aD00OTY7dz03NDQ7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/01681ab7e3fbdcd2e9b6054841ff3581",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0023911893367767334,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zombie walks come shuffling back to New Jersey in October. Pictured: The former New Jersey Zombie Walk, which lives on as the Asbury Park Zombie Walk. (Aristide Economopoulos/The Star-Ledger)",
+     "imageUrl": "https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.nj.com/home/njo-media/width2048/img/entertainment_impact/photo/21036043-standard.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0027881264686584473,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vans Warped Tour is coming to the Atlantic City beach this summer. Here's a shot from the 2018 fest in Holmdel. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.lehighvalleylive.com/resizer/sMdZp_AZ6zuaRh45_uRC-rhMYUQ=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/UY3TRN6KKBBI5GCUJERI7JSVO4.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.002387821674346924,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy isn't saying why a top staffer abruptly resigned last week.(Aristide Economopoulos/NJ Advance Media)",
+     "imageUrl": "https://image.nj.com/home/njo-media/width600/img/politics_impact/photo/mur09jpg-074df686b1c43b82.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0020694732666015625,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "sussex-county-college-graduates.JPG Aristide Economopoulos/The Star-LedgerGraduates at the Sussex County College applaud during their commencement in May ... - sussex-county-college-graduatesjpg-076e839b2bcc5365_medium",
+     "imageUrl": "http://t1.gstatic.com/images?q=tbn:ANd9GcQRHVqDhsvQiGIQhlOskoud4pKhTTVW8nqIr01WhrAXG21wWiei",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0031062960624694824,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "February 8, 2014; New York, NY, USA; Sparkle the dog runs obstacles during the Masters Agility Championship at Westminster at Pier 94. Mandatory Credit: Aristide Economopoulos/THE STAR LEDGER via USA TODAY Sports",
+     "imageUrl": "https://www.gannett-cdn.com/-mm-/d8195181d8dbb9c8a309f389adc3b7a5ee375e40/c=98-0-2081-1492&amp;r=x408&amp;c=540x405/local/-/media/Indianapolis/Indianapolis/2014/02/10//1392040640000-20140208-gav-so3-082.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 2.9463713872246444e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Thomas Wilkie during a June 2019 court appearance. (Aristide Economopoulos | NJ Adva                    /)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/603747311098496097/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0003127753734588623,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "President Donald Trump holds a rally at the Wildwoods Convention Center in the boardwalk in Wildwood on Tuesday. (Aristide Economopoulos | NJ Advance Media for NJ.com/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/595080375867311201/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 1.935752334247809e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Mike \"\"\"\"The Situation\"\"\"\" Sorrentino walks out of the MLK Federal Courthouse with his fiancee Lauren Pesce after a hearing in April 2017. Sorrentino was sentenced to eight months in prison for tax evasion on October 5, 2018. (Aristide Economopoulos   NJ Advance Media for NJ.com)\"\"\"",
+     "imageUrl": "https://www.nj.com/resizer/IFcgzl24G_wOGjKhnLT13eBJ3Oo=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/XOSS7B2CD5CSFA4ONEK37C2Y2I.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.2842250168323517,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Rep. Josh Gottheimer on the phone in his Washington congressional office. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.lehighvalleylive.com/resizer/MvhfJ3IaByIitd7HlpkH4Bf09Qk=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/ZP2R6MV355BXDEBWYGV3WQEQA4.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00047704577445983887,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Kevin Baker, left, and Sean Washington have spent 25 years behind bars for murders they say they did not commit. (Aristide Economopoulos/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/594219508337443937/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 7.233295036712661e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Mike \"\"\"\"The Situation\"\"\"\" Sorrentino walks out of the MLK Federal Courthouse with his fiancee, Lauren Pesce, after a hearing in April 2017. Sorrentino was sentenced to eight months in prison for tax evasion on Oct. 5, 2018. (Aristide Economopoulos ",
+     "imageUrl": "https://www.silive.com/resizer/IFcgzl24G_wOGjKhnLT13eBJ3Oo=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/XOSS7B2CD5CSFA4ONEK37C2Y2I.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.2842250168323517,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "NYPPA President Bruce Cotler presents Aristide Economopoulos | NJ Advance Media with The Canon Photographer of the Year Award at the 198 Gallery in Brooklyn on May 17, 2018",
+     "imageUrl": "https://images.squarespace-cdn.com/content/56d9c4787c65e401653dd1c6/1526620797666-SQSVO5A1M9L9R52MPHKM/poy.jpg?format=1000w&content-type=image%2Fjpeg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 1.583804260008037e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A man delivering food for Grub Hub navigates his way through the pedestrian area of Jersey City's Newark Ave. in March of 2020. A group of restaruants in town is coming together to build its own delivery network. (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/1Gyl1tHQUOJYQgMU9xvuADdKvVQ=/300x225/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/FEZMCAVAWNB5DKU4ROSHDQKIS4.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0018410086631774902,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Irvington High School's 2019 toast off at the school and prom at the Westmount Country Club with students dancing to the music played by Posh DJs. Wednesday June 12, 2019. (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/-Gq3nOx3cQQNKGgZU-jmcaKeL3o=/300x225/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SKKIXJL24FAODOIV7DIOK3ORPA.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0005945563316345215,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "House Speaker Nancy Pelosi and Gov. Phil Murphy at the New Jersey Democratic Conference in September 2019. (Aristide Economopoulos   NJ Adva                    /)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/595601120197919841/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.02975669503211975,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy has formed a special task force to probe a controversial tax incentive program. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.nj.com/resizer/falYK_XO-lQtPliWxcehOEhf_58=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/KVFODYGS5RCTJGXBO6NC6FY7YQ.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.001606374979019165,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "State Assembly Minority Leader Jon Bramnick, R-Union, is pictured at the Statehouse in Trenton. (Aristide Economopoulos/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/590928185307546721/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0002098679542541504,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A firefighter stands looks over the scene after a jet crashed into a building near Teterboro Airport in Carlstadt, N.J., Monday, May 15, 2017. (Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "http://3lq1ku40fh612q5lii5rfl0n.wpengine.netdna-cdn.com/wp-content/uploads/2017/05/ap_9c525f358da34c758da1dccab91ff4a8-620x413.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00020706653594970703,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In this June 26, 2018 photo, Bergen County Prosecutors Office and Sheriff's Department investigate a body found in the home of Giants cornerback Janoris Jenkins in Fair Lawn, N.J. Authorities have identified the dead man as Roosevelt Rene, a family friend of Jenkins. (Aristide Economopoulos/The Star",
+     "imageUrl": "https://i.dailymail.co.uk/1/2018/06/27/23/wire-3451424-1530137246-352_634x463.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0057010650634765625,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bill Baroni and Bridget Anne Kelly and the case of Bridgegate will play out before the U.S. Supreme Court on Tuesday ((Aristide Economopoulos | NJ Advance Media for NJ.com/)()(Aristide Economopoulos and Pattti Sapone | NJ Advance Media for NJ.com/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/589795374985790561/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 4.776088462676853e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pope Francis waves to people gathered on the street as he is driven through New York City to St. Patrick's Cathedral to conduct an evening prayer service, Thursday, Sept. 14, 2015. (Aristide Economopoulos/The Star Ledger via AP, Pool)",
+     "imageUrl": "https://media.nbcconnecticut.com/images/popemobile.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0009399652481079102,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy resists comparisons between Newark's water crisis and Flint's. But in both cases, authorities claimed the water was safe after test results had shown it was not. (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/BYxFXv8gw477MHW1AKrpgwzGIO8=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/4JA5EEHCTFCCFH7RWH4I7AATAE.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.000361025333404541,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A firefighter stands looks over the scene after a jet crashed into a building near Teterboro Airport in Carlstadt, N.J., Monday, May 15, 2017. (Aristide Economopoulos/NJ Advance Media via AP)",
+     "imageUrl": "https://twt-thumbs.washtimes.com/media/image/2017/05/15/jet_crash_42802_c0-194-4646-2902_s885x516.jpg?70aa54b774887039f3f55393bc4a33f5872c8c7b",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00029966235160827637,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A view of headstones inside the Gate of Heaven Cemetery in East Hanover, N.J. A lawsuit alleged that  Catholic Cemeteries in the Archdiocese of Newark illegally sell headstones and private mausoleums, then don't pay required tax on them. Photo courtesy of Aristide Economopoulos/The Star-Ledger",
+     "imageUrl": "https://religionnews.com/wp-content/uploads/2014/03/thumbRNS-NJ-BUSINESS033114.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.004331141710281372,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy, First Lady Tammy Murphy and their four children.(Aristide Economopoulos/NJ Advance Media)",
+     "imageUrl": "https://image.nj.com/home/njo-media/width600/img/politics_impact/photo/mvote09jpg-b8fdbe3ea14c70ba.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0011050999164581299,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "U.S. Sen. Cory Booker greets supporters at his 2020 presidential campaign hometown kickoff at Military Park in Newark on April 13, 2019. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.nj.com/resizer/qbEQwF73_Ughq8PMm1kgz4ID__g=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/FI53PJZJ3ZAQRP4LNRXYYZROVI.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 8.058054663706571e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy an leaders of the state Legislature are at odds over the millionaires tax. But he wants their members to weigh in. (Aristide Economopoulos | NJ Advance Media)",
+     "imageUrl": "https://www.nj.com/resizer/PUsMwFuW08XfJcv7ClFVevN9W_4=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/JBFERWAGT5ABZPFWSSRUEEATSQ.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00038999319076538086,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Water floods Landis Avenue in Sea Isle Tuesday afternoon. Hurricane Sandy hits New Jersey. Photo by (Aristide Economopoulos/The Star-Ledger) Water Flood, Sea Isle City, Tuesday Afternoon, Hurricane Sandy, Cape May, My Happy Place, New Jersey, Great Places, October",
+     "imageUrl": "https://i.pinimg.com/236x/21/5c/eb/215cebeaaee503a22c3ed0f5227501f7--water-flood-tuesday-afternoon.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 3.5161428968422115e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Coldplay front man Chris Martin performs for the crowd with guitarist Jonny Buckland. Coldplay plays  at MetLife Stadium during their Head Full of Dreams tour.  Tuesday August 1, 2017. East Rutherford, NJ, USA  (Aristide Economopoulos | NJ Advance Media for NJ.com) NJ Advance Media for NJ.com",
+     "imageUrl": "https://www.nj.com/resizer/x4saJLQkaUq3kep11FV9VT5q5D8=/300x225/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/MWDCB36FKJBHBAWV2Z5CHBYQMQ.JPG",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.002732694149017334,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "While near the fire, Paterson Fire Chief Brian McDermott listens to Paterson Mayor Paterson Mayor Andre Sayegh.    (Aristide Economopoulos | NJ Adva                    /)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/620401972266386529/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.001931697130203247,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Firefighters respond after a jet crashed into a building near Teterboro Airport in Carlstadt, N.J., Monday, May 15, 2017. (Aristide Economopoulos/NJ Advance Media via AP)",
+    "Former Gov. Jim McGreevey, the chair of the  New Jersey Reentry Program talks to participants at their Newark office. (Aristide Economopoulos   NJ Advance Media)    (Aristide Economopoulos   NJ Adva/)",
+    "Protestors chant in Terminal B at the Newark International Airport prior to addressing the media, in Newark, NJ., Thursday March 16, 2017. A diverse group of advocates and immigrant New Jerseyans gathered to condemn Trump's updated travel ban. (Aristide Economopoulos/NJ Advance Media via AP)",
+    "Phil Murphy address a group of labor unions during a 2017 rally with Senate President Stephen Sweeney. (Aristide Economopoulos)",
+    "In this June 26, 2018 photo, Bergen County Prosecutors Office and Sheriff's Department investigate a body found in the home of Giants cornerback Janoris Jenkins in Fair Lawn, N.J. Authorities have identified the dead man as Roosevelt Rene, a family friend of Jenkins. (Aristide Economopoulos/The Star",
+    "\"\"\"Hundreds of mourners remember the life of Alexis \"\"\"\"Lexi\"\"\"\" Faye, the 17-year-old Newton High School student killed last weekend in a crash a day after her prom, at a vigil at the school's athletic field. Wednesday May 15, 2019. (Aristide Economopoulos ",
+    "Carla Breccia, center, and Julian Botta, right, recite the Hippocratic Oath with fellow class of 2017 Rutgers medical students at the end of the white coat ceremony for new Robert Wood Johnson Medical School students in New Brunswick.(Aristide Economopoulos/The Star-Ledger )",
+    "The Goethals Bridge spans the Arthur Kill linking Elizabeth, New Jersey, bottom, with the Howland Hook area of Staten Island, New York. ARISTIDE ECONOMOPOULOS/THE STAR-LEDGER Photo: Economopoulos, Aristide, SL / The Star Ledger",
+    "Kevin Baker, left, and Sean Washington have spent 25 years behind bars for murders they say they did not commit. (Aristide Economopoulos | NJ Advance Media for NJ.com) (Aristide Economopoulos/)",
+    "Brendan Gill and Phil Murphy in Newark during the campaign.\u00a0(Aristide Economopoulos / NJ Advance Media)"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 6,
+   "mentionsFound": 6,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 6,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 124,
+   "totalIncludingLowConfidence": 130,
+   "rows": [
+    {
+     "text": "Murphy's chief counsel, Matt Platkin, will join U.S. Sen. Cory Booker's staff for Trump's impeachment trial. (Aristide Economopoulos | NJ Adva/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/588617635699541089/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 7.440523040713742e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A VIDA NO VAZIO Joan Didion em seu apartamento em Nova York. A velhice chegou logo depois das perdas (Foto: Aristide Economopoulos/Star Ledger/Corbis)",
+     "imageUrl": "http://s2.glbimg.com/-Y7-rxBEi0Emr7PkbYQnyon7jAUXORv4caHwnObw5YBWrrWMeNXMJG3n55TIl-6F/e.glbimg.com/og/ed/f/original/2012/08/16/744_joan_didion_01.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0008649826049804688,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Lamar V enters Mercer County Superior Court, Tuesday, Dec. 11, 2018. (Photos by Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.nj.com/resizer/WHCHW2IuMiSMmH1GF8hCb10tMo0=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/63OILXVMYFEWDP4KZK7FS3QQVI.jpeg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.00040593743324279785,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Hoboken Fall Arts & Music Festival returns on Sept. 27. (Aristide Economopoulos/The Star-Ledger)",
+     "imageUrl": "https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.nj.com/home/njo-media/width2048/img/entertainment_impact/photo/18682309-standard.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0003186464309692383,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Murphy's chief counsel, Matt Platkin, will join U.S. Sen. Cory Booker's staff for Trump's impeachment trial. (Aristide Economopoulos | NJ Adva/)",
+    "A VIDA NO VAZIO Joan Didion em seu apartamento em Nova York. A velhice chegou logo depois das perdas (Foto: Aristide Economopoulos/Star Ledger/Corbis)",
+    "David Lamar V enters Mercer County Superior Court, Tuesday, Dec. 11, 2018. (Photos by Aristide Economopoulos | NJ Advance Media for NJ.com)",
+    "The Hoboken Fall Arts & Music Festival returns on Sept. 27. (Aristide Economopoulos/The Star-Ledger)"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 15,
+   "mentionsFound": 15,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 15,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 94,
+   "totalIncludingLowConfidence": 109,
+   "rows": [
+    {
+     "text": "\"1ST PLACE - Aristide Economopoulos \u2013 NJ Advance Media \u2013 \"\"Foggy Sunny Kickball\"\"\"",
+     "imageUrl": "https://nyppa.org/wp-content/gallery/2020-pictorial/01st_08954.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0083845853805542,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cory Booker at shown at his April 2019 kickoff rally in Newark. (Aristide Economopoulos | NJ Adva/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/605167406500267105/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 2.4689141355338506e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gov. Phil Murphy (left) laughs with state Senate President Stephen Sweeney (center) in Secaucus last year. (Aristide Economopoulos   NJ Adva                    /)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/605167156041352289/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.0010024607181549072,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Albert Hall in Waretown hosts the Ocean County Bluegrass Festival on Sept. 13. (Aristide Economopoulos/The Star-Ledger)",
+     "imageUrl": "https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.nj.com/home/njo-media/width2048/img/entertainment_impact/photo/18682289-standard.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.006358236074447632,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cory Booker at his April 2019 kickoff rally in Newark. (Aristide Economopoulos | NJ Adva/)",
+     "imageUrl": "https://nordot-res.cloudinary.com/c_limit,w_360,f_auto,q_auto:eco/ch/images/603641901061325921/origin_1.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 2.4689141355338506e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The USA's Maurice Edu, left, gets by Ecuador's Antonio Valencia in the 1st half. Ecuador won 1-0. U.S. Men Soccer team vs. Ecuador at Red Bulls stadium. Tuesday October 11, 2011. HARRISON, NJ, USA. Photo by (Aristide Economopoulos/The Star-Ledger)",
+     "imageUrl": "https://i.pinimg.com/736x/f4/55/59/f455591f47da95da5035644317bebaf4.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.002316385507583618,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Students at Beth Medrash Govoha, a yeshiva in Lakewood. (Aristide Economopoulos | NJ Advance Media for NJ.com)",
+     "imageUrl": "https://www.nj.com/resizer/ZBhsRiKqCQR8AbQ1GQdTXvhOXP4=/600x0/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/25YK2VXNFVD7XF62JN7ATD5N6M.jpg",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": 0.07932272553443909,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"1ST PLACE - Aristide Economopoulos \u2013 NJ Advance Media \u2013 \"\"Foggy Sunny Kickball\"\"\"",
+    "Cory Booker at shown at his April 2019 kickoff rally in Newark. (Aristide Economopoulos | NJ Adva/)",
+    "Gov. Phil Murphy (left) laughs with state Senate President Stephen Sweeney (center) in Secaucus last year. (Aristide Economopoulos   NJ Adva                    /)",
+    "Albert Hall in Waretown hosts the Ocean County Bluegrass Festival on Sept. 13. (Aristide Economopoulos/The Star-Ledger)",
+    "Cory Booker at his April 2019 kickoff rally in Newark. (Aristide Economopoulos | NJ Adva/)",
+    "The USA's Maurice Edu, left, gets by Ecuador's Antonio Valencia in the 1st half. Ecuador won 1-0. U.S. Men Soccer team vs. Ecuador at Red Bulls stadium. Tuesday October 11, 2011. HARRISON, NJ, USA. Photo by (Aristide Economopoulos/The Star-Ledger)",
+    "Students at Beth Medrash Govoha, a yeshiva in Lakewood. (Aristide Economopoulos | NJ Advance Media for NJ.com)"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 295,
+   "mentionsFound": 295,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 295,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 442,
+   "totalIncludingLowConfidence": 737,
+   "rows": [
+    {
+     "text": "While being presented by her escort, her father Rodney Taylor, Sanai Tiara Taylor smiles at him. Aristide Economopoulos | NJ Advance Media for NJ.com\n\nAs it turned out, Kylie Juanita Lanay Queen was more than a queen in name only that Saturday. She was chosen as the cotillion\u2019s female monarch, along",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Newly-crowned Queen Kylie Queen is greeted by her family after the ceremony. Aristide Economopoulos | NJ Advance Media for NJ.com\n\nLike most of the other debs, Queen was presented at the cotillion by her father, Walter Queen, also dressed for the occasion in a black suit and tie.\n\nWalter Queen, the ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Debutant Saniah Jane Foster is escorted by her father Floyd at the start of the cotillion. Aristide Economopoulos | NJ Advance Media for NJ.com\n\nNobody knows Jersey better than N.J.com. Sign up to get breaking news alerts straight to your inbox.",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Roberta Beauford, left, the cotillion's production manager, talks to the Debutantes and their Escorts during rehearsal. Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Members of the 71st Cotillion court dance to \"Boogie Down\" by singer Al Jarrau during the ceremony. Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Debutant Tatiana Libreros is escorted during the ceremony by her brother Luis Libreros. Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "During the ceremony, Kylie Queen presents herself while with her father Walter Queen. Aristide Economopoulos | NJ Advance Media for NJ.com",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerPreston Pinkett III, president and chief executive of City National Bank, is heading up an effort to turn around the struggling community bank based in downtown Newark.\n\nOne of the questions Preston Pinkett III faced when he met his new regulators sounded a bit ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-Ledger During a two-hour town hall in deeply Democratic West New York, in Hudson County, Christie criticized the Legislature for not putting forward a bill that eliminates future sick leave payouts altogether, and for not allowing towns to opt out of civil service.\n\nL",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerJoseph Vas, center, enters the Federal Courthouse in Newark this morning. Vas was sentenced to 6 1/2 years in prison.\n\nVas' attorney Alan Zegas said under federal regulations the former four-term mayor could be released from prison after serving slightly more th",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerKindergarten teacher Margaret Baffige comforts a student during the first day of class at Irene E. Feldkirchner Elementary School in Green Brook on Wednesday, Sept. 5. A new list of suggested changes would impact the way business is done at public schools in New",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerBeacon resident Bill Matsikoudis checks his phone while in the living room of his apartment at the Beacon.\n\n\"Things got worse, and people got more and more pessimistic,\" said Becky Woods, an international human resources representative who bought a condo about t",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Seen from outside the window, a worker cleans up a classroom at the Union Beach Memorial School in Monmouth County. The school was heavily damaged by Hurricane Sandy.Aristide Economopoulos/The Star-Ledger\n\nIn Union Beach, school officials are working to find temporary classrooms for 720 students aft",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Bush train shed at the closed Central Railroad of New Jersey Terminal, also know as the Communipaw Terminal located in Liberty State Park in Jersey City. The terminal was the port of entry to millions of immigrants who were processed and came Ellis Island. Aristide Economopoulos | NJ Advance Med",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Off the coast from Liberty State Park in Jersey City, the Pink Supermoon rises by the Statue of Liberty.  Aristide Economopoulos | NJ Advance Media\n\nThe 1,212-acre Liberty State Park (200 Morris Pesin Drive, Jersey City) offers views of the Manhattan skyline, the Statue of Liberty and Ellis Island. ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cheryl Mack has owned and is running the Bridge Art Gallery with her husband Christopher for the past five years. They have new shows monthly. Aristide Economopoulos | NJ Advance Media\n\nThe Bridge Art Gallery (99 Broadway, Bayonne; 201.443.8921), the vision of Christopher and Cheryl Mack, is intende",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gerardo Leon has a workout while visting Lincoln Harbor Park in Weehawken which is part of the Hudson Bike Loop.  Aristide Economopoulos | NJ Advance Media\n\nThe Hudson Bike Loop offers folks an opportunity to explore Hudson County\u2019s waterfront on two wheels. But for those who would rather walk, run ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "People can rent kayaks at the Laurel Hill Paddling Center in Secaucus as part of a program through the Hackensack Riverkeeper. Aristide Economopoulos | NJ Advance Media",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A woman is seen inside a store along Bergenline Avenue in West New York as the outside is reflected in a storefront window.  Aristide Economopoulos | NJ Advance Media",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos / The Star-LedgerCo-owner Alison Hender is concerned that she doesn\u2019t have NFL merchandise so she can sell to her customers at the Stadium Shop at Gateway Mall in Newark. The store was opened 14 years ago by his father, co-owner Norman Leventhal.\n\nIt should be a time of pure j",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerRichard Canton, 16, a trumpet member of the Metuchen High School Marching Band adjusts his hat prior to performing. The Color Guard and Marching Band will performing in the 2012 Orange Bowl.\n\nMessenger suspects the booking company saw a video of the band at a co",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerJohn Adler in a 2009 file photo. His widow, Shelley Adler plans to run for his old congressional seat.\n\nTRENTON \u2014 The widow of former Democratic U.S. Rep. John Adler announced today she plans to run for his old seat.\n\nShelley Adler wants to run this November in ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerBrook Lopez addresses the media at the team's breakup day. Notice he is wearing basketball shoes, and not the protective boot he had worn after his March foot injury\n\nBrook Lopez spoke to reporters today for the first time since his season was officially ended A",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gene Lesnick, 85, who is staying at the shelter, talks to volunteer Jessie Lichter, 14, while he has \"Princess\" on his lap. Aristide Economopoulos/The Star-Ledger\n\nOn Saturday, a band played some jazz and covered Beatles tunes. On Sunday, a dozen women from the shelter boarded a bus to a local salon",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerPrior to the viewing of the documentary historian Clem Price talks about the riots and what led to them. Local police are invited to the showing of Revolution 67 and the NJ Historical Society's exhibit on the Newark and other New Jersey cities.\n\nNEWARK \u2014 The len",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerMatt Peltz was in an accident that resulted in head trauma. He was treated at Children's Specialized Hospital. He recovered enough to go on to college, Penn State, and became a rehab counselor himself at CSH.\n\nMARLBORO \u2014 He was a star at Marlboro High School. Ra",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerMatt Peltz, 23, left, jokes with Leighton Heisey, 14, while tutoring her as a rehabilitation aide. Last year Heisey suffered brain trauma from falling from a horse, and in 2004 Peltz also had severe brain injury when he was hit by a van. Because of the experienc",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerPeople stand on the corner of Broad and Green streets in Newark after Newark City Hall and other area building were evacuated after the 5.9-magnitude earthquake in August 2011.\n\nFloors shook, bottles rattled, bells jingled, and scores of New Jersey residents up ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerFormer Net Kerry Kittles is optimistic the NBA lockout will eventually be settled and the league will play this season.\n\nSo, Monday is the drop-dead date, according to NBA commissioner David Stern, for the NBA and its players to reach some kind of an agreement o",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerMike Malbrough, left, the Director of Orng Ink, the youth studio at IronWorks Gallery, paints as Houston Clerizier, 18, Jermaine Sutherland, 19, and Patricia Rogers, 21, work on their art projects. Photos of the after-school art making program with artist in res",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA mural on a building located on South Jefferson St. near the IronWorks Gallery. Photos of the after-school art making program with artist in residence at IronWorks Gallery in the ValleyArts district.\n\nThe Baron\u2019s galleries and its 100-seat performance space are",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA painted mural on Tompkins St. across from the IronWorks Gallery. Photos of the after-school art making program with artist in residence at IronWorks Gallery in the ValleyArts district.\n\nEven more important, these artists are involved in every aspect of the dis",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "(Aristide Economopoulos/The Star-LedgerAs a generator provides power to her house Lisa Guida talks to her son Andrew, 12, while her daughter Jenna, 19, talks to her friend Ross Bergen, 20, outside her house in Springfield Tuesday. The Guidas were one of hundreds of thousands of families still withou",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerInvestigators look at the plane's landing gear after it ran past the end of the runway at Teterboro Airport.\n\nTETERBORO \u2014 Authorities say a private jet landing at New Jersey's Teterboro Airport overshot the runway but was stopped by an arrester bed, which crumbl",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA plane overran the runway but was stopped prior to going into route 46 by an arrester bed.",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerPerth Amboy superintendent Janine Caffrey. Caffrey has been asked to resign because of her issues with the school board.\n\nPERTH AMBOY \u2014 Less than a year into her term as Perth Amboy's school superintendent, Janine Caffrey may soon be looking for a new job.\n\nThe ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerGiants quarterback Eli Manning walks away from the line of scrimmage after his team was penalized for a delay of game call in the first quarter of New York's 36-25 loss to Seattle.\n\nAntrel Rolle \u201cdefinitely\u201d heard a whistle. Osi Umenyiora \u201cthought\u201d he did. And M",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA file photo of a 2010 Newark car accident. Statistics show that fatalities on N.J. roads have increased in 2011.\n\nThere were 594 fatal accidents on the state\u2019s highways, main streets and back roads resulting in 635 deaths last year, the most since 2007, accordi",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/Star-LedgerThe center of a tumor is located on the left of a patient with lung cancer on a scan from a CT Simulator.\n\nA statewide group of 76 oncologists have consolidated their practices into a new oncology network they said will lower costs and pool resources for more than o",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerGov. Chris Christie and Senate President Stephen Sweeney enjoy a light moment in this February file photo. Sweeney offered to cap employees' contributions at 3 percent of their salaries if they chose the least expensive of several health benefit plans that would",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerNewark Mayor Cory Booker, pictured in this May photo, is denying he is on the outs with President Obama, as alleged in a New York Post article.\n\nNEWARK \u2014 The fallout from Newark Mayor Cory Booker's off-message defense of Bain Capital continued today with a repor",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-Ledger A Hummer and a school bus were some of the vehicles on display that use propane gas for fuel. A variety of fuels are being used for cars in New Jersey, including propane and natural gas. At the NJ Propane Gas Association annual meeting in Trenton, new propane c",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerOvilde was living in a Chancellor Avenue apartment with her three children.\n\nThe prosecutor said no one is sure exactly what was going on inside the second-floor apartment on Chancellor Avenue, but it appears the children may have been deprived of food for days,",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerActing Essex County Prosecutor Carolyn Murray answers questions during a press conference about the arrests of Myriam Janvier and Venette Ovilde in connection with the death of Ovilde's 8-year-old daughter.\n\nIRVINGTON \u2014 The 8-year-old girl was dead, one leg was ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA dog rides in an SUV while traveling east bound on Route 10 in Livingston.\n\nThere is no greater vision of happiness than that of a dog with his head hanging out an open car window, his jowls flapping in the wind.\n\nAnd yet, our lawmakers are locked in debate ove",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerAn aerial photo of the city of Newark in this file photo.\n\nSince New Jersey earthquakes are often at shallow levels in the ground, witnesses often say they can hear what sound like explosions \u2014 which is actually the breakage of rocks as it's happening.\n\nThe New ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerLuke Rodgers will be available to play when the Red Bulls face the L.A. Galaxy in the MLS playoffs on Sunday at 3 p.m. at Red Bull Arena.\n\nLos Angeles Galaxy coach Bruce Arena was asked to explain his plan for defeating the Red Bulls, the opponent his team will ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerCorrection officers watch inmates as they line up for lunch in the main day room at the Morris County Juvenile Detention Center in this file photo.\n\nThe New Jersey Supreme Court, in a groundbreaking decision this week, established a higher standard for judicial ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerAn emotional Jose Cotto talks about losing his teaching job at Newton School in Newark. Cotto was threatened by a 13-year-old student in 2009.\n\nNEWARK \u2014 The incident took place 3\u00bd years ago in a Newark classroom.\n\nJose Cotto, a first-year Spanish teacher at the ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA dog rides in an SUV while traveling east bound on Route 10 in Livingston. This photo was taken on an iPhone using the Hipstamatic app.\n\nTRENTON \u2014 This one could have some Jersey canines howling with discontent.\n\nIf a lawmaker has her way, those carefree rides ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerA mare and her foal in a field at Peretti Farms this month, which may be forced to sell their land if the Meadowlands Racetrack closes. Governor Christie has delayed the possible closure for one month\n\nThe move avoids \u2014 at least for a month \u2014 a shutdown of the f",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerRush hour at the Holland Tunnel, Jersey side, this morning.\n\nTRENTON \u2014 Gov. Chris Christie has stared down teacher unions, Democrats and his own education commissioner.\n\nBut less than 24 hours after Christie terminated the multi-billion dollar Hudson River commu",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ARISTIDE ECONOMOPOULOS Newark-born artist Chakaia Booker in front of her sculpture \"It's So Hard To Be Green\" at New Jersey Center for the Visual arts. She is having a having a major retrospective, curated by Carmen Ramos.\n\nChakaia Booker made her international debut with a 13-by-22-foot wall of shr",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerGov. Chris Christie vetoed a bill today that would have required the state to form a \"health exchange,\" a marketplace accessible online and by telephone that small employers and uninsured people would use to shop for low-cost coverage.\n\nTRENTON \u2014 Insisting the s",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerIn this 2010 file photo, State Police tend to a car accident in the north bound lanes of the Garden State Parkway near exit 149.\n\nThat's up almost 18 percent from the 195 fatalities for the same period last year.\n\nOfficials say there's no clear reason for the sp",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerHappier times: Senate President Stephen Sweeney, right, laughs with Gov. Chris Christie after Christie addressed a roast in Newark as Essex County Executive Joseph DiVincenzo Jr., left, listens to the next speaker in this March file photo. After a public falling",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerWearing his umbrella hat to keep cool Alberto Col\u00e2n, an employee of Statewide Striping, takes a break as he performs touch up paint work after they painted new traffic lanes along Bergen Street. in Newark. Hot weather in the area in this file photo from June 8, ",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerDerrick Rose brings the ball up court at the ABCD Camp in 2006.\n\nVaccaro, 72, still gets calls \u2014 from coaches, from friends \u2014 to bring the camp back. He almost did it this year. He was close to a deal with Chinese shoe company Li Ning, before it fell apart. He s",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerPaul Dudley, the president of Linden Air Service Corporation, the operator of Linden Airport, is shown in this 2008 file photo. Authorities said Dudley piloted the Bell 206 helicopter that crashed into the East River today.\n\nThere was no word on the cause of the",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerThe entrance to the walkway across the George Washington Bridge, from which it is believed Tyler Clementi jumped to his death.\n\nOn the New Jersey side, at the beginning of the George Washington Bridge\u2019s south walkway, there is a 9/11 memorial to Port Authority o",
+     "imageUrl": null,
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "While being presented by her escort, her father Rodney Taylor, Sanai Tiara Taylor smiles at him. Aristide Economopoulos | NJ Advance Media for NJ.com\n\nAs it turned out, Kylie Juanita Lanay Queen was more than a queen in name only that Saturday. She was chosen as the cotillion\u2019s female monarch, along",
+    "Newly-crowned Queen Kylie Queen is greeted by her family after the ceremony. Aristide Economopoulos | NJ Advance Media for NJ.com\n\nLike most of the other debs, Queen was presented at the cotillion by her father, Walter Queen, also dressed for the occasion in a black suit and tie.\n\nWalter Queen, the ",
+    "Debutant Saniah Jane Foster is escorted by her father Floyd at the start of the cotillion. Aristide Economopoulos | NJ Advance Media for NJ.com\n\nNobody knows Jersey better than N.J.com. Sign up to get breaking news alerts straight to your inbox.",
+    "Roberta Beauford, left, the cotillion's production manager, talks to the Debutantes and their Escorts during rehearsal. Aristide Economopoulos | NJ Advance Media for NJ.com",
+    "Members of the 71st Cotillion court dance to \"Boogie Down\" by singer Al Jarrau during the ceremony. Aristide Economopoulos | NJ Advance Media for NJ.com",
+    "Debutant Tatiana Libreros is escorted during the ceremony by her brother Luis Libreros. Aristide Economopoulos | NJ Advance Media for NJ.com",
+    "During the ceremony, Kylie Queen presents herself while with her father Walter Queen. Aristide Economopoulos | NJ Advance Media for NJ.com",
+    "Aristide Economopoulos/The Star-LedgerPreston Pinkett III, president and chief executive of City National Bank, is heading up an effort to turn around the struggling community bank based in downtown Newark.\n\nOne of the questions Preston Pinkett III faced when he met his new regulators sounded a bit ",
+    "Aristide Economopoulos/The Star-Ledger During a two-hour town hall in deeply Democratic West New York, in Hudson County, Christie criticized the Legislature for not putting forward a bill that eliminates future sick leave payouts altogether, and for not allowing towns to opt out of civil service.\n\nL",
+    "Aristide Economopoulos/The Star-LedgerJoseph Vas, center, enters the Federal Courthouse in Newark this morning. Vas was sentenced to 6 1/2 years in prison.\n\nVas' attorney Alan Zegas said under federal regulations the former four-term mayor could be released from prison after serving slightly more th"
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 2,
+   "mentionsFound": 2,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 2,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 1,
+   "totalIncludingLowConfidence": 3,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": true,
+   "count": 1,
+   "mentionsFound": 1,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 1,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 2,
+   "totalIncludingLowConfidence": 3,
+   "rows": [
+    {
+     "text": "Aristide Economopoulos/The Star-LedgerThe Powerhouse has been largely abandoned since the 1930s. But under a deal approved by its co-owner, the Port Authority, the brick-and-steel building will be deeded over to Jersey City and redeveloped into an arts/entertainment/retail complex anchoring the city",
+     "imageUrl": "https://www.nj.com/news/2011/09/jersey_citys_washington_street.html",
+     "keyword": "aristide economopoulos",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Aristide Economopoulos/The Star-LedgerThe Powerhouse has been largely abandoned since the 1930s. But under a deal approved by its co-owner, the Port Authority, the brick-and-steel building will be deeded over to Jersey City and redeveloped into an arts/entertainment/retail complex anchoring the city"
+   ],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "summary": {
+  "datasetsPresent": 7,
+  "totalDatasets": 7,
+  "totalMentions": 552,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "imageInference": {
+  "works": [
+   {
+    "workId": "images",
+    "title": "Your images",
+    "modelResults": [
+     {
+      "imageModel": "runwayml/stable-diffusion-v1-5",
+      "model": "runwayml/stable-diffusion-v1-5",
+      "name": "runwayml/stable-diffusion-v1-5",
+      "riskLevel": "MODERATE",
+      "score": 0.5456,
+      "details": {
+       "attacks": [
+        {
+         "method": "loss_based",
+         "score": 0.6419,
+         "candidateMeanLoss": 0.007822,
+         "baselineMeanLoss": 0.080246,
+         "meanZScore": -0.7297,
+         "numCandidates": 2,
+         "numBaseline": 4
+        },
+        {
+         "method": "secmi",
+         "score": 0.3459,
+         "perTimestep": [
+          {
+           "t": 100,
+           "candidateMean": 0.147339,
+           "baselineMean": 0.147644,
+           "meanZ": -0.0327
+          },
+          {
+           "t": 200,
+           "candidateMean": 0.16272,
+           "baselineMean": 0.157349,
+           "meanZ": 0.4949
+          },
+          {
+           "t": 300,
+           "candidateMean": 0.154419,
+           "baselineMean": 0.143585,
+           "meanZ": 1.8526
+          },
+          {
+           "t": 400,
+           "candidateMean": 0.117798,
+           "baselineMean": 0.111526,
+           "meanZ": 0.871
+          }
+         ],
+         "meanZScore": 0.7964
+        },
+        {
+         "method": "pia",
+         "score": 0.0497,
+         "timestep": 200,
+         "candidateMeanResidual": 0.242615,
+         "baselineMeanResidual": 0.22229,
+         "meanZScore": 3.6882
+        },
+        {
+         "method": "extraction",
+         "score": 0.2956,
+         "perImage": [
+          {
+           "imageIndex": 0,
+           "bestSimilarity": 0.7006,
+           "bestPrompt": "artwork by Aristide Economopoulos",
+           "extracted": false
+          },
+          {
+           "imageIndex": 1,
+           "bestSimilarity": 0.4819,
+           "bestPrompt": "a painting in the style of Aristide Economopoulos",
+           "extracted": false
+          }
+         ],
+         "extractionRate": 0.0,
+         "meanSimilarity": 0.5913,
+         "similarityThreshold": 0.85
+        }
+       ],
+       "summary": {
+        "contributions": {
+         "loss_based": 0.6419,
+         "secmi": 0.3459,
+         "pia": 0.0497,
+         "extraction": 0.2956
+        },
+        "best": 0.6419
+       }
+      }
+     },
+     {
+      "imageModel": "CompVis/stable-diffusion-v1-4",
+      "model": "CompVis/stable-diffusion-v1-4",
+      "name": "CompVis/stable-diffusion-v1-4",
+      "riskLevel": "LOW",
+      "score": 0.3017,
+      "details": {
+       "attacks": [
+        {
+         "method": "loss_based",
+         "score": 0.206,
+         "candidateMeanLoss": 0.151581,
+         "baselineMeanLoss": 0.056032,
+         "meanZScore": 1.6861,
+         "numCandidates": 2,
+         "numBaseline": 4
+        },
+        {
+         "method": "secmi",
+         "score": 0.355,
+         "perTimestep": [
+          {
+           "t": 100,
+           "candidateMean": 0.148621,
+           "baselineMean": 0.144531,
+           "meanZ": 0.4672
+          },
+          {
+           "t": 200,
+           "candidateMean": 0.154358,
+           "baselineMean": 0.153839,
+           "meanZ": 0.0353
+          },
+          {
+           "t": 300,
+           "candidateMean": 0.153687,
+           "baselineMean": 0.14566,
+           "meanZ": 1.1917
+          },
+          {
+           "t": 400,
+           "candidateMean": 0.118896,
+           "baselineMean": 0.113373,
+           "meanZ": 1.2919
+          }
+         ],
+         "meanZScore": 0.7465
+        },
+        {
+         "method": "pia",
+         "score": 0.1293,
+         "timestep": 200,
+         "candidateMeanResidual": 0.234863,
+         "baselineMeanResidual": 0.218781,
+         "meanZScore": 2.384
+        },
+        {
+         "method": "extraction",
+         "score": 0.3006,
+         "perImage": [
+          {
+           "imageIndex": 0,
+           "bestSimilarity": 0.6654,
+           "bestPrompt": "a painting in the style of Aristide Economopoulos",
+           "extracted": false
+          },
+          {
+           "imageIndex": 1,
+           "bestSimilarity": 0.5372,
+           "bestPrompt": "a painting in the style of Aristide Economopoulos",
+           "extracted": false
+          }
+         ],
+         "extractionRate": 0.0,
+         "meanSimilarity": 0.6013,
+         "similarityThreshold": 0.85
+        }
+       ],
+       "summary": {
+        "contributions": {
+         "loss_based": 0.206,
+         "secmi": 0.355,
+         "pia": 0.1293,
+         "extraction": 0.3006
+        },
+        "best": 0.355
+       }
+      }
+     }
+    ]
+   }
+  ],
+  "summary": {
+   "totalModels": 2,
+   "modelsProbed": 2,
+   "overallRisk": "MODERATE"
+  },
+  "models": [
+   {
+    "id": "runwayml/stable-diffusion-v1-5",
+    "name": "runwayml/stable-diffusion-v1-5"
+   },
+   {
+    "id": "CompVis/stable-diffusion-v1-4",
+    "name": "CompVis/stable-diffusion-v1-4"
+   }
+  ]
+ },
+ "reportName": "Aristide Economopoulos",
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Aristide Economopoulos",
+   "Economopoulos"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "aristide economopoulos",
+    "tier": "namematch",
+    "count": 552,
+    "captionHits": 254,
+    "longformHits": 298,
+    "longformRatio": 0.54,
+    "perDataset": {
+     "coyo700m": 41,
+     "laion2b-en": 192,
+     "laion2b-multi": 6,
+     "laion1b-nolang": 15,
+     "obelics": 295,
+     "pile": 2,
+     "c4-en": 1
+    },
+    "reason": null
+   },
+   {
+    "keyword": "economopoulos",
+    "tier": "low",
+    "count": 932,
+    "captionHits": 487,
+    "longformHits": 445,
+    "longformRatio": 0.477,
+    "perDataset": {
+     "coyo700m": 73,
+     "laion1b-nolang": 94,
+     "laion2b-en": 196,
+     "laion2b-multi": 124,
+     "obelics": 442,
+     "pile": 1,
+     "c4-en": 2
+    },
+    "reason": "documented collision"
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 7,
+   "totalDatasets": 7,
+   "credibleMentions": 552,
+   "highConfidenceMentions": 0,
+   "nameMatchMentions": 552,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 932
+  },
+  "evidenceShown": 160,
+  "evidenceWithheld": {
+   "person_photo": 51,
+   "unverified": 15,
+   "storefront": 9,
+   "merchandise": 6
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "aristide-economopoulos",
+ "cohort": "early-adopter",
+ "holistic": {
+  "datasetEvidence": 552,
+  "datasetsPresent": 7,
+  "membershipInference": 0.4236,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": true,
+  "note": "Both signals available \u2014 grade folds dataset presence and model probes."
+ }
+}

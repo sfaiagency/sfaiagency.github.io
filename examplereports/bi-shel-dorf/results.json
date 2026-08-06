@@ -1,0 +1,1916 @@
+{
+ "artistName": "Shel Dorf",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Shel Dorf",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 8,
+   "mentionsFound": 8,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 8,
+   "thirdPartyCount": 194,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 202,
+   "rows": [
+    {
+     "text": "The Steve Canyon Stock Company -- a piece of promotional art featuring the many characters of the Steve Canyon comic strip. On the back of the piece is a handwritten note from Shel Dorf to collector Bill Bush dated 1993.",
+     "imageUrl": "https://i.pinimg.com/236x/b8/ad/15/b8ad15685b081576348d9e2e2aa8a5fb--stock-companies-comic-strips.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "The Steve Canyon Stock Company -- a piece of promotional art featuring the many characters of the Steve Canyon comic strip. On the back of the piece is a handwritten note from Shel Dorf to collector Bill Bush dated 1993."
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 58,
+   "mentionsFound": 58,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 58,
+   "thirdPartyCount": 1113,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1171,
+   "rows": [
+    {
+     "text": "Mike Towry (left) and Richard Alf at their comic-dealer tables in the basement of the U.S. Grant Hotel at the March 21, 1970 one-day San Diego's Golden State Comic-Minicon. [photo by Shel Dorf]",
+     "imageUrl": "http://img.wennermedia.com/480-width/comic-con-old-3eb35021-954f-4cf2-9d8c-c51a3b5dccc2.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.002340763807296753,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "San Diego's Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_16/custom/rotator/SDGSCC_logo.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 5.8332316257292405e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Detroit Triple Fan Fair Logo Designed by Shel Dorf",
+     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_186/custom/rotator/DTFF_logo.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.00019752979278564453,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "San Diegos Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+     "imageUrl": "http://www.sheldorftribute.com/images/SDGSCC_logo.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 4.961025479133241e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "San Diegos Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+     "imageUrl": "http://www.kenkruegertribute.com/images/SDGSCC_logo.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 4.961025479133241e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Charles Schulz Snoopy roll from Comic-Con 1974 (picture by Shel Dorf courtesy of Matt Lorentz)",
+     "imageUrl": "http://www.comicconmemories.com/images/snoopy-roll-1974-small.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 2.981562829518225e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "San Diego's Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_186/custom/rotator/SDGSCC_logo.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 5.8332316257292405e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "June Foray and comic strip letterer Shel Dorf at Chuck Jones studio in Los Angeles, 1978.",
+     "imageUrl": "https://a.scpr.org/i/f41dcdf1c4011a20900f616900e29be4/47488-full.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.0051569342613220215,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Detroit Triple Fan Fair 1965 Poster Designed by Shel Dorf",
+     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_186/custom/rotator/DTFF_Poster_1965.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.0002525150775909424,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Detroit Triple Fan Fair Logo Designed by Shel Dorf",
+     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_16/custom/rotator/DTFF_logo.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.00019752979278564453,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Detroit Triple Fan Fair 1965 Poster Designed by Shel Dorf",
+     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_16/custom/rotator/DTFF_Poster_1965.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.0002525150775909424,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pencil sketch done by Shel Dorf in 1948.",
+     "imageUrl": "http://www.sheldorftribute.com/images/Shel_sketch_1948.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.0012172460556030273,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Mike Towry (left) and Richard Alf at their comic-dealer tables in the basement of the U.S. Grant Hotel at the March 21, 1970 one-day San Diego's Golden State Comic-Minicon. [photo by Shel Dorf]",
+    "San Diego's Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+    "Detroit Triple Fan Fair Logo Designed by Shel Dorf",
+    "San Diegos Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+    "San Diegos Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+    "The Charles Schulz Snoopy roll from Comic-Con 1974 (picture by Shel Dorf courtesy of Matt Lorentz)",
+    "San Diego's Golden State Comic-Con Original 1970 Logo: Design by Shel Dorf; Lettering by Scott Shaw!",
+    "June Foray and comic strip letterer Shel Dorf at Chuck Jones studio in Los Angeles, 1978.",
+    "Detroit Triple Fan Fair 1965 Poster Designed by Shel Dorf",
+    "Detroit Triple Fan Fair Logo Designed by Shel Dorf"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 8,
+   "mentionsFound": 8,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 8,
+   "thirdPartyCount": 186,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 194,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 20,
+   "mentionsFound": 20,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 20,
+   "thirdPartyCount": 511,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 531,
+   "rows": [
+    {
+     "text": "1970 1 San Diego Comic Con Program First Sdcc Rare Jack Kirby Shel Dorf",
+     "imageUrl": "https://thumbs4.ebaystatic.com/d/l180/pict/231505556596_1.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.0002900063991546631,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Alan, Ron Galella, Rick, and Todd at the original Spago on Sunset Blvd, 1988 - photo by Shel Dorf",
+     "imageUrl": "https://farm3.static.flickr.com/2131/2086735472_8fce82c428.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 0.0013793408870697021,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1970  #1 San Diego Comic Con Program first SDCC rare Jack Kirby Shel Dorf",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/kzUAAOSwqu9U48J5/s-l225.jpg",
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": 6.811886123614386e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "1970 1 San Diego Comic Con Program First Sdcc Rare Jack Kirby Shel Dorf",
+    "Alan, Ron Galella, Rick, and Todd at the original Spago on Sunset Blvd, 1988 - photo by Shel Dorf",
+    "1970  #1 San Diego Comic Con Program first SDCC rare Jack Kirby Shel Dorf"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 185,
+   "mentionsFound": 185,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 185,
+   "thirdPartyCount": 564,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 749,
+   "rows": [
+    {
+     "text": "This cultural juggernaut finds its roots in 1970 San Diego, where Shel Dorf and a tight-knit group of fans brought their dreams to life through a celebration of all things comic books. The Con has since evolved and after coming to Tokyo in 2016, Japanese fans of geek culture have been able to bask i",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Greg Bear wrote a book, more than one. (Photo by Geoffrey A. Landis)\n\nPolish up your geek glasses people, I\u2019ve just spent a month driving close to 9,000 miles with my husband and we\u2019re rolling it into high gear.\n\nFortunately for me, jocks need nerds and my husband understands my need to geek. He hel",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "San Diego Comic-Con International is a comic book convention and nonprofit multi-genre entertainment event held annually in San Diego, California, United States since 1970. The name, as given on its website, is Comic-Con International: San Diego (SDCC).  The convention was founded as the Golden Stat",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "OK, quick: if someone wanted to buy a comic book, where would they go?\n\nThe answer to that question would be significantly different depending upon the era it was asked. In 1950 or so, near the historical peak of U.S. comic book circulation, the question might have elicited some pretty sarcastic res",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "#SDCC went so viral. We could see Gal Gadot, Ryan Reynolds and many other celebrities were posting pictures on their Instagram handle along with hash tag SDCC. So lets get to know SDCC and its background! SDCC- \u201cSan Diego Comic Con International\u201d was started in 1970 by Shel Dorf, Ken Krueger and Ric",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ever heard of comic con? This event is an annual agenda for comic lovers in the world. Comic con is a multigenre convention held annually in San Diego, California, United States. Initially Comic Con was known as the Golden State Comic Book Convention. But it was later renamed the San Diego Comic Boo",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic cons were all about comic books, once.\n\nMy first comic con was in Santa Fe, NM. 1981. It was in a small bookshop called Book Mountain. Six tables, six guys, thirty or so boxes, and a lot of talk about John Byrne\u2019s latest cover for the X-Men.  Number 143 to be exact. That\u2019s the one with the Ali",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "If you are at all invested in comic books, you know that the term \u201cComic Con\u201d is shorthand for the big daddy of conventions, San Diego Comic Con (officially called Comic-Con International: San Diego). You are also probably aware, if you\u2019re the type who frequents comic book websites, that the 2013 Sa",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "By the mid-1970s, San Diego Comic Con was a major event, and the all-start guest list continued to roll. In the comic book industry, the event started becoming a highlight of the year. Creators and publishers would network, meet their peers and see old friends. However, it wasn\u2019t just comic books be",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "She\u2019s written and drawn everything from Star Wars to Marvel. Now Katie Cook, the popular writer of IDW\u2019s My Little Pony: Friendship is Magic brings her creator owned webcomic, Gronk: A monsters story to Action Lab Entertainment.Gronk tells the tale of a young monster who has turned her back on monst",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Shianndrea Toshigawa is just your average, ordinary ninja -in -training. On the run from her father, the Emperor Terminus and the Azumi ninja clan, Shianndrea trains with the legendary Toshigawa clan to embrace the mysterious power within her. Shinobi: Ninja Princess, (a six issue comic book series)",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "There are comic-cons across the country at all times of the year, but none have the mainstream recognition that San-Diego Comic-Con has. Unlike most cons San-Diego Comic-Con goes beyond just meeting comic creators and interacting with other comic book fans, it also gives fans a front row seat to the",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Transcript: also fans come from all over the world to come to comic - con Thank You! Comic - Con Comic - con is the worlds largest convention celebrating comic art It all started when a group of comic, movie, and science fiction fan came together to put on the first comic book convention Comic - con",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Many years ago, I was fortunate to tag along with my big brothers and got involved with Comic-Con.  I was 16 and did very little of anything, but was willing to do anything asked of me.  Nothing really was.  The convention back then had a focus on comic books and sci-fi fandom.  There was little of ",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Posted by Matt Dembicki at 6:51 AM No comments:\n\nDistrict Comics: An Unconventional History of Washington. DC  (Fulcrum Publishing) won the 2013 Shel Dorf Award for Original Graphic Novel of the Year, a category that included Building Stories and Parker: The Score, among others.",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It took me a while to figure out that Will Eisner has been a part of my comic reading life since I was perhaps seven or eight. Mom found Jules Fieffer\u2019s The Great Comic Book Heroes at our local library and brought it to me to read. I understood these were older works but I still recognized the main ",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Spider-Man was bitten by a radioactive spider; Wonder Woman belongs to a race of Amazonian warriors on the island Themyscira, and Batman\u2019s thirst for justice stems from the cold-blooded murder of his parents when he was just a child. These are the origin stories of some of comic books\u2019 most popular ",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Heww\u2026. Comic-Con founded by Shel Dorf, Richard Alf, Ken Krueger, and Mike Towry was known as the Golden State Comic Book Convention in the year 1970. It is an event that mainly focus on comic books and its culture, where many comic book fans gather around meet the creators and experts of their favou",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In a partnership with Markerstone Pictures, Romark Entertainment has secured the rights to the critically acclaimed comic book series HERALD.\n\nThe series, published by Action Lab Entertainment and created by writer John Reilly, and artists Tom Rogers and Dexter Weeks, tells the story of Nikola Tesla",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\nSan Diego Comic-Con International, also known as Comic-Con International: San Diego, and commonly known as Comic-Con or the San Diego Comic-Con, was founded as the Golden State Comic Book Convention and later the San Diego Comic Book Convention in 1970 by Shel Dorf and a group of San Diegans. It is",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In a simpler time, a comic book convention was little more than a humble gathering of comic book fans. But in today\u2019s age of franchises and big-budget blockbusters, the largest of these conventions have become a major destination for the Hollywood hype machine.\n\nThe modern concept of a fan conventio",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ethan Nicolle is an American comic book creator, artist, and writer. He is best known for Bearmageddon and Axe Cop, a series he created with his younger brother, Malachai. Axe Cop won top prizes as a web-based comic at both the 2011 Shel Dorf Awards and the 2011 Eagle Awards. Nicolle was also nomina",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Caliber Comics is proud to announce that CEO Gary Reed has launched a special Kickstarter for the new graphic novel Storyville: The Prostitute Murders. Where pledges, based on the contribution level, will be able to obtain original art pages from the book.\n\nStoryville is a mystery/crime tale set in ",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ted Prezelski interviews Henry Barajas, former reporter for the Arizona Daily Star and the Tucson Weekly. Barajas's latest book is La Voz de M.A.Y.O.: Tata Rambo, a graphic novel about Barajas's great grandfather, Ram\u00f3n Jaurigue, who went from being an orphan to an important community organizer in T",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "SAN DEIGO, CA- Action Lab Entertainment announced at their panel today at Comic Con International 2014 that they have secured the license to PUPPET MASTER, bringing Blade, Jester and Tunneler back to the comics page.\n\nThe series will be written and edited by Shawn Gabborin (Fracture, Snowed In) with",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Deadworld is a long running series of critically acclaimed horror and a stand-alone graphic novel provides a great introduction to the general history of how each page has a scene or character with an accompanying narrative that tells the tale of all those who lived, died and came back during the su",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lexus viewed 4 minutes ago\nSee More\nProperty Summary\nSan Diego Comic-Con International is a multigenre convention held annually in San Diego, California, United States. It was founded as the \"Golden State Comic Book Convention\" in 1970 by a group of San Diegans, which included Shel Dorf, Richard Alf",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "HANNA BARBARDIANS OF THE GALAXY VOL. 2\n\nBodie's Gonna Kick It Root Down...\n\nHANNA BARBARDIANS OF THE GALAXY VOL. 2\n\nBodie's Gonna Kick It Root Down...\n\nJust a little off the top please\n\nMy Bio\nJay P. Fosgitt is the creator of the all-ages comic book BODIE TROLL, published by Red 5 Comics.\nJay is als",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "SKYWARD,The all ages adventure series that has taken the comics industry by storm has made an indelible mark in it\u2019s short run. Called \u201cA Winner\u201d by Geeksofdoom.com Action Lab Entertainment, the new gold standard in comic book entertainment is proud to announce the release of SKYWARD: Into The Woods",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The original San Diego Comic-Con committee, as drawn by Scott Shaw! and inspired by Jack Kirby. Photo by NPR - Courtesy of Scott Shaw!\n\nFifty years ago, a bunch of comics fans in San Diego decided they wanted a way to meet other fans. They were mostly teenagers \u2014 okay, and two adults \u2014 but what they",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The first ever San Diego Comic-Con took place in 1970. It was ran by Shel Dorf, Ken Krueger, and Richard Alf, who were just a couple of comic book enthusiasts. The event began as a 1 day mini event held in the U.S. Grant Hotel. This first of it\u2019s kind, the convention brought in around 100 people for",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Schulz also worked for a Roman Catholic magazine called Topix (previously Timeless Topix), lettering comic strips that had already been drawn by other cartoonists. He was good at his job, as he explained to San Diego Comic-Con International co-founder Shel Dorf in Comics Interview #47 (1987): \u201cI cou",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The original San Diego Comic-Con committee, as drawn by Scott Shaw! and inspired by Jack Kirby.\n\nFifty years ago, a bunch of comics fans in San Diego decided they wanted a way to meet other fans. They were mostly teenagers \u2014 okay, and two adults \u2014 but what they created became the pop culture phenome",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Fight Like A Girl features art by Soo Lee (Liquid City, Dim Sum Warriors) and is scheduled for a November 2014 Release.\n\nABOUT ACTION LAB ENTERTAINMENT\u2013 Formed in 2010 with the purpose of pooling their collective talents into a single, powerful entity, the members of Action Lab Entertainment have co",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "That\u2019s Jones in the center, of course, with Light (left) and fellow fan Shel Dorf. (Dorf, incidentally, was a founder of the early San Diego Comic-Con.) The Oscar is probably for his 1966 animated short The Dot and the Line; Jones was also given an honorary Oscar in 1996.\n\nJones\u2019s 1989 autobiography",
+     "imageUrl": null,
+     "keyword": "shel dorf",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "This cultural juggernaut finds its roots in 1970 San Diego, where Shel Dorf and a tight-knit group of fans brought their dreams to life through a celebration of all things comic books. The Con has since evolved and after coming to Tokyo in 2016, Japanese fans of geek culture have been able to bask i",
+    "Greg Bear wrote a book, more than one. (Photo by Geoffrey A. Landis)\n\nPolish up your geek glasses people, I\u2019ve just spent a month driving close to 9,000 miles with my husband and we\u2019re rolling it into high gear.\n\nFortunately for me, jocks need nerds and my husband understands my need to geek. He hel",
+    "San Diego Comic-Con International is a comic book convention and nonprofit multi-genre entertainment event held annually in San Diego, California, United States since 1970. The name, as given on its website, is Comic-Con International: San Diego (SDCC).  The convention was founded as the Golden Stat",
+    "OK, quick: if someone wanted to buy a comic book, where would they go?\n\nThe answer to that question would be significantly different depending upon the era it was asked. In 1950 or so, near the historical peak of U.S. comic book circulation, the question might have elicited some pretty sarcastic res",
+    "#SDCC went so viral. We could see Gal Gadot, Ryan Reynolds and many other celebrities were posting pictures on their Instagram handle along with hash tag SDCC. So lets get to know SDCC and its background! SDCC- \u201cSan Diego Comic Con International\u201d was started in 1970 by Shel Dorf, Ken Krueger and Ric",
+    "Ever heard of comic con? This event is an annual agenda for comic lovers in the world. Comic con is a multigenre convention held annually in San Diego, California, United States. Initially Comic Con was known as the Golden State Comic Book Convention. But it was later renamed the San Diego Comic Boo",
+    "Comic cons were all about comic books, once.\n\nMy first comic con was in Santa Fe, NM. 1981. It was in a small bookshop called Book Mountain. Six tables, six guys, thirty or so boxes, and a lot of talk about John Byrne\u2019s latest cover for the X-Men.  Number 143 to be exact. That\u2019s the one with the Ali",
+    "If you are at all invested in comic books, you know that the term \u201cComic Con\u201d is shorthand for the big daddy of conventions, San Diego Comic Con (officially called Comic-Con International: San Diego). You are also probably aware, if you\u2019re the type who frequents comic book websites, that the 2013 Sa",
+    "By the mid-1970s, San Diego Comic Con was a major event, and the all-start guest list continued to roll. In the comic book industry, the event started becoming a highlight of the year. Creators and publishers would network, meet their peers and see old friends. However, it wasn\u2019t just comic books be",
+    "She\u2019s written and drawn everything from Star Wars to Marvel. Now Katie Cook, the popular writer of IDW\u2019s My Little Pony: Friendship is Magic brings her creator owned webcomic, Gronk: A monsters story to Action Lab Entertainment.Gronk tells the tale of a young monster who has turned her back on monst"
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 1,
+   "mentionsFound": 1,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 1,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": true,
+   "count": 1,
+   "mentionsFound": 1,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 1,
+   "thirdPartyCount": 3,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 4,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Brenda Starr Reporter",
+   "Hagar the Horrible",
+   "Kerry Drake",
+   "Shel Dorf"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "shel dorf",
+    "tier": "namematch",
+    "count": 281,
+    "captionHits": 94,
+    "longformHits": 187,
+    "longformRatio": 0.665,
+    "perDataset": {
+     "coyo700m": 8,
+     "laion2b-en": 58,
+     "laion2b-multi": 8,
+     "obelics": 185,
+     "laion1b-nolang": 20,
+     "pile": 1,
+     "c4-en": 1
+    },
+    "reason": null
+   },
+   {
+    "keyword": "hagar the horrible",
+    "tier": "thirdparty",
+    "count": 1834,
+    "captionHits": 1388,
+    "longformHits": 446,
+    "longformRatio": 0.243,
+    "perDataset": {
+     "coyo700m": 143,
+     "laion1b-nolang": 348,
+     "laion2b-en": 777,
+     "laion2b-multi": 120,
+     "obelics": 443,
+     "c4-en": 3
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   },
+   {
+    "keyword": "kerry drake",
+    "tier": "thirdparty",
+    "count": 598,
+    "captionHits": 491,
+    "longformHits": 107,
+    "longformRatio": 0.179,
+    "perDataset": {
+     "coyo700m": 42,
+     "laion2b-en": 295,
+     "laion2b-multi": 35,
+     "laion1b-nolang": 119,
+     "obelics": 107
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   },
+   {
+    "keyword": "brenda starr reporter",
+    "tier": "thirdparty",
+    "count": 139,
+    "captionHits": 125,
+    "longformHits": 14,
+    "longformRatio": 0.101,
+    "perDataset": {
+     "coyo700m": 9,
+     "laion1b-nolang": 44,
+     "laion2b-en": 41,
+     "laion2b-multi": 31,
+     "obelics": 14
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 7,
+   "totalDatasets": 7,
+   "credibleMentions": 281,
+   "highConfidenceMentions": 0,
+   "nameMatchMentions": 281,
+   "thirdPartyPropertyMentions": 2571,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 51,
+  "evidenceWithheld": {
+   "unverified": 170,
+   "person_photo": 35,
+   "storefront": 9,
+   "unrelated": 4,
+   "derivative": 7,
+   "merchandise": 1
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-shel-dorf",
+ "cohort": "billy-ireland",
+ "collection": "Shel Dorf Collection",
+ "summary": {
+  "datasetsPresent": 7,
+  "totalDatasets": 7,
+  "totalMentions": 281,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 281,
+  "datasetsPresent": 7,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

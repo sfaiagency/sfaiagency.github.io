@@ -1,0 +1,1925 @@
+{
+ "artistName": "Scott Willis",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Scott Willis",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 28,
+   "mentionsFound": 28,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 28,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 28,
+   "rows": [
+    {
+     "text": "Presenting the findings to the CTCN Advisory Board (Photo: Scott Willis",
+     "imageUrl": "https://www.iied.org/sites/default/files/styles/main-image-16-9/public/2018-03-21_ctn_meeting.jpg?itok=5Ilw4r3T",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Scott Willis and Danielle Carey Tolan work to educate the public about the upcoming referendum to be placed on the Nov. 8 ballot. (Photos by Anna Skinner",
+     "imageUrl": "https://youarecurrent.com/wp-content/uploads/2016/07/CIW-COVER-0726-Referendum3-720x464.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/odvjngtpep4ynyt7thcd",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/h4hpycqizghzh9uveoql",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zito's controversial signing has recently paid big dividends. (Scott Willis/Creative Commons",
+     "imageUrl": "http://www.neontommy.com/sites/default/files/users/user630/Barry%20Zito-1.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Presenting the findings to the CTCN Advisory Board (Photo: Scott Willis",
+    "Scott Willis and Danielle Carey Tolan work to educate the public about the upcoming referendum to be placed on the Nov. 8 ballot. (Photos by Anna Skinner",
+    "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+    "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+    "Zito's controversial signing has recently paid big dividends. (Scott Willis/Creative Commons"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 151,
+   "mentionsFound": 151,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 151,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 151,
+   "rows": [
+    {
+     "text": "Into the Unknown by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.473624042/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.1184454706381075e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Samurai Jack by Scott Willis                                                                                                                                                                                 More",
+     "imageUrl": "https://i.pinimg.com/736x/8f/24/9c/8f249c9b010bda8f7ca65f8a3f542baa.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.000122143974294886,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This Is It by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.427993903/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.9282240828033537e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
+     "imageUrl": "http://s3-us-west-2.amazonaws.com/ktoo/2014/05/Salmon-Creek-2009-comparison2.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 4.101921513210982e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Show Yourself by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.533940633/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.00029405951499938965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Fondos de Samurai Jack, por Scott Wills. Samurai Jack backgrounds by Scott Willis. Cartoon Network, Cartoon Background, Animation Background, Environment Concept Art, Environment Design, Samurai Jack Background, Illustrations, Illustration Art, Bg Design",
+     "imageUrl": "https://i.pinimg.com/236x/c1/e7/eb/c1e7ebb3085b9e960f2fb7ac3b778572--lwren-scott-scott-wills.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 5.936095021752408e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mercy by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.339418863/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.00011432671453803778,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
+     "imageUrl": "http://ktoo.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/Salmon-Creek-2009-comparison2-300x224.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.3022825442021713e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Here & There by Scott Willis Piano",
+     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.288685529/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 2.7089559807791375e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Category: NATURE   \"\"\"\"Moose Parked in a No-Parking Zone\"\"\"\" by Scott Willis, Easy Park Alaska, a division of Anchorage Community Development Authority, Anchorage\"\"\"",
+     "imageUrl": "https://i.pinimg.com/736x/ac/a3/d6/aca3d67d20ad2f29e47eba91df1780b5.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 7.24782730685547e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Here & There by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.288685529/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 2.7089559807791375e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Channels at the upper end of Salmon Creek may be the source of much of the turbidity in the lake during spring runoff. (Photo courtesy Scott Willis/Alaska Electric Light and Power)",
+     "imageUrl": "http://ktoo.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/Salmon-Ck-channels-2-604x650.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.099083965527825e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Here Tonight by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.332393565/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 3.950328391510993e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Utility Box Art by Scott Willis in San Jose",
+     "imageUrl": "https://kcet.brightspotcdn.com/dims4/default/faf67a0/2147483647/strip/true/crop/580x382+0+0/resize/580x382!/quality/90/?url=http%3A%2F%2Fkcet-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkl%2Ffiles%2Fatoms%2Farticle_atoms%2Fwww.kcet.org%2Farts%2Fartbound%2Fassets_c%2F2013%2F10%2FBox%20by%20Scott%20Willis%20in%20San%20Jose-thumb-580x382-62394.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 6.146231316961348e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "You Say by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.339418615/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 4.2755946196848527e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Animation Background by Scott Willis",
+     "imageUrl": "https://i.pinimg.com/236x/e7/98/35/e79835bb577ffb35b36a22975bc9c537.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.017008334398269653,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"KCK kitchen cabinets - A testimonial submitted by Submitted by SCOTT WILLIS : \"\" Were very happy with the cabinet quality and finished kitchen look, our organization looks forward to working with Kitchen Cabinet Kings on our future remodeling projects. \"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/4a/06/75/4a06752fff3b7a6b1985af7fc7586085.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 9.804570026972215e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Channels at the upper end of Salmon Creek may be the source of much of the turbidity in the lake during spring runoff. (Photo courtesy Scott Willis/Alaska Electric Light and Power)",
+     "imageUrl": "http://s3-us-west-2.amazonaws.com/ktoo/2014/05/Salmon-Ck-channels-2.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 5.218460501055233e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Here with Me by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.426610986/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 4.060021456098184e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Into the Unknown by Scott Willis Piano",
+    "Samurai Jack by Scott Willis                                                                                                                                                                                 More",
+    "This Is It by Scott Willis Piano",
+    "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
+    "Show Yourself by Scott Willis Piano",
+    "Fondos de Samurai Jack, por Scott Wills. Samurai Jack backgrounds by Scott Willis. Cartoon Network, Cartoon Background, Animation Background, Environment Concept Art, Environment Design, Samurai Jack Background, Illustrations, Illustration Art, Bg Design",
+    "Mercy by Scott Willis Piano",
+    "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
+    "Here & There by Scott Willis Piano",
+    "\"\"\"Category: NATURE   \"\"\"\"Moose Parked in a No-Parking Zone\"\"\"\" by Scott Willis, Easy Park Alaska, a division of Anchorage Community Development Authority, Anchorage\"\"\""
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 27,
+   "mentionsFound": 27,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 27,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 27,
+   "rows": [
+    {
+     "text": "Murals by Scott Willis at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto:eco,w_500/v1/wescover-user-uploaded/i1arvhkjhimt6vc9vrv2",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 2.9762728104287817e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/i1arvhkjhimt6vc9vrv2",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 8.458953857370943e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/rab2jdtjsaqcgcchfprl",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 9.070387932297308e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Speechless by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.359822123/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 3.9637929148739204e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Speechless by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/alb.359822123/500x500.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 3.7244204577291384e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Murals by Scott Willis at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
+    "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
+    "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
+    "Speechless by Scott Willis Piano",
+    "Speechless by Scott Willis Piano"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 63,
+   "mentionsFound": 63,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 63,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 63,
+   "rows": [
+    {
+     "text": "Undrunk by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.369305919/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.00010253117216052487,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Last Hurrah by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/alb.370944272/500x500.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 6.637939804932103e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/dzk71ls8npb5jju0yo2h",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.1391645784897264e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Last Hurrah by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.370944272/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 3.425447357585654e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gratitude by Scott Willis",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.428945221/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.0002949237823486328,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto:eco,w_500/v1/wescover-user-uploaded/fbvtrs4zna5iotsv9lbj",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 6.558253517141566e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Undrunk by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/alb.369305919/500x500.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.00010540419316384941,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto:eco,w_500/v1/wescover-user-uploaded/h4hpycqizghzh9uveoql",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.0044922191809746e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dexter's Laboratory by Scott Willis",
+     "imageUrl": "http://i.pinimg.com/236x/95/29/bd/9529bd80eb865741ef091c1a92f790bc.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.0008015036582946777,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Terminal Paradise by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.346488979/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 2.380037767579779e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Blueskin Resilient Communities Trust manager Scott Willis. Photos by Gerard O'Brien.",
+     "imageUrl": "https://www.odt.co.nz/sites/default/files/styles/odt_story_slideshow/public/story/2016/06/blueskin_resilient_communities_trust_manager_scott_573ebb8f75.JPG?itok=-Yf_1Ba_",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 0.0007399320602416992,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Undrunk by Scott Willis Piano",
+    "Last Hurrah by Scott Willis Piano",
+    "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
+    "Last Hurrah by Scott Willis Piano",
+    "Gratitude by Scott Willis",
+    "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
+    "Undrunk by Scott Willis Piano",
+    "Murals by Scott Willis at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+    "Dexter's Laboratory by Scott Willis",
+    "Terminal Paradise by Scott Willis Piano"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 363,
+   "mentionsFound": 363,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 363,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 363,
+   "rows": [
+    {
+     "text": "Photo by fotografierende from Pexels\n\nMoneySense readers know our investing philosophy well: Buy for the long-term, favour low-cost exchange-traded funds and diversify across geographies, sectors and asset classes. Yes, we\u2019re pretty boring, but we\u2019re not entirely dull\u2014we know how to have fun from ti",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "More used to running businesses than running machines, there was still a hugely competitive streak amongst fellow businesses with the quickest 5K ran by Scott Willis, of local building firm Macplan North West, getting his personal best of 20 mins 51 seconds.",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Producer Alison Ballance leans into the gale force winds that were blasting the proposed wind farm site and threatening to blow her off her feet as she recorded this story. Photo: Scott Willis/BRCT\n\nThe wind project will cost between five to six million dollars, and local resident and investment adv",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "While this story was being recorded the wind speed at the testing tower was around 20-21 metres per second, which is about 75 kilometres per hour. Photo: Scott Willis/BRCT\n\nThe most ambitious thing that the Blueskin Bay communities have done is to embark on a project to build three community-owned w",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Staff from wind energy consultancy Energy 3 and Pioneer Generation install a 30m wind testing tower on Porteous Hill, north of Dunedin, the site for a proposed cluster of wind turbines that would generate enough energy to power Waitati. Photo by Peter McIntosh.\nThe next significant matter in develop",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Back in the late 90\u2019s we were having special meetings in the Victoria Hotel across the road from the Bradford Central Railway station in Bradford, England. In one of the evening meetings, a man came in and sat down on the back seat by Scott Willis. Scott told me of how shocked he was when he turned ",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "An American in Paris Touring Company. Photo by Matthew Murphy.\nJerry Mulligan (McGee Maddox) is an American soldier in Paris at the end of World War II. He tears up his return ticket to the U.S. and decides to stay in Paris to pursue his passion for painting. He sees a beautiful and mysterious woman",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "May 28, 2018\nFinance and Investing\nBy Scott Willis\n\nThis article originally appeared on Grizzle, which PotNetwork is thrilled to be partnering with to bring you occasional features highlighting everything you need to know in the marijuana stock market. Scott Willis is the co-founder and head of rese",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "LOVE, HEARTBREAK AND HISTORY LESSONS: With a new album, \u2018Rhinestoned,\u201d just released, Jason Ringenberg is back on the road, doing what he does best. He appears for an early show at Eddie\u2019s Attic Saturday, June 5. Photo credit: Scott Willis\n\nSat., June 5 Jason Ringenberg, Eddie\u2019s Attic, 7 p.m. show \u2014",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Scott Willis and Danielle Carey Tolan work to educate the public about the upcoming referendum to be placed on the Nov. 8 ballot. (Photos by Anna Skinner)\n\nParents of students in the Westfield Washington Schools district will have more to decide this fall than which school supplies to buy.\n\nThe end ",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Taking another step towards Reconciliation\n\nSpanning 2022\u20132024, the \u2018Innovate\u2019 RAP is all about implementing initiatives and actions to achieve the APA\u2019s vision for Reconciliation.\n\nDeveloped by a working group led by Scott Willis, the APA\u2019s first Aboriginal National President, and including CEO Anj",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Peace and Social Justice Groups Call for Diversion of Military Spending to Human Needs in the U.S.\n\nby Scott Willis, published on WAER, March 3, 2022\n(Press clippings from a sibling group with much overlap)",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "By Scott Willis and Olivia Proia\n\nThe bitter cold temperatures and the high utility bills that follow might have many Central New Yorkers wondering if there\u2019s a more efficient, environmentally friendly way to heat their homes.\n\nIt turns out heat pumps could be the answer, and residents have a chance",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marijuana stocks weekly investor roundup: Analysis of the week's most important events in the cannabis industry (May 4)\n\nMay 9, 2019\nFinance and Investing\nBy Scott Willis\n\nAn interesting interview with the CFO of TGOD\n\nBottom Line: Some very interesting information came out in this interview on what",
+     "imageUrl": null,
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Photo by fotografierende from Pexels\n\nMoneySense readers know our investing philosophy well: Buy for the long-term, favour low-cost exchange-traded funds and diversify across geographies, sectors and asset classes. Yes, we\u2019re pretty boring, but we\u2019re not entirely dull\u2014we know how to have fun from ti",
+    "More used to running businesses than running machines, there was still a hugely competitive streak amongst fellow businesses with the quickest 5K ran by Scott Willis, of local building firm Macplan North West, getting his personal best of 20 mins 51 seconds.",
+    "Producer Alison Ballance leans into the gale force winds that were blasting the proposed wind farm site and threatening to blow her off her feet as she recorded this story. Photo: Scott Willis/BRCT\n\nThe wind project will cost between five to six million dollars, and local resident and investment adv",
+    "While this story was being recorded the wind speed at the testing tower was around 20-21 metres per second, which is about 75 kilometres per hour. Photo: Scott Willis/BRCT\n\nThe most ambitious thing that the Blueskin Bay communities have done is to embark on a project to build three community-owned w",
+    "Staff from wind energy consultancy Energy 3 and Pioneer Generation install a 30m wind testing tower on Porteous Hill, north of Dunedin, the site for a proposed cluster of wind turbines that would generate enough energy to power Waitati. Photo by Peter McIntosh.\nThe next significant matter in develop",
+    "Back in the late 90\u2019s we were having special meetings in the Victoria Hotel across the road from the Bradford Central Railway station in Bradford, England. In one of the evening meetings, a man came in and sat down on the back seat by Scott Willis. Scott told me of how shocked he was when he turned ",
+    "An American in Paris Touring Company. Photo by Matthew Murphy.\nJerry Mulligan (McGee Maddox) is an American soldier in Paris at the end of World War II. He tears up his return ticket to the U.S. and decides to stay in Paris to pursue his passion for painting. He sees a beautiful and mysterious woman",
+    "May 28, 2018\nFinance and Investing\nBy Scott Willis\n\nThis article originally appeared on Grizzle, which PotNetwork is thrilled to be partnering with to bring you occasional features highlighting everything you need to know in the marijuana stock market. Scott Willis is the co-founder and head of rese",
+    "LOVE, HEARTBREAK AND HISTORY LESSONS: With a new album, \u2018Rhinestoned,\u201d just released, Jason Ringenberg is back on the road, doing what he does best. He appears for an early show at Eddie\u2019s Attic Saturday, June 5. Photo credit: Scott Willis\n\nSat., June 5 Jason Ringenberg, Eddie\u2019s Attic, 7 p.m. show \u2014",
+    "Scott Willis and Danielle Carey Tolan work to educate the public about the upcoming referendum to be placed on the Nov. 8 ballot. (Photos by Anna Skinner)\n\nParents of students in the Westfield Washington Schools district will have more to decide this fall than which school supplies to buy.\n\nThe end "
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 3,
+   "mentionsFound": 3,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 3,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 3,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": true,
+   "count": 3,
+   "mentionsFound": 3,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 3,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 3,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Scott Willis"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "scott willis",
+    "tier": "namematch",
+    "count": 638,
+    "captionHits": 269,
+    "longformHits": 369,
+    "longformRatio": 0.578,
+    "perDataset": {
+     "coyo700m": 28,
+     "laion2b-en": 151,
+     "laion2b-multi": 27,
+     "laion1b-nolang": 63,
+     "obelics": 363,
+     "pile": 3,
+     "c4-en": 3
+    },
+    "reason": null
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 7,
+   "totalDatasets": 7,
+   "credibleMentions": 638,
+   "highConfidenceMentions": 0,
+   "nameMatchMentions": 638,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 54,
+  "evidenceWithheld": {
+   "unverified": 449,
+   "person_photo": 100,
+   "storefront": 19,
+   "unrelated": 3,
+   "explicit": 3,
+   "merchandise": 5,
+   "derivative": 1
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-scott-willis",
+ "cohort": "billy-ireland",
+ "collection": "Scott Willis Collection",
+ "summary": {
+  "datasetsPresent": 7,
+  "totalDatasets": 7,
+  "totalMentions": 638,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 638,
+  "datasetsPresent": 7,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

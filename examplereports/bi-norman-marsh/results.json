@@ -1,0 +1,1676 @@
+{
+ "artistName": "Norman Marsh",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Norman Marsh",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 93,
+   "mentionsFound": 93,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 76,
+   "nameMatchCount": 17,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 93,
+   "rows": [
+    {
+     "text": "You wait 12 months for one then 3 turn up !! by Norman Marsh Commended Section B",
+     "imageUrl": "https://amazon.clikpic.com/wesseximage/images/You_wait_12_months_for_one_then_3_turn_up__by_Norman_Marsh_Commended_Section_B.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "312) Dan Dunn Dailies by Norman Marsh from 1941 Size: Large 3 x 10 inches Rare!",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/d5ab6692663c67235b3fb64d5ced6012-300.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stairs to the top by Norman Marsh Commended Section B",
+     "imageUrl": "https://amazon.clikpic.com/wesseximage/images/Stairs_to_the_top_by_Norman_Marsh_Commended_Section_B.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "310 Dan Dunn Dailies By Norman Marsh From 1942 Size Large 3 X 10 Inches Rare",
+     "imageUrl": "https://www.accenthomedecorfurnishing.org/photos/250/310-dan-dunn-dailies-by-norman-marsh-from-1942-size-large-3-x-10-inches-rare-1730/173853383983_1.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Eye's Open by Norman Marsh Commended Section B",
+     "imageUrl": "https://amazon.clikpic.com/wesseximage/images/Eyes_Open_by_Norman_Marsh_Commended_Section_B.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dan Dunn Sunday by Norman Marsh from 9/4/1938 Tabloid Page Size!",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/aea2192148cafe7ee1f1416800c263ea-300.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "You wait 12 months for one then 3 turn up !! by Norman Marsh Commended Section B",
+    "312) Dan Dunn Dailies by Norman Marsh from 1941 Size: Large 3 x 10 inches Rare!",
+    "Stairs to the top by Norman Marsh Commended Section B",
+    "310 Dan Dunn Dailies By Norman Marsh From 1942 Size Large 3 X 10 Inches Rare",
+    "Eye's Open by Norman Marsh Commended Section B",
+    "Dan Dunn Sunday by Norman Marsh from 9/4/1938 Tabloid Page Size!"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 293,
+   "mentionsFound": 293,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 270,
+   "nameMatchCount": 23,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 293,
+   "rows": [
+    {
+     "text": "\"A panel from the comic strip \"\"Dan Dunn\"\", published in Famous Funnies #6, December 1934.\"",
+     "imageUrl": "https://www.codedread.com/comicbooks/wp-content/uploads/2018/12/dan-dunn-1024x606.png",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 0.0001780092716217041,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Big Little Book:Miscellaneous, Big Little Book Dan Dunn Related Group (Whitman, 1930s-40s)Condition: Average VF-.... (Total: 4 Comic Books)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F0%2F2%2F1%2F6%2F10216868%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 4.281090514268726e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Norman Marsh's Fly Box by Norman Marsh.",
+     "imageUrl": "https://fishingmag.co.nz/wp-content/uploads/2015/02/norman-marsh-flyboxt-1200.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": 0.00016421079635620117,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dan Dunn Sunday by Norman Marsh from 1/23/1938 Tabloid Page Size!",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/K9sAAOSw5xpbYNxY/s-l225.jpg",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 0.0021892786026000977,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ophelia Pratt Presents Dan Dunn #9 (Tijuana Bible, 8-Pager), Anonymous; Based on characters created by Norman Marsh",
+     "imageUrl": "https://bookzangle.com/images/books/00373/023048.jpg",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 3.36593366228044e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dan Dunn From Red Ryder Comics: Collection of Dan Dunn Comic Strips From Red Ryder Comics",
+     "imageUrl": "https://m.media-amazon.com/images/I/51WeR70hzCL._AC_UY218_ML3_.jpg",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 0.00012999773025512695,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Norman Marsh's Fly Box by Norman Marsh.",
+     "imageUrl": "https://fishingmag.co.nz/wp-content/uploads/2015/02/norman-marsh-flybox-320.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": 0.00021225214004516602,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gloucester: Deacon Dan Dunn blesses palm ashes with holy water during an Ash Wednesday service at St. Ann Church yesterday afternoon. Ash Wednesday is the first day of Lent, the season leading up to Easter. Photo by Kate Glass/Gloucester Daily Times",
+     "imageUrl": "https://photos.smugmug.com/Gloucester-Daily-Times/ARCHIVE/March-2011/i-RHsspxd/0/38677673/M/110309_GT_KGL_ASHES_2-M.jpg",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 0.0012475848197937012,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Dan Dunn, Secret Operative \"\"48\"\" (Tijuana Bible, 8-Pager), Anonymous; Based on characters created by Norman Marsh\"",
+     "imageUrl": "https://bookzangle.com/images/books/00373/022751.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": 2.2407544747693464e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "LOAC Essentials Volume 10: Dan Dunn, Secret Operative 48 by Norman Marsh",
+     "imageUrl": "https://images2.penguinrandomhouse.com/cover/9781631408557",
+     "keyword": "secret operative 48",
+     "tier": "high",
+     "punsafe": 0.0004614293575286865,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "310 Dan Dunn Dailies By Norman Marsh From 1942 Size Large 3 X 10 Inches Rare",
+     "imageUrl": "https://thumbs.ebaystatic.com/d/l250/pict/173853383983_1.jpg",
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": 0.00010985353583237156,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dan Dunn, Secret Operative 48 And The Crime Master. by Norman Marsh",
+     "imageUrl": "https://www.buckinghambooks.com/media/images/thumb/17117.jpg",
+     "keyword": "secret operative 48",
+     "tier": "high",
+     "punsafe": 2.496218769465486e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"A panel from the comic strip \"\"Dan Dunn\"\", published in Famous Funnies #6, December 1934.\"",
+    "Big Little Book:Miscellaneous, Big Little Book Dan Dunn Related Group (Whitman, 1930s-40s)Condition: Average VF-.... (Total: 4 Comic Books)",
+    "Norman Marsh's Fly Box by Norman Marsh.",
+    "Dan Dunn Sunday by Norman Marsh from 1/23/1938 Tabloid Page Size!",
+    "Ophelia Pratt Presents Dan Dunn #9 (Tijuana Bible, 8-Pager), Anonymous; Based on characters created by Norman Marsh",
+    "Dan Dunn From Red Ryder Comics: Collection of Dan Dunn Comic Strips From Red Ryder Comics",
+    "Norman Marsh's Fly Box by Norman Marsh.",
+    "Gloucester: Deacon Dan Dunn blesses palm ashes with holy water during an Ash Wednesday service at St. Ann Church yesterday afternoon. Ash Wednesday is the first day of Lent, the season leading up to Easter. Photo by Kate Glass/Gloucester Daily Times",
+    "\"Dan Dunn, Secret Operative \"\"48\"\" (Tijuana Bible, 8-Pager), Anonymous; Based on characters created by Norman Marsh\"",
+    "LOAC Essentials Volume 10: Dan Dunn, Secret Operative 48 by Norman Marsh"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 107,
+   "mentionsFound": 107,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 105,
+   "nameMatchCount": 2,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 107,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 115,
+   "mentionsFound": 115,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 111,
+   "nameMatchCount": 4,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 115,
+   "rows": [
+    {
+     "text": "Vintage Dan Dunn Newspaper Daily Comic Strips 1942 and 1943",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/263544570441_/Vintage-Dan-Dunn-Newspaper-Daily-Comic-Strips-1942.jpg",
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": 0.0006127655506134033,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Vintage Dan Dunn Newspaper Daily Comic Strips 1942 and 1943"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 312,
+   "mentionsFound": 312,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 280,
+   "nameMatchCount": 32,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 312,
+   "rows": [
+    {
+     "text": "Junior Chris Clarke hauls in one of his team-high three receptions for Lyons Township. Photo by Steve Metsch\n\nOne bright spot for Lyons was the play of junior Chris Clarke, who boomed several punts deep into York territory. But his best punt was an amazing, athletic effort that had the crowd buzzing",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Daniel lives in Spain and dreams of becoming a detective like Sherlock Holmes. Dan Dunn is a fictional detective created by Norman W. Marsh. He first appeared in Detective Dan: Secret Operative No. 48, a proto-comic book fromproduced by Humor Publishing.\n\nHe subsequently appeared in newspaper comic ",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Tatsu Oiye[/caption] The third installation of Daniel Djang and Zahra Bates\u2019 collaborative community cocktail event, Art Beyond the Glass, will return to Sadie Kitchen and Lounge. Top bartenders from all over Los Angeles will again pool their talents to deliver amazing cocktails and their o",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "After Norman Marsh's modest success with the Dick Tracy clone Dan Dunn comic strip, a stint in the Marines, and a short run on the detective strip Hunter Keene, he finally found the niche that suited him with Danny Hale.\n\nAfter World War II William Randolph Hearst became increasingly interested in f",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "We\u2019ve had almost 30 years of Harold Gray\u2019s Little Orphan Annie reprinted. It remains Gray\u2019s masterwork, but it wasn\u2019t his sole comic strip. Though it also began with \u201cLittle\u201d and had a red-headed child protagonist, Little Joe, which came to bear Gray\u2019s creative stamp, has equal similarities and disc",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Everybody loves the little comic strips in the newspaper, and Lebanon native Allen Saunders was no different. Born in 1899, Saunders loved newspaper comics as a kid, and would practice drawing them relentlessly, so it\u2019s no wonder he grew up to be a famous cartoonist and journalist. After graduating ",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Condition:Paper: some light tanning, a few have small archival repairs on backside, otherwise: Excellent!: Bright Colors! This is a_ KERRY DRAKE_ SUNDAY PAGE BY ALFRED ANDRIOLA. FANTASTIC ARTWORK! This was cut from the original newspaper Sunday comics se ... Read More\n\nJump to navigationJump to sear",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "March 1933\n1933 was a big year for comics \u2013 it was the year the Eastern Color Printing Company created the promotional giveaway \u201cFunnies on Parade\u201d that is now considered to be the first modern comic book. That phrase, first modern comic book, naturally implies there were precursors. The Overstreet ",
+     "imageUrl": null,
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The comic strip on top is \"The Cisco Kid\" (and to think I was a member of the Cisco Kid fan club in junior high school), while the comic on the bottom could be Dan Hale, by Norman Marsh, whose work, according to Comiclopedia, influenced the comic strip Dick Tracy.\n\nPosted by Aaron Elson at 7:26 AM N",
+     "imageUrl": null,
+     "keyword": "norman marsh",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Chris Daigle's father took this photo of television personality Soupy Sales filming a special with puppets and children in Alpine Valley in 1968, shortly after the park opened.\nPhoto by Don Daigle\nThe Concerts:\n\nTop shelf performers stepped on to the stage at AstroWorld's Southern Star Amphitheater ",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Among the better features of the Chicago Tribune Comic Book was Captain Storm. In a line-up designed to appeal to comic-book crazy kids, and to compete with The Spirit pull-out section available from the Chicago Sun, there was a lot of second-rate stuff  in the 'comic book', but Captain Storm was a ",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "+ Dan Dunn was the first fictional character to make his debut in an American comic magazine, making him the forerunner of many comic book heroes. Created by Norman Marsh, he first appeared in Detective Dan, Secret Operative No. 48, a 1933 Humor Publications magazine, which was canceled after one is",
+     "imageUrl": null,
+     "keyword": "secret operative 48",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Literally an explosion of firsts in one publication that used to be assigned to three seperate publications. Created by Norman Marsh, Dan Dunn made his big splash in newspaper comics, but started out in comic books. \"Dan Dunn\" started in a one-shot called Detective Dan - Secret Op. The short-lived c",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today, I am starting a mini-series on Mandrake, the classic character created by Lee Falk, who would bring so many memorable science fiction and crime-fighting tales to the comics page in its long, long run.\n\nWhen MANDRAKE THE MAGICIAN first saw the light of day in 1934, the world of action/adventur",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Famous Funnies #5 (December 1934) marks the first time that consecutive comic strips were reprinted together in a comic book for better reading.  This is a panel from a 4-page section of square-jawed Detective \u201cDan Dunn\u201c, Secret Operative 48, one of many hat-wearing detectives of the era (the most f",
+     "imageUrl": null,
+     "keyword": "secret operative 48",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This is a _CHARLIE CHAN_ SUNDAY PAGE BY ALFRED ANDRIOLA. FANTASTIC ARTWORK! This was cut from the original newspaper Sunday comics section of 1938 FIRST YEAR!. SIZE: ~11 X 15 INCHES (HALF FULL PAGE). PAPER: SOME HAVE LIGHT TANNING, A FEW HAVE SMALL ARCHIVAL REPAIRS, OTHERWISE: EXCELLENT! BRIGHT COLO",
+     "imageUrl": null,
+     "keyword": "dan dunn",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Junior Chris Clarke hauls in one of his team-high three receptions for Lyons Township. Photo by Steve Metsch\n\nOne bright spot for Lyons was the play of junior Chris Clarke, who boomed several punts deep into York territory. But his best punt was an amazing, athletic effort that had the crowd buzzing",
+    "Daniel lives in Spain and dreams of becoming a detective like Sherlock Holmes. Dan Dunn is a fictional detective created by Norman W. Marsh. He first appeared in Detective Dan: Secret Operative No. 48, a proto-comic book fromproduced by Humor Publishing.\n\nHe subsequently appeared in newspaper comic ",
+    "Photo by Tatsu Oiye[/caption] The third installation of Daniel Djang and Zahra Bates\u2019 collaborative community cocktail event, Art Beyond the Glass, will return to Sadie Kitchen and Lounge. Top bartenders from all over Los Angeles will again pool their talents to deliver amazing cocktails and their o",
+    "After Norman Marsh's modest success with the Dick Tracy clone Dan Dunn comic strip, a stint in the Marines, and a short run on the detective strip Hunter Keene, he finally found the niche that suited him with Danny Hale.\n\nAfter World War II William Randolph Hearst became increasingly interested in f",
+    "We\u2019ve had almost 30 years of Harold Gray\u2019s Little Orphan Annie reprinted. It remains Gray\u2019s masterwork, but it wasn\u2019t his sole comic strip. Though it also began with \u201cLittle\u201d and had a red-headed child protagonist, Little Joe, which came to bear Gray\u2019s creative stamp, has equal similarities and disc",
+    "Everybody loves the little comic strips in the newspaper, and Lebanon native Allen Saunders was no different. Born in 1899, Saunders loved newspaper comics as a kid, and would practice drawing them relentlessly, so it\u2019s no wonder he grew up to be a famous cartoonist and journalist. After graduating ",
+    "Condition:Paper: some light tanning, a few have small archival repairs on backside, otherwise: Excellent!: Bright Colors! This is a_ KERRY DRAKE_ SUNDAY PAGE BY ALFRED ANDRIOLA. FANTASTIC ARTWORK! This was cut from the original newspaper Sunday comics se ... Read More\n\nJump to navigationJump to sear",
+    "March 1933\n1933 was a big year for comics \u2013 it was the year the Eastern Color Printing Company created the promotional giveaway \u201cFunnies on Parade\u201d that is now considered to be the first modern comic book. That phrase, first modern comic book, naturally implies there were precursors. The Overstreet ",
+    "The comic strip on top is \"The Cisco Kid\" (and to think I was a member of the Cisco Kid fan club in junior high school), while the comic on the bottom could be Dan Hale, by Norman Marsh, whose work, according to Comiclopedia, influenced the comic strip Dick Tracy.\n\nPosted by Aaron Elson at 7:26 AM N",
+    "Chris Daigle's father took this photo of television personality Soupy Sales filming a special with puppets and children in Alpine Valley in 1968, shortly after the park opened.\nPhoto by Don Daigle\nThe Concerts:\n\nTop shelf performers stepped on to the stage at AstroWorld's Southern Star Amphitheater "
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 1,
+   "mentionsFound": 1,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 1,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 0,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Dan Dunn",
+   "Norman Marsh",
+   "Secret Operative 48"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "dan dunn",
+    "tier": "high",
+    "count": 744,
+    "captionHits": 471,
+    "longformHits": 273,
+    "longformRatio": 0.367,
+    "perDataset": {
+     "coyo700m": 73,
+     "laion2b-en": 230,
+     "laion2b-multi": 85,
+     "laion1b-nolang": 83,
+     "obelics": 272,
+     "pile": 1
+    },
+    "reason": null
+   },
+   {
+    "keyword": "secret operative 48",
+    "tier": "high",
+    "count": 99,
+    "captionHits": 91,
+    "longformHits": 8,
+    "longformRatio": 0.081,
+    "perDataset": {
+     "coyo700m": 3,
+     "laion2b-en": 40,
+     "laion2b-multi": 20,
+     "laion1b-nolang": 28,
+     "obelics": 8
+    },
+    "reason": null
+   },
+   {
+    "keyword": "norman marsh",
+    "tier": "namematch",
+    "count": 78,
+    "captionHits": 46,
+    "longformHits": 32,
+    "longformRatio": 0.41,
+    "perDataset": {
+     "coyo700m": 17,
+     "laion2b-en": 23,
+     "laion2b-multi": 2,
+     "laion1b-nolang": 4,
+     "obelics": 32
+    },
+    "reason": null
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 6,
+   "totalDatasets": 7,
+   "credibleMentions": 921,
+   "highConfidenceMentions": 843,
+   "nameMatchMentions": 78,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 35,
+  "evidenceWithheld": {
+   "unverified": 722,
+   "person_photo": 76,
+   "storefront": 32,
+   "merchandise": 14,
+   "unrelated": 18,
+   "explicit": 4
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-norman-marsh",
+ "cohort": "billy-ireland",
+ "collection": "Norman Marsh Collection of Dan Dunn Secret Operative 48, Hunter Keene, and Danny Hale Tearsheets and Proofs",
+ "summary": {
+  "datasetsPresent": 6,
+  "totalDatasets": 7,
+  "totalMentions": 921,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 921,
+  "datasetsPresent": 6,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

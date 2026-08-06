@@ -1,0 +1,3379 @@
+{
+ "artistName": "Jim Borgman",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Jim Borgman",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 48,
+   "mentionsFound": 48,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 11,
+   "nameMatchCount": 37,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 48,
+   "rows": [
+    {
+     "text": "Amazon Com How Are You Feeling Today Blue Poster Print By Jim Borgman 18 X 24 Inches Motivational Poster Art Print In Korean Language Prints Posters Prints",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/512fx6fTT2L._AC_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A cover gallery for the comic book Betty and Veronica Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Characters, Comic Character, Character Design, Archie Betty And Veronica, Zits Comic",
+     "imageUrl": "https://i.pinimg.com/236x/d3/44/d6/d344d6b42149a7012d4cc48a7f53b35c--betty-and-veronica-archie-comics.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Trillion Quotes By Jim Borgman: We have a balance of $ .32 in",
+     "imageUrl": "https://www.wisefamousquotes.com/images/trillion-quotes-by-jim-borgman-1243152.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feeling Flashcards Drawn By Jim Borgman-Pulitzer Prize Winner by Time Promotions",
+     "imageUrl": "https://media.30seconds.com/tipitem/orig/Feeling-Flashcards-Drawn-By-Jim-Borgman-Pulitzer-Prize-Win-1532-8e09333d9b-1483989731.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? Art Poster Print by Jim Borgman, 18x24",
+     "imageUrl": "https://m.media-amazon.com/images/I/51gujdrAyeL.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Time Promotions Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner - Best Flashcards for Baby: 15 entertaining games",
+     "imageUrl": "https://storage.googleapis.com/sopicky/image/Feelings-Playing-Cards-by-Jim-Borgman-Pulitzer-Prize-Winner.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? by Jim Borgman",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jim-borgman-how-are-you-feeling-today_u-L-F8JUF40.jpg?src=gp&w=300&h=375",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? by Jim Borgman - 18 X 24",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2203/6217/products/artistica_fine_art_b325_580x.jpg?v=1557155936",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? by Jim Borgman",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jim-borgman-how-are-you-feeling-today_u-l-f8juf40.jpg?w=300&h=300",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "zits comic strips archives",
+     "imageUrl": "https://asylum-hosting.net/img/994357.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "zits comic strips archives",
+     "imageUrl": "https://campmicha.com/img/fb139e4ff36aa2af4fc5c24dced8e327.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://m.media-amazon.com/images/I/71DnFNGDFBL._AC_UL320_ML3_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How are you feeling today? A vocabulary of emotions by Jim Borgman",
+     "imageUrl": "https://www.simonwhatley.co.uk/content/writing/how-are-you-feeling-today-vocabulary-of-emotions/vocabulary-of-emotions.png",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? 2x Matted 22x28 Large Gold or Black or Gold Ornate Framed Art Print by Jim Borgman",
+     "imageUrl": "https://cdn3.volusion.com/hvwur.eejcn/v/vspfiles/photos/2xBOL-PC-IMA-B325-1.jpg?v-cache=1542147564",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? Art Poster Print by Jim Borgman 24x36",
+     "imageUrl": "https://m.media-amazon.com/images/I/51IxmvA0CbL.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits for - Caarton Zits Comic, Honey Toast, Todays Comics, Calvin And Hobbes, Comedy Central, Humor, Love Reading, Just For Laughs, Comic Strips",
+     "imageUrl": "https://i.pinimg.com/236x/a9/c9/16/a9c9169483d2c4fbafd6d96741ba020a.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images1.searchub.com/feelings-playing-cards-borgman-pulitzer-AfICszEHtGCOpQ.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? Fantasy Art Poster Print by Jim Borgman, Art Poster Print by Jim Borgman, Print Title: How Are You Feeling Today? Artist: Jim Borgman Size: 18 x 24 inches Framed Art Prints, Poster Prints, Posters, Framed Wall, Feelings Chart, Thunder And Lightning, Lightning Storms, Thera",
+     "imageUrl": "https://i.pinimg.com/236x/4d/78/31/4d7831038ec88806b0d72968870a497a--psychology-major-forensic-psychology.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://www.beaubebe.ca/shop/78937/feelings-playing-cards-by-jim-borgman-pulitzer-prize-winner.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Amazon Com How Are You Feeling Today Blue Poster Print By Jim Borgman 18 X 24 Inches Motivational Poster Art Print In Korean Language Prints Posters Prints",
+    "A cover gallery for the comic book Betty and Veronica Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Characters, Comic Character, Character Design, Archie Betty And Veronica, Zits Comic",
+    "Trillion Quotes By Jim Borgman: We have a balance of $ .32 in",
+    "Feeling Flashcards Drawn By Jim Borgman-Pulitzer Prize Winner by Time Promotions",
+    "How Are You Feeling Today? Art Poster Print by Jim Borgman, 18x24",
+    "Time Promotions Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner - Best Flashcards for Baby: 15 entertaining games",
+    "How Are You Feeling Today? by Jim Borgman",
+    "How Are You Feeling Today? by Jim Borgman - 18 X 24",
+    "How Are You Feeling Today? by Jim Borgman",
+    "zits comic strips archives"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 142,
+   "mentionsFound": 142,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 27,
+   "nameMatchCount": 115,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 142,
+   "rows": [
+    {
+     "text": "\"This shirt was given to the crew back in '88. It says \"\"Porkopolis Aeronautical Society.\"\" The design of the flying pig was drawn by Cincinnati artist Jim Borgman. / Image: Phil Armstrong, Cincinnati Refined // Published: 5.15.18\"",
+     "imageUrl": "http://static-11.sinclairstoryline.com/resources/media/c6327fb9-7369-4cbf-8c49-e4fd2f96f922-750_9128.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.019473671913146973,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art.com 'How Are You Feeling Today?' Framed Art Print by Jim Borgman",
+     "imageUrl": "https://media.kohlsimg.com/is/image/kohls/1385988?wid=240&hei=240&op_sharpen=1",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0007695853710174561,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "zits comic | Related Pictures zits comic strip",
+     "imageUrl": "https://i.pinimg.com/236x/72/0a/d1/720ad19922487a6fd69fab03ff62d303--the-exam-zits-comic.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0007071793079376221,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "You're Making That Face Again: Zits Sketchbook No. 13 by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/236x/17/b5/7a/17b57a19608c1a4b684f93b6de435c2e.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0009271204471588135,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for January 24, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/736x/7a/96/0d/7a960d33057e37f2597464909f9bd99a.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.04505199193954468,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "my fave zits comic strip ever - frame and add to library  zits_3.jpg 1753\u00d71275 pixels",
+     "imageUrl": "https://i.pinimg.com/236x/10/fe/1d/10fe1d5f7b98e3adfa445c28d53e3cbb.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.05861666798591614,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/21032awj3NL.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.000933915376663208,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jeremy and Dad by Jim Borgman",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/97e/162702918.jpeg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.003371983766555786,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Standard Playing Card Decks - Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner *** Check out the image by visiting the link.",
+     "imageUrl": "https://i.pinimg.com/236x/30/b9/b2/30b9b2017fb8c21ef77fd3ef6fc3d05f--therapy-games-therapy-tools.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 5.5551099649164826e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://m.media-amazon.com/images/I/71DnFNGDFBL._AC_UY218_ML3_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0007893741130828857,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "See Zits at The Comic Strips, thousands of searchable high-quality comic strips Zits Comic, Comics Kingdom, Cartoon Memes, Cartoons, Funny Comic Strips, Teenager Quotes, Calvin And Hobbes, Fun Comics, Playing Guitar",
+     "imageUrl": "https://i.pinimg.com/236x/62/4f/19/624f1928089f4984c1f8777654966a0f--im-happy-its-funny.jpg?nii=t",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.021661579608917236,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"How Are You Feeling Today\"\" Poster Print by Jim Borgman, 18 x 24 Inches Motivational Poster Art Print in Mandarin Chinese Language\"",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41cugH1jHGL.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0008245110511779785,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Creator Lynn Johnston's For Better or For Worse focuses on the adventures and daily life of the Patterson family. Zits Comic, Thats All Folks, Old Comics, Calvin And Hobbes, Tarzan, Comic Strips, Funny Things, Funny Pictures, Jokes",
+     "imageUrl": "https://i.pinimg.com/236x/73/01/2a/73012a735018aa33ec894a5c3eb0290a.jpg?nii=t",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0016535818576812744,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jeremy and Dad by Jim Borgman image",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/bf5/162702917.jpeg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.003371983766555786,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today?  Art Poster Print by Jim Borgman, 18x24",
+     "imageUrl": "https://images2.searchub.com/how-you-feeling-today-fantasy.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 8.97592144610826e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Jim Borgman Jerry Scott  Zits 2012-09-01 originally",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/zits/art_images/tn_cg4aa0d26dbeb240.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.09412267804145813,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2006) - Busted,Zits Sketchbook #6 by Jim Borgman",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/3153-1.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.01458287239074707,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51GDbiZ39AL._SL160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0001552104949951172,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for December 13, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/736x/95/75/7c/95757cf8cc24ff2e676f279935b6dc10.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0028651058673858643,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/511TLynLsBL._AC_UL160_SR109,160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00021263957023620605,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits comic book   Are We Out of the Driveway Yet?  Walmart.com",
+     "imageUrl": "https://i.pinimg.com/236x/a0/ee/22/a0ee22830804bc53ec63e9f8148b53bf--lilla-zits-comic.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.00011997664114460349,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Unzipped: Sketchbook #5 (Zits Sketchbook) by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/236x/15/76/3a/15763aeb4a088e72ed11651e6f1d99d9.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.003203779458999634,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art.com How Are You Feeling Today? Framed Art Print by Jim Borgman",
+     "imageUrl": "https://media.kohlsimg.com/is/image/kohls/1385988?wid=321&amp;hei=321&amp;op_sharpen=1&amp;fmt=jpeg&amp;qlt=85,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=1,0.8,6,0&amp;fmt=jpeg&amp;qlt=85,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=1,0.8,6,0",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0002605617046356201,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman\u2026",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/511TLynLsBL._SL148_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0002314150333404541,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Peace, Love, and Wi-Fi by Jim Borgman",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/21f/159524935.jpeg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0018062591552734375,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits by Jerry Scott & Jim Borgman - July 2014 Zits Comic, Comics Kingdom, Family Outing, Political Cartoons, Comic Strips, Make Me Smile, I Laughed, Funny Pictures, Comic Books",
+     "imageUrl": "https://i.pinimg.com/236x/75/d9/37/75d937c0487004ffad32231e6326967a--zits-comic-jerry-oconnell.jpg?nii=t",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.02853444218635559,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Especially love this Zits comic strip ~ I wish I could have my little boys back for a day here and there :)",
+     "imageUrl": "https://i.pinimg.com/736x/dc/2e/87/dc2e8790a0d6b1827a95afd5bcbc35dc.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.02126389741897583,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Busted,Zits Sketchbook #6 by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/236x/94/91/77/9491773b5bf2f1422742fce7786741a5.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00693020224571228,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for November 13, 2014 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/24/da/4c/24da4c9d1c455cff0d39a0e57dec9721--november--zits-comic.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0005128681659698486,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Retired broadcaster Jim Scott laughs as he recalls a cartoon drawn by Enquirer cartoonist Jim Borgman featuring him at his home in Lawrenceburg, Ind., on Thursday, Jan. 10, 2019. Scott retired from radio in 2015 after more than 50 years in the broadcasting business.",
+     "imageUrl": "https://www.gannett-cdn.com/presto/2019/01/15/PCIN/35356564-4035-4e81-833f-5f9287ebdf4f-011519JimScott_01.jpg?width=540&amp;height=&amp;fit=bounds&amp;auto=webp",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0001405775547027588,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2007) - Teenage Tales: Zits Sketchbook #8 (Zits Sketchbooks) by Jim Borgman",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2007/2427-1.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00031960010528564453,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Drive!: Zits Sketchbook No. 14 by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/236x/94/72/9e/94729ebb81d846149af93b789ac6e6e3.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0005006790161132812,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jeremy and Dad: A Zits Tribute-ish to Fathers and Sonsby Jim Borgman",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51%2BEFAcRCmL._SL500_OU15_SS160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0008418560028076172,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today? 2x Matted 22x28 Large Gold or Black or Gold Ornate Framed Art Print by Jim Borgman",
+     "imageUrl": "https://cdn3.volusion.com/hvwur.eejcn/v/vspfiles/photos/2xBOL-PC-IMA-B325-1.jpg?1542147564",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 7.893294969107956e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Are We an US? (A Zits Sketchbook Collection, No. 4) by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/564x/f6/2d/56/f62d56d635e423e3d2ef104236ce5b95.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0008214116096496582,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Are We Out of the Driveway Yet?: Zits Sketchbook Number 11 by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/236x/8d/f1/95/8df19572be79aa6f8a50144ec2b9277c.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0005928874015808105,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/511TLynLsBL._AC_UL160_SR109,160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00021263957023620605,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for March 31, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/736x/81/99/e8/8199e85d4050ae47d2ae4d182bc0918c--august--zits-comic.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.003071904182434082,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Jim Borgman Jerry Scott  Zits 2009-12-06 night",
+     "imageUrl": "https://www.thecomicstrips.com/properties/zits/art_images/tn_cg4b13552b992310.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.04113224148750305,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman\u2026",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/511TLynLsBL._SL281_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 1.9355898984940723e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71DnFNGDFBL._AC_UL160_SR160,160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0024151206016540527,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "How Are You Feeling Today Blue Poster Print by Jim Borgman, Motivational Art in",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/512fx6fTT2L.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0012819170951843262,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner by Time Promotions",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71DnFNGDFBL._SL3000_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0021437108516693115,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Teenage Tales: Zits Sketchbook #8 by Jim Borgman and Jerry Scott #Zits #GoComics",
+     "imageUrl": "https://i.pinimg.com/236x/9f/c9/12/9fc912df0fe005ae79a604a20e7da354.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0014739036560058594,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71%2BvyGe64qL._AC_UL160_SR109,160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0001938343048095703,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2007) - Rude, Crude, and Tattooed (Zits Sketchbook) by Jim Borgman",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2007/266-1.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00017970800399780273,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "a therapeutic treasure deck of feelings and sentence completion cards therapeutic treasures collection books feeling flashcards by jim borgman pulitzer prize",
+     "imageUrl": "http://tse3.mm.bing.net/th?id=OIP.T8jpVSAOJQ-4Nc3GbnQ0TAHaK0",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0007618069648742676,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2006) - Zits Supersized: A Zits Treasury by Jim Borgman - Zits - Fries - Burger - Soda - Good Night Dude",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/1722-1.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.016459167003631592,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Retired broadcaster Jim Scott laughs as he recalls a cartoon drawn by Enquirer cartoonist Jim Borgman featuring him at his home in Lawrenceburg, Ind., on Thursday, Jan. 10, 2019. Scott retired from radio in 2015 after more than 50 years in the broadcasting business.",
+     "imageUrl": "https://www.gannett-cdn.com/presto/2019/01/15/PCIN/35356564-4035-4e81-833f-5f9287ebdf4f-011519JimScott_01.jpg?width=540&height=&fit=bounds&auto=webp",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0001405775547027588,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Zits Guide to Living with Your Teenager by Jim Borgman image",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/8dc/162702912.jpeg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.030826330184936523,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Zits Guide to Living with Your Teenager by Jim Borgman",
+     "imageUrl": "http://i.shopmania.org/180x180/9/98/9871d5c00249781bbd1ceb402aaf0be06d6236c4.jpg?u=https%3A%2F%2Fd3by36x8sj6cra.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F7407%2F9780740791680.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.06552967429161072,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for December 13, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/736x/95/75/7c/95757cf8cc24ff2e676f279935b6dc10--august--zits-comic.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0028651058673858643,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In this February 2009\u00a0 Zits Sunday comic strip Jerry Scott and Jim Borgman offer\u00a0their own tribute...",
+     "imageUrl": "https://media4.picsearch.com/is?EmE1GleqN04soOBOCE-VFfTKYHWBeB-7T40k0Qj4SME&height=167",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0009872615337371826,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lot Of 13 ZITS Comic strip book's and others Jerry Scott & Jim Borgman",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/c2YAAOSwLTxgZQnN/s-l200.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 6.0775000747526065e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My Bad: A Zits Treasuryby Jim Borgman",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51VcrsiQbsL._SL500_OU15_SS160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0002655982971191406,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Zits Guide to Living with Your Teenager by Jim Borgman",
+     "imageUrl": "http://i.shopmania.org/180x180/4/4d/4d8eaefaac7ac914478535dfd38bcb7c74ad3140.jpg?u=https%3A%2F%2Fd20eq91zdmkqd.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F7407%2F9780740791680.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.06552967429161072,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/511TLynLsBL._SL160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00021263957023620605,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jim Borgman Editorial Cartoon Lithograph",
+     "imageUrl": "https://ebth-com-production.imgix.net/2018/09/21/19/45/33/1c2a5f05-bf76-49b7-a7ca-a428e203d618/DSC_0087.jpg?ixlib=rb-1.1.0&amp;w=400&amp;h=400&amp;fit=crop&amp;crop=&amp;auto=format",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.02939876914024353,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51GDbiZ39AL._AC_UL160_SR109,160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0001552104949951172,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits comic strip collection book",
+     "imageUrl": "https://i.pinimg.com/originals/80/6d/86/806d861d66a2571b291203d14da544f7.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.04780063033103943,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"This shirt was given to the crew back in '88. It says \"\"Porkopolis Aeronautical Society.\"\" The design of the flying pig was drawn by Cincinnati artist Jim Borgman. / Image: Phil Armstrong, Cincinnati Refined // Published: 5.15.18\"",
+    "Art.com 'How Are You Feeling Today?' Framed Art Print by Jim Borgman",
+    "zits comic | Related Pictures zits comic strip",
+    "You're Making That Face Again: Zits Sketchbook No. 13 by Jim Borgman and Jerry Scott #Zits #GoComics",
+    "Zits Comic Strip for January 24, 2015 | Comics Kingdom",
+    "my fave zits comic strip ever - frame and add to library  zits_3.jpg 1753\u00d71275 pixels",
+    "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner",
+    "Jeremy and Dad by Jim Borgman",
+    "Standard Playing Card Decks - Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner *** Check out the image by visiting the link.",
+    "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 55,
+   "mentionsFound": 55,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 8,
+   "nameMatchCount": 47,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 55,
+   "rows": [
+    {
+     "text": "Zits Comic Strip for October 15, 2014 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/85/6f/ef/856fef8b945dc805b79028c1d5f08a6e--september--fitbit.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.003403693437576294,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Cartoon for ( I freaking love this comic! Zits Comic, Make Em Laugh, Comic Strips, Jun, Yard, Comics, Cartoons, Food Art, Favorite Things",
+     "imageUrl": "https://i.pinimg.com/236x/cc/19/a6/cc19a68f568a681b72644b142ec28fb0--zits-comic-my-boys.jpg?nii=t",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.002520918846130371,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "zits-my Favorite comic Comics Story, Fun Comics, Comic Book Characters, Comic Books, Zits Comic, Make Em Laugh, Funny Memes, Hilarious, Laughing So Hard",
+     "imageUrl": "https://i.pinimg.com/236x/23/a7/8a/23a78aa79c83e725fcab8edb17de285d--zits-comic-best-comics.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.002269923686981201,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/62/bb/6f/62bb6fa8973156f06cf5d53d09d524bd.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.003469794988632202,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for July 21, 2013 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/80/60/5d/80605d3161d980a1b6b9889d2b7714c0--august--zits-comic.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.002255856990814209,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/62/bb/6f/62bb6fa8973156f06cf5d53d09d524bd--comic-strips-zits-comic-strip.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.003469794988632202,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Art.com \"\"\"\"How Are You Feeling Today?\"\"\"\" Framed Art Print by Jim Borgman    <>  @kimludcom\"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/ab/be/2a/abbe2a3ae92cff44b6eda4e5ab5e8d09.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 8.329495176440105e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits comic books",
+     "imageUrl": "https://img.letgo.com/images/df/f8/97/c3/dff897c3ff4fc51ff167ef1b293e6c15.jpeg?impolicy=img_200",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0008874237537384033,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Zits Comic Strip for October 15, 2014 | Comics Kingdom",
+    "Zits Cartoon for ( I freaking love this comic! Zits Comic, Make Em Laugh, Comic Strips, Jun, Yard, Comics, Cartoons, Food Art, Favorite Things",
+    "zits-my Favorite comic Comics Story, Fun Comics, Comic Book Characters, Comic Books, Zits Comic, Make Em Laugh, Funny Memes, Hilarious, Laughing So Hard",
+    "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
+    "Zits Comic Strip for July 21, 2013 | Comics Kingdom",
+    "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
+    "\"\"\"Art.com \"\"\"\"How Are You Feeling Today?\"\"\"\" Framed Art Print by Jim Borgman    <>  @kimludcom\"\"\"",
+    "Zits comic books"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 96,
+   "mentionsFound": 96,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 15,
+   "nameMatchCount": 81,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 96,
+   "rows": [
+    {
+     "text": "\"I dare you to say \"\"Happy Festivus!\"\" Editorial cartoon by Jim Borgman, Cincinnati Enquirer.\"",
+     "imageUrl": "https://blooper0223.files.wordpress.com/2015/12/121105borgman_600x390.jpg?w=382&",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0006646215915679932,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Asphalt comics and cartoons Make Em Laugh, Make Me Smile, Zits Comic, Very Bad, Family Humor, History Channel, Hilarious, Comic Strips, Humor",
+     "imageUrl": "https://i.pinimg.com/236x/b4/da/7b/b4da7bf5872bc1ba0dfd1190bca71d73--history-channel-the-history.jpg?nii=t",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.010625690221786499,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits comic strip   Jerry Scott and Jim Borgman, Zits, 1 Feb. 2009",
+     "imageUrl": "https://i.pinimg.com/736x/57/1f/ff/571fffb34b93e52ca66169d0161d384a.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 9.475477418163791e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Jim Borgman Jerry Scott  Zits 2009-01-28 paint",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/zits/art_images/tn_cg4a11a2c36154e0.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.002389073371887207,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Jim Borgman Jerry Scott  Zits 2009-01-27 paint",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/zits/art_images/tn_cg4a11a2c2a3f4e0.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.03241521120071411,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Road Trip Zits Sketchbook #7 by Jim Borgman Rebecca Tanquery Jerry Scott",
+     "imageUrl": "https://i.ebayimg.com/images/g/r3sAAOSwJ7RYV87x/s-l140.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.001048058271408081,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits comic book collection Richmond, V6X 2N7",
+     "imageUrl": "https://img.letgo.com/images/fb/e7/83/8d/fbe7838d076b25c9331ca20c44ee7fa8.jpeg?impolicy=img_200",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.0030297040939331055,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for September 27, 2015 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/24/2e/9f/242e9fe54b048aa4cb5ba9babb33126a.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.002819925546646118,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits Comic Strip for November 23, 2014 | Comics Kingdom",
+     "imageUrl": "https://i.pinimg.com/236x/99/54/26/9954263fe1b99b41676f0d2e9e653eb8.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.015179485082626343,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Borgblog by Jim Borgman",
+     "imageUrl": "http://www.seppo.net/e/wp-content/uploads/borgblog.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00016939640045166016,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today's Zits Comic Strip - ArcaMax Publishing",
+     "imageUrl": "http://i.pinimg.com/236x/71/97/d2/7197d28cb8b76bc932365c04012d20a3.jpg",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.004139423370361328,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Art.com \"\"How Are You Feeling Today?\"\" Framed Art Print by Jim Borgman\"",
+     "imageUrl": "https://media.kohlsimg.com/is/image/kohls/1385988?wid=500&hei=500&op_sharpen=1",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00039634108543395996,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner Time Promotions,http://www.amazon.com/dp/B00391H3D4/ref=cm_sw_r_pi_dp_lHEXsb17JJ4FY2F8",
+     "imageUrl": "https://i.pinimg.com/236x/30/b9/b2/30b9b2017fb8c21ef77fd3ef6fc3d05f.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 5.5551099649164826e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Road Trip!: Zits Sketchbook #7 (0740738143) by Jim Borgman",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/61-YPv5g%2BIL._SL160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.00013110041618347168,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Jim Borgman Jerry Scott  Zits 2014-01-19 house",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/zits/art_images/tn_cg52c63e99f0c73.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.013974547386169434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Jim Borgman Jerry Scott  Zits 2009-11-14 heat",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/zits/art_images/tn_cg4af7c74e6036f0.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.061066508293151855,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Love Zits cartoon - it is SO my teenagers! Online Comics, A Comics, Funny Cartoons, Funny Jokes, Zits Comic, Comic Page, Parenting Teens, Girl Humor, Comic Strips",
+     "imageUrl": "https://i.pinimg.com/236x/96/9e/40/969e4000a4c894e27558d2a37387c025--zits-comic-online-comics.jpg?nii=t",
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": 0.012406736612319946,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art.com How Are You Feeling Today? Framed Art Print by Jim Borgman",
+     "imageUrl": "https://media.kohlsimg.com/is/image/kohls/1385988?wid=290&amp;hei=290&amp;op_sharpen=1",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.0004929006099700928,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Random Zits: A Zits Treasuryby Jim Borgman",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51j-1bUuKwL._SL500_SS160_.jpg",
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": 0.007679730653762817,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"I dare you to say \"\"Happy Festivus!\"\" Editorial cartoon by Jim Borgman, Cincinnati Enquirer.\"",
+    "The Asphalt comics and cartoons Make Em Laugh, Make Me Smile, Zits Comic, Very Bad, Family Humor, History Channel, Hilarious, Comic Strips, Humor",
+    "Zits comic strip   Jerry Scott and Jim Borgman, Zits, 1 Feb. 2009",
+    "Comic Strip Jim Borgman Jerry Scott  Zits 2009-01-28 paint",
+    "Comic Strip Jim Borgman Jerry Scott  Zits 2009-01-27 paint",
+    "Road Trip Zits Sketchbook #7 by Jim Borgman Rebecca Tanquery Jerry Scott",
+    "Zits comic book collection Richmond, V6X 2N7",
+    "Zits Comic Strip for September 27, 2015 | Comics Kingdom",
+    "Zits Comic Strip for November 23, 2014 | Comics Kingdom",
+    "Borgblog by Jim Borgman"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 234,
+   "mentionsFound": 234,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 25,
+   "nameMatchCount": 209,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 234,
+   "rows": [
+    {
+     "text": "George assisted Bob Kane with backgrounds and lettering on the Batman feature in 1940.\n\nHe did the lettering for the Spanish language edition of the comic strip, Ripley's Believe It or Not!, from 1939 to 1940.\n\nNotes: Roussos used the pen name, Jerry Scott in conjunction with Jerry Robinson. Not to ",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Style Invitational Week 1180: Strip search \u2014 play off a line of text in a comic strip\n\n(From \"Zits,\" by Jerry Scott and Jim Borgman, King Features Syndicate, altered by Bob Staake for The Washington Post with a parody by Chris Doyle)\nBy Pat Myers\n\n(Click here to skip down to the results of Week 1176",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From an early collection of political cartoons to Magna anime in Japanese and English1, students and comic enthusiasts will find endless enjoyment from this museum's collections and exhibits. Originally, two converted classrooms in the Journalism building at The Ohio State University2, The Museum ha",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Here's a blast from the past in the form of some original art by Hank Ketcham of Dennis The Menace, sent in  by Ron Ferdinand!\n\nI\u2019ve had a few odd jobs in the past, especially during and right after college: babysitting, working at the Gap, working at a bookstore, doing paste-ups for my local newspa",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I am a regular reader of the comic strip \u201cZits,\u201d which made its debut 25 years ago this past summer. Written by Jerry Scott and illustrated by Jim Borgman, \u201cZits\u201d focuses on the experiences of Jeremy Duncan, a 17-year-old high school student.\n\nJeremy relives his junior year in high school over and o",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "What is an editorial cartoon? (Photo: Kevin Necessary)\n\nJim cast a long shadow in Cincinnati. His cartoons were full of intelligence and wit. He had strong opinions and didn\u2019t shy away from skewering those who needed to be taken down a peg. Whether you agreed with his cartoons, he made us think, and",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Did You Actually Know This Awesome Comic Strip\u2026.Teenage, the Zits way..!!\n\nIn the entire lifetime of an average human being, the time period from 13-19 yearsis considered to be the best, also popularly known as the golden years. Teenage is when people tend to have the time of their lives, this is an",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "As curator of the Billy Ireland Cartoon Library & Museum (BICLM) at Ohio State University, Jenny Robb may have one of the coolest jobs in the country. With its current holdings of original cartoons, books, manuscripts, and comic strips in the millions, the BICLM is the largest cartoon art library in",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Hello and welcome to the one hundred and twenty-sixth segment of my Tuesday's Truths series. I realize I am a bit late in my posting here on Blogger today, peeps. Let me confess that it's been one of those mornings (and into the late afternoon) which Jermey (the boy featured in the Zits comic strip ",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Duncans remind us of how families are created, how they can drive us out the door one minute and drag us back in the next, offering laughter, love, and inspiration.\" -Cincinnati Enquirer\n\n* Twice honored as the Best Newspaper Comic Strip, Zits appears in more than 1,100 newspapers and is read da",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"[Zits] is one of the most visually innovative comic strips to come along in years. Borgman's graphic pyrotechnics are the perfect complement to Scott's carefully designed layouts.\"\u2014Brian Walker, The Comics Since 1945The world is full of issues but none so pressing as those faced by a teenager. For ",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Los Angeles Times calls Zits \"one of the freshest and most imaginative comic strips.\" The world of sixteen-year-old Jeremy Duncan revolves around his insatiable \"growing boy\" appetite, lip-locking with squeeze Sarah, keeping his jerry-rigged vehicle roadworthy, and playing with his band, Goat Ch",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This is book number 18 in the Zits series.\n\nIn Zits, Jerry Scott and Jim Borgman sublimely manipulate the two seemingly disparate worlds of teenagedom and parenthood to create a strip that is equally enjoyed by teens and their parents. Twice honored as the Best Newspaper Comic Strip, Zits appears in",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "By Jerry Scott, Jim Borgman (With)\n\nThis is book number 20 in the Zits series.\n\nZits is \"one of the freshest and most imaginative strips.\" Los Angeles Times\n\nTwice honored as the Best Newspaper Comic Strip, Zits appears in more than 1,600 newspapers and is read daily by more than 45 million fans.\n\nI",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "So the other day we got an email from a woman in tears (she said) over the physical abuse suggested in this Zits strip. It prompted a significant flow of correspondence in which I worked to explain the use of metaphor and visual language in comic strips, and she stressed the permanent emotional dama",
+     "imageUrl": null,
+     "keyword": "zits strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Learning how to analyze editorial cartoons is a skill that requires practice. Below, we suggest an extended process that can be used over several days, weeks or even a school year. The strength of this process is that it does not force students to come up with right answers, but instead emphasizes v",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Two new exhibitions of original art by cartoonists Bill Watterson and Richard Thompson will delight fans of Calvin and Hobbes and Cul De Sac.The exhibitions open March 22 at the Billy Ireland Cartoon Library & Museum (BICLM) and will be on display through August 3, 2014. An opening reception on Frid",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Whether you're a teenager, the parent of one, or just remember those exciting and exasperating years, the Zits 2021 Day-to-Day Calendar will entertain you with true-to-life tales of the Duncan family from the popular comic strip.\n\nJeremy Duncan is a typical teenager\u2014more interested in pizza, guitar ",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The comic strip that ruined a friendship, rankled a newspaper and landed in court. And that was BEFORE being launched.\n\nNOTE: With some stories, the \"full disclosure\" clause cannot wait till the end, like some sort of buried, \"oh-by-the-way\" afterthought. In this case, with this story, I'm obligated",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The exhibition, curated by BICLM curator Jenny E. Robb, explores Watterson\u2019s mastery of the comic strip art form through engaging characters, thoughtful writing, and creative layouts. It will also include original art by cartoonists who influenced Watterson, chosen by the artist from the BICLM\u2019s col",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Joe Hoffecker is a native Cincinnatian who began cartooning at age 11 with a monthly comic strip for his grade school newsletter. A child of considerable dinner table political conversationalist parents, Joe gravitated towards editorial cartooning as a teen, particularly following the works of the w",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This is book number 1 in the Zits series.\n\nZits jumps from the comics page to the bookshelf, and Zits: Chillax is perfect for fans of James Patterson's Homeroom Diaries as well as the Zits comic strip!\n\nJeremy Duncan, future rock god, is going to his first real rock concert (Gingivitis rules!) witho",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A political cartoon by Jim Borgman that was published in the Cincinnati Enquirer in November of 1989 is among the works in \"Wit and Humor: American Political Cartoons,\" a new exhibit at the George H.W. Bush Presidential Library and Museum.\n\nDeborah Hill, left, her daughter, Angelikah, 11, and husban",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In a new twice-weekly feature, A Nickel's Worth interviews cartoonists from syndication, gag cartooning, comic books and the web.\n\nUp first is Norm Feuti, creator of the internationally syndicated comic strip, RETAIL, and the web comic, GILL.\n\nNorm is a triple-threat: funny, prolific, and the guy ca",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This is book number 2 in the Zits series.\n\nZits jumps from the comics page to the bookshelf, and Zits: Shredded is perfect for fans of James Patterson's Homeroom Diaries as well as the Zits comic strip!\n\nJeremy Duncan and his friends Hector and Pierce are hitting the road! That is, if they can squee",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Story Summary: With all of our focus on graphic novels, it is easy to lose track of the power of the daily comic strip. The connections between art and words and character coupled with the confines of just a few panels is something magical when done right (and painful when done wrong). SUNDAY BRUNCH",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Zits sketch by Jim Borgman!!!\n\nThis is just a sample...\n\nWe have a sketch from Lincoln Peirce of Big Nate fame!\nA Sketch from Dan Piraro!\nA sketch from Brian Bassett of Red and Rover fame!\nA sketch from Bill Holbrock of Kevin and Kell fame!\nYoung Childrens book legend Mo Willems gave us a Pigeon s",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"You must have a camera in my house!\" That's the comment Jerry and Jim get most often from readers of their comic strip. And it's probably because Zits is the best depiction of life with a teenager since, well, ever!Pimp My Lunch: Zits Sketchbook No. 10 Zits chronicles the daily lives of a teen in a",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Zits Guide to Living With Your Teenager\n\nAn indispensible and entertaining manual for parents on the verge of having a teenager, by America\u2019s favorite cartoon team.\n\nIn their award-winning comic strip Zits, artist Jim Borgman and writer Jerry Scott have succeeded in creating one of the most poigna",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "PAGE TWO featured REAL EDITORIALS  BY PUBLISHER CHARLES FOSTER KANE (No Fog On The Mirror told about the moribund condition of the local DemocRAT Party). REAL FACTS tried to get tp the bottom of those mysterious musical notes that appeared in one of Jim Borgman\u2019s editorial cartoons. Cincinnati would",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The 2009 Comics Championship: Pearls Before Swine vs. Zits\n\nStephan Pastis and Jim Borgman worked hard all of 2009 to try to produce funny comic strips. They had numerous comic strips that were funny such as Pearls' Doorstoppo or Zits' Pierce's rumor about school but these two strips are the funnies",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vote for the Funniest Zits Comic Strip of 2009\n\nThere were many more but I narrowed it down better than Garfield.\nPosted by Cracked Like An Egg at 4:58 PM 2 comments:\n\nVideos Made By My Sister, Friends, and I",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This one from Robert Ariail.\n\nHere is a bicycling/commuting comic by Jim Borgman that appeared in the Oregonian.",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Team Cul de Sac, a collection of comic art by more than 100 cartoonists (including me) to help fund research on Parkinson's disease, arrived in my mailbox yesterday. The assignment was to offer your interpretation of the characters from the comic strip Cul de Sac by Richard Thompson, who has Parkins",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The strange creatures we call children\n\nChildren do and say some mighty strange things. Our job is to love them in spite of their shenanigans.\n\nAs a parent of so many kids from so many walks of life, I am a huge fan of the comic strip Zits, by Jerry Scott and Jim Borgman. One particular strip featur",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "King Jeremy, the Wicked.\n\"Zits is the worst name for a comic strip since Peanuts.\"\n\u2014 Charles Schulz\nAdvertisement:\n\nZits is a comic strip written by Jerry Scott (creator of Baby Blues and one-time cartoonist for Nancy) and illustrated by Jim Borgman about the life of 15-year-old high school freshman",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "One of only 18 comic strips in history to top the thousand-newspaper mark, Zits now appears in more than 1,200 papers across the country and around the world. Though it displays a middle-class American teenager and his family, Zits\u2018 humor, its struggles with youth angst and issues, and its family si",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Based on the beloved and popular comic strip distributed internationally by King Features Syndicate, Zits: Shredded features more than 300 illustrations and a hilarious story arc that will have young readers clamoring for more.\n\nIn Zits: Shredded, Jeremy and his friends Hector and Pierce experience ",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Zits comic strip appears in more than 1,600 print and online news outlets and has millions of daily readers around the world.\n\nKing Features and Zits\u2019 association with AAA began in 2010 when then-15-year-old Jeremy turned 16, began lobbying his parents and, after much mayhem, finally got his dri",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "To help raise awareness and educate drivers of all ages on this serious issue affecting millions, King Features and AAA have partnered on using one of today\u2019s most popular comic strips, Zits in new driver education literature. Co-creators Jim Borgman and Jerry Scott have put a humorous twist on a se",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits, Vol. Teenage Tales is a cornucopia of recent Zits for die-hard fans everywhere. Zits can be seen in more than 1,100 newspapers, which is almost unheard of. Only 18 other comic strips have achieved that extraordinary milestone.\n\nZits Apocalypse: Are You Ready? Jerry Scott. I liked every thing a",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jim Borgman\u2019s editorial cartoons showed his blend of wit and insight as he put the spotlight on everything from global topics to problems specific to the Cincinnati riverfront.",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sometimes all you can do is laugh at the antics of teenagers\u2014and the Zits 2023 Day-to-Day Calendar is the perfect way to do that. From the classic cartoon by Jerry Scott and Jim Borgman, this calendar expertly portrays the drama and hilarity of the teenage plight.\n\nWith each page, you will roll your",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits is Comix comic strip written by cartoonist Jerry Scott and illustrated by Jim Borgman Colossus Dildo the life of Jeremy Duncan, a year-old Zits Comic high Zis junior Comif was 15 when the comic started. The comic debuted in Zit in over newspapers and has since become popular worldwide and recei",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zits is Zits Comic comic strip written by cartoonist Jerry Scott and illustrated by Jim Borgman about the life of Jeremy Duncan, a year-old [2] high school junior he was 15 when the comic started.",
+     "imageUrl": null,
+     "keyword": "zits comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Exploring Calvin and Hobbes revisits the beloved comic strip created by Bill Watterson from 1985-1995. The exhibition will feature original Calvin and Hobbes dailies and Sundays as well as specialty pieces by Watterson from his collection of more than 3,000 originals housed at the BICLM. This is onl",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic book dilemma: Tackle the coronavirus, or not?\n\nIn the 35 years that Greg Evans drew and wrote the \u201cLuann\u201d comic, he tackled many difficult subjects. Rape by date. Menstruation. Cancer.\n\nThe novel coronavirus? Evans, a San Marcos resident, observes his own form of social distancing.\n\nFor now, h",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Exploring Calvin and Hobbes revisits the beloved comic strip created by Watterson from 1985 to 1995. The exhibition will feature original Calvin and Hobbes dailies and Sundays as well as specialty pieces by Watterson from his collection of more than 3,000 originals housed at the BICLM. This is only ",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "George assisted Bob Kane with backgrounds and lettering on the Batman feature in 1940.\n\nHe did the lettering for the Spanish language edition of the comic strip, Ripley's Believe It or Not!, from 1939 to 1940.\n\nNotes: Roussos used the pen name, Jerry Scott in conjunction with Jerry Robinson. Not to ",
+    "Style Invitational Week 1180: Strip search \u2014 play off a line of text in a comic strip\n\n(From \"Zits,\" by Jerry Scott and Jim Borgman, King Features Syndicate, altered by Bob Staake for The Washington Post with a parody by Chris Doyle)\nBy Pat Myers\n\n(Click here to skip down to the results of Week 1176",
+    "From an early collection of political cartoons to Magna anime in Japanese and English1, students and comic enthusiasts will find endless enjoyment from this museum's collections and exhibits. Originally, two converted classrooms in the Journalism building at The Ohio State University2, The Museum ha",
+    "Here's a blast from the past in the form of some original art by Hank Ketcham of Dennis The Menace, sent in  by Ron Ferdinand!\n\nI\u2019ve had a few odd jobs in the past, especially during and right after college: babysitting, working at the Gap, working at a bookstore, doing paste-ups for my local newspa",
+    "I am a regular reader of the comic strip \u201cZits,\u201d which made its debut 25 years ago this past summer. Written by Jerry Scott and illustrated by Jim Borgman, \u201cZits\u201d focuses on the experiences of Jeremy Duncan, a 17-year-old high school student.\n\nJeremy relives his junior year in high school over and o",
+    "What is an editorial cartoon? (Photo: Kevin Necessary)\n\nJim cast a long shadow in Cincinnati. His cartoons were full of intelligence and wit. He had strong opinions and didn\u2019t shy away from skewering those who needed to be taken down a peg. Whether you agreed with his cartoons, he made us think, and",
+    "Did You Actually Know This Awesome Comic Strip\u2026.Teenage, the Zits way..!!\n\nIn the entire lifetime of an average human being, the time period from 13-19 yearsis considered to be the best, also popularly known as the golden years. Teenage is when people tend to have the time of their lives, this is an",
+    "As curator of the Billy Ireland Cartoon Library & Museum (BICLM) at Ohio State University, Jenny Robb may have one of the coolest jobs in the country. With its current holdings of original cartoons, books, manuscripts, and comic strips in the millions, the BICLM is the largest cartoon art library in",
+    "Hello and welcome to the one hundred and twenty-sixth segment of my Tuesday's Truths series. I realize I am a bit late in my posting here on Blogger today, peeps. Let me confess that it's been one of those mornings (and into the late afternoon) which Jermey (the boy featured in the Zits comic strip ",
+    "The Duncans remind us of how families are created, how they can drive us out the door one minute and drag us back in the next, offering laughter, love, and inspiration.\" -Cincinnati Enquirer\n\n* Twice honored as the Best Newspaper Comic Strip, Zits appears in more than 1,100 newspapers and is read da"
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 2,
+   "mentionsFound": 2,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 2,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 2,
+   "rows": [
+    {
+     "text": "Bill Watterson\n\nWilliam Boyd Watterson II (born July 5, 1958) is an American former cartoonist and the author of the comic strip Calvin and Hobbes, which was syndicated from 1985 to 1995. Watterson stopped drawing Calvin and Hobbes at the end of 1995 with a short statement to newspaper editors and h",
+     "imageUrl": null,
+     "keyword": "jim borgman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Bill Watterson\n\nWilliam Boyd Watterson II (born July 5, 1958) is an American former cartoonist and the author of the comic strip Calvin and Hobbes, which was syndicated from 1985 to 1995. Watterson stopped drawing Calvin and Hobbes at the end of 1995 with a short statement to newspaper editors and h"
+   ],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 0,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Jim Borgman",
+   "Zits comic",
+   "Zits strip"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "zits comic",
+    "tier": "high",
+    "count": 81,
+    "captionHits": 61,
+    "longformHits": 20,
+    "longformRatio": 0.247,
+    "perDataset": {
+     "coyo700m": 11,
+     "laion2b-en": 27,
+     "laion2b-multi": 8,
+     "laion1b-nolang": 15,
+     "obelics": 20
+    },
+    "reason": null
+   },
+   {
+    "keyword": "zits strip",
+    "tier": "high",
+    "count": 5,
+    "captionHits": 0,
+    "longformHits": 5,
+    "longformRatio": 1.0,
+    "perDataset": {
+     "obelics": 5
+    },
+    "reason": null
+   },
+   {
+    "keyword": "jim borgman",
+    "tier": "namematch",
+    "count": 491,
+    "captionHits": 280,
+    "longformHits": 211,
+    "longformRatio": 0.43,
+    "perDataset": {
+     "coyo700m": 37,
+     "laion1b-nolang": 81,
+     "laion2b-en": 115,
+     "laion2b-multi": 47,
+     "obelics": 209,
+     "pile": 2
+    },
+    "reason": null
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 6,
+   "totalDatasets": 7,
+   "credibleMentions": 577,
+   "highConfidenceMentions": 86,
+   "nameMatchMentions": 491,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 155,
+  "evidenceWithheld": {
+   "merchandise": 10,
+   "unverified": 273,
+   "explicit": 1,
+   "person_photo": 81,
+   "unrelated": 20,
+   "storefront": 15,
+   "derivative": 1
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-jim-borgman",
+ "cohort": "billy-ireland",
+ "collection": "Jim Borgman Collection",
+ "summary": {
+  "datasetsPresent": 6,
+  "totalDatasets": 7,
+  "totalMentions": 577,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 577,
+  "datasetsPresent": 6,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

@@ -1,0 +1,2265 @@
+{
+ "artistName": "Al Jaffee Sampling of Correspondence",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Al Jaffee Sampling of Correspondence",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 98,
+   "mentionsFound": 98,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 98,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 12,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 110,
+   "rows": [
+    {
+     "text": "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+     "imageUrl": "https://static.livebooks.com/ba6c82209c044e0682fd2896c94755e7/i/d4c9d2d97f6c4ba49c5e4517dae6ae66/1/GCuCv726gZycFxatknDdac/Jaffee%2C-Al-for-web.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Promotional Illustration By Al Jaffee",
+     "imageUrl": "https://static.livebooks.com/ba6c82209c044e0682fd2896c94755e7/i/d1c4a5be90384b9a93901972396c4645/1/GCuCv726gZycFxatknDdac/Screen%20Shot%202021-03-13%20at%207.35.14%20AM.png",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+    "Promotional Illustration By Al Jaffee"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 891,
+   "mentionsFound": 891,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 891,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 241,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1132,
+   "rows": [
+    {
+     "text": "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+     "imageUrl": "https://static.livebooks.com/ba6c82209c044e0682fd2896c94755e7/i/d4c9d2d97f6c4ba49c5e4517dae6ae66/14/4SoifmQp45JMgBnHjfgmz/Jaffee%2C-Al-for-web.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0006206333637237549,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Magazines:Mad, Mad #51-60 Group (EC, 1959-60) Condition: Average VG+. Includes #51, 52 (Christmas cover), 53, 54 (Al Jaffee art begins) 55,... (Total: 10 Comic Books)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F7%2F4%2F1374003%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0001926720142364502,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mad's Al Jaffee Spews Out Snappy Answers to Stupid Questions comic books",
+     "imageUrl": "https://www.covernk.com/Covers/S/M/Mads%20Al%20Jaffee%20Spews%20Out%20Snappy%20Answers%20to%20Stupid%20Questions/madsaljaffeespewsoutsnappyanswerstostupidquestions1.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.009477853775024414,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Al Jaffee, illustration by Drew Friedman, from Portraits of Comic Book Legends",
+     "imageUrl": "https://media2.wnyc.org/i/0/350/c/99/1/Al_Jaffee_by_Drew_Friedman_1.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 3.9852959162089974e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Magazines:Mad, Mad #88 (EC, 1964) CGC NM- 9.2 Off-white pages. Fold-in of theBeatles by Al Jaffee. Interior art by Don Martin, Mort Drucke...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F1%2F8%2F4%2F1184316%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0003612041473388672,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mad's Al Jaffee Spews Out Snappy Answers to Stupid Questions Comic Books. Mad's Al Jaffee Spews Out Snappy Answers to Stupid Questions Comics.",
+     "imageUrl": "https://www.covernk.com/Covers/L/M/Mads%20Al%20Jaffee%20Spews%20Out%20Snappy%20Answers%20to%20Stupid%20Questions/madsaljaffeespewsoutsnappyanswerstostupidquestions1.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0007676780223846436,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Secret Origins #1, April 1986 / The Adventures of Superman #427, April 1987 / Superboy #24, 1994 Series, February 1996 / Superman Vol 2 #124, Art by Ron Frenz, June 1997 / Superboy - Risk Double-Shot #1, Art by Joe Phillips & Jasen Rodriguez, February 1998 / Superman 2999 #136, July 1998 / The Adven",
+     "imageUrl": "https://f.hypotheses.org/wp-content/blogs.dir/2287/files/2015/02/09SupermanSwipes-441x500.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.00039187073707580566,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+     "imageUrl": "https://static.livebooks.com/ba6c82209c044e0682fd2896c94755e7/i/d4c9d2d97f6c4ba49c5e4517dae6ae66/14/GCuCv726gZycFxatknDdac/Jaffee%2C-Al-for-web.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 7.735747203696519e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Complete Milt Gross Comic Book Stories - Al Jaffee",
+     "imageUrl": "http://covers.booktopia.com.au/150/9781600105463/complete-milt-gross-comic-book-stories.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.000401914119720459,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+     "imageUrl": "https://static.livebooks.com/ba6c82209c044e0682fd2896c94755e7/i/d4c9d2d97f6c4ba49c5e4517dae6ae66/1/4SoifmQp45JMgBnHjfgmz/Jaffee%2C-Al-for-web.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0006206333637237549,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MAD #199 cover art by Al Jaffee",
+     "imageUrl": "https://madtrash.com/wp-content/uploads/2017/05/18222028_1412113115548039_1282631892137307361_n-150x150.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0005266368389129639,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+    "Magazines:Mad, Mad #51-60 Group (EC, 1959-60) Condition: Average VG+. Includes #51, 52 (Christmas cover), 53, 54 (Al Jaffee art begins) 55,... (Total: 10 Comic Books)",
+    "Mad's Al Jaffee Spews Out Snappy Answers to Stupid Questions comic books",
+    "Al Jaffee, illustration by Drew Friedman, from Portraits of Comic Book Legends",
+    "Magazines:Mad, Mad #88 (EC, 1964) CGC NM- 9.2 Off-white pages. Fold-in of theBeatles by Al Jaffee. Interior art by Don Martin, Mort Drucke...",
+    "Mad's Al Jaffee Spews Out Snappy Answers to Stupid Questions Comic Books. Mad's Al Jaffee Spews Out Snappy Answers to Stupid Questions Comics.",
+    "Secret Origins #1, April 1986 / The Adventures of Superman #427, April 1987 / Superboy #24, 1994 Series, February 1996 / Superman Vol 2 #124, Art by Ron Frenz, June 1997 / Superboy - Risk Double-Shot #1, Art by Joe Phillips & Jasen Rodriguez, February 1998 / Superman 2999 #136, July 1998 / The Adven",
+    "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2",
+    "Complete Milt Gross Comic Book Stories - Al Jaffee",
+    "Cartoonist/ Illustrator Al Jaffee photographed for The Artist Within: Book 2"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 227,
+   "mentionsFound": 227,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 227,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 4,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 231,
+   "rows": [
+    {
+     "text": "\"\"\"Al Jaffee - MAD No 334 - \"\"\"\"Real-Life Superheroes at Comic Book Conventions\"\"\"\" - EC 1995\"\"\"",
+     "imageUrl": "https://static.fr.artworkmag.com/i/ec/01/457bbc36acfafe6ecbe61342fab3.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.008215099573135376,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Al Jaffee Tall Tales Sunday Comic Strip Original Art dated 5-29-60 (Publishers Newspaper Syndicate, 1960). ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F1%2F5%2F8%2F24158438%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.0003319978713989258,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Al Jaffee - MAD No 334 - \"\"\"\"Real-Life Superheroes at Comic Book Conventions\"\"\"\" - EC 1995\"\"\"",
+     "imageUrl": "http://static.fr.artworkmag.com/i/ec/01/457bbc36acfafe6ecbe61342fab3.jpg",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 0.008215099573135376,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"\"\"Al Jaffee - MAD No 334 - \"\"\"\"Real-Life Superheroes at Comic Book Conventions\"\"\"\" - EC 1995\"\"\"",
+    "Original Comic Art:Comic Strip Art, Al Jaffee Tall Tales Sunday Comic Strip Original Art dated 5-29-60 (Publishers Newspaper Syndicate, 1960). ...",
+    "\"\"\"Al Jaffee - MAD No 334 - \"\"\"\"Real-Life Superheroes at Comic Book Conventions\"\"\"\" - EC 1995\"\"\""
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 206,
+   "mentionsFound": 206,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 206,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 4,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 210,
+   "rows": [
+    {
+     "text": "Promotional Illustration By Al Jaffee",
+     "imageUrl": "https://static.livebooks.com/ba6c82209c044e0682fd2896c94755e7/i/d1c4a5be90384b9a93901972396c4645/14/GCuCv726gZycFxatknDdac/Screen%20Shot%202021-03-13%20at%207.35.14%20AM.png",
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": 6.774531357223168e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Promotional Illustration By Al Jaffee"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 682,
+   "mentionsFound": 682,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 682,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 193,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 875,
+   "rows": [
+    {
+     "text": "Tales to Astonish #64 (Feb. 1965), Lazarus' sole public credit for hundreds of stories for Marvel Comics and its predecessors. Art by Carl Burgos & Paul Reinman. The credit, \"Written by Laughin' Leon Lazarus,\" contains an example of the alliterative endearments common in Marvel credits of the time.\n",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I have not said anything deliberately provocative in a while (and the last time I tried it passed without comment) so, with that in mind, I'll just come right out and say it: I don't think Harvey Kurtzman was all that funny. He gets full credit for MAD; the comic book was indisputably the most imita",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It\u2019s said that the flutter of insect wings in the Indian Ocean can send a hurricane crashing against the shores of the American Northeast. It\u2019s this premise that lies at the core of The System, a wordless graphic novel created and fully painted by award-winning illustrator Peter Kuper. From the subw",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Even though Rube Goldberg worked at a minor New York paper, the Evening Mail, his comic genius wasn't kept under wraps for long. It wasn't his wacky inventions, though, that first brought him fame -- that came later -- but rather a series called Foolish Questions. In Goldberg's daily comic strips, w",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mad Magazine itself is a product of the Golden age of comic books, beginning as an imprint of Entertaining Comics. It made it\u2019s debut in 1952 and was founded by legendary cartoonist and editor Harvey Kurtzman and publisher William Gaines. EC was responsible for such notable horror comic book contrib",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "But the story of Patricia Walker as a comic book character is pretty fascinating in and of itself, and to explain that we have to go back to the 1940s \u2014 a period that predates, by decades, the creation of most of the characters who we consider to be the core of the Marvel Universe. It was a time whe",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bill Gaines, owner/publisher of MAD Magazine, said, \u201cHarvey was looking for perfection in a 10-cent comic book.\u201d In the opinion of many, Harvey Kurtzman (1924-1993) came as close as humanly possible to achieving that goal. Authors Denis Kitchen and Paul Buhle explore Kurtzman\u2019s life, art, and writin",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Our next selection is \u201cThe Great Treasury of Christmas Comic Book Stories\u201c, an oversized volume that collects from spectacular Christmas stories from comics\u2019 Golden Age.\n\nAmong the joyful and innocent work in this volume, you will find stories by Walt Kelly (\u201cPogo\u201d), John Stanley (\u201cLittle Lulu\u201d), an",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Last year when it was announced that DC Comics was going to move MAD Magazine from New York City, where it\u2019s been headquartered since it was founded as a comic book in 1952, some folks got worried that the very soul of the magazine, and its New York attitude, would not survive the cross-country jour",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "As curator of the Billy Ireland Cartoon Library & Museum (BICLM) at Ohio State University, Jenny Robb may have one of the coolest jobs in the country. With its current holdings of original cartoons, books, manuscripts, and comic strips in the millions, the BICLM is the largest cartoon art library in",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I raved about Heroes of the Comics when it came out in 2014. Now I'm going to rave about More Heroes of the Comics, the new companion volume. This large book has 100 meticulous color paintings of people who were involved in the early days of comic books, painted by Drew Friedman, the great portraiti",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "He broke into comic books with humor stories featuring the character \"Happy\" in the Better Comics omnibus Best Comics #1 (Nov. 1939). Platt went on to write and draw many features in the next few issues and to draw such features as \"Captain Future\" in Better's Startling Comics; \"The Mask\" (no relati",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Note: the interior pages were two-color instead of the usual comic book-style four color.\nThe next-to-last page of the story is from the one-color inside front cover, while the final page was the four-color back cover of the magazine!\nIllustrated by Arnold Roth, it's never been established who wrote",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Join us for a screening of the documentary \"Irwin: A New York Story\", directed by Dan Makara. The film follows the life of Irwin Hasen, a 96-year-old comic book creator and strip artist, as he shares his memories of childhood and the Golden Age of Comics.\n\nThe film will be followed with a panel disc",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "American humor was turned on its ear in 1952, marking the debut of MAD, a comic book (which would morph into a magazine format) edited by Harvey Kurtzman and published by William Gaines. A satirical outlet, nothing was sacred, be it popular culture, politics, or public figures, and many will probabl",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For decades a key influence on parodists and satirists in all entertainment media, Mad began in 1952 as a full-color Comic Book, Tales Calculated to Drive You Mad, published by EC Comics. Harvey Kurtzman, the founding editor and writer, began by satirizing popular comic book genres of the time (horr",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover art by Norman Mingo. \"Adventures of The Red Baron or Happiness ist ein Kleine Kaput Beagle,\" script by Frank Jacobs and Bob Muccio, art by Jack Rickard; Series of comic strips, drawn in the style of Charles Schultz, depicting the battles between Snoopy and The Red Baron from the German perspec",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Next up in the gift guide we have one of my favorite books of the year, another gem from Yoe Books, in fact. Behaving Madly is a collection of work taken from the many imitators of Mad Magazine that began springing up following the massive sucess of MAD after it was converted from a comic book into ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "EC Comics have been out of business for over 50 years and yet over a half century later its influence is still being felt throughout the comic book industry and throughout pop culture.  In an era where most comic book art was often an afterthought to churning out as many titles as possible, EC had a",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Humbug was a humor magazine edited 1957\u20131958 by Harvey Kurtzman with satirical jabs at movies, television, advertising and various artifacts of popular culture, from cereal boxes to fashion photographs. Nine of the eleven issues were published in a black-and-white comic book-sized format.\n\nWith fata",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The End of the MADness\n\nYesterday contributors to MAD Magazine officially got the news that, after 67 years of continuous publication that began with Harvey Kurtzman\u2018s brilliant comic book and eventually evolved into the magazine that forever changed the world of satire and humor, MAD will stop publ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From Mad #165. Written by Arnie Kogen. Art by Mort Drucker.\n\nNaturally, all this calls for a 13 COVERS salute \u2014 a mix of personal favorites and noteworthy ones, including those I\u2019ve shown off above. I\u2019ll also be re-presenting some Mad material we\u2019ve run over the last few years \u2014 such as 13 GREAT AL ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Alfred E. Neuman. The gap-toothed \u2018What, me worry?\u2019 kid. He\u2019s graced nearly every MAD cover since the 1950s, though his image dates back to the 19th century. He\u2019s been seen on old postcards, wood carvings, advertisements, and political cartoons. Since his association with MAD, he\u2019s appeared in Loone",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Humbug was the 1957-58 magazine published by a quintet of parody-comics veterans...Harvey Kurtzman had been the founding editor of Mad the comic book, and had edited the first few issues of the larger-format Mad, the new format adopted after the Comics Code had been created by the larger publishers ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"When I started with Marvel, I was in school,\" Claremont explained about first meeting Stan Lee. \"My parents knew Al Jaffee and he said, 'Oh, does he have any interest in comic books?' And the next thing I know the phone rings, and I pick it up and it's, 'Hey there True believer! This is Stan Lee! S",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "If you were a kid in the 1950s, and you got nightmares from a story in a horror comic book, you have Al Feldstein to blame. If you were a kid in the \u201960s or \u201970s, giggling at MAD\u2019s prankster wit, you have Feldstein to thank. And if you\u2019re a kid today, you are the beneficiary of the gaudy tastes \u2014 or",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Three or four generations ago, humorist Milt Gross was so famous that to avoid him and his work would have been almost impossible \u2014 especially for Jewish readers, some of whom must have winced, while others laughed aloud. With comic strips in the biggest circulation dailies, novels and parodies, not",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From Krakow to Krypton: Jews and Comic Books by Arie Kaplan\n\nArie Kaplan's new and fascinating look at the history of comics books.\n\nFrom Krakow to Krypton tells their stories and demonstrates how they brought a uniquely Jewish perspective to their work and to the comics industry as a whole. Over-si",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "One of MAD magazine's longest-running cartoonists (only Al Jaffee has been around longer) and the creator of dim-witted barbarian Groo the Wanderer, Sergio Aragon\u00e9s is one of comics\u2019 most popular creators. The man some call the world\u2019s fastest cartoonist has his own bi-monthly comic book series at B",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Apparently, my brain had been quietly processing this for nearly four years, and spewed it out again, with the joke finally seeing print today. The 2007 drawing mashes up two stock characters: The Grim Reaper and a psychiatrist. Had I placed them on a desert island, it would have been a gag cartoon ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Do you remember these vintage MAD magazine back page Fold-Ins \u2013 where, with a couple of folds, you could change the page\u2019s picture, and its message?\n\nLook back at a few of these clever pieces of art written and illustrated by the immensely talented Al Jaffee.\n\nHere we go with another ridiculous Mad ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Miss America (Madeline Joyce Frank) is a superhero appearing in American comic books published by Marvel Comics. She first appeared in Marvel Mystery Comics #49 (Nov. 1943), and was created by writer Otto Binder and artist Al Gabriele for Timely Comics, the 1940s precursor of Marvel, in the period f",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My latest book, which comes out in August from Fantagraphics, is titled Heroes of the Comics: Portraits of the Legends of Comic Books. In advance of the book\u2019s release, I\u2019d like to briefly explain how I decided who I felt is qualified to be included in this collection of 85 portraits.\n\nThe series ki",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My mother bought me my first MAD magazine off the newsstand at a Stop & Shop supermarket in 1969. The cover featured a Butch Cassidy and the Sundance Kid parody that I believe was drawn by Jack Davis.\n\nI read that issue over and over again\u2014at least until I convinced mom to buy the next month\u2019s issue",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "During the Thirties and Forties, superman really did come to the supermarket, as the New Gods ushered in what we\u2019ve been encouraged to regard as the Golden Age of superhero comics. Beginning in 1938 with the debut of Jerry Siegel and Joe Shuster\u2019s Superman in DC\u2019s Action Comics # 1, the comic book m",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In 1952, editor Harvey Kurtzman and publisher William Gaines launched MAD, one of the most influential and imitated humor publications in the world. Originally created to parody popular TV shows, movies and, inevitably, comic books, MAD soon expanded into a wide-ranging satire of modern American cul",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For post-war baby boomers too old for Walt Disney comics but too young for the anatomy lessons awaiting us in the pages of Playboy, MAD magazine was our interim secular bible.\n\nIt wasn\u2019t just a comic book, it was our cultural reference guide. Along with the laughs came the first stirrings of a gener",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Al Feldstein, who\u2019s perhaps most well known for his editorial vision for Mad magazine, died in Montana recently at the age of 88. He edited the revolutionary magazine for over thirty years and developed some of the mag\u2019s most well known comic strips, including Spy vs. Spy. He found his fame creating",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Legendary cartoonist and The Far Side creator Gary Larson is making single-frame comics once again, recently uploading some new artwork onto his official website. Last year, Larson had teased a new \u201conline era\u201d of his classic Far Side comic strips, and in December, an official website authorized by ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "*Stan Lee will not be at this event.\n\nFace front, true believers! The Stan Lee Universe is the ultimate repository of interviews with and mementos about Marvel Comics\u2019 fearless leader! From his Soapbox to the box office, the Smilin\u2019 One literally changed the face of comic books and pop culture, and ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MAD magazine will no longer publish new content and the 67-year-old political humor and satire outlet won\u2019t be sold on newsstands, prompting its fans to decry the end of an era as the anti-authority publication bites the dust.\n\nThe influential cult comic book and later magazine was launched in 1952,",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MISS AMERICA MAGAZINE #2 (NOV. 1944) Patsy Walker would make her debut in this magazine-sized second issue of the comic that top-lined the Madeline Joyce/Miss America character! Ms. Walker was co-created and drawn by pioneering artist Ruth Atkinson, with either Stan Lee, Otto Binder, or Al Jaffee co",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Kurtzman recruited his long-time collaborator Will Elder to work on the strip's illustrations. He suggested to Elder an \"outlineless\", painted style, then thought the strip would be better suited by an India inked, outlined comic book style with flat color behind it. Hefner, whose opinion prevailed,",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bob Petley of Phoenix, Arizona drew and published this card, circa 1963.\nPosted by Mike Rhode at 9:14 PM No comments: Links to this post\n\nTom Toles' editorial cartoon today is based on the fold-in by famed MAD cartoonist Al Jaffee. Here's a good article on Jaffee from the NY Times, and some online f",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u201cA new and fascinating look at the history of comic books \u2026 extremely well documented and profusely illustrated. You really don\u2019t have to be Jewish to thoroughly enjoy this trip down comic book memory lane.\u201d \u2013Al Jaffee, long-time MAD Magazine contributor and author of the forthcoming Talltales.\n\nJew",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "What can we say about a book like this one?  It's all here, the entire run of Humbug, the hidden tributary of so much in contemporary comics.  If there is a hidden link in the overall understanding of the history of the development of the comic book form, this might just be it.  Humbug is the talism",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In the 1930s and 1940s, comic books were considered so low on the publishing totem pole that they even accepted Jews as employees. The industry didn\u2019t just accept Jews, it was created by Jews, who had been forced out of work from American newspapers due to antisemitic quotas.\n\nAs MAD magazine cartoo",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For my shekels, the question of whether the comic book character Superman, is Jewish or not shouldn\u2019t even be questioned.\n\nBorn and named Kal-El by his father Jor-El, \u201cEl\u201d is one of the ancient names for God used throughout the bible and found in great prophets such as Samue-el, Dani-el and angels M",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Panels and the Harvey Awards\n\nOver the course of the three days the Comic Con hosted many panel discussions in which authors and comic creators discussed their work and how they began making comic books. Quite of few of the panels were storytelling panels that kids could enjoy alongside the mostly y",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "There is little argument regarding the fact that Superman, Captain America, and The Green Lama are comic book heroes. But if you thought muscle-bound, caped-crusaders who wear their underpants on the outside are the only heroes of the genre, you\u2019d be flat out wrong. If you delve into Drew Friedman\u2019s",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Created the comic book Groo the Wanderer and provided work for Mad Magazine. An award, 'The Sergio,' was named after him and is given by the Comic Art Professional Society.\n\nAs a child, in Mexico, he would often get paid by classmates to complete the drawings for homework assignments.\n\nIn 1992, he w",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "More than 80 of the gorgeous color portraits of the pioneers of the early days of comics, as illustrated by Drew Friedman, will be on display at the Society of Illustrators starting this month.  The portraits are the original paintings for the images that appeared in Friedman's two volume Heroes of ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic books and superheroes have a cult status. Perhaps it\u2019s the desire to emulate them or perhaps it\u2019s falling into a fantasy world where there\u2019s someone out there always protecting us from the bad guys. Whatever the reason, their popularity is unparalleled.\n\nThe fascination around comics stems as ",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic books (and their cousins, graphic novels) are something we\u2019re all familiar with from childhood on. But if you\u2019re not involved in making them, how they come to be can seem a little mysterious and intimidating. Now, the curtain is pulled back as comics editor and writer DANNY FINGEROTH, in colla",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover via AmazonThe Museum of Comic and Cartoon Art (MoCCA) is pleased to announce it\u2019s latest exhibition:Will Eisner\u2019s New York: From The Spirit to the Modern Graphic Novel Opening March 1, 2011.\n\nThe Museum of Comic and Cartoon Art \u2013 MoCCA \u2013 is proud to announce Will Eisner\u2019s New York: From the Sp",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sergio Aragon\u00e9s Domenech (b. September 6, 1937), a Spanish/Mexican cartoonist and writer, is known by his fans and peers as 'the world's fastest cartoonist'. Most well-known for his contributions to Mad Magazine and for creating the comic book Groo the Wanderer, Aragon\u00e9s was born in Sant Mateu, Cast",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In the era of the 2nd World War, youngsters and teens alike sought comfort in the entertainment in the form of comic books which portrayed superheroes fighting evil, in general, and more specifically the scourge of the Axis powers that were storming through Europe and Asia.\n\nBut America needed to la",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This suggestion is for the major-league comic book nerd on your shopping list. It\u2019s also perfect for fans of intricate caricature work. More Heroes of the Comics: Portraits of the Legends of Comic Books is another masterwork by Drew Friedman.\n\nFeaturing approximately 75 full-color portraits of the p",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Back after an absence, Mr. Charlie #43 looks at Alex Fellows. The 25-year old Canadian is a rising alt-comics star and winner of a Xeric Grant. Fantagraphics Books dropped Alex\u2019s first graphic novel, CANVAS, earlier this year. This past fall, we spoke with him:\n\nWould you mind introducing yourself t",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Book Guy: Gabe Fowler is the owner of Desert Island Comics and the organizer of Comic Arts Brooklyn.\nPhoto by Elizabeth Graham\n\nThey\u2019re bringing him into the fold!\n\nComic Arts Brooklyn, the annual cartoon and comics festival, is back Nov. 6\u20139, and this year it has a big draw \u2014 and a big drawer",
+     "imageUrl": null,
+     "keyword": "al jaffee",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Tales to Astonish #64 (Feb. 1965), Lazarus' sole public credit for hundreds of stories for Marvel Comics and its predecessors. Art by Carl Burgos & Paul Reinman. The credit, \"Written by Laughin' Leon Lazarus,\" contains an example of the alliterative endearments common in Marvel credits of the time.\n",
+    "I have not said anything deliberately provocative in a while (and the last time I tried it passed without comment) so, with that in mind, I'll just come right out and say it: I don't think Harvey Kurtzman was all that funny. He gets full credit for MAD; the comic book was indisputably the most imita",
+    "It\u2019s said that the flutter of insect wings in the Indian Ocean can send a hurricane crashing against the shores of the American Northeast. It\u2019s this premise that lies at the core of The System, a wordless graphic novel created and fully painted by award-winning illustrator Peter Kuper. From the subw",
+    "Even though Rube Goldberg worked at a minor New York paper, the Evening Mail, his comic genius wasn't kept under wraps for long. It wasn't his wacky inventions, though, that first brought him fame -- that came later -- but rather a series called Foolish Questions. In Goldberg's daily comic strips, w",
+    "Mad Magazine itself is a product of the Golden age of comic books, beginning as an imprint of Entertaining Comics. It made it\u2019s debut in 1952 and was founded by legendary cartoonist and editor Harvey Kurtzman and publisher William Gaines. EC was responsible for such notable horror comic book contrib",
+    "But the story of Patricia Walker as a comic book character is pretty fascinating in and of itself, and to explain that we have to go back to the 1940s \u2014 a period that predates, by decades, the creation of most of the characters who we consider to be the core of the Marvel Universe. It was a time whe",
+    "Bill Gaines, owner/publisher of MAD Magazine, said, \u201cHarvey was looking for perfection in a 10-cent comic book.\u201d In the opinion of many, Harvey Kurtzman (1924-1993) came as close as humanly possible to achieving that goal. Authors Denis Kitchen and Paul Buhle explore Kurtzman\u2019s life, art, and writin",
+    "Our next selection is \u201cThe Great Treasury of Christmas Comic Book Stories\u201c, an oversized volume that collects from spectacular Christmas stories from comics\u2019 Golden Age.\n\nAmong the joyful and innocent work in this volume, you will find stories by Walt Kelly (\u201cPogo\u201d), John Stanley (\u201cLittle Lulu\u201d), an",
+    "Last year when it was announced that DC Comics was going to move MAD Magazine from New York City, where it\u2019s been headquartered since it was founded as a comic book in 1952, some folks got worried that the very soul of the magazine, and its New York attitude, would not survive the cross-country jour",
+    "As curator of the Billy Ireland Cartoon Library & Museum (BICLM) at Ohio State University, Jenny Robb may have one of the coolest jobs in the country. With its current holdings of original cartoons, books, manuscripts, and comic strips in the millions, the BICLM is the largest cartoon art library in"
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 6,
+   "mentionsFound": 6,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 6,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 1,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 7,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": false,
+   "count": 0,
+   "mentionsFound": 0,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 0,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Al Jaffee",
+   "Mad Fold-In",
+   "Snappy Answers to Stupid Questions"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "al jaffee",
+    "tier": "high",
+    "count": 2110,
+    "captionHits": 1422,
+    "longformHits": 688,
+    "longformRatio": 0.326,
+    "perDataset": {
+     "coyo700m": 98,
+     "laion1b-nolang": 206,
+     "laion2b-en": 891,
+     "laion2b-multi": 227,
+     "obelics": 682,
+     "pile": 6
+    },
+    "reason": null
+   },
+   {
+    "keyword": "snappy answers to stupid questions",
+    "tier": "thirdparty",
+    "count": 306,
+    "captionHits": 197,
+    "longformHits": 109,
+    "longformRatio": 0.356,
+    "perDataset": {
+     "laion2b-en": 196,
+     "laion1b-nolang": 1,
+     "obelics": 108,
+     "pile": 1
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   },
+   {
+    "keyword": "mad fold-in",
+    "tier": "thirdparty",
+    "count": 149,
+    "captionHits": 64,
+    "longformHits": 85,
+    "longformRatio": 0.57,
+    "perDataset": {
+     "coyo700m": 12,
+     "laion2b-en": 45,
+     "laion2b-multi": 4,
+     "laion1b-nolang": 3,
+     "obelics": 85
+    },
+    "reason": "mass-market franchise, not this subject's own work"
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 6,
+   "totalDatasets": 7,
+   "credibleMentions": 2110,
+   "highConfidenceMentions": 2110,
+   "nameMatchMentions": 0,
+   "thirdPartyPropertyMentions": 455,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 77,
+  "evidenceWithheld": {
+   "unverified": 1154,
+   "person_photo": 263,
+   "unrelated": 81,
+   "storefront": 346,
+   "merchandise": 13,
+   "explicit": 11,
+   "derivative": 4
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "bi-al-jaffee-sampling-of-correspondence",
+ "cohort": "billy-ireland",
+ "collection": "Al Jaffee Sampling of Correspondence",
+ "summary": {
+  "datasetsPresent": 6,
+  "totalDatasets": 7,
+  "totalMentions": 2110,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "holistic": {
+  "datasetEvidence": 2110,
+  "datasetsPresent": 6,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

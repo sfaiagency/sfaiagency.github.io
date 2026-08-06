@@ -1,0 +1,4183 @@
+{
+ "artistName": "David Carson",
+ "modality": "photography",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 717,
+   "mentionsFound": 717,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 9,
+   "nameMatchCount": 708,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 717,
+   "rows": [
+    {
+     "text": "St. Louis 21st Ward Alderman Antonio French, center, makes a point during a Feb. 10 discussion at MTSU, \u201cFrom the Front Lines of Ferguson: Covering the New Civil Rights Movement.\" Listening are fellow panelists David Carson, left, St. Louis Post-Dispatch photojournalist, and USA Today reporter Yamic",
+     "imageUrl": "http://www.mtsunews.com/wp-content/uploads/2015/01/Ferguson-First-Amendment-panel-web.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wednesday August 24, 2005--Honey bees flock to a field sun flowers off of Illinois Route 159 in Maryville on Wednesday. Temperatures should remain in the 80's for the rest of the week and weekend with a chance of storms through Saturday.PHOTO BY DAVID CARSON/PD",
+     "imageUrl": "http://cdn.lightgalleries.net/4bd5ec04c2f91/images/Portfolio---013-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Magnificent Seven movie poster designed by Saul Bass, Saul Bass Posters, Film Posters, Magnificent Seven Movie, Pop Art, Film Poster Design, Design Posters, Paula Scher, David Carson, Milton Glaser",
+     "imageUrl": "https://i.pinimg.com/236x/8f/c0/b6/8fc0b6ee87e90da8162811c3244565e2--saul-bass-posters-poster-film.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "65DaysOfStatic \"We Were Exploding Anyway\" album art by David Carson #65DaysOfStatic #DavidCarson #65DOS #WeWereExplodingAnyway #Music #PostR",
+     "imageUrl": "https://dspncdn.com/a1/media/236x/6d/82/4f/6d824f1542f72ad6fab914e9377f6736.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Renowned Designer David Carson Partners with 72andSunny's HECHO EN 72",
+     "imageUrl": "https://d3bzyjrsc4233l.cloudfront.net/news/carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Lecture Series Poster on Behance",
+     "imageUrl": "http://preferiscoo-so.icu/ibutq/3IzgzdLoGwI.jpeg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Protesters block the intersection of West Florissant Avenue and Canfield Drive in Ferguson, Mo., Tuesday night, April 28, 2015. Looting, fires and gunfire broke out overnight in Ferguson during protests in response to the death of Freddie Gray in police custody in Baltimore. (David Carson/St. Louis ",
+     "imageUrl": "https://s3.amazonaws.com/darkroom-cdn/2015/04/AP-Ferguson-Protest-760x483.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Nucollage by David Carson",
+     "imageUrl": "https://www.thelogocreative.co.uk/wp-content/uploads/Nucollage-by-David-Carson-scaled.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson DISORDER POSTER DESIGN // I like the work of David Carson in general. I like the way that he has used typography and the use of the layout works well with the subject matter he discusses. Typography Poster, Graphic Design Typography, Modern Graphic Design, Graphic Design Inspiration, Da",
+     "imageUrl": "https://i.pinimg.com/236x/0f/c4/69/0fc4699135d89f7ad09bd2f948e61ff3--david-carson-design-david-carson-ray-gun.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson, of RayGun magazine, designed the type for this Pepsi print campaign created at BBDO NY. The campaign used the Pepsi logo with type filling in it's shape on each of the different bottles and cans. David Carson Design, David Carson Work, Pepsi Advertisement, Advertising, Art Inspo, Mad M",
+     "imageUrl": "https://i.pinimg.com/236x/e8/5c/ec/e85cecdb3a9b9e4032db83fe5c7d6377.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Media used: Printing Techniques and Photoshop Date Completed: Feb Size: Poster Sport, Poster Cars, Poster Retro, Graphic Design Brochure, Graphic Design Posters, Graphic Design Typography, David Carson Design, Graphisches Design, Cover Design",
+     "imageUrl": "https://i.pinimg.com/236x/59/a7/d5/59a7d552d2da15012fe18eca6ab99ffb--graphisches-design-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The End Of Print by David Carson Poster by wildan ilham, via Behance Poster Sport, Poster Cars, Poster Retro, Vintage Poster, Poster Layout, Typography Poster, David Carson Work, David Carson Design, Graphic Design Posters",
+     "imageUrl": "https://i.pinimg.com/236x/cc/5d/68/cc5d6840edb95c4c2c75d94ed3b63afc--david-carson-design-david-carson-poster.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "young traveller vacation trip 39131 15 - David Carson - Meet the Typography Revolutionist who Changed Design inside the United States",
+     "imageUrl": "http://www.magiapoligrafii.eu/wp-content/uploads/2018/12/young-traveller-vacation-trip_39131-15.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "back den david carson what youth",
+     "imageUrl": "https://whatyouth.com/wp-content/uploads/2015/05/carson-book_photo-1000x560.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Beck's RAYGUN magazine cover, designed by David Carson. David Carson is lauded for his creative and innovative typographic design. His influence is seen throughout many works today, from graphic designs to magazine designs, to album covers. B\u00fchnen Design, Book Design, Layout Design, Print Design, Pr",
+     "imageUrl": "https://i.pinimg.com/236x/59/8f/f9/598ff9c5a676c96fc7279489253df978--guns-typography-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Police officers stand to confront a crowd they're trying to break up a on Canfield Dr. in Ferguson on Saturday, Aug. 9, 2014. Earlier in the day police had shot and killed an 18 year-old man on the street and the crowd of people were upset.Photo By David Carson, dcarson@post-dispatch.com",
+     "imageUrl": "https://www.highlandernews.org/wp-content/uploads/2016/01/DocNow-1024x768.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "People cheer during an anti abortion rally in the Statehouse in Jefferson City, Mo., Wednesday, June 14, 2017. Missouri Republican Gov. Eric Greitens is leading a Capitol rally to show support for a special session he called on abortion. (David Carson/St. Louis Post-Dispatch via AP",
+     "imageUrl": "https://www.gannett-cdn.com/-mm-/c472e2b2f354224323276626285c7d595262faba/c=0-210-3600-2244/local/-/media/2017/06/15/Springfield/Springfield/636330825635153037-1.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Super Moon rises above the Gateway Arch in St. \u00a9 David Carson / AP / SIPA Plus Beautiful Moon, Beautiful World, Beautiful Places, Cool Photos, Beautiful Pictures, Gateway Arch, Shoot The Moon, Moon Pictures, Moon Pics",
+     "imageUrl": "https://i.pinimg.com/236x/8d/cc/bb/8dccbba0311b83a2494754a115127791--usa-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Interactive Keynotes: Kevin Lynch (Macromedia) & Jeff Veen (HotWired), Simon Assaad & David Carson (Heavy), Cory Doctorow (EFF) & Bruce Sterling (author",
+     "imageUrl": "https://www.sxsw.com/wp-content/uploads/2016/08/2002film_programguidecover_0.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Head Chef, David Carson, submerges the fresh pasta into boiling water with a splash of olive oil",
+     "imageUrl": "https://wined-dined.com/wp-content/uploads/elementor/thumbs/Wined-Dined-%C2%A9subtlesensor2019-04-19-5482-o9mfozi6n84du4mqb9nidirlygtngsedbkopzlv3py.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Image result for david carson poster",
+     "imageUrl": "https://processandskillsdotcom.files.wordpress.com/2013/04/raygun4.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Police react to gun fire on West Florissant Avenue near the Ferguson Market on Sunday, March 12, 2017.Photo by David Carson, dcarson@post-dispatch.c",
+     "imageUrl": "http://cdn.lightgalleries.net/4bd5ec04c2f91/images/G-170313-DC-Gun-Fire5A-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Picture - Ken Macpherson, Inverness. Inverness CT(2) v Ayr United(2). 30.04.21. ICT\u2019s David Carson with his Supporters\u2019 Player of the Year award.",
+     "imageUrl": "https://www.inverness-courier.co.uk/_media/img/L2CHXBQJU2PZDMBI7B47.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Movies (2006) - Star Trek The Next Generation - The Complete Seventh Season by David Carson",
+     "imageUrl": "http://www.coverbrowser.com/image/bestselling-movies-2006/1077-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Director David Carson and Patrick Stewart on the set of Star Trek Generations",
+     "imageUrl": "https://forgottentrek.com/wp-content/uploads/2006/06/David-Carson-Patrick-Stewart.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Don\u2019t mistake legibility for communication - David Carson #frases # ...",
+     "imageUrl": "https://cdn.quotesgram.com/small/24/63/1091139529-4c838c3add7745e37b452b75439e5ec8.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Head Chef, David Carson, sautee's the mix of mushrooms in butter",
+     "imageUrl": "https://wined-dined.com/wp-content/uploads/elementor/thumbs/Wined-Dined-%C2%A9subtlesensor2019-04-19-5518-o9mfqg559y4fwai9rwem95hf81m7fu7c6t7wv3p21i.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson - Master Classes Grafika on Behance David Carson Design, Typography Poster, Graphic Design Typography, Graphic Art, Typography Inspiration, Graphic Design Inspiration, Distorted Text, Identity, Protest Posters",
+     "imageUrl": "https://i.pinimg.com/236x/79/5a/95/795a952acfebff4bed07d5cc8b80f2c6.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson, Poster for Quiksilver Pro, France, 2011 David Carson Work, David Carson Design, Silver Surf, Timeline Design, Timeline Project, Typographic Poster, Typography, Stefan Sagmeister, Type Illustration",
+     "imageUrl": "https://i.pinimg.com/236x/e3/2b/58/e32b5807c82dd1a3eb5508b7c9f08314--creative-review-surf-style.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson The End of Print \u6d0b\u66f8 \u30c7\u30f4\u30a3\u30c9\u30fb\u30ab\u30fc\u30bd\u30f3 \u5e83\u544a\u96d1\u8a8c\u30c7\u30b6\u30a4\u30f3 Lewis Blackwell & David Carson Introduction by David Byrne",
+     "imageUrl": "https://wing-auctions.c.yimg.jp/sim?furl=auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0201/users/6988aa6b8da675d59df8f5547ac70ede33386b19/i-img900x1200-1611690907nvqlmo40368.jpg&dc=1&sr.fs=20000",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Quiksilver Pro France 2011 poster design explorations by David Carson and George Bates",
+     "imageUrl": "https://clubofthewaves.com/wp-content/uploads/quiksilver-pro-france-poster.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Image for END OF PRINT GRAPHIC DESIGN OF DAVID CARSON",
+     "imageUrl": "https://sdi3.chrislands.com/sdi/978/08/11/8/9780811811996.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Police investigate the scene of a shooting in the 3500 block of North 14th Street in St. Louis, Mo., where a 7-year-old was shot and killed and an 18-year-old sustained a critical gunshot wound on Monday, Aug. 12, 2019. (David Carson/St. Louis Post-Dispatch/Tribune News Service via Getty Images",
+     "imageUrl": "https://api.time.com/wp-content/uploads/2019/08/gettyimages-1164418054.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Impression Canvas Print / Canvas Art by Tom Layland Graphic Design Posters, Graphic Design Typography, Graphic Design Inspiration, Creative Typography, Collage Poster, David Carson Design, Vintage Poster, Grafik Design, Visual Communication",
+     "imageUrl": "https://i.pinimg.com/236x/88/89/9c/88899c4056cc87047ffe58c629bf4f29--typographic-poster-typographic-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "neville brody work - Google Search Typographic Poster, Typographic Design, Text Design, Book Design, David Carson Design, Neville Brody, Sketchbook Layout, Creative Typography, Collage Design",
+     "imageUrl": "https://i.pinimg.com/236x/cf/f4/95/cff495494456b9c57d3051e2c71b192d--font-poster-neville-brody.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ray Gun (1992) Ray Gun was an American alternative rock-and-roll magazine, first published in 1992 in Santa Monica, California. Led by founding art director David Carson, Ray Gun explored experimental magazine typographic design. The result was a chaotic, abstract style, not always readable, but dis",
+     "imageUrl": "https://i.pinimg.com/236x/d5/e3/8e/d5e38ec04e301dc9135cb58a7c904bc7--postmodernism-editorial-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A pedestrian crosses Market Street during a snowstorm in downtown St. Louis on Monday, Feb. 15, 2021. The brutally cold weather is expected to continue through Saturday with more snow in the forecast for Wednesday and Thursday. (David Carson/St. Louis Post-Dispatch via AP",
+     "imageUrl": "https://twt-thumbs.washtimes.com/media/image/2021/02/16/winter_weather_missouri_79395_c0-139-4668-2860_s885x516.jpg?aeacde86428b9f5143561c5d3feea8ac49b780d2",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "gurafiku: Japanese Poster: Haruomi Hosono S\u30fbF\u30fbX. interesting poster, thanks for showing . Graphic Design Posters, Graphic Design Typography, Graphic Design Inspiration, David Carson, Identity, New Wave, Japanese Poster, Japanese Graphic Design, Exhibition",
+     "imageUrl": "https://i.pinimg.com/236x/a4/69/29/a469292dc2601590bdf6b3488d8ea57f--japanese-graphic-design-japanese-poster.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Grunge Typography by David Carson \u2013 From up North Graphic Design Posters, Graphic Design Typography, Graphic Design Illustration, Graphic Design Inspiration, Graphic Designers, Daily Inspiration, Creative Inspiration, Graphic Art, David Carson Design",
+     "imageUrl": "https://i.pinimg.com/236x/39/f9/be/39f9be6af473221d2fbd0b8e4d8fae0b--typographic-poster-typographic-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The End of Print: The Grafik Design of David Carson de Lewis Blackwell",
+     "imageUrl": "https://i1.books-express.ro/be/9781856692168/the-end-of-print.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ray Gun was an American alternative rock n roll magazine, first published in 1992 . Led by founding art director David Carson who was influential graphic designer at that time. His widely-imitated aesthetic defined the so-called \u201cgrunge typography\u201d era. David Carson Design, Art Grunge, Grunge Goth, ",
+     "imageUrl": "https://i.pinimg.com/236x/d9/be/9d/d9be9d17486dcd65d3cd6302b51725b0--guns-designinspiration.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Movies (2006) - Star Trek Generations (Special Collector's Edition) by David Carson",
+     "imageUrl": "http://www.coverbrowser.com/image/bestselling-movies-2006/3203-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Interview at Celtic Gladiator 23 & Cage Legacy 12",
+     "imageUrl": "https://eventtv.global/images/DAVID_CARSON_.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From the Medicine Cards deck by Jamie Sams & David Carson",
+     "imageUrl": "https://alanasheeren.com/wp-content/uploads/2015/05/IMG_3019-768x1024.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Retrospettiva su David Carson - Michela Scaglia The bright blue colouring on this design and the weird braking apart shapes in the corners of the design make the design really eye catching and makes for a very interesting and different design. Design Graphique, Art Graphique, Graphic Design Typograp",
+     "imageUrl": "https://i.pinimg.com/236x/02/17/71/0217715a57a0ff8f9fdeceb809f3963e--david-carson-in-the-corner.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My graphic design final Neville Brody Poster Typography Letters, Typography Logo, Graphic Design Typography, Lettering, Logos, Typography Inspiration, Graphic Design Inspiration, David Carson Design, Typography Portrait",
+     "imageUrl": "https://i.pinimg.com/236x/89/e8/8c/89e88c1fb86d875bf9f33bf97a6cbacd--graphic-design-logos-poster-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Concept Number 3 Collage by David Carson",
+     "imageUrl": "https://www.themacallan.com/sites/g/files/jrulke166/files/styles/ed_cp_tile/public/C3%20DC%20concept%20collage.jpeg?itok=HAYInVy4",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Graphic Design - Graphisms , Typography , Infographics and Design - poster / design / typo Graphisms , Typography , Infographics and Design : \u2013 Picture : \u2013 Description poster / design / typo -Read More \u2013 Neon Poster, Poster Cars, Jazz Poster, Typo Poster, Typographic Poster, David Carson Design, Coo",
+     "imageUrl": "https://i.pinimg.com/236x/bb/78/de/bb78de590fb31b06820083a905e1b289.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A pedestrian crosses Market Street during a snow storm in downtown St. Louis on Monday, Feb. 15, 2021. The brutally cold weather is expected to continue through Saturday with more snow in the forecast for Wednesday and Thursday. (David Carson/St. Louis Post-Dispatch via AP",
+     "imageUrl": "https://s.yimg.com/ny/api/res/1.2/5msZUIyshbc4LkW5RVJTkg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTYxNi45NjY1ODA5NzY4NjM3/https://s.yimg.com/uu/api/res/1.2/Sjn8Z9lLXbpIYS5hFmrgFw--~B/aD0zMDAwO3c9NDY2ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/ap.org/7fae248ef29275aad910b802a64b6f0b",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "40 ideas for design poster typography david carson Poster Sport, Poster Cars, Poster Retro, Typography Poster Design, Design Poster, Book Design, Design Design, Design Ideas, David Carson Work",
+     "imageUrl": "https://i.pinimg.com/236x/de/32/89/de328958e3887ce248fb50d736519210--magazine-layouts-magazine-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "asweatlife_We Got Goals- Molding Young Athletes with David Carson",
+     "imageUrl": "https://asweatlife.com/wp-content/uploads/2017/01/asweatlife_We-Got-Goals-Molding-Young-Athletes-with-David-Carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Typographic cover design by David Carson David Carson Design, David Carson Work, Typography Prints, Graphic Design Typography, Graphic Design Illustration, Lettering, Japanese Typography, Design Graphique, Art Graphique",
+     "imageUrl": "https://i.pinimg.com/236x/06/69/0c/06690c781d24d3ae12a83e4e8b315fa8--david-carson-design-typography-poster.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson editorial design surf style, because of the store in DM David Carson Design, David Carson Work, Poster Sport, Poster Cars, Poster Retro, Movie Posters, Art Magazin, Magazin Design, Graphic Design Posters",
+     "imageUrl": "https://i.pinimg.com/236x/44/c6/58/44c6584f6068180f2b3dfdc4d5241c14--magazine-art-magazine-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Farblithographie (Charles Sorlier lith.) David Carson Design, Visual Identity, Identity Branding, Corporate Identity, Corporate Design, Marc Chagall, Brand Identity Design, Branding Design, Art Exhibition Posters",
+     "imageUrl": "https://i.pinimg.com/236x/16/31/90/1631906c8130ca0adeeeb97b6ca24165.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "i>Carrie</i> (2002 film) 2002 TV film directed by David Carson",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/CARRIE2002.JPG/214px-CARRIE2002.JPG",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Carson signed a small amount of \"test run\" posters this summer. They're priced according to their smaller size and different paper quality. Typographic Poster, Typography Logo, Graphic Design Typography, Graphic Design Illustration, Lettering, Print Layout, Layout Design, Print Design, David Carson ",
+     "imageUrl": "https://i.pinimg.com/236x/95/95/bb/9595bb1347894d15a57c11f34cebdd63.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Find tips and tricks, amazing ideas for Graphic design. Discover and try out new things about Graphic design site Red Aesthetic, Aesthetic Grunge, Aesthetic Pictures, David Carson Design, Graphic Design Posters, Graphic Design Inspiration, A4 Poster, Photocollage, Japanese Graphic Design",
+     "imageUrl": "https://i.pinimg.com/236x/0f/b8/f8/0fb8f8a3351ccdf702e5f166774f088f--collage-illustration-editorial-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson,who was born September an American prominent contemporary graphic designer, art director ,sociologist,and surfer. David Carson Design, David Rudnick, Pop Art, Typography Design, Lettering, Design Movements, Kendall Jenner Outfits, Surf Art, Illustrations",
+     "imageUrl": "https://i.pinimg.com/236x/8e/09/a2/8e09a2e437c9fc99f53e27c10a03154e--david-carson-design-cinema-posters.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A fine fine photo of our beloved skinny white boy from somewhere in northern Italy/really from NYC Timothee Chalamet a. Timmy T a. Beautiful Boys, Pretty Boys, Cute Boys, Beautiful People, David Carson Design, Call Me By, Timmy T, Your Name, Celebs",
+     "imageUrl": "https://i.pinimg.com/236x/7f/9d/7c/7f9d7cf398346607506021080ccd0a5a.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson poster that mixes digital \u2013 with the new wave of graphic software, and manual collage, the way words in different typography behave in wave motion makes the design fluid and interesting to read, attractive . Poster Sport, Poster Cars, Poster Retro, Vintage Poster, Movie Posters, David C",
+     "imageUrl": "https://i.pinimg.com/236x/c3/43/a0/c343a046b0dc7081bbb2bc394ac72b75--david-carson-poster-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "St. Louis 21st Ward Alderman Antonio French, center, makes a point during a Feb. 10 discussion at MTSU, \u201cFrom the Front Lines of Ferguson: Covering the New Civil Rights Movement.\" Listening are fellow panelists David Carson, left, St. Louis Post-Dispatch photojournalist, and USA Today reporter Yamic",
+    "Wednesday August 24, 2005--Honey bees flock to a field sun flowers off of Illinois Route 159 in Maryville on Wednesday. Temperatures should remain in the 80's for the rest of the week and weekend with a chance of storms through Saturday.PHOTO BY DAVID CARSON/PD",
+    "The Magnificent Seven movie poster designed by Saul Bass, Saul Bass Posters, Film Posters, Magnificent Seven Movie, Pop Art, Film Poster Design, Design Posters, Paula Scher, David Carson, Milton Glaser",
+    "65DaysOfStatic \"We Were Exploding Anyway\" album art by David Carson #65DaysOfStatic #DavidCarson #65DOS #WeWereExplodingAnyway #Music #PostR",
+    "Renowned Designer David Carson Partners with 72andSunny's HECHO EN 72",
+    "David Carson Lecture Series Poster on Behance",
+    "Protesters block the intersection of West Florissant Avenue and Canfield Drive in Ferguson, Mo., Tuesday night, April 28, 2015. Looting, fires and gunfire broke out overnight in Ferguson during protests in response to the death of Freddie Gray in police custody in Baltimore. (David Carson/St. Louis ",
+    "Nucollage by David Carson",
+    "David Carson DISORDER POSTER DESIGN // I like the work of David Carson in general. I like the way that he has used typography and the use of the layout works well with the subject matter he discusses. Typography Poster, Graphic Design Typography, Modern Graphic Design, Graphic Design Inspiration, Da",
+    "David Carson, of RayGun magazine, designed the type for this Pepsi print campaign created at BBDO NY. The campaign used the Pepsi logo with type filling in it's shape on each of the different bottles and cans. David Carson Design, David Carson Work, Pepsi Advertisement, Advertising, Art Inspo, Mad M"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 1768,
+   "mentionsFound": 1768,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 81,
+   "nameMatchCount": 1687,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1768,
+   "rows": [
+    {
+     "text": "(David Carson/St. Louis Post-Dispatch via AP). Marcus Gilbert, center,  tosses a sandbag to Herman Drones as they and other volunteers work to plug the leaks in a levee at Cherokee Lakes Campground in O'Fallon, Mo., Tuesday, May 7, 2019. The levee bega...",
+     "imageUrl": "https://images.worldnow.com/ap/images/18378240_G.jpg?auto=webp&amp;disable=upscale&amp;width=800&amp;lastEditedDate=20190508164131",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.041096895933151245,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Protesters block the intersection of West Florissant Avenue and Canfield Drive in Ferguson, Mo., Tuesday night, April 28, 2015. (David Carson/St. Louis Post-Dispatch via AP)",
+     "imageUrl": "http://KFMB.images.worldnow.com/images/7608301_G.jpg?auto=webp&amp;disable=upscale&amp;width=800",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 5.697449978470104e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"David Carson's \"\"\"\"The End of Print\"\"\"\" - 1 of 30 Stunning Typographic Posters - UltraLinx\"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/0e/61/d8/0e61d8a8aef87b9794366a4dd06965f1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.4165684660838451e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"David Carson. \"\"\"\"The End of Print\"\"\"\" event poster. 1996.\"\"\"",
+     "imageUrl": "https://i.pinimg.com/736x/be/2a/32/be2a32cb6cef56c3b45a67bd991ab6a2.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.8065879885398317e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Book of Probes: Marshall McLuhan, David Carson",
+     "imageUrl": "https://images-fe.ssl-images-amazon.com/images/I/4114C4CYC8L._SL160_.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 7.660160918021575e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Miles Storey vs David Carson h2h player stats",
+     "imageUrl": "https://www.fctables.com/uploads/thumb-infographics/200x200/player_versus/286749/496432/miles_storey-vs-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.03555893898010254,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Hallett - Type and Image Design: David Carson designed this for an article about artificial surfing in Bloomberg Business Week. The image and the type work together to illustrate the main idea of the article. David Carson Design, David Carson Work, Identity Design, Brochure Design, Visual Identity, ",
+     "imageUrl": "https://i.pinimg.com/236x/dc/a4/5d/dca45d7215f0a3556c51271fe1ddcb6f--david-carson-work-david-carson-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.017317920923233032,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "typography magazine artist research david carson a history joanne maguire",
+     "imageUrl": "http://tse2.mm.bing.net/th?id=OIP.Qjgfx5tSe-NjM3z0a5iQ1wHaLn",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.178705785307102e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson arrived at the hospice's new premises",
+     "imageUrl": "https://images-o.jpimedia.uk/imagefetch/w_auto,f_auto,ar_3:2,q_auto:low,c_fill/if_h_lte_200,c_mfit,h_201/https://www.northantstelegraph.co.uk/webimage/1.8999654.1563201758!/image/image.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0028192996978759766,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Inverness Caley Thistle signing David Carson.",
+     "imageUrl": "https://www.pressandjournal.co.uk/wp-content/uploads/sites/2/2019/07/PJ-SMc-160519-02-02-454x372.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.0031933672726154e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Plumbing and Heating",
+     "imageUrl": "https://img.ctrlcube.com/edc60b95/335aeccc5a65f587d4134690ca1c219756e6b26c.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.384248313726857e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Crossing into Medicine Country: A Journey in Native American Healing | David Carson",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/513AfJBjshL._SL150_.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.0970546504249796e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson's Ray Gun Magazine cover, Marilyn Manson Issue #61 published 1998.",
+     "imageUrl": "https://i.pinimg.com/236x/32/b5/44/32b5440fe239880a907faf1e54230274--david-carson-marilyn-manson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.000171661376953125,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "the black painting a novel books used books painting by david carson",
+     "imageUrl": "http://tse3.mm.bing.net/th?id=OIP.p2MWA2U3R8H69EXNORBtuQHaFu",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.005983412265777588,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The End of Print by David Carson.",
+     "imageUrl": "https://i.pinimg.com/736x/99/cd/7c/99cd7cee749cef895edd992ade3c7d70--david-carson-design-graphic-designers.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.4451281862857286e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "type-lover: David carson - communication Tagged: Typography poster david carson communication",
+     "imageUrl": "https://i.pinimg.com/236x/4b/b9/53/4bb95398b73621a17a853cb6ee238b05.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 6.23584128334187e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson: Just because something is legible doesn't mean it communicates.",
+     "imageUrl": "https://www.storemypic.com/images/2016/11/29/legible-mean-communicates-quote-on-storemypic-7ee26.png",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 7.88717734394595e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"16\"\" x 26\"\" biography poster of graphic designer David Carson\"",
+     "imageUrl": "https://i.pinimg.com/236x/7b/02/17/7b0217f3f6870478c0d3f8486f9403c3--typography-poster-punk-typography.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.252827809774317e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Nine Lives.On the Run and Out of Time di David Carson - DVD",
+     "imageUrl": "https://img.ibs.it/images/8024607007585_0_221_0_75.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0030390918254852295,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Meet David Carson, CEO of Envision Product Development LLC",
+     "imageUrl": "https://envisionproducts.com/wp-content/uploads/2018/12/IMG_1860-1160x773.jpg?x75206",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0003406405448913574,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The 10th Kingdom [3 Discs] - David Carson; Herbert Wise",
+     "imageUrl": "https://www0.alibris-static.com/the-10th-kingdom-3-discs/cover/v53376wqau3_l.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0027019083499908447,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The End Of Print by David Carson Poster by wildan ilham",
+     "imageUrl": "https://i.pinimg.com/736x/86/b8/9b/86b89bb1f1627fca269facdc67e1488e.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.585044734994881e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A protester balances along the curb while marching past a line of police flipping them off during a demonstration along Hanley Road on Saturday, Nov. 29, 2014.Photo By David Carson, dcarson@post-dispatch.com",
+     "imageUrl": "http://cdn.lightgalleries.net/4bd5ec04c2f91/images/141129-DC-Sat-protest-8-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.0516196198295802e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dan Crowley of Arsenal is fouled by David Carson of Blackburn during the Barclays Premier U21 match between Arsenal U21 and West Bromwich Albion U21...",
+     "imageUrl": "http://media.gettyimages.com/photos/dan-crowley-of-arsenal-is-fouled-by-david-carson-of-blackburn-during-picture-id503444774?s=612x612",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0026937127113342285,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Inverness' David Carson and Ayr's Joe Chalmers challenge for a ball in the rainy conditions during a Scottish Championship match between Ayr United...",
+     "imageUrl": "https://media.gettyimages.com/photos/inverness-david-carson-and-ayrs-joe-chalmers-challenge-for-a-ball-in-picture-id1231284115?s=612x612",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0005813539028167725,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "St. Louis County police officers confront a crowd in Ferguson after Brown's shooting. / David Carson/St. Louis Post-Dispatch/MCT/ZUMA Press",
+     "imageUrl": "http://kalamu.com/neogriot/wp-content/uploads/2014/08/ferguson-01.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00013771653175354004,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Super Moon rises above the Gateway Arch in St. Louis, Missouri, United States, Sunday, Nov. 13, 2016.   \u00a9 David Carson / AP / SIPA",
+     "imageUrl": "https://i.pinimg.com/736x/8d/cc/bb/8dccbba0311b83a2494754a115127791--usa-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.367073036817601e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson designed a Chicago magazine cover. Bet you didn't know that.",
+     "imageUrl": "https://i.pinimg.com/236x/0f/b9/4d/0fb94d209ee2e57c5e80dadd3a14ebc7--david-carson-design-chicago-magazine.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.648196186783025e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson/Aphex Twin CD Packaging",
+     "imageUrl": "https://mir-s3-cdn-cf.behance.net/projects/202/24081c30056253.561190ec83593.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.4671575627289712e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "India, by Paula Scher. Intrigued by cartography and its susceptibility to distortion, Paula Scher uses geography and architectu. Paula Scher, David Carson, Bts Design Graphique, Cultures Du Monde, India Map, India Travel, Gcse Art, Map Design, Design Ideas",
+     "imageUrl": "https://i.pinimg.com/236x/b5/17/fe/b517fea2693c52ee8fc45f00edbed9d7--india-map-india-graphic-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00010095254401676357,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dog ~ Loyalty, from the Medicine Cards Oracle Card deck, by Jamie Sams and David Carson",
+     "imageUrl": "https://i.pinimg.com/736x/18/6c/e0/186ce0e1e50ee4ec702ece1ae56840f5--david-carson-angel-numbers.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.1055178624228574e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Title details for The 10th Kingdom, Episode 1 by David Carson - Wait list",
+     "imageUrl": "https://img1.od-cdn.com/ImageType-100/6572-1/%7BA59EE367-60E1-49E7-A50A-D18F05BC62FF%7DImg100.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.004349857568740845,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Star Trek 7: Pokolenia (DVD) - David Carson",
+     "imageUrl": "https://media.merlin.pl/media/300x452/000/015/274/582dd4617ccb8.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.02456498146057129,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "RayGun Magazine By David Carson",
+     "imageUrl": "https://i.pinimg.com/236x/f6/d8/d5/f6d8d532cd97ed3791b43b76f82a9c56--marilyn-manson-design-editorial.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.006019264459609985,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Donald Trump presidential campaigning in St Louis, Missouri, America - 11 Mar 2016Mandatory Credit: Photo by David Carson/St. Louis Post-/REX/Shutterstock (5612859b) Trump supporters cheer during of his campaign rally at the Peabody Opera House Donald Trump presidential campaigning in St Louis, Miss",
+     "imageUrl": "https://i.guim.co.uk/img/media/45123cab37a9a3c7587097d82e97ec033e931d94/0_0_2992_1796/master/2992.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=605909543b9c89290fcbd89a8ac0504a",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.011693322856445e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "St. Louis Blues fans celebrate the team's win against the Boston Bruins in Game 7 of the NHL hockey Stanley Cup Final in Boston, outside Busch Stadium in St. Louis after a watch party for the game was held in the baseball stadium Wednesday, June 12, 2019. (David Carson/St. Louis Post-Dispatch via AP",
+     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2019/06/urn-publicid-ap-org-ef736f308a0742fc9d4b4955b87130a6Stanley_Cup_Blues_Bruins_Reax_Hockey_82109-780x565.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0016089379787445068,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Emily Kientzel puts a cooler in her friend's boat as they prepare to take the boat out over floodwaters from the Mississippi River to his home outside of Portage des Sioux, Mo., Sunday, June 2, 2019. (David Carson/St. Louis Post-Dispatch via AP)",
+     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2019/06/urn-publicid-ap-org-0c341b09d6454fddb5978de72e5d8189Spring_Flooding_92873-780x564.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.050762832164764404,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Head Chef, David Carson, carefully garnishing a salad which also artichoke, pan fried halloumi, rocket and raspberry",
+     "imageUrl": "https://wined-dined.com/wp-content/uploads/Wined-Dined-%C2%A9subtlesensor2019-04-19-5012-800x533.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00032967329025268555,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Meadow Art Print featuring the painting The Red Gate by David Carson Taylor",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/print/8.000/5.875/break/images-medium/the-red-gate-david-carson-taylor.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.1056555397080956e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson - All For a Few Good Waves",
+     "imageUrl": "https://www.dexigner.com/images/news/xxi/28793.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0020355582237243652,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Star Trek Generations - David Carson",
+     "imageUrl": "https://www0.alibris-static.com/star-trek-generations/cover/v68722gczvu_l.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0022724568843841553,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "When David Carson worked with Pepsi Cola in one of Pepsi advertisiment, he showed a long paragraph of text in the shape of a pepsi can or bottle, making a entire paragraph saying all kind of things that relate to every part of the demographic in some way.  Using a black color font, capitals, and the",
+     "imageUrl": "https://i.pinimg.com/736x/b2/02/15/b2021518f5cc76e2774c6d317c909be3.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.009952038526535034,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Raygun is my favourite magazine of all time. I really admire David Carson for the design \"\"risks\"\" he took and how in my opinion, he revolutionalized design.\"",
+     "imageUrl": "https://i.pinimg.com/736x/dc/c4/9a/dcc49ad6e1efcadca4abbc9034172dbe.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.9965540306875482e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Stan Musial Statue in front of the current Busch Stadium, with Stan the Man below. Photo Credit: David Carson",
+     "imageUrl": "https://ussporthistory.files.wordpress.com/2014/11/ns2.jpg?w=208&",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.9376142518012784e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Medicine Cards: The Discovery of Power through the Ways of Animals by Jamie Sams and David Carson",
+     "imageUrl": "https://www.kachinahouse.com/pub/media/catalog/product/cache/619f7cf05cbbade714ba9b5d2da09403/5/5/5566_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.6470858099637553e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The 10 kingdom (1999) Directed by david carson, herber wise Written by simon...",
+     "imageUrl": "https://ds02.infourok.ru/uploads/ex/0804/00017b1b-361869e2/img9.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0002391040325164795,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson - 2nd Sight",
+     "imageUrl": "https://smlycdn.akamaized.net/products/270x270-fill/c498d19e8b/a5de76d402694d589a30a04399afc82249b7257e.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00029915571212768555,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "{quote}I love it, I asked them to paint something to match my hat,{quote} said Tamika Riely, from O'Fallon, Mo., as she shows off her patriotic spirit during Fair St. Louis in Forest Park on Tuesday, July 4, 2017. Photo by David Carson, dcarson@post-dispatch.com",
+     "imageUrl": "http://cdn.lightgalleries.net/4bd5ec04c2f91/images/09-Patriotic-Face_thumb-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0007179379463195801,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson (#8) of Inverness Caledonian Thistle FC tries to pull back Liam Boyce (#10) of Heart of Midlothian FC during the SPFL Championship match between Heart of Midlothian and Inverness CT at Tynecastle Park, Edinburgh Scotland on 24 April 2021.",
+     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000PXLPy5xQDdY/fit=188x188/fill=/g=G0000a3aNALdUyIU/I0000PXLPy5xQDdY.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.005872845649719238,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Words of Wisdom - SlickFish Studios David Carson, Wisdom, Social Media, Graphic Design, Words, Quotes, Quotations, Social Networks, Quote",
+     "imageUrl": "https://i.pinimg.com/236x/f2/95/cd/f295cd3246d711fc818fc077bf80cf5f--david-carson-social-media.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 6.145425686554518e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson's Ray Gun Magazine cover, Marilyn Manson Issue #61 published 1998.",
+     "imageUrl": "https://i.pinimg.com/736x/32/b5/44/32b5440fe239880a907faf1e54230274.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0012323558330535889,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Nina Sammons and David Carson, authors of 2013 Oracle",
+     "imageUrl": "http://www.2013oracle.com/images/carsonsammons175.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.2083922911187983e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Find Your Spirit Animals by David Carson",
+     "imageUrl": "http://www.unclefesters.com.au/v/vspfiles/photos/G-ABK02-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.217612174921669e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ray Gun (1992) Ray Gun was an American alternative rock-and-roll magazine, first published in 1992 in Santa Monica, California. Led by founding art director David Carson, Ray Gun explored experimental magazine typographic design. The result was a chaotic, abstract style, not always readable, but dis",
+     "imageUrl": "https://i.pinimg.com/236x/d5/e3/8e/d5e38ec04e301dc9135cb58a7c904bc7.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.437386001474806e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "St. Louis police officers line up and salute as the body of fallen Officer Tamarris L. Bohannon is brought to the morgue in St. Louis, Sunday, Aug. 30, 2020. Bohannon died Sunday after being shot in the head by a barricaded gunman on the city's south side, authorities said. (David Carson/St. Louis P",
+     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2020/08/urn-publicid-ap-org-3c8acc2bc8285d1d96ae0c642ef4986aAPTOPIX_St_Louis_Police_Shooting_85654-780x590.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00012175471056252718,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson,who was born September an American prominent contemporary graphic designer, art director ,sociologist,and surfer. Poster Cars, Poster Sport, Poster Retro, Vintage Poster, David Carson Design, David Carson Work, Graphic Design Posters, Graphic Design Typography, Graphic Design Illustrati",
+     "imageUrl": "https://i.pinimg.com/236x/83/8f/e3/838fe3c3d92db8c76c3c5689bc34e1bd--poster-designs-graphic-designers.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.260634780919645e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A crowd gathers near the scene in the 4100 block of Shaw Boulevard where a man was fatally shot by an off-duty St. Louis police officer on Wednesday, Oct. 8, 2014. (AP / St. Louis Post-Dispatch, David Carson)",
+     "imageUrl": "https://www.ctvnews.ca/polopoly_fs/1.2047099.1412875586!/httpImage/image.jpg_gen/derivatives/landscape_960/image.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 9.027657506521791e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "On some news outlets, coverage of widespread protests over the deaths of unarmed black men and women focused on rare incidents of looting. David Carson/St. Louis Post-Dispatch/AP Photo.",
+     "imageUrl": "https://artcritical.com/wp-content/uploads/2014/12/3f8be53e8f9c04444f-44831950-275x144.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0005230903625488281,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "david carson the use of typeography and the way the text overlap eachover giving it more of a feel of a poster design",
+     "imageUrl": "https://i.pinimg.com/564x/84/b8/50/84b850305a097dca8d25c78e5309019d.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.611434292201011e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A biography poster of graphic designer David Carson",
+     "imageUrl": "https://i.pinimg.com/236x/8a/83/2e/8a832ed98613d3b9544d65f4f8f26bb9.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 5.124248855281621e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "(David Carson/St. Louis Post-Dispatch via AP). Marcus Gilbert, center,  tosses a sandbag to Herman Drones as they and other volunteers work to plug the leaks in a levee at Cherokee Lakes Campground in O'Fallon, Mo., Tuesday, May 7, 2019. The levee bega...",
+    "Protesters block the intersection of West Florissant Avenue and Canfield Drive in Ferguson, Mo., Tuesday night, April 28, 2015. (David Carson/St. Louis Post-Dispatch via AP)",
+    "\"\"\"David Carson's \"\"\"\"The End of Print\"\"\"\" - 1 of 30 Stunning Typographic Posters - UltraLinx\"\"\"",
+    "\"\"\"David Carson. \"\"\"\"The End of Print\"\"\"\" event poster. 1996.\"\"\"",
+    "The Book of Probes: Marshall McLuhan, David Carson",
+    "Miles Storey vs David Carson h2h player stats",
+    "Hallett - Type and Image Design: David Carson designed this for an article about artificial surfing in Bloomberg Business Week. The image and the type work together to illustrate the main idea of the article. David Carson Design, David Carson Work, Identity Design, Brochure Design, Visual Identity, ",
+    "typography magazine artist research david carson a history joanne maguire",
+    "David Carson arrived at the hospice's new premises",
+    "Inverness Caley Thistle signing David Carson."
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 456,
+   "mentionsFound": 456,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 35,
+   "nameMatchCount": 421,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 456,
+   "rows": [
+    {
+     "text": "La Luna se alza sobre el arco de St. Louis, vista desde la Compton Hill Water Tower el domingo 13 de noviembre de 2016. St. Louis Post-Dispatch via AP David Carson.",
+     "imageUrl": "http://media.cubadebate.cu/wp-content/uploads/2016/11/SUPERLUNA_SPANMOSTP321-580x386.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 6.7452342591423076e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Helvetica by David Carson, Erik Spiekermann, Matthew Carter, Massimo Vignelli,",
+     "imageUrl": "http://thumbs.ebaystatic.com/d/w400/pict/121550895618.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.9543649614206515e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Retrospettiva su David Carson - Michela Scaglia",
+     "imageUrl": "https://i.pinimg.com/236x/02/17/71/0217715a57a0ff8f9fdeceb809f3963e.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 9.279674850404263e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Surfboards 3",
+     "imageUrl": "https://indoek.com/blog/wp-content/uploads/2010/11/111310_DavidCarsonSurfboards_Full3.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0012934207916259766,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "John David Carson",
+     "imageUrl": "https://images.moviefit.me/p/o/43740-john-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0015487372875213623,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "La polic\u00eda dispara gas lacrim\u00f3geno durante una protesta por la muerte de Michael Brown en Ferguson, Missouri, el 18 de agosto de 2014. Fotograf\u00eda: David Carson/St. Louis Post-Dispatch/Polaris",
+     "imageUrl": "https://i2.wp.com/mor.bo/wp-content/uploads/2020/06/blm6.jpg?resize=1600%2C1051",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.6336159660568228e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pol\u00edcia tenta controlar manifestantes em um posto de gasolina ap\u00f3s a morte de um jovem negro em Berkeley, nos EUA Foto: David Carson / AP",
+     "imageUrl": "https://ogimg.infoglobo.com.br/in/14906787-125-c93/FT1500A/550/APTOPIX-Killings-By-Police-Berkeley.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00023567676544189453,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Medicine Cards Jamie Sams & David Carson Printed in Canada 44 Animal 10 Blank",
+     "imageUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9TMAAOSw6XZf8nRQ/$_12.JPG",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00012316090578678995,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson - Hey",
+     "imageUrl": "https://i2.wp.com/davidcarson.fr/wp-content/uploads/2021/05/DAVID-CARSON-HEY-3000x3000-1-scaled-415x415.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00012817978858947754,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson l\u00e0 ng\u01b0\u1eddi thi\u1ebft k\u1ebf ra m\u1eabu h\u1ed9p \u0111\u1ef1ng v\u00e0 nh\u00e3n chai cho Macallan Concept Number 3",
+     "imageUrl": "https://ruoutaychinhhang.com/userfiles/files/Macallan-ConCept-Number-3-4.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.363866537460126e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Medicine Cards kort og bog Jamie Sans og David Carson",
+     "imageUrl": "https://www.bog-mystik.dk/media/catalog/product/cache/1/small_image/164x/9df78eab33525d08d6e5fb8d27136e95/m/d/mdc44_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00010606588330119848,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MasterClass - David Carson Teaches Graphic Design",
+     "imageUrl": "https://yun.irenzhi.cn/2021_05_17/0_1621213231_1735da0fafd4ee05bce25424f5a333a4_0.png!watermark",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.7343852202175185e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson | david_carson",
+     "imageUrl": "https://i.pinimg.com/236x/42/38/1f/42381fc79b527be363337cf46b9890d7.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00016760826110839844,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Revista Ray Gun, proyecto de David Carson.",
+     "imageUrl": "https://estaticos.elperiodico.com/resources/jpg/6/8/festival-offf-futuro-esta-aqui-1555952970786.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0001550614833831787,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Trek: David Carson, Recent Werk",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/6113FN4SDPL._SL220_.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.091427399544045e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson - Ray Gun layouts - 1990's                                                                                                                                                                                 More",
+     "imageUrl": "https://i.pinimg.com/736x/5d/34/97/5d3497da75b5b09c866d830aad0ec73c.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 8.061451808316633e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Frase del d\u00eda, David Carson sobre el rock",
+     "imageUrl": "http://elgatoqueladra.com/wp-content/uploads/2017/11/David-Carson-1-3.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00045546889305114746,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Design",
+     "imageUrl": "http://dcd.rawquality.com/img/mini/cowb1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00010619159002089873,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "El stand tambi\u00e9n alberga una zona dedicada en exclusiva a la colecci\u00f3n CAS By Carson, cuyas colecciones ya est\u00e1n disponibles en nuestra web,donde el mismo dise\u00f1ador David Carson dio su toque personal y atendi\u00f3 en una magn\u00edfica presentaci\u00f3n y una multitudinaria rueda de prensa a miles de fans, dise\u00f1a",
+     "imageUrl": "https://i.pinimg.com/236x/5d/f6/7c/5df67cbbe5eced8eb1d76ce1b5cda4c5.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 6.307256990112364e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson apuesta por los collages junto a SYL. obras que precisanprocesos especiales,libros exclusivos, fotografia, arte, grandes obras",
+     "imageUrl": "https://i0.wp.com/www.syl.es/wp-content/uploads/2019/03/David-Carson-apuesta-por-los-collages-junto-a-SYL-04.png?resize=840%2C488&ssl=1",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.3431097108405083e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "david carson graphic designer - Google Search",
+     "imageUrl": "https://i.pinimg.com/736x/83/8f/e3/838fe3c3d92db8c76c3c5689bc34e1bd--poster-designs-graphic-designers.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 8.428001456195489e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Japanese poster design for a bar. Japanese Poster Design, Japanese Design, Brochure Design, Branding Design, Identity Branding, Corporate Identity, Corporate Design, Visual Identity, David Carson",
+     "imageUrl": "https://i.pinimg.com/236x/2a/e7/bb/2ae7bb93a0192beaab24add0d09269b6--korean-design-summer-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0033164620399475098,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Retrospettiva su David Carson - Michela Scaglia",
+     "imageUrl": "https://i.pinimg.com/736x/02/17/71/0217715a57a0ff8f9fdeceb809f3963e--david-carson-in-the-corner.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00045427680015563965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Taming Your Gremlin By Richard David Carson",
+     "imageUrl": "https://productimages.worldofbooks.com/0060961023.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00010253097570966929,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Risultati immagini per david carson poster design Poster Sport, Poster Cars, Poster Retro, David Carson Work, David Carson Design, Collage Poster, Poster Layout, Graphic Design Posters, Graphic Design Typography",
+     "imageUrl": "https://i.pinimg.com/236x/b3/98/12/b398128ca4381a7c7da6bb706de34fd6.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0003744959831237793,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Des \u00e9meutes ont \u00e9clat\u00e9 et des magasins ont... (PHOTO DAVID CARSON, AP)",
+     "imageUrl": "https://i1.wp.com/images.lpcdn.ca/641x427/201408/11/891079-emeutes-eclate-magasins-ete-pilles.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00045350193977355957,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Macallan Concept No.3 - David Carson",
+     "imageUrl": "https://cdn.whiskyshop.com/pub/media/catalog/product/cache/0d5480479ebea3832a2e7e8764f78ab9/A/3/A31345Front01_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0003033876419067383,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Die rote Kugel scheint auf dem Bogen in St. Louis, Missouri, zu liegen. (Bild: David Carson / St. Louis Post-Dispatch via AP)",
+     "imageUrl": "https://img.nzz.ch/S=W240/O=75/http://nzz-img.s3.amazonaws.com/2016/11/15/c9cf6de7-9669-4bd9-9a16-82abd7c48b23.jpeg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 8.601153240306303e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson en la UPV",
+     "imageUrl": "https://img.europapress.es/fotoweb/fotonoticia_20170223175654_640.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0003445744514465332,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Grafikeren David Carson viser bl.a. at man godt kan bruge skrifttyper, der ikke n\u00f8dvendigvis er letl\u00e6seligt \u2013 blot det har det udtryk du \u00f8nsker.",
+     "imageUrl": "https://octokom.dk/wp-content/uploads/2020/12/Billede1-800x528.png",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00033292174339294434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Macallan Concept No.3 - David Carson",
+     "imageUrl": "https://cdn.whiskyshop.com/media/catalog/product/cache/67cf0a106a38b567fa17946ffcefdc12/A/3/A34242Front01_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00019031763076782227,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Macallan Concept No.3 - David Carson",
+     "imageUrl": "https://cdn.whiskyshop.com/media/catalog/product/cache/67cf0a106a38b567fa17946ffcefdc12/A/3/A31345Front01_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00037792325019836426,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "John David Carson",
+     "imageUrl": "http://image.tmdb.org/t/p/w500/tSnNQXFJk0prj11Dgo6nYuWujSo.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0010675787925720215,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Als Joe Albanese (links) und Diana Kim (rechts) von Chuck Berrys Tod erfuhren, waren sie gerade dabei, das Cover des neuen Albums des Musikers in St. Louis auf eine Wand zu malen.(Bild: David Carson / St. Louis Post-Dispatch / AP)",
+     "imageUrl": "https://img.nzz.ch/S=W180/O=75/http://nzz-img.s3.amazonaws.com/2017/3/19/24bd8192-7d14-4c59-b2f5-c5ad6f45242f.jpeg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0002816319465637207,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "La luna se eleva sobre el Arco Gateway, en St Louis (Estados Unidos). David Carson (AP), El Pa\u00eds 18-02-2019.",
+     "imageUrl": "https://www.diarioronda.es/wp-content/uploads/2019/02/superluna3-300x200.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.693721605988685e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson - 6 Interesting Facts \u2022 artlistr Identity Design, Brochure Design, Visual Identity, Identity Branding, Corporate Identity, Graphic Design Posters, Graphic Design Typography, Mad Men Poster, David Carson",
+     "imageUrl": "https://i.pinimg.com/236x/8c/6a/9e/8c6a9e8b6e013e123bec6f7e8b3f19e8.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.1298673598503228e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson (graphic designer) - Carson at the 2014 TYPO Berlin conference",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/TYPO_Berlin_2014_%E2%80%93_Day_Two_%2814178868916%29.jpg/330px-TYPO_Berlin_2014_%E2%80%93_Day_Two_%2814178868916%29.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.551739064278081e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MasterClass - David Carson Teaches Graphic Design Free Download",
+     "imageUrl": "https://i2.wp.com/www.wsodownloads.in/wp-content/uploads/2021/05/MasterClass-David-Carson-Teaches-Graphic-Design-Free-Download.jpg?resize=300%2C200&ssl=1",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0003796517848968506,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Huck magazine, in collaboration with David Carson.",
+     "imageUrl": "https://www.designindaba.com/sites/default/files/styles/large/public/node/news/7579/gallery/huck2_0.jpg?itok=01AwchRr",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00026163458824157715,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "david carson ray gun - Cerca con Google",
+     "imageUrl": "https://i.pinimg.com/236x/a1/70/30/a170309fcaff3257db577828c5543580--typography-poster-punk-typography.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.8262784326216206e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Macallan Concept No.3 - David Carson",
+     "imageUrl": "https://cdn.whiskyshop.com/media/catalog/product/cache/41ea4baff1fcd0b49f68cb070b0e73c1/A/3/A34244Front01_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0001620948314666748,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Profile photo for David Carson",
+     "imageUrl": "https://media.letsride.co.uk/image/ed4834d9d79dbf5a8d67d55b6d2e81aa/200/200/fit",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0011086761951446533,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "2001 | david carson design",
+     "imageUrl": "https://i.pinimg.com/236x/dd/f6/fe/ddf6feac1fc5c5bab7b290818194afeb.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00034746527671813965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Des officiers de police devant l'entr\u00e9e d'un commerce saccag\u00e9 \u00e0 Berkeley (Missouri), le 24 d\u00e9cembre 2014. (DAVID CARSON/AP/SIPA)",
+     "imageUrl": "https://www.francetvinfo.fr/pictures/DsJF8fj1BUyMEB4crTgiRIfqBOs/752x423/2014/12/24/sipa_ap21670722_000009_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0009388625621795654,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson \u03bc\u03b5\u03c4\u03ac \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c3\u03c4\u03c1\u03bf\u03c6\u03ae",
+     "imageUrl": "https://img.bookworld.gr/userfiles/books/134847-david-carson-meta-tin-katastrofi.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.7453774237073958e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Une foule en col\u00e8re est mass\u00e9e pr\u00e8s de... (PHOTO DAVID CARSON, AP/ST. LOUIS POST-DISPATCH)",
+     "imageUrl": "https://images.lpcdn.ca/641x427/201410/09/915940-foule-colere-massee-pres-scene.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.6072952096001245e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u00abLos clientes me han dado m\u00e1s libertad a m\u00ed que a muchos otros dise\u00f1adores\u00bb, David Carson",
+     "imageUrl": "https://graffica.info/wp-content/uploads/2017/07/3david-carson-436x291.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00011536941019585356,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson et Nina Sammons - Oracle 2013 - Des cl\u00e9s ancestrales pour l'Eveil de 2012.",
+     "imageUrl": "https://products-images.di-static.com/image/base/9782844458421-120x160-1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0033079683780670166,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Farms & Auction Services Ltd.",
+     "imageUrl": "https://static.wixstatic.com/media/7bc624_c74682994ded407ab0cd3e03c9caa706~mv2.png/v1/fill/w_300,h_169,q_90/7bc624_c74682994ded407ab0cd3e03c9caa706~mv2.png",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 7.014295078988653e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Macallan Concept No.3 - David Carson",
+     "imageUrl": "https://cdn.whiskyshop.com/pub/media/catalog/product/cache/0d5480479ebea3832a2e7e8764f78ab9/A/3/A31343Front01_1.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00014474987983703613,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson:2nd Sight",
+     "imageUrl": "https://images-fe.ssl-images-amazon.com/images/I/51TSR7P4P0L._SL160_.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00014266371726989746,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cal Arts Program in Graphic Design Announcement: ...David Carson..., April 15, 1993",
+     "imageUrl": "https://ids.si.edu/ids/deliveryService?id=CHSDM-29B35E6706A82-000001&max=400",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.962575076206122e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Graphic Design Classes Charleston Sc David Carson Design",
+     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqAaCsF48B0DZmLfKAp-FUm4kQglFyr-ymI8B-DhpmFKctsHFzWg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0016082525253295898,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson: Dise\u00f1o y descubrimiento",
+     "imageUrl": "https://graffica.info/wp-content/uploads/2017/05/DavidCarsonTEDPantallazo-436x291.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00011661162716336548,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Poster David Carson Design",
+     "imageUrl": "http://www.davidcarsondesign.com/img/mini/bangkok1C01.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00022652745246887207,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "david carson design, inc. Corporate Identity, Corporate Design, Identity Design, Brochure Design, Visual Identity, Identity Branding, Graphic Design Posters, Graphic Design Typography, David Carson Design",
+     "imageUrl": "https://i.pinimg.com/236x/0a/4e/cc/0a4ecc8dd82e79f7a60e9a9158aca987--david-carson-design-alt.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00012990832328796387,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Buffalo State",
+     "imageUrl": "https://history.buffalostate.edu/sites/history.buffalostate.edu/files/styles/faculty_image/public/image/20100706_carson_david_e.jpg?itok=Rn9TRcKX",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00013431906700134277,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ich arbeite mit den Karten der Kraft von Jamie Sams und David Carson.",
+     "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=344x10000:format=jpg/path/s1c9776eb2842e8b7/image/i99736476f99558b1/version/1420388563/image.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0007879436016082764,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson: el influyente dise\u00f1ador de la tipograf\u00eda grunge",
+     "imageUrl": "https://www.laimprentacg.com/wp-content/uploads/2020/01/page_1-500x383.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 7.27499036656809e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson ofreci\u00f3 una conferencia en ESdesign Barcelona",
+     "imageUrl": "https://www.doplerweb.com/data/fotos/665656870_1_David_Carson_en_ESdesign_(1).jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.011867523193359375,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "La Luna se alza sobre el arco de St. Louis, vista desde la Compton Hill Water Tower el domingo 13 de noviembre de 2016. St. Louis Post-Dispatch via AP David Carson.",
+    "Helvetica by David Carson, Erik Spiekermann, Matthew Carter, Massimo Vignelli,",
+    "Retrospettiva su David Carson - Michela Scaglia",
+    "David Carson Surfboards 3",
+    "John David Carson",
+    "La polic\u00eda dispara gas lacrim\u00f3geno durante una protesta por la muerte de Michael Brown en Ferguson, Missouri, el 18 de agosto de 2014. Fotograf\u00eda: David Carson/St. Louis Post-Dispatch/Polaris",
+    "Pol\u00edcia tenta controlar manifestantes em um posto de gasolina ap\u00f3s a morte de um jovem negro em Berkeley, nos EUA Foto: David Carson / AP",
+    "Medicine Cards Jamie Sams & David Carson Printed in Canada 44 Animal 10 Blank",
+    "David Carson - Hey",
+    "David Carson l\u00e0 ng\u01b0\u1eddi thi\u1ebft k\u1ebf ra m\u1eabu h\u1ed9p \u0111\u1ef1ng v\u00e0 nh\u00e3n chai cho Macallan Concept Number 3"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 729,
+   "mentionsFound": 729,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 35,
+   "nameMatchCount": 694,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 729,
+   "rows": [
+    {
+     "text": "David Carson:  2ndsight-Grafik Design After the End of Print",
+     "imageUrl": "https://images.alibris.com/imageid/2026628703.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.4070973267953377e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Farms & Auction Services Ltd's Logo",
+     "imageUrl": "https://silentauctionbiz.com/wp-content/uploads/2021/04/DC-Logo.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.02842545509338379,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Black is Beautiful with David Carson, Tr\u00e9 Seals",
+     "imageUrl": "https://theportlandstampcompany.com/wp-content/uploads/2020/08/black-is-beautiful-3-sheet-benefit-stamp-set-2-928x698.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 7.9492645454593e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Coke In Africa l Bloomberg Business Week Magazine Design, Graphic Design Magazine, Magazine Layouts, David Carson Design, Web Design, Design Art, Book Design, Layout Design, Print Design",
+     "imageUrl": "https://i.pinimg.com/236x/05/09/98/05099898a80ba63a444dc50051f6d355--bloomberg-businessweek-magazine-cover-design.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 8.553835505153984e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Medicine Cards: The Discovery of Power Through the Ways of Animals - Jamie Sams & David Carson",
+     "imageUrl": "https://www.soundtravels.co.uk/thumbnail/?File=/upload/all/bk/BK065.jpg&Width=500&Height=500",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.927947323565604e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "DAVID CARSON - Fotografiks",
+     "imageUrl": "https://smlycdn.akamaized.net/products/270x270-fill/ee53405ac1/40bd907da85e31e445318544c3d4999e3e9116b4.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 7.728158379904926e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson signed note",
+     "imageUrl": "https://i1.wp.com/talesfromthecollection.com/wp-content/uploads/2021/09/David-Carson-3.jpg?resize=474%2C728&ssl=1",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 8.206601341953501e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Breeders, Dinosaur Jr, Sebadoh Julian Cope, David Carson Design, Chip Kidd, The Face Magazine, Laurie Anderson, Mazzy Star, Dinosaur Jr, Paula Scher, Kim Deal",
+     "imageUrl": "https://i.pinimg.com/236x/ff/4a/39/ff4a3945880d7d62461b1274224a2861--j-mascis-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0002714991569519043,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Design \u2013 Typographic treatment for Western Union rebranding, 2009",
+     "imageUrl": "https://i.pinimg.com/236x/10/94/e8/1094e8a88716fc3c61a00a744829ef1e.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.5465475118835457e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dillon Powers vs David Carson h2h player stats",
+     "imageUrl": "https://www.fctables.com/uploads/thumb-infographics/200x200/player_versus/228831/496432/dillon_powers-vs-david-carson.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.13811710476875305,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Unstoppable - David Carson",
+     "imageUrl": "https://www2.alibris-static.com/unstoppable/cover/u13356qxfzq_l.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.00034815073013305664,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Palestra com David Carson",
+     "imageUrl": "https://design.com.br/wp-content/uploads/2007/10/emailmkt11.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 2.683689490368124e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "John David Carson Image",
+     "imageUrl": "https://img.reelgood.com/content/person/066c2eb1-1119-4f58-bf44-f63c954ac274/square-242.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0001373589038848877,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "R Penck Original Exhibition Poster 1992 \u2013 Art & Vintage Store Ltd Graphic Design Brochure, Graphic Design Posters, Identity Branding, Corporate Identity, Corporate Design, Identity Design, Visual Identity, David Carson Design, Art Exhibition Posters",
+     "imageUrl": "https://i.pinimg.com/236x/e6/e7/cc/e6e7cc93ba880f5f51c315918ee53bfa.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 3.657367778941989e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Graphic Stories Cyprus Francesco Mazzenga poster design Poster Design Exhibition  Trump David Carson",
+     "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ab397477615277.5c8cb5f94e247.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.9613647964433767e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vintage 1988 Animal Medicine Cards Deck & Book by Jamie Sams & David Carson",
+     "imageUrl": "https://i.pinimg.com/736x/f2/d6/2f/f2d62f0cafab8eeec642e4a7e7301ec9.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 5.9104408137500286e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson (designer), Ray Gun Too Much Joy feature, 1992",
+     "imageUrl": "https://i.pinimg.com/736x/67/54/5a/67545abff0718c0fa3520376a1b1c694.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 0.0005266070365905762,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson Princesse",
+     "imageUrl": "https://i1.wp.com/davidcarson.fr/wp-content/uploads/2017/11/320x320-320x230.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 9.44335333770141e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "deconstructivism #poster #david carson #grunge #graphic design",
+     "imageUrl": "https://i.pinimg.com/236x/f7/89/35/f78935d7410a18739c9abad63d1550fb.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 4.223542055115104e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "David Carson #design #graphic #quality #typography",
+     "imageUrl": "https://dspncdn.com/a1/media/236x/da/cf/e3/dacfe3cbfda6d29062b06cfc06ec51f5.jpg",
+     "keyword": "david carson",
+     "tier": "namematch",
+     "punsafe": 1.426185917807743e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "David Carson:  2ndsight-Grafik Design After the End of Print",
+    "David Carson Farms & Auction Services Ltd's Logo",
+    "Black is Beautiful with David Carson, Tr\u00e9 Seals",
+    "Coke In Africa l Bloomberg Business Week Magazine Design, Graphic Design Magazine, Magazine Layouts, David Carson Design, Web Design, Design Art, Book Design, Layout Design, Print Design",
+    "Medicine Cards: The Discovery of Power Through the Ways of Animals - Jamie Sams & David Carson",
+    "DAVID CARSON - Fotografiks",
+    "David Carson signed note",
+    "The Breeders, Dinosaur Jr, Sebadoh Julian Cope, David Carson Design, Chip Kidd, The Face Magazine, Laurie Anderson, Mazzy Star, Dinosaur Jr, Paula Scher, Kim Deal",
+    "David Carson Design \u2013 Typographic treatment for Western Union rebranding, 2009",
+    "Dillon Powers vs David Carson h2h player stats"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 1990,
+   "mentionsFound": 1990,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 64,
+   "nameMatchCount": 1926,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 1990,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 8,
+   "mentionsFound": 8,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 8,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 8,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": true,
+   "count": 9,
+   "mentionsFound": 9,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 0,
+   "nameMatchCount": 9,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 9,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  }
+ ],
+ "summary": {
+  "datasetsPresent": 7,
+  "totalDatasets": 7,
+  "totalMentions": 5677,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "imageInference": {
+  "works": [
+   {
+    "workId": "images",
+    "title": "Your images",
+    "modelResults": [
+     {
+      "imageModel": "runwayml/stable-diffusion-v1-5",
+      "model": "runwayml/stable-diffusion-v1-5",
+      "name": "runwayml/stable-diffusion-v1-5",
+      "riskLevel": "LOW",
+      "score": 0.3115,
+      "details": {
+       "attacks": [
+        {
+         "method": "loss_based",
+         "score": 0.1697,
+         "candidateMeanLoss": 0.167572,
+         "baselineMeanLoss": 0.074821,
+         "meanZScore": 1.9845,
+         "numCandidates": 2,
+         "numBaseline": 4
+        },
+        {
+         "method": "secmi",
+         "score": 0.3665,
+         "perTimestep": [
+          {
+           "t": 100,
+           "candidateMean": 0.124359,
+           "baselineMean": 0.127945,
+           "meanZ": -0.8595
+          },
+          {
+           "t": 200,
+           "candidateMean": 0.146667,
+           "baselineMean": 0.14151,
+           "meanZ": 1.1133
+          },
+          {
+           "t": 300,
+           "candidateMean": 0.149597,
+           "baselineMean": 0.137344,
+           "meanZ": 1.0569
+          },
+          {
+           "t": 400,
+           "candidateMean": 0.118011,
+           "baselineMean": 0.110016,
+           "meanZ": 1.4251
+          }
+         ],
+         "meanZScore": 0.6839
+        },
+        {
+         "method": "pia",
+         "score": 0.2222,
+         "timestep": 200,
+         "candidateMeanResidual": 0.301514,
+         "baselineMeanResidual": 0.261139,
+         "meanZScore": 1.5658
+        },
+        {
+         "method": "extraction",
+         "score": 0.298,
+         "perImage": [
+          {
+           "imageIndex": 0,
+           "bestSimilarity": 0.5862,
+           "bestPrompt": "carson-ferguson-smoke",
+           "extracted": false
+          },
+          {
+           "imageIndex": 1,
+           "bestSimilarity": 0.606,
+           "bestPrompt": "carson-ferguson-teargas-main",
+           "extracted": false
+          }
+         ],
+         "extractionRate": 0.0,
+         "meanSimilarity": 0.5961,
+         "similarityThreshold": 0.85
+        }
+       ],
+       "summary": {
+        "contributions": {
+         "loss_based": 0.1697,
+         "secmi": 0.3665,
+         "pia": 0.2222,
+         "extraction": 0.298
+        },
+        "best": 0.3665
+       }
+      }
+     },
+     {
+      "imageModel": "CompVis/stable-diffusion-v1-4",
+      "model": "CompVis/stable-diffusion-v1-4",
+      "name": "CompVis/stable-diffusion-v1-4",
+      "riskLevel": "LOW",
+      "score": 0.3598,
+      "details": {
+       "attacks": [
+        {
+         "method": "loss_based",
+         "score": 0.4233,
+         "candidateMeanLoss": 0.246155,
+         "baselineMeanLoss": 0.180906,
+         "meanZScore": 0.3865,
+         "numCandidates": 2,
+         "numBaseline": 4
+        },
+        {
+         "method": "secmi",
+         "score": 0.4135,
+         "perTimestep": [
+          {
+           "t": 100,
+           "candidateMean": 0.121155,
+           "baselineMean": 0.125732,
+           "meanZ": -0.8266
+          },
+          {
+           "t": 200,
+           "candidateMean": 0.141479,
+           "baselineMean": 0.141327,
+           "meanZ": 0.0155
+          },
+          {
+           "t": 300,
+           "candidateMean": 0.149292,
+           "baselineMean": 0.137512,
+           "meanZ": 1.1938
+          },
+          {
+           "t": 400,
+           "candidateMean": 0.119995,
+           "baselineMean": 0.110306,
+           "meanZ": 1.3657
+          }
+         ],
+         "meanZScore": 0.4371
+        },
+        {
+         "method": "pia",
+         "score": 0.2417,
+         "timestep": 200,
+         "candidateMeanResidual": 0.30603,
+         "baselineMeanResidual": 0.266113,
+         "meanZScore": 1.4293
+        },
+        {
+         "method": "extraction",
+         "score": 0.2916,
+         "perImage": [
+          {
+           "imageIndex": 0,
+           "bestSimilarity": 0.5947,
+           "bestPrompt": "carson-ferguson-smoke",
+           "extracted": false
+          },
+          {
+           "imageIndex": 1,
+           "bestSimilarity": 0.5719,
+           "bestPrompt": "carson-ferguson-teargas-main",
+           "extracted": false
+          }
+         ],
+         "extractionRate": 0.0,
+         "meanSimilarity": 0.5833,
+         "similarityThreshold": 0.85
+        }
+       ],
+       "summary": {
+        "contributions": {
+         "loss_based": 0.4233,
+         "secmi": 0.4135,
+         "pia": 0.2417,
+         "extraction": 0.2916
+        },
+        "best": 0.4233
+       }
+      }
+     }
+    ]
+   }
+  ],
+  "summary": {
+   "totalModels": 2,
+   "modelsProbed": 2,
+   "overallRisk": "LOW"
+  },
+  "models": [
+   {
+    "id": "runwayml/stable-diffusion-v1-5",
+    "name": "runwayml/stable-diffusion-v1-5"
+   },
+   {
+    "id": "CompVis/stable-diffusion-v1-4",
+    "name": "CompVis/stable-diffusion-v1-4"
+   }
+  ]
+ },
+ "reportName": "David Carson",
+ "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "David Carson",
+   "Ray Gun magazine"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "ray gun magazine",
+    "tier": "high",
+    "count": 224,
+    "captionHits": 160,
+    "longformHits": 64,
+    "longformRatio": 0.286,
+    "perDataset": {
+     "coyo700m": 9,
+     "laion1b-nolang": 35,
+     "laion2b-en": 81,
+     "laion2b-multi": 35,
+     "obelics": 64
+    },
+    "reason": null
+   },
+   {
+    "keyword": "david carson",
+    "tier": "namematch",
+    "count": 5453,
+    "captionHits": 3510,
+    "longformHits": 1943,
+    "longformRatio": 0.356,
+    "perDataset": {
+     "coyo700m": 708,
+     "laion1b-nolang": 694,
+     "laion2b-en": 1687,
+     "laion2b-multi": 421,
+     "obelics": 1926,
+     "pile": 8,
+     "c4-en": 9
+    },
+    "reason": null
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 7,
+   "totalDatasets": 7,
+   "credibleMentions": 5677,
+   "highConfidenceMentions": 224,
+   "nameMatchMentions": 5453,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 200,
+  "evidenceWithheld": {
+   "person_photo": 37,
+   "unverified": 18,
+   "unrelated": 10,
+   "storefront": 2
+  },
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+ },
+ "subjectId": "david-carson",
+ "cohort": "early-adopter",
+ "note": "very common name - expect heavy false positives on aliases tier",
+ "holistic": {
+  "datasetEvidence": 5677,
+  "datasetsPresent": 7,
+  "membershipInference": 0.3357,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": true,
+  "note": "Both signals available \u2014 grade folds dataset presence and model probes."
+ }
+}
