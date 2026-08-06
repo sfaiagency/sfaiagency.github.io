@@ -1148,7 +1148,7 @@
   "evidenceWithheld": {
    "unverified": 15
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-david-folkman",
  "cohort": "billy-ireland",
@@ -1161,7 +1161,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 20,
   "datasetsPresent": 4,

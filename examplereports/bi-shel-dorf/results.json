@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1542,20 +1542,6 @@
      }
     },
     {
-     "text": "The original San Diego Comic-Con committee, as drawn by Scott Shaw! and inspired by Jack Kirby. Photo by NPR - Courtesy of Scott Shaw!\n\nFifty years ago, a bunch of comics fans in San Diego decided they wanted a way to meet other fans. They were mostly teenagers \u2014 okay, and two adults \u2014 but what they",
-     "imageUrl": null,
-     "keyword": "shel dorf",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "SKYWARD,The all ages adventure series that has taken the comics industry by storm has made an indelible mark in it\u2019s short run. Called \u201cA Winner\u201d by Geeksofdoom.com Action Lab Entertainment, the new gold standard in comic book entertainment is proud to announce the release of SKYWARD: Into The Woods",
      "imageUrl": null,
      "keyword": "shel dorf",
@@ -1585,20 +1571,6 @@
     },
     {
      "text": "Schulz also worked for a Roman Catholic magazine called Topix (previously Timeless Topix), lettering comic strips that had already been drawn by other cartoonists. He was good at his job, as he explained to San Diego Comic-Con International co-founder Shel Dorf in Comics Interview #47 (1987): \u201cI cou",
-     "imageUrl": null,
-     "keyword": "shel dorf",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The original San Diego Comic-Con committee, as drawn by Scott Shaw! and inspired by Jack Kirby.\n\nFifty years ago, a bunch of comics fans in San Diego decided they wanted a way to meet other fans. They were mostly teenagers \u2014 okay, and two adults \u2014 but what they created became the pop culture phenome",
      "imageUrl": null,
      "keyword": "shel dorf",
      "tier": "namematch",
@@ -1793,16 +1765,16 @@
    "thirdPartyPropertyMentions": 2571,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 45,
+  "evidenceShown": 43,
   "evidenceWithheld": {
    "person_photo": 35,
-   "unverified": 170,
+   "unverified": 169,
    "storefront": 15,
    "unrelated": 4,
-   "derivative": 7,
-   "merchandise": 1
+   "derivative": 9,
+   "merchandise": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-shel-dorf",
  "cohort": "billy-ireland",
@@ -1815,7 +1787,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 281,
   "datasetsPresent": 7,

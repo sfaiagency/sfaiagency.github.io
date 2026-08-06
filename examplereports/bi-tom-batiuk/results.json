@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1057,20 +1057,6 @@
      }
     },
     {
-     "text": "Walt \u0921\u093f\u091c\u093c\u094d\u0928\u0940 Screencaps - Tinker Bell, Peter Pan, Wendy Darling, John Darling & Michael Darling",
-     "imageUrl": "http://images6.fanpop.com/image/photos/34900000/Walt-Disney-Screencaps-Tinker-Bell-Peter-Pan-Wendy-Darling-John-Darling-Michael-Darling-walt-disney-characters-34992906-500-376.jpg",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.0005473792552947998,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Ashland artist Deb Van Poolen with artwork she created that's featured in the Klamath River Fishes poster. Photo by John Darling",
      "imageUrl": "http://static-34.sinclairstoryline.com/resources/media/eab6af05-a906-425c-b2a2-f174629ed3f4-1005498680fishposterdebhorizIMG_4987.jpg",
      "keyword": "john darling",
@@ -1188,20 +1174,6 @@
      "keyword": "john darling",
      "tier": "high",
      "punsafe": 0.003165990114212036,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Walt Disney Screencaps - Wendy Darling & John Darling",
-     "imageUrl": "http://images6.fanpop.com/image/photos/39500000/Walt-Disney-Screencaps-Wendy-Darling-John-Darling-walt-disney-characters-39503041-300-226.png",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.004342555999755859,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1449,20 +1421,6 @@
      }
     },
     {
-     "text": "Lisa's Story - The Other Shoe by Tom Batiuk - 9780873389525 Book",
-     "imageUrl": "https://img-2.fruugo.com/product/2/67/91334672_0340_0340.jpg",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": 0.00033354759216308594,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
      "imageUrl": "https://mediacenter.smugmug.com/photos/i-Sw7qdgF/0/XL/i-Sw7qdgF-XL.jpg",
      "keyword": "john darling",
@@ -1494,14 +1452,14 @@
    "samples": [
     "The Complete Funky Winterbean (1972-1974) - Volume 1 by Tom Batiuk - 9",
     "Roses in December A Story of Love and Alzheimer's by Tom Batiuk 9781606352342",
-    "Walt \u0921\u093f\u091c\u093c\u094d\u0928\u0940 Screencaps - Tinker Bell, Peter Pan, Wendy Darling, John Darling & Michael Darling",
     "Ashland artist Deb Van Poolen with artwork she created that's featured in the Klamath River Fishes poster. Photo by John Darling",
     "Fundy Winkerbean, by Tom Batiuk (1977)",
     ". John Darling, left, Carlos Tovar, both employees at Frontier Roofing System in east Denver, work on making a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
     "A detail from Ashland artist Deb Van Poolen's painting that's featured on the Klamather River Fishes poster. Photo by John Darling",
     "Roses in December - A Story of Love and Alzheimer's by Tom Batiuk - Ch",
     "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press",
-    ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)"
+    ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
+    "150th anniversary illustration by Tom Batiuk (Funky Winkerbean artist) who is a Medina resident."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1583,20 +1541,6 @@
    "totalIncludingLowConfidence": 38220,
    "rows": [
     {
-     "text": "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, Taylor Louderman as Wendy Darling, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
-     "imageUrl": "https://cloudimages.broadwayworld.com/upload10/884965/tn-500_nup_166602_0409.jpg",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.0029802322387695312,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Complete Funky Winkerbean - Volume 2 - 1975-1977 by Tom Batiuk - 9",
      "imageUrl": "https://img-1.fruugo.com/product/0/80/76546800_0340_0340.jpg",
      "keyword": "tom batiuk",
@@ -1616,34 +1560,6 @@
      "keyword": "funky winkerbean",
      "tier": "high",
      "punsafe": 0.00043824315071105957,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Prelude - Lisa's Story Begins by Tom Batiuk - 9781606353240 Book",
-     "imageUrl": "https://img-3.fruugo.com/product/4/38/75747384_0340_0340.jpg",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": 0.0003114044666290283,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
-     "imageUrl": "https://cloudimages.broadwayworld.com/upload10/884965/tn-500_nup_166602_0421.jpg",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.026283353567123413,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1695,39 +1611,11 @@
      }
     },
     {
-     "text": "Prelude - Lisa's Story Begins by Tom Batiuk - 9781606353233 Book",
-     "imageUrl": "https://img-4.fruugo.com/product/7/83/75747837_0340_0340.jpg",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": 0.0003101527690887451,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Delphi Borich (Wendy Darling), S\u00e9amus Gailor (Michael Darling), Matthew Caraccioli (John Darling), and Troy Hussmann (Peter Pan) in PETER PAN rehearsals. Photo by Brenna Merritt.",
      "imageUrl": "https://liachang.files.wordpress.com/2015/12/delphi-borich-wendy-darling-sc3a9amus-gailor-michael-darling-matthew-caraccioli-john-darling-and-troy-hussmann-peter-pan-in-peter-pan-rehearsals-photo-by-brenna-merritt.jpg?w=547&",
      "keyword": "john darling",
      "tier": "high",
      "punsafe": 0.0005836784839630127,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, Taylor Louderman as Wendy Darling, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
-     "imageUrl": "https://cloudimages.broadwayworld.com/upload10/884965/tn-500_nup_166602_0416.jpg",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.0004348456859588623,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1766,16 +1654,14 @@
     }
    ],
    "samples": [
-    "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, Taylor Louderman as Wendy Darling, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
     "The Complete Funky Winkerbean - Volume 2 - 1975-1977 by Tom Batiuk - 9",
     "Feburary 14 funky winkerbean comic strip",
-    "Prelude - Lisa's Story Begins by Tom Batiuk - 9781606353240 Book",
-    "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
     "Strike Four! - The Crankshaft Baseball Book by Tom Batiuk - Chuck Ayer",
     "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
     "Lot of Five Funky Winkerbean Reprint Books by Tom Batiuk \u2013 MINT - SCARCE?",
-    "Prelude - Lisa's Story Begins by Tom Batiuk - 9781606353233 Book",
-    "Delphi Borich (Wendy Darling), S\u00e9amus Gailor (Michael Darling), Matthew Caraccioli (John Darling), and Troy Hussmann (Peter Pan) in PETER PAN rehearsals. Photo by Brenna Merritt."
+    "Delphi Borich (Wendy Darling), S\u00e9amus Gailor (Michael Darling), Matthew Caraccioli (John Darling), and Troy Hussmann (Peter Pan) in PETER PAN rehearsals. Photo by Brenna Merritt.",
+    "The Complete Funky Winkerbean by Tom Batiuk",
+    "Funky Winkerbean - Free Comics - Comic Strips - Online Comics"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2799,17 +2685,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 156705
   },
-  "evidenceShown": 115,
+  "evidenceShown": 107,
   "evidenceWithheld": {
-   "person_photo": 136,
-   "unverified": 1122,
-   "storefront": 20,
-   "merchandise": 47,
+   "person_photo": 131,
+   "unverified": 1066,
+   "storefront": 49,
+   "derivative": 29,
+   "merchandise": 62,
    "unrelated": 28,
-   "explicit": 4,
-   "derivative": 4
+   "explicit": 4
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-tom-batiuk",
  "cohort": "billy-ireland",
@@ -2822,7 +2708,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 2253,
   "datasetsPresent": 7,

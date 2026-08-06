@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1086,20 +1086,6 @@
      }
     },
     {
-     "text": "Bug Belly - Babysitter Trouble by Paul Morton - 9781912923045 Book",
-     "imageUrl": "https://img.fruugo.com/product/5/60/131911605_0340_0340.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.0031023621559143066,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
      "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.107625616/170x170.jpg",
      "keyword": "paul morton",
@@ -1370,13 +1356,13 @@
     "Bug Belly Babysitting Trouble by Paul Morton",
     "Nelson Mandela and the ANC flag by Paul Morton",
     "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
-    "Bug Belly - Babysitter Trouble by Paul Morton - 9781912923045 Book",
     "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
     "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
     "A high-volume, low-pressure spray gun is pictured here. (Paul Morton/iStock)",
     "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
     "Let It Rain (Medium Key) [Originally Performed by Paul Morton] [Instrumental Track] SAMPLE",
-    "Bug Belly  Babysitting Trouble by Paul Morton"
+    "Bug Belly  Babysitting Trouble by Paul Morton",
+    "This naval appointment was signed by Paul Morton and was used for relic card PR-PM01 from 2017 The Bar - Pieces of the Past Volume Two."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1691,20 +1677,6 @@
      }
     },
     {
-     "text": "Carolyn Robinson, left, from Buffalo, N.Y., and Marva Chaney from Philadelphia, become emotional during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis ",
-     "imageUrl": null,
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pamela Pittman, of Oak Park, Ill., prays during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis Post-Dispatch.\n\nST. LOUIS \u2014 Drums, keyboard and a preach",
      "imageUrl": null,
      "keyword": "paul morton",
@@ -1737,7 +1709,6 @@
     "Tristen Torrez (left) was attacked outside of his school while wearing a Pride flag.Photo: Screenshot/WTOL\n\nAlthough he was already out to some of his friends, Tristen Torrez wanted to be brave and come out to his entire middle school community in a subtle, simple way before the school year ended. S",
     "By turns amusing and disturbing, this collection of 1960s romance comic strips provides a provocative window into male-female power dynamics as conceived by one of mid-century America's foremost comic book artists.\n\nOgden Whitney was one of the unsung masters of American comics. He is perhaps best r",
     "About Return to Romance\n\nBy turns amusing and disturbing, this collection of 1960s romance comic strips provides a provocative window into male-female power dynamics as conceived by one of mid-century America\u2019s foremost comic book artists.\n\nOgden Whitney was one of the unsung masters of American com",
-    "Carolyn Robinson, left, from Buffalo, N.Y., and Marva Chaney from Philadelphia, become emotional during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis ",
     "Pamela Pittman, of Oak Park, Ill., prays during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis Post-Dispatch.\n\nST. LOUIS \u2014 Drums, keyboard and a preach",
     "\u201cBug Belly, Babysitting Trouble\u201d by Paul Morton is definitely a hilarious story for those just beginning to read alone.  The main character is a frog called Bug Belly, who is called upon to look after his large number of nephews and nieces (tadpoles and froglets) whilst their parents are off at a fr"
    ],
@@ -1829,17 +1800,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 50,
+  "evidenceShown": 48,
   "evidenceWithheld": {
-   "unverified": 734,
-   "storefront": 5,
-   "person_photo": 85,
-   "merchandise": 6,
+   "unverified": 709,
+   "storefront": 15,
+   "person_photo": 81,
+   "merchandise": 17,
+   "derivative": 13,
    "unrelated": 3,
-   "derivative": 3,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-paul-morton",
  "cohort": "billy-ireland",
@@ -1852,7 +1823,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 897,
   "datasetsPresent": 6,

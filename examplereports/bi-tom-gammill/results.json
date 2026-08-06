@@ -948,26 +948,11 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "\"Former Seinfeld writer/producer Tom Gammill who now draws the comic strip \"\"The Doozies\"\" with ___ and David Cohen (co-creator of Futurama) and Chad Frye.\"",
-     "imageUrl": "http://www.chadfrye.com/blog/wp-content/uploads/2009/08/Gammill_Cohen_Frye.jpg",
-     "keyword": "tom gammill",
-     "tier": "namematch",
-     "punsafe": 0.0006037056446075439,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "\"Arnold Roth welcoming up George Booth to receive his lifetime achievement award with MC Tom Gammill in the background alongside a giant Mr. Doozie from his comic strip \"\"The Doozies\"\".\"",
-    "Shrinks! Ask Gammill \u00a9 Anton Emdin 2011. Words \u00a9 Tom Gammill 2011. All Rights Reserved.",
-    "\"Former Seinfeld writer/producer Tom Gammill who now draws the comic strip \"\"The Doozies\"\" with ___ and David Cohen (co-creator of Futurama) and Chad Frye.\""
+    "Shrinks! Ask Gammill \u00a9 Anton Emdin 2011. Words \u00a9 Tom Gammill 2011. All Rights Reserved."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1189,16 +1174,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 7,
+  "evidenceShown": 6,
   "evidenceWithheld": {
-   "unverified": 57,
-   "person_photo": 21,
-   "derivative": 1,
+   "unverified": 53,
+   "person_photo": 22,
+   "derivative": 4,
    "storefront": 2,
    "explicit": 1,
+   "merchandise": 1,
    "unrelated": 1
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-tom-gammill",
  "cohort": "billy-ireland",
@@ -1211,7 +1197,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 90,
   "datasetsPresent": 4,

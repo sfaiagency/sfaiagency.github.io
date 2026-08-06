@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1234,20 +1234,6 @@
      }
     },
     {
-     "text": "Read \"Lily Ren\u00e9e, Escape Artist From Holocaust Survivor to Comic Book Pioneer\" by Trina Robbins available from Rakuten Kobo. In Lily Ren\u00e9e Wilheim is a Jewish girl living in Vienna. Her days are filled with art and ballet. Holocaust Books, Holocaust Survivors, Comic Book Artists, Comic Books, Comic ",
-     "imageUrl": "https://i.pinimg.com/236x/75/be/0e/75be0e2ca5ddeb6ca187e164a2c80e8a--holocaust-books-holocaust-survivors.jpg",
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Detail of \"It Ain't Me Babe\" cover by Trina Robbins",
      "imageUrl": "https://library.osu.edu/sites/default/files/2020-01/TrinaRobbins_ItAintMeBabe.jpg",
      "keyword": "trina robbins",
@@ -1429,20 +1415,6 @@
      "keyword": "trina robbins",
      "tier": "high",
      "punsafe": 0.0016011595726013184,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic of popular sexy vampire comic book character Vampirella. Created by Forrest J Ackerman and comic book artist Trina Robbins in Warren Publishing`s black stock photography",
-     "imageUrl": "https://thumbs.dreamstime.com/b/comic-popular-sexy-vampire-book-character-vampirella-created-forrest-j-ackerman-artist-trina-robbins-warren-146574232.jpg",
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": 0.10733354091644287,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2178,6 +2150,20 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "The Complete Wimmen's Comix by Trina Robbins",
+     "imageUrl": "https://images.gr-assets.com/books/1445745499m/25620792.jpg",
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": 0.004456877708435059,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
@@ -2188,9 +2174,9 @@
     "Cover of: Bessie Coleman by Trina Robbins",
     "The Complete Wimmen's Comix the complete guide to self publishing comics how to create and sell comic books manga and webcomics",
     "Wild Irish Roses: Tales of Brigits, Kathleens and Warrior Queens by Trina Robbins",
-    "Comic of popular sexy vampire comic book character Vampirella. Created by Forrest J Ackerman and comic book artist Trina Robbins in Warren Publishing`s black stock photography",
     "Illustration by Trina Robbins & Anne Timmons, Gothic Classic Vol 14, (2007)",
-    "Last Girl Standing GN (2017 FB) By Trina Robbins 1-1ST"
+    "Last Girl Standing GN (2017 FB) By Trina Robbins 1-1ST",
+    "Wonder Woman: The Once And Future Story by Trina Robbins, Colleen Doran and Jackson Guice (graphic novel review)."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2462,20 +2448,6 @@
      "keyword": "trina robbins",
      "tier": "high",
      "punsafe": 5.015666829422116e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Underground Railroad - Activity Sheet by Trina Robbins",
-     "imageUrl": "https://ecdn.teacherspayteachers.com/thumbitem/Sherman-s-March-to-the-Sea-Reading-Comprehension-Worksheet-Civil-War-3471969-1520248802/original-3471969-2.jpg",
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": 8.202970639104024e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2758,20 +2730,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 1145,
    "rows": [
-    {
-     "text": "\"Trina Robbins' brilliant graphic novel adaptation of Sax Rohmer's sensational 1919 novel, Dope, is considered by many (including Trina herself) to be her best work ever as an illustrator. Inspired by true events, Dope was both the first novel to speak openly about the world's international drug tra",
-     "imageUrl": null,
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Vampirella, issue 100\nPublished by Warren, October 1981\nCover artwork by Enrique Torres, Jose Gonzalez, and Sanjulian\nVampirella was originally created by Forrest J Ackerman (editor of Famous Monsters of Filmland) and underground comix artist Trina Robbins and this \u2018Gala\u2019 issue features reproduction",
      "imageUrl": null,
@@ -3067,20 +3025,6 @@
      }
     },
     {
-     "text": "MENDOCINO FILM FESTIVAL 2022 REVIEW! Susan Stern\u2019s documentary on her late husband, Spain Rodriguez, is an homage to a man of talent and conviction. For anyone who has ever had a connection to comic books, Bad Attitude: The Art of Spain Rodriguez will heighten your knowledge and appreciation for kno",
-     "imageUrl": null,
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Winner of the Jessica Rabbit award for \u201cI\u2019m Not Bad I\u2019m Just Drawn That Way\u201d is this brainchild of comics artist Trina Robbins and writer/editor Forrest Ackerman. Is it weird to have a crush on a comic book character? I mean, clearly Vampirella was drawn with a specific, hormone-addled demographic i",
      "imageUrl": null,
      "keyword": "trina robbins",
@@ -3249,20 +3193,6 @@
      }
     },
     {
-     "text": "The Legend of Wonder Woman was a four-issue limited series published from May to September of 1986. The series was written by Kurt Busiek with artwork by Trina Robbins. The series was patterned in the style of the Golden Age, but was not considered to be a flashback to Earth-Two\u2014it was a new, contem",
-     "imageUrl": null,
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\u201cOf all people, you know who I am\u2026who the world needs me to be. I\u2019m Wonder Woman.\u201d\n\n\u201cOf all people, you know who I am\u2026who the world needs me to be. I\u2019m Wonder Woman.\u201d\n\nWonder Woman made her comic book debut in Star Comics #8 in 1941, and in 1986, legendary comic artist Trina Robbins became the first",
      "imageUrl": null,
      "keyword": "trina robbins",
@@ -3334,20 +3264,6 @@
     },
     {
      "text": "One cannot help but smile (unless you\u2019re a curmudgeon!) at the motto, \u201cMaking the World Safe for Musical Comedy,\u201d when referring to Neil the Horse, a comic book character that was featured in a newspaper strip, comic book series, and adapted to a musical for radio! The big-eyed black horse with stri",
-     "imageUrl": null,
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Like the characters who hold them, every piece is an absolute individual, with its own precise point of view. Inspired by the multiple narratives of comic book strips, and featuring unique works by graphic novel artists, each accessory tells its own story, evokes its own emotion. Fragments of those ",
      "imageUrl": null,
      "keyword": "trina robbins",
      "tier": "high",
@@ -3501,20 +3417,6 @@
      }
     },
     {
-     "text": "DC Comics has announced that the digital-first comic book series Wonder Woman \u201977 will return to publication with chapter 14 available for download Monday, February 1st. The series is inspired by the classic TV series starring Lynda Carter as Wonder Woman and her alter-ego, Dianna Prince, navigate t",
-     "imageUrl": null,
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Professor Lepore\u2019s book brought Ms. Hummel overdue recognition. Mark Evanier, a noted comic-book writer and historian, helped arrange to bring her to Comic-Con in San Diego in 2018 to accept the Bill Finger Award for Excellence in Comic Book Writing. (Mr. Finger, too, was late in being recognized fo",
      "imageUrl": null,
      "keyword": "trina robbins",
@@ -3530,20 +3432,6 @@
     },
     {
      "text": "Drew Ford will launch his own imprint at IDW Publishing. Ford and the team behind the It\u2019s Alive imprint aims to release five to six books in 2017.\n\nThe first title to kick off It\u2019s Alive will be Red Range by Joe R. Lansdale and Sam Glanzman. The second title will be Dope by Trina Robbins.\n\nAccordin",
-     "imageUrl": null,
-     "keyword": "trina robbins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "With a new digital comic by Trina Robbins and an artist perfectly suited to the task, Patsy Walker, has returned to Marvel Unlimited''s roots. Set in 1955, the new Patsy Walker comic is a teen romance and fashion comic inspired by Walker''s previous discoveries.\n\nRobins talked about the series in a ",
      "imageUrl": null,
      "keyword": "trina robbins",
      "tier": "high",
@@ -3597,10 +3485,93 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "It wasn\u2019t until the 1920s and 1930s that the superhero storyline became the main topic of comic books. The superhero comic book boom happened in 1938 with the launch of Action Comics #1  which featured Superman on the cover, a historic moment in comics history. Throughout the next few decades, comic",
+     "imageUrl": null,
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Video:\nComic Book Confidential is shown in its original widescreen aspect ratio of 1.85:1, digitally upgraded to 1080p. The overall image looks very good, with decent resolution and no real signs of artificial enhancement. It's not a knockout or anything, but it does appear to be a good example of w",
+     "imageUrl": null,
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Babes in Arms to be published by Hermes Press!\n\nDuring the Golden Age of comics publishers offered titles supporting the war effort \u2014 presenting fighting men and their feminine counterparts \u2014 babes in arms!  Comic books during this period featured US service-women fighting all of the axis bad guys a",
+     "imageUrl": null,
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Society is happy to reopen to the public tomorrow, September 16 with two great comic exhibits.\nWomen in Comics: Looking Forward and Back\nSeptember 9 to October 24, 2020\nOn display in the main floor gallery.\nOver 50 women cartoonists from vintage comic strips to cutting edge graphic novels explor",
+     "imageUrl": null,
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Transformation of Comics into Comix\n\nThe impact of American underground comix is profound: They galvanized artists both domestically and abroad; they forever changed the economics of comic book publishing; and they influenced generations of cartoonists, including their predecessors. While the wo",
+     "imageUrl": null,
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Vampirella turns 50 as of July 17, and what a journey it has been. This is one character who has been through more twists and turns than most comic book heroines. Designed by comics legend Trina Robbins, this horror host turned solo star has truly been around the world (and off-world) many times ove",
+     "imageUrl": null,
+     "keyword": "trina robbins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "\"Trina Robbins' brilliant graphic novel adaptation of Sax Rohmer's sensational 1919 novel, Dope, is considered by many (including Trina herself) to be her best work ever as an illustrator. Inspired by true events, Dope was both the first novel to speak openly about the world's international drug tra",
     "Vampirella, issue 100\nPublished by Warren, October 1981\nCover artwork by Enrique Torres, Jose Gonzalez, and Sanjulian\nVampirella was originally created by Forrest J Ackerman (editor of Famous Monsters of Filmland) and underground comix artist Trina Robbins and this \u2018Gala\u2019 issue features reproduction",
     "Moxie Theatre, that shining citadel of feminist drama, has crowned its tenth season with Javier Velasco\u2019s Eternally Bad, an unrelenting salvo intended to send patriarchal religions cowering for mercy. Based on a script by Trina Robbins, Eternally Bad scours religions and cultures around the globe to",
     "On Our Shelves Now\n(This book cannot be returned.)\n\nThe IWW, which has been organizing workers since 1905, is often cited yet elusive to scholars because of its eclectic and controversial cultural and social character. Wobblies! presents the IWW whole, scripted and drawn by old-time and younger Wobb",
@@ -3609,7 +3580,8 @@
     "Mann also interviewed a wide range of subjects that never made the final cut, including musician Frank Zappa and important figures in comic books like Carl Banks, Julie Schwartz, and Trina Robbins. Mann was very protective of his subjects and recalled the difficulty he had interviewing legendary com",
     "During its illustrious run, Gay Comix was the backbone of the LGBT comics scene, providing a space where established comic book creators could expand their artistic horizons; where comic strip creators could publish longer format stories; and where new creators could cut their teeth, often with work",
     "If you had asked me, when I was a comic book-loving Jewish girl coming of age in 1960s Detroit, besotted with Batman and following Superman\u2019s every adventure, what I wanted to do when I grew up, I may well have described exactly what Steve Bergson does today.\n\nBergson is a \u201ccomics scholar.\u201d He studi",
-    "Continuing on with writer spotlights from last week\u2019s look at Trina Robbins, this week I interviewed Colleen AF Venable, the author of our hilarious and cute new series Guinea Pig, Pet Shop Private Eye, with art by Stephanie Yue, who was in the spotlight in November.\n\nQ. What was the first thing you"
+    "Continuing on with writer spotlights from last week\u2019s look at Trina Robbins, this week I interviewed Colleen AF Venable, the author of our hilarious and cute new series Guinea Pig, Pet Shop Private Eye, with art by Stephanie Yue, who was in the spotlight in November.\n\nQ. What was the first thing you",
+    "A talented young actress becomes fatally ensnared in London's mysterious and glittery drug culture of the early 20th century. Trina Robbins' comic book adaptation of Sax Rohmer's sensational 1919 novel. DOPE was both the first novel to speak openly about the world's international drug trade, and the"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -3752,17 +3724,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 185,
+  "evidenceShown": 183,
   "evidenceWithheld": {
-   "unverified": 547,
-   "person_photo": 182,
-   "storefront": 27,
-   "unrelated": 66,
-   "merchandise": 8,
-   "explicit": 10,
-   "derivative": 5
+   "unverified": 577,
+   "person_photo": 156,
+   "merchandise": 23,
+   "derivative": 37,
+   "storefront": 50,
+   "unrelated": 71,
+   "explicit": 15
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-trina-robbins",
  "cohort": "billy-ireland",
@@ -3775,7 +3747,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 2023,
   "datasetsPresent": 7,

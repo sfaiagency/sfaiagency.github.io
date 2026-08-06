@@ -36,20 +36,6 @@
      }
     },
     {
-     "text": "Use Your Words! (Cartoon by Scott Dooley & Jason Chatfield) Accessories Skateboard by Is There Something In This? Official Merch Store",
-     "imageUrl": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/itsitpodcast/products/971055/shirt-1554302678-6c2a8efbd659d7e4006d2d735e6f8de0.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiZmZmZmZmIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV19",
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "See What Hes Said Now Drawing by Jason Chatfield and Scott Dooley",
      "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/see-what-hes-said-now-jason-chatfield-and-scott-dooley.jpg",
      "keyword": "jason chatfield",
@@ -108,7 +94,6 @@
    ],
    "samples": [
     "\"Ginger Meggs: Time Traveling\" by Jason Chatfield",
-    "Use Your Words! (Cartoon by Scott Dooley & Jason Chatfield) Accessories Skateboard by Is There Something In This? Official Merch Store",
     "See What Hes Said Now Drawing by Jason Chatfield and Scott Dooley",
     "Ginger Meggs by Jason Chatfield on Sun, 25 Apr 2021",
     "Captionless Acrylic Print featuring the painting Debate Night Confusion vs Delusion by Jason Chatfield and Scott Dooley",
@@ -1574,18 +1559,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1599,13 +1572,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1623,6 +1597,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -1635,17 +1620,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -1655,6 +1629,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1694,17 +1679,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1714,6 +1688,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -2425,7 +2410,7 @@
   ]
  },
  "reportName": "Jason Chatfield",
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2480,18 +2465,18 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 80,
+  "evidenceShown": 79,
   "evidenceWithheld": {
-   "unverified": 706,
-   "merchandise": 72,
-   "person_photo": 109,
+   "unverified": 692,
+   "derivative": 10,
+   "merchandise": 95,
    "not_flat_art": 50,
-   "storefront": 53,
+   "person_photo": 89,
+   "storefront": 61,
    "unrelated": 7,
-   "derivative": 2,
    "explicit": 1
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "jason-chatfield",
  "cohort": "early-adopter",

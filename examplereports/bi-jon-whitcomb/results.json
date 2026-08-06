@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -940,20 +940,6 @@
      }
     },
     {
-     "text": "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956 Elizabeth Taylor, Golden Age Of Hollywood, Classic Hollywood, Old Hollywood, Hollywood Magazine, Vintage Magazines, Vintage Ads, Vintage Images, Tommy Mels",
-     "imageUrl": "https://i.pinimg.com/236x/54/7e/0f/547e0f2c2bd198838dcf45b0c71f33ed--vintage-magazines-fashion-magazines.jpg",
-     "keyword": "jon whitcomb",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "1944 Corsairs | Climb Right Into the Fight! | Get 'Em Up - For Your Navy! by Jon Whitcomb",
      "imageUrl": "https://cdn.shopify.com/s/files/1/0052/7794/1863/products/18040323_300x300.jpg?v=1554234794",
      "keyword": "jon whitcomb",
@@ -998,6 +984,20 @@
     {
      "text": "Shall we dance?illustration by Jon Whitcomb. Vintage Romance, Vintage Glamour, Vintage Love, Vintage Ads, Vintage Images, Illustration Mode, Magazine Illustration, Fashion Art, Vintage Fashion",
      "imageUrl": "https://i.pinimg.com/236x/a7/d0/aa/a7d0aa6a098ebae8af46908967709a80--vintage-cartoon-vintage-retro.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956",
+     "imageUrl": "https://i.pinimg.com/236x/54/7e/0f/547e0f2c2bd198838dcf45b0c71f33ed--vintage-magazines-fashion-magazines.jpg",
      "keyword": "jon whitcomb",
      "tier": "high",
      "punsafe": null,
@@ -1224,11 +1224,11 @@
     "via -- Minimal face by Jon Whitcomb, who specialized in the \"big face\" type of illustration that emerged in women's magazines during the and remained dominant into the Drawing Sketches, Art Drawings, Pencil Drawings, Sketching, Face Sketch, Drawing Portraits, Drawing Eyes, Collage Kunst, Arte Sketch",
     "Receiving a \"Token of Love.\" Illustration by Jon Whitcomb. Pin Up Vintage, Retro Vintage, Retro Kunst, Retro Art, Romance Art, Vintage Romance, Vintage Pictures, Vintage Images, Retro Images",
     "View Couple in ski lodge about to kiss by Jon Whitcomb on artnet. Browse upcoming and past auction lots by Jon Whitcomb. Vintage Comics, Mode Vintage, Vintage Love, Vintage Posters, Vintage Art, Vintage Photos, Vintage Pins, Retro Kunst, Retro Art",
-    "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956 Elizabeth Taylor, Golden Age Of Hollywood, Classic Hollywood, Old Hollywood, Hollywood Magazine, Vintage Magazines, Vintage Ads, Vintage Images, Tommy Mels",
     "1944 Corsairs | Climb Right Into the Fight! | Get 'Em Up - For Your Navy! by Jon Whitcomb",
     "Vintage Ad Community Silver 1946 illustration by Jon Whitcomb",
     "\"Lighting His Cigarette,\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb",
     "Shall we dance?illustration by Jon Whitcomb. Vintage Romance, Vintage Glamour, Vintage Love, Vintage Ads, Vintage Images, Illustration Mode, Magazine Illustration, Fashion Art, Vintage Fashion",
+    "Elizabeth Taylor by Jon Whitcomb, Cosmo, August 1956",
     "Kotex ad illustration Mother and Daughter by jon Whitcomb",
     "Sailor and Woman Embracing by Jon Whitcomb - The Lucas Museum of Narrative Art Romance Art, Vintage Romance, Vintage Art, Retro Kunst, Retro Art, Comic Kunst, Comic Art, Comic Books, Lucas Museum"
    ],
@@ -1261,34 +1261,6 @@
      "keyword": "jon whitcomb",
      "tier": "high",
      "punsafe": 7.845249638194218e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
-     "imageUrl": "https://i.pinimg.com/236x/81/e2/0c/81e20ccb06a493130427527ca8a5bebd--women-in-hats-big-hats.jpg",
-     "keyword": "jon whitcomb",
-     "tier": "high",
-     "punsafe": 0.0017601549625396729,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
-     "imageUrl": "https://i.pinimg.com/236x/81/e2/0c/81e20ccb06a493130427527ca8a5bebd.jpg",
-     "keyword": "jon whitcomb",
-     "tier": "high",
-     "punsafe": 0.0017601549625396729,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1900,20 +1872,6 @@
      }
     },
     {
-     "text": "\"\"\"Romance by the Beach\"\"\"\" story illustration c. -\"\"\"\"A Romance by the Beach\"\"\"\" story illustration c. - vintagegal: Illustration by Jon Whitcomb c. 1960 This lovely lady appeared in an ad for Jantzen swimsuits in the UK. Retro Images, Vintage Images, Vintage Posters, Foto Glamour, Arte Pop, Pulp A",
-     "imageUrl": "https://i.pinimg.com/236x/1d/f5/4f/1df54f53227fb48eacad59ee8be2209d--girl-on-beach-the-beach.jpg",
-     "keyword": "jon whitcomb",
-     "tier": "high",
-     "punsafe": 0.018938064575195312,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Portrait Over Manhattan, Oil Painting by Jon Whitcomb",
      "imageUrl": "https://a.1stdibscdn.com/jon-whitcomb-paintings-portrait-over-manhattan-oil-painting-by-jon-whitcomb-for-sale/a_466/1539379836910/Whitcomb_Portrait_Over_Manhattan_master.JPG?width=240",
      "keyword": "jon whitcomb",
@@ -2094,19 +2052,33 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "He Volunteered For Submarine Service, 1944 Art Print Poster by Jon Whitcomb",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51ukEZN85eL._SY300_.jpg",
+     "keyword": "jon whitcomb",
+     "tier": "high",
+     "punsafe": 0.00010210553591605276,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "New Year's - detail from 1956 Cadillac ad. Art by Jon Whitcomb",
-    "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
-    "MM - photographed by Carl Perutz 1958 for an Easter Hat feature to be painted by Jon Whitcomb.",
     "\"\"\"Lighting His Cigarette,\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"",
     "COLLIER'S COVER 1941 pretty girl plays Chinese chekers by Jon Whitcomb",
     "\"\"\"\"\"\"\"Lighting His Cigarette,\"\"\"\" Saturday Evening Post Cover, October 23, 1943 by Jon Whitcomb\"\"\"",
     "Red Cross nurse & a WAVE (?) illustrated by Jon Whitcomb, on the cover of Collier's magazine cover, 1943.",
     "Original Vintage Poster I'm Proud Of You Folks Too WWII US Navy Home Front Work - Print by Jon Whitcomb",
     "Leopard Gloves, art by Jon Whitcomb - Detail from cover of Cosmopolitan Magazine - October 1949",
-    "Vintage Beauty by Jon Whitcomb..."
+    "Vintage Beauty by Jon Whitcomb...",
+    "A strikingly beautiful painting by Jon Whitcomb, 1944. Red Cross nurse and Navy Nurse",
+    "Illustration by Jon Whitcomb for the story The One I Love., via Flickr."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2287,20 +2259,6 @@
      "keyword": "jon whitcomb",
      "tier": "high",
      "punsafe": 0.0010942816734313965,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Glass Slipper (1955) starring Leslie Caron & Michael Wilding \u2014 illustration by Jon Whitcomb",
-     "imageUrl": "https://i.pinimg.com/236x/6c/c4/bc/6cc4bcbd2945943c00737d4a207f3c90--michael-wilding-elsa-lanchester.jpg",
-     "keyword": "jon whitcomb",
-     "tier": "high",
-     "punsafe": 0.0007750391960144043,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2525,15 +2483,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 100,
+  "evidenceShown": 97,
   "evidenceWithheld": {
-   "unverified": 392,
-   "person_photo": 29,
-   "storefront": 26,
-   "derivative": 2,
+   "unverified": 393,
+   "person_photo": 24,
+   "derivative": 7,
+   "storefront": 28,
+   "merchandise": 13,
    "explicit": 3
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-jon-whitcomb",
  "cohort": "billy-ireland",
@@ -2546,7 +2505,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 584,
   "datasetsPresent": 6,

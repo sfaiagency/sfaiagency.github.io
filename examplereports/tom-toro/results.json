@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -912,36 +912,8 @@
      }
     },
     {
-     "text": "Premium Giclee Print: \"Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders.\" by Tom Toro New Yorker Cartoons, Caricatures, Together We Can, The New Yorker, Beautiful Moments, Popular Memes, Being Ugly, Thankful, Passion",
-     "imageUrl": "https://i.pinimg.com/236x/e7/93/8f/e7938f6f92ef0ce5ada677da845a27a8.jpg",
-     "keyword": "tom toro",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro",
      "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-it-s-a-congressional-election-year-you-ll-want-this-sackcloth-and-a-bottl-cartoon_u-l-pngv6h0.jpg?src=gp&w=300&h=300",
-     "keyword": "tom toro",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Yes, the planet got destroyed, but for a beautiful moment in time we created a lot of value for shareholders\" - New Yorker Cartoon by Tom Toro Horror, By Any Means Necessary, New Yorker Cartoons, We Are The World, Political Cartoons, Political Satire, Political Issues, Beautiful Moments, Mother Ear",
-     "imageUrl": "https://i.pinimg.com/236x/33/f1/97/33f19743048de9a6afe78eb839e347a8--new-yorker-cartoons-beautiful-moments.jpg",
      "keyword": "tom toro",
      "tier": "high",
      "punsafe": null,
@@ -956,9 +928,7 @@
    ],
    "samples": [
     "Cartoon by Tom Toro: \"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"",
-    "Premium Giclee Print: \"Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders.\" by Tom Toro New Yorker Cartoons, Caricatures, Together We Can, The New Yorker, Beautiful Moments, Popular Memes, Being Ugly, Thankful, Passion",
-    "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro",
-    "\"Yes, the planet got destroyed, but for a beautiful moment in time we created a lot of value for shareholders\" - New Yorker Cartoon by Tom Toro Horror, By Any Means Necessary, New Yorker Cartoons, We Are The World, Political Cartoons, Political Satire, Political Issues, Beautiful Moments, Mother Ear"
+    "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1208,20 +1178,6 @@
      }
     },
     {
-     "text": "How to Potty Train Your Porcupine by Tom Toro - 9780316495394 Book",
-     "imageUrl": "https://img.fruugo.com/product/8/58/131820588_0340_0340.jpg",
-     "keyword": "tom toro",
-     "tier": "high",
-     "punsafe": 5.4396281484514475e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Aging Drawing - A Man Stands In The Top Half Of An Hourglass by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-stands-in-the-top-half-of-an-hourglass-tom-toro.jpg",
      "keyword": "tom toro",
@@ -1451,20 +1407,6 @@
      "keyword": "tom toro",
      "tier": "high",
      "punsafe": 0.0003218650817871094,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "An Alien In A Baseball Cap And Polo Shirt Talks Framed Print by Tom Toro",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/an-alien-in-a-baseball-cap-and-polo-shirt-talks-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "high",
-     "punsafe": 0.0001173522905446589,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1815,6 +1757,34 @@
      "keyword": "tom toro",
      "tier": "high",
      "punsafe": 6.466201739385724e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I suspect a challenger from the right. Let's slaughter everyone on the ri...\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/94/9475/IFB6500Z/posters/tom-toro-i-suspect-a-challenger-from-the-right-let-s-slaughter-everyone-on-the-ri-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.007988423109054565,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A panel depicts a sleeping man dreaming up a lightbulb, then pulling the l... - New Yorker Cartoon Premium Giclee Print by Tom Toro",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9514/1JS6500Z/posters/tom-toro-a-panel-depicts-a-sleeping-man-dreaming-up-a-lightbulb-then-pulling-the-l-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 6.466775812441483e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2881,16 +2851,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 125,
+  "evidenceShown": 123,
   "evidenceWithheld": {
-   "storefront": 11,
+   "storefront": 13,
+   "derivative": 5,
    "unverified": 175,
    "person_photo": 16,
-   "not_flat_art": 8,
-   "merchandise": 23,
+   "not_flat_art": 6,
+   "merchandise": 24,
    "unrelated": 1
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "tom-toro",
  "cohort": "early-adopter",
@@ -2902,7 +2873,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 747,
   "datasetsPresent": 5,

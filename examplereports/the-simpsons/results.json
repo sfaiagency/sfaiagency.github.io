@@ -20,25 +20,8 @@
    "thirdPartyCount": 861,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 65774,
-   "rows": [
-    {
-     "text": "The Simpsons 3",
-     "imageUrl": "https://www.myabandonware.com/media/screenshots/t/the-simpsons-7on/the-simpsons_4.png",
-     "keyword": "the simpsons",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    }
-   ],
-   "samples": [
-    "The Simpsons 3"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -174,19 +157,6 @@
      "text": "Homer Simpson banned in Iran",
      "imageUrl": "https://cdn.quotesgram.com/small/16/48/178590496-homer-simpson.jpg",
      "keyword": "homer simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "Bart Simpson reading a map",
-     "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2021-07/19/19/asset/d89e490dc865/sub-buzz-4453-1626724685-8.png?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-     "keyword": "bart simpson",
      "tier": "high",
      "validation": {
       "category": "artwork",
@@ -392,19 +362,6 @@
      }
     },
     {
-     "text": "Maggie Simpson | per\u0161\u00e1nci Simpsons Drawings, Simpsons Art, Cartoon Drawings, Easy Drawings, Cartoon Clip, Cartoon Shows, Simpsons Characters, Geeks, Cartoon Background",
-     "imageUrl": "https://i.pinimg.com/236x/6b/36/2e/6b362e1f6c48309b77999236a5c4f30a--les-simpson-homer-simpson.jpg",
-     "keyword": "maggie simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
      "text": "Transparent Image PNG Maggie Simpson PNG images",
      "imageUrl": "https://www.freeiconspng.com/thumbs/maggie-simpson-png/maggie-simpson-png-7.png",
      "keyword": "maggie simpson",
@@ -431,8 +388,8 @@
      }
     },
     {
-     "text": "marge simpson hats - 6898140160",
-     "imageUrl": "https://i.chzbgr.com/full/6898140160/h57FAA225/who-wore-it-better",
+     "text": "Datei:Marge Simpson 4.png",
+     "imageUrl": "https://simpsonspedia.net/images/thumb/f/fe/Marge_Simpson_4.png/600px-Marge_Simpson_4.png",
      "keyword": "marge simpson",
      "tier": "high",
      "validation": {
@@ -444,9 +401,9 @@
      }
     },
     {
-     "text": "Datei:Marge Simpson 4.png",
-     "imageUrl": "https://simpsonspedia.net/images/thumb/f/fe/Marge_Simpson_4.png/600px-Marge_Simpson_4.png",
-     "keyword": "marge simpson",
+     "text": "The Simpsons 3",
+     "imageUrl": "https://www.myabandonware.com/media/screenshots/t/the-simpsons-7on/the-simpsons_4.png",
+     "keyword": "the simpsons",
      "tier": "high",
      "validation": {
       "category": "artwork",
@@ -587,19 +544,6 @@
      }
     },
     {
-     "text": "Teaser for Matt Groening\u2019s DISENCHANTMENT Gives a Glimpse of Dreamland",
-     "imageUrl": "https://www.geekgirlauthority.com/wp-content/uploads/2018/06/disenchantment-627x376.jpg",
-     "keyword": "matt groening",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
      "text": "I don't care - I love it. Colorjob from PoneJoe of a old Lisa Simpson (The Simpsons) drawing.",
      "imageUrl": "https://i.fairycosmo.com/2021/02/fc_526_th-285x285.png",
      "keyword": "lisa simpson",
@@ -694,19 +638,6 @@
      "text": "The Simpsons: 17\u00d71",
      "imageUrl": "https://image.tmdb.org/t/p/w300/zLejNwBEel18JKXd630eOtjg2nR.jpg",
      "keyword": "the simpsons",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "A Clockwork Orange alex animation awesome creepy Maggie Simpson the simpsons treehouse of horror - 4181523200",
-     "imageUrl": "https://i.chzbgr.com/full/4181523200/hA93D2268/cue-wendy-carlo-williams-synthesizer-score",
-     "keyword": "maggie simpson",
      "tier": "high",
      "validation": {
       "category": "artwork",
@@ -862,19 +793,6 @@
     {
      "text": "29 ideas for wallpaper iphone sad simpsons Cartoon Wallpaper, Simpson Wallpaper Iphone, Sad Wallpaper, Cute Wallpaper Backgrounds, Wallpaper Iphone Cute, Tumblr Wallpaper, Black Wallpaper, Aesthetic Iphone Wallpaper, Disney Wallpaper",
      "imageUrl": "https://i.pinimg.com/236x/df/8e/17/df8e17fd65966737eabffb31381c3931.jpg",
-     "keyword": "simpsons cartoon",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "Maggie Simpson gets her Hollywood close-up Simpsons Drawings, Simpsons Cartoon, Ralph Wiggum, Drugs Art, Cartoon Tv Shows, Futurama, Animated Cartoons, King Kong, Swagg",
-     "imageUrl": "https://i.pinimg.com/236x/b8/aa/1b/b8aa1beda180edd5966656a9731688f2--les-simpson-mcfarlane.jpg",
      "keyword": "simpsons cartoon",
      "tier": "high",
      "validation": {
@@ -1133,19 +1051,6 @@
      }
     },
     {
-     "text": "Adults Bart Simpson Mask",
-     "imageUrl": "https://static1.funidelia.com/38935-f6_list/adults-bart-simpson-mask.jpg",
-     "keyword": "bart simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
      "text": "Bart Simpson PNG Clipart",
      "imageUrl": "http://www.pngall.com/wp-content/uploads/2016/06/Bart-Simpson-PNG-Clipart.png",
      "keyword": "bart simpson",
@@ -1159,35 +1064,9 @@
      }
     },
     {
-     "text": "Simpsons Cartoon, Simpson Wallpaper Iphone, Page Setup, Best Tv Shows, Lisa Simpson, Cartoons, Photo Wall, Lily, Disney",
-     "imageUrl": "https://i.pinimg.com/236x/b0/97/4b/b0974b9c1b8a8a69fcf423e66d9d6db0.jpg",
-     "keyword": "simpsons cartoon",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
      "text": "Motivational Monday 5 12 The Simpsons Movie Simpsons Cartoon The Simpsons",
      "imageUrl": "https://i.pinimg.com/originals/bb/ff/ff/bbffff662ddd78defde4f7983a0b032b.jpg",
      "keyword": "simpsons cartoon",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "marge simpson open this pit up the simpsons - 6770028800",
-     "imageUrl": "https://i.chzbgr.com/full/6770028800/h96CBBBAF/moshin-marge",
-     "keyword": "marge simpson",
      "tier": "high",
      "validation": {
       "category": "artwork",
@@ -1305,19 +1184,6 @@
      "text": "Ned Flanders Wave | HIDLEY HO; QUARANTINOS | image tagged in ned flanders wave | made w/ Imgflip meme maker",
      "imageUrl": "https://i.imgflip.com/3swjyh.jpg",
      "keyword": "ned flanders",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "Cryptocurrency Trading Bart Simpson",
-     "imageUrl": "https://www.savethestudent.org/uploads/etoro_profile.png",
-     "keyword": "bart simpson",
      "tier": "high",
      "validation": {
       "category": "artwork",
@@ -1731,19 +1597,6 @@
      }
     },
     {
-     "text": "homer simpson taking out the trash",
-     "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2021-01/21/16/asset/91e59bd4811d/anigif_sub-buzz-21165-1611248365-9_preview.gif?output-quality=auto&output-format=auto&downsize=360:*",
-     "keyword": "homer simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
      "text": "Homer Simpson Chasing Donuts",
      "imageUrl": "https://honors.syr.edu/wp-content/uploads/2015/10/Homer-Simpson-Chasing-Donuts.jpg",
      "keyword": "homer simpson",
@@ -1811,19 +1664,6 @@
     {
      "text": "Bart simpson lines on chalk board",
      "imageUrl": "https://image.boxrox.com/2016/05/The-Simpsons-Voices.jpg",
-     "keyword": "bart simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "Adults Bart Simpson Mask",
-     "imageUrl": "https://static1.funidelia.com/38935-f6_big2/adults-bart-simpson-mask.jpg",
      "keyword": "bart simpson",
      "tier": "high",
      "validation": {
@@ -1942,19 +1782,6 @@
      "text": "Lisa Simpson Free Vector download",
      "imageUrl": "https://www.cgcreativeshop.com/wp-content/uploads/2014/08/Lisa_P-300x300.jpg",
      "keyword": "lisa simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
-    },
-    {
-     "text": "Marge simpson commissions dress",
-     "imageUrl": "https://img.xbooru.com/samples/511/sample_0c135bdd4dc21f5de7e209a76f35aaa0.jpg",
-     "keyword": "marge simpson",
      "tier": "high",
      "validation": {
       "category": "artwork",
@@ -2314,19 +2141,6 @@
       "confidence": 1.0,
       "reason": "confirmed by visual review of the rendered gallery"
      }
-    },
-    {
-     "text": "ilustration, lisa simpson, quote, quotes, simpsons, system",
-     "imageUrl": "https://cdn.quotesgram.com/small/6/90/562245363-ilustration-lisa-simpson-quote-quotes-simpsons-Favim_com-405927.jpg",
-     "keyword": "lisa simpson",
-     "tier": "high",
-     "validation": {
-      "category": "artwork",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0,
-      "reason": "confirmed by visual review of the rendered gallery"
-     }
     }
    ],
    "samples": [
@@ -2339,7 +2153,7 @@
     "Check out this awesome 'Pocket+Tee++-+Toasty+Cinnamon+Bun' design on Cartoon Wallpaper, Simpson Wallpaper Iphone, Disney Wallpaper, Simpsons Cartoon, Graffiti Characters, Small Canvas Art, Human Drawing, Cartoon Profile Pictures, Psychedelic Art",
     "Homer Simpson Authors Coming!",
     "Homer Simpson banned in Iran",
-    "Bart Simpson reading a map"
+    "Download Lisa Simpson App Icon Background"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2449,20 +2263,6 @@
      }
     },
     {
-     "text": "Morty Szyslak Springfield City, Kent Brockman, Simpsons Characters, Fictional Characters, Montgomery Burns, Ralph Wiggum, Comic Book Guy, Krusty The Clown, Homer Simpson",
-     "imageUrl": "https://i.pinimg.com/236x/a0/10/98/a0109846abfba5662722440d70436f3a.jpg",
-     "keyword": "krusty the clown",
-     "tier": "high",
-     "punsafe": 0.00039654970169067383,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
      "text": "The Simpsons Arcade",
      "imageUrl": "https://images.sftcdn.net/images/t_app-cover-m,f_auto/p/2ba5b956-9b64-11e6-97ad-00163ed833e7/3402143892/the-simpsons-arcade-screenshot.png",
      "keyword": "the simpsons",
@@ -2494,7 +2294,6 @@
    "samples": [
     "\"\"\"Excellent!\"\" - Mr Burns pixel studio illustration simpsons yellow the simpsons monty burns fire hd pixel art pixel nostalgia charles montgomery burns mr burns digital-art digital art digital cartoon art android 8-bit\"",
     "Homer Simpson",
-    "Morty Szyslak Springfield City, Kent Brockman, Simpsons Characters, Fictional Characters, Montgomery Burns, Ralph Wiggum, Comic Book Guy, Krusty The Clown, Homer Simpson",
     "The Simpsons Arcade",
     "Homer Simpson"
    ],
@@ -2848,6 +2647,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -2857,17 +2667,6 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
-   "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -2942,17 +2741,6 @@
    ]
   },
   {
-   "name": "EVA-CLIP-8B-448",
-   "hfPath": "BAAI/EVA-CLIP-8B-448",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "IDEFICS2-8B-AWQ",
    "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
    "isMajor": false,
@@ -2961,6 +2749,17 @@
    "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
    ]
   },
   {
@@ -2998,17 +2797,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -3031,12 +2819,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -3053,67 +2841,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -3207,45 +2940,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -3306,6 +3061,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -3350,23 +3171,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -3424,28 +3245,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -3673,7 +3472,7 @@
   ]
  },
  "reportName": "The Simpsons",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -3707,13 +3506,13 @@
     "longformHits": 104454,
     "longformRatio": 0.28,
     "perDataset": {
+     "c4-en": 479,
      "coyo700m": 46126,
      "laion1b-nolang": 34811,
      "laion2b-en": 170527,
      "laion2b-multi": 16746,
      "obelics": 103669,
-     "pile": 306,
-     "c4-en": 479
+     "pile": 306
     },
     "reason": null
    },
@@ -3725,13 +3524,13 @@
     "longformHits": 14424,
     "longformRatio": 0.262,
     "perDataset": {
+     "c4-en": 89,
      "coyo700m": 6051,
      "laion1b-nolang": 10171,
      "laion2b-en": 17692,
      "laion2b-multi": 6707,
      "obelics": 14288,
-     "pile": 47,
-     "c4-en": 89
+     "pile": 47
     },
     "reason": null
    },
@@ -3743,13 +3542,13 @@
     "longformHits": 6778,
     "longformRatio": 0.13,
     "perDataset": {
+     "c4-en": 42,
      "coyo700m": 6797,
      "laion1b-nolang": 14563,
      "laion2b-en": 17304,
      "laion2b-multi": 6879,
      "obelics": 6720,
-     "pile": 16,
-     "c4-en": 42
+     "pile": 16
     },
     "reason": null
    },
@@ -3761,13 +3560,13 @@
     "longformHits": 3590,
     "longformRatio": 0.259,
     "perDataset": {
+     "c4-en": 18,
      "coyo700m": 1614,
      "laion1b-nolang": 1960,
      "laion2b-en": 4423,
      "laion2b-multi": 2277,
      "obelics": 3565,
-     "pile": 7,
-     "c4-en": 18
+     "pile": 7
     },
     "reason": null
    },
@@ -3779,13 +3578,13 @@
     "longformHits": 2999,
     "longformRatio": 0.233,
     "perDataset": {
+     "c4-en": 16,
      "coyo700m": 1414,
      "laion1b-nolang": 1725,
      "laion2b-en": 5321,
      "laion2b-multi": 1393,
      "obelics": 2973,
-     "pile": 10,
-     "c4-en": 16
+     "pile": 10
     },
     "reason": null
    },
@@ -3797,13 +3596,13 @@
     "longformHits": 3086,
     "longformRatio": 0.44,
     "perDataset": {
+     "c4-en": 13,
      "coyo700m": 547,
      "laion1b-nolang": 870,
      "laion2b-en": 1826,
      "laion2b-multi": 692,
      "obelics": 3061,
-     "pile": 12,
-     "c4-en": 13
+     "pile": 12
     },
     "reason": null
    },
@@ -3815,13 +3614,13 @@
     "longformHits": 1044,
     "longformRatio": 0.153,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 642,
      "laion1b-nolang": 1060,
      "laion2b-en": 2628,
      "laion2b-multi": 1460,
      "obelics": 1038,
-     "pile": 2,
-     "c4-en": 4
+     "pile": 2
     },
     "reason": null
    },
@@ -3833,13 +3632,13 @@
     "longformHits": 1707,
     "longformRatio": 0.375,
     "perDataset": {
+     "c4-en": 8,
      "coyo700m": 488,
      "laion1b-nolang": 607,
      "laion2b-en": 1645,
      "laion2b-multi": 109,
      "obelics": 1691,
-     "pile": 8,
-     "c4-en": 8
+     "pile": 8
     },
     "reason": null
    },
@@ -3851,13 +3650,13 @@
     "longformHits": 1043,
     "longformRatio": 0.256,
     "perDataset": {
+     "c4-en": 6,
      "coyo700m": 637,
      "laion1b-nolang": 493,
      "laion2b-en": 1469,
      "laion2b-multi": 426,
      "obelics": 1035,
-     "pile": 2,
-     "c4-en": 6
+     "pile": 2
     },
     "reason": null
    },
@@ -3869,13 +3668,13 @@
     "longformHits": 2069,
     "longformRatio": 0.796,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 138,
+     "laion1b-nolang": 40,
      "laion2b-en": 339,
      "laion2b-multi": 12,
      "obelics": 2053,
-     "laion1b-nolang": 40,
-     "pile": 6,
-     "c4-en": 10
+     "pile": 6
     },
     "reason": null
    },
@@ -3887,13 +3686,13 @@
     "longformHits": 875,
     "longformRatio": 0.482,
     "perDataset": {
+     "c4-en": 5,
      "coyo700m": 131,
+     "laion1b-nolang": 155,
      "laion2b-en": 573,
      "laion2b-multi": 81,
-     "laion1b-nolang": 155,
      "obelics": 867,
-     "pile": 3,
-     "c4-en": 5
+     "pile": 3
     },
     "reason": null
    },
@@ -3905,13 +3704,13 @@
     "longformHits": 332,
     "longformRatio": 0.192,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 120,
      "laion1b-nolang": 521,
      "laion2b-en": 600,
      "laion2b-multi": 152,
      "obelics": 328,
-     "pile": 3,
-     "c4-en": 1
+     "pile": 3
     },
     "reason": null
    },
@@ -3923,13 +3722,13 @@
     "longformHits": 799,
     "longformRatio": 0.66,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 63,
+     "laion1b-nolang": 126,
      "laion2b-en": 156,
      "laion2b-multi": 67,
      "obelics": 792,
-     "laion1b-nolang": 126,
-     "pile": 3,
-     "c4-en": 4
+     "pile": 3
     },
     "reason": null
    },
@@ -3941,12 +3740,12 @@
     "longformHits": 94,
     "longformRatio": 0.118,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 145,
+     "laion1b-nolang": 158,
      "laion2b-en": 362,
      "laion2b-multi": 39,
-     "laion1b-nolang": 158,
-     "obelics": 92,
-     "c4-en": 2
+     "obelics": 92
     },
     "reason": null
    },
@@ -3958,13 +3757,13 @@
     "longformHits": 9147,
     "longformRatio": 0.437,
     "perDataset": {
+     "c4-en": 38,
      "coyo700m": 861,
      "laion1b-nolang": 3041,
      "laion2b-en": 4534,
      "laion2b-multi": 3357,
      "obelics": 9081,
-     "pile": 28,
-     "c4-en": 38
+     "pile": 28
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -3978,19 +3777,20 @@
    "thirdPartyPropertyMentions": 20940,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 182,
+  "evidenceShown": 167,
   "evidenceWithheld": {
-   "unverified": 23327,
-   "person_photo": 5095,
-   "merchandise": 3495,
-   "derivative": 521,
-   "storefront": 483,
+   "person_photo": 5017,
+   "unverified": 22741,
+   "explicit": 356,
+   "merchandise": 3933,
+   "storefront": 1271,
+   "unrelated": 58,
+   "derivative": 836,
    "not_flat_art": 63,
-   "explicit": 350,
-   "unrelated": 62,
-   "failed_visual_review": 188
+   "failed_visual_review": 184,
+   "failed_rescreen": 13
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00",
   "evidenceCuration": "visual review of every rendered example; expanded from the full candidate pool"
  },
  "subjectId": "the-simpsons",

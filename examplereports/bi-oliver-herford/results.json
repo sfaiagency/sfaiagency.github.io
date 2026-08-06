@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1872,20 +1872,6 @@
      }
     },
     {
-     "text": "phrenological chart By Oliver Herford 18631935 artist 1917 drawing in ink brush ink wash and pencil World War I cartoon drawing of a phrenological...",
-     "imageUrl": "https://media.gettyimages.com/photos/phrenological-chart-by-oliver-herford-18631935-artist-1917-drawing-in-picture-id646459152?s=612x612",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 9.189147021970712e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Fairy Godmother-in-law by Oliver Herford",
      "imageUrl": "https://manybooks.net/sites/default/files/styles/220x330sc/public/migrated-covers/cover-59858.jpg?itok=dM8RtrwR",
      "keyword": "oliver herford",
@@ -2152,20 +2138,6 @@
      }
     },
     {
-     "text": "Phrenological chart By Oliver Herford 18631935 artist 1917 Drawing in ink brush ink wash and pencil World War I cartoon drawing of a phrenological...",
-     "imageUrl": "https://media.gettyimages.com/photos/phrenological-chart-by-oliver-herford-18631935-artist-1917-drawing-in-picture-id624470620?s=612x612",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 1.1575033568078652e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_110x110@2x.jpg?v=1571712472",
      "keyword": "oliver herford",
@@ -2353,6 +2325,34 @@
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": 9.210593816533219e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"The Grandmother of the Dolls and the big Black Cat\"\"  illustration by Oliver Herford  from Little Mr. Thimblefinger and his queer country; what the children saw and heard there by Joel Chandler Harris  1894\"",
+     "imageUrl": "https://64.media.tumblr.com/tumblr_mc89u9bqb01qez75wo1_500.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 5.42576344741974e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Mythological Zoo by Oliver Herford image",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/b1f/155145032.jpeg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 0.00031572580337524414,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3085,15 +3085,15 @@
   },
   "evidenceShown": 139,
   "evidenceWithheld": {
-   "unverified": 507,
-   "person_photo": 89,
-   "storefront": 17,
+   "unverified": 500,
+   "person_photo": 88,
+   "derivative": 10,
+   "storefront": 21,
    "merchandise": 6,
    "unrelated": 17,
-   "explicit": 3,
-   "derivative": 1
+   "explicit": 3
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-oliver-herford",
  "cohort": "billy-ireland",
@@ -3106,7 +3106,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 979,
   "datasetsPresent": 7,

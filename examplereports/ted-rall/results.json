@@ -358,20 +358,6 @@
      }
     },
     {
-     "text": "Attitude 3 - The New Subversive e-Cartoonists by Ted Rall - 9781561634",
-     "imageUrl": "https://img.fruugo.com/product/7/26/91472267_0340_0340.jpg",
-     "keyword": "ted rall",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Ted Rall by Ted Rall on Fri, 16 Apr 2021",
      "imageUrl": "https://assets.amuniversal.com/83d3c2b07ac8013956cc005056a9545d",
      "keyword": "ted rall",
@@ -912,20 +898,6 @@
      }
     },
     {
-     "text": "Attitude - Featuring Stephanie McMillan by Ted Rall - 9781561634422 B",
-     "imageUrl": "https://img-1.fruugo.com/product/1/78/91473781_0340_0340.jpg",
-     "keyword": "ted rall",
-     "tier": "high",
-     "punsafe": 0.0025052130222320557,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Kalepocalypse, Brought to You by Ted Rall",
      "imageUrl": "https://assets.gocomics.com/uploads/collection_images/collection_image_large_1722356_T5181209_201812061520.jpg",
      "keyword": "ted rall",
@@ -1015,20 +987,6 @@
      "keyword": "ted rall",
      "tier": "high",
      "punsafe": 1.3602766557596624e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "To Afghanistan and Back by Ted Rall - 9781561633258 Book",
-     "imageUrl": "https://img.fruugo.com/product/6/96/91474966_0340_0340.jpg",
-     "keyword": "ted rall",
-     "tier": "high",
-     "punsafe": 0.00012505054473876953,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1169,20 +1127,6 @@
      "keyword": "ted rall",
      "tier": "high",
      "punsafe": 0.00011028465087292716,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "2024 by Ted Rall - 9781561632794 Book",
-     "imageUrl": "https://img.fruugo.com/product/1/97/91471971_0340_0340.jpg",
-     "keyword": "ted rall",
-     "tier": "high",
-     "punsafe": 0.003108680248260498,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1638,6 +1582,48 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "The Anti-american Manifesto by Ted Rall",
+     "imageUrl": "http://i.shopmania.org/180x180/0/09/09fd88d1e92b14c13c2e9af62a2c7fb4833a0803.jpg?u=https%3A%2F%2Fd4rri9bdfuube.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F5832%2F9781583229330.jpg",
+     "keyword": "ted rall",
+     "tier": "high",
+     "punsafe": 0.0011225640773773193,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Book of Obama - From Hope and Change to the Age of Revolt ebook by Ted Rall",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/42285212-009b-48d0-a27a-38bffcafc86d/140/215/60/False/the-book-of-obama.jpg",
+     "keyword": "ted rall",
+     "tier": "high",
+     "punsafe": 1.0390705028839875e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Worst Thing I've Ever Done by Ted Rall",
+     "imageUrl": "https://gocomics.typepad.com/.a/6a00d8341c5f3053ef01b7c824526a970b-800wi",
+     "keyword": "ted rall",
+     "tier": "high",
+     "punsafe": 0.0001787245273590088,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
@@ -1649,8 +1635,8 @@
     "Buy *To Afghanistan and Back: A Graphic Travelogue* by Ted Rall online",
     "Political/Editorial Cartoon by Ted Rall on In Other News",
     "America Gone Wild: Cartoons by Ted Rall",
-    "Attitude - Featuring Stephanie McMillan by Ted Rall - 9781561634422 B",
-    "Kalepocalypse, Brought to You by Ted Rall"
+    "Kalepocalypse, Brought to You by Ted Rall",
+    "To Afghanistan and Back - A Graphic Travelogue ebook by Ted Rall"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2898,18 +2884,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -2923,13 +2897,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -2947,6 +2922,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -2959,17 +2945,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -2979,6 +2954,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -3018,17 +3004,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -3038,6 +3013,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -3749,7 +3735,7 @@
   ]
  },
  "reportName": "Ted Rall",
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -3788,18 +3774,18 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 175,
+  "evidenceShown": 174,
   "evidenceWithheld": {
-   "unverified": 1269,
-   "person_photo": 177,
-   "storefront": 22,
+   "unverified": 1262,
+   "person_photo": 166,
+   "storefront": 37,
    "unrelated": 27,
    "not_flat_art": 89,
-   "derivative": 1,
-   "merchandise": 1,
+   "derivative": 21,
+   "merchandise": 4,
    "explicit": 4
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "ted-rall",
  "cohort": "early-adopter",

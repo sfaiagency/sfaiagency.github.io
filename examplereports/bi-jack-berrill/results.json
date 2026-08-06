@@ -1058,20 +1058,6 @@
    "totalIncludingLowConfidence": 288,
    "rows": [
     {
-     "text": "OHMIGOSH is a series of 12 fonts inspired by the style of classic comic strip lettering. There are 3 widths\u20131, 2, 3\u2013each with Regular, Italic, Bold, and Bold Italic. The direct inspiration for #3 was the strip Gil Thorp, from the days it was drawn by Frank McLaughlin (a classic frame at left). For a",
-     "imageUrl": null,
-     "keyword": "gil thorp",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Your COTW momentarily, but first, a link from faithful reader knittaplease! Have you always dreamed of the day when Hubert Selbey\u2019s Requiem for a Dream would be combined with the now retired syndicated comic strip Cathy? Your dreams have come true, my friend!\n\n\u201cThat\u2019s right, Mary. I always wanted ch",
      "imageUrl": null,
      "keyword": "gil thorp",
@@ -1269,7 +1255,6 @@
     }
    ],
    "samples": [
-    "OHMIGOSH is a series of 12 fonts inspired by the style of classic comic strip lettering. There are 3 widths\u20131, 2, 3\u2013each with Regular, Italic, Bold, and Bold Italic. The direct inspiration for #3 was the strip Gil Thorp, from the days it was drawn by Frank McLaughlin (a classic frame at left). For a",
     "Your COTW momentarily, but first, a link from faithful reader knittaplease! Have you always dreamed of the day when Hubert Selbey\u2019s Requiem for a Dream would be combined with the now retired syndicated comic strip Cathy? Your dreams have come true, my friend!\n\n\u201cThat\u2019s right, Mary. I always wanted ch",
     "For loyal fans everywhere, Gil Thorp is more than a comic strip. It\u2019s the story of sports and vital issues for young people including race matters, teen pregnancy, girls\u02bc athletics, dating woes, drug abuse and parental and teacher conflicts. As a result, Gil Thorp has become welcome reading and a cl",
     "Cartoonist Charles Schulz, the creator of Charlie Brown and Snoopy and the rest of the kids in the comic strip Peanuts, was born 100 years ago today in Minneapolis, Minnesota. The date was November 26, 1922. World War I had ended four years earlier, and little did young Charlie Schulz know that he w",
@@ -1278,7 +1263,8 @@
     "Hey everyone, it\u2019s Sunday night, and you know what that means \u2026 it means the COMMENT OF THE WEEK!\n\nAnd it also means the very funny runners-up, obviously.\n\n\u201cDick Tracy, it begins to dawn on me, is Wagner for the comics page. The vast dilation of time \u2026 the protracted sequential repetition \u2026 the ambi",
     "Remembering artist/writer Frank McLaughlin (March 18, 1935 - March 4, 2020), who is likely better known as an artist for the comic strips Gil Thorp, Brenda Star Reporter and The Heart of Juliet Jones, as well as inking many issues of the Justice League of America (including team ups with Black Light",
     "My mathematics blog wasn't melted by the heat last week, but why take chances? The low-keep week went as follows:\n\nSo what does all that need? What's Going On In Gil Thorp? What's this guy's problem with NBA stars? May - July 2019, me talking about a comic strip. Well, several months' worth of one c",
-    "Gil Thorp is a sports-oriented comic strip which has been published since September 8, 1958. The main character, Gil Thorp, is the athletic director of Milford High School and coaches the football, basketball, and baseball teams. In addition to the sports storylines, the strip also deals with issues"
+    "Gil Thorp is a sports-oriented comic strip which has been published since September 8, 1958. The main character, Gil Thorp, is the athletic director of Milford High School and coaches the football, basketball, and baseball teams. In addition to the sports storylines, the strip also deals with issues",
+    "Gil Thorp is a long-running (1958\u2013 ) sports-oriented newspaper comic strip, originally created by Jack Berrill and more recently written by Neal Rubin and illustrated by Rod Whigham. The strip details the everyday life of Gil Thorp, the athletic director at Milford High School. Besides the expected "
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1380,17 +1366,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 19,
+  "evidenceShown": 18,
   "evidenceWithheld": {
-   "unverified": 266,
-   "storefront": 10,
+   "unverified": 259,
+   "storefront": 9,
    "unrelated": 11,
-   "person_photo": 10,
-   "merchandise": 3,
-   "derivative": 1,
+   "derivative": 2,
+   "merchandise": 12,
+   "person_photo": 9,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-jack-berrill",
  "cohort": "billy-ireland",
@@ -1403,7 +1389,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 326,
   "datasetsPresent": 4,

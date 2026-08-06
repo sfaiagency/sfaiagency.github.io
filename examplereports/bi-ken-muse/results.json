@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -258,6 +246,18 @@
     "laion/relaion2B-en-research-safe",
     "laion/relaion2B-multi-research-safe",
     "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1177,12 +1177,14 @@
   },
   "evidenceShown": 6,
   "evidenceWithheld": {
-   "unverified": 22,
-   "person_photo": 6,
+   "unverified": 21,
+   "person_photo": 5,
+   "derivative": 1,
    "unrelated": 1,
-   "storefront": 1
+   "storefront": 1,
+   "merchandise": 1
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-ken-muse",
  "cohort": "billy-ireland",
@@ -1195,7 +1197,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 37,
   "datasetsPresent": 5,

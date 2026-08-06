@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -2131,20 +2131,6 @@
      }
     },
     {
-     "text": "Before Jan Eliot started out with her comic strip Stone Soup, she started out by testing the waters for a potential audience with a weekly feature, Patience and Sarah that was loosely inspired by her family relations, with a smattering of For Better or For Worse behind it.  After gaining a cult foll",
-     "imageUrl": null,
-     "keyword": "patience and sarah",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "In the years following 1975, a group of female-created comic strips came to national attention in a traditionally male-dominated medium. Typical Girls: The Rhetoric of Womanhood in Comic Strips uncovers the understudied and developing history of these strips, defining and exploring the ramifications",
      "imageUrl": null,
      "keyword": "jan eliot",
@@ -2245,7 +2231,6 @@
    ],
    "samples": [
     "The next presentation, \"So Far, So Good\" was by Jan Eliot of Stone Soup and must have been completely engrossing to me because I forgot to take a single photo. It was a terrific talk, Jan ran down her origins in the world of advertising illustration and how she evolved some of that work into a caree",
-    "Before Jan Eliot started out with her comic strip Stone Soup, she started out by testing the waters for a potential audience with a weekly feature, Patience and Sarah that was loosely inspired by her family relations, with a smattering of For Better or For Worse behind it.  After gaining a cult foll",
     "In the years following 1975, a group of female-created comic strips came to national attention in a traditionally male-dominated medium. Typical Girls: The Rhetoric of Womanhood in Comic Strips uncovers the understudied and developing history of these strips, defining and exploring the ramifications",
     "Privacy is for Wussies: Book 11 of the Syndicated Cartoon...\n\u22126%\nView on Amazon\n\nStone Soup, also known as \"The Great Rabbit\", is an internationally acclaimed syndicated American comic strip originally created and drawn by veteran cartoonist Jan Eliot. The creator of the comic had a passion for brin",
     "\u201cEvery Monday morning, there it is, the blank paper that represents the seven comic strips that need to be created,\u201d Eliot explained. \u201cI have reached a point in life where I\u2019d like to be free of these daily deadlines \u2014 free to travel more, spend more time with family and friends, pursue other creati",
@@ -2377,16 +2362,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 87,
+  "evidenceShown": 86,
   "evidenceWithheld": {
-   "unverified": 201,
-   "unrelated": 40,
-   "storefront": 11,
+   "merchandise": 3,
+   "unverified": 194,
+   "unrelated": 39,
+   "storefront": 12,
    "person_photo": 13,
    "explicit": 3,
-   "derivative": 1
+   "derivative": 7
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-jan-eliot",
  "cohort": "billy-ireland",
@@ -2399,7 +2385,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 361,
   "datasetsPresent": 7,

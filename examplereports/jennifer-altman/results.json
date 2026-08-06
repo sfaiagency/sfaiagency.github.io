@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1080,38 +1080,10 @@
      }
     },
     {
-     "text": "Actor Heath Ledger on a roof top in Manhattan, NY. 10/5/2005. Photo by Jennifer S. Altman/for The Times",
-     "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/36344a8/2147483647/strip/true/crop/2048x1151+0+0/resize/840x472!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc0%2F40%2F0963d17de86e9a6069f57267b28c%2Fla-1495482617-wfhaf7q90s-snap-image",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Chevrolet Corvette Chief Engineer Tadge Juechter and General Motors Chairman and CEO Mary Barra drive in a camouflaged next generation Corvette down 7th Avenue near Times Square Thursday, April 11, 2019 in New York, New York. The next generation Corvette will be unveiled on July 18. (Photo by Jennif",
      "imageUrl": "https://autorai.nl/wp-content/uploads/2019/04/Chevrolet-Corvette-C8-3.jpg",
      "keyword": "jennifer altman",
      "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MANHATTAN, NEW YORK, NOVEMBER 23, 2011 John Logan, playwright and screenwriter, is seen at the Mondrian SoHo Hotel in Manhattan, NY. Logan wrote the Broadway play Red. 11/23/2011 Photo by Jennifer S. Altman/For The Times",
-     "imageUrl": "https://i1.wp.com/writingstudio.co.za/wp-content/uploads/2016/07/johnlogan.jpg?resize=300%2C200",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1634,20 +1606,6 @@
      }
     },
     {
-     "text": "MANHATTAN, NEW YORK, JANUARY 31, 2011 Singer, song writer, and musician Bruno Mars is seen at The Empire Hotel in Manhattan, NY. Mars is nominated for many Grammy awards this year.  01/31/2011 Photo by Jennifer S. Altman/For The Times",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000tF1uWjGsXYA/fit=180x180/fill=/g=G0000K.nKkI49rfM/I0000tF1uWjGsXYA.jpg",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.0026280879974365234,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "MANHATTAN, NEW YORK, MARCH 9, 2012 French actress Audrey Justine Tautou, who stars in Delicacy, is seen at The Empire Hotel in Manhattan, NY. 3/9/3012 Photo by Jennifer S. Altman/For The Times",
      "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000.DBm9aYKee4/fit=1000x750/portraits103.jpg",
      "keyword": "jennifer s. altman",
@@ -1676,39 +1634,11 @@
      }
     },
     {
-     "text": "\"\"\"BRONX, NEW YORK, JANUARY 2, 2018 The transgender cast members of the film \"\"\"\"Saturday Church\"\"\"\",  actors Indya Moore, with curly hair, Alexia Garcia, with long hair, and Mj Rodriguez, wearing head scarf, are seen at St. Peter's Episcopal Church in the Bronx, NY. 1/2/2018 Photo by Jennifer S. Al",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000aXSGAWRr3nI/fit=180x180/fill=/g=G0000K.nKkI49rfM/I0000aXSGAWRr3nI.jpg",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.011412292718887329,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Cleveland Orchestra performs Suppe, Mozart, Mahler and Strauss at Carnegie Hall in Manhattan, NY. The conductor is Franz Welser-Most. Pianist Leif Ove Andsnes and Soprano Dorothea Roschmann were featured during the performance. 10/4/2006 Photo by Jennifer S. Altman",
      "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000XzPASaLHebk/fit=180x180/fill=/g=G0000MhmjwcI3RW8/I0000XzPASaLHebk.jpg",
      "keyword": "jennifer s. altman",
      "tier": "high",
      "punsafe": 3.486471905489452e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MANHATTAN, NEW YORK, MAY 20, 2010 R&B singer and songwriter Janelle Monae is seen in offices at Atlantic Records in Manhattan, NY. Monae, who lives in Atlanta, GA, has a new album out. 5/9/2006 Photo by Jennifer S. Altman/For The Times",
-     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000jgF4YPXofxU/fit=180x180/fill=/g=G0000K.nKkI49rfM/I0000jgF4YPXofxU.jpg",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.006611824035644531,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1844,20 +1774,6 @@
      }
     },
     {
-     "text": "BROOKLYN, NEW YORK, JULY 12, 2011 Singer and musician Jen Chapin is seen in her home in Brooklyn, NY. Chapin's father, Harry Chapin, died in a car accident on the Long Island Expressway 30 years ago.  7/12/2011 Photo by Jennifer S. Altman/For Newsday",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I00001im3ImgNGU0/fit=1000x750/portraits031.jpg",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.04851102828979492,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Chevrolet announces the next generation Corvette will debut 07.18.19. A camouflaged next generation Corvette travels down 7th Avenue near Times Square Thursday, April 11, 2019 in New York, New York. (Photo by Jennifer Altman for Chevrolet)",
      "imageUrl": "https://i0.wp.com/practicalmotoring.com.au/wp-content/uploads/2019/07/NextGenVette02.jpg?resize=360%2C240&ssl=1",
      "keyword": "jennifer altman",
@@ -1877,34 +1793,6 @@
      "keyword": "jennifer s. altman",
      "tier": "high",
      "punsafe": 0.003280341625213623,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MANHATTAN, NEW YORK, JANUARY 31, 2011 Singer, song writer, and musician Bruno Mars is seen at The Empire Hotel in Manhattan, NY. Mars is nominated for many Grammy awards this year.  01/31/2011 Photo by Jennifer S. Altman/For The Times",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I00008eYOxQq_1yE/fit=1000x750/portraits052.jpg",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.0120924711227417,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MANHATTAN, NEW YORK, JANUARY 31, 2011 Singer, song writer, and musician Bruno Mars is seen at The Empire Hotel in Manhattan, NY. Mars is nominated for many Grammy awards this year.  01/31/2011 Photo by Jennifer S. Altman/For The Times",
-     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000tF1uWjGsXYA/fit=180x180/fill=/g=G0000K.nKkI49rfM/I0000tF1uWjGsXYA.jpg",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.0026280879974365234,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1989,6 +1877,90 @@
      "keyword": "jennifer s. altman",
      "tier": "high",
      "punsafe": 0.27807480096817017,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The north tower of the World Trade Center is on fire due to a terrorist act of a plane hittng the building in Manhattan, NY. (Photo by Jennifer S. Altman/WireImage) *** Local Caption ***",
+     "imageUrl": "https://s.yimg.com/ny/api/res/1.2/FM0Yb3we3eYKDxsPM.1oqg--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9OTUwO2g9NjAwO2lsPXBsYW5l/http://l.yimg.com/os/156/2012/09/11/remembering-911-091112-950-13-jpg_053046.jpg",
+     "keyword": "jennifer s. altman",
+     "tier": "high",
+     "punsafe": 0.000295490026473999,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The multi-talented Carl Hancock Rux is seen in his home in Brooklyn, NY. 8/4/2004 Photo by Jennifer S. Altman",
+     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000V5VM5kNizmk/fit=180x180/fill=/g=G0000v405OdpxpUQ/I0000V5VM5kNizmk.jpg",
+     "keyword": "jennifer s. altman",
+     "tier": "high",
+     "punsafe": 0.0004763305187225342,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Georfe Soros is seen in his offices in Manhattan, NY.  7/12/2006 Photo by Jennifer S. Altman/For The Times",
+     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I000028sz4f4F3xY/fit=180x180/fill=/g=G0000b4skuLsyAKQ/I000028sz4f4F3xY.jpg",
+     "keyword": "jennifer s. altman",
+     "tier": "high",
+     "punsafe": 0.002911865711212158,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MANHATTAN, NEW YORK, JANUARY 16, 2013 Actor Robert De Niro is seen at the Tribeca Screening Room in Manhattan, NY. DeNrio is nominated for an Oscar for his role in Silver Linings Playbook.  1/16/2013 Photo by Jennifer S. Altman/For The Times",
+     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000q9SVOosrwPA/fit=1000x750/portraits057.jpg",
+     "keyword": "jennifer s. altman",
+     "tier": "high",
+     "punsafe": 0.02876254916191101,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From Left: Mayor Giuliani, Peter Vallone, Vallone's wife, Thomas Van Esson, Gov. Pataki and his wife Libby all pray at St. Patrick's Cathedral during a mass held by Cardinal Egan in Manhattan, NY, 9/16/2001. Photo by Jennifer S. Altman",
+     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000p9ORCk92idg/fit=180x180/fill=/g=G0000M0aMNpRTp3Q/I0000p9ORCk92idg.jpg",
+     "keyword": "jennifer s. altman",
+     "tier": "high",
+     "punsafe": 0.0024224817752838135,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Donald Trump, Jr. is seen at the construction site of the new Trump Soho Hotel in Manhattan, NY. 11/6/2007 Photo by Jennifer S. Altman/For The New York Times",
+     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000wYAAPbavNjI/fit=180x180/fill=/g=G0000b4skuLsyAKQ/I0000wYAAPbavNjI.jpg",
+     "keyword": "jennifer s. altman",
+     "tier": "high",
+     "punsafe": 0.0006760954856872559,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2280,20 +2252,6 @@
      }
     },
     {
-     "text": "Chris Evans Photoshoot by Jennifer S. Altman - 2011",
-     "imageUrl": "http://images6.fanpop.com/image/photos/43300000/Chris-Evans-Photoshoot-by-Jennifer-S-Altman-2011-chris-evans-43379827-300-401.png",
-     "keyword": "jennifer s. altman",
-     "tier": "high",
-     "punsafe": 0.0061501264572143555,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Jennifer Altman Website and Business Card Design",
      "imageUrl": "https://images.squarespace-cdn.com/content/591b78b8d1758ea52ff8396d/1496870723131-N8ZD80SKPYNEQ01U1MO9/altman.jpg?format=1000w&content-type=image%2Fjpeg",
      "keyword": "jennifer altman",
@@ -2465,14 +2423,14 @@
    "samples": [
     "Jennifer Altman, Pillsbury Law Firm \u2013 Forks in the Road and Legal Trailblazing",
     "Poeple pray at mass at St. Patrick's Catheadral in Manhattan, NY. 9/16/2001 Photo by Jennifer S. Altman",
-    "Chris Evans Photoshoot by Jennifer S. Altman - 2011",
     "Jennifer Altman Website and Business Card Design",
     "Jennifer S. Altman    Photojournalist-Independent",
     "Employees at Drexel Hamilton. Photo by Jennifer S. Altman.",
     "Mahmoud Ahmadinejad. Photo by Jennifer S. Altman",
     "Oculus, World Trade Center Transportation Hub, (Santiago Calatrava, 2016) Photo Credit: Jennifer S. Altman for The New York Times",
     "Mahmoud Ahmadinejad. Photo by Jennifer S. Altman",
-    "Oleg Cassini wedding gown, spring 2015 collection. Photo: Jennifer S. Altman/The New York Times."
+    "Oleg Cassini wedding gown, spring 2015 collection. Photo: Jennifer S. Altman/The New York Times.",
+    "Mahmoud Ahmadinejad. Photo by Jennifer S. Altman"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3135,15 +3093,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 141,
+  "evidenceShown": 138,
   "evidenceWithheld": {
-   "person_photo": 14,
-   "unverified": 52,
-   "storefront": 11,
+   "person_photo": 13,
+   "unverified": 46,
+   "storefront": 13,
    "unrelated": 1,
-   "merchandise": 2
+   "merchandise": 7,
+   "derivative": 10
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "jennifer-altman",
  "cohort": "early-adopter",
@@ -3156,7 +3115,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 433,
   "datasetsPresent": 6,

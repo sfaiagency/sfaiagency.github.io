@@ -336,20 +336,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Today's Promo Daily was sent a while back from San Francisco based photographer Gabriela Hasbun.",
-     "imageUrl": "https://images.dwell.com/photos-6063391372700811264/6133557570599477248-small/promo-daily-of-changorg-founder-ben-rattray-gabriela-hasbun-promotional-photographer-piece-mailer-portrait.jpg",
-     "keyword": "gabriela hasbun",
-     "tier": "high",
-     "punsafe": 1.9363691535545513e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -360,8 +346,7 @@
     "\"\"\"\u2022\u2022Jony Ive / Tim Cook / Stephen Fry\u2022\u2022 at the CA, Cupertino Apple Motherhship campus II construction site (photo: Gabriela Hasbun for The Telegraph 2015-05-26) \u2022article by Fry \"\"\"\"When Stephen Fry met Jony Ive: the self-confessed tech geek meets Apple's newly promoted chief design officer\"\"\"\" (to ",
     "The Property Brothers Drew Scott (tie) & Jonathan Scott (blue shirt) photographed at home in Las Vegas, NV on September 19, 2014.  Photographer: Gabriela Hasbun Groomer: Zee Clemente/Zenobia Prop Stylist: Amy Villareale/Zenobia Stylist: Christie Moeller/Zenobia  (no clothing credits needed)",
     "Together, Tammy Johnson (left) and Etang Inyang (right) formed Your Body Raks, a wellness group that celebrates bodies of all sizes through belly dance, classes and workshops. (Photo by Gabriela Hasbun)",
-    "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph)",
-    "Today's Promo Daily was sent a while back from San Francisco based photographer Gabriela Hasbun."
+    "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph)"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -905,20 +890,6 @@
      }
     },
     {
-     "text": "Rojas\u2019 mural Enrique\u2019s Journey (2009) was inspired by Sonia Nazario\u2019s book of the same name and is located at Balmy Alley in San Francisco. Photo by Gabriela Hasbun\n\nRojas says his life could\u2019ve gone in a very different direction. His father died when he was 15, and he began acting out. \u201cI started g",
-     "imageUrl": null,
-     "keyword": "gabriela hasbun",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "With a team of local street artists, Josu\u00e9 Rojas (\u201915) painted the mural Birds of the Americas in San Francisco\u2019s Mission District. Photo by Gabriela Hasbun\n\nOriginally published in the Spring 2021 issue of CFA magazine. By Marc Chalufour\n\nHundreds of murals illustrate the streets and alleys of San ",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
@@ -1443,18 +1414,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1468,13 +1427,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1492,6 +1452,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -1504,17 +1475,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -1524,6 +1484,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1563,17 +1534,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1583,6 +1543,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -2294,7 +2265,7 @@
   ]
  },
  "reportName": "Gabriela Hasbun",
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2348,15 +2319,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 717
   },
-  "evidenceShown": 70,
+  "evidenceShown": 68,
   "evidenceWithheld": {
    "person_photo": 5,
+   "storefront": 2,
    "unverified": 20,
-   "unrelated": 3,
-   "merchandise": 1,
-   "storefront": 1
+   "unrelated": 2,
+   "derivative": 1,
+   "merchandise": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "gabriela-hasbun",
  "cohort": "early-adopter",

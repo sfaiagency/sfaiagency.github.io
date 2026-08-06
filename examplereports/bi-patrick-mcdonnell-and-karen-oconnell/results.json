@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -258,6 +246,18 @@
     "laion/relaion2B-en-research-safe",
     "laion/relaion2B-multi-research-safe",
     "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -896,25 +896,8 @@
    "thirdPartyCount": 197,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 198,
-   "rows": [
-    {
-     "text": "Patrick McDonnell, creator of Mutts comic strip, my favorite! Look who's peeking in the window too? Mutts Comics, School Of Visual Arts, New York Art, Animal Rights, Art School, Comic Strips, Hug, My Favorite Things, Gallery",
-     "imageUrl": "https://i.pinimg.com/236x/eb/81/d2/eb81d25f436c2029630bf6ef672d41d0.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    }
-   ],
-   "samples": [
-    "Patrick McDonnell, creator of Mutts comic strip, my favorite! Look who's peeking in the window too? Mutts Comics, School Of Visual Arts, New York Art, Animal Rights, Art School, Comic Strips, Hug, My Favorite Things, Gallery"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -986,20 +969,6 @@
      "keyword": "mutts comic strip",
      "tier": "high",
      "punsafe": 8.582937880419195e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Call of the Wild A MUTTS Comic Strip Treasury 2008 9780740770999 Front Cover",
-     "imageUrl": "https://secure.coverart.textbookrush.com/medium/999/1-9780740770999.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 4.276842446415685e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1308,12 +1277,12 @@
     "The adorable little stars from Mutts Comic Strip",
     "The adorable little stars from Mutts Comic Strip",
     "Call of the Wild: A MUTTS Comic Strip Treasury (Mutts Treasury) ~ Patrick McDonnell",
-    "Call of the Wild A MUTTS Comic Strip Treasury 2008 9780740770999 Front Cover",
     "Call of the Wild : A MUTTS Comic Strip Treasury",
     "Mutts Comic Strip Featured On PBS Nature",
     "Call of the Wild: A MUTTS Comic Strip Treasury",
     "Call of the Wild: A Mutts Comic Strip Treasury",
-    "Signed MUTTS ArtworkMuseum quality MUTTS comic strip hand-signed by Patrick McDonnell, the creator of the beloved daily comic strip Mutts. In 1994, Patrick McDonnell created the comic strip MUTTS which now appears in over 700 newspapers and 20 countries."
+    "Signed MUTTS ArtworkMuseum quality MUTTS comic strip hand-signed by Patrick McDonnell, the creator of the beloved daily comic strip Mutts. In 1994, Patrick McDonnell created the comic strip MUTTS which now appears in over 700 newspapers and 20 countries.",
+    "Mutts comic strip features a weeks worth of quotes"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1503,20 +1472,6 @@
      }
     },
     {
-     "text": "MUTTS Comic Strip Creator Patrick McDonnell: \u201cI Try My Best to Give a Voice to Shelter Animals\u201d\n\nGrowing up in Edison, New Jersey in the 1960s, McDonnell longed for two things \u2013 to own a dog and create comics. Alas, he didn\u2019t achieve the first goal until way into his thirties: \u201cMy family had cats. I",
-     "imageUrl": null,
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Patrick McDonnell is the creator of the Mutts comic strip, which recently celebrated its tenth anniversary. He has illustrated for the New York Times, Sports Illustrated, Reader\u2019s Digest, Time, Parents, and other journals, done CD covers for the Greatest Hit classical music series, and created a lic",
      "imageUrl": null,
      "keyword": "mutts comic strip",
@@ -1560,20 +1515,6 @@
     },
     {
      "text": "I\u2019m sure all of you know the Mutts comic strip, and its creator, Patrick McDonnell. Mutts is in over 700 newspapers in 20 countries and a favorite of animal lovers worldwide. Mr. Patrick has won lots of awards, including the Reuben (which is like winning the Oscars for cartoonists), but even more im",
-     "imageUrl": null,
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Patrick McDonnell, Cartoonist of the MUTTS comic strip, who is a passionate and creative advocate for wildlife and habitat protection.\n\nDon Baur, Senior Partner, Perkins, Cole LLP is former General Counsel of the Marine Mammal Commission and represents pro-bono such organizations as The Alliance to ",
      "imageUrl": null,
      "keyword": "mutts comic strip",
      "tier": "high",
@@ -1916,10 +1857,10 @@
     "MUTTS Comes to ACC Along with Shelter Me\n\nAward-winning artist and animal advocate Patrick McDonnell, creator of the MUTTS comic strip, turned his experience at Animal Care Centers of NYC (ACC), into a week\u2019s worth of MUTTS comics called \u201cShelter Stories,\u201d which ran in February, 2016. He was filmed ",
     "Today, June 5th is World Environment Day (WED). It is a day that has been set aside since 1974 to promote \u201cworldwide awareness and action for the protection of our environment.\u201d Last year\u2019s theme was \u201cbeat plastic pollution,\" and the Mutts comic strip stop this entry, is a small reminder of how plas",
     "Unlike the characters in The Mutts comic strip (posted above), on this day after Christmas,  I am stirring, but like them I'm exhausted, so I'll keep it short.\n\nToday is Boxing Day \"which is only celebrated in a few countries; mainly ones historically connected to the UK (such as Canada, Australia, ",
-    "MUTTS Comic Strip Creator Patrick McDonnell: \u201cI Try My Best to Give a Voice to Shelter Animals\u201d\n\nGrowing up in Edison, New Jersey in the 1960s, McDonnell longed for two things \u2013 to own a dog and create comics. Alas, he didn\u2019t achieve the first goal until way into his thirties: \u201cMy family had cats. I",
     "Patrick McDonnell is the creator of the Mutts comic strip, which recently celebrated its tenth anniversary. He has illustrated for the New York Times, Sports Illustrated, Reader\u2019s Digest, Time, Parents, and other journals, done CD covers for the Greatest Hit classical music series, and created a lic",
     "MUTTS.com is the official online home for Patrick McDonnell\u2019s acclaimed MUTTS comic strip, which began in 1994 and today reaches millions of readers worldwide.\n\nIn 2003 PRI joined forces with MUTTS to introduce its beloved cast of characters to an online audience, and in the nearly two decades since",
-    "A copy of the Mutts comic strip that's posted atop this entry was in my In Box this morning causing me to recall a joke that I heard a few years ago:\n\nQ: If an April shower brought a May flower; what did the May Flower bring?\nA: Pilgrims!\n\nBut if truth be told, imho, April showers take away May flow"
+    "A copy of the Mutts comic strip that's posted atop this entry was in my In Box this morning causing me to recall a joke that I heard a few years ago:\n\nQ: If an April shower brought a May flower; what did the May Flower bring?\nA: Pilgrims!\n\nBut if truth be told, imho, April showers take away May flow",
+    "I\u2019m sure all of you know the Mutts comic strip, and its creator, Patrick McDonnell. Mutts is in over 700 newspapers in 20 countries and a favorite of animal lovers worldwide. Mr. Patrick has won lots of awards, including the Reuben (which is like winning the Oscars for cartoonists), but even more im"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2065,14 +2006,16 @@
    "thirdPartyPropertyMentions": 5364,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 65,
+  "evidenceShown": 61,
   "evidenceWithheld": {
-   "unverified": 19,
+   "unverified": 17,
+   "derivative": 2,
    "person_photo": 5,
+   "storefront": 6,
    "unrelated": 2,
-   "storefront": 4
+   "merchandise": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-patrick-mcdonnell-and-karen-oconnell",
  "cohort": "billy-ireland",
@@ -2085,7 +2028,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 99,
   "datasetsPresent": 6,

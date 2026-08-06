@@ -814,9 +814,10 @@
   },
   "evidenceShown": 2,
   "evidenceWithheld": {
-   "unverified": 7
+   "unverified": 4,
+   "storefront": 3
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-leland-s-mcclelland",
  "cohort": "billy-ireland",
@@ -829,7 +830,7 @@
   "estimatedMonthlyUsers": 24569000,
   "estimatedTotalGenerations": 4913800000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 9,
   "datasetsPresent": 3,

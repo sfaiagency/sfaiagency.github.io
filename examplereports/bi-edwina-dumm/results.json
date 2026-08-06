@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -934,25 +934,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "\"LOAC Essentials Volume 11: \"\"Cap\"\" Stubbs and Tippie, 1945 by Edwina Dumm\"",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9781684050130",
-     "keyword": "edwina dumm",
-     "tier": "namematch",
-     "punsafe": 0.0004798471927642822,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "\"\"\"\"\"\"\"Tippie's Hallowe'en Serenade,\"\"\"\" words and music by Helen Thomas.  So many wonderful, childhood images on the cover of this vintage, sheet music!  Artwork by cartoonist Edwina Dumm (1944).\"\"\"",
-    "\"LOAC Essentials Volume 11: \"\"Cap\"\" Stubbs and Tippie, 1945 by Edwina Dumm\""
+    "\"\"\"\"\"\"\"Tippie's Hallowe'en Serenade,\"\"\"\" words and music by Helen Thomas.  So many wonderful, childhood images on the cover of this vintage, sheet music!  Artwork by cartoonist Edwina Dumm (1944).\"\"\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1019,34 +1004,6 @@
    "totalIncludingLowConfidence": 310,
    "rows": [
     {
-     "text": "Original Comic Art:Comic Strip Art, Edwina Dumm Cap Stubbs and Tippie Daily Comic Strip Original Art dated 8-22 (George Matthew Adams, Year Unknown)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F8%2F0%2F5%2F21805546%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "edwina dumm",
-     "tier": "namematch",
-     "punsafe": 0.03433990478515625,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cap Stubbs & Tippie Original Comic Strip 1944 By Edwina Dumm",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/352117741379_/Cap-Stubbs-Tippie-Original-Comic-Strip-1944.jpg",
-     "keyword": "edwina dumm",
-     "tier": "namematch",
-     "punsafe": 0.00014200806617736816,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Rare Tippie Comic Strip Character Mohair Dog Toy - Edwina Dumm",
      "imageUrl": "https://pic.avaluer.org/imgstmb/a/c/k/n/r/-rare_tippie_comic_strip_character_mohair_dog_toy___edwina_dumm-1_16_tmb.jpg",
      "keyword": "edwina dumm",
@@ -1062,8 +1019,6 @@
     }
    ],
    "samples": [
-    "Original Comic Art:Comic Strip Art, Edwina Dumm Cap Stubbs and Tippie Daily Comic Strip Original Art dated 8-22 (George Matthew Adams, Year Unknown)....",
-    "Cap Stubbs & Tippie Original Comic Strip 1944 By Edwina Dumm",
     "Rare Tippie Comic Strip Character Mohair Dog Toy - Edwina Dumm"
    ],
    "partial": false,
@@ -1091,20 +1046,6 @@
    "rows": [
     {
      "text": "With the 1896 publication of Rose O'Neill's comic strip The Old Subscriber Calls, in Truth Magazine, American women entered the field of comics, and they never left it. But, you might not know that reading most of the comics histories out there. Trina Robbins has spent the last thirty years recordin",
-     "imageUrl": null,
-     "keyword": "edwina dumm",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Here is a rare collection of 12 original comic strips of Cap Stubbs and Tippie from the 50s and 60s by Edwina. Frances Edwina Dumm (1893 - 1990) was a writer-artist who drew the comic strip Cap Stubbs and Tippie for nearly five decades; she is also notable as America's first full-time female editori",
      "imageUrl": null,
      "keyword": "edwina dumm",
      "tier": "namematch",
@@ -1186,46 +1127,15 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Frances Edwina Dumm (1893 \u2013 April 28, 1990) was a writer-artist who drew the comic strip Cap Stubbs and Tippie for nearly five decades; she is also notable as America's first full-time female editorial cartoonist. She used her middle name for the signature on her comic strip, signed simply Edwina.\n\n",
-     "imageUrl": null,
-     "keyword": "edwina dumm",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Alec the Great was a syndicated newspaper gag panel created by Edwina Dumm and featuring a dog character. It ran from 1931 to 1969.\n\nCap Stubbs and Tippie is a syndicated newspaper comic strip created by the cartoonist Edwina Dumm that ran for 48 years, from August 21, 1918, to September 3, 1966. At",
-     "imageUrl": null,
-     "keyword": "edwina dumm",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "With the 1896 publication of Rose O'Neill's comic strip The Old Subscriber Calls, in Truth Magazine, American women entered the field of comics, and they never left it. But, you might not know that reading most of the comics histories out there. Trina Robbins has spent the last thirty years recordin",
-    "Here is a rare collection of 12 original comic strips of Cap Stubbs and Tippie from the 50s and 60s by Edwina. Frances Edwina Dumm (1893 - 1990) was a writer-artist who drew the comic strip Cap Stubbs and Tippie for nearly five decades; she is also notable as America's first full-time female editori",
     "Tom Gammill presents our curator Jenny Robb with one of the Ball Point bathing suits.\n\nGammill is a producer and comedy writer who has worked on many popular TV shows, including The Simpsons and Seinfeld.  He is also the creator of the comic strip, The Doozies.  He has made many generous donations t",
     "With the 1896 publication of Rose O\u2019Neill\u2019s comic strip The Old Subscriber Calls, in Truth Magazine, American women entered the field of comics, and they never left it. But, you might not know that reading most of the comics histories out there. Trina Robbins has spent the last thirty years recordin",
     "The Spanish Flu in Comics Strips, 1918\n\nThis is the first of a series of posts about comics and the Spanish Flu pandemic. In our second installment we will look at editorial cartoons about the flu and the attempts to visualize the viral \u201cenemy.\u201d\n\nIt used to be hard for us to grasp how devastating wa",
     "Maud was a revenge-seeking mule belonging to farmer Si Slocum and his wife Mirandy. Most of the action was a build-up to Maud kicking someone into the air. Si was the most frequent victim.[3]\n\nAs was common in the early years of comic strips, the title under which Maud the Mule appeared might change",
-    "And Her Name Was Maud was a comic strip by Frederick Burr Opper. It first appeared in the Hearst newspapers on July 24, 1904.[1] After work as a magazine cartoonist, Opper was hired by Hearst in 1899 to draw comic strips for the New York Journal, launching Happy Hooligan, Alphonse and Gaston and And",
-    "Frances Edwina Dumm (1893 \u2013 April 28, 1990) was a writer-artist who drew the comic strip Cap Stubbs and Tippie for nearly five decades; she is also notable as America's first full-time female editorial cartoonist. She used her middle name for the signature on her comic strip, signed simply Edwina.\n\n",
-    "Alec the Great was a syndicated newspaper gag panel created by Edwina Dumm and featuring a dog character. It ran from 1931 to 1969.\n\nCap Stubbs and Tippie is a syndicated newspaper comic strip created by the cartoonist Edwina Dumm that ran for 48 years, from August 21, 1918, to September 3, 1966. At"
+    "And Her Name Was Maud was a comic strip by Frederick Burr Opper. It first appeared in the Hearst newspapers on July 24, 1904.[1] After work as a magazine cartoonist, Opper was hired by Hearst in 1899 to draw comic strips for the New York Journal, launching Happy Hooligan, Alphonse and Gaston and And"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1396,16 +1306,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 4004
   },
-  "evidenceShown": 16,
+  "evidenceShown": 10,
   "evidenceWithheld": {
-   "unverified": 68,
+   "unverified": 56,
    "storefront": 3,
-   "person_photo": 13,
-   "merchandise": 1,
+   "merchandise": 30,
+   "person_photo": 10,
    "unrelated": 4,
-   "derivative": 1
+   "derivative": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-edwina-dumm",
  "cohort": "billy-ireland",
@@ -1418,7 +1328,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 117,
   "datasetsPresent": 6,

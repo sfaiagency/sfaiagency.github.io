@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -896,70 +896,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 169,
-   "rows": [
-    {
-     "text": "One of the earliest uses of the term McCarthyism was in a cartoon by Herbert Block (\"Herblock\"), published in the Washington Post, March 29, 1950.",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Herblock1950.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "This cartoon by Herb Block (Herblock) was first published in The Washington Post in 1968. It is",
-     "imageUrl": "https://fontfolly.files.wordpress.com/2018/07/frivolous-disobedience-1-43d.jpeg?w=217&h=300",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "1967 cartoon by the Washington Post\u2019s \u201cHerblock,\u201d took aim at the high-powered \u201croad gang\u201d singing in chorus to protect cuts to their highway-building funding largesse.",
-     "imageUrl": "https://www.pophistorydig.com/wp-content/uploads/2020/09/1967-Herblock-320.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "fire \u201d herblock s history political cartoons from the crash to enlarge",
-     "imageUrl": "https://www.loc.gov/exhibits/herblocks-history/images/hblock6.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    }
-   ],
-   "samples": [
-    "One of the earliest uses of the term McCarthyism was in a cartoon by Herbert Block (\"Herblock\"), published in the Washington Post, March 29, 1950.",
-    "This cartoon by Herb Block (Herblock) was first published in The Washington Post in 1968. It is",
-    "1967 cartoon by the Washington Post\u2019s \u201cHerblock,\u201d took aim at the high-powered \u201croad gang\u201d singing in chorus to protect cuts to their highway-building funding largesse.",
-    "fire \u201d herblock s history political cartoons from the crash to enlarge"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -984,67 +922,11 @@
    "totalIncludingLowConfidence": 329,
    "rows": [
     {
-     "text": "'McCarthyism', by Herb Block, Washington Post, March 4th, 1954.",
-     "imageUrl": "https://i.pinimg.com/236x/2f/81/c4/2f81c4c30ed35f0348948a185f69550e--political-art-political-cartoons.jpg",
-     "keyword": "herb block",
-     "tier": "namematch",
-     "punsafe": 6.911969103384763e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
      "text": "herblock political cartoon Lesson title \u2013mccarthyism: the political cartoons of herb mccarthyism the political cartoons of.",
      "imageUrl": "https://www.loc.gov/exhibits/herblock-gallery/images/06222v_enlarge.jpg",
      "keyword": "herblock",
      "tier": "high",
      "punsafe": 2.6308738597435877e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Herblock editorial cartoon on the impeachment of Richard Nixon.",
-     "imageUrl": "https://i2.wp.com/thenib.com/wp-content/uploads/2020/01/19700118.jpg?fit=762%2C1024&ssl=1",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 0.00020462274551391602,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "herbert block cartoon washington post 1956 | Herblock's Presidents (Herblock's History: Political Cartoons from the ...",
-     "imageUrl": "https://i.pinimg.com/236x/25/8c/a9/258ca94b1b9b3d496bef1de8927ed713--political-cartoons-political-satire.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 9.428145858692005e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "herblock political cartoon The herblock award for editorial cartoon, underwritten by the herb block  foundation, provides three students who exhibit excellence in editorial cartoons  with.",
-     "imageUrl": "https://i.pinimg.com/736x/08/5b/8c/085b8c283f6d28bb7d9aa090f73913f4.jpg",
-     "keyword": "herb block",
-     "tier": "namematch",
-     "punsafe": 0.000820845365524292,
      "validation": {
       "category": "artwork",
       "reason": "confirmed by visual review of the rendered gallery",
@@ -1082,81 +964,11 @@
      }
     },
     {
-     "text": "Herblock Looks At 1964 Fifty Years Ago In Editorial Cartoons",
-     "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSfXUubqJs07F1f2xnJ-zF_XCCyu95MhxiW5JgjZul5kEePmi1v",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 1.2095874808437657e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"If You Had Any Initiative, You'd Go Out and Inherit a Department Store\"\"\"\", by Herb Block, Washington Post, December 12, 1961. - The cartoon shows Barry Goldwater (1909\u20131998), heir of a chain of department stores and Rep. senator from Arizona. Herb Block mocks Goldwater's hard-line conservati",
-     "imageUrl": "https://i.pinimg.com/236x/27/11/df/2711dff2d6710a2ad56c5f9a2b296ba6--political-art-political-cartoons.jpg",
-     "keyword": "herb block",
-     "tier": "namematch",
-     "punsafe": 2.6364874429418705e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Privacy/Security - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
-     "imageUrl": "https://i.pinimg.com/236x/a3/46/fc/a346fcdcd47245983be688a8e2e44661--library-of-congress-exhibitions.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 1.9669261746457778e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "i am not a crook rdquo herblock s history political cartoons from enlarge",
-     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2qYjOYLDQu-WUcVDfpal-Fx4XEjXgSFZGB5fKmUoP66jDNYAc",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 4.021018321509473e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
      "text": "tick tock herblock s history political cartoons from the crash enlarge",
      "imageUrl": "https://www.loc.gov/exhibits/herblocks-history/images/s03386u.jpg",
      "keyword": "herblock",
      "tier": "high",
      "punsafe": 0.001059800386428833,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "THE CARTOON by Herb Block - Herblock's History: Political ...",
-     "imageUrl": "https://i0.wp.com/www.loc.gov/exhibits/herblocks-history/images/s03529u.jpg?w=400?w=400",
-     "keyword": "herb block",
-     "tier": "namematch",
-     "punsafe": 7.247536996146664e-05,
      "validation": {
       "category": "artwork",
       "reason": "confirmed by visual review of the rendered gallery",
@@ -1180,109 +992,11 @@
      }
     },
     {
-     "text": "\"McCarthyism - One of the earliest uses of the term McCarthyism was in a cartoon by Herbert Block (\"\"Herblock\"\"), published in the Washington Post, March 29, 1950.\"",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Herblock1950.jpg/330px-Herblock1950.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 1.0646146620274521e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "This cartoon by Herb Block  (Herblock) was first published in The Washington Post in 1968. It is",
-     "imageUrl": "https://fontfolly.files.wordpress.com/2018/07/frivolous-disobedience-1-43d.jpeg?w=217&",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 1.5062490092532244e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "herblock political cartoon Herblock, a washington post cartoonist whose witty and frequently ferocious drawings provided some of the most memorable images in the history of american political discourse and earned him.",
-     "imageUrl": "https://i.pinimg.com/736x/66/e3/01/66e3019d10863d3ed2eb314efb99c29c.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 2.2125379473436624e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Extremism - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
-     "imageUrl": "https://i.pinimg.com/236x/e0/22/68/e02268c6c8c2c2ddcf7ca50a376b43c0--library-of-congress-exhibitions.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 0.00018510222434997559,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
      "text": "Herblock editorial cartoon on the impeachment of Richard Nixon.",
      "imageUrl": "https://i2.wp.com/thenib.com/wp-content/uploads/2020/01/19740524.jpg?fit=729%2C1024&ssl=1",
      "keyword": "herblock",
      "tier": "high",
      "punsafe": 7.144966366467997e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Ethics - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
-     "imageUrl": "https://i.pinimg.com/236x/42/fa/1d/42fa1dafb596f99db9377d01d6ac0e39--library-of-congress-exhibitions.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 0.00010488498082850128,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Extremism - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
-     "imageUrl": "https://i.pinimg.com/236x/eb/64/6b/eb646b6fa2e7c30d09380f2ec24fe2c0--library-of-congress-collages.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 8.185871411114931e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Cartoon by Herblock (?) showing angry fat man in Montgomery, Alabama, hopping up and down and shaking his fists while yelling at departing pedestrian,",
-     "imageUrl": "https://www.christopherrandallnicholson.com/uploads/4/9/4/8/49486603/8254320_orig.png",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 2.316840982530266e-05,
      "validation": {
       "category": "artwork",
       "reason": "confirmed by visual review of the rendered gallery",
@@ -1306,45 +1020,328 @@
      }
     },
     {
-     "text": "McCarthysim Cartoon by Herbert Block",
-     "imageUrl": "http://www.bookbrowse.com/images/ezines/2014-2-19-Un-Cartoon.jpg",
-     "keyword": "herbert block",
-     "tier": "namematch",
-     "punsafe": 8.849041478242725e-06,
+     "text": "One of the earliest uses of the term McCarthyism was in a cartoon by Herbert Block (\"Herblock\"), published in the Washington Post, March 29, 1950.",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Herblock1950.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
      "validation": {
       "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
       "source": "human-review",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "This cartoon by Herb Block (Herblock) was first published in The Washington Post in 1968. It is",
+     "imageUrl": "https://fontfolly.files.wordpress.com/2018/07/frivolous-disobedience-1-43d.jpeg?w=217&h=300",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "1967 cartoon by the Washington Post\u2019s \u201cHerblock,\u201d took aim at the high-powered \u201croad gang\u201d singing in chorus to protect cuts to their highway-building funding largesse.",
+     "imageUrl": "https://www.pophistorydig.com/wp-content/uploads/2020/09/1967-Herblock-320.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "fire \u201d herblock s history political cartoons from the crash to enlarge",
+     "imageUrl": "https://www.loc.gov/exhibits/herblocks-history/images/hblock6.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Herblock editorial cartoon on the impeachment of Richard Nixon.",
+     "imageUrl": "https://i2.wp.com/thenib.com/wp-content/uploads/2020/01/19700118.jpg?fit=762%2C1024&ssl=1",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "herbert block cartoon washington post 1956 | Herblock's Presidents (Herblock's History: Political Cartoons from the ...",
+     "imageUrl": "https://i.pinimg.com/236x/25/8c/a9/258ca94b1b9b3d496bef1de8927ed713--political-cartoons-political-satire.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "herblock political cartoon The herblock award for editorial cartoon, underwritten by the herb block  foundation, provides three students who exhibit excellence in editorial cartoons  with.",
+     "imageUrl": "https://i.pinimg.com/736x/08/5b/8c/085b8c283f6d28bb7d9aa090f73913f4.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Herblock Looks At 1964 Fifty Years Ago In Editorial Cartoons",
+     "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSfXUubqJs07F1f2xnJ-zF_XCCyu95MhxiW5JgjZul5kEePmi1v",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"If You Had Any Initiative, You'd Go Out and Inherit a Department Store\"\"\"\", by Herb Block, Washington Post, December 12, 1961. - The cartoon shows Barry Goldwater (1909\u20131998), heir of a chain of department stores and Rep. senator from Arizona. Herb Block mocks Goldwater's hard-line conservati",
+     "imageUrl": "https://i.pinimg.com/236x/27/11/df/2711dff2d6710a2ad56c5f9a2b296ba6--political-art-political-cartoons.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Privacy/Security - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
+     "imageUrl": "https://i.pinimg.com/236x/a3/46/fc/a346fcdcd47245983be688a8e2e44661--library-of-congress-exhibitions.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "i am not a crook rdquo herblock s history political cartoons from enlarge",
+     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2qYjOYLDQu-WUcVDfpal-Fx4XEjXgSFZGB5fKmUoP66jDNYAc",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "THE CARTOON by Herb Block - Herblock's History: Political ...",
+     "imageUrl": "https://i0.wp.com/www.loc.gov/exhibits/herblocks-history/images/s03529u.jpg?w=400?w=400",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "\"McCarthyism - One of the earliest uses of the term McCarthyism was in a cartoon by Herbert Block (\"\"Herblock\"\"), published in the Washington Post, March 29, 1950.\"",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Herblock1950.jpg/330px-Herblock1950.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "This cartoon by Herb Block  (Herblock) was first published in The Washington Post in 1968. It is",
+     "imageUrl": "https://fontfolly.files.wordpress.com/2018/07/frivolous-disobedience-1-43d.jpeg?w=217&",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "herblock political cartoon Herblock, a washington post cartoonist whose witty and frequently ferocious drawings provided some of the most memorable images in the history of american political discourse and earned him.",
+     "imageUrl": "https://i.pinimg.com/736x/66/e3/01/66e3019d10863d3ed2eb314efb99c29c.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Extremism - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
+     "imageUrl": "https://i.pinimg.com/236x/e0/22/68/e02268c6c8c2c2ddcf7ca50a376b43c0--library-of-congress-exhibitions.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Ethics - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
+     "imageUrl": "https://i.pinimg.com/236x/42/fa/1d/42fa1dafb596f99db9377d01d6ac0e39--library-of-congress-exhibitions.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Extremism - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress",
+     "imageUrl": "https://i.pinimg.com/236x/eb/64/6b/eb646b6fa2e7c30d09380f2ec24fe2c0--library-of-congress-collages.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Cartoon by Herblock (?) showing angry fat man in Montgomery, Alabama, hopping up and down and shaking his fists while yelling at departing pedestrian,",
+     "imageUrl": "https://www.christopherrandallnicholson.com/uploads/4/9/4/8/49486603/8254320_orig.png",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "McCarthysim Cartoon by Herbert Block",
+     "imageUrl": "http://www.bookbrowse.com/images/ezines/2014-2-19-Un-Cartoon.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
      }
     },
     {
      "text": "\"fire \"\" herblock s history political cartoons from the crash to  enlarge\"",
      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSVlBWm53ruI1v_x3yV5TLa_acrQxIKJht8ZKlgcMyrNCUbBU",
-     "keyword": "herblock",
+     "keyword": "Herblock",
      "tier": "high",
-     "punsafe": 5.137617336004041e-05,
      "validation": {
       "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
       "source": "human-review",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
      }
     },
     {
      "text": "Herblock Looks At 1965 Fifty Years Ago In Editorial Cartoons",
      "imageUrl": "https://www.loc.gov/exhibits/herblock-gallery/images/06281u_standard.jpg",
-     "keyword": "herblock",
+     "keyword": "Herblock",
      "tier": "high",
-     "punsafe": 0.00012561678886413574,
      "validation": {
       "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
       "source": "human-review",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Herblock How can they say he hasn't faithfully executed the law Political Cartoon",
+     "imageUrl": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Herblock-How-can-they-say-he-hasnt-faithfully-executed-the-law-Political-Cartoon-209x300.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Herblock Resignation Political Cartoon",
+     "imageUrl": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Herblock-Resignation-Political-Cartoon-215x300.jpg",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Iron Curtain Political Cartoon 1956 Us By Herbert Block Source The Washington Post",
+     "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcTALIueg0IEpswGc1M9U64SulvloyjiCE_y5VVRnCIOR_xrroEkwA",
+     "keyword": "Herblock",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
      }
     },
     {
@@ -1583,16 +1580,16 @@
     }
    ],
    "samples": [
-    "'McCarthyism', by Herb Block, Washington Post, March 4th, 1954.",
     "herblock political cartoon Lesson title \u2013mccarthyism: the political cartoons of herb mccarthyism the political cartoons of.",
-    "Herblock editorial cartoon on the impeachment of Richard Nixon.",
-    "herbert block cartoon washington post 1956 | Herblock's Presidents (Herblock's History: Political Cartoons from the ...",
-    "herblock political cartoon The herblock award for editorial cartoon, underwritten by the herb block  foundation, provides three students who exhibit excellence in editorial cartoons  with.",
     "herblock political cartoon The political cartoons of herbert block (1909\u20132001) appeared in american newspapers for more than seven decades under the pen name herblock this exhibition contains block's original drawings of presidential cartoons from franklin roosevelt through bill clinton.",
     "herblock political cartoon Lesson title \u2013mccarthyism: the political cartoons of herb mccarthyism the political cartoons of.",
-    "Herblock Looks At 1964 Fifty Years Ago In Editorial Cartoons",
-    "\"\"\"\"\"\"\"If You Had Any Initiative, You'd Go Out and Inherit a Department Store\"\"\"\", by Herb Block, Washington Post, December 12, 1961. - The cartoon shows Barry Goldwater (1909\u20131998), heir of a chain of department stores and Rep. senator from Arizona. Herb Block mocks Goldwater's hard-line conservati",
-    "Privacy/Security - Enduring Outrage: Editorial Cartoons by HERBLOCK   Exhibitions - Library of Congress"
+    "tick tock herblock s history political cartoons from the crash enlarge",
+    "tick tock herblock s history political cartoons from the crash enlarge",
+    "Herblock editorial cartoon on the impeachment of Richard Nixon.",
+    "Iron Curtain Political Cartoons Red Scare Pointing Their Pens Herblock And Fellow Cartoonists",
+    "One of the earliest uses of the term McCarthyism was in a cartoon by Herbert Block (\"Herblock\"), published in the Washington Post, March 29, 1950.",
+    "This cartoon by Herb Block (Herblock) was first published in The Washington Post in 1968. It is",
+    "1967 cartoon by the Washington Post\u2019s \u201cHerblock,\u201d took aim at the high-powered \u201croad gang\u201d singing in chorus to protect cuts to their highway-building funding largesse."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1616,25 +1613,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 60,
-   "rows": [
-    {
-     "text": "Herblock How can they say he hasn't faithfully executed the law Political Cartoon",
-     "imageUrl": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Herblock-How-can-they-say-he-hasnt-faithfully-executed-the-law-Political-Cartoon-209x300.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 0.00012537837028503418,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    }
-   ],
-   "samples": [
-    "Herblock How can they say he hasn't faithfully executed the law Political Cartoon"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -1659,34 +1639,6 @@
    "totalIncludingLowConfidence": 106,
    "rows": [
     {
-     "text": "Herblock Resignation Political Cartoon",
-     "imageUrl": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Herblock-Resignation-Political-Cartoon-215x300.jpg",
-     "keyword": "herblock",
-     "tier": "high",
-     "punsafe": 1.0710261449276004e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
-     "text": "Iron Curtain Political Cartoon 1956 Us By Herbert Block Source The Washington Post",
-     "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcTALIueg0IEpswGc1M9U64SulvloyjiCE_y5VVRnCIOR_xrroEkwA",
-     "keyword": "herbert block",
-     "tier": "namematch",
-     "punsafe": 0.00025463104248046875,
-     "validation": {
-      "category": "artwork",
-      "reason": "confirmed by visual review of the rendered gallery",
-      "displayable": true,
-      "source": "human-review",
-      "confidence": 1.0
-     }
-    },
-    {
      "text": "fire u201d herblock u0027s history political cartoons from the crash to",
      "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcTKnTDj9E-I87bjYp7e9itojQ_OeSfHUeLYRQJdl5ryZWkI8eWZZA",
      "keyword": "herblock",
@@ -1702,8 +1654,6 @@
     }
    ],
    "samples": [
-    "Herblock Resignation Political Cartoon",
-    "Iron Curtain Political Cartoon 1956 Us By Herbert Block Source The Washington Post",
     "fire u201d herblock u0027s history political cartoons from the crash to"
    ],
    "partial": false,
@@ -1857,18 +1807,20 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 52,
+  "evidenceShown": 51,
   "evidenceWithheld": {
-   "unverified": 871,
-   "person_photo": 309,
-   "storefront": 34,
-   "unrelated": 13,
-   "merchandise": 4,
-   "derivative": 6,
+   "unverified": 850,
+   "person_photo": 301,
+   "merchandise": 12,
+   "not_flat_art": 53,
+   "storefront": 60,
+   "derivative": 18,
+   "unrelated": 12,
    "explicit": 4,
-   "failed_visual_review": 83
+   "failed_visual_review": 48,
+   "failed_rescreen": 1
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00",
   "evidenceCuration": "visual review of every rendered example"
  },
  "subjectId": "herblock",
@@ -1882,7 +1834,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 1980,
   "datasetsPresent": 7,

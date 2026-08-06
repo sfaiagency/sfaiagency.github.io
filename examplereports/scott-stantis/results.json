@@ -92,20 +92,6 @@
      }
     },
     {
-     "text": "By Scott Stantis, Chicago Tribune, for USA TODAY, March 16, 2010, on Texas education follies",
-     "imageUrl": "https://i1.wp.com/i.usatoday.net/news/opinion/cartoons/2010/March/e100316_stantis-pg-horizontal.jpg",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Prickly City by Scott Stantis on Sun, 09 May 2021",
      "imageUrl": "https://assets.amuniversal.com/849d0e20763901395593005056a9545d",
      "keyword": "scott stantis",
@@ -146,20 +132,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Prickly City by Scott Stantis - 9780740754517 Book",
-     "imageUrl": "https://img.fruugo.com/product/6/74/148921746_0340_0340.jpg",
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -168,11 +140,9 @@
     "Cartoon by Scott Stantis for Oct. 17, 2020.",
     "A recent Scott Stantis editorial cartoon - REPRINTED WITH PERMISSION",
     "Prickly City by Scott Stantis on Sun, 18 Apr 2021",
-    "By Scott Stantis, Chicago Tribune, for USA TODAY, March 16, 2010, on Texas education follies",
     "Prickly City by Scott Stantis on Sun, 09 May 2021",
     "Cartoon by Scott Stantis for May 14, 2020.",
-    "gray long sleeve shirt: Tribune Tower by Scott Stantis",
-    "Prickly City by Scott Stantis - 9780740754517 Book"
+    "gray long sleeve shirt: Tribune Tower by Scott Stantis"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -254,20 +224,6 @@
      }
     },
     {
-     "text": "Prickly City: Big Book of Kevin: The Lost Bunny of the Apocalypse by Scott Stantis",
-     "imageUrl": "http://cdn2.lybrary.com/prickly-city-big-book-of-kevin-the-lost-bunny-of-the-apocalypse-by-scott-stantis-1449468519.jpg",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 0.001783519983291626,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Prickly City on Sunday May 16, 2021 Comic Strip",
      "imageUrl": "https://assets.amuniversal.com/da3680307af0013956df005056a9545dw",
      "keyword": "prickly city",
@@ -322,20 +278,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Prickly City: Big Book of Kevin: The Lost Bunny of the Apocalypse by Scott Stantis",
-     "imageUrl": "http://cdn2.lybrary.com/120/prickly-city-big-book-of-kevin-the-lost-bunny-of-the-apocalypse-by-scott-stantis-1449468519.jpg",
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": 0.008362174034118652,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -343,12 +285,10 @@
     "Prickly City - Sunday June 16, 2019 Comic Strip",
     "Deflating (Illustration by Scott Stantis of the Chicago Tribune)",
     "Prickly City Comic Strip for January 19, 2020",
-    "Prickly City: Big Book of Kevin: The Lost Bunny of the Apocalypse by Scott Stantis",
     "Prickly City on Sunday May 16, 2021 Comic Strip",
     "Prickly City Comic Strip for October 25, 2020",
     "Scorching temperatures leave little place for climate change deniers to be honored. (Scott Stantis/Tribune Content Agency).",
-    "The return of congressional earmarks: They don't look like pork at all. (Scott Stantis/Tribune Content Agency).",
-    "Prickly City: Big Book of Kevin: The Lost Bunny of the Apocalypse by Scott Stantis"
+    "The return of congressional earmarks: They don't look like pork at all. (Scott Stantis/Tribune Content Agency)."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -373,20 +313,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 280,
    "rows": [
-    {
-     "text": "Cartoon by Scott Stantis",
-     "imageUrl": "https://www.gannett-cdn.com/-mm-/18ab2df8b8733701ae729c371b3ce5d48e121173/c=0-142-1335-893/local/-/media/2020/09/11/Austin/ghows-TX-200819731-2c99dbbb.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 0.00037088990211486816,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Prickly City Comic Strip for November 22, 2020",
      "imageUrl": "https://assets.amuniversal.com/a0584c50f49101382c96005056a9545d",
@@ -421,20 +347,6 @@
      "keyword": "stantis",
      "tier": "high",
      "punsafe": 0.00022748112678527832,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoon by Scott Stantis",
-     "imageUrl": "https://www.gannett-cdn.com/-mm-/18ab2df8b8733701ae729c371b3ce5d48e121173/c=0-142-1335-893/local/-/media/2020/09/10/Austin/ghows-TX-200729716-8ac93482.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 0.0006093680858612061,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -543,15 +455,15 @@
     }
    ],
    "samples": [
-    "Cartoon by Scott Stantis",
     "Prickly City Comic Strip for November 22, 2020",
     "Political Cartoons by Scott Stantis",
     "Stantis, Scott \u2013 Color Editorial Cartoon \u2013 20200327edstc-a.tif",
-    "Cartoon by Scott Stantis",
     "Political Cartoons by Scott Stantis",
     "Stantis, Scott \u2013 Color Editorial Cartoon \u2013 20200323edstc-a.tif",
     "Stantis, Scott \u2013 Color Editorial Cartoon \u2013 20200804edstc-a.tif",
     "Cartoon by Scott Stantis: 2015",
+    "The Frontrunner by Scott Stantis",
+    "SCOTT STANTIS / Chicago Tribune",
     "The Frontrunner by Scott Stantis"
    ],
    "partial": false,
@@ -1460,18 +1372,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1485,13 +1385,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1509,6 +1410,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -1521,17 +1433,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -1541,6 +1442,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1580,17 +1492,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1600,6 +1501,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -2311,7 +2223,7 @@
   ]
  },
  "reportName": "Scott Stantis",
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2384,16 +2296,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 71,
+  "evidenceShown": 65,
   "evidenceWithheld": {
-   "unverified": 609,
+   "unverified": 564,
    "not_flat_art": 62,
-   "person_photo": 86,
-   "merchandise": 25,
-   "storefront": 16,
+   "storefront": 57,
+   "derivative": 18,
+   "person_photo": 79,
+   "merchandise": 29,
    "unrelated": 7
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "scott-stantis",
  "cohort": "early-adopter",

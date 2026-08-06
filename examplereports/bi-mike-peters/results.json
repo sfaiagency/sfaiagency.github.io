@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1028,20 +1028,6 @@
      "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg55ff740726175.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "tattoos for men mask artwork by grimmy",
-     "imageUrl": "https://myartmagazine.com/file/images/11-2019/tattoos-men-mask-artwork-grimmy.jpg",
-     "keyword": "grimmy",
-     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1726,6 +1712,20 @@
     {
      "text": "Mike Peters Mike Peters' Editorial Cartoons 2011-01-04 account number",
      "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4d25c602abc2f.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2005-02-26 telephone number",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP022605.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -2914,6 +2914,20 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
+     "imageUrl": "https://i0.wp.com/faszinationkraniche.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-1.jpg?w=361&",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0006631612777709961,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
@@ -3874,25 +3888,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 15,
-   "rows": [
-    {
-     "text": "Across from an abandoned warehouse, 9-year-old orphans Dr. Joe and his illiterate sidekick Bubblegum today will begin their journey to become the world's longest comic strip.\nAnd what happens to the characters and the 100-yard-long, 8-foot- high cartoon strip planned for Hartford's Willie Ware Commu",
-     "imageUrl": "https://www.courant.com/news/connecticut/hc-xpm-1997-07-07-9707070172-story.html",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    }
-   ],
-   "samples": [
-    "Across from an abandoned warehouse, 9-year-old orphans Dr. Joe and his illiterate sidekick Bubblegum today will begin their journey to become the world's longest comic strip.\nAnd what happens to the characters and the 100-yard-long, 8-foot- high cartoon strip planned for Hartford's Willie Ware Commu"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 10,
    "shardsTotal": 10
@@ -3973,14 +3970,14 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 221,
-   "person_photo": 37,
-   "merchandise": 20,
-   "storefront": 9,
+   "unverified": 222,
+   "storefront": 13,
+   "person_photo": 38,
+   "merchandise": 22,
    "derivative": 9,
    "unrelated": 2
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-mike-peters",
  "cohort": "billy-ireland",
@@ -3993,7 +3990,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 18462,
   "datasetsPresent": 7,

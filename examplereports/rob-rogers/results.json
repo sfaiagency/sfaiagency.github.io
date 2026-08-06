@@ -61,25 +61,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 479,
    "totalIncludingLowConfidence": 484,
-   "rows": [
-    {
-     "text": "Trump Kool Aid: BREWED ON GRANT  BY ROB ROGERS  AND CITY COUNCIL  I'M PROUD THAT  I HEARD PITTSBURGH  MIGHT BECOME A  BAN  MY CITY WANTS TO  SANCTUARY CITY.  CONVERSION THERAPY STAND UP FOR THE  UNDOCUMENTED AND  YEP  LGBT COMMUNITIES  THAT's  RIGHT.  12-7-16  THIS IS TERRIBLE  f YES! I NEED THAT  N",
-     "imageUrl": "https://pics.onsizzle.com/brewed-on-grant-by-rob-rogers-and-city-council-im-11107120.png",
-     "keyword": "brewed on grant",
-     "tier": "high",
-     "punsafe": 0.00042387843132019043,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    }
-   ],
-   "samples": [
-    "Trump Kool Aid: BREWED ON GRANT  BY ROB ROGERS  AND CITY COUNCIL  I'M PROUD THAT  I HEARD PITTSBURGH  MIGHT BECOME A  BAN  MY CITY WANTS TO  SANCTUARY CITY.  CONVERSION THERAPY STAND UP FOR THE  UNDOCUMENTED AND  YEP  LGBT COMMUNITIES  THAT's  RIGHT.  12-7-16  THIS IS TERRIBLE  f YES! I NEED THAT  N"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -434,6 +417,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "PixArt-\u03b1",
    "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
    "isMajor": false,
@@ -445,12 +440,12 @@
    ]
   },
   {
-   "name": "IDEFICS-9B-Instruct",
-   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
@@ -470,14 +465,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -507,12 +501,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -527,17 +521,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -577,6 +560,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -597,17 +591,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -645,17 +628,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -678,12 +650,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -700,67 +672,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -854,45 +771,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -953,6 +892,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -997,23 +1002,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -1071,28 +1076,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1308,7 +1291,7 @@
   ]
  },
  "reportName": "Rob Rogers",
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -1360,15 +1343,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 1753
   },
-  "evidenceShown": 3,
+  "evidenceShown": 2,
   "evidenceWithheld": {
    "person_photo": 3,
    "not_flat_art": 1,
    "derivative": 1,
-   "unverified": 9,
-   "storefront": 1
+   "storefront": 2,
+   "unverified": 9
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "rob-rogers",
  "cohort": "early-adopter",

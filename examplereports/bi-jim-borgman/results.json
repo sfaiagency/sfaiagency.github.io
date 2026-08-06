@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -940,38 +940,10 @@
      }
     },
     {
-     "text": "Feeling Flashcards Drawn By Jim Borgman-Pulitzer Prize Winner by Time Promotions",
-     "imageUrl": "https://media.30seconds.com/tipitem/orig/Feeling-Flashcards-Drawn-By-Jim-Borgman-Pulitzer-Prize-Win-1532-8e09333d9b-1483989731.jpg",
-     "keyword": "jim borgman",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "How Are You Feeling Today? 2x Matted 22x28 Large Gold or Black or Gold Ornate Framed Art Print by Jim Borgman",
      "imageUrl": "https://cdn3.volusion.com/hvwur.eejcn/v/vspfiles/photos/2xBOL-PC-IMA-B325-1.jpg?v-cache=1542147564",
      "keyword": "jim borgman",
      "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Zits for - Caarton Zits Comic, Honey Toast, Todays Comics, Calvin And Hobbes, Comedy Central, Humor, Love Reading, Just For Laughs, Comic Strips",
-     "imageUrl": "https://i.pinimg.com/236x/a9/c9/16/a9c9169483d2c4fbafd6d96741ba020a.jpg",
-     "keyword": "zits comic",
-     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1154,13 +1126,13 @@
     "A cover gallery for the comic book Betty and Veronica Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Characters, Comic Character, Character Design, Archie Betty And Veronica, Zits Comic",
     "How Are You Feeling Today? Art Poster Print by Jim Borgman, 18x24",
     "zits comic strips archives",
-    "Feeling Flashcards Drawn By Jim Borgman-Pulitzer Prize Winner by Time Promotions",
     "How Are You Feeling Today? 2x Matted 22x28 Large Gold or Black or Gold Ornate Framed Art Print by Jim Borgman",
-    "Zits for - Caarton Zits Comic, Honey Toast, Todays Comics, Calvin And Hobbes, Comedy Central, Humor, Love Reading, Just For Laughs, Comic Strips",
     "Trillion Quotes By Jim Borgman: We have a balance of $ .32 in",
     "Time Promotions Feelings Playing Cards by Jim Borgman Pulitzer Prize Winner - Best Flashcards for Baby: 15 entertaining games",
     "How Are You Feeling Today? by Jim Borgman",
-    "How Are You Feeling Today? by Jim Borgman - 18 X 24"
+    "How Are You Feeling Today? by Jim Borgman - 18 X 24",
+    "How Are You Feeling Today? by Jim Borgman",
+    "zits comic strips archives"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1317,20 +1289,6 @@
      "keyword": "jim borgman",
      "tier": "namematch",
      "punsafe": 0.0007893741130828857,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "See Zits at The Comic Strips, thousands of searchable high-quality comic strips Zits Comic, Comics Kingdom, Cartoon Memes, Cartoons, Funny Comic Strips, Teenager Quotes, Calvin And Hobbes, Fun Comics, Playing Guitar",
-     "imageUrl": "https://i.pinimg.com/236x/62/4f/19/624f1928089f4984c1f8777654966a0f--im-happy-its-funny.jpg?nii=t",
-     "keyword": "zits comic",
-     "tier": "high",
-     "punsafe": 0.021661579608917236,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2090,20 +2048,6 @@
      }
     },
     {
-     "text": "zits-my Favorite comic Comics Story, Fun Comics, Comic Book Characters, Comic Books, Zits Comic, Make Em Laugh, Funny Memes, Hilarious, Laughing So Hard",
-     "imageUrl": "https://i.pinimg.com/236x/23/a7/8a/23a78aa79c83e725fcab8edb17de285d--zits-comic-best-comics.jpg",
-     "keyword": "zits comic",
-     "tier": "high",
-     "punsafe": 0.002269923686981201,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
      "imageUrl": "https://i.pinimg.com/236x/62/bb/6f/62bb6fa8973156f06cf5d53d09d524bd.jpg",
      "keyword": "zits comic",
@@ -2177,7 +2121,6 @@
    "samples": [
     "Zits Comic Strip for October 15, 2014 | Comics Kingdom",
     "Zits Cartoon for ( I freaking love this comic! Zits Comic, Make Em Laugh, Comic Strips, Jun, Yard, Comics, Cartoons, Food Art, Favorite Things",
-    "zits-my Favorite comic Comics Story, Fun Comics, Comic Book Characters, Comic Books, Zits Comic, Make Em Laugh, Funny Memes, Hilarious, Laughing So Hard",
     "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
     "Zits Comic Strip for July 21, 2013 | Comics Kingdom",
     "Zits Comic Strip for February 27, 2015 | Comics Kingdom",
@@ -3329,17 +3272,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 154,
+  "evidenceShown": 150,
   "evidenceWithheld": {
-   "unverified": 272,
-   "merchandise": 10,
-   "storefront": 18,
+   "unverified": 254,
+   "merchandise": 12,
+   "storefront": 35,
+   "derivative": 7,
    "explicit": 1,
    "unrelated": 20,
-   "person_photo": 81,
-   "derivative": 1
+   "person_photo": 79
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-jim-borgman",
  "cohort": "billy-ireland",
@@ -3352,7 +3295,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 577,
   "datasetsPresent": 6,

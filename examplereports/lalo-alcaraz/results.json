@@ -436,20 +436,6 @@
      }
     },
     {
-     "text": "La Cucaracha by Lalo Alcaraz - 9780740746598 Book",
-     "imageUrl": "https://img.fruugo.com/product/4/06/148920064_0340_0340.jpg",
-     "keyword": "lalo alcaraz",
-     "tier": "high",
-     "punsafe": 0.04371967911720276,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=550&amp;image_width=400",
      "keyword": "lalo alcaraz",
@@ -530,7 +516,7 @@
     "Marjorie Tayor Greene - Jewish Space Lasers FOREVER by Lalo Alcaraz @laloalcaraz",
     "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
     "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
-    "La Cucaracha by Lalo Alcaraz - 9780740746598 Book"
+    "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -757,20 +743,6 @@
     },
     {
      "text": "Cartoonist Lalo Alcaraz, who created the comic strip \u201cLa Cucaracha\u201d and served as a consultant on the popular Pixar film \u201cCoco,\u201d had a singular message for students Friday during a visit to SRJC: learn to write well.|",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Voteria board illustrated by Lalo Alcaraz.\n\nInspired by Alcaraz\u2019s \u201cVoter\u00eda,\u201d De Aztlan approached El Paso artist Rogelio Lozano and pitched him the idea to create a Voter\u00eda board. Together, they developed ideas and Lozano illustrated them.\n\n\u201cIt\u2019s the same issue: they wanted to engage more voters but",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
      "tier": "high",
@@ -1198,9 +1170,9 @@
     "\nWhy a Contrarian History of the United States Is Needed Now\n\nIlan Stavans is Lewis-Sebring Professor in Latin American and Latino Culture at Amherst College. He is the author of \"A Most Imperfect Union: A Contrarian History of the United States\" (Basis Books, illustrated by Lalo Alcaraz). His new b",
     "Re: America's Deadly Wealth Pyramid: Eric Garner Stood His Ground and was Crushed for It (Claire O'Connor)\nSmothered Justice  --  cartoon by Rob Rogers\nRe: How Far Will Republicans Go to Destroy Democracy? And Can They Still Be Stopped? (JD Scot; Gordon Galland)\nDeja Vu All Over Again? YIKES!  --  c",
     "Cartoonist Lalo Alcaraz, who created the comic strip \u201cLa Cucaracha\u201d and served as a consultant on the popular Pixar film \u201cCoco,\u201d had a singular message for students Friday during a visit to SRJC: learn to write well.|",
-    "Voteria board illustrated by Lalo Alcaraz.\n\nInspired by Alcaraz\u2019s \u201cVoter\u00eda,\u201d De Aztlan approached El Paso artist Rogelio Lozano and pitched him the idea to create a Voter\u00eda board. Together, they developed ideas and Lozano illustrated them.\n\n\u201cIt\u2019s the same issue: they wanted to engage more voters but",
     "This week\u2019s \u201cminorities in cartoons\u201d entry is the comic strip \u201cLa Cucaracha,\u201d written and drawn by Lalo Alcaraz.\n\nA political strip, its name is Spanish for \u201cthe cockroach.\u201d In this case, one of the main characters is a six-foot (1.8 meters) tall anthropomorphic, clothed cockroach named \u201cCuco Rocha.",
-    "Latino cartoonist Lalo Alcaraz (illustrator of Latino USA, A Cartoon History) presented a group of his political cartoons (5:30) during a C-SPAN discussion on race.\n\nOne of the cartoons (above) depicts a wall along what appears to be the oft-discussed Aztlan boundary (6:34).\n\nAlcaraz says the line r"
+    "Latino cartoonist Lalo Alcaraz (illustrator of Latino USA, A Cartoon History) presented a group of his political cartoons (5:30) during a C-SPAN discussion on race.\n\nOne of the cartoons (above) depicts a wall along what appears to be the oft-discussed Aztlan boundary (6:34).\n\nAlcaraz says the line r",
+    "Dear GOP, MSM: Take Out the Trash  --  cartoon by Lalo Alcaraz\nRe: How Serious Is the Authoritarian Threat in the US? What Can We Do About It? (Arlene Geiger; Courtney Childs)\nGOP Campaign Against Social Security - Tidbits - Nov. 3 (Daniel Millstone)\nDeSantis Wins, With a Little Help From His Friend"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1507,18 +1479,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1532,13 +1492,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1556,6 +1517,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -1568,17 +1540,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -1588,6 +1549,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1627,17 +1599,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1647,6 +1608,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -2358,7 +2330,7 @@
   ]
  },
  "reportName": "Lalo Alcaraz",
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2434,18 +2406,18 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 39435
   },
-  "evidenceShown": 75,
+  "evidenceShown": 73,
   "evidenceWithheld": {
-   "unverified": 482,
-   "person_photo": 206,
-   "storefront": 10,
+   "unverified": 469,
+   "person_photo": 197,
+   "storefront": 27,
    "unrelated": 6,
    "not_flat_art": 43,
-   "derivative": 5,
+   "derivative": 10,
    "explicit": 8,
-   "merchandise": 4
+   "merchandise": 6
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "lalo-alcaraz",
  "cohort": "early-adopter",

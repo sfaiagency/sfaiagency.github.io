@@ -236,18 +236,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
-   "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -285,6 +274,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "EVA-CLIP-8B",
    "hfPath": "BAAI/EVA-CLIP-8B",
    "isMajor": false,
@@ -297,17 +297,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternVL-14B-224px",
    "hfPath": "OpenGVLab/InternVL-14B-224px",
    "isMajor": false,
@@ -317,6 +306,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,17 +356,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,6 +365,17 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1262,20 +1262,6 @@
      }
     },
     {
-     "text": "\u2018Adult comics, for adults\u2019: Will Eisner and the break-out story of the graphic novel",
-     "imageUrl": "https://s01.sgp1.cdn.digitaloceanspaces.com/thumbnail/124766-tdlogwscae-1564550845.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Superman by Will Eisner",
      "imageUrl": "https://i2.wp.com/downthetubes.net/wp-content/uploads/2020/06/img_4143.jpg?resize=700%2C1000&ssl=1",
      "keyword": "will eisner",
@@ -1726,6 +1712,20 @@
     {
      "text": "The Spirit comic book frames about card magic greats",
      "imageUrl": "http://johnnyacepalmer.com/media/Spirit_blowup.png",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Books #16 And #18",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/Xf8AAOSwf11eq2Ug/s-l300.jpg",
      "keyword": "the spirit comic",
      "tier": "high",
      "punsafe": null,
@@ -3204,20 +3204,6 @@
      }
     },
     {
-     "text": "Will Eisner \u2013 Graphic Novel Godfather",
-     "imageUrl": "https://www.ppm-vertrieb.de/images/product_images/info_images/314234-20201127152938.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 3.9274742448469624e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Will Eisner Champion Of The Graphic Novel HC",
      "imageUrl": "https://www.midtowncomics.com/images/PRODUCT/FUL/1483549_ful.jpg",
      "keyword": "will eisner",
@@ -3720,6 +3706,20 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "The Spirit by Will Eisner",
+     "imageUrl": "https://i.guim.co.uk/img/media/6391dba66255ab2ff37493b0dfa7b7b801e70120/0_0_1000_1198/master/1000.jpg?width=300&quality=85&auto=format&fit=max&s=1eecaebb0dbe3d26e6a5733ea9e0e6b9",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00012615323066711426,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
@@ -4031,14 +4031,14 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 1420,
-   "person_photo": 158,
-   "storefront": 36,
+   "unverified": 1414,
+   "person_photo": 156,
+   "derivative": 9,
+   "storefront": 68,
    "unrelated": 56,
-   "merchandise": 6,
-   "derivative": 4
+   "merchandise": 8
   },
-  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+  "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-will-eisner",
  "cohort": "billy-ireland",
@@ -4051,7 +4051,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "generatedAt": "2026-08-06T11:28:14.205497+00:00",
  "holistic": {
   "datasetEvidence": 19890,
   "datasetsPresent": 7,
