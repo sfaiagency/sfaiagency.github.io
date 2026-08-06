@@ -213,6 +213,17 @@
    ]
   },
   {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
    "name": "IDEFICS-9B-Instruct",
    "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
@@ -222,17 +233,6 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "PixArt-\u03b1",
-   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "Efficient transformer-based text-to-image model.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe"
    ]
   },
   {
@@ -1206,8 +1206,8 @@
     "longformRatio": 0.553,
     "perDataset": {
      "coyo700m": 5,
-     "laion2b-en": 14,
      "laion1b-nolang": 2,
+     "laion2b-en": 14,
      "obelics": 26
     },
     "reason": null
@@ -1224,12 +1224,11 @@
   },
   "evidenceShown": 9,
   "evidenceWithheld": {
-   "unrelated": 3,
+   "storefront": 4,
    "person_photo": 3,
-   "unverified": 29,
-   "storefront": 1
+   "unverified": 29
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-ted-shearer",
  "cohort": "billy-ireland",
@@ -1242,7 +1241,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 47,
   "datasetsPresent": 4,

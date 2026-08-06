@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1167,10 +1167,10 @@
    "totalIncludingLowConfidence": 4402,
    "rows": [
     {
-     "text": "The iconic Kewpie doll is one of the earliest examples of a mass-marketed toy, and probably the most successful of its time. The Kewpie characters were originated by Rose O\u2019Neill, a professional illustrator. Her impact on American illustration was not limited to the Kewpie franchise. Versatile enoug",
+     "text": "Here\u2019s a rarity from the Cleveland Leader called Don And Dot In Opera Glass Land. This Sunday strip was written by Louise Hunter and drawn by Lillian Woolsey Hunter. Lillian is apparently known for her glamor girl postcard designs from the 00s. Here\u2019s a website that shows a few of her productions.\n\n",
      "imageUrl": null,
-     "keyword": "kewpies",
-     "tier": "high",
+     "keyword": "rose o\u2019neill",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1181,10 +1181,10 @@
      }
     },
     {
-     "text": "Here\u2019s a rarity from the Cleveland Leader called Don And Dot In Opera Glass Land. This Sunday strip was written by Louise Hunter and drawn by Lillian Woolsey Hunter. Lillian is apparently known for her glamor girl postcard designs from the 00s. Here\u2019s a website that shows a few of her productions.\n\n",
+     "text": "The iconic Kewpie doll is one of the earliest examples of a mass-marketed toy, and probably the most successful of its time. The Kewpie characters were originated by Rose O\u2019Neill, a professional illustrator. Her impact on American illustration was not limited to the Kewpie franchise. Versatile enoug",
      "imageUrl": null,
-     "keyword": "rose o\u2019neill",
-     "tier": "namematch",
+     "keyword": "kewpies",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1209,7 +1209,7 @@
      }
     },
     {
-     "text": "Illustration by Adelaide Hanscom Leeson, \u201cThe Rubaiyat of Omar Khayyam,\u201d 1905, with George Sterling as model\n\nThe Uncrowned King of Bohemia: The fascinating story of a not-so-great poet. Almost as crazy as the Unmentionable Vice story, this tale of a bad poet, scandalous goings-on in Carmel-by-the-S",
+     "text": "However, in the case of Rose O\u2019Neill in her cute children\u2019s comic strip Kewpies, used her colorist to full advantage. In one drawing in the Art Wood Collection, she wrote a long letter to her colorist, Miss Hess, in the margins of the drawing, giving her extended instructions for the experimentation",
      "imageUrl": null,
      "keyword": "kewpies",
      "tier": "high",
@@ -1223,7 +1223,7 @@
      }
     },
     {
-     "text": "However, in the case of Rose O\u2019Neill in her cute children\u2019s comic strip Kewpies, used her colorist to full advantage. In one drawing in the Art Wood Collection, she wrote a long letter to her colorist, Miss Hess, in the margins of the drawing, giving her extended instructions for the experimentation",
+     "text": "Illustration by Adelaide Hanscom Leeson, \u201cThe Rubaiyat of Omar Khayyam,\u201d 1905, with George Sterling as model\n\nThe Uncrowned King of Bohemia: The fascinating story of a not-so-great poet. Almost as crazy as the Unmentionable Vice story, this tale of a bad poet, scandalous goings-on in Carmel-by-the-S",
      "imageUrl": null,
      "keyword": "kewpies",
      "tier": "high",
@@ -1293,7 +1293,7 @@
      }
     },
     {
-     "text": "Rose O'Neill, a Midwest native who had worked as a writer and illustrator in New York City, initially conceptualized the Kewpie as a cartoon intended for a comic strip in 1909. According to O'Neill, the idea for the Kewpies came to her in a dream.[3] The comic, featuring the cherub-faced characters,",
+     "text": "Editor\u2019s note: I was challenged by a good friend to write a \u201ccreepy story\u201d involving the nationally recognized Kewpie doll created in the early 20th century by Rose O\u2019Neill, whose Bonniebrook estate lies just a few miles north of Branson near Bear Creek. For the record, I actually find Kewpies to be",
      "imageUrl": null,
      "keyword": "kewpies",
      "tier": "high",
@@ -1307,7 +1307,7 @@
      }
     },
     {
-     "text": "Editor\u2019s note: I was challenged by a good friend to write a \u201ccreepy story\u201d involving the nationally recognized Kewpie doll created in the early 20th century by Rose O\u2019Neill, whose Bonniebrook estate lies just a few miles north of Branson near Bear Creek. For the record, I actually find Kewpies to be",
+     "text": "Rose O'Neill, a Midwest native who had worked as a writer and illustrator in New York City, initially conceptualized the Kewpie as a cartoon intended for a comic strip in 1909. According to O'Neill, the idea for the Kewpies came to her in a dream.[3] The comic, featuring the cherub-faced characters,",
      "imageUrl": null,
      "keyword": "kewpies",
      "tier": "high",
@@ -1349,6 +1349,20 @@
      }
     },
     {
+     "text": "Back To The Drawing Table? Women Have Been There All Along, Says The Book/Exhibit \u2018Drawn To Purpose\u2019\n\nWWR Article Summary (tl;dr) A new book gives readers a glimpse of the female factor behind comic strips, political cartoons and art for magazines and newspapers.\n\n\"Sisters are doin' it for themselve",
+     "imageUrl": null,
+     "keyword": "kewpies",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "In 1923, the first Kewpee Hamburgers\u2014then known as Kewpee Hotel Hamburgs\u2014opened in Flint, Michigan. Taking its name from a popular line of \u201cKewpie\u201d dolls that was inspired by a Rose O\u2019Neill comic strip that was first published in 1909, Kewpee is second oldest burger chain in the world, hitting the m",
      "imageUrl": null,
      "keyword": "rose o\u2019neill",
@@ -1377,7 +1391,7 @@
      }
     },
     {
-     "text": "Back To The Drawing Table? Women Have Been There All Along, Says The Book/Exhibit \u2018Drawn To Purpose\u2019\n\nWWR Article Summary (tl;dr) A new book gives readers a glimpse of the female factor behind comic strips, political cartoons and art for magazines and newspapers.\n\n\"Sisters are doin' it for themselve",
+     "text": "The Speedbowl grandstands in 1985. Photo by Howie Hodge \u2013 Waterford Speedbowl\n\nThe Waterford Speedbowl opened on April 15, 1951, as \u201cThe New London-Waterford Speed Bowl.\u201d The track\u2019s dirt surface was short lived, however. After several weeks of watching spectators emerge from events covered in dust,",
      "imageUrl": null,
      "keyword": "kewpies",
      "tier": "high",
@@ -1391,10 +1405,10 @@
      }
     },
     {
-     "text": "The Speedbowl grandstands in 1985. Photo by Howie Hodge \u2013 Waterford Speedbowl\n\nThe Waterford Speedbowl opened on April 15, 1951, as \u201cThe New London-Waterford Speed Bowl.\u201d The track\u2019s dirt surface was short lived, however. After several weeks of watching spectators emerge from events covered in dust,",
+     "text": "The iconic sandwich wrapper is so beloved some have it framed and on the walls of their homes and businesses.\n\n1. The kewpie doll that is seen in all of the Kewpee restaurants was created by Rose O\u2019Neill in 1910.\n\n2. In 1993 The Lima News did a story on Jeffery Tennyson, an author from California, w",
      "imageUrl": null,
-     "keyword": "kewpies",
-     "tier": "high",
+     "keyword": "rose o\u2019neill",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1420,20 +1434,6 @@
     },
     {
      "text": "Advertisement by Rose O\u2019Neill from the Walt Reed Illustration Archive.\n\nO\u2019Neill was raised in Nebraska and came to New York City as a teen to pursue a career in art. Her illustrations frequently focused on women and fashion and often depicted a new type of liberal lady\u2014one with a modern sensibility ",
-     "imageUrl": null,
-     "keyword": "rose o\u2019neill",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The iconic sandwich wrapper is so beloved some have it framed and on the walls of their homes and businesses.\n\n1. The kewpie doll that is seen in all of the Kewpee restaurants was created by Rose O\u2019Neill in 1910.\n\n2. In 1993 The Lima News did a story on Jeffery Tennyson, an author from California, w",
      "imageUrl": null,
      "keyword": "rose o\u2019neill",
      "tier": "namematch",
@@ -1489,10 +1489,10 @@
      }
     },
     {
-     "text": "Find all the books, read about the author, and more. See search results for this author. Are you an author. Learn about Author Central Cited by:   InRobbins organized the first comic book produced entirely by women, It Ain\u2019t Me Babe, which she co-produced with Barbara \u201cWilly\u201d Mendes, which is includ",
+     "text": "In preparation for the District Tournament, the RBHS Varsity Girls Soccer Team runs routine 3 v 2 drills on the school's grassy upper field. Junior Alexus Carson tries to steal the ball from junior Laurie Frew during one of these drills. Photo by Aniqa Rahman\n\nSpirits were high as the varsity girls ",
      "imageUrl": null,
-     "keyword": "rose o\u2019neill",
-     "tier": "namematch",
+     "keyword": "kewpies",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1503,10 +1503,10 @@
      }
     },
     {
-     "text": "In preparation for the District Tournament, the RBHS Varsity Girls Soccer Team runs routine 3 v 2 drills on the school's grassy upper field. Junior Alexus Carson tries to steal the ball from junior Laurie Frew during one of these drills. Photo by Aniqa Rahman\n\nSpirits were high as the varsity girls ",
+     "text": "Find all the books, read about the author, and more. See search results for this author. Are you an author. Learn about Author Central Cited by:   InRobbins organized the first comic book produced entirely by women, It Ain\u2019t Me Babe, which she co-produced with Barbara \u201cWilly\u201d Mendes, which is includ",
      "imageUrl": null,
-     "keyword": "kewpies",
-     "tier": "high",
+     "keyword": "rose o\u2019neill",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1546,16 +1546,16 @@
     }
    ],
    "samples": [
-    "The iconic Kewpie doll is one of the earliest examples of a mass-marketed toy, and probably the most successful of its time. The Kewpie characters were originated by Rose O\u2019Neill, a professional illustrator. Her impact on American illustration was not limited to the Kewpie franchise. Versatile enoug",
     "Here\u2019s a rarity from the Cleveland Leader called Don And Dot In Opera Glass Land. This Sunday strip was written by Louise Hunter and drawn by Lillian Woolsey Hunter. Lillian is apparently known for her glamor girl postcard designs from the 00s. Here\u2019s a website that shows a few of her productions.\n\n",
+    "The iconic Kewpie doll is one of the earliest examples of a mass-marketed toy, and probably the most successful of its time. The Kewpie characters were originated by Rose O\u2019Neill, a professional illustrator. Her impact on American illustration was not limited to the Kewpie franchise. Versatile enoug",
     "This extremely portable triptych reflects the fact that we carry our highly subjective understanding of the past into the present and future. The Kewpies (designed by Rose O\u2019Neill in the early 20th century as playful comic figures with an enduring kitsch legacy) are the most straightforward nostalgi",
-    "Illustration by Adelaide Hanscom Leeson, \u201cThe Rubaiyat of Omar Khayyam,\u201d 1905, with George Sterling as model\n\nThe Uncrowned King of Bohemia: The fascinating story of a not-so-great poet. Almost as crazy as the Unmentionable Vice story, this tale of a bad poet, scandalous goings-on in Carmel-by-the-S",
     "However, in the case of Rose O\u2019Neill in her cute children\u2019s comic strip Kewpies, used her colorist to full advantage. In one drawing in the Art Wood Collection, she wrote a long letter to her colorist, Miss Hess, in the margins of the drawing, giving her extended instructions for the experimentation",
+    "Illustration by Adelaide Hanscom Leeson, \u201cThe Rubaiyat of Omar Khayyam,\u201d 1905, with George Sterling as model\n\nThe Uncrowned King of Bohemia: The fascinating story of a not-so-great poet. Almost as crazy as the Unmentionable Vice story, this tale of a bad poet, scandalous goings-on in Carmel-by-the-S",
     "\u201cI Made a House of Houselessness\u201d,\nby Rose O\u2019Neill\n\nI made a house of houselessness,\nA garden of your going:\nAnd seven trees of seven wounds\nYou gave me, all unknowing:\nI made a feast of golden grief\nThat you so lordly left me,\nI made a bed of all the smiles\nWhereof your lip bereft me:\nI made a sun ",
     "Pioneer Rose O\u2019Neill (1874\u20131944) was an American cartoonist and writer who, at a young age, became the best-known and highest-paid female commercial illustrator in the United States. A four-panel comic strip by O\u2019Neill were featured in a September 19, 1896, issue of Truth magazine, making her the fi",
     "Discover the history and highlights of Puck, America\u2019s first and most influential humor magazine of color political cartoons. For nearly forty years, Puck was a training ground and showcase for some of the country\u2019s most talented cartoonists. This exhibit will include chromolithographs by Joseph Kep",
     "The Kewpies originally appeared as a comic strip in the Christmas issue of the 1909 Ladies Home Journal. Roly-poly cherubs with large heads, rosy cheeks, big eyes, and mischievous grins, the illustrations were the creation of Rose O\u2019Neill, a commercial and fine artist, novelist, and poet. O\u2019Neill ev",
-    "Rose O'Neill, a Midwest native who had worked as a writer and illustrator in New York City, initially conceptualized the Kewpie as a cartoon intended for a comic strip in 1909. According to O'Neill, the idea for the Kewpies came to her in a dream.[3] The comic, featuring the cherub-faced characters,"
+    "Editor\u2019s note: I was challenged by a good friend to write a \u201ccreepy story\u201d involving the nationally recognized Kewpie doll created in the early 20th century by Rose O\u2019Neill, whose Bonniebrook estate lies just a few miles north of Branson near Bear Creek. For the record, I actually find Kewpies to be"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1629,13 +1629,13 @@
     "longformHits": 376,
     "longformRatio": 0.238,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 123,
      "laion1b-nolang": 196,
      "laion2b-en": 687,
      "laion2b-multi": 198,
      "obelics": 372,
-     "pile": 1,
-     "c4-en": 3
+     "pile": 1
     },
     "reason": null
    },
@@ -1648,9 +1648,9 @@
     "longformRatio": 0.065,
     "perDataset": {
      "coyo700m": 2,
+     "laion1b-nolang": 8,
      "laion2b-en": 6,
      "laion2b-multi": 13,
-     "laion1b-nolang": 8,
      "obelics": 2
     },
     "reason": null
@@ -1663,9 +1663,9 @@
     "longformHits": 312,
     "longformRatio": 0.975,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 8,
-     "obelics": 310,
-     "c4-en": 2
+     "obelics": 310
     },
     "reason": null
    },
@@ -1677,13 +1677,13 @@
     "longformHits": 3765,
     "longformRatio": 0.165,
     "perDataset": {
+     "c4-en": 38,
      "coyo700m": 1487,
      "laion1b-nolang": 4453,
      "laion2b-en": 6915,
      "laion2b-multi": 6180,
      "obelics": 3718,
-     "pile": 9,
-     "c4-en": 38
+     "pile": 9
     },
     "reason": "documented collision"
    }
@@ -1699,15 +1699,15 @@
   },
   "evidenceShown": 38,
   "evidenceWithheld": {
-   "unverified": 1459,
+   "unverified": 1452,
+   "storefront": 172,
    "person_photo": 121,
-   "storefront": 164,
-   "unrelated": 25,
-   "derivative": 5,
+   "unrelated": 22,
+   "derivative": 7,
    "merchandise": 80,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-rose-oneill",
  "cohort": "billy-ireland",
@@ -1720,7 +1720,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1931,
   "datasetsPresent": 7,

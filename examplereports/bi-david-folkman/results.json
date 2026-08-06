@@ -213,6 +213,17 @@
    ]
   },
   {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
    "name": "IDEFICS-9B-Instruct",
    "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
@@ -222,17 +233,6 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "PixArt-\u03b1",
-   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "Efficient transformer-based text-to-image model.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe"
    ]
   },
   {
@@ -1128,8 +1128,8 @@
     "longformRatio": 0.7,
     "perDataset": {
      "coyo700m": 2,
-     "laion2b-en": 3,
      "laion1b-nolang": 1,
+     "laion2b-en": 3,
      "obelics": 14
     },
     "reason": null
@@ -1148,7 +1148,7 @@
   "evidenceWithheld": {
    "unverified": 15
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-david-folkman",
  "cohort": "billy-ireland",
@@ -1161,7 +1161,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 20,
   "datasetsPresent": 4,

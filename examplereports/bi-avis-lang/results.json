@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -981,11 +981,11 @@
      }
     },
     {
-     "text": "Download Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Avis Lang, Neil Degrasse Tyson",
-     "imageUrl": "https://covers.audiobooks.com/images/covers/full/9781984833990.jpg",
+     "text": "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
+     "imageUrl": "https://www.dcls.org/sites/default/files/2019-05/Space%20chronicles%20%20facing%20the%20ultimate%20frontier%20%20Neil%20deGrasse.jpg",
      "keyword": "avis lang",
      "tier": "namematch",
-     "punsafe": 0.0003096461296081543,
+     "punsafe": 1.1688981430779677e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -995,11 +995,11 @@
      }
     },
     {
-     "text": "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
-     "imageUrl": "https://www.dcls.org/sites/default/files/2019-05/Space%20chronicles%20%20facing%20the%20ultimate%20frontier%20%20Neil%20deGrasse.jpg",
+     "text": "Download Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Avis Lang, Neil Degrasse Tyson",
+     "imageUrl": "https://covers.audiobooks.com/images/covers/full/9781984833990.jpg",
      "keyword": "avis lang",
      "tier": "namematch",
-     "punsafe": 1.1688981430779677e-05,
+     "punsafe": 0.0003096461296081543,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1013,8 +1013,8 @@
     "Accessory to War by Avis Lang, Neil deGrasse Tyson",
     "Accessory to War by Avis Lang & Neil deGrasse Tyson",
     "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
-    "Download Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Avis Lang, Neil Degrasse Tyson",
-    "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang"
+    "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
+    "Download Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Avis Lang, Neil Degrasse Tyson"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1133,7 +1133,7 @@
      }
     },
     {
-     "text": "Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Neil deGrasse Tyson, Avis Lang / Narrated by Courtney B. Vance\nRequirements: .MP3 reader, 512 mb\nOverview: An exploration of the age-old complicity between skywatchers and warfighters, from the best-selling author of As",
+     "text": "In pop culture, there's two general stereotypes the public has about scientists. There's the mad scientist of comic book and Hollywood fame, the cackling monster whose desire to conquer reality and life itself often drives him to discoveries that cause widespread destruction, including his own. Then",
      "imageUrl": null,
      "keyword": "avis lang",
      "tier": "namematch",
@@ -1147,7 +1147,7 @@
      }
     },
     {
-     "text": "In pop culture, there's two general stereotypes the public has about scientists. There's the mad scientist of comic book and Hollywood fame, the cackling monster whose desire to conquer reality and life itself often drives him to discoveries that cause widespread destruction, including his own. Then",
+     "text": "Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Neil deGrasse Tyson, Avis Lang / Narrated by Courtney B. Vance\nRequirements: .MP3 reader, 512 mb\nOverview: An exploration of the age-old complicity between skywatchers and warfighters, from the best-selling author of As",
      "imageUrl": null,
      "keyword": "avis lang",
      "tier": "namematch",
@@ -1164,8 +1164,8 @@
    "samples": [
     "Early artists who combined drawings with words include Emily Carr who drew cartoons for Western Women\u2019s Weekly in 1918 and Vernon Hope Miller who created the first Canadian comic book, \u201cBetter Comics\u201d published in Vancouver in 1941.\n\nAfter the text is completed, producing a graphic novel starts with",
     "It's an interesting read and is co-written by Avis Lang, a research associate alongside Tyson at the American Museum of Natural History's Hayden Planetarium in New York.\n\n13. Letters from an Astrophysicist",
-    "Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Neil deGrasse Tyson, Avis Lang / Narrated by Courtney B. Vance\nRequirements: .MP3 reader, 512 mb\nOverview: An exploration of the age-old complicity between skywatchers and warfighters, from the best-selling author of As",
-    "In pop culture, there's two general stereotypes the public has about scientists. There's the mad scientist of comic book and Hollywood fame, the cackling monster whose desire to conquer reality and life itself often drives him to discoveries that cause widespread destruction, including his own. Then"
+    "In pop culture, there's two general stereotypes the public has about scientists. There's the mad scientist of comic book and Hollywood fame, the cackling monster whose desire to conquer reality and life itself often drives him to discoveries that cause widespread destruction, including his own. Then",
+    "Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Neil deGrasse Tyson, Avis Lang / Narrated by Courtney B. Vance\nRequirements: .MP3 reader, 512 mb\nOverview: An exploration of the age-old complicity between skywatchers and warfighters, from the best-selling author of As"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1237,9 +1237,9 @@
     "longformRatio": 0.433,
     "perDataset": {
      "coyo700m": 7,
+     "laion1b-nolang": 11,
      "laion2b-en": 77,
      "laion2b-multi": 2,
-     "laion1b-nolang": 11,
      "obelics": 74
     },
     "reason": null
@@ -1256,12 +1256,12 @@
   },
   "evidenceShown": 11,
   "evidenceWithheld": {
-   "unrelated": 17,
+   "unrelated": 14,
    "unverified": 132,
-   "storefront": 4,
+   "storefront": 7,
    "person_photo": 7
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-avis-lang",
  "cohort": "billy-ireland",
@@ -1274,7 +1274,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 171,
   "datasetsPresent": 5,

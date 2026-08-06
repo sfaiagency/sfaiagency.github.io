@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -900,6 +900,20 @@
     {
      "text": "Presenting the findings to the CTCN Advisory Board (Photo: Scott Willis",
      "imageUrl": "https://www.iied.org/sites/default/files/styles/main-image-16-9/public/2018-03-21_ctn_meeting.jpg?itok=5Ilw4r3T",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/h4hpycqizghzh9uveoql",
      "keyword": "scott willis",
      "tier": "namematch",
      "punsafe": null,
@@ -940,20 +954,6 @@
      }
     },
     {
-     "text": "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
-     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/h4hpycqizghzh9uveoql",
-     "keyword": "scott willis",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Zito's controversial signing has recently paid big dividends. (Scott Willis/Creative Commons",
      "imageUrl": "http://www.neontommy.com/sites/default/files/users/user630/Barry%20Zito-1.jpg",
      "keyword": "scott willis",
@@ -970,8 +970,8 @@
    ],
    "samples": [
     "Presenting the findings to the CTCN Advisory Board (Photo: Scott Willis",
-    "Scott Willis and Danielle Carey Tolan work to educate the public about the upcoming referendum to be placed on the Nov. 8 ballot. (Photos by Anna Skinner",
     "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
+    "Scott Willis and Danielle Carey Tolan work to educate the public about the upcoming referendum to be placed on the Nov. 8 ballot. (Photos by Anna Skinner",
     "Murals by Scott Willis seen at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
     "Zito's controversial signing has recently paid big dividends. (Scott Willis/Creative Commons"
    ],
@@ -999,20 +999,6 @@
    "totalIncludingLowConfidence": 151,
    "rows": [
     {
-     "text": "Into the Unknown by Scott Willis Piano",
-     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.473624042/170x170.jpg",
-     "keyword": "scott willis",
-     "tier": "namematch",
-     "punsafe": 1.1184454706381075e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Samurai Jack by Scott Willis                                                                                                                                                                                 More",
      "imageUrl": "https://i.pinimg.com/736x/8f/24/9c/8f249c9b010bda8f7ca65f8a3f542baa.jpg",
      "keyword": "scott willis",
@@ -1027,25 +1013,11 @@
      }
     },
     {
-     "text": "This Is It by Scott Willis Piano",
-     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.427993903/170x170.jpg",
+     "text": "Into the Unknown by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.473624042/170x170.jpg",
      "keyword": "scott willis",
      "tier": "namematch",
-     "punsafe": 1.9282240828033537e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
-     "imageUrl": "http://s3-us-west-2.amazonaws.com/ktoo/2014/05/Salmon-Creek-2009-comparison2.jpg",
-     "keyword": "scott willis",
-     "tier": "namematch",
-     "punsafe": 4.101921513210982e-05,
+     "punsafe": 1.1184454706381075e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1069,11 +1041,39 @@
      }
     },
     {
+     "text": "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
+     "imageUrl": "http://s3-us-west-2.amazonaws.com/ktoo/2014/05/Salmon-Creek-2009-comparison2.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 4.101921513210982e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Fondos de Samurai Jack, por Scott Wills. Samurai Jack backgrounds by Scott Willis. Cartoon Network, Cartoon Background, Animation Background, Environment Concept Art, Environment Design, Samurai Jack Background, Illustrations, Illustration Art, Bg Design",
      "imageUrl": "https://i.pinimg.com/236x/c1/e7/eb/c1e7ebb3085b9e960f2fb7ac3b778572--lwren-scott-scott-wills.jpg",
      "keyword": "scott willis",
      "tier": "namematch",
      "punsafe": 5.936095021752408e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This Is It by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.427993903/170x170.jpg",
+     "keyword": "scott willis",
+     "tier": "namematch",
+     "punsafe": 1.9282240828033537e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1111,11 +1111,11 @@
      }
     },
     {
-     "text": "Here & There by Scott Willis Piano",
-     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.288685529/170x170.jpg",
+     "text": "\"\"\"Category: NATURE   \"\"\"\"Moose Parked in a No-Parking Zone\"\"\"\" by Scott Willis, Easy Park Alaska, a division of Anchorage Community Development Authority, Anchorage\"\"\"",
+     "imageUrl": "https://i.pinimg.com/736x/ac/a3/d6/aca3d67d20ad2f29e47eba91df1780b5.jpg",
      "keyword": "scott willis",
      "tier": "namematch",
-     "punsafe": 2.7089559807791375e-05,
+     "punsafe": 7.24782730685547e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1125,11 +1125,11 @@
      }
     },
     {
-     "text": "\"\"\"Category: NATURE   \"\"\"\"Moose Parked in a No-Parking Zone\"\"\"\" by Scott Willis, Easy Park Alaska, a division of Anchorage Community Development Authority, Anchorage\"\"\"",
-     "imageUrl": "https://i.pinimg.com/736x/ac/a3/d6/aca3d67d20ad2f29e47eba91df1780b5.jpg",
+     "text": "Here & There by Scott Willis Piano",
+     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.288685529/170x170.jpg",
      "keyword": "scott willis",
      "tier": "namematch",
-     "punsafe": 7.24782730685547e-05,
+     "punsafe": 2.7089559807791375e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1266,16 +1266,16 @@
     }
    ],
    "samples": [
-    "Into the Unknown by Scott Willis Piano",
     "Samurai Jack by Scott Willis                                                                                                                                                                                 More",
-    "This Is It by Scott Willis Piano",
-    "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
+    "Into the Unknown by Scott Willis Piano",
     "Show Yourself by Scott Willis Piano",
+    "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
     "Fondos de Samurai Jack, por Scott Wills. Samurai Jack backgrounds by Scott Willis. Cartoon Network, Cartoon Background, Animation Background, Environment Concept Art, Environment Design, Samurai Jack Background, Illustrations, Illustration Art, Bg Design",
+    "This Is It by Scott Willis Piano",
     "Mercy by Scott Willis Piano",
     "Salmon Creek reservoir, May 26, 2009.  Water level is within a foot or two of the current elevation, but there's more ice on the lake and snow on the hillsides. (Photo courtesy Scott Willis/ AEL&P)",
-    "Here & There by Scott Willis Piano",
-    "\"\"\"Category: NATURE   \"\"\"\"Moose Parked in a No-Parking Zone\"\"\"\" by Scott Willis, Easy Park Alaska, a division of Anchorage Community Development Authority, Anchorage\"\"\""
+    "\"\"\"Category: NATURE   \"\"\"\"Moose Parked in a No-Parking Zone\"\"\"\" by Scott Willis, Easy Park Alaska, a division of Anchorage Community Development Authority, Anchorage\"\"\"",
+    "Here & There by Scott Willis Piano"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1444,11 +1444,11 @@
      }
     },
     {
-     "text": "Last Hurrah by Scott Willis Piano",
-     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.370944272/170x170.jpg",
+     "text": "Gratitude by Scott Willis",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.428945221/170x170.jpg",
      "keyword": "scott willis",
      "tier": "namematch",
-     "punsafe": 3.425447357585654e-05,
+     "punsafe": 0.0002949237823486328,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1458,11 +1458,11 @@
      }
     },
     {
-     "text": "Gratitude by Scott Willis",
-     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.428945221/170x170.jpg",
+     "text": "Last Hurrah by Scott Willis Piano",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.370944272/170x170.jpg",
      "keyword": "scott willis",
      "tier": "namematch",
-     "punsafe": 0.0002949237823486328,
+     "punsafe": 3.425447357585654e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1560,8 +1560,8 @@
     "Undrunk by Scott Willis Piano",
     "Last Hurrah by Scott Willis Piano",
     "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
-    "Last Hurrah by Scott Willis Piano",
     "Gratitude by Scott Willis",
+    "Last Hurrah by Scott Willis Piano",
     "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
     "Undrunk by Scott Willis Piano",
     "Murals by Scott Willis at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
@@ -1869,13 +1869,13 @@
     "longformHits": 369,
     "longformRatio": 0.578,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 28,
+     "laion1b-nolang": 63,
      "laion2b-en": 151,
      "laion2b-multi": 27,
-     "laion1b-nolang": 63,
      "obelics": 363,
-     "pile": 3,
-     "c4-en": 3
+     "pile": 3
     },
     "reason": null
    }
@@ -1891,15 +1891,15 @@
   },
   "evidenceShown": 54,
   "evidenceWithheld": {
-   "unverified": 449,
-   "person_photo": 100,
-   "storefront": 19,
    "unrelated": 3,
+   "person_photo": 100,
+   "unverified": 446,
+   "storefront": 20,
+   "derivative": 4,
    "explicit": 3,
-   "merchandise": 5,
-   "derivative": 1
+   "merchandise": 5
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-scott-willis",
  "cohort": "billy-ireland",
@@ -1912,7 +1912,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 638,
   "datasetsPresent": 7,

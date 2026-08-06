@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -897,20 +897,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 60,
    "rows": [
-    {
-     "text": "Airboy Archives Volume 3 by Michael T. Gilbert, Chuck Dixon, Timothy Truman",
-     "imageUrl": "https://images.thestorygraph.com/jclfz8z2hrdk5izdtrmup26at9zp",
-     "keyword": "michael t. gilbert",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Mr Monster's Triple Threat 3-D issue 1 splash by Michael T. Gilbert. Source.",
      "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2015/12/Mr-Monsters-Triple-Threat-3-D-issue-1-splash-by-Michael-T.-Gilbert-480x627.jpg",
@@ -938,12 +924,26 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Airboy Archives Volume 3 by Michael T. Gilbert, Chuck Dixon, Timothy Truman",
+     "imageUrl": "https://images.thestorygraph.com/jclfz8z2hrdk5izdtrmup26at9zp",
+     "keyword": "michael t. gilbert",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "Airboy Archives Volume 3 by Michael T. Gilbert, Chuck Dixon, Timothy Truman",
     "Mr Monster's Triple Threat 3-D issue 1 splash by Michael T. Gilbert. Source.",
-    "Who\u2019s Who in the DC Universe #9 - Roxxas by Michael T. Gilbert"
+    "Who\u2019s Who in the DC Universe #9 - Roxxas by Michael T. Gilbert",
+    "Airboy Archives Volume 3 by Michael T. Gilbert, Chuck Dixon, Timothy Truman"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1296,7 +1296,7 @@
      }
     },
     {
-     "text": "Here\u2019s the weird thing about the death of Raoul Vezina, the comic book artist/musician/front man at the Albany comic book store FantaCo 30 years ago today; I STILL remember the day I found out, which was the day after he died, as well as I remember my daughter\u2019s birth or my father\u2019s death or the day",
+     "text": "Prize Comics' Monster of Frankenstein began life in Prize Comics #7 (the same issue that introduced The Green Lama to comics) and continued over several years going from a relatively-straight sequel to the Mary Shelley novel to all-out comedy, all drawn by the same artist, Dick Briefer (who also cre",
      "imageUrl": null,
      "keyword": "michael t. gilbert",
      "tier": "namematch",
@@ -1338,7 +1338,7 @@
      }
     },
     {
-     "text": "Prize Comics' Monster of Frankenstein began life in Prize Comics #7 (the same issue that introduced The Green Lama to comics) and continued over several years going from a relatively-straight sequel to the Mary Shelley novel to all-out comedy, all drawn by the same artist, Dick Briefer (who also cre",
+     "text": "Here\u2019s the weird thing about the death of Raoul Vezina, the comic book artist/musician/front man at the Albany comic book store FantaCo 30 years ago today; I STILL remember the day I found out, which was the day after he died, as well as I remember my daughter\u2019s birth or my father\u2019s death or the day",
      "imageUrl": null,
      "keyword": "michael t. gilbert",
      "tier": "namematch",
@@ -1471,10 +1471,10 @@
     "The tragedy of the American comic book in the 20th century was its struggle for cultural recognition. Artists, writers, editors and publishers in this competitive, ultra-commercial market had to weather changes in public taste, to determine if a current fad would last long enough to invest in it (as",
     "Things looked bleak for comic books throughout the 1970s because of plummeting sell-through rates. With each passing year, the newsstand became less and less interested in selling comic books. The industry seemed locked in a death spiral, but the Powers That Be at DC Comics had an idea to reverse th",
     "Horror, comedy and superheroing don't mix, or do they?\n\n\nIf you are as old as me, you probably passed by Mr. Monster comics several times at your local comic book shop and never once picked up an issue. If you had you would have found the genre bending stories of Michael T. Gilbert and a rotating ha",
-    "Here\u2019s the weird thing about the death of Raoul Vezina, the comic book artist/musician/front man at the Albany comic book store FantaCo 30 years ago today; I STILL remember the day I found out, which was the day after he died, as well as I remember my daughter\u2019s birth or my father\u2019s death or the day",
+    "Prize Comics' Monster of Frankenstein began life in Prize Comics #7 (the same issue that introduced The Green Lama to comics) and continued over several years going from a relatively-straight sequel to the Mary Shelley novel to all-out comedy, all drawn by the same artist, Dick Briefer (who also cre",
     "You may think that the above picture is some sort of study from Da Vinci\u2019s \u201cLast Supper\u201d but it\u2019s actually the panel from my presentation at Toronto Con this past weekend. From left to right it\u2019s Gerhard, James Waley, Fadi Hakim, some photo bomber, and Richard Comely. We talked about what made a com",
     "If you haven't heard, Arcana is publishing a 6 issue series entitled \"War of the Independents\", scripted by Scott Lobdell (Uncanny X-Men, Age of Apocolypse, Generation X) and illustrated by Dave Ryan & Richard Kane Ferguson. And amongst the list of entrants into the fray is none other than . . . Eve",
-    "Prize Comics' Monster of Frankenstein began life in Prize Comics #7 (the same issue that introduced The Green Lama to comics) and continued over several years going from a relatively-straight sequel to the Mary Shelley novel to all-out comedy, all drawn by the same artist, Dick Briefer (who also cre"
+    "Here\u2019s the weird thing about the death of Raoul Vezina, the comic book artist/musician/front man at the Albany comic book store FantaCo 30 years ago today; I STILL remember the day I found out, which was the day after he died, as well as I remember my daughter\u2019s birth or my father\u2019s death or the day"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1564,9 +1564,9 @@
     "longformRatio": 0.584,
     "perDataset": {
      "coyo700m": 15,
+     "laion1b-nolang": 30,
      "laion2b-en": 40,
      "laion2b-multi": 22,
-     "laion1b-nolang": 30,
      "obelics": 149,
      "pile": 1
     },
@@ -1581,9 +1581,9 @@
     "longformRatio": 0.319,
     "perDataset": {
      "coyo700m": 45,
+     "laion1b-nolang": 120,
      "laion2b-en": 341,
      "laion2b-multi": 263,
-     "laion1b-nolang": 120,
      "obelics": 361
     },
     "reason": "mass-market franchise, not this subject's own work"
@@ -1600,14 +1600,14 @@
   },
   "evidenceShown": 33,
   "evidenceWithheld": {
-   "person_photo": 44,
    "unrelated": 31,
    "unverified": 135,
+   "person_photo": 44,
    "derivative": 2,
    "storefront": 8,
    "merchandise": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-michael-t-gilbert",
  "cohort": "billy-ireland",
@@ -1620,7 +1620,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 257,
   "datasetsPresent": 6,

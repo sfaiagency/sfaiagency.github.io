@@ -22,50 +22,22 @@
    "totalIncludingLowConfidence": 229,
    "rows": [
     {
-     "text": "Captionless Acrylic Print featuring the painting Debate Night Confusion vs Delusion by Jason Chatfield and Scott Dooley",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/acrylic-print/7/10/hangingwire/break/images/artworkimages/medium/3/debate-night-confusion-vs-delusion-jason-chatfield.jpg",
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Use Your Words! (Cartoon by Scott Dooley & Jason Chatfield) Home Fine Art Print by Is There Something In This? Official Merch Store",
-     "imageUrl": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/itsitpodcast/products/971055/shirt-1554302678-6c2a8efbd659d7e4006d2d735e6f8de0.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiZmZmZmZmIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV19",
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Your Last Two Appointments Drawing by Jason Chatfield",
-     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/your-last-two-appointments-jason-chatfield.jpg",
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"Ginger Meggs: Time Traveling\" by Jason Chatfield",
      "imageUrl": "https://assets.gocomics.com/uploads/default_images/default_image_large_laugh_tracks_laugh_tracks-generic.jpg",
+     "keyword": "jason chatfield",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Use Your Words! (Cartoon by Scott Dooley & Jason Chatfield) Accessories Skateboard by Is There Something In This? Official Merch Store",
+     "imageUrl": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/itsitpodcast/products/971055/shirt-1554302678-6c2a8efbd659d7e4006d2d735e6f8de0.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiZmZmZmZmIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV19",
      "keyword": "jason chatfield",
      "tier": "namematch",
      "punsafe": null,
@@ -104,15 +76,43 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Captionless Acrylic Print featuring the painting Debate Night Confusion vs Delusion by Jason Chatfield and Scott Dooley",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/acrylic-print/7/10/hangingwire/break/images/artworkimages/medium/3/debate-night-confusion-vs-delusion-jason-chatfield.jpg",
+     "keyword": "jason chatfield",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Your Last Two Appointments Drawing by Jason Chatfield",
+     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/your-last-two-appointments-jason-chatfield.jpg",
+     "keyword": "jason chatfield",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "Captionless Acrylic Print featuring the painting Debate Night Confusion vs Delusion by Jason Chatfield and Scott Dooley",
-    "Use Your Words! (Cartoon by Scott Dooley & Jason Chatfield) Home Fine Art Print by Is There Something In This? Official Merch Store",
-    "Your Last Two Appointments Drawing by Jason Chatfield",
     "\"Ginger Meggs: Time Traveling\" by Jason Chatfield",
+    "Use Your Words! (Cartoon by Scott Dooley & Jason Chatfield) Accessories Skateboard by Is There Something In This? Official Merch Store",
     "See What Hes Said Now Drawing by Jason Chatfield and Scott Dooley",
-    "Ginger Meggs by Jason Chatfield on Sun, 25 Apr 2021"
+    "Ginger Meggs by Jason Chatfield on Sun, 25 Apr 2021",
+    "Captionless Acrylic Print featuring the painting Debate Night Confusion vs Delusion by Jason Chatfield and Scott Dooley",
+    "Your Last Two Appointments Drawing by Jason Chatfield"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -180,11 +180,11 @@
      }
     },
     {
-     "text": "Original 1940-50S Ginger Meggs Australian Comic Strip / Cartoon Character Rug",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/113566179197_/Original-1940-50S-Ginger-Meggs-Australian-Comic-Strip.jpg",
-     "keyword": "ginger meggs",
-     "tier": "high",
-     "punsafe": 3.796955979851191e-06,
+     "text": "President Drawing - Parental Advisory Explicit Content by Jason Chatfield",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images/artworkimages/medium/1/parental-advisory-explicit-content-jason-chatfield.jpg",
+     "keyword": "jason chatfield",
+     "tier": "namematch",
+     "punsafe": 0.0009350478649139404,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -194,11 +194,11 @@
      }
     },
     {
-     "text": "President Drawing - Parental Advisory Explicit Content by Jason Chatfield",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images/artworkimages/medium/1/parental-advisory-explicit-content-jason-chatfield.jpg",
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": 0.0009350478649139404,
+     "text": "Original 1940-50S Ginger Meggs Australian Comic Strip / Cartoon Character Rug",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/113566179197_/Original-1940-50S-Ginger-Meggs-Australian-Comic-Strip.jpg",
+     "keyword": "ginger meggs",
+     "tier": "high",
+     "punsafe": 3.796955979851191e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -338,8 +338,8 @@
     "Monday Wood Print featuring the drawing Vlad the Employer by Jason Chatfield",
     "Monday Art Print featuring the drawing Vlad the Employer by Jason Chatfield",
     "Gym Greeting Card featuring the drawing Gym by Jason Chatfield and Scott Dooley",
-    "Original 1940-50S Ginger Meggs Australian Comic Strip / Cartoon Character Rug",
     "President Drawing - Parental Advisory Explicit Content by Jason Chatfield",
+    "Original 1940-50S Ginger Meggs Australian Comic Strip / Cartoon Character Rug",
     "Monday Acrylic Print featuring the drawing Vlad the Employer by Jason Chatfield",
     "Monday Art Print featuring the drawing Vlad The Employer by Jason Chatfield",
     "Anton Emdin caricature by Jason Chatfield",
@@ -557,34 +557,6 @@
    "totalIncludingLowConfidence": 351,
    "rows": [
     {
-     "text": "July is already upon us, and as anticipated, we have an exceptional range of new coin releases to showcase this month.\n\nThe 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the S",
-     "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "This image released by King Features shows a clip from the comic strip \u201cBaby Blues\u201d by Rick Kirkman and Jerry Scott. More than 70 comic strips and panels will each have symbols hidden in their artwork to honor workers on the frontlines of the coronavirus pandemic.\n\nNEW YORK (AP) \u2014 The funny papers t",
-     "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "ART OF GRATITUDE | An image released by King Features shows a clip from the comic strip \u201cBaby Blues\u201d by Rick Kirkman and Jerry Scott. More than 70 comic strips and panels will each have symbols hidden in their artwork to honor workers on the front lines of the coronavirus pandemic. \u2014AP\n\nNEW YORK\u2014The",
      "imageUrl": null,
      "keyword": "ginger meggs",
@@ -613,10 +585,10 @@
      }
     },
     {
-     "text": "Ginger Meggs is a much-beloved comic strip in Australia and 33 other countries. In fact, it\u2019s been running in newspapers Down Under since the early 1920s.\n\nSo, it wasn\u2019t a stretch when a clever editor at The Advertiser in Adelaide, Australia used the strip\u2019s title to describe the engagement of a red",
+     "text": "This image released by King Features shows a clip from the comic strip \u201cBaby Blues\u201d by Rick Kirkman and Jerry Scott. More than 70 comic strips and panels will each have symbols hidden in their artwork to honor workers on the frontlines of the coronavirus pandemic.\n\nNEW YORK (AP) \u2014 The funny papers t",
      "imageUrl": null,
-     "keyword": "jason chatfield",
-     "tier": "namematch",
+     "keyword": "ginger meggs",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -641,7 +613,7 @@
      }
     },
     {
-     "text": "Taking their name from a reference to the Ginger Meggs comic strip, Melbourne band Dear Enemy formed ranks in 1982. Their original lineup comprised vocalist Ron Martini, guitarists Chris Langford and Les Barker, keyboardist Martin Fisher (ex-Little Heroes), bassist Peter Leslie (ex-Little Heroes) an",
+     "text": "July is already upon us, and as anticipated, we have an exceptional range of new coin releases to showcase this month.\n\nThe 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the S",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
@@ -669,7 +641,7 @@
      }
     },
     {
-     "text": "This image released by King Features shows artwork from the comic strip \"Rhymes With Orange\" by Hilary B. Price. More than 70 comic strips and panels will each have symbols hidden in the artwork to honor workers on the frontlines of the coronavirus pandemic. (King Features via AP)\n\nNEW YORK \u2014 The fu",
+     "text": "by Vanessa M (subscribe)\nI am always looking out for new experiences, wherever I may find myself.\nPublished March 5th 2015\nEver heard of Ginger Meggs? You probably have if you read the Daily Telegraph, in particular the comic strips. He's that red-headed kid who's always getting up to mischief.\n\nThe",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
@@ -683,7 +655,35 @@
      }
     },
     {
-     "text": "The 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the Sydney Sunday Sun newspaper called Us Fellers on the 13 November 1921. The coin\u2019s coloured reverse depicts Ginger Meggs r",
+     "text": "Ginger Meggs is a much-beloved comic strip in Australia and 33 other countries. In fact, it\u2019s been running in newspapers Down Under since the early 1920s.\n\nSo, it wasn\u2019t a stretch when a clever editor at The Advertiser in Adelaide, Australia used the strip\u2019s title to describe the engagement of a red",
+     "imageUrl": null,
+     "keyword": "jason chatfield",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Taking their name from a reference to the Ginger Meggs comic strip, Melbourne band Dear Enemy formed ranks in 1982. Their original lineup comprised vocalist Ron Martini, guitarists Chris Langford and Les Barker, keyboardist Martin Fisher (ex-Little Heroes), bassist Peter Leslie (ex-Little Heroes) an",
+     "imageUrl": null,
+     "keyword": "ginger meggs",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This image released by King Features shows artwork from the comic strip \"Rhymes With Orange\" by Hilary B. Price. More than 70 comic strips and panels will each have symbols hidden in the artwork to honor workers on the frontlines of the coronavirus pandemic. (King Features via AP)\n\nNEW YORK \u2014 The fu",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
@@ -711,24 +711,10 @@
      }
     },
     {
-     "text": "by Vanessa M (subscribe)\nI am always looking out for new experiences, wherever I may find myself.\nPublished March 5th 2015\nEver heard of Ginger Meggs? You probably have if you read the Daily Telegraph, in particular the comic strips. He's that red-headed kid who's always getting up to mischief.\n\nThe",
+     "text": "The 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the Sydney Sunday Sun newspaper called Us Fellers on the 13 November 1921. The coin\u2019s coloured reverse depicts Ginger Meggs r",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My great great uncle Jim Bancks created a comic strip character, Ginger Meggs, in 1921. I\u2019ve always been very proud of this and feel it\u2019s one reason I became an author for kids. I\u2019m really pleased to share that I\u2019ve just signed a contract to write a book of brand new Ginger Meggs stories for kids to",
-     "imageUrl": null,
-     "keyword": "jason chatfield",
-     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -795,10 +781,10 @@
      }
     },
     {
-     "text": "Six weeks into her fostering role Joanne knew she was destined for failure. Despite only ever owning dogs, Joanne responded to the local rescue shelter\u2019s plea for help. Meggsy, named after Ginger Meggs, an Australian comic book character was part of a house clearance where thirty two cats were taken",
+     "text": "My great great uncle Jim Bancks created a comic strip character, Ginger Meggs, in 1921. I\u2019ve always been very proud of this and feel it\u2019s one reason I became an author for kids. I\u2019m really pleased to share that I\u2019ve just signed a contract to write a book of brand new Ginger Meggs stories for kids to",
      "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
+     "keyword": "jason chatfield",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -824,6 +810,20 @@
     },
     {
      "text": "MAY191613\n(W) Graeme Cliffe (CA) Neville C Bain\nFrom \"Sunbeams\" to Sunset: The Rise and Fall of the Australian Comic Book (1924 to 1965) is the story of Australia's original comic books and the writers and illustrators behind them. The book traces the local medium from its genesis in the pages of Su",
+     "imageUrl": null,
+     "keyword": "ginger meggs",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Six weeks into her fostering role Joanne knew she was destined for failure. Despite only ever owning dogs, Joanne responded to the local rescue shelter\u2019s plea for help. Meggsy, named after Ginger Meggs, an Australian comic book character was part of a house clearance where thirty two cats were taken",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
@@ -879,20 +879,6 @@
      }
     },
     {
-     "text": "Braemar\u2019s CEO Wayne Belcher has launched a blog concentrating on Aged Care news, thoughts and opinion. Located at wlbelcher.com the blog will share thoughts and ideas from Mr. Belcher\u2019s decade\u2019s long experience in Aged Care. It is illustrated by cartoonist Jason Chatfield, the artist of iconic comic",
-     "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The commercial titled Parrot was done by Target advertising agency in Canada. It was released in the September 2010. Business sector is Public awareness messages.\n\nGinger Meggs, a popular long-run Australian comic strip, was created in the early 1920s by Jimmy Bancks. The strip follows the escapades",
      "imageUrl": null,
      "keyword": "jason chatfield",
@@ -908,6 +894,20 @@
     },
     {
      "text": "SUNBEAM TO SUNSET RISE & FALL OF THE AUSTRALIAN COMIC\n\nFrom 'Sunbeams' to Sunset: The Rise and Fall of the Australian Comic Book (1924 to 1965) is the story of Australia's original comic books and the writers and illustrators behind them. The book traces the local medium from its genesis in the page",
+     "imageUrl": null,
+     "keyword": "ginger meggs",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Braemar\u2019s CEO Wayne Belcher has launched a blog concentrating on Aged Care news, thoughts and opinion. Located at wlbelcher.com the blog will share thoughts and ideas from Mr. Belcher\u2019s decade\u2019s long experience in Aged Care. It is illustrated by cartoonist Jason Chatfield, the artist of iconic comic",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
@@ -949,34 +949,6 @@
      }
     },
     {
-     "text": "Every year MoAD presents Behind The Lines \u2013 an exhibition that displays the best political cartoons from the last 12 months. The 2018 exhibition, launched today, brings together the year\u2019s unexpected political twists and turns in an Alice In Wonderland inspired theme.\n\n\u201cEach week Australia\u2019s politic",
-     "imageUrl": null,
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Cappuccino Strip, or South Terrace, in Fremantle is the centre of the terrific harbour town of Western Australia - \"even when it's flooded in 2020 and once again we need to look after boat people\". From a cartoon by Award-winning Fremantle Herald cartoonist Jason Chatfield (click image to open l",
-     "imageUrl": null,
-     "keyword": "jason chatfield",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A frame from an early Us Fellers comic strip, featuring a soon-to-be-familiar young man bowling a googly. Source: The Mail (Adelaide), 5 July 1952,\nThe central attraction of Sunbeams quickly became a comic strip called Us Fellers. This told simple stories about a group of neighbourhood scamps who fi",
      "imageUrl": null,
      "keyword": "ginger meggs",
@@ -1005,7 +977,7 @@
      }
     },
     {
-     "text": "NEW YORK, NY -- Chashama and Art To Ware present Cartooning While Black, a preview of the art from the upcoming One Idea Press title release, The Anti-Racism Activity Book. Art from the volume, written and illustrated by cartoonist and comedian Victor Varnado, is shown alongside fellow Black New Yor",
+     "text": "Every year MoAD presents Behind The Lines \u2013 an exhibition that displays the best political cartoons from the last 12 months. The 2018 exhibition, launched today, brings together the year\u2019s unexpected political twists and turns in an Alice In Wonderland inspired theme.\n\n\u201cEach week Australia\u2019s politic",
      "imageUrl": null,
      "keyword": "jason chatfield",
      "tier": "namematch",
@@ -1019,10 +991,24 @@
      }
     },
     {
-     "text": "Verlagsseite\nThis book looks at the humor that artists and editors believed would have appeal in four different countries. Ian Gordon explains how similar humor played out in comic strips across different cultures and humor styles. By examining Skippy and Ginger Meggs, the book shows a good deal of ",
+     "text": "The Cappuccino Strip, or South Terrace, in Fremantle is the centre of the terrific harbour town of Western Australia - \"even when it's flooded in 2020 and once again we need to look after boat people\". From a cartoon by Award-winning Fremantle Herald cartoonist Jason Chatfield (click image to open l",
      "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
+     "keyword": "jason chatfield",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "NEW YORK, NY -- Chashama and Art To Ware present Cartooning While Black, a preview of the art from the upcoming One Idea Press title release, The Anti-Racism Activity Book. Art from the volume, written and illustrated by cartoonist and comedian Victor Varnado, is shown alongside fellow Black New Yor",
+     "imageUrl": null,
+     "keyword": "jason chatfield",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1061,20 +1047,6 @@
      }
     },
     {
-     "text": "James Lawrence Kemsley OAM was an Australian cartoonist who was notable for producing the comic strip Ginger Meggs between 1984 and 2007.\n\nGeorge Stephenson \"Onkus\" Wallace, was an Australian comedian, vaudevillian, radio personality and film star. During the early to mid-20th century, he was one of",
-     "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Walter Berndt was a cartoonist known for his comic strip, Smitty, which he drew for 50 years.\n\nJim Unger was a British Canadian cartoonist, best known for his syndicated comic strip Herman which ran for 18 years in 600 newspapers in 25 countries.\n\nGrin and Bear It is a former daily comic panel creat",
      "imageUrl": null,
      "keyword": "jason chatfield",
@@ -1089,10 +1061,24 @@
      }
     },
     {
-     "text": "Dilbert Classics By Scott Adams. Dude and Dude By Keith Poletiek. WARNING - This site is for adults only! Hustler has long had a left-wing editorial policy on economics, foreign policy, and social issues. Promises, Promises By J. Ginger Meggs By Jason Chatfield. In other projects Wikimedia Commons.\n",
+     "text": "Verlagsseite\nThis book looks at the humor that artists and editors believed would have appeal in four different countries. Ian Gordon explains how similar humor played out in comic strips across different cultures and humor styles. By examining Skippy and Ginger Meggs, the book shows a good deal of ",
      "imageUrl": null,
-     "keyword": "jason chatfield",
-     "tier": "namematch",
+     "keyword": "ginger meggs",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "James Lawrence Kemsley OAM was an Australian cartoonist who was notable for producing the comic strip Ginger Meggs between 1984 and 2007.\n\nGeorge Stephenson \"Onkus\" Wallace, was an Australian comedian, vaudevillian, radio personality and film star. During the early to mid-20th century, he was one of",
+     "imageUrl": null,
+     "keyword": "ginger meggs",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1117,7 +1103,7 @@
      }
     },
     {
-     "text": "Ginger Meggs, a popular long-run Australian comic strip, was created in the early 1920s by Jimmy Bancks. The strip follows the escapades of a red-haired prepubescent mischief-maker who lives in an inner suburban working-class household.\nWhile employed at The Bulletin, Bancks submitted cartoons to th",
+     "text": "Dilbert Classics By Scott Adams. Dude and Dude By Keith Poletiek. WARNING - This site is for adults only! Hustler has long had a left-wing editorial policy on economics, foreign policy, and social issues. Promises, Promises By J. Ginger Meggs By Jason Chatfield. In other projects Wikimedia Commons.\n",
      "imageUrl": null,
      "keyword": "jason chatfield",
      "tier": "namematch",
@@ -1135,6 +1121,20 @@
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ginger Meggs, a popular long-run Australian comic strip, was created in the early 1920s by Jimmy Bancks. The strip follows the escapades of a red-haired prepubescent mischief-maker who lives in an inner suburban working-class household.\nWhile employed at The Bulletin, Bancks submitted cartoons to th",
+     "imageUrl": null,
+     "keyword": "jason chatfield",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1173,6 +1173,20 @@
      }
     },
     {
+     "text": "A Century of Fritzi Ritz The Daily Cartoonist\n\nA century of Fritzi Ritz\n\nFritzi Ritz was introduced to New York World comic book readers a hundred years ago \u2013 October 9, 1922 \u2013 and still appears in the fun pages, admittedly as second fiddle to his niece Nancy instead of the comic star these days. Al",
+     "imageUrl": null,
+     "keyword": "ginger meggs",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Ginger Meggs, Australia's most popular and longest-running comic strip, was created in the early 1920s by Jimmy Bancks. The strip follows the escapades of a red-haired prepubescent mischief-maker who lives in an inner suburban working-class household. While employed at The Bulletin, Bancks submitted",
      "imageUrl": null,
      "keyword": "jason chatfield",
@@ -1188,20 +1202,6 @@
     },
     {
      "text": "Ron Vivian was an Australian cartoonist who is perhaps best known as having drawn Ginger Meggs after the original creator, Jimmy Bancks died in 1952.\n\nLloyd Piper was an Australian cartoonist and art teacher, best known as the third artist to take on the iconic Australian comic strip, Ginger Meggs, ",
-     "imageUrl": null,
-     "keyword": "ginger meggs",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Century of Fritzi Ritz The Daily Cartoonist\n\nA century of Fritzi Ritz\n\nFritzi Ritz was introduced to New York World comic book readers a hundred years ago \u2013 October 9, 1922 \u2013 and still appears in the fun pages, admittedly as second fiddle to his niece Nancy instead of the comic star these days. Al",
      "imageUrl": null,
      "keyword": "ginger meggs",
      "tier": "high",
@@ -1258,16 +1258,16 @@
     }
    ],
    "samples": [
-    "July is already upon us, and as anticipated, we have an exceptional range of new coin releases to showcase this month.\n\nThe 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the S",
-    "This image released by King Features shows a clip from the comic strip \u201cBaby Blues\u201d by Rick Kirkman and Jerry Scott. More than 70 comic strips and panels will each have symbols hidden in their artwork to honor workers on the frontlines of the coronavirus pandemic.\n\nNEW YORK (AP) \u2014 The funny papers t",
     "ART OF GRATITUDE | An image released by King Features shows a clip from the comic strip \u201cBaby Blues\u201d by Rick Kirkman and Jerry Scott. More than 70 comic strips and panels will each have symbols hidden in their artwork to honor workers on the front lines of the coronavirus pandemic. \u2014AP\n\nNEW YORK\u2014The",
     "A century ago, artist and illustrator Jimmy Bancks introduced Australia to an enduring character \u2013 Ginger Meggs, the larrikin schoolboy with the shock of red hair.Created by illustrator Jimmy Bancks in 1921, Ginger Meggs has featured in newspaper comic strips in Australia and around the world ever s",
-    "Ginger Meggs is a much-beloved comic strip in Australia and 33 other countries. In fact, it\u2019s been running in newspapers Down Under since the early 1920s.\n\nSo, it wasn\u2019t a stretch when a clever editor at The Advertiser in Adelaide, Australia used the strip\u2019s title to describe the engagement of a red",
+    "This image released by King Features shows a clip from the comic strip \u201cBaby Blues\u201d by Rick Kirkman and Jerry Scott. More than 70 comic strips and panels will each have symbols hidden in their artwork to honor workers on the frontlines of the coronavirus pandemic.\n\nNEW YORK (AP) \u2014 The funny papers t",
     "Ginger Meggs, the famous comic strip character, first appeared on 13th November, 1921. Created by Jimmy Bancks, Meggs has had a profound effect on Australian society over the last century, with a multitude of books, plays, songs, films, postage stamps and coins produced to celebrate his status. Ther",
-    "Taking their name from a reference to the Ginger Meggs comic strip, Melbourne band Dear Enemy formed ranks in 1982. Their original lineup comprised vocalist Ron Martini, guitarists Chris Langford and Les Barker, keyboardist Martin Fisher (ex-Little Heroes), bassist Peter Leslie (ex-Little Heroes) an",
+    "July is already upon us, and as anticipated, we have an exceptional range of new coin releases to showcase this month.\n\nThe 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the S",
     "an enduring character \u2013 Ginger Meggs, the larrikin schoolboy with the shock of red hair.\n\nCreated by illustrator Jimmy Bancks in 1921, Ginger Meggs has featured in newspaper comic strips in Australia and around the world ever since. Ginger Meggs is now produced by cartoonist Jason Chatfield.\n\nHe soo",
-    "This image released by King Features shows artwork from the comic strip \"Rhymes With Orange\" by Hilary B. Price. More than 70 comic strips and panels will each have symbols hidden in the artwork to honor workers on the frontlines of the coronavirus pandemic. (King Features via AP)\n\nNEW YORK \u2014 The fu",
-    "The 90th anniversary of the creation of Ginger Meggs, Australia\u2019s longest running comic strip, is celebrated. Created by Jimmy Bancks, the comic strip was first introduced in the Sydney Sunday Sun newspaper called Us Fellers on the 13 November 1921. The coin\u2019s coloured reverse depicts Ginger Meggs r"
+    "by Vanessa M (subscribe)\nI am always looking out for new experiences, wherever I may find myself.\nPublished March 5th 2015\nEver heard of Ginger Meggs? You probably have if you read the Daily Telegraph, in particular the comic strips. He's that red-headed kid who's always getting up to mischief.\n\nThe",
+    "Ginger Meggs is a much-beloved comic strip in Australia and 33 other countries. In fact, it\u2019s been running in newspapers Down Under since the early 1920s.\n\nSo, it wasn\u2019t a stretch when a clever editor at The Advertiser in Adelaide, Australia used the strip\u2019s title to describe the engagement of a red",
+    "Taking their name from a reference to the Ginger Meggs comic strip, Melbourne band Dear Enemy formed ranks in 1982. Their original lineup comprised vocalist Ron Martini, guitarists Chris Langford and Les Barker, keyboardist Martin Fisher (ex-Little Heroes), bassist Peter Leslie (ex-Little Heroes) an",
+    "This image released by King Features shows artwork from the comic strip \"Rhymes With Orange\" by Hilary B. Price. More than 70 comic strips and panels will each have symbols hidden in the artwork to honor workers on the frontlines of the coronavirus pandemic. (King Features via AP)\n\nNEW YORK \u2014 The fu"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1574,6 +1574,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1587,14 +1599,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1624,12 +1635,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -1644,17 +1655,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1694,6 +1694,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1714,17 +1725,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1762,17 +1762,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -1795,12 +1784,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1817,67 +1806,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1971,45 +1905,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -2070,6 +2026,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -2114,23 +2136,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -2188,28 +2210,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -2425,7 +2425,7 @@
   ]
  },
  "reportName": "Jason Chatfield",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2443,13 +2443,13 @@
     "longformHits": 241,
     "longformRatio": 0.288,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 187,
      "laion1b-nolang": 78,
      "laion2b-en": 241,
      "laion2b-multi": 91,
      "obelics": 237,
-     "pile": 1,
-     "c4-en": 3
+     "pile": 1
     },
     "reason": null
    },
@@ -2461,12 +2461,12 @@
     "longformHits": 116,
     "longformRatio": 0.419,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 42,
      "laion1b-nolang": 28,
      "laion2b-en": 80,
      "laion2b-multi": 11,
-     "obelics": 114,
-     "c4-en": 2
+     "obelics": 114
     },
     "reason": null
    }
@@ -2482,16 +2482,16 @@
   },
   "evidenceShown": 80,
   "evidenceWithheld": {
-   "merchandise": 71,
+   "unverified": 706,
+   "merchandise": 72,
    "person_photo": 109,
-   "unverified": 711,
    "not_flat_art": 50,
-   "unrelated": 8,
-   "storefront": 47,
+   "storefront": 53,
+   "unrelated": 7,
    "derivative": 2,
    "explicit": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "jason-chatfield",
  "cohort": "early-adopter",

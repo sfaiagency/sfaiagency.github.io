@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,34 +898,6 @@
    "totalIncludingLowConfidence": 1043,
    "rows": [
     {
-     "text": "Today on Marmaduke - Comics by Brad Anderson Great Dane Funny, Great Dane Rescue, Great Dane Dogs, I Love Dogs, Big Dogs, Funny Dog Jokes, Funny Cartoons, Dog Quotes, Animal Quotes",
-     "imageUrl": "https://i.pinimg.com/236x/cf/59/1b/cf591b2c7d119b51234d9652fb21aef7--funny-cartoons-comics.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke by Brad Anderson for Mar 22, 2018 Funny",
-     "imageUrl": "https://i.pinimg.com/originals/e2/ac/e3/e2ace394d94905adddbc79c9f4495515.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Marmaduke by Brad Anderson on Mon, 03 May 2021",
      "imageUrl": "https://assets.amuniversal.com/b3527c90891501395ab9005056a9545d",
      "keyword": "marmaduke",
@@ -940,8 +912,8 @@
      }
     },
     {
-     "text": "Photo of MARMADUKE GOES TO HOLLAND written by Chapman, Elizabeth illustrated by Williams, Eccles published by Brockhampton Press (STOCK CODE: 823987) for sale by Stella & Rose's Books",
-     "imageUrl": "https://stellabooks.com/storage/images/stock/823/823987.JPG",
+     "text": "Today on Marmaduke - Comics by Brad Anderson Great Dane Funny, Great Dane Rescue, Great Dane Dogs, I Love Dogs, Big Dogs, Funny Dog Jokes, Funny Cartoons, Dog Quotes, Animal Quotes",
+     "imageUrl": "https://i.pinimg.com/236x/cf/59/1b/cf591b2c7d119b51234d9652fb21aef7--funny-cartoons-comics.jpg",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -954,8 +926,8 @@
      }
     },
     {
-     "text": "Marmaduke by Brad Anderson on Tue, 04 May 2021",
-     "imageUrl": "https://assets.amuniversal.com/b558d430891501395ab9005056a9545d",
+     "text": "Marmaduke by Brad Anderson on Mon, 26 Apr 2021",
+     "imageUrl": "https://assets.amuniversal.com/6d8413e0839501395921005056a9545d",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -996,8 +968,8 @@
      }
     },
     {
-     "text": "\"Marmaduke\" Drawing Signed by Brad Anderson.",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/38443/33001451_1m.jpg?v=8D6D0B52388CDD0",
+     "text": "Photo of MARMADUKE GOES TO HOLLAND written by Chapman, Elizabeth illustrated by Williams, Eccles published by Brockhampton Press (STOCK CODE: 823987) for sale by Stella & Rose's Books",
+     "imageUrl": "https://stellabooks.com/storage/images/stock/823/823987.JPG",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1010,22 +982,8 @@
      }
     },
     {
-     "text": "Marmaduke by Brad Anderson on Sun, 18 Oct 2020",
-     "imageUrl": "https://assets.amuniversal.com/c51ac380d522013821c4005056a9545d",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke by Brad Anderson on Wed, 28 Apr 2021",
-     "imageUrl": "https://assets.amuniversal.com/72760560839501395921005056a9545d",
+     "text": "Marmaduke by Brad Anderson on Tue, 04 May 2021",
+     "imageUrl": "https://assets.amuniversal.com/b558d430891501395ab9005056a9545d",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1066,36 +1024,8 @@
      }
     },
     {
-     "text": "Marmaduke by Brad Anderson on Mon, 26 Apr 2021",
-     "imageUrl": "https://assets.amuniversal.com/6d8413e0839501395921005056a9545d",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke by Brad Anderson on Wed, 05 May 2021",
-     "imageUrl": "https://assets.amuniversal.com/b7ec2df0891501395ab9005056a9545d",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke by Brad Anderson on Mon, 10 May 2021",
-     "imageUrl": "https://assets.amuniversal.com/d96b6ec08e9501395c32005056a9545d",
+     "text": "\"Marmaduke\" Drawing Signed by Brad Anderson.",
+     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/38443/33001451_1m.jpg?v=8D6D0B52388CDD0",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1110,20 +1040,6 @@
     {
      "text": "Egyptian Faience Necklace at the Kelsey Museum of Archaeology, drawn by Ellyn Marmaduke",
      "imageUrl": "https://dearbornjewelers.com/wp-content/uploads/2016/09/BlogArt1-300x232.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke by Brad Anderson for September 2012 - GoComics Dog Comics, Read Comics, Dog Cartoons, Cartoon Dog, Animals And Pets, Funny Animals, Great Dane Funny, Funny Animal Pictures, Funny Pics",
-     "imageUrl": "https://i.pinimg.com/236x/34/5c/75/345c753c3cccf3da6df41ed64c668375.jpg",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1164,8 +1080,8 @@
      }
     },
     {
-     "text": "Marmaduke by Brad Anderson on Mon, 19 Apr 2021",
-     "imageUrl": "https://assets.amuniversal.com/38cdb2f07e15013957a0005056a9545d",
+     "text": "Marmaduke by Brad Anderson for April 26, 2015 Marmaduke",
+     "imageUrl": "https://i.pinimg.com/originals/b3/cb/e6/b3cbe615eef6cec855a19fe2ac3526ff.jpg",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1192,22 +1108,8 @@
      }
     },
     {
-     "text": "Marmaduke by Brad Anderson for April 26, 2015 Marmaduke",
-     "imageUrl": "https://i.pinimg.com/originals/b3/cb/e6/b3cbe615eef6cec855a19fe2ac3526ff.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke by Brad Anderson for August 04, 2013 Animal",
-     "imageUrl": "https://i.pinimg.com/originals/12/ca/b6/12cab68fa68ef36861826624edd22edf.jpg",
+     "text": "Marmaduke by Brad Anderson on Mon, 19 Apr 2021",
+     "imageUrl": "https://assets.amuniversal.com/38cdb2f07e15013957a0005056a9545d",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1248,6 +1150,118 @@
      }
     },
     {
+     "text": "Marmaduke by Brad Anderson for Mar 22, 2018 Funny",
+     "imageUrl": "https://i.pinimg.com/originals/e2/ac/e3/e2ace394d94905adddbc79c9f4495515.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today on Marmaduke - Comics by Brad Anderson Funny Dog Jokes, Dog Memes, Funny Dogs, Dog Humor, Dog Comics, Funny Comics, Dog Quotes, Animal Quotes, Great Dane Dogs",
+     "imageUrl": "https://i.pinimg.com/236x/53/b9/b6/53b9b6551d21ae633c2bba99abf3b042--political-cartoons-april-showers.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke by Brad Anderson on Wed, 28 Apr 2021",
+     "imageUrl": "https://assets.amuniversal.com/72760560839501395921005056a9545d",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke by Brad Anderson on Sun, 18 Oct 2020",
+     "imageUrl": "https://assets.amuniversal.com/c51ac380d522013821c4005056a9545d",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke by Brad Anderson on Wed, 05 May 2021",
+     "imageUrl": "https://assets.amuniversal.com/b7ec2df0891501395ab9005056a9545d",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke by Brad Anderson on Mon, 10 May 2021",
+     "imageUrl": "https://assets.amuniversal.com/d96b6ec08e9501395c32005056a9545d",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke by Brad Anderson for September 2012 - GoComics Dog Comics, Read Comics, Dog Cartoons, Cartoon Dog, Animals And Pets, Funny Animals, Great Dane Funny, Funny Animal Pictures, Funny Pics",
+     "imageUrl": "https://i.pinimg.com/236x/34/5c/75/345c753c3cccf3da6df41ed64c668375.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke by Brad Anderson for August 04, 2013 Animal",
+     "imageUrl": "https://i.pinimg.com/originals/12/ca/b6/12cab68fa68ef36861826624edd22edf.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Marmaduke by Brad Anderson on Wed, 21 Apr 2021",
      "imageUrl": "https://assets.amuniversal.com/3d3bb8f07e15013957a0005056a9545d",
      "keyword": "marmaduke",
@@ -1264,20 +1278,6 @@
     {
      "text": "Marmaduke - Lets Loose by Brad Anderson",
      "imageUrl": "https://cdn.shopify.com/s/files/1/0023/2695/4036/products/1250324f_0ade7f36-2003-4277-bdb6-ba8868263208_300x300.jpg?v=1602211721",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Today on Marmaduke - Comics by Brad Anderson Funny Dog Jokes, Dog Memes, Funny Dogs, Dog Humor, Dog Comics, Funny Comics, Dog Quotes, Animal Quotes, Great Dane Dogs",
-     "imageUrl": "https://i.pinimg.com/236x/53/b9/b6/53b9b6551d21ae633c2bba99abf3b042--political-cartoons-april-showers.jpg",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1318,8 +1318,8 @@
      }
     },
     {
-     "text": "Marmaduke by Brad Anderson on Tue, 27 Apr 2021",
-     "imageUrl": "https://assets.amuniversal.com/6fd14650839501395921005056a9545d",
+     "text": "Screenshot of the How Hoosier Are You? quiz showing question: Which cartoon character was first drawn in Indiana? Dilbert, Marmaduke, Garfield or Charlie Brown",
+     "imageUrl": "https://cdn.aaslh.org/wp-content/uploads/sites/23/2014/12/How-Hoosier-Are-You-450x429.jpg",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1332,8 +1332,8 @@
      }
     },
     {
-     "text": "Screenshot of the How Hoosier Are You? quiz showing question: Which cartoon character was first drawn in Indiana? Dilbert, Marmaduke, Garfield or Charlie Brown",
-     "imageUrl": "https://cdn.aaslh.org/wp-content/uploads/sites/23/2014/12/How-Hoosier-Are-You-450x429.jpg",
+     "text": "Marmaduke by Brad Anderson on Tue, 27 Apr 2021",
+     "imageUrl": "https://assets.amuniversal.com/6fd14650839501395921005056a9545d",
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": null,
@@ -1361,16 +1361,16 @@
     }
    ],
    "samples": [
-    "Today on Marmaduke - Comics by Brad Anderson Great Dane Funny, Great Dane Rescue, Great Dane Dogs, I Love Dogs, Big Dogs, Funny Dog Jokes, Funny Cartoons, Dog Quotes, Animal Quotes",
-    "Marmaduke by Brad Anderson for Mar 22, 2018 Funny",
     "Marmaduke by Brad Anderson on Mon, 03 May 2021",
-    "Photo of MARMADUKE GOES TO HOLLAND written by Chapman, Elizabeth illustrated by Williams, Eccles published by Brockhampton Press (STOCK CODE: 823987) for sale by Stella & Rose's Books",
-    "Marmaduke by Brad Anderson on Tue, 04 May 2021",
+    "Today on Marmaduke - Comics by Brad Anderson Great Dane Funny, Great Dane Rescue, Great Dane Dogs, I Love Dogs, Big Dogs, Funny Dog Jokes, Funny Cartoons, Dog Quotes, Animal Quotes",
+    "Marmaduke by Brad Anderson on Mon, 26 Apr 2021",
     "Marmaduke Comic Strip, June 2014 on Funny Dog Jokes, Funny Cartoons, Funny Dogs, Hilarious, Doggies, Pet Dogs, Dog Cat, Pets, Animal Humour",
     "Marmaduke by Brad Anderson for March 04, 2018 (With images",
-    "\"Marmaduke\" Drawing Signed by Brad Anderson.",
-    "Marmaduke by Brad Anderson on Sun, 18 Oct 2020",
-    "Marmaduke by Brad Anderson on Wed, 28 Apr 2021"
+    "Photo of MARMADUKE GOES TO HOLLAND written by Chapman, Elizabeth illustrated by Williams, Eccles published by Brockhampton Press (STOCK CODE: 823987) for sale by Stella & Rose's Books",
+    "Marmaduke by Brad Anderson on Tue, 04 May 2021",
+    "Marmaduke by Brad Anderson on Sat, 24 Apr 2021",
+    "Marmaduke by Brad Anderson on Sat, 17 Apr 2021",
+    "\"Marmaduke\" Drawing Signed by Brad Anderson."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1438,20 +1438,6 @@
      }
     },
     {
-     "text": "Marmaduke: Master of the House ebook by Brad Anderson",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/d89df933-f51e-4cca-ad97-8c6386ee9261/180/1000/False/marmaduke-master-of-the-house.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": 0.0005998611450195312,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Cover of: Marmaduke by Brad Anderson",
      "imageUrl": "https://covers.openlibrary.org/b/id/6626760-M.jpg",
      "keyword": "marmaduke",
@@ -1466,11 +1452,11 @@
      }
     },
     {
-     "text": "Marmaduke Comic Strip for Sep/11/2014 on GoComics.com",
-     "imageUrl": "https://i.pinimg.com/236x/fd/59/a7/fd59a79185d85ab801a70f2582f4d542--september--big-guys.jpg",
+     "text": "Marmaduke: Master of the House ebook by Brad Anderson",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/d89df933-f51e-4cca-ad97-8c6386ee9261/180/1000/False/marmaduke-master-of-the-house.jpg",
      "keyword": "marmaduke",
      "tier": "high",
-     "punsafe": 0.0009408891201019287,
+     "punsafe": 0.0005998611450195312,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1536,11 +1522,11 @@
      }
     },
     {
-     "text": "Marmaduke Comic Strip, March 29, 2013 on GoComics.com",
-     "imageUrl": "https://i.pinimg.com/236x/03/46/7b/03467b10fe2e96e9307eec318964ea9e--comic-strips-dog-humor.jpg",
+     "text": "Marmaduke Comic Strip for Sep/11/2014 on GoComics.com",
+     "imageUrl": "https://i.pinimg.com/236x/fd/59/a7/fd59a79185d85ab801a70f2582f4d542--september--big-guys.jpg",
      "keyword": "marmaduke",
      "tier": "high",
-     "punsafe": 0.00010239192488370463,
+     "punsafe": 0.0009408891201019287,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1555,6 +1541,20 @@
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": 0.0029988884925842285,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke Comic Strip, March 29, 2013 on GoComics.com",
+     "imageUrl": "https://i.pinimg.com/236x/03/46/7b/03467b10fe2e96e9307eec318964ea9e--comic-strips-dog-humor.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": 0.00010239192488370463,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1606,6 +1606,20 @@
      }
     },
     {
+     "text": "Marmaduke Trailer Screencap",
+     "imageUrl": "http://cdn.traileraddict.com/content/ff/marmaduke-trailer.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": 6.690869486192241e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Marmaduke Mouse #51 (1955) comic book, Quality comics, G/VG condition",
      "imageUrl": "http://s.ecrater.com/stores/58616/4c10474d03299_58616f.jpg",
      "keyword": "marmaduke",
@@ -1625,20 +1639,6 @@
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": 0.0018967986106872559,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke Trailer Screencap",
-     "imageUrl": "http://cdn.traileraddict.com/content/ff/marmaduke-trailer.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": 6.690869486192241e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1676,6 +1676,20 @@
      }
     },
     {
+     "text": "Marmaduke: Walking Adventures ebook by Brad Anderson",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/db37f52c-74c8-4eb4-b6fb-6e18aa2b90bc/140/215/60/False/marmaduke-walking-adventures.jpg",
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": 1.736647573125083e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Ebook More about Marmaduke by Brad Anderson read!",
      "imageUrl": "https://images.gr-assets.com/books/1532290185l/18307991.jpg",
      "keyword": "marmaduke",
@@ -1695,20 +1709,6 @@
      "keyword": "marmaduke",
      "tier": "high",
      "punsafe": 0.00038629770278930664,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke: Walking Adventures ebook by Brad Anderson",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/db37f52c-74c8-4eb4-b6fb-6e18aa2b90bc/140/215/60/False/marmaduke-walking-adventures.jpg",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": 1.736647573125083e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1932,13 +1932,13 @@
     "Marmaduke on Sunday December 31, 2017 Comic Strip",
     "Marmaduke on Sunday November 24, 2019 Comic Strip",
     "Marmaduke Comic Strip, August 18, 2014 on GoComics.com",
-    "Marmaduke: Master of the House ebook by Brad Anderson",
     "Cover of: Marmaduke by Brad Anderson",
-    "Marmaduke Comic Strip for Sep/11/2014 on GoComics.com",
+    "Marmaduke: Master of the House ebook by Brad Anderson",
     "Marmaduke on Sunday November 25, 2018 Comic Strip",
     "Marmaduke on Sunday February 9, 2020 Comic Strip",
     "Screenshot of Lucia Heffernan's <em>Dog Gone Funny</em> on Art.com.",
-    "Marmaduke Comic Strip on GoComics.com 1814"
+    "Marmaduke Comic Strip on GoComics.com 1814",
+    "Marmaduke Comic Strip for Sep/11/2014 on GoComics.com"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2241,7 +2241,105 @@
    "totalIncludingLowConfidence": 9282,
    "rows": [
     {
+     "text": "Marmaduke is one of the most scatological films you\u2019re ever likely to see, and so it\u2019s fitting that it turns out to be an epic piece of shit.\n\nNew animated Netflix comedy Marmaduke, which comes courtesy of director Mark A.Z. Dipp\u00e9, is based on the long-running newspaper comic strip series from Brad ",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Jeffrey \"Jeff\" Albertson, better known as Comic Book Guy, is the overweight, geeky proprietor of the comic book store, The Android's Dungeon and Baseball Card Shop. Though thought to be an antagonist, he is sarcastic, surly, and insulting at certain points.\n\nComic Book Guy is a very obese, socially ",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "BURT WARD. Photograph signed: \"Burt Ward/'Robin'\". B/w, 10x8. Publicity still from the third season of the TV series, Batman (January 1966-March 1968). Captioned at lower margin: \"BATMAN - YEAR 3. THE LONDINIUM LARCENIES - Robin (Burt Ward) gets nabbed by Lady Peasoup (Glynnis Johns - right) and her",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "As a lyricist I write lyrics to songs, for others and for myself. Here you can read and hear some of the lyrics I wrote through the years.\n\nBefore you read the lyrics to Marmaduke, it\u2019s nice to know that Marmaduke is a cartoon figure in a newspaper comic strip drawn by Brad Anderson. The strip was c",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Purchase   DVD/Blu-ray/4K UHD\nBased on the long running newspaper comic strip of the same name \"Marmaduke\" came to the big screen as a live action/computer animated film in the summer of 2010. Surrounding the story of a Great Dane named Marmaduke and the antics of dealing with his size and less than",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dragon Tales S02E12 Have No Fear\n\nA total of forty episodes were aired in the first season, with the finale airing on April 28, The show's second season premiered on June 4, and had 25 episodes.\n\nThe special \"Let's Start a Band! Following this, no new episodes were aired until February 21, , leading",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Little is known about the creator of the The Perry Bible Fellowship, a \u201ccomic strip\u201d that has developed an obsessive, and some say, fanatical, following. LAB decided it was time to do some investigation into this highly-addictive \u201cstrip\u201d and its creator. Preliminary studies shows that consumption of",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Also released this week, poorly reviewed family movie \u201cMarmaduke\u201d took advantage of the dearth of competition in the kiddie genre to slide into the number two spot on the sale\u2019s chart. Based on a long running comic strip, the talking dog film was the fourth most rented disc last week.\n\nWith the fall",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2283,35 +2381,7 @@
      }
     },
     {
-     "text": "BURT WARD. Photograph signed: \"Burt Ward/'Robin'\". B/w, 10x8. Publicity still from the third season of the TV series, Batman (January 1966-March 1968). Captioned at lower margin: \"BATMAN - YEAR 3. THE LONDINIUM LARCENIES - Robin (Burt Ward) gets nabbed by Lady Peasoup (Glynnis Johns - right) and her",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "When I was a kid, the comics page was my entry point into being a newspaper reader. There was a mini-renaissance going on thanks to The Far Side, Calvin & Hobbes and Bloom County. Plus, Garfield was still in its first decade of lasagna-loving and Monday-hating.\n\nI loved checking out the comics page ",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "As a lyricist I write lyrics to songs, for others and for myself. Here you can read and hear some of the lyrics I wrote through the years.\n\nBefore you read the lyrics to Marmaduke, it\u2019s nice to know that Marmaduke is a cartoon figure in a newspaper comic strip drawn by Brad Anderson. The strip was c",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2353,34 +2423,6 @@
      }
     },
     {
-     "text": "Marmaduke is one of the most scatological films you\u2019re ever likely to see, and so it\u2019s fitting that it turns out to be an epic piece of shit.\n\nNew animated Netflix comedy Marmaduke, which comes courtesy of director Mark A.Z. Dipp\u00e9, is based on the long-running newspaper comic strip series from Brad ",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Purchase   DVD/Blu-ray/4K UHD\nBased on the long running newspaper comic strip of the same name \"Marmaduke\" came to the big screen as a live action/computer animated film in the summer of 2010. Surrounding the story of a Great Dane named Marmaduke and the antics of dealing with his size and less than",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Now, Marmaduke is no Dark Knight, but let\u2019s be real, filmmaker Tom Dey (Failure to Launch, Shanghai Noon) is making an entirely different film. Given the track record of comic strips to film, (Garfield anyone?) Marmaduke hits a home run. Marmaduke will delight the kids while simultaneously entertain",
      "imageUrl": null,
      "keyword": "marmaduke",
@@ -2396,48 +2438,6 @@
     },
     {
      "text": "Marmaduke is the perfect family comedy and considering it is based on the legendary comic strip, that fact should not be surprising. Yet, it is, because so many efforts to bring comics, whether graphic novels or comic strips, to the big screen are frankly terrible.",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Little is known about the creator of the The Perry Bible Fellowship, a \u201ccomic strip\u201d that has developed an obsessive, and some say, fanatical, following. LAB decided it was time to do some investigation into this highly-addictive \u201cstrip\u201d and its creator. Preliminary studies shows that consumption of",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dragon Tales S02E12 Have No Fear\n\nA total of forty episodes were aired in the first season, with the finale airing on April 28, The show's second season premiered on June 4, and had 25 episodes.\n\nThe special \"Let's Start a Band! Following this, no new episodes were aired until February 21, , leading",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Also released this week, poorly reviewed family movie \u201cMarmaduke\u201d took advantage of the dearth of competition in the kiddie genre to slide into the number two spot on the sale\u2019s chart. Based on a long running comic strip, the talking dog film was the fourth most rented disc last week.\n\nWith the fall",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2479,6 +2479,76 @@
      }
     },
     {
+     "text": "This was the second year the event has taken place and was made possible by a grant from Cheshire West and Chester Council.\n\nEarlier in the day a 17th Century plague doctor and an entourage of soldiers posed for photos by Chester Cross, before both armies marched through the city with drums beating,",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A new animated adaptation of the eponymous MARMADUKE comic strip which currently appears in more than 660 newspapers, in over twenty countries.\n\nMARMADUKE epitomizes the overgrown lapdog, with an irascible streak and a penchant for mischief that is tempered with a deep sense of love and responsibili",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke Snoopy wasn t the only famous canine comic strip character rolled out in the s. America first met this lovable, messy Great Dane in , and creator Brad Anderson produced the strip until his in . His son Paul still draws new strips, which remain in wide syndication..The following is a list o",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Heathcliff Play by Play book. Details (if other): Cancel.\n\nHeathcliff is a 30-minute Saturday morning animated series based on the Heathcliff comic strip created by George Gately and produced by Ruby-Spears Productions. It premiered on ABC on October 4, 1980, with a total of 26 episodes produced und",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photographed By Duane Hall, October 14, 2016\n3. The Battle of Hartville Marker\nRight Panel\nA Stubborn, Sullen, Bloody Fight\nand his men.\n\nI think I may safely state that the object of the expedition was fully accomplished, and more. [The] Army of the Frontier countermarched rapidly to save Springfie",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Lord Snooty is one of the most famous characters from the Beano, first appearing in the first issue, dated 30th July 1938, and drawn by Dudley D. Watkins.\n\nThe central character was Lord Marmaduke of Bunkerton, but known to his friends as Snooty. The original premise was quite simple and conventiona",
      "imageUrl": null,
      "keyword": "marmaduke",
@@ -2493,7 +2563,7 @@
      }
     },
     {
-     "text": "Marmaduke, the world's most lovable Great Dane, leaps from comic strip fame (appearing in 600 newspapers in over 20 countries) to big screen stardom in this family comedy event. A suburban family moves to a new neighborhood in Orange County, California with their large yet lovable Great Dane, who ha",
+     "text": "After over half a century of poorly drawn and unfunny comic strips, Marmaduke gets retooled into a poorly made and unfunny movie.  The Marmaduke comic began wasting ink and space in newspapers around the world in 1954 and there had been numerous attempts by producers throughout the years to option i",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2521,7 +2591,7 @@
      }
     },
     {
-     "text": "After over half a century of poorly drawn and unfunny comic strips, Marmaduke gets retooled into a poorly made and unfunny movie.  The Marmaduke comic began wasting ink and space in newspapers around the world in 1954 and there had been numerous attempts by producers throughout the years to option i",
+     "text": "Marmaduke, the world's most lovable Great Dane, leaps from comic strip fame (appearing in 600 newspapers in over 20 countries) to big screen stardom in this family comedy event. A suburban family moves to a new neighborhood in Orange County, California with their large yet lovable Great Dane, who ha",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2563,35 +2633,7 @@
      }
     },
     {
-     "text": "Marmaduke Snoopy wasn t the only famous canine comic strip character rolled out in the s. America first met this lovable, messy Great Dane in , and creator Brad Anderson produced the strip until his in . His son Paul still draws new strips, which remain in wide syndication..The following is a list o",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "This was the second year the event has taken place and was made possible by a grant from Cheshire West and Chester Council.\n\nEarlier in the day a 17th Century plague doctor and an entourage of soldiers posed for photos by Chester Cross, before both armies marched through the city with drums beating,",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A new animated adaptation of the eponymous MARMADUKE comic strip which currently appears in more than 660 newspapers, in over twenty countries.\n\nMARMADUKE epitomizes the overgrown lapdog, with an irascible streak and a penchant for mischief that is tempered with a deep sense of love and responsibili",
+     "text": "CBS is developing a series based on a comic book\n\nCBS is turning to the world of comics for a new comedy series. jump startthe long-running strip of Rob Armstrong about a black family living in Philadelphia, is being adapted to series on the network as a multi-camera comedy starring Wayne Conley (Th",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2619,21 +2661,7 @@
      }
     },
     {
-     "text": "CBS is developing a series based on a comic book\n\nCBS is turning to the world of comics for a new comedy series. jump startthe long-running strip of Rob Armstrong about a black family living in Philadelphia, is being adapted to series on the network as a multi-camera comedy starring Wayne Conley (Th",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Heathcliff Play by Play book. Details (if other): Cancel.\n\nHeathcliff is a 30-minute Saturday morning animated series based on the Heathcliff comic strip created by George Gately and produced by Ruby-Spears Productions. It premiered on ABC on October 4, 1980, with a total of 26 episodes produced und",
+     "text": "While the Marmaduke comic strip series portrays the Great Dane as a lovable galoot who always means well, insurance companies are aware of the actual truth behind the matter. Some owners are able to limit their level of aggressive by giving them the proper training during the early stages of their l",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2661,35 +2689,63 @@
      }
     },
     {
-     "text": "Photographed By Duane Hall, October 14, 2016\n3. The Battle of Hartville Marker\nRight Panel\nA Stubborn, Sullen, Bloody Fight\nand his men.\n\nI think I may safely state that the object of the expedition was fully accomplished, and more. [The] Army of the Frontier countermarched rapidly to save Springfie",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "While the Marmaduke comic strip series portrays the Great Dane as a lovable galoot who always means well, insurance companies are aware of the actual truth behind the matter. Some owners are able to limit their level of aggressive by giving them the proper training during the early stages of their l",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Based on the eponymous classic comic strip, Marmaduke tells the story of a ludicrously large lapdog who often finds himself in trouble of his own making. The plot of this computer-animated feature revolves around Marmaduke's unlikely entanglements in the elite world of competitive dog shows. While t",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "COLUMBUS, Ohio (AP) \u2013 In a 1970 Beetle Bailey comic strip, the character known as Sarge berates his uniform-wearing dog, Otto, for a paperwork mistake.\n\n\u201cWe can\u2019t all be Snoopy,\u201d a dejected Otto replies.\n\nThis confluence of two iconic comic strip dogs is on exhibit along with dozens of other images ",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Earlier this spring, composer Christopher Lennertz recorded his score to the new family comedy, Marmaduke. Directed by Tom Dey, and based on the classic comic strip by Brad Anderson, the film stars Owen Wilson as the voice of the Great Dane who makes the lives of the Wilson family a frequent series ",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "If you have some Marmaduke comic books lying around in pretty good condition, you may be wondering if they\u2019re worth anything. I\u2019ll tell you in today\u2019s article!\n\nIn today\u2019s article, I\u2019ll examine the history of Marmaduke and the value of the comics, so keep reading!\n\nWhat Are Marmaduke Comics?\n\nIf you",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photographed By O. C. Richardson, 1861\n5. Illustration on Battle of Boonville Marker\n[Caption reads] Battle of Boonville as sketched by O. C. Richardson, from Camp-Fire and Cotton-Field by Thomas W. Knox\nadvancing, were compelled to cross a stretch of open ground. A body of the enemy concealed in a ",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2731,20 +2787,6 @@
      }
     },
     {
-     "text": "Earlier this spring, composer Christopher Lennertz recorded his score to the new family comedy, Marmaduke. Directed by Tom Dey, and based on the classic comic strip by Brad Anderson, the film stars Owen Wilson as the voice of the Great Dane who makes the lives of the Wilson family a frequent series ",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "And I'm Tank McNamara with the Norts Spews [Jeff Millar, Bill Hinds] on *FREE* shipping on qualifying offers. This edit will also create new pages on Comic Vine for: Beware, you are proposing to add brand new pages to the wiki along with your edits. Make sure this is what you intended. Comic Book Pr",
      "imageUrl": null,
      "keyword": "marmaduke",
@@ -2759,49 +2801,7 @@
      }
     },
     {
-     "text": "COLUMBUS, Ohio (AP) \u2013 In a 1970 Beetle Bailey comic strip, the character known as Sarge berates his uniform-wearing dog, Otto, for a paperwork mistake.\n\n\u201cWe can\u2019t all be Snoopy,\u201d a dejected Otto replies.\n\nThis confluence of two iconic comic strip dogs is on exhibit along with dozens of other images ",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Lord Snooty is a fictional character in a comic strip in the UK comic The Beano, first appearing in issue 1, dated 30 July 1938, and was the longest running strip in the comic until Dennis the Menace and Gnasher overtook it. The central character was Lord Marmaduke of Bunkerton, known to his friends",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photographed By O. C. Richardson, 1861\n5. Illustration on Battle of Boonville Marker\n[Caption reads] Battle of Boonville as sketched by O. C. Richardson, from Camp-Fire and Cotton-Field by Thomas W. Knox\nadvancing, were compelled to cross a stretch of open ground. A body of the enemy concealed in a ",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "If you have some Marmaduke comic books lying around in pretty good condition, you may be wondering if they\u2019re worth anything. I\u2019ll tell you in today\u2019s article!\n\nIn today\u2019s article, I\u2019ll examine the history of Marmaduke and the value of the comics, so keep reading!\n\nWhat Are Marmaduke Comics?\n\nIf you",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2857,35 +2857,7 @@
      }
     },
     {
-     "text": "Someone today, who will not go named because she's applying for jobs and needs to preserve her reputation, told me that she likes the comic strip Marmaduke. Now, that's rather abhorrent on its own, as every Marmaduke strip boils down to \"Marmaduke is a big dog. Sometimes, he interacts with his owner",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "What Type of Dog Is Marmaduke?\n\nMarmaduke, the Winslow family dog in the comic strip that bears his name, is a Great Dane (just like Scooby Doo)!\n\nWhat Type of Dog Is Lady & Tramp?\n\nThis breed has historically been used as a sporting dog (cocker is thought to stem from the woodcock birds that the do",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marmaduke is an animated comedy film based on a comic strip by Brad Anderson. Marmaduke is about a Great Dane dog who is mischievous & messy. A dog trainer makes the team with Marmaduke to demonstrate that he can be the first Great Dane worthy of winning a distinguished dog show trophy.",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -2927,20 +2899,6 @@
      }
     },
     {
-     "text": "I really wanted to like this game more, as Heathcliff was a favourite cartoon character of mine as a kid. He was up there with Marmaduke, Garfield and more when I read the Sunday comics my dad gave me every weekend. Spot On runs with the old colouring/ activity book idea of \u2018spot the difference\u2019, an",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A comic strip is a sequence of drawings arranged in interrelated panels to display brief humor or form a narrative, often serialized, with text in balloons and captions. Traditionally, throughout the 20th century and into the 21st, these have been published in newspapers and magazines , with horizon",
      "imageUrl": null,
      "keyword": "marmaduke",
@@ -2956,20 +2914,6 @@
     },
     {
      "text": "Best known for starring in the Marmaduke comic strip, Pennsylvania besides chose the Great Dane to star as their example. Designated the country dog in 1965, these dogs can grow to about 30 inches grandiloquent !\n\nThe Boykin Spaniel was named the official submit cad of South Carolina in 1985. Origin",
-     "imageUrl": null,
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dawg, shown above in a classic Sunday page from 1965, is among the canines featured in a new exhibition. See the press release below.\n\n(Columbus, OH) \u2013 The Dog Show: Two Centuries of Canine Cartoons, an exhibition curated by comics historian Brian Walker, features over one hundred different characte",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -3025,7 +2969,7 @@
      }
     },
     {
-     "text": "Fox plans a Marmaduke feature, based on the newspaper strip, according to Hollywood Reporter.  Tom Dey (Shanghai Noon) will direct the film, which may be live action, animated, or a combination like the hugely successful Alvin and the Chipmunks.\n\nThe newspaper strip, drawn by Brad Anderson, has been",
+     "text": "Marmaduke is an animated adaptation of the eponymous and much-loved comic strip created by Brad Anderson in 1954. The comic strip remains popular decades after its debut and still features in over 600 newspapers in over twenty countries where audiences have grown to love the playful Great Dane Marma",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -3067,7 +3011,63 @@
      }
     },
     {
-     "text": "Marmaduke is an animated adaptation of the eponymous and much-loved comic strip created by Brad Anderson in 1954. The comic strip remains popular decades after its debut and still features in over 600 newspapers in over twenty countries where audiences have grown to love the playful Great Dane Marma",
+     "text": "Someone today, who will not go named because she's applying for jobs and needs to preserve her reputation, told me that she likes the comic strip Marmaduke. Now, that's rather abhorrent on its own, as every Marmaduke strip boils down to \"Marmaduke is a big dog. Sometimes, he interacts with his owner",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marmaduke is an animated comedy film based on a comic strip by Brad Anderson. Marmaduke is about a Great Dane dog who is mischievous & messy. A dog trainer makes the team with Marmaduke to demonstrate that he can be the first Great Dane worthy of winning a distinguished dog show trophy.",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I really wanted to like this game more, as Heathcliff was a favourite cartoon character of mine as a kid. He was up there with Marmaduke, Garfield and more when I read the Sunday comics my dad gave me every weekend. Spot On runs with the old colouring/ activity book idea of \u2018spot the difference\u2019, an",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dawg, shown above in a classic Sunday page from 1965, is among the canines featured in a new exhibition. See the press release below.\n\n(Columbus, OH) \u2013 The Dog Show: Two Centuries of Canine Cartoons, an exhibition curated by comics historian Brian Walker, features over one hundred different characte",
+     "imageUrl": null,
+     "keyword": "marmaduke",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Fox plans a Marmaduke feature, based on the newspaper strip, according to Hollywood Reporter.  Tom Dey (Shanghai Noon) will direct the film, which may be live action, animated, or a combination like the hugely successful Alvin and the Chipmunks.\n\nThe newspaper strip, drawn by Brad Anderson, has been",
      "imageUrl": null,
      "keyword": "marmaduke",
      "tier": "high",
@@ -3082,16 +3082,16 @@
     }
    ],
    "samples": [
-    "Jeffrey \"Jeff\" Albertson, better known as Comic Book Guy, is the overweight, geeky proprietor of the comic book store, The Android's Dungeon and Baseball Card Shop. Though thought to be an antagonist, he is sarcastic, surly, and insulting at certain points.\n\nComic Book Guy is a very obese, socially ",
-    "Published by Southdown Press Pty. Ltd. (of West Melbourne, Victoria, Australia), my copy of Special No. 4 isn\u2019t in the best shape \u2014 it\u2019s pretty brittle. I\u2019m not familiar with comic book grading scales, and this one might not fare so well. If it was an LP record it would be a cutout, with its corner ",
-    "United Media was a large editorial column and comic strip newspaper syndication service based in the United States, owned by the E. W. Scripps Company, that operated from 1978 to 2011. It syndicated 150 comics and editorial columns worldwide. Its core businesses were the United Feature Syndicate and",
-    "BURT WARD. Photograph signed: \"Burt Ward/'Robin'\". B/w, 10x8. Publicity still from the third season of the TV series, Batman (January 1966-March 1968). Captioned at lower margin: \"BATMAN - YEAR 3. THE LONDINIUM LARCENIES - Robin (Burt Ward) gets nabbed by Lady Peasoup (Glynnis Johns - right) and her",
-    "When I was a kid, the comics page was my entry point into being a newspaper reader. There was a mini-renaissance going on thanks to The Far Side, Calvin & Hobbes and Bloom County. Plus, Garfield was still in its first decade of lasagna-loving and Monday-hating.\n\nI loved checking out the comics page ",
-    "As a lyricist I write lyrics to songs, for others and for myself. Here you can read and hear some of the lyrics I wrote through the years.\n\nBefore you read the lyrics to Marmaduke, it\u2019s nice to know that Marmaduke is a cartoon figure in a newspaper comic strip drawn by Brad Anderson. The strip was c",
-    "COLUMBUS, Ohio \u2014 In a 1970 Beetle Bailey comic strip, the character known as Sarge berates his uniform-wearing dog, Otto, for a paperwork mistake.\n\n\u201cWe can\u2019t all be Snoopy,\u201d a dejected Otto replies.\n\nThis confluence of two iconic comic strip dogs is on exhibit along with dozens of other images at th",
-    "A new exhibit on dogs in cartoons and comic strips includes vinyl toys of Charlie Brown and Snoopy and Dennis the Menace and Ruff, from the private collection of exhibit curator Brian Walker, in a photo taken June 24 in Columbus, Ohio. The genesis for the exhibit, which runs through October, came wh",
     "Marmaduke is one of the most scatological films you\u2019re ever likely to see, and so it\u2019s fitting that it turns out to be an epic piece of shit.\n\nNew animated Netflix comedy Marmaduke, which comes courtesy of director Mark A.Z. Dipp\u00e9, is based on the long-running newspaper comic strip series from Brad ",
-    "Purchase   DVD/Blu-ray/4K UHD\nBased on the long running newspaper comic strip of the same name \"Marmaduke\" came to the big screen as a live action/computer animated film in the summer of 2010. Surrounding the story of a Great Dane named Marmaduke and the antics of dealing with his size and less than"
+    "Jeffrey \"Jeff\" Albertson, better known as Comic Book Guy, is the overweight, geeky proprietor of the comic book store, The Android's Dungeon and Baseball Card Shop. Though thought to be an antagonist, he is sarcastic, surly, and insulting at certain points.\n\nComic Book Guy is a very obese, socially ",
+    "BURT WARD. Photograph signed: \"Burt Ward/'Robin'\". B/w, 10x8. Publicity still from the third season of the TV series, Batman (January 1966-March 1968). Captioned at lower margin: \"BATMAN - YEAR 3. THE LONDINIUM LARCENIES - Robin (Burt Ward) gets nabbed by Lady Peasoup (Glynnis Johns - right) and her",
+    "As a lyricist I write lyrics to songs, for others and for myself. Here you can read and hear some of the lyrics I wrote through the years.\n\nBefore you read the lyrics to Marmaduke, it\u2019s nice to know that Marmaduke is a cartoon figure in a newspaper comic strip drawn by Brad Anderson. The strip was c",
+    "Purchase   DVD/Blu-ray/4K UHD\nBased on the long running newspaper comic strip of the same name \"Marmaduke\" came to the big screen as a live action/computer animated film in the summer of 2010. Surrounding the story of a Great Dane named Marmaduke and the antics of dealing with his size and less than",
+    "Dragon Tales S02E12 Have No Fear\n\nA total of forty episodes were aired in the first season, with the finale airing on April 28, The show's second season premiered on June 4, and had 25 episodes.\n\nThe special \"Let's Start a Band! Following this, no new episodes were aired until February 21, , leading",
+    "Little is known about the creator of the The Perry Bible Fellowship, a \u201ccomic strip\u201d that has developed an obsessive, and some say, fanatical, following. LAB decided it was time to do some investigation into this highly-addictive \u201cstrip\u201d and its creator. Preliminary studies shows that consumption of",
+    "Also released this week, poorly reviewed family movie \u201cMarmaduke\u201d took advantage of the dearth of competition in the kiddie genre to slide into the number two spot on the sale\u2019s chart. Based on a long running comic strip, the talking dog film was the fourth most rented disc last week.\n\nWith the fall",
+    "Published by Southdown Press Pty. Ltd. (of West Melbourne, Victoria, Australia), my copy of Special No. 4 isn\u2019t in the best shape \u2014 it\u2019s pretty brittle. I\u2019m not familiar with comic book grading scales, and this one might not fare so well. If it was an LP record it would be a cutout, with its corner ",
+    "United Media was a large editorial column and comic strip newspaper syndication service based in the United States, owned by the E. W. Scripps Company, that operated from 1978 to 2011. It syndicated 150 comics and editorial columns worldwide. Its core businesses were the United Feature Syndicate and"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -3199,13 +3199,13 @@
     "longformHits": 5331,
     "longformRatio": 0.444,
     "perDataset": {
+     "c4-en": 46,
      "coyo700m": 649,
      "laion1b-nolang": 2623,
      "laion2b-en": 2583,
      "laion2b-multi": 823,
      "obelics": 5235,
-     "pile": 50,
-     "c4-en": 46
+     "pile": 50
     },
     "reason": null
    },
@@ -3218,9 +3218,9 @@
     "longformRatio": 0.019,
     "perDataset": {
      "coyo700m": 38,
+     "laion1b-nolang": 64,
      "laion2b-en": 146,
      "laion2b-multi": 110,
-     "laion1b-nolang": 64,
      "obelics": 6,
      "pile": 1
     },
@@ -3249,13 +3249,13 @@
     "longformHits": 4068,
     "longformRatio": 0.68,
     "perDataset": {
+     "c4-en": 21,
      "coyo700m": 356,
      "laion1b-nolang": 390,
      "laion2b-en": 901,
      "laion2b-multi": 267,
      "obelics": 4038,
-     "pile": 9,
-     "c4-en": 21
+     "pile": 9
     },
     "reason": "common-name match"
    }
@@ -3271,15 +3271,15 @@
   },
   "evidenceShown": 148,
   "evidenceWithheld": {
-   "person_photo": 431,
-   "unverified": 4634,
-   "storefront": 107,
+   "unverified": 4618,
+   "storefront": 121,
    "merchandise": 180,
-   "unrelated": 71,
-   "derivative": 3,
-   "explicit": 13
+   "person_photo": 427,
+   "unrelated": 66,
+   "derivative": 8,
+   "explicit": 12
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-brad-anderson",
  "cohort": "billy-ireland",
@@ -3292,7 +3292,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 12493,
   "datasetsPresent": 7,

@@ -471,8 +471,8 @@
     "longformHits": 0,
     "longformRatio": 0.0,
     "perDataset": {
-     "laion2b-en": 1,
-     "laion1b-nolang": 1
+     "laion1b-nolang": 1,
+     "laion2b-en": 1
     },
     "reason": null
    }
@@ -490,7 +490,7 @@
   "evidenceWithheld": {
    "unverified": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-arthur-harold-lindberg",
  "cohort": "billy-ireland",
@@ -503,7 +503,7 @@
   "estimatedMonthlyUsers": 23780000,
   "estimatedTotalGenerations": 4756000000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 2,
   "datasetsPresent": 2,

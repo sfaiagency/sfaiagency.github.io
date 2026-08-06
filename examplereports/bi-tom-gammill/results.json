@@ -213,6 +213,17 @@
    ]
   },
   {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
    "name": "IDEFICS-9B-Instruct",
    "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
@@ -222,17 +233,6 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "PixArt-\u03b1",
-   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "Efficient transformer-based text-to-image model.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe"
    ]
   },
   {
@@ -1041,20 +1041,6 @@
    "totalIncludingLowConfidence": 78,
    "rows": [
     {
-     "text": "Members of the National Cartoonists Society should have received the official brochure for the 2017 Reuben Award Weekend in their mailboxes in the last few days (cover art by Tom Richmond shown). With it goes the announcement of the speaker lineup and special award winner:\n\n\u2022 Red and Rover cartoonis",
-     "imageUrl": null,
-     "keyword": "tom gammill",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Today on the site, Alex Dueben interviews Carlos Gimenez : on the occasion of the English language publication of his much-lauded graphic novel Paracuellos.\n\nYour art style in Paracuellos is different from your earlier comics. Did you change your style because that\u2019s what you thought the story neede",
      "imageUrl": null,
      "keyword": "tom gammill",
@@ -1112,7 +1098,6 @@
     }
    ],
    "samples": [
-    "Members of the National Cartoonists Society should have received the official brochure for the 2017 Reuben Award Weekend in their mailboxes in the last few days (cover art by Tom Richmond shown). With it goes the announcement of the speaker lineup and special award winner:\n\n\u2022 Red and Rover cartoonis",
     "Today on the site, Alex Dueben interviews Carlos Gimenez : on the occasion of the English language publication of his much-lauded graphic novel Paracuellos.\n\nYour art style in Paracuellos is different from your earlier comics. Did you change your style because that\u2019s what you thought the story neede",
     "Tom Gammill presents our curator Jenny Robb with one of the Ball Point bathing suits.\n\nGammill is a producer and comedy writer who has worked on many popular TV shows, including The Simpsons and Seinfeld.  He is also the creator of the comic strip, The Doozies.  He has made many generous donations t",
     "Mell Lazarus Given the NCS Medal of Honor\n\nOn January 23, the National Cartoonists Society awarded Mell Lazarus, cartoonist of the long-running comic strip Momma, with the NCS Medal of Honor in Los Angeles, California.\n\nThe Medal of Honor was created in 2015 to honor past Reuben Award winners with r",
@@ -1188,8 +1173,8 @@
     "longformRatio": 0.867,
     "perDataset": {
      "coyo700m": 2,
-     "laion2b-en": 6,
      "laion1b-nolang": 4,
+     "laion2b-en": 6,
      "obelics": 78
     },
     "reason": null
@@ -1204,15 +1189,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 8,
+  "evidenceShown": 7,
   "evidenceWithheld": {
    "unverified": 57,
-   "person_photo": 22,
+   "person_photo": 21,
    "derivative": 1,
+   "storefront": 2,
    "explicit": 1,
    "unrelated": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-tom-gammill",
  "cohort": "billy-ireland",
@@ -1225,7 +1211,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 90,
   "datasetsPresent": 4,

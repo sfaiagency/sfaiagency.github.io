@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -912,8 +912,8 @@
      }
     },
     {
-     "text": "A cover gallery for the comic book Betty and Me Archie Comics Characters, Archie Comic Books, Ghibli, Archie Comics Riverdale, Dan Decarlo, Archie And Betty, Betty And Veronica, Classic Comics, Vintage Comics",
-     "imageUrl": "https://i.pinimg.com/236x/4e/64/77/4e64776da6578903744c856b77bc01a1--archie-comics-comic-book.jpg",
+     "text": "Archie Publications: Veronica, Betty and Archie celebrate Christmas by hanging the decorations Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Archie Betty And Veronica, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Christmas Comics",
+     "imageUrl": "https://i.pinimg.com/236x/06/02/d7/0602d7c90eb6b9c58bfa846ebd8de2f1.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": null,
@@ -954,34 +954,6 @@
      }
     },
     {
-     "text": "Archie Publications: Veronica, Betty and Archie celebrate Christmas by hanging the decorations Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Archie Betty And Veronica, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Christmas Comics",
-     "imageUrl": "https://i.pinimg.com/236x/06/02/d7/0602d7c90eb6b9c58bfa846ebd8de2f1.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie Publications: Veronica Lodge and Betty Cooper discuss working clothes Archie Comics Veronica, Archie Betty And Veronica, Archie Comics Characters, Comic Book Characters, Comic Books, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Josie And The Pussycats",
-     "imageUrl": "https://i.pinimg.com/236x/9d/fd/e6/9dfde655a0683a466864bde452eaef5f--archie-comics-comic-books.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Betty Cooper and Veronica Lodge from Archie Comics Archie Comics Riverdale, Bulldogs, Archie Betty And Veronica, Archie Comic Books, Dan Decarlo, Josie And The Pussycats, Ligne Claire, Comic Panels, Fandoms",
      "imageUrl": "https://i.pinimg.com/236x/b4/b4/35/b4b4357d9da207a9fce40adbcfd28371--betty-and-veronica-archie-comics-funny.jpg",
      "keyword": "dan decarlo",
@@ -1010,6 +982,62 @@
      }
     },
     {
+     "text": "A cover gallery for the comic book Cheryl Blossom Archie Comics Riverdale, Archie Comic Books, Comic Book Characters, Old Comics, Vintage Comics, Cheryl Blossom Archie Comics, Dan Decarlo, Archie And Betty, Betty & Veronica",
+     "imageUrl": "https://i.pinimg.com/236x/1f/0a/f8/1f0af8917be86bb4b7e1835e8e2b3927--archie-comics-comic-books.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jughead (1949 1st Series) 202 Archie Comic Books, Comic Book Characters, Comic Book Heroes, Comic Books Art, Jughead Comics, Archie Jughead, Archie Comics Riverdale, Dan Decarlo, Archie And Betty",
+     "imageUrl": "https://i.pinimg.com/236x/76/fa/0e/76fa0e88674f32ff81b59895e0f66329--cover-art-series.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Panel from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.",
+     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer03b.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
+     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer04.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "i wanted to practice drawing different styles maybe pick up some new tricks. i always loved dan decarlo, the definitive archie artist. his style looks pretty simple, but i found it difficult to ada. Archie Comic Books, Vintage Comic Books, Vintage Cartoon, Vintage Comics, Comic Books Art, Comic Art,",
      "imageUrl": "https://i.pinimg.com/236x/48/f9/40/48f940cb95c625d3f1292f9d217dd945--betty-and-veronica-comic-babes.jpg",
      "keyword": "dan decarlo",
@@ -1024,8 +1052,120 @@
      }
     },
     {
-     "text": "A cover gallery for the comic book Cheryl Blossom Archie Comics Riverdale, Archie Comic Books, Comic Book Characters, Old Comics, Vintage Comics, Cheryl Blossom Archie Comics, Dan Decarlo, Archie And Betty, Betty & Veronica",
-     "imageUrl": "https://i.pinimg.com/236x/1f/0a/f8/1f0af8917be86bb4b7e1835e8e2b3927--archie-comics-comic-books.jpg",
+     "text": "Archie Andrews & Betty Cooper (and Dan DeCarlo, the best Archie artist ever). I just adore Betty! Archie Und Betty, Archie Comics Betty, Archie Betty And Veronica, Archie Comics Characters, Comics Und Cartoons, Archie Comic Books, Comic Books Art, Comic Art, Archie Cartoon",
+     "imageUrl": "https://i.pinimg.com/236x/11/ce/ab/11ceabe36ec22a959a8190cf33635e0a--classic-comics-classic-cartoons.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover of Homer, The Happy Ghost #1 (November 1969), art by Dan DeCarlo",
+     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer01.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From Millie the Model #60 cover by Dan DeCarlo",
+     "imageUrl": "http://www.lastkisscomics.com/blog/wp-content/uploads/2013/06/MillieTheModel60Detail.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This time we have another MY FRIEND IRMA comic book. Stan Lee took credit for the writing and Dan DeCarlo drew the picture. Art Pop, Pop Art Girl, Up Girl, Pop Art Vintage, Vintage Kiss, Retro Vintage, Comic Books Art, Comic Art, Book Art",
+     "imageUrl": "https://i.pinimg.com/236x/26/fc/ce/26fccee196e80d17f77284fbe6c6bdd2.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I& a great admirer of Dan DeCarlo& work, and Archie comics take me back to the good ol& days like nothing else can. Comics Vintage, Vintage Comic Books, Vintage Cartoon, Cartoon Art, Archie Comic Books, Comic Books Art, Archie Comics Veronica, Comic Font, Jordi Bernet",
+     "imageUrl": "https://i.pinimg.com/236x/72/c6/19/72c6195be93aa8c092f9e0b9509511af--archie-comics-magazine-art.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A cover gallery for the comic book Betty and Me Archie Comics Characters, Archie Comic Books, Ghibli, Archie Comics Riverdale, Dan Decarlo, Archie And Betty, Betty And Veronica, Classic Comics, Vintage Comics",
+     "imageUrl": "https://i.pinimg.com/236x/4e/64/77/4e64776da6578903744c856b77bc01a1--archie-comics-comic-book.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Veronica Lodge amd Betty Cooper from Archie Comics Vintage Cartoon, Vintage Comics, Cartoon Art, Archie Cartoon, Archie Comics Characters, Archie Comic Books, Archie Betty And Veronica, Dan Decarlo, Josie And The Pussycats",
+     "imageUrl": "https://i.pinimg.com/236x/5b/fd/f6/5bfdf6818790d621eca5dcd8647c24ed--betty-and-veronica-archie-comics.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Best Comic Book Panels \u2014 Millie the Model Best Comic Books, Comic Books Art, Comic Art, Vintage Comics, Retro Vintage, Archie Betty And Veronica, Millie The Model, Pulp Fiction Comics, Dan Decarlo",
+     "imageUrl": "https://i.pinimg.com/236x/9b/f2/36/9bf2364096c9087aa3ee4ff1e9d51d65--best-comic-books-best-comics.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie Publications: Veronica Lodge and Betty Cooper discuss working clothes Archie Comics Veronica, Archie Betty And Veronica, Archie Comics Characters, Comic Book Characters, Comic Books, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Josie And The Pussycats",
+     "imageUrl": "https://i.pinimg.com/236x/9d/fd/e6/9dfde655a0683a466864bde452eaef5f--archie-comics-comic-books.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": null,
@@ -1080,78 +1220,8 @@
      }
     },
     {
-     "text": "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
-     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer04.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Dan DeCarlo for Archie. Note that besides Josie, longtime Archie Comics editor Victor Gorelick also contributes! I\u2019m curious if Napoleon and Josephine were based on DeCarlo family dogs. From Archie Giant Series (Betty and Veronica Summer Fun), Oct. Comic Book Paper, Comic Books, Art Of Dan, Dan Deca",
      "imageUrl": "https://i.pinimg.com/236x/d3/d5/1e/d3d51ea2d0fe94fb3cfdf5e5421cbdf5--betty-and-veronica-newspaper-paper.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie Andrews & Betty Cooper (and Dan DeCarlo, the best Archie artist ever). I just adore Betty! Archie Und Betty, Archie Comics Betty, Archie Betty And Veronica, Archie Comics Characters, Comics Und Cartoons, Archie Comic Books, Comic Books Art, Comic Art, Archie Cartoon",
-     "imageUrl": "https://i.pinimg.com/236x/11/ce/ab/11ceabe36ec22a959a8190cf33635e0a--classic-comics-classic-cartoons.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Jughead (1949 1st Series) 202 Archie Comic Books, Comic Book Characters, Comic Book Heroes, Comic Books Art, Jughead Comics, Archie Jughead, Archie Comics Riverdale, Dan Decarlo, Archie And Betty",
-     "imageUrl": "https://i.pinimg.com/236x/76/fa/0e/76fa0e88674f32ff81b59895e0f66329--cover-art-series.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Panel from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.",
-     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer03b.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "comicbookwomen: \u201c Dan DeCarlo - Betty & Veronica\u2019s Slumber Party! \u201d Fave Queue Posts For Betty & Veronica Cartoon Kunst, Comic Kunst, Cartoon Art, Bill Ward, Comic Books Art, Comic Art, Archie Comics Characters, Coloring Books, Coloring Pages",
-     "imageUrl": "https://i.pinimg.com/236x/3f/96/ce/3f96ced4538d65e6310d94303a8aca42--slumber-parties-sleepover.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": null,
@@ -1178,22 +1248,8 @@
      }
     },
     {
-     "text": "From Millie the Model #60 cover by Dan DeCarlo",
-     "imageUrl": "http://www.lastkisscomics.com/blog/wp-content/uploads/2013/06/MillieTheModel60Detail.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of Homer, The Happy Ghost #1 (November 1969), art by Dan DeCarlo",
-     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer01.jpg",
+     "text": "comicbookwomen: \u201c Dan DeCarlo - Betty & Veronica\u2019s Slumber Party! \u201d Fave Queue Posts For Betty & Veronica Cartoon Kunst, Comic Kunst, Cartoon Art, Bill Ward, Comic Books Art, Comic Art, Archie Comics Characters, Coloring Books, Coloring Pages",
+     "imageUrl": "https://i.pinimg.com/236x/3f/96/ce/3f96ced4538d65e6310d94303a8aca42--slumber-parties-sleepover.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": null,
@@ -1276,48 +1332,6 @@
      }
     },
     {
-     "text": "This time we have another MY FRIEND IRMA comic book. Stan Lee took credit for the writing and Dan DeCarlo drew the picture. Art Pop, Pop Art Girl, Up Girl, Pop Art Vintage, Vintage Kiss, Retro Vintage, Comic Books Art, Comic Art, Book Art",
-     "imageUrl": "https://i.pinimg.com/236x/26/fc/ce/26fccee196e80d17f77284fbe6c6bdd2.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I& a great admirer of Dan DeCarlo& work, and Archie comics take me back to the good ol& days like nothing else can. Comics Vintage, Vintage Comic Books, Vintage Cartoon, Cartoon Art, Archie Comic Books, Comic Books Art, Archie Comics Veronica, Comic Font, Jordi Bernet",
-     "imageUrl": "https://i.pinimg.com/236x/72/c6/19/72c6195be93aa8c092f9e0b9509511af--archie-comics-magazine-art.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Best Comic Book Panels \u2014 Millie the Model Best Comic Books, Comic Books Art, Comic Art, Vintage Comics, Retro Vintage, Archie Betty And Veronica, Millie The Model, Pulp Fiction Comics, Dan Decarlo",
-     "imageUrl": "https://i.pinimg.com/236x/9b/f2/36/9bf2364096c9087aa3ee4ff1e9d51d65--best-comic-books-best-comics.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Best Comic Book Panels Cute Comics, Comics Girls, My Friend Irma, Dan Decarlo, Josie And The Pussycats, Rockabilly Cars, Comic Book Panels, Best Comic Books, Vintage Comics",
      "imageUrl": "https://i.pinimg.com/236x/04/da/dc/04dadc2beca954923bab676a789f0408--best-comic-books-best-comics.jpg",
      "keyword": "dan decarlo",
@@ -1334,20 +1348,6 @@
     {
      "text": "Pin-up Sketch of Sherry the Showgirl by Dan DeCarlo",
      "imageUrl": "https://www.pinupcartoongirls.com/wp-content/uploads/2019/03/Dan-DeCarlo-Sherry-the-Showgirl-pinup-sketch-512x400.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Veronica Lodge amd Betty Cooper from Archie Comics Vintage Cartoon, Vintage Comics, Cartoon Art, Archie Cartoon, Archie Comics Characters, Archie Comic Books, Archie Betty And Veronica, Dan Decarlo, Josie And The Pussycats",
-     "imageUrl": "https://i.pinimg.com/236x/5b/fd/f6/5bfdf6818790d621eca5dcd8647c24ed--betty-and-veronica-archie-comics.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": null,
@@ -1404,15 +1404,15 @@
    ],
    "samples": [
     "Complete Betty & Veronica story, 1960, art by Dan Decarlo",
-    "A cover gallery for the comic book Betty and Me Archie Comics Characters, Archie Comic Books, Ghibli, Archie Comics Riverdale, Dan Decarlo, Archie And Betty, Betty And Veronica, Classic Comics, Vintage Comics",
+    "Archie Publications: Veronica, Betty and Archie celebrate Christmas by hanging the decorations Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Archie Betty And Veronica, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Christmas Comics",
     "A cover gallery for the comic book Reggie and Me Archie Comic Books, Old Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Covers, Archie Comics Riverdale, Archie Jughead, Dan Decarlo, Archie And Betty",
     "I brought samples in, because I didn\u2019t have any comic book samples, and I brought all Dan DeCarlo Picture Quote",
-    "Archie Publications: Veronica, Betty and Archie celebrate Christmas by hanging the decorations Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Archie Betty And Veronica, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Christmas Comics",
-    "Archie Publications: Veronica Lodge and Betty Cooper discuss working clothes Archie Comics Veronica, Archie Betty And Veronica, Archie Comics Characters, Comic Book Characters, Comic Books, Millie The Model, Archie Comics Riverdale, Dan Decarlo, Josie And The Pussycats",
     "Betty Cooper and Veronica Lodge from Archie Comics Archie Comics Riverdale, Bulldogs, Archie Betty And Veronica, Archie Comic Books, Dan Decarlo, Josie And The Pussycats, Ligne Claire, Comic Panels, Fandoms",
     "Josie & The Pussycats Archie Comics, October Cat Comics, Archie Comics, Comic Book Covers, Comic Books, Dan Decarlo, Josie And The Pussycats, Childhood Days, Gremlins, Surf Girls",
-    "i wanted to practice drawing different styles maybe pick up some new tricks. i always loved dan decarlo, the definitive archie artist. his style looks pretty simple, but i found it difficult to ada. Archie Comic Books, Vintage Comic Books, Vintage Cartoon, Vintage Comics, Comic Books Art, Comic Art,",
-    "A cover gallery for the comic book Cheryl Blossom Archie Comics Riverdale, Archie Comic Books, Comic Book Characters, Old Comics, Vintage Comics, Cheryl Blossom Archie Comics, Dan Decarlo, Archie And Betty, Betty & Veronica"
+    "A cover gallery for the comic book Cheryl Blossom Archie Comics Riverdale, Archie Comic Books, Comic Book Characters, Old Comics, Vintage Comics, Cheryl Blossom Archie Comics, Dan Decarlo, Archie And Betty, Betty & Veronica",
+    "Jughead (1949 1st Series) 202 Archie Comic Books, Comic Book Characters, Comic Book Heroes, Comic Books Art, Jughead Comics, Archie Jughead, Archie Comics Riverdale, Dan Decarlo, Archie And Betty",
+    "Panel from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.",
+    "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1508,48 +1508,6 @@
      }
     },
     {
-     "text": "\"\"\"Why are you chasing Veronica?\"\"\"\" \"\"\"\"The Obstacle\"\"\"\" in Archie's Girls Betty and Veronica December art by Dan DeCarlo\"\"\"",
-     "imageUrl": "https://i.pinimg.com/236x/ab/df/fd/abdffd37bea1eb3719888e583c2cd579.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.002453625202178955,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie - by Dan DeCarlo - lot of 24 color Sunday comic pages - early 1978",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/LJUAAOSw0JpV3Okm/s-l300.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.0002637505531311035,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Read \"\"World of Archie Double Digest by Various available from Rakuten Kobo. Dilton in Vidiots Delight Boy genius Dilton puts his imagination to the video gaming test as he tries out his new intera. Archie Comics Characters, Archie Comic Books, Female Characters, Old Comics, Vintage Comics, Bulldog",
-     "imageUrl": "https://i.pinimg.com/236x/0c/f1/a2/0cf1a26dfa80c5a74f6acb395e40e2e7--archie-comic-books-archie-comics.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.02541843056678772,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Archie and Veronica Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Characters, Archie Betty And Veronica, Coraline Art, Archie Comics Riverdale, Dan Decarlo",
      "imageUrl": "https://i.pinimg.com/236x/21/1e/01/211e011e7a51dd0d74f64a4c6794c2ff--archie-comics.jpg",
      "keyword": "dan decarlo",
@@ -1578,6 +1536,48 @@
      }
     },
     {
+     "text": "Archie: The Best of Dan Decarlo v. 1 by Dan DeCarlo",
+     "imageUrl": "http://i.shopmania.org/180x180/1/18/184df1a00136c81d57672c68e4027a8a8c4d9ea5.jpg?u=https%3A%2F%2Fd39ttiideeq0ys.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F6001%2F9781600106545.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.008004456758499146,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Why are you chasing Veronica?\"\"\"\" \"\"\"\"The Obstacle\"\"\"\" in Archie's Girls Betty and Veronica December art by Dan DeCarlo\"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/ab/df/fd/abdffd37bea1eb3719888e583c2cd579.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.002453625202178955,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie - by Dan DeCarlo - lot of 24 color Sunday comic pages - early 1978",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/LJUAAOSw0JpV3Okm/s-l300.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.0002637505531311035,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Archie - by Dan DeCarlo - lot of 23 color Sunday comic pages - early 1979",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/tIgAAOSwU~FWDaLQ/s-l300.jpg",
      "keyword": "dan decarlo",
@@ -1592,11 +1592,39 @@
      }
     },
     {
-     "text": "Archie: The Best of Dan Decarlo v. 1 by Dan DeCarlo",
-     "imageUrl": "http://i.shopmania.org/180x180/1/18/184df1a00136c81d57672c68e4027a8a8c4d9ea5.jpg?u=https%3A%2F%2Fd39ttiideeq0ys.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F6001%2F9781600106545.jpg",
+     "text": "\"Read \"\"World of Archie Double Digest by Various available from Rakuten Kobo. Dilton in Vidiots Delight Boy genius Dilton puts his imagination to the video gaming test as he tries out his new intera. Archie Comics Characters, Archie Comic Books, Female Characters, Old Comics, Vintage Comics, Bulldog",
+     "imageUrl": "https://i.pinimg.com/236x/0c/f1/a2/0cf1a26dfa80c5a74f6acb395e40e2e7--archie-comic-books-archie-comics.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.008004456758499146,
+     "punsafe": 0.02541843056678772,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MELODY'S FASHIONS. Occasionally featured in the comic, these pages showed off Dan DeCarlo's pretty drawing style and sense of fashion drawing (readers often suggested the designs). Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Books Art, Comic Art, Archie C",
+     "imageUrl": "https://i.pinimg.com/236x/1e/93/be/1e93be9dd548f4890b5f4747552ebffc--josie-and-the-pussycats-archie-comics.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.002583056688308716,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Reggie And Me #111, January 1979, cover by Dan DeCarlo",
+     "imageUrl": "https://64.media.tumblr.com/bdfa5df64904290efafb6abd87331a5d/tumblr_mgjvzvCpfc1qbgo38o1_500.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.0003293752670288086,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1639,34 +1667,6 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 3.962228583986871e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MELODY'S FASHIONS. Occasionally featured in the comic, these pages showed off Dan DeCarlo's pretty drawing style and sense of fashion drawing (readers often suggested the designs). Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Books Art, Comic Art, Archie C",
-     "imageUrl": "https://i.pinimg.com/236x/1e/93/be/1e93be9dd548f4890b5f4747552ebffc--josie-and-the-pussycats-archie-comics.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.002583056688308716,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Reggie And Me #111, January 1979, cover by Dan DeCarlo",
-     "imageUrl": "https://64.media.tumblr.com/bdfa5df64904290efafb6abd87331a5d/tumblr_mgjvzvCpfc1qbgo38o1_500.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.0003293752670288086,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1760,20 +1760,6 @@
      }
     },
     {
-     "text": "\"The ghost of \"\"Dum-Dum\"\" Dugan? Panels from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.\"",
-     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer06.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 1.0373546501796227e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Best Comic Book Panels \u2014 Betty and Veronica Giant-Size Summer Fun Special. Archie Comic Books, Best Comic Books, Old Comics, Vintage Comics, Archie Betty And Veronica, Archie Comics Riverdale, Dan Decarlo, Comic Book Panels, Ligne Claire",
      "imageUrl": "https://i.pinimg.com/236x/38/05/7c/38057ce51dcedde6f79ffde0ff9f1aa9.jpg",
      "keyword": "dan decarlo",
@@ -1793,6 +1779,20 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 0.02942568063735962,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"The ghost of \"\"Dum-Dum\"\" Dugan? Panels from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.\"",
+     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer06.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 1.0373546501796227e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1858,20 +1858,6 @@
      }
     },
     {
-     "text": "good girl cartoons by Dan Decarlo from Humorama, circa 1950s.",
-     "imageUrl": "https://4.bp.blogspot.com/-2EMIg9dI-NU/WTJT8n_fZWI/AAAAAAAAJCI/9qIogYDYXQsKRfYYuQ8zK-3pdma5JrKQACLcB/s1600/good_girl_cartoons_by_Dan_Decarlo_from_Humorama-2.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.08732831478118896,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "THE ADVENTURES OF KOOL-AID MAN NUMBER 5 1988 PROMO COMIC SIGNED BY DAN DECARLO",
      "imageUrl": "https://thumbs.ebaystatic.com/images/g/KSoAAOSwrklU3OT2/s-l225.jpg",
      "keyword": "dan decarlo",
@@ -1900,11 +1886,11 @@
      }
     },
     {
-     "text": "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
-     "imageUrl": "http://13thdimension.com/wp-content/uploads/2014/01/homer04.jpg",
+     "text": "good girl cartoons by Dan Decarlo from Humorama, circa 1950s.",
+     "imageUrl": "https://4.bp.blogspot.com/-2EMIg9dI-NU/WTJT8n_fZWI/AAAAAAAAJCI/9qIogYDYXQsKRfYYuQ8zK-3pdma5JrKQACLcB/s1600/good_girl_cartoons_by_Dan_Decarlo_from_Humorama-2.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.0005967020988464355,
+     "punsafe": 0.08732831478118896,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1956,11 +1942,11 @@
      }
     },
     {
-     "text": "She's Josie Nice Tough Dan DeCarlo Silver Age Archie Teen 1964 Higher Grade. Nice gloss tight and complete. Archie Comics Characters, Archie Comic Books, Old Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Covers, Comic Book Characters, Vintage Posters, Archie Comics Riverdale",
-     "imageUrl": "https://i.pinimg.com/236x/a1/6f/2c/a16f2c3b00412debb2290e53c9fe2adc--archie-comics-that-dress.jpg",
+     "text": "\"\"\"Model sheets by Dan Decarlo for Penthouse magazines \"\"\"\"Pets\"\"\"\" cartoon strip.\"\"\"",
+     "imageUrl": "https://i.pinimg.com/736x/97/fb/22/97fb22ccca83b947a6b018fdfcc34f4a.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.0008640587329864502,
+     "punsafe": 0.31410861015319824,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1970,11 +1956,11 @@
      }
     },
     {
-     "text": "\"\"\"Model sheets by Dan Decarlo for Penthouse magazines \"\"\"\"Pets\"\"\"\" cartoon strip.\"\"\"",
-     "imageUrl": "https://i.pinimg.com/736x/97/fb/22/97fb22ccca83b947a6b018fdfcc34f4a.jpg",
+     "text": "She's Josie Nice Tough Dan DeCarlo Silver Age Archie Teen 1964 Higher Grade. Nice gloss tight and complete. Archie Comics Characters, Archie Comic Books, Old Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Covers, Comic Book Characters, Vintage Posters, Archie Comics Riverdale",
+     "imageUrl": "https://i.pinimg.com/236x/a1/6f/2c/a16f2c3b00412debb2290e53c9fe2adc--archie-comics-that-dress.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.31410861015319824,
+     "punsafe": 0.0008640587329864502,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2096,6 +2082,20 @@
      }
     },
     {
+     "text": "Gremlins on the cover of Archie's Pals and Gals, Jan. 1985. Art by Dan DeCarlo.",
+     "imageUrl": "https://64.media.tumblr.com/8f4ab5944609fe072de5de6d5977c464/tumblr_misdf1FXjQ1qbblvjo1_500.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.005773782730102539,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Everything's Archie. written by  Frank Doyle [and six othes] ; art by Dan DeCarlo [and 15 others]",
      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/168255807X.01.MZZZZZZZ.jpg",
      "keyword": "dan decarlo",
@@ -2115,20 +2115,6 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 0.0031142234802246094,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gremlins on the cover of Archie's Pals and Gals, Jan. 1985. Art by Dan DeCarlo.",
-     "imageUrl": "https://64.media.tumblr.com/8f4ab5944609fe072de5de6d5977c464/tumblr_misdf1FXjQ1qbblvjo1_500.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.005773782730102539,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2172,11 +2158,11 @@
     "Cover of Homer, The Happy Ghost #1 (November 1969), art by Dan DeCarlo",
     "\"\"\"That paper dress craze? Of course the Archie gang had to be part of it. \"\"\"\"Comic section\"\"\"\" in Archie's Girls Betty and Veronica November written by Dick Malmgren, art by Dan DeCarlo (pencils).\"\"\"",
     "Panel from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.",
-    "\"\"\"Why are you chasing Veronica?\"\"\"\" \"\"\"\"The Obstacle\"\"\"\" in Archie's Girls Betty and Veronica December art by Dan DeCarlo\"\"\"",
-    "Archie - by Dan DeCarlo - lot of 24 color Sunday comic pages - early 1978",
-    "\"Read \"\"World of Archie Double Digest by Various available from Rakuten Kobo. Dilton in Vidiots Delight Boy genius Dilton puts his imagination to the video gaming test as he tries out his new intera. Archie Comics Characters, Archie Comic Books, Female Characters, Old Comics, Vintage Comics, Bulldog",
     "Archie and Veronica Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Book Characters, Archie Betty And Veronica, Coraline Art, Archie Comics Riverdale, Dan Decarlo",
-    "Sabrina the Teenage Witch from Archie's Madhouse nr 22 (1962) by Dan DeCarlo (art) and George Gladir."
+    "Sabrina the Teenage Witch from Archie's Madhouse nr 22 (1962) by Dan DeCarlo (art) and George Gladir.",
+    "Archie: The Best of Dan Decarlo v. 1 by Dan DeCarlo",
+    "\"\"\"Why are you chasing Veronica?\"\"\"\" \"\"\"\"The Obstacle\"\"\"\" in Archie's Girls Betty and Veronica December art by Dan DeCarlo\"\"\"",
+    "Archie - by Dan DeCarlo - lot of 24 color Sunday comic pages - early 1978"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2202,11 +2188,11 @@
    "totalIncludingLowConfidence": 3772,
    "rows": [
     {
-     "text": "Original Comic Art:Illustrations, Dan DeCarlo Humorama Gag Cartoon Illustration Original Art (Timely Features/Humorama, c. 1957). ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F3%2F3%2F21933022%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "The Pin-Up Art of Dan DeCarlo, Volume 2 by Dan DeCarlo",
+     "imageUrl": "http://d.gr-assets.com/books/1348921631l/1063894.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.12585407495498657,
+     "punsafe": 0.385900616645813,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2216,11 +2202,11 @@
      }
     },
     {
-     "text": "The Pin-Up Art of Dan DeCarlo, Volume 2 by Dan DeCarlo",
-     "imageUrl": "http://d.gr-assets.com/books/1348921631l/1063894.jpg",
+     "text": "Original Comic Art:Illustrations, Dan DeCarlo Humorama Gag Cartoon Illustration Original Art (Timely Features/Humorama, c. 1957). ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F3%2F3%2F21933022%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.385900616645813,
+     "punsafe": 0.12585407495498657,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2301,8 +2287,8 @@
     }
    ],
    "samples": [
-    "Original Comic Art:Illustrations, Dan DeCarlo Humorama Gag Cartoon Illustration Original Art (Timely Features/Humorama, c. 1957). ...",
     "The Pin-Up Art of Dan DeCarlo, Volume 2 by Dan DeCarlo",
+    "Original Comic Art:Illustrations, Dan DeCarlo Humorama Gag Cartoon Illustration Original Art (Timely Features/Humorama, c. 1957). ...",
     "Original Comic Art:Comic Strip Art, Dan DeCarlo Archie Daily Comic Strip Original Art dated3-18-81 (Archie Comics/King Features Syndicate, 1981)....",
     "Dan DeCarlo Humorama Gag Cartoon Illustration Original Art (Timely Features/Humorama, c. 1957)",
     "Original Comic Art:Illustrations, Dan DeCarlo Humorama Gag Cartoon Illustration Original Art (Timely Features/Humorama, c. 1957)....",
@@ -2332,20 +2318,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 6065,
    "rows": [
-    {
-     "text": "ARCHIE Comics Digest #57 comic book 12 1982 Dan DeCarlo",
-     "imageUrl": "http://www.jumpingfrog.com/images/comics27/com6308a.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.0033687055110931396,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Sexy Ladies of Archie Comics Dan Decarlo, Betty And Veronica, Archie Comics, Golden Age, Cartoon Art, Weird, Sexy Women, Cartoons, Comic Books",
      "imageUrl": "https://i.pinimg.com/236x/3b/0d/63/3b0d63dd784e4f9543719c53e7b0b76f--archie-comics.jpg",
@@ -2403,6 +2375,20 @@
      }
     },
     {
+     "text": "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
+     "imageUrl": "http://13thdimension.com/wp-content/uploads/2014/01/homer04.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.0005967020988464355,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Veronica by Dan DeCarlo comic books comics Comic Books Art, Comic Art, Archie Comics Veronica, Comic Character, Character Design, Pop Art, Dan Decarlo, Betty & Veronica, Sexy Cartoons",
      "imageUrl": "https://i.pinimg.com/236x/3f/29/f2/3f29f2cf28a8d89bb53d9311807096ae.jpg",
      "keyword": "dan decarlo",
@@ -2445,6 +2431,20 @@
      }
     },
     {
+     "text": "Home / Twitter Comics Vintage, Vintage Cartoon, Cartoon Art, Archie Comics, Comic Book Covers, Comic Books Art, Arte Do Pulp Fiction, Art Of Dan, Dan Decarlo",
+     "imageUrl": "https://i.pinimg.com/236x/a5/5a/4b/a55a4b9f7335b6890342809bbc05dbad.jpg",
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": 0.006443917751312256,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Proud Beauty trope as used in popular culture. Vintage Comics, Vintage Posters, Vintage Art, Archie Comics Veronica, Blueberry Girl, Archie Comics Riverdale, Archie Comic Books, Dan Decarlo, Children's Comics",
      "imageUrl": "https://i.pinimg.com/236x/f2/6b/12/f26b12960f2e1a2fc39a75c96a2069c1.jpg",
      "keyword": "dan decarlo",
@@ -2459,25 +2459,11 @@
      }
     },
     {
-     "text": "MY FRIEND IRMA issue #25 comic book DAN DECARLO cover art STAN LEE written by",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/323499218665_/MY-FRIEND-IRMA-issue-25-comic-book-DAN.jpg",
+     "text": "ARCHIE Comics Digest #57 comic book 12 1982 Dan DeCarlo",
+     "imageUrl": "http://www.jumpingfrog.com/images/comics27/com6308a.jpg",
      "keyword": "dan decarlo",
      "tier": "namematch",
-     "punsafe": 0.001279294490814209,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Home / Twitter Comics Vintage, Vintage Cartoon, Cartoon Art, Archie Comics, Comic Book Covers, Comic Books Art, Arte Do Pulp Fiction, Art Of Dan, Dan Decarlo",
-     "imageUrl": "https://i.pinimg.com/236x/a5/5a/4b/a55a4b9f7335b6890342809bbc05dbad.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.006443917751312256,
+     "punsafe": 0.0033687055110931396,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2488,16 +2474,16 @@
     }
    ],
    "samples": [
-    "ARCHIE Comics Digest #57 comic book 12 1982 Dan DeCarlo",
     "Sexy Ladies of Archie Comics Dan Decarlo, Betty And Veronica, Archie Comics, Golden Age, Cartoon Art, Weird, Sexy Women, Cartoons, Comic Books",
     "Archie Sunday Page 6-16-91 Original art - Dan DeCarlo, Marriage",
     "Pinup art of Cheryl Blossom by Dan Decarlo himself Archie Comic Books, Vintage Comic Books, Comic Book Characters, Vintage Comics, Cartoon Girl Drawing, Girl Cartoon, Cheryl Blossom Comics, Archie Comics Riverdale, Comic Book Girl",
     "G.i. Joe 18-100 Pg Golden Age War-Norm Saunders-Wendy Waf By Dan Decarlo-Reprint",
+    "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
     "Veronica by Dan DeCarlo comic books comics Comic Books Art, Comic Art, Archie Comics Veronica, Comic Character, Character Design, Pop Art, Dan Decarlo, Betty & Veronica, Sexy Cartoons",
     "Original Comic Art:Comic Strip Art, Dan DeCarlo - Original Comic Strip Art for Archie Daily, dated6-9-82 (King Features, 1982). A cute four-panel gag strip fea...",
     "Millie the Model Old Comics, Vintage Comics, Funny Comics, Tv Covers, Comic Book Covers, Comic Books, Archie Comics Characters, Millie The Model, Dan Decarlo",
-    "The Proud Beauty trope as used in popular culture. Vintage Comics, Vintage Posters, Vintage Art, Archie Comics Veronica, Blueberry Girl, Archie Comics Riverdale, Archie Comic Books, Dan Decarlo, Children's Comics",
-    "MY FRIEND IRMA issue #25 comic book DAN DECARLO cover art STAN LEE written by"
+    "Home / Twitter Comics Vintage, Vintage Cartoon, Cartoon Art, Archie Comics, Comic Book Covers, Comic Books Art, Arte Do Pulp Fiction, Art Of Dan, Dan Decarlo",
+    "The Proud Beauty trope as used in popular culture. Vintage Comics, Vintage Posters, Vintage Art, Archie Comics Veronica, Blueberry Girl, Archie Comics Riverdale, Archie Comic Books, Dan Decarlo, Children's Comics"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2523,7 +2509,35 @@
    "totalIncludingLowConfidence": 23999,
    "rows": [
     {
-     "text": "DAN DECARLO: JETTA\nWritten, art and cover by Dan DeCarlo.\nDan DeCarlo's futuristic curvy teenage girl Jetta zoomed through the future a full decade before Judy Jetson. In the 1950s, the fan favorite artist, beloved for his portrayals of Betty and Veronica, Josie and Sabrina The Teenage Witch, deline",
+     "text": "With the hit characters Human Torch and Sub-Mariner now joined by Simon & Kirby's seminal patriotic hero Captain America, Timely had its \"big three\" stars of the era fans and historians call the Golden Age of Comic Books. Rival publishers National Comics Publications / All-American Comics, the siste",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Previously in Josie And The Pussycats: Though the first appearance of Josie McCoy and her sweet but occasionally clueless friend Melody Jones dates back to December of 1962 (cover dated February 1963), Josie spent most of the first decade of her comic book life as a gender-swapped Archie.  The brain",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie is a long-running comic strip based on the line of the popular Archie Comics. Launched by King Features Syndicate in 1947, it features the misadventures of Archie Andrews and his pals.\n\nBob Montana drew the first issue of the Archie comic book (November 1942). During World War II, Montana spe",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2538,34 +2552,6 @@
     },
     {
      "text": "DeCarlo was married, with a pregnant wife, and working as a laborer for his father when he began to pursue a professional art career.[4] Circa 1947, answering an ad, he broke into the comic book industry at Timely Comics, the 1940s iteration of Marvel Comics. Under editor-in-chief Stan Lee, his firs",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "With The Archie Show\u2019s success in its inaugural 1968 season, a cavalcade of spin-offs was initiated. Generally this meant new iterations of the comic book set-ups in various formats ranging from a half hour to one hour in length, over the next several years. Archie was, essentially, Filmation\u2019s Scoo",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cheryl had her own comic book for a stretch and was drawn by Dan DeCarlo (RIP), who specialized in va-va voom. On nearly every cover, she\u2019s leaving a trail of gobsmacked teen boys and loving it. Meanwhile, the other young ladies of Riverdale are staring daggers in her direction. (Melody of Josie and",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2607,35 +2593,35 @@
      }
     },
     {
-     "text": "With the hit characters Human Torch and Sub-Mariner now joined by Simon & Kirby's seminal patriotic hero Captain America, Timely had its \"big three\" stars of the era fans and historians call the Golden Age of Comic Books. Rival publishers National Comics Publications / All-American Comics, the siste",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Previously in Josie And The Pussycats: Though the first appearance of Josie McCoy and her sweet but occasionally clueless friend Melody Jones dates back to December of 1962 (cover dated February 1963), Josie spent most of the first decade of her comic book life as a gender-swapped Archie.  The brain",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Punk rock pioneers The Ramones and Riverdale High School student Archie Andrews might not have much in common. However, that won\u2019t stop them from hanging out in 2016, in Archie Meets The Ramones.\n\nThis crossover adventure is written by Alex Segura and Matthew Rosenberg, with art by Gisele. Segura ha",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "With The Archie Show\u2019s success in its inaugural 1968 season, a cavalcade of spin-offs was initiated. Generally this meant new iterations of the comic book set-ups in various formats ranging from a half hour to one hour in length, over the next several years. Archie was, essentially, Filmation\u2019s Scoo",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cheryl had her own comic book for a stretch and was drawn by Dan DeCarlo (RIP), who specialized in va-va voom. On nearly every cover, she\u2019s leaving a trail of gobsmacked teen boys and loving it. Meanwhile, the other young ladies of Riverdale are staring daggers in her direction. (Melody of Josie and",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2663,35 +2649,7 @@
      }
     },
     {
-     "text": "Archie is a long-running comic strip based on the line of the popular Archie Comics. Launched by King Features Syndicate in 1947, it features the misadventures of Archie Andrews and his pals.\n\nBob Montana drew the first issue of the Archie comic book (November 1942). During World War II, Montana spe",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Our next selection is \u201cThe Great Treasury of Christmas Comic Book Stories\u201c, an oversized volume that collects from spectacular Christmas stories from comics\u2019 Golden Age.\n\nAmong the joyful and innocent work in this volume, you will find stories by Walt Kelly (\u201cPogo\u201d), John Stanley (\u201cLittle Lulu\u201d), an",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "When I first started reading and collecting comic books, I read superhero comics. JUST superhero comics. Oh, there were a few exceptions like SUGAR & SPIKE and STANLEY & HIS MONSTER but I was pretty much all about the superhero comics.  Little by little, though, I learned that there was more to comi",
+     "text": "DAN DECARLO: JETTA\nWritten, art and cover by Dan DeCarlo.\nDan DeCarlo's futuristic curvy teenage girl Jetta zoomed through the future a full decade before Judy Jetson. In the 1950s, the fan favorite artist, beloved for his portrayals of Betty and Veronica, Josie and Sabrina The Teenage Witch, deline",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2747,34 +2705,6 @@
      }
     },
     {
-     "text": "Sabrina the Teenage Witch is an Archie spin-off comic book series published by Archie Comics and created by George Gladir and Dan DeCarlo, about a \"half-witch\", daughter of a witch and a normal human being, living with her two aunts, Hilda and Zelda Spellman, who are witches themselves. She lives in",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Pin-Up Art of Bill Ward #1\n\nIn those countless cheap and long forgotten men's humor magazines, Ward's voluptuous \"girly\" drawings shared the pages with photos of Bettie Page and Mamie Van Doren, and pin-up cartoons by the likes of Archie's Dan DeCarlo and Playboy magazine's Jack Cole. Thumbing t",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Josie and the Pussycats is an American animated television series, based upon the Archie Comics comic book series of the same name created by Dan DeCarlo. Produced for Saturday morning television by Hanna-Barbera Productions, sixteen episodes of Josie and the Pussycats aired on CBS during the 1970-7",
      "imageUrl": null,
      "keyword": "dan decarlo",
@@ -2817,6 +2747,132 @@
      }
     },
     {
+     "text": "Our next selection is \u201cThe Great Treasury of Christmas Comic Book Stories\u201c, an oversized volume that collects from spectacular Christmas stories from comics\u2019 Golden Age.\n\nAmong the joyful and innocent work in this volume, you will find stories by Walt Kelly (\u201cPogo\u201d), John Stanley (\u201cLittle Lulu\u201d), an",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "When I first started reading and collecting comic books, I read superhero comics. JUST superhero comics. Oh, there were a few exceptions like SUGAR & SPIKE and STANLEY & HIS MONSTER but I was pretty much all about the superhero comics.  Little by little, though, I learned that there was more to comi",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sabrina the Teenage Witch is an Archie spin-off comic book series published by Archie Comics and created by George Gladir and Dan DeCarlo, about a \"half-witch\", daughter of a witch and a normal human being, living with her two aunts, Hilda and Zelda Spellman, who are witches themselves. She lives in",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Pin-Up Art of Bill Ward #1\n\nIn those countless cheap and long forgotten men's humor magazines, Ward's voluptuous \"girly\" drawings shared the pages with photos of Bettie Page and Mamie Van Doren, and pin-up cartoons by the likes of Archie's Dan DeCarlo and Playboy magazine's Jack Cole. Thumbing t",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\ufeffFor those just joining us:\n\nIt was July 1963 when I realized people got paid for making comic\nbooks and that I wanted that job.  This epiphany was triggered by\nmy buying and reading Fantastic Four Annual #1, the greatest comic\nbook of all time.  So, when I\u2019m not starting these bloggy things of\nmine",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Haven't read this yet (just bought it today), but, man, am I impressed with the package! These previously online only strips are written by Roy Thomas and drawn by Tom Grindberg and Benito Gallego. they are presented in the style of Sunday comics newspaper strips, but better than real ones because t",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "non-fiction comic series about Black history), Fast Willie was their entry into the mass market.\n(There were no comic book stores at the time)\nThough not Comics Code-approved, it received newsstand distribution, and sales were climbing for each successive issue.\nUnfortunately, it reached break-even ",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A comic book or comicbook, also called comic magazine or simply comic, is a publication, first popularized in the United States. It consists of comics art in the form of sequential juxtaposed panels that represent individual scenes. Panels are often accompanied by brief descriptive prose and written",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "That hamburger-holding, chubby-cheeked cherub Bob\u2019s Big Boy isn\u2019t just a classic icon of the 1930s, selling burgers and seasonings across the United States. He is also the star of one of the longest running and most widely distributed comic book series in comics history, once published by none other",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Sabrina Spellman is the title character from the Archie Comics comic book Sabrina the Teenage Witch. Sabrina was created by writer George Gladir and artist Dan DeCarlo, and first appeared in Archie's Mad House #22 in October 1962.\n\nSabrina has short, bob-cut white hair, sometimes depicted as yellow.",
      "imageUrl": null,
      "keyword": "dan decarlo",
@@ -2845,7 +2901,7 @@
      }
     },
     {
-     "text": "\ufeffFor those just joining us:\n\nIt was July 1963 when I realized people got paid for making comic\nbooks and that I wanted that job.  This epiphany was triggered by\nmy buying and reading Fantastic Four Annual #1, the greatest comic\nbook of all time.  So, when I\u2019m not starting these bloggy things of\nmine",
+     "text": "Consider the other members of the comic book trinity. Batman: Bruce Wayne, Gotham, detective. Superman: Clark Kent, Metropolis, boy scout. Their essences are schematic. Wonder Woman has been an Amazon and an Olympian. She\u2019s been a god, a mortal, and a mix of both. She\u2019s Diana Prince sometimes, she\u2019s",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2873,63 +2929,7 @@
      }
     },
     {
-     "text": "Haven't read this yet (just bought it today), but, man, am I impressed with the package! These previously online only strips are written by Roy Thomas and drawn by Tom Grindberg and Benito Gallego. they are presented in the style of Sunday comics newspaper strips, but better than real ones because t",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Is the world ready for a new Sabrina Spellman? Kiernan Shipka (Mad Men, Feud: Bette and Joan) has been cast in the lead role of Netflix original series Untitled Sabrina Project, based on the Archie Comics graphic novel The Chilling Adventures of Sabrina.\n\nNetflix describes the character as \u201can empow",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A comic book or comicbook, also called comic magazine or simply comic, is a publication, first popularized in the United States. It consists of comics art in the form of sequential juxtaposed panels that represent individual scenes. Panels are often accompanied by brief descriptive prose and written",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "non-fiction comic series about Black history), Fast Willie was their entry into the mass market.\n(There were no comic book stores at the time)\nThough not Comics Code-approved, it received newsstand distribution, and sales were climbing for each successive issue.\nUnfortunately, it reached break-even ",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "That hamburger-holding, chubby-cheeked cherub Bob\u2019s Big Boy isn\u2019t just a classic icon of the 1930s, selling burgers and seasonings across the United States. He is also the star of one of the longest running and most widely distributed comic book series in comics history, once published by none other",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2971,7 +2971,35 @@
      }
     },
     {
-     "text": "Consider the other members of the comic book trinity. Batman: Bruce Wayne, Gotham, detective. Superman: Clark Kent, Metropolis, boy scout. Their essences are schematic. Wonder Woman has been an Amazon and an Olympian. She\u2019s been a god, a mortal, and a mix of both. She\u2019s Diana Prince sometimes, she\u2019s",
+     "text": "Comics, for the most part, are bought in comic book stores or bookstores; however, there are some comics that are promotional material that is given away for various reasons. It is common for publishers, such as Marvel Comics, to use non-traditional methods to promote their comics with other product",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The title went back to more straight humor, and continued that way up to its last issue (with Alexandra starting to manifest magic again), Josie and the Pussycats #106 (October, 1982), with art up until the end mostly by Dan DeCarlo (who based the original character on his wife, Josie), and the last",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In 1981, Hernandez and his brothers Jaime and Mario published the first issue of Love and Rockets, which was quickly picked up by Fantagraphics Books, who republished the earliest materials in a new series starting in 1982.[12] The magazine-sized comic book became known for its genre-bending, its pu",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -2986,20 +3014,6 @@
     },
     {
      "text": "It\u2019s the season for cool scary comics, and this week we\u2019re taking a look at a trio of terror-filled comics.  Leading the way is a collection I\u2019ve been wanting to see for over 30 years, so let\u2019s dig in and check out some Halloween holiday appropriate comic books!\n\nThis is a deluxe comic book collecti",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comics, for the most part, are bought in comic book stores or bookstores; however, there are some comics that are promotional material that is given away for various reasons. It is common for publishers, such as Marvel Comics, to use non-traditional methods to promote their comics with other product",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -3041,49 +3055,7 @@
      }
     },
     {
-     "text": "The title went back to more straight humor, and continued that way up to its last issue (with Alexandra starting to manifest magic again), Josie and the Pussycats #106 (October, 1982), with art up until the end mostly by Dan DeCarlo (who based the original character on his wife, Josie), and the last",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Katy Keene, a character created by Bill Woggon, has appeared in several comic book series published by Archie Comics since 1945. She is a model/actress/singer known as America's Queen of Pin-Ups and Fashions.\n\nHer comics were interactive in that readers were encouraged to submit original drawings of",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Celebrating National Ice Cream Day, but while Veronica Lodge is looking for ice cream, Archie Andrews is getting his two scoops with Betty Cooper, in this cover by Dan DeCarlo to Archie's Girls Betty And Veronica #247 (July, 1976).\n\nPosted by Dave's Not Here Comic Blog at 3:00 AM No comments:",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "In 1981, Hernandez and his brothers Jaime and Mario published the first issue of Love and Rockets, which was quickly picked up by Fantagraphics Books, who republished the earliest materials in a new series starting in 1982.[12] The magazine-sized comic book became known for its genre-bending, its pu",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -3111,6 +3083,20 @@
      }
     },
     {
+     "text": "Celebrating National Ice Cream Day, but while Veronica Lodge is looking for ice cream, Archie Andrews is getting his two scoops with Betty Cooper, in this cover by Dan DeCarlo to Archie's Girls Betty And Veronica #247 (July, 1976).\n\nPosted by Dave's Not Here Comic Blog at 3:00 AM No comments:",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "In his new graphic novel, Love and Rockets co-creator Jaime Hernandez follows his most beloved characters as they try to recapture the punk rock glory days of their youth.\n\nAging punks, of course, can never go home again but Hernandez elevates his story beyond that simple premise in another transcen",
      "imageUrl": null,
      "keyword": "dan decarlo",
@@ -3125,63 +3111,7 @@
      }
     },
     {
-     "text": "Those of us who spent a large part of our adolescence in front of the spinning comic-book rack might forget just how undiscerning and democratic we could be. We might\u2019ve already preferred Marvel over DC, but we weren\u2019t above taking home any comic book at all, if nothing we already loved were availab",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "THE HISTORY OF ARCHIE\n\nArchie Comics began as MLJ Magazines, formed by Maurice Coyne, Louis Silberkleit and John L. Goldwater in 1939. Their first comic book was Blue Ribbon Comics, which was half full color comics and half red and white tinted. In 1940, Pep Comics debuted, focusing on their patriot",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Today\u2019s bloggy thing continues my 136-part series on comic books that hit the newsstands in the month of July 1963. That month was pivotal to my comic-book career because it was the month when Fantastic Four Annual #1 ignited my desire to write comics.\n\nArchie\u2019s Madhouse launched with an issue dated",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "If they issued Stars on the Walk of Fame for comic books, Marie would have had a fourth.  Under the pre-Marvel brand Atlas, a total of 46 issues of My Friend Irma were published between June 1950 and February 1955. The comics clearly cross-promoted the radio version with \u201cThe famous C.B.S. RADIO Laf",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Are you the type who goes through her books and goes, \u201cI wish I added this\u201d or \u201cI wish I did that\u201d?\n\nWhat\u2019s your ultimate dream as an artist?\n\nTo be making comic books for a living.\n\nDo you have tips for kids who are dreaming of becoming comic book artists?\n\nUse the Internet, definitely. It\u2019s easier",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -3223,34 +3153,6 @@
      }
     },
     {
-     "text": "There\u2019s a new Josie and the Pussycats comic book series, and this time it\u2019s \u201cIn Space,\u201d written by Alex de Campi and drawn by artist Devaki Neogi. The series, which was created by Dan DeCarlo in the early \u201960s, has remained one of the most prevailing of the Archie Comics spinoff brands. My mother wa",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "George Gladir (September 27, 1925 \u2013 April 3, 2013) was an American writer for comic books. Primarily known as a scripter for Archie Comics, he co-created that publisher's character Sabrina the Teenage Witch, with artist Dan DeCarlo.\n\nGeorge Gladir was born in New York City, the son of Russian immigr",
-     "imageUrl": null,
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "It\u2019s holiday time in Riverdale, and in this week\u2019s preview of Betty & Veronica Double Digest #258, the Archie gang gets a visit from Noelle Claus, the daughter of the Big Guy himself! We\u2019ve got a preview of that for you this morning, followed by a slice of a classic story illustrated by Dan DeCarlo.",
      "imageUrl": null,
      "keyword": "dan decarlo",
@@ -3279,7 +3181,77 @@
      }
     },
     {
-     "text": "This series violates two long-standing superhero-comics conventions. It's in black and white, which has always been anathema to mainstream comics, and the eight-page succinctness of the stories in it has been out of favor ever since comic books ballooned into graphic novels, whose story lines sprawl",
+     "text": "Those of us who spent a large part of our adolescence in front of the spinning comic-book rack might forget just how undiscerning and democratic we could be. We might\u2019ve already preferred Marvel over DC, but we weren\u2019t above taking home any comic book at all, if nothing we already loved were availab",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "THE HISTORY OF ARCHIE\n\nArchie Comics began as MLJ Magazines, formed by Maurice Coyne, Louis Silberkleit and John L. Goldwater in 1939. Their first comic book was Blue Ribbon Comics, which was half full color comics and half red and white tinted. In 1940, Pep Comics debuted, focusing on their patriot",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "If they issued Stars on the Walk of Fame for comic books, Marie would have had a fourth.  Under the pre-Marvel brand Atlas, a total of 46 issues of My Friend Irma were published between June 1950 and February 1955. The comics clearly cross-promoted the radio version with \u201cThe famous C.B.S. RADIO Laf",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Are you the type who goes through her books and goes, \u201cI wish I added this\u201d or \u201cI wish I did that\u201d?\n\nWhat\u2019s your ultimate dream as an artist?\n\nTo be making comic books for a living.\n\nDo you have tips for kids who are dreaming of becoming comic book artists?\n\nUse the Internet, definitely. It\u2019s easier",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "There\u2019s a new Josie and the Pussycats comic book series, and this time it\u2019s \u201cIn Space,\u201d written by Alex de Campi and drawn by artist Devaki Neogi. The series, which was created by Dan DeCarlo in the early \u201960s, has remained one of the most prevailing of the Archie Comics spinoff brands. My mother wa",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "George Gladir (September 27, 1925 \u2013 April 3, 2013) was an American writer for comic books. Primarily known as a scripter for Archie Comics, he co-created that publisher's character Sabrina the Teenage Witch, with artist Dan DeCarlo.\n\nGeorge Gladir was born in New York City, the son of Russian immigr",
      "imageUrl": null,
      "keyword": "dan decarlo",
      "tier": "namematch",
@@ -3361,18 +3333,32 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "This series violates two long-standing superhero-comics conventions. It's in black and white, which has always been anathema to mainstream comics, and the eight-page succinctness of the stories in it has been out of favor ever since comic books ballooned into graphic novels, whose story lines sprawl",
+     "imageUrl": null,
+     "keyword": "dan decarlo",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "DAN DECARLO: JETTA\nWritten, art and cover by Dan DeCarlo.\nDan DeCarlo's futuristic curvy teenage girl Jetta zoomed through the future a full decade before Judy Jetson. In the 1950s, the fan favorite artist, beloved for his portrayals of Betty and Veronica, Josie and Sabrina The Teenage Witch, deline",
-    "DeCarlo was married, with a pregnant wife, and working as a laborer for his father when he began to pursue a professional art career.[4] Circa 1947, answering an ad, he broke into the comic book industry at Timely Comics, the 1940s iteration of Marvel Comics. Under editor-in-chief Stan Lee, his firs",
-    "With The Archie Show\u2019s success in its inaugural 1968 season, a cavalcade of spin-offs was initiated. Generally this meant new iterations of the comic book set-ups in various formats ranging from a half hour to one hour in length, over the next several years. Archie was, essentially, Filmation\u2019s Scoo",
-    "Cheryl had her own comic book for a stretch and was drawn by Dan DeCarlo (RIP), who specialized in va-va voom. On nearly every cover, she\u2019s leaving a trail of gobsmacked teen boys and loving it. Meanwhile, the other young ladies of Riverdale are staring daggers in her direction. (Melody of Josie and",
-    "In case you haven't noticed--and arguably in spite of all logic--the 21st Century is a great time to be an Archie Comics fan. Along with Marvel and DC, Archie is the only US comic book company to have weathered the twists and turns of the market for seven straight decades and even now the company's ",
-    "The blog Big Cartoon News filed the first report on her death, quoting car\u00adtoon and comics his\u00adto\u00adrian Mark Evanier. He said that Josie was drawn to resem\u00adble her by her hus\u00adband, comic book leg\u00adend Dan DeCarlo, who died in 2001 at 82.\n\nAlso read: The Osbournes Return to TV \u2014 in Animated Form\n\nDeCar",
     "With the hit characters Human Torch and Sub-Mariner now joined by Simon & Kirby's seminal patriotic hero Captain America, Timely had its \"big three\" stars of the era fans and historians call the Golden Age of Comic Books. Rival publishers National Comics Publications / All-American Comics, the siste",
     "Previously in Josie And The Pussycats: Though the first appearance of Josie McCoy and her sweet but occasionally clueless friend Melody Jones dates back to December of 1962 (cover dated February 1963), Josie spent most of the first decade of her comic book life as a gender-swapped Archie.  The brain",
+    "Archie is a long-running comic strip based on the line of the popular Archie Comics. Launched by King Features Syndicate in 1947, it features the misadventures of Archie Andrews and his pals.\n\nBob Montana drew the first issue of the Archie comic book (November 1942). During World War II, Montana spe",
+    "DeCarlo was married, with a pregnant wife, and working as a laborer for his father when he began to pursue a professional art career.[4] Circa 1947, answering an ad, he broke into the comic book industry at Timely Comics, the 1940s iteration of Marvel Comics. Under editor-in-chief Stan Lee, his firs",
+    "In case you haven't noticed--and arguably in spite of all logic--the 21st Century is a great time to be an Archie Comics fan. Along with Marvel and DC, Archie is the only US comic book company to have weathered the twists and turns of the market for seven straight decades and even now the company's ",
+    "The blog Big Cartoon News filed the first report on her death, quoting car\u00adtoon and comics his\u00adto\u00adrian Mark Evanier. He said that Josie was drawn to resem\u00adble her by her hus\u00adband, comic book leg\u00adend Dan DeCarlo, who died in 2001 at 82.\n\nAlso read: The Osbournes Return to TV \u2014 in Animated Form\n\nDeCar",
     "Punk rock pioneers The Ramones and Riverdale High School student Archie Andrews might not have much in common. However, that won\u2019t stop them from hanging out in 2016, in Archie Meets The Ramones.\n\nThis crossover adventure is written by Alex Segura and Matthew Rosenberg, with art by Gisele. Segura ha",
+    "With The Archie Show\u2019s success in its inaugural 1968 season, a cavalcade of spin-offs was initiated. Generally this meant new iterations of the comic book set-ups in various formats ranging from a half hour to one hour in length, over the next several years. Archie was, essentially, Filmation\u2019s Scoo",
+    "Cheryl had her own comic book for a stretch and was drawn by Dan DeCarlo (RIP), who specialized in va-va voom. On nearly every cover, she\u2019s leaving a trail of gobsmacked teen boys and loving it. Meanwhile, the other young ladies of Riverdale are staring daggers in her direction. (Melody of Josie and",
     "In 1970, another Archie property received the treatment:. Many times the comic tried to keep the shield as its 1 but Archie was too superior. The Escort, art by Dan DeCarlo; Veronica thinks that a monster roaming the halls of Riverdale High is really Archie in disguise; She even gets him to take her"
    ],
    "partial": false,
@@ -3447,13 +3433,13 @@
     "longformHits": 553,
     "longformRatio": 0.406,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 141,
      "laion1b-nolang": 201,
      "laion2b-en": 409,
      "laion2b-multi": 59,
      "obelics": 547,
-     "pile": 2,
-     "c4-en": 4
+     "pile": 2
     },
     "reason": null
    },
@@ -3465,13 +3451,13 @@
     "longformHits": 13311,
     "longformRatio": 0.281,
     "perDataset": {
+     "c4-en": 47,
      "coyo700m": 5015,
      "laion1b-nolang": 4421,
      "laion2b-en": 21004,
      "laion2b-multi": 3580,
      "obelics": 13228,
-     "pile": 36,
-     "c4-en": 47
+     "pile": 36
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -3483,13 +3469,13 @@
     "longformHits": 6853,
     "longformRatio": 0.494,
     "perDataset": {
+     "c4-en": 22,
      "coyo700m": 1856,
      "laion1b-nolang": 1335,
      "laion2b-en": 3722,
      "laion2b-multi": 109,
      "obelics": 6823,
-     "pile": 8,
-     "c4-en": 22
+     "pile": 8
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -3501,13 +3487,13 @@
     "longformHits": 3414,
     "longformRatio": 0.512,
     "perDataset": {
+     "c4-en": 6,
      "coyo700m": 1228,
      "laion1b-nolang": 108,
      "laion2b-en": 1893,
      "laion2b-multi": 24,
      "obelics": 3401,
-     "pile": 7,
-     "c4-en": 6
+     "pile": 7
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -3521,17 +3507,17 @@
    "thirdPartyPropertyMentions": 67873,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 166,
+  "evidenceShown": 165,
   "evidenceWithheld": {
-   "unverified": 655,
+   "unverified": 648,
+   "unrelated": 25,
    "person_photo": 128,
-   "unrelated": 75,
+   "storefront": 82,
    "merchandise": 8,
-   "storefront": 22,
    "derivative": 6,
    "explicit": 5
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-dan-decarlo",
  "cohort": "billy-ireland",
@@ -3544,7 +3530,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1363,
   "datasetsPresent": 7,

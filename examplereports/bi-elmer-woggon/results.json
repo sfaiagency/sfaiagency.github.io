@@ -566,12 +566,12 @@
     "longformHits": 227,
     "longformRatio": 0.348,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 29,
+     "laion1b-nolang": 100,
      "laion2b-en": 124,
      "laion2b-multi": 173,
-     "obelics": 226,
-     "laion1b-nolang": 100,
-     "c4-en": 1
+     "obelics": 226
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -584,9 +584,9 @@
     "longformRatio": 0.333,
     "perDataset": {
      "coyo700m": 12,
+     "laion1b-nolang": 7,
      "laion2b-en": 22,
      "laion2b-multi": 9,
-     "laion1b-nolang": 7,
      "obelics": 25
     },
     "reason": "mass-market franchise, not this subject's own work"
@@ -607,7 +607,7 @@
    "unverified": 5,
    "merchandise": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-elmer-woggon",
  "cohort": "billy-ireland",
@@ -620,7 +620,7 @@
   "estimatedMonthlyUsers": 1209000,
   "estimatedTotalGenerations": 241800000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 8,
   "datasetsPresent": 1,

@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1010,20 +1010,6 @@
      }
     },
     {
-     "text": "The Course of Hannibal Over the Alps Ascertained, Volume 1 by John Whitaker",
-     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/1cc/154258655.jpeg",
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": 6.264473631745204e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "York Gate Garden in de buurt van Leeds. Foto door John Whitaker / The Stone Gard\u2026 York Gate Garden near Leeds. Photo by John Whitaker / The Stone Garden.",
      "imageUrl": "https://i.pinimg.com/236x/a6/b2/f3/a6b2f3e7181e89b2d0680f0fe4037ce5--formal-gardens-small-gardens.jpg",
      "keyword": "john whitaker",
@@ -1057,6 +1043,20 @@
      "keyword": "john whitaker",
      "tier": "namematch",
      "punsafe": 0.0016259551048278809,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Course of Hannibal Over the Alps Ascertained, Volume 1 by John Whitaker",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/1cc/154258655.jpeg",
+     "keyword": "john whitaker",
+     "tier": "namematch",
+     "punsafe": 6.264473631745204e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1234,11 +1234,11 @@
      }
     },
     {
-     "text": "The History of Manchester. in Four Books. by John Whitaker ... Volume 1 of 2",
-     "imageUrl": "https://images.eurolivre.fr/buch/cover/MTE3MDA5NzQ2NDtodHRwOi8vaW1hZ2VzLmJhcm5lc2FuZG5vYmxlLmNvbS9pbWFnZXMvNzAwNzAwMDAvNzAwNzEyNjUuSlBH.JPG",
+     "text": "(C)John Whitaker No Fill Turnout Rug - R034",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/112320056504_/CJohn-Whitaker-No-Fill-Turnout-Rug-R034.jpg",
      "keyword": "john whitaker",
      "tier": "namematch",
-     "punsafe": 9.307735308539122e-05,
+     "punsafe": 0.00013369321823120117,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1248,11 +1248,11 @@
      }
     },
     {
-     "text": "(C)John Whitaker No Fill Turnout Rug - R034",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/112320056504_/CJohn-Whitaker-No-Fill-Turnout-Rug-R034.jpg",
+     "text": "The History of Manchester. in Four Books. by John Whitaker ... Volume 1 of 2",
+     "imageUrl": "https://images.eurolivre.fr/buch/cover/MTE3MDA5NzQ2NDtodHRwOi8vaW1hZ2VzLmJhcm5lc2FuZG5vYmxlLmNvbS9pbWFnZXMvNzAwNzAwMDAvNzAwNzEyNjUuSlBH.JPG",
      "keyword": "john whitaker",
      "tier": "namematch",
-     "punsafe": 0.00013369321823120117,
+     "punsafe": 9.307735308539122e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1267,10 +1267,10 @@
     "\"B:  The melody of \"\"The Robin's Petition\"\" by John Whitaker 1814, from Davidson's Universal Melodist, 1856, p. 276 (original key G, transposed to D)\"",
     "On the Keeping of Bees ebook by John Whitaker",
     "The course of Hannibal over the Alps ascertained. By John Whitaker, ... In two volumes. ... Volume 2 of 2 - John Whitaker",
-    "The Course of Hannibal Over the Alps Ascertained, Volume 1 by John Whitaker",
     "York Gate Garden in de buurt van Leeds. Foto door John Whitaker / The Stone Gard\u2026 York Gate Garden near Leeds. Photo by John Whitaker / The Stone Garden.",
     "JWS054 - Argento Showjumping Saddle (Model used by John Whitaker)",
     "Handicapping Trainers By John Whitaker",
+    "The Course of Hannibal Over the Alps Ascertained, Volume 1 by John Whitaker",
     "The Real Origin of Government. by John Whitaker, ...",
     "The course of Hannibal over the Alps ascertained. By John Whitaker, ... In two volumes. ... Volume 1 of 2 - John Whitaker"
    ],
@@ -1354,11 +1354,11 @@
    "totalIncludingLowConfidence": 396,
    "rows": [
     {
-     "text": "Walking the Dog by John Whitaker",
-     "imageUrl": "https://bakedvanilla.s3.eu-west-1.amazonaws.com/20180807000019/13163_Whitaker-346x450.jpg",
+     "text": "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
+     "imageUrl": "https://dxqn7p4scykcf.cloudfront.net/wp-content/uploads/sites/16/2020/04/mrs_peter_la_touche_s.jpg",
      "keyword": "john whitaker",
      "tier": "namematch",
-     "punsafe": 6.705558462272165e-06,
+     "punsafe": 8.504543075105175e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1382,11 +1382,11 @@
      }
     },
     {
-     "text": "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
-     "imageUrl": "https://dxqn7p4scykcf.cloudfront.net/wp-content/uploads/sites/16/2020/04/mrs_peter_la_touche_s.jpg",
+     "text": "Walking the Dog by John Whitaker",
+     "imageUrl": "https://bakedvanilla.s3.eu-west-1.amazonaws.com/20180807000019/13163_Whitaker-346x450.jpg",
      "keyword": "john whitaker",
      "tier": "namematch",
-     "punsafe": 8.504543075105175e-05,
+     "punsafe": 6.705558462272165e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1453,9 +1453,9 @@
     }
    ],
    "samples": [
-    "Walking the Dog by John Whitaker",
-    "The history of Manchester. In four books. By John Whitaker. Volume 2 of 2 - John Whitaker",
     "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
+    "The history of Manchester. In four books. By John Whitaker. Volume 2 of 2 - John Whitaker",
+    "Walking the Dog by John Whitaker",
     "The history of Manchester. In four books. By John Whitaker. Volume 2 of 2 - John Whitaker",
     "York Gate Garden near Leeds. Photo by John Whitaker. Via ...",
     "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
@@ -1485,6 +1485,34 @@
    "totalIncludingLowConfidence": 865,
    "rows": [
     {
+     "text": "Foal Stranded On Highway Gets Rescued By Passers-by\n\n\nJohn Whitaker is one of the UK`s greatest horse riders of all time, along with his horse Milton the combination won over one million pounds. John Whitaker represented Great Britain at many major championships and tournaments. John Whitaker is par",
+     "imageUrl": null,
+     "keyword": "john whitaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sunnyvale units handled the first and second alarm, while Sunnyvale called on some Mutual Aid units for station coverage.\n\nSupport Unit 1 was released a little after 4:30 P.M.\n-- Report and photos submitted by Bruce Dembecki\nPosted by John Whitaker - The Blog Master at 3:00 PM",
+     "imageUrl": null,
+     "keyword": "john whitaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Sprinklers had been activated and there was a large amount of water on at least two floors of the dorms. The flooding was located on the 1st and 2nd floors of Tower \"B\" in the new dorm village complex. Bruce Dembecki responded with Fire Support 2 and was met on scene by John Whitaker.\n\nUpon arrival,",
      "imageUrl": null,
      "keyword": "john whitaker",
@@ -1513,35 +1541,7 @@
      }
     },
     {
-     "text": "Foal Stranded On Highway Gets Rescued By Passers-by\n\n\nJohn Whitaker is one of the UK`s greatest horse riders of all time, along with his horse Milton the combination won over one million pounds. John Whitaker represented Great Britain at many major championships and tournaments. John Whitaker is par",
-     "imageUrl": null,
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Bob Popovics releases a schoolie bass on the shores of Marthas Vineyard. photo by Al Q\n\nCongratulations to our friend, Mitch Orquiola who landed his first striped bass off the surf on a lucky craft lure. Photo by Mitch Orquiola\n\nok, so I am laying in bed, right. and at 7:12am I get a text, \u201c25 lb. s",
-     "imageUrl": null,
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Sunnyvale units handled the first and second alarm, while Sunnyvale called on some Mutual Aid units for station coverage.\n\nSupport Unit 1 was released a little after 4:30 P.M.\n-- Report and photos submitted by Bruce Dembecki\nPosted by John Whitaker - The Blog Master at 3:00 PM",
      "imageUrl": null,
      "keyword": "john whitaker",
      "tier": "namematch",
@@ -1597,20 +1597,6 @@
      }
     },
     {
-     "text": "Photo by NATHANIEL WEATHERSBY\nJohn Whitaker holds the burned cash box found on Exit 24 that was taken from the crime scene at Pik & Pak.\n\nAfter a recess and much discussion between the two sides and Circuit Court Judge David Strong, Ewell\u2019s testimony was allowed.\n\nEwell said that on a drive to Brook",
-     "imageUrl": null,
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Loan and Mercantile Building in Thomas Burns St, Dunedin. Photo by Gregor Richardson.\nPlans to breathe new life into a historic Dunedin harbourside building have been put on hold because of an Environment Court appeal.\n\nNearby harbourside businesses had opposed the consent on the basis the area ",
      "imageUrl": null,
      "keyword": "john whitaker",
@@ -1653,6 +1639,20 @@
      }
     },
     {
+     "text": "Photo by NATHANIEL WEATHERSBY\nJohn Whitaker holds the burned cash box found on Exit 24 that was taken from the crime scene at Pik & Pak.\n\nAfter a recess and much discussion between the two sides and Circuit Court Judge David Strong, Ewell\u2019s testimony was allowed.\n\nEwell said that on a drive to Brook",
+     "imageUrl": null,
+     "keyword": "john whitaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Please support our book restoration project by becoming a Forgotten Books member. Back. The Course of Hannibal Over the Alps Ascertained by John Whitaker.\n\nSoftware An illustration of two photographs. Full text of \"The course of Hannibal over the Alps ascertained\". Search the history of over billion",
      "imageUrl": null,
      "keyword": "john whitaker",
@@ -1667,7 +1667,7 @@
      }
     },
     {
-     "text": "Also known as \u201cMarius Silver Jubilee\u201d was foaled in 1977 and he passed in 1999. He was one of the most successful show jumping horse during his time. He was mostly ridden by John Whitaker. Milton was a grey gelding and he stood 66 inches and 168 cm. Both paternal and maternal sides come from a line ",
+     "text": "Posted by John Whitaker - The Blog Master at 8:45 AM",
      "imageUrl": null,
      "keyword": "john whitaker",
      "tier": "namematch",
@@ -1681,7 +1681,7 @@
      }
     },
     {
-     "text": "Posted by John Whitaker - The Blog Master at 8:45 AM",
+     "text": "Also known as \u201cMarius Silver Jubilee\u201d was foaled in 1977 and he passed in 1999. He was one of the most successful show jumping horse during his time. He was mostly ridden by John Whitaker. Milton was a grey gelding and he stood 66 inches and 168 cm. Both paternal and maternal sides come from a line ",
      "imageUrl": null,
      "keyword": "john whitaker",
      "tier": "namematch",
@@ -1821,6 +1821,20 @@
      }
     },
     {
+     "text": "A racially mixed workforce in an Alabama poultry plant defeated management\u2019s attempts to exploit their diversity, turning aside the divide-and-conquer tactics and voting in the Retail Wholesale union. Photo: John Whitaker.\n\nA racially mixed workforce in an Alabama poultry plant defeated management\u2019s",
+     "imageUrl": null,
+     "keyword": "john whitaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Labour leader David Shearer visits Hillside workshops on Monday. Photo by Craig Baxter.\nLabour Party leader David Shearer has called for a bit of \"patriotism\" to save New Zealand's manufacturing industry, and a Dunedin businessman said if Hillside closed, it would be the end of certain subcontractin",
      "imageUrl": null,
      "keyword": "john whitaker",
@@ -1836,20 +1850,6 @@
     },
     {
      "text": "Posted by John Whitaker - The Blog Master at 8:22 PM\n\n\nOn Tuesday, Aug. 24, Sunnyvale firefighters responded to a full first alarm on a day of record hot temperatures in the Silicon Valley. Bob Gundrum responded to the incident to provide rehydration services and was later joined by Jerry Haag in Su",
-     "imageUrl": null,
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A racially mixed workforce in an Alabama poultry plant defeated management\u2019s attempts to exploit their diversity, turning aside the divide-and-conquer tactics and voting in the Retail Wholesale union. Photo: John Whitaker.\n\nA racially mixed workforce in an Alabama poultry plant defeated management\u2019s",
      "imageUrl": null,
      "keyword": "john whitaker",
      "tier": "namematch",
@@ -1892,16 +1892,16 @@
     }
    ],
    "samples": [
+    "Foal Stranded On Highway Gets Rescued By Passers-by\n\n\nJohn Whitaker is one of the UK`s greatest horse riders of all time, along with his horse Milton the combination won over one million pounds. John Whitaker represented Great Britain at many major championships and tournaments. John Whitaker is par",
+    "Sunnyvale units handled the first and second alarm, while Sunnyvale called on some Mutual Aid units for station coverage.\n\nSupport Unit 1 was released a little after 4:30 P.M.\n-- Report and photos submitted by Bruce Dembecki\nPosted by John Whitaker - The Blog Master at 3:00 PM",
     "Sprinklers had been activated and there was a large amount of water on at least two floors of the dorms. The flooding was located on the 1st and 2nd floors of Tower \"B\" in the new dorm village complex. Bruce Dembecki responded with Fire Support 2 and was met on scene by John Whitaker.\n\nUpon arrival,",
     "\u201cThe Ruin\u201d Photo by Dylan Connell\n\nAfter collecting stories, creating a script, and weeks of rehearsals and construction Heart/Roots: Wabaunsee County is ready for opening night. The curtain will rise \u2013 so to speak \u2013 at the Ruin on June 17 & 18. Enjoy an evening of authentic stories at the new and u",
-    "Foal Stranded On Highway Gets Rescued By Passers-by\n\n\nJohn Whitaker is one of the UK`s greatest horse riders of all time, along with his horse Milton the combination won over one million pounds. John Whitaker represented Great Britain at many major championships and tournaments. John Whitaker is par",
     "Bob Popovics releases a schoolie bass on the shores of Marthas Vineyard. photo by Al Q\n\nCongratulations to our friend, Mitch Orquiola who landed his first striped bass off the surf on a lucky craft lure. Photo by Mitch Orquiola\n\nok, so I am laying in bed, right. and at 7:12am I get a text, \u201c25 lb. s",
-    "Sunnyvale units handled the first and second alarm, while Sunnyvale called on some Mutual Aid units for station coverage.\n\nSupport Unit 1 was released a little after 4:30 P.M.\n-- Report and photos submitted by Bruce Dembecki\nPosted by John Whitaker - The Blog Master at 3:00 PM",
     "Posted by John Whitaker - The Blog Master at 3:09 AM",
     "Posted by John Whitaker - The Blog Master at 2:29 PM",
     "The second Mill Law offspring is Bradley Law ridden by Michael Owen. Bred by his owner Jane Jennings, his dam is of unknown breeding.\n\nThe final British bred entrant is Alexander Bragg\u2019s second ride Redpath Ransom. He was bred by Adelle Brabham and is by John Whitaker\u2019s former international showjump",
-    "Photo by NATHANIEL WEATHERSBY\nJohn Whitaker holds the burned cash box found on Exit 24 that was taken from the crime scene at Pik & Pak.\n\nAfter a recess and much discussion between the two sides and Circuit Court Judge David Strong, Ewell\u2019s testimony was allowed.\n\nEwell said that on a drive to Brook",
-    "The Loan and Mercantile Building in Thomas Burns St, Dunedin. Photo by Gregor Richardson.\nPlans to breathe new life into a historic Dunedin harbourside building have been put on hold because of an Environment Court appeal.\n\nNearby harbourside businesses had opposed the consent on the basis the area "
+    "The Loan and Mercantile Building in Thomas Burns St, Dunedin. Photo by Gregor Richardson.\nPlans to breathe new life into a historic Dunedin harbourside building have been put on hold because of an Environment Court appeal.\n\nNearby harbourside businesses had opposed the consent on the basis the area ",
+    "2007 Year-end Response Totals are now available on line. Thanks to FASCV member Bob Gundrum for preparing the information. Click on the following links for the data:\n\nPosted by John Whitaker - The Blog Master at 3:32 PM\n\nAttendees are advised to bring folding chairs as we will have to hold our meeti"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1972,13 +1972,13 @@
     "longformHits": 873,
     "longformRatio": 0.262,
     "perDataset": {
+     "c4-en": 6,
      "coyo700m": 399,
      "laion1b-nolang": 396,
      "laion2b-en": 1446,
      "laion2b-multi": 223,
      "obelics": 865,
-     "pile": 2,
-     "c4-en": 6
+     "pile": 2
     },
     "reason": null
    }
@@ -1994,14 +1994,14 @@
   },
   "evidenceShown": 62,
   "evidenceWithheld": {
-   "person_photo": 408,
-   "unverified": 2323,
-   "storefront": 55,
-   "unrelated": 17,
+   "unverified": 2305,
+   "person_photo": 404,
+   "storefront": 77,
    "merchandise": 17,
+   "unrelated": 17,
    "derivative": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-john-whitaker",
  "cohort": "billy-ireland",
@@ -2014,7 +2014,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 3337,
   "datasetsPresent": 7,

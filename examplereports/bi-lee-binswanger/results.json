@@ -213,6 +213,17 @@
    ]
   },
   {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
    "name": "IDEFICS-9B-Instruct",
    "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
@@ -222,17 +233,6 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "PixArt-\u03b1",
-   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "Efficient transformer-based text-to-image model.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe"
    ]
   },
   {
@@ -261,17 +261,6 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
-   "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "InternViT-6B-448px-V1-5",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
    "isMajor": false,
@@ -294,6 +283,17 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -762,8 +762,8 @@
     "longformHits": 4,
     "longformRatio": 0.333,
     "perDataset": {
-     "laion2b-en": 3,
      "laion1b-nolang": 5,
+     "laion2b-en": 3,
      "obelics": 3,
      "pile": 1
     },
@@ -781,11 +781,11 @@
   },
   "evidenceShown": 0,
   "evidenceWithheld": {
-   "unrelated": 3,
    "unverified": 7,
-   "person_photo": 2
+   "person_photo": 2,
+   "unrelated": 3
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-lee-binswanger",
  "cohort": "billy-ireland",
@@ -798,7 +798,7 @@
   "estimatedMonthlyUsers": 24569000,
   "estimatedTotalGenerations": 4913800000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 12,
   "datasetsPresent": 4,

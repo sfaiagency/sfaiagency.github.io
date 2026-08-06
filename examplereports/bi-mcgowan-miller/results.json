@@ -213,18 +213,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B-Instruct",
-   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "PixArt-\u03b1",
    "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
    "isMajor": false,
@@ -236,12 +224,12 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
@@ -258,6 +246,18 @@
     "laion/relaion2B-en-research-safe",
     "laion/relaion2B-multi-research-safe",
     "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1082,10 +1082,10 @@
     "longformHits": 7,
     "longformRatio": 0.241,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 6,
      "laion2b-en": 16,
-     "obelics": 6,
-     "c4-en": 1
+     "obelics": 6
     },
     "reason": null
    },
@@ -1097,13 +1097,13 @@
     "longformHits": 403,
     "longformRatio": 0.342,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 164,
+     "laion1b-nolang": 43,
      "laion2b-en": 541,
      "laion2b-multi": 26,
-     "laion1b-nolang": 43,
      "obelics": 398,
-     "pile": 1,
-     "c4-en": 4
+     "pile": 1
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -1136,7 +1136,7 @@
    "unverified": 17,
    "merchandise": 11
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-mcgowan-miller",
  "cohort": "billy-ireland",
@@ -1149,7 +1149,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 29,
   "datasetsPresent": 4,

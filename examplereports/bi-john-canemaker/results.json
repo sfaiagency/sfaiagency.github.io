@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -913,6 +913,76 @@
     },
     {
      "text": "the art and flair of mary blair by john canemaker",
+     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-5.jpg",
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "the art and flair of mary blair by john canemaker",
+     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-4.jpg",
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair2_1024x.jpg?v=1506020978",
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair1_1024x.jpg?v=1506020978",
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "the art and flair of mary blair by john canemaker",
+     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-3.jpg",
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "the art and flair of mary blair by john canemaker",
      "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-2.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -927,7 +997,7 @@
     },
     {
      "text": "the art and flair of mary blair by john canemaker",
-     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-5.jpg",
+     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-masthead.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
      "punsafe": null,
@@ -968,62 +1038,6 @@
      }
     },
     {
-     "text": "the art and flair of mary blair by john canemaker",
-     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-4.jpg",
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair1_1024x.jpg?v=1506020978",
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair2_1024x.jpg?v=1506020978",
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "the art and flair of mary blair by john canemaker",
-     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-3.jpg",
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair3_1024x.jpg?v=1506020978",
      "keyword": "john canemaker",
@@ -1040,20 +1054,6 @@
     {
      "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair5_1024x.jpg?v=1506020978",
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "the art and flair of mary blair by john canemaker",
-     "imageUrl": "https://randypreising.com/wp-content/uploads/2019/06/art-and-flair-of-mary-blair-masthead.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
      "punsafe": null,
@@ -1099,12 +1099,12 @@
     "the art and flair of mary blair by john canemaker",
     "the art and flair of mary blair by john canemaker",
     "The Art and Flair of Mary Blair by John Canemaker 2003",
+    "The Art and Flair of Mary Blair by John Canemaker 2003",
+    "the art and flair of mary blair by john canemaker",
     "the art and flair of mary blair by john canemaker",
     "the art and flair of mary blair by john canemaker",
     "The Art and Flair of Mary Blair by John Canemaker 2003",
-    "The Art and Flair of Mary Blair by John Canemaker 2003",
-    "the art and flair of mary blair by john canemaker",
-    "The Art and Flair of Mary Blair by John Canemaker 2003"
+    "the art and flair of mary blair by john canemaker"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1158,11 +1158,11 @@
      }
     },
     {
-     "text": "Two Guys Named Joe: Master Animation Storytellers Joe Grant and Joe Ranftby John Canemaker",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/51oxq0CZ8YL._SL500_OU02_SS160_.jpg",
+     "text": "Magic Color Flair The World of Mary Blair by John Canemaker Walt Disney Family",
+     "imageUrl": "http://waltdisneyworld.name/wp-content/pictures/Magic_Color_Flair_The_World_of_Mary_Blair_by_John_Canemaker_Walt_Disney_Family_09_mgge.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 0.0015914440155029297,
+     "punsafe": 0.002086818218231201,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1172,11 +1172,11 @@
      }
     },
     {
-     "text": "Magic Color Flair The World of Mary Blair by John Canemaker Walt Disney Family",
-     "imageUrl": "http://waltdisneyworld.name/wp-content/pictures/Magic_Color_Flair_The_World_of_Mary_Blair_by_John_Canemaker_Walt_Disney_Family_09_mgge.jpg",
+     "text": "Two Guys Named Joe: Master Animation Storytellers Joe Grant and Joe Ranftby John Canemaker",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51oxq0CZ8YL._SL500_OU02_SS160_.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 0.002086818218231201,
+     "punsafe": 0.0015914440155029297,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1242,6 +1242,20 @@
      }
     },
     {
+     "text": "Professor John Canemaker looking over storyboard drawings pinned to corkboard with students looking on.",
+     "imageUrl": "https://tisch.nyu.edu/content/dam/tisch/film-tvs/tour-shoots/Animation/storyboarding1_2.jpg",
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": 0.014485836029052734,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "\"Animation Art:Production Drawing, Chameleon by John Canemaker, watercolor on paper applied tocanvas, 12\"\" x 12\"\" ...\"",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F0%2F8%2F8%2F13088822%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "john canemaker",
@@ -1261,20 +1275,6 @@
      "keyword": "john canemaker",
      "tier": "namematch",
      "punsafe": 0.0009285211563110352,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Professor John Canemaker looking over storyboard drawings pinned to corkboard with students looking on.",
-     "imageUrl": "https://tisch.nyu.edu/content/dam/tisch/film-tvs/tour-shoots/Animation/storyboarding1_2.jpg",
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": 0.014485836029052734,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1326,11 +1326,11 @@
      }
     },
     {
-     "text": "Bestselling Comics (2008) - The Art and Flair of Mary Blair by John Canemaker - Alice In Wonderland - Mary Blair - Mirror - Pictures - Girl",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2008/470-5.jpg",
+     "text": "'The Art and Flair of Mary Blair' by John Canemaker",
+     "imageUrl": "https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2014/06/small-world-100x100.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 0.0009285211563110352,
+     "punsafe": 2.5162793463096023e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1340,11 +1340,11 @@
      }
     },
     {
-     "text": "'The Art and Flair of Mary Blair' by John Canemaker",
-     "imageUrl": "https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2014/06/small-world-100x100.jpg",
+     "text": "Bestselling Comics (2008) - The Art and Flair of Mary Blair by John Canemaker - Alice In Wonderland - Mary Blair - Mirror - Pictures - Girl",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2008/470-5.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 2.5162793463096023e-05,
+     "punsafe": 0.0009285211563110352,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1452,11 +1452,11 @@
      }
     },
     {
-     "text": "Magic Color Flair The World of Mary Blair by John Canemaker",
-     "imageUrl": "https://thumbs.ebaystatic.com/pict/1545974186844040_1.jpg",
+     "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair_800x.jpg?v=1506020978",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 1.060869726643432e-05,
+     "punsafe": 0.0009376108646392822,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1466,11 +1466,11 @@
      }
     },
     {
-     "text": "The Art and Flair of Mary Blair by John Canemaker 2003",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2217/0637/products/blair_800x.jpg?v=1506020978",
+     "text": "Magic Color Flair The World of Mary Blair by John Canemaker",
+     "imageUrl": "https://thumbs.ebaystatic.com/pict/1545974186844040_1.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 0.0009376108646392822,
+     "punsafe": 1.060869726643432e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1539,14 +1539,14 @@
    "samples": [
     "Paper Dreams: The Art and Artists of Disney Story Boardsby John Canemaker",
     "Magic Color Flair The World of Mary Blair by John Canemaker Walt Disney Family",
-    "Two Guys Named Joe: Master Animation Storytellers Joe Grant and Joe Ranftby John Canemaker",
     "Magic Color Flair The World of Mary Blair by John Canemaker Walt Disney Family",
+    "Two Guys Named Joe: Master Animation Storytellers Joe Grant and Joe Ranftby John Canemaker",
     "The Art And Flair Of Mary Blair by John Canemaker",
     "The Art and Flair of Mary Blair: An Appreciation by John Canemaker, Mary Blair, Wendy Lefkon (Editor), Roy E. Disney (Foreword by)",
     "The Art and Flair of Mary Blair: An Appreciation by John Canemaker, 9781423127444",
     "Magic Color Flair The World of Mary Blair by John Canemaker Walt Disney Family",
-    "\"Animation Art:Production Drawing, Chameleon by John Canemaker, watercolor on paper applied tocanvas, 12\"\" x 12\"\" ...\"",
-    "Bestselling Comics (2007) - Art And Flair Of Mary Blair, The by John Canemaker - Upside Down - Mirror - Alice In Wonderland"
+    "Professor John Canemaker looking over storyboard drawings pinned to corkboard with students looking on.",
+    "\"Animation Art:Production Drawing, Chameleon by John Canemaker, watercolor on paper applied tocanvas, 12\"\" x 12\"\" ...\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1596,11 +1596,11 @@
    "totalIncludingLowConfidence": 2853,
    "rows": [
     {
-     "text": "Magic Color Flair: The Art of Mary Blair: Disney by John Canemaker (Hardback, 2014)",
-     "imageUrl": "https://i.ebayimg.com/images/g/ZxgAAOSwdGFYqFQl/s-l140.jpg",
+     "text": "Walt Disney's Nine Old Men and the Art of Animation by John Canemaker (2001,...",
+     "imageUrl": "http://s.ecrater.com/stores/399340/58969f077dede_399340f.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 3.638331691036001e-05,
+     "punsafe": 0.0009860694408416748,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1610,11 +1610,11 @@
      }
     },
     {
-     "text": "Walt Disney's Nine Old Men and the Art of Animation by John Canemaker (2001,...",
-     "imageUrl": "http://s.ecrater.com/stores/399340/58969f077dede_399340f.jpg",
+     "text": "Magic Color Flair: The Art of Mary Blair: Disney by John Canemaker (Hardback, 2014)",
+     "imageUrl": "https://i.ebayimg.com/images/g/ZxgAAOSwdGFYqFQl/s-l140.jpg",
      "keyword": "john canemaker",
      "tier": "namematch",
-     "punsafe": 0.0009860694408416748,
+     "punsafe": 3.638331691036001e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1667,8 +1667,8 @@
     }
    ],
    "samples": [
-    "Magic Color Flair: The Art of Mary Blair: Disney by John Canemaker (Hardback, 2014)",
     "Walt Disney's Nine Old Men and the Art of Animation by John Canemaker (2001,...",
+    "Magic Color Flair: The Art of Mary Blair: Disney by John Canemaker (Hardback, 2014)",
     "Magic Color Flair: The World of Mary Blair by John Canemaker,http://www.amazon.com/dp/1616287934/ref=cm_sw_r_pi_dp_tAUwtb1NDVCF79BT",
     "Winsor McCay, His Life and Art by John Canemaker | 9781138578869 | Booktopia Biografie, wspomnienia",
     "walt disney s nine old men and the art of animation by john canemaker"
@@ -1781,20 +1781,6 @@
      }
     },
     {
-     "text": "When the kids and I first watched The Mysterious Geographic Explorations of Jasper Morello in 2006, I had never heard of steampunk. But when as soon as I heard the term, I knew that this is what it meant.\n\nJasper Morello is an animated short with the look of a 19th-century daguerreotype. The tone is",
-     "imageUrl": null,
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "There are numerous guides about Mary Blair, but my two favorites are The Art and Aptitude of Mary Blair: An Appreciation by John Canemaker and the photo e-book, Mary Blair\u2019s Special Flair written by Amy Novesky and illustrated by Brittney Lee.\n\nCanemaker\u2019s book is packed with photos, earning it the ",
      "imageUrl": null,
      "keyword": "john canemaker",
@@ -1809,7 +1795,7 @@
      }
     },
     {
-     "text": "Using the magic and wonder of Black Light Theatre Madcap vividly brings to life Winsor McCay\u2019s creation of a young boy\u2019s adventures. From the Golden Age of newspaper comic strips and in celebration of the 100th anniversary of Little Nemo in Slumberland, Madcap creates the surreal landscape of the Ki",
+     "text": "When the kids and I first watched The Mysterious Geographic Explorations of Jasper Morello in 2006, I had never heard of steampunk. But when as soon as I heard the term, I knew that this is what it meant.\n\nJasper Morello is an animated short with the look of a 19th-century daguerreotype. The tone is",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -1851,6 +1837,20 @@
      }
     },
     {
+     "text": "Using the magic and wonder of Black Light Theatre Madcap vividly brings to life Winsor McCay\u2019s creation of a young boy\u2019s adventures. From the Golden Age of newspaper comic strips and in celebration of the 100th anniversary of Little Nemo in Slumberland, Madcap creates the surreal landscape of the Ki",
+     "imageUrl": null,
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Among the gifts I was lucky enough to receive this year was the enormous volume Winsor McCay, His Life and Art, a much-revamped edition of a book originally published in 1987, compiled and written by John Canemaker. Everything that Canemaker publishes is worth owning; his writing is elegant, his sch",
      "imageUrl": null,
      "keyword": "john canemaker",
@@ -1879,20 +1879,6 @@
      }
     },
     {
-     "text": "Posted on Biographies and Memoirs / Book By John Canemaker / DMCA\n\nDiscover the secrets behind Fantasia, Pinocchio, Dumbo, and Bambi\u2014all through the lens of early animation's most enigmatic and fascinating character, Herman Schultheis.A technician at the Disney Studio in the late 1930s, Schultheis k",
-     "imageUrl": null,
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Eyvind Earle standing in front of the storyboard for the Walt Disney Studio short film Paul Bunyan (1958). Photo from the collection of John Canemaker.\n\nEyvind was born on April 26, 1916, to Ferdinand and Charlotte Earle. Ferdinand was working in the motion picture industry and Charlotte was a conce",
      "imageUrl": null,
      "keyword": "john canemaker",
@@ -1907,7 +1893,7 @@
      }
     },
     {
-     "text": "Mark your calendars!  Animation historian John Canemaker will celebrate Gertie the Dinosaur\u2019s 100th Birthday with a lecture and screening at the Museum of Modern Art this November 7th, 2014.\n\nIntroduced by John Canemaker with piano accompaniment by Donald Sosin\n\nTheater 3 (The Celeste Bartos Theater",
+     "text": "Posted on Biographies and Memoirs / Book By John Canemaker / DMCA\n\nDiscover the secrets behind Fantasia, Pinocchio, Dumbo, and Bambi\u2014all through the lens of early animation's most enigmatic and fascinating character, Herman Schultheis.A technician at the Disney Studio in the late 1930s, Schultheis k",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -1936,6 +1922,20 @@
     },
     {
      "text": "John Canemaker's expert commentary combines an authoritative, critical text with an enthusiastic analysis and interpretation of Blair's art and a perceptive appreciation of its contribution to the world of Disney.\n\nMagic, Color, Flair: The World of Mary Blair by John Canemaker is published by the Wa",
+     "imageUrl": null,
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mark your calendars!  Animation historian John Canemaker will celebrate Gertie the Dinosaur\u2019s 100th Birthday with a lecture and screening at the Museum of Modern Art this November 7th, 2014.\n\nIntroduced by John Canemaker with piano accompaniment by Donald Sosin\n\nTheater 3 (The Celeste Bartos Theater",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -1991,20 +1991,6 @@
      }
     },
     {
-     "text": "'The Moon and the Son' by John Canemaker.\nAnimator John Canemaker on Still Believing in the 'Magic' of Hand-Drawn Animation (Exclusive)\n\nWhen John Canemaker accepted the Oscar for Best Animated Short Film in 2006, his speech was short but sweet. But he made sure to thank the Academy for their faith ",
-     "imageUrl": null,
-     "keyword": "john canemaker",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The storyboarding process can be very time-consuming and intricate. Many large budget silent films were storyboarded but most of this material has been lost during the reduction of the studio archives during the 1970s. The creation of the storyboard is attributed to Georges M\u00e9li\u00e8s.[1] The form widel",
      "imageUrl": null,
      "keyword": "john canemaker",
@@ -2019,7 +2005,7 @@
      }
     },
     {
-     "text": "The Moon and the Son: An Imagined Conversation is a 2005 animated short film (28 minutes) written and directed by John Canemaker.\n\nJohn Canemaker's real name is John Cannizzaro Jr., and the film is the history of his troubled relationship with his perpetually angry, cruel father, John Cannizzaro Sr.",
+     "text": "'The Moon and the Son' by John Canemaker.\nAnimator John Canemaker on Still Believing in the 'Magic' of Hand-Drawn Animation (Exclusive)\n\nWhen John Canemaker accepted the Oscar for Best Animated Short Film in 2006, his speech was short but sweet. But he made sure to thank the Academy for their faith ",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -2075,6 +2061,20 @@
      }
     },
     {
+     "text": "The Moon and the Son: An Imagined Conversation is a 2005 animated short film (28 minutes) written and directed by John Canemaker.\n\nJohn Canemaker's real name is John Cannizzaro Jr., and the film is the history of his troubled relationship with his perpetually angry, cruel father, John Cannizzaro Sr.",
+     "imageUrl": null,
+     "keyword": "john canemaker",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Art and Flair of Mary Blair: An Appreciation\n\nby\nJohn Canemaker and Mary Blair\n\nFor more than a dozen years, a soft spoken, unassuming woman dominated design at The Walt Disney Studios with a joyful creativity and exuberant color palette that stamped the look of many classic Disney animated feat",
      "imageUrl": null,
      "keyword": "john canemaker",
@@ -2103,7 +2103,7 @@
      }
     },
     {
-     "text": "Continuing Tribeca\u2019s celebration of New York-based independent animators, this program features the work of John Canemaker, a preeminent animation teacher, filmmaker, author and historian, who won an Oscar\u00ae for his animated short The Moon and the Son in 2006. A selection of short films spanning Cane",
+     "text": "Before the Animation Begins by John Canemaker is a spectacular look at the inspirational and concept artists that worked at the Disney Studios. It is an extremely rich and detail-oriented history of the artists and resulting animation. Any fan of Disney animation will cherish this book.",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -2117,7 +2117,7 @@
      }
     },
     {
-     "text": "Before the Animation Begins by John Canemaker is a spectacular look at the inspirational and concept artists that worked at the Disney Studios. It is an extremely rich and detail-oriented history of the artists and resulting animation. Any fan of Disney animation will cherish this book.",
+     "text": "Continuing Tribeca\u2019s celebration of New York-based independent animators, this program features the work of John Canemaker, a preeminent animation teacher, filmmaker, author and historian, who won an Oscar\u00ae for his animated short The Moon and the Son in 2006. A selection of short films spanning Cane",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -2173,7 +2173,7 @@
      }
     },
     {
-     "text": "Panelists will include with LAIKA CEO/Lead Animator Travis Knight and Directors Anthony Stacchi & Graham Annable, and moderated by John Canemaker.\n\nScreenplay by: Irena Brignull, Adam Pava\nBased on the novel Here Be Monsters by Alan Snow\n\nA family event movie from the creators of CORALINE and PARANO",
+     "text": "Winsor McCay: The Famous Cartoonist of the N.Y. Herald and His Moving Comics, more commonly known as Little Nemo, is a 1911 silent animated short film by American cartoonist Winsor McCay. One of the earliest animated films, it was McCay's first, and featured characters from McCay's comic strip Littl",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -2187,7 +2187,7 @@
      }
     },
     {
-     "text": "Winsor McCay: The Famous Cartoonist of the N.Y. Herald and His Moving Comics, more commonly known as Little Nemo, is a 1911 silent animated short film by American cartoonist Winsor McCay. One of the earliest animated films, it was McCay's first, and featured characters from McCay's comic strip Littl",
+     "text": "Panelists will include with LAIKA CEO/Lead Animator Travis Knight and Directors Anthony Stacchi & Graham Annable, and moderated by John Canemaker.\n\nScreenplay by: Irena Brignull, Adam Pava\nBased on the novel Here Be Monsters by Alan Snow\n\nA family event movie from the creators of CORALINE and PARANO",
      "imageUrl": null,
      "keyword": "john canemaker",
      "tier": "namematch",
@@ -2208,10 +2208,10 @@
     "Thanks to an alert by John Canemaker, I know that today, Halloween 2007, is Ollie Johnston's 95th birthday.\n\nReally, what can be said about a man on such a day when he's lived so long that he's influenced millions--both professionally and personally--and it's all been said before, often by people wh",
     "The definitive biography of one of America\u2019s great comic artists, Winsor McCay (1866-1934) McCay\u2019s groundbreaking comic strips Dream of the Rarebit Fiend and Little Nemo in Slumberland, created in the first decade of the twentieth century, remain among the most brilliant examples of the art form.\n\nW",
     "Dallas, Texas - Among the highlights in Heritage Auctions\u2019 Animation Art auction Dec. 8-9 in Beverly Hills, California, will be a trove of memorabilia celebrating the 90th birthday of Mickey Mouse and the one of the largest collections of artwork by Mary Blair ever offered, many of which come direct",
-    "When the kids and I first watched The Mysterious Geographic Explorations of Jasper Morello in 2006, I had never heard of steampunk. But when as soon as I heard the term, I knew that this is what it meant.\n\nJasper Morello is an animated short with the look of a 19th-century daguerreotype. The tone is",
     "There are numerous guides about Mary Blair, but my two favorites are The Art and Aptitude of Mary Blair: An Appreciation by John Canemaker and the photo e-book, Mary Blair\u2019s Special Flair written by Amy Novesky and illustrated by Brittney Lee.\n\nCanemaker\u2019s book is packed with photos, earning it the ",
-    "Using the magic and wonder of Black Light Theatre Madcap vividly brings to life Winsor McCay\u2019s creation of a young boy\u2019s adventures. From the Golden Age of newspaper comic strips and in celebration of the 100th anniversary of Little Nemo in Slumberland, Madcap creates the surreal landscape of the Ki",
-    "A storyboard is a graphic organizer in the form of illustrations or images displayed in sequence for the purpose of pre-visualizing a motion picture, animation, motion graphic or interactive media sequence. The storyboarding process, in the form it is known today, was developed at Walt Disney Produc"
+    "When the kids and I first watched The Mysterious Geographic Explorations of Jasper Morello in 2006, I had never heard of steampunk. But when as soon as I heard the term, I knew that this is what it meant.\n\nJasper Morello is an animated short with the look of a 19th-century daguerreotype. The tone is",
+    "A storyboard is a graphic organizer in the form of illustrations or images displayed in sequence for the purpose of pre-visualizing a motion picture, animation, motion graphic or interactive media sequence. The storyboarding process, in the form it is known today, was developed at Walt Disney Produc",
+    "If you want to learn more about Mary Blair, there is a book of her work entitled The Art and Flair of Mary Blair by John Canemaker."
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2284,13 +2284,13 @@
     "longformHits": 506,
     "longformRatio": 0.656,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 46,
      "laion1b-nolang": 60,
      "laion2b-en": 141,
      "laion2b-multi": 18,
      "obelics": 503,
-     "pile": 1,
-     "c4-en": 2
+     "pile": 1
     },
     "reason": null
    },
@@ -2302,13 +2302,13 @@
     "longformHits": 3055,
     "longformRatio": 0.207,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 1966,
      "laion1b-nolang": 2294,
      "laion2b-en": 5485,
      "laion2b-multi": 1991,
      "obelics": 3034,
-     "pile": 11,
-     "c4-en": 10
+     "pile": 11
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -2320,13 +2320,13 @@
     "longformHits": 2290,
     "longformRatio": 0.516,
     "perDataset": {
+     "c4-en": 7,
      "coyo700m": 236,
      "laion1b-nolang": 499,
      "laion2b-en": 1109,
      "laion2b-multi": 308,
      "obelics": 2274,
-     "pile": 9,
-     "c4-en": 7
+     "pile": 9
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -2342,15 +2342,15 @@
   },
   "evidenceShown": 84,
   "evidenceWithheld": {
+   "unverified": 499,
    "person_photo": 133,
-   "unverified": 504,
-   "unrelated": 16,
-   "storefront": 17,
+   "unrelated": 15,
    "explicit": 2,
+   "storefront": 23,
    "derivative": 7,
    "merchandise": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-john-canemaker",
  "cohort": "billy-ireland",
@@ -2363,7 +2363,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 771,
   "datasetsPresent": 7,

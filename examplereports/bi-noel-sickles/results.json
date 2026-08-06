@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -936,11 +936,11 @@
      }
     },
     {
-     "text": "Scorchy Smith, by Noel Sickles",
-     "imageUrl": "https://www.lambiek.net/artists/image/s/sickles_n/sickles_scorchy.jpg",
+     "text": "Scorchy Smith And The Art Of Noel Sickles by Noel Sickles (2008-07-30)",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/61FD-ge%2B8ML._UX160_.jpg",
      "keyword": "scorchy smith",
      "tier": "high",
-     "punsafe": 0.0007346272468566895,
+     "punsafe": 0.0016392767429351807,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -950,11 +950,11 @@
      }
     },
     {
-     "text": "Scorchy Smith And The Art Of Noel Sickles by Noel Sickles (2008-07-30)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/61FD-ge%2B8ML._UX160_.jpg",
+     "text": "Scorchy Smith, by Noel Sickles",
+     "imageUrl": "https://www.lambiek.net/artists/image/s/sickles_n/sickles_scorchy.jpg",
      "keyword": "scorchy smith",
      "tier": "high",
-     "punsafe": 0.0016392767429351807,
+     "punsafe": 0.0007346272468566895,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1092,8 +1092,8 @@
    ],
    "samples": [
     "Noel Sickles Scorchy Smith Comic Strip Reprint book",
-    "Scorchy Smith, by Noel Sickles",
     "Scorchy Smith And The Art Of Noel Sickles by Noel Sickles (2008-07-30)",
+    "Scorchy Smith, by Noel Sickles",
     "Big Fun #1 Scorchy Smith and Captain Easy Serial- Part One by Noel Sickles 2004",
     "Noel Sickles Scorchy Smith Comic Strip Reprint book",
     "SCORCHY SMITH - Vol 2 - PARTNERS IN DANGER by Noel Sickles",
@@ -1238,11 +1238,11 @@
      }
     },
     {
-     "text": "Milton CANIFF STEVE CANYON #21 T V Show Scorchy Smith Cold War Era Jet Aviation Action Adventure Newspaper Comic Strip Reprints Kitchen Sink",
-     "imageUrl": "https://i.pinimg.com/236x/0d/9e/ce/0d9ece8fce2d1d32c73f7dd8b076769e--jet-aviation-comic-strips.jpg",
+     "text": "Original Comic Art:Comic Strip Art, Edmond Good Scorchy Smith Daily Comic Strip Original Artdated 12-29-45 (AP Features, 1945)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F8%2F7%2F6%2F2%2F18762756%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "scorchy smith",
      "tier": "high",
-     "punsafe": 0.00016313791275024414,
+     "punsafe": 0.012957006692886353,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1252,11 +1252,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Edmond Good Scorchy Smith Daily Comic Strip Original Artdated 12-29-45 (AP Features, 1945)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F8%2F7%2F6%2F2%2F18762756%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Milton CANIFF STEVE CANYON #21 T V Show Scorchy Smith Cold War Era Jet Aviation Action Adventure Newspaper Comic Strip Reprints Kitchen Sink",
+     "imageUrl": "https://i.pinimg.com/236x/0d/9e/ce/0d9ece8fce2d1d32c73f7dd8b076769e--jet-aviation-comic-strips.jpg",
      "keyword": "scorchy smith",
      "tier": "high",
-     "punsafe": 0.012957006692886353,
+     "punsafe": 0.00016313791275024414,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1313,8 +1313,8 @@
     "Scorchy Smith's Adventure Comic Strip Style Legacy",
     "Milton CANIFF STEVE CANYON #16 & Scorchy Smith Cold War Era Jet Aviation Action Adventure Newspaper Comic Strip Reprints Kitchen Sink",
     "Original Comic Art:Comic Strip Art, Edmond Good Scorchy Smith Daily Original Art dated 10-27-44 (AP Newsfeatures, 1944)....",
-    "Milton CANIFF STEVE CANYON #21 T V Show Scorchy Smith Cold War Era Jet Aviation Action Adventure Newspaper Comic Strip Reprints Kitchen Sink",
     "Original Comic Art:Comic Strip Art, Edmond Good Scorchy Smith Daily Comic Strip Original Artdated 12-29-45 (AP Features, 1945)....",
+    "Milton CANIFF STEVE CANYON #21 T V Show Scorchy Smith Cold War Era Jet Aviation Action Adventure Newspaper Comic Strip Reprints Kitchen Sink",
     "SCORCHY SMITH, ACE G-MAN#1-Australian comic book, reprints daily comic strips",
     "SCORCHY SMITH - Vol 2 - PARTNERS IN DANGER by Noel Sickles",
     "Milton CANIFF STEVE CANYON #12 & Scorchy Smith Cold War Era Jet Aviation Action Adventure Newspaper Comic Strip Reprints Kitchen Sink"
@@ -1342,20 +1342,6 @@
    "lowConfidenceCount": 132,
    "totalIncludingLowConfidence": 201,
    "rows": [
-    {
-     "text": "Most of Jack Kirby\u2019s inking was done using a brush. This is not particularly unusual as working with a brush was common for comic inkers. It had not always been so, before comic books there were comic strips and initially they were inked largely with a pen. A brush might be used to flood an area wit",
-     "imageUrl": null,
-     "keyword": "scorchy smith",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "George Tuska was a longtime comic book journeyman, coming into the industry in its first days and working for several decades at his drawing board. He drew comic books, but in his career he also drew newspaper comic strips Scorchy Smith, Buck Rogers and World's Greatest Superheroes.\n\nMy personal pre",
      "imageUrl": null,
@@ -1399,7 +1385,7 @@
      }
     },
     {
-     "text": "People generally like Hollingsworth, maybe because he was one of the first African-Americans to work in the business and surely deserves credit. I\u2019d like to point out that he was not that good a comic book artist (and did tons of sloppy and hasty jobs). But I am proud to present some of his finest s",
+     "text": "Most of Jack Kirby\u2019s inking was done using a brush. This is not particularly unusual as working with a brush was common for comic inkers. It had not always been so, before comic books there were comic strips and initially they were inked largely with a pen. A brush might be used to flood an area wit",
      "imageUrl": null,
      "keyword": "scorchy smith",
      "tier": "high",
@@ -1414,6 +1400,20 @@
     },
     {
      "text": "Scorchy Smith was an American adventure comic strip created by artist John Terry that ran from March 17, 1930 to December 30, 1961.[1]\n\nScorchy Smith was a pilot-for-hire whose initial adventures took him across America, fighting criminals and aiding damsels in distress. Later, Scorchy traveled the ",
+     "imageUrl": null,
+     "keyword": "scorchy smith",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "People generally like Hollingsworth, maybe because he was one of the first African-Americans to work in the business and surely deserves credit. I\u2019d like to point out that he was not that good a comic book artist (and did tons of sloppy and hasty jobs). But I am proud to present some of his finest s",
      "imageUrl": null,
      "keyword": "scorchy smith",
      "tier": "high",
@@ -1539,20 +1539,6 @@
      }
     },
     {
-     "text": "Johnny Hazard was an action-adventure comic strip created by cartoonist Frank Robbins for King Features Syndicate. It was published from June 5, 1944 until August 20, 1977[1] with separate storylines for the daily strip and the Sunday strip. [2] [3]\n\nAfter work in advertising, Robbins took over the ",
-     "imageUrl": null,
-     "keyword": "scorchy smith",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "This is a _CHARLIE CHAN_ SUNDAY PAGE BY ALFRED ANDRIOLA. FANTASTIC ARTWORK! This was cut from the original newspaper Sunday comics section of 1938 FIRST YEAR!. SIZE: ~11 X 15 INCHES (HALF FULL PAGE). PAPER: SOME HAVE LIGHT TANNING, A FEW HAVE SMALL ARCHIVAL REPAIRS, OTHERWISE: EXCELLENT! BRIGHT COLO",
      "imageUrl": null,
      "keyword": "scorchy smith",
@@ -1579,15 +1565,29 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Johnny Hazard was an action-adventure comic strip created by cartoonist Frank Robbins for King Features Syndicate. It was published from June 5, 1944 until August 20, 1977[1] with separate storylines for the daily strip and the Sunday strip. [2] [3]\n\nAfter work in advertising, Robbins took over the ",
+     "imageUrl": null,
+     "keyword": "scorchy smith",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "Most of Jack Kirby\u2019s inking was done using a brush. This is not particularly unusual as working with a brush was common for comic inkers. It had not always been so, before comic books there were comic strips and initially they were inked largely with a pen. A brush might be used to flood an area wit",
     "George Tuska was a longtime comic book journeyman, coming into the industry in its first days and working for several decades at his drawing board. He drew comic books, but in his career he also drew newspaper comic strips Scorchy Smith, Buck Rogers and World's Greatest Superheroes.\n\nMy personal pre",
     "Connie - 1936\nDuring the mid-1930s Connie became a science fiction strip for a while.  Note the improvement in Godwin's drawing.\n\nTarzan by Hal Foster - 1929\nThe Tarzan comic strip dated from 1929, and above is the ninth panel.  Foster's style evolved rapidly, but it's clear that from the first, dep",
     "Noel Douglas \"Bud\" Sickles (1910-1982) is perhaps best known for his 1930s work on the \"Scorchy Smith\" comic strip. Following that, he earned his keep as an illustrator. Some background is here.\n\nSickles was a very good illustrator. He could depict people, something competent illustrators of his day",
-    "People generally like Hollingsworth, maybe because he was one of the first African-Americans to work in the business and surely deserves credit. I\u2019d like to point out that he was not that good a comic book artist (and did tons of sloppy and hasty jobs). But I am proud to present some of his finest s",
+    "Most of Jack Kirby\u2019s inking was done using a brush. This is not particularly unusual as working with a brush was common for comic inkers. It had not always been so, before comic books there were comic strips and initially they were inked largely with a pen. A brush might be used to flood an area wit",
     "Scorchy Smith was an American adventure comic strip created by artist John Terry that ran from March 17, 1930 to December 30, 1961.[1]\n\nScorchy Smith was a pilot-for-hire whose initial adventures took him across America, fighting criminals and aiding damsels in distress. Later, Scorchy traveled the ",
+    "People generally like Hollingsworth, maybe because he was one of the first African-Americans to work in the business and surely deserves credit. I\u2019d like to point out that he was not that good a comic book artist (and did tons of sloppy and hasty jobs). But I am proud to present some of his finest s",
     "Johnny Hazard, the legendary aviation strip by Frank Robbins, returns to his wartime exploits with Hermes Press\u2019s Johnny Hazard, Volume One-The Newspaper Dailies: 1944-1946. After a successful stint drawing Scorchy Smith, cartoonist Frank Robbins struck out on December 5, 1944 with the adventures of",
     "Above is a slightly cropped image of a Noel Sickles (1910-1982) illustration intended for a Life magazine article during World War 2. Sickles was a hugely talented, largely self-taught draftsman who worked in the Associated Press bullpen, then drew the Scorchy Smith comic strip for three years befor",
     "There have been several incarnations of the Sandman in the past 75 years, all for DC Comics. This is the first, written by Gardner Fox and drawn by Bert Christman. It appeared in the giant  New York Worlds Fair Comics, in 1939.\n\nAccording to information I have collected online about this story, it w",
@@ -1663,12 +1663,12 @@
     "longformHits": 70,
     "longformRatio": 0.32,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 8,
+     "laion1b-nolang": 26,
      "laion2b-en": 105,
      "laion2b-multi": 10,
-     "laion1b-nolang": 26,
-     "obelics": 69,
-     "c4-en": 1
+     "obelics": 69
     },
     "reason": null
    },
@@ -1680,12 +1680,12 @@
     "longformHits": 133,
     "longformRatio": 0.568,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 12,
+     "laion1b-nolang": 17,
      "laion2b-en": 68,
      "laion2b-multi": 4,
-     "laion1b-nolang": 17,
-     "obelics": 132,
-     "c4-en": 1
+     "obelics": 132
     },
     "reason": "common-name match"
    }
@@ -1708,7 +1708,7 @@
    "merchandise": 4,
    "derivative": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-noel-sickles",
  "cohort": "billy-ireland",
@@ -1721,7 +1721,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 219,
   "datasetsPresent": 6,

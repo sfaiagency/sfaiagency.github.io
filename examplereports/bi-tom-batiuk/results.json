@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -912,50 +912,8 @@
      }
     },
     {
-     "text": "Sunday Comics | 2020, gnomes and Funky Winkerbean",
-     "imageUrl": "https://i2.wp.com/smashpages.net/wp-content/uploads/2020/07/funky-w-900x470-1.jpg?fit=900%2C469",
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "BUCKLES by David Gilbert, COMICS FOR KIDS by Bob Weber Jnr., CROCK by Bill Rechin, CURTIS by Ray Billingsley, EDGE CITY by Terry & Patty Laban, FUNKY WINKERBEAN by Tom Batiuk",
-     "imageUrl": "https://cdnmarquee.comicskingdom.com/system/blog/feature/999/4861_page3_large.png?1473279047",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press",
      "imageUrl": "http://www.kentstateuniversitypress.com/wp-content/uploads/2018/10/Batiuk_Funky8-hr.jpg",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
-     "imageUrl": "https://www.kentstateuniversitypress.com/wp-content/uploads/2019/09/Batiuk_Funky-9.jpg",
      "keyword": "tom batiuk",
      "tier": "namematch",
      "punsafe": null,
@@ -982,6 +940,20 @@
      }
     },
     {
+     "text": "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
+     "imageUrl": "https://www.kentstateuniversitypress.com/wp-content/uploads/2019/09/Batiuk_Funky-9.jpg",
+     "keyword": "tom batiuk",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns",
      "imageUrl": "https://i2.wp.com/television.laurelgreen.com/wp-content/uploads/2013/11/michael-john-hipster-guns.png?resize=640%2C359&quality=100&ssl=1",
      "keyword": "john darling",
@@ -994,16 +966,44 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Sunday Comics | 2020, gnomes and Funky Winkerbean",
+     "imageUrl": "https://i2.wp.com/smashpages.net/wp-content/uploads/2020/07/funky-w-900x470-1.jpg?fit=900%2C469",
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "BUCKLES by David Gilbert, COMICS FOR KIDS by Bob Weber Jnr., CROCK by Bill Rechin, CURTIS by Ray Billingsley, EDGE CITY by Terry & Patty Laban, FUNKY WINKERBEAN by Tom Batiuk",
+     "imageUrl": "https://cdnmarquee.comicskingdom.com/system/blog/feature/999/4861_page3_large.png?1473279047",
+     "keyword": "tom batiuk",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "From left to right: John Darling (Eli Langer), Michael Darling (Izzy Alexander) Peter Pan (Zoe Alexander), Wendy Darling (Madison Sherman), Tinker Bell (Alexa Vinner), and Nana (Josie Stein). Photo by photo by Laurie Levy Issembert.",
-    "Sunday Comics | 2020, gnomes and Funky Winkerbean",
-    "BUCKLES by David Gilbert, COMICS FOR KIDS by Bob Weber Jnr., CROCK by Bill Rechin, CURTIS by Ray Billingsley, EDGE CITY by Terry & Patty Laban, FUNKY WINKERBEAN by Tom Batiuk",
     "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press",
-    "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
     "a screencap of john darling (played by matt kane) and michael darling (played by james immekus",
-    "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns"
+    "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
+    "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns",
+    "Sunday Comics | 2020, gnomes and Funky Winkerbean",
+    "BUCKLES by David Gilbert, COMICS FOR KIDS by Bob Weber Jnr., CROCK by Bill Rechin, CURTIS by Ray Billingsley, EDGE CITY by Terry & Patty Laban, FUNKY WINKERBEAN by Tom Batiuk"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1099,20 +1099,6 @@
      }
     },
     {
-     "text": ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
-     "imageUrl": "https://photos.smugmug.com/photos/i-LPz33nC/0/XL/i-LPz33nC-XL.jpg",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.000270843505859375,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": ". John Darling, left, Carlos Tovar, both employees at Frontier Roofing System in east Denver, work on making a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
      "imageUrl": "https://mediacenter.smugmug.com/photos/i-DMrWVhh/0/XL/i-DMrWVhh-XL.jpg",
      "keyword": "john darling",
@@ -1160,6 +1146,20 @@
      "keyword": "funky winkerbean",
      "tier": "high",
      "punsafe": 0.002487003803253174,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
+     "imageUrl": "https://photos.smugmug.com/photos/i-LPz33nC/0/XL/i-LPz33nC-XL.jpg",
+     "keyword": "john darling",
+     "tier": "high",
+     "punsafe": 0.000270843505859375,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1393,20 +1393,6 @@
      }
     },
     {
-     "text": "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
-     "imageUrl": "https://www.kentstateuniversitypress.com/wp-content/uploads/2019/09/Batiuk_Funky-9-240x173.jpg",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": 0.0005979835987091064,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
      "imageUrl": "https://photos.smugmug.com/photos/i-Sw7qdgF/0/XL/i-Sw7qdgF-XL.jpg",
      "keyword": "john darling",
@@ -1511,11 +1497,11 @@
     "Walt \u0921\u093f\u091c\u093c\u094d\u0928\u0940 Screencaps - Tinker Bell, Peter Pan, Wendy Darling, John Darling & Michael Darling",
     "Ashland artist Deb Van Poolen with artwork she created that's featured in the Klamath River Fishes poster. Photo by John Darling",
     "Fundy Winkerbean, by Tom Batiuk (1977)",
-    ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
     ". John Darling, left, Carlos Tovar, both employees at Frontier Roofing System in east Denver, work on making a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
     "A detail from Ashland artist Deb Van Poolen's painting that's featured on the Klamather River Fishes poster. Photo by John Darling",
     "Roses in December - A Story of Love and Alzheimer's by Tom Batiuk - Ch",
-    "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press"
+    "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press",
+    ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1611,20 +1597,6 @@
      }
     },
     {
-     "text": "Feburary 14 funky winkerbean comic strip",
-     "imageUrl": "https://joshreads.com/images/09/08/i090823fw.jpg",
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": 0.00043824315071105957,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Complete Funky Winkerbean - Volume 2 - 1975-1977 by Tom Batiuk - 9",
      "imageUrl": "https://img-1.fruugo.com/product/0/80/76546800_0340_0340.jpg",
      "keyword": "tom batiuk",
@@ -1639,11 +1611,11 @@
      }
     },
     {
-     "text": "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
-     "imageUrl": "https://cloudimages.broadwayworld.com/upload10/884965/tn-500_nup_166602_0421.jpg",
-     "keyword": "john darling",
+     "text": "Feburary 14 funky winkerbean comic strip",
+     "imageUrl": "https://joshreads.com/images/09/08/i090823fw.jpg",
+     "keyword": "funky winkerbean",
      "tier": "high",
-     "punsafe": 0.026283353567123413,
+     "punsafe": 0.00043824315071105957,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1667,11 +1639,39 @@
      }
     },
     {
+     "text": "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
+     "imageUrl": "https://cloudimages.broadwayworld.com/upload10/884965/tn-500_nup_166602_0421.jpg",
+     "keyword": "john darling",
+     "tier": "high",
+     "punsafe": 0.026283353567123413,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Strike Four! - The Crankshaft Baseball Book by Tom Batiuk - Chuck Ayer",
      "imageUrl": "https://img-1.fruugo.com/product/0/65/75746650_0340_0340.jpg",
      "keyword": "tom batiuk",
      "tier": "namematch",
      "punsafe": 0.002031087875366211,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
+     "imageUrl": "https://www.kentstateuniversitypress.com/wp-content/uploads/2019/09/Batiuk_Funky-9-240x173.jpg",
+     "keyword": "tom batiuk",
+     "tier": "namematch",
+     "punsafe": 0.0005979835987091064,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1737,20 +1737,6 @@
      }
     },
     {
-     "text": "Funky Winkerbean - Free Comics - Comic Strips - Online Comics",
-     "imageUrl": "https://comics.ganneff.de/2006.10.31/Ruthe-2006.10.31.jpg",
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": 0.005640804767608643,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Complete Funky Winkerbean by Tom Batiuk",
      "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/930/210767655.jpeg",
      "keyword": "tom batiuk",
@@ -1763,19 +1749,33 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Funky Winkerbean - Free Comics - Comic Strips - Online Comics",
+     "imageUrl": "https://comics.ganneff.de/2006.10.31/Ruthe-2006.10.31.jpg",
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": 0.005640804767608643,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, Taylor Louderman as Wendy Darling, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
-    "Feburary 14 funky winkerbean comic strip",
     "The Complete Funky Winkerbean - Volume 2 - 1975-1977 by Tom Batiuk - 9",
-    "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
+    "Feburary 14 funky winkerbean comic strip",
     "Prelude - Lisa's Story Begins by Tom Batiuk - 9781606353240 Book",
+    "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)",
     "Strike Four! - The Crankshaft Baseball Book by Tom Batiuk - Chuck Ayer",
+    "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
     "Lot of Five Funky Winkerbean Reprint Books by Tom Batiuk \u2013 MINT - SCARCE?",
     "Prelude - Lisa's Story Begins by Tom Batiuk - 9781606353233 Book",
-    "Delphi Borich (Wendy Darling), S\u00e9amus Gailor (Michael Darling), Matthew Caraccioli (John Darling), and Troy Hussmann (Peter Pan) in PETER PAN rehearsals. Photo by Brenna Merritt.",
-    "PETER PAN LIVE! -- Dress Rehearsal -- Pictured: (l-r) Allison Williams as Peter Pan, Taylor Louderman as Wendy Darling, John Allyn as Michael Darling, Jake Lucas as John Darling -- (Photo by: Virginia Sherwood/NBC)"
+    "Delphi Borich (Wendy Darling), S\u00e9amus Gailor (Michael Darling), Matthew Caraccioli (John Darling), and Troy Hussmann (Peter Pan) in PETER PAN rehearsals. Photo by Brenna Merritt."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1801,20 +1801,6 @@
    "totalIncludingLowConfidence": 44990,
    "rows": [
     {
-     "text": "Lisa's Story: The Other Shoe\n\nA story from the comic strips that will make you laugh and cry. Originally a \u201cgag-a-day\u201d comic strip that portrayed life in high school, Funky Winkerbean evolved into a mature series of real-life stories. In 1999, Lisa Moore, one of Funky\u2019s friends and a main character,",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Greg Bear wrote a book, more than one. (Photo by Geoffrey A. Landis)\n\nPolish up your geek glasses people, I\u2019ve just spent a month driving close to 9,000 miles with my husband and we\u2019re rolling it into high gear.\n\nFortunately for me, jocks need nerds and my husband understands my need to geek. He hel",
      "imageUrl": null,
      "keyword": "funky winkerbean",
@@ -1830,6 +1816,34 @@
     },
     {
      "text": "Funky Winklebean - One of a Kind Disney Cartoon Character\n\nThe Funky Winkerbean, also known as simply the Winkerbean, is an American cartoon character that was created by Bill Finger and Steve Ditchendorf in Marvel Comics' popular comic book series, The Fantastic Four. The character was first introd",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today! The latest installment of the Funkyverse\u2019s most exciting new game show, brought to you by Crankshaft!\n\nEND_OF_DOCUMENT_TOKEN_TO_BE_REPLACED\n\nA Stroke of Luck\n\nThis Sunday strip is, I guess, supposed to be ironic. Jessica still doesn\u2019t know the kind of man her father really was. Although Jess ",
+     "imageUrl": null,
+     "keyword": "john darling",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lisa's Story: The Other Shoe\n\nA story from the comic strips that will make you laugh and cry. Originally a \u201cgag-a-day\u201d comic strip that portrayed life in high school, Funky Winkerbean evolved into a mature series of real-life stories. In 1999, Lisa Moore, one of Funky\u2019s friends and a main character,",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -1885,10 +1899,10 @@
      }
     },
     {
-     "text": "Today! The latest installment of the Funkyverse\u2019s most exciting new game show, brought to you by Crankshaft!\n\nEND_OF_DOCUMENT_TOKEN_TO_BE_REPLACED\n\nA Stroke of Luck\n\nThis Sunday strip is, I guess, supposed to be ironic. Jessica still doesn\u2019t know the kind of man her father really was. Although Jess ",
+     "text": "A tip of the SoSF turban to Comic Book Harriet, who never fails to spin enlightening and entertaining gold from Tom Batiuk\u2019s dreary dross.",
      "imageUrl": null,
-     "keyword": "john darling",
-     "tier": "high",
+     "keyword": "tom batiuk",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1913,77 +1927,7 @@
      }
     },
     {
-     "text": "Roger Bollen was the writer and illustrator of the \"Animal Crackers\" syndicated comic strip, artist of dozens of children's books and producer of television shows.\n\nBollen, who lived in Chagrin Falls, was a prolific creator who started out in newspaper comics strips and went on to illustrate more th",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A tip of the SoSF turban to Comic Book Harriet, who never fails to spin enlightening and entertaining gold from Tom Batiuk\u2019s dreary dross.",
-     "imageUrl": null,
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "This fruit-flavored breakfast cereal produced by Ralston Cereals in 1988 was based on the assortment of newspaper comic strips featured on the box.Some of the characters that appeared in the Morning Funnies were Dennis the Menace, the Family Circus family, Popeye, Beetle Baily, Luann, Hagar the Horr",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I have never been more impressed with the tone of a Muppet comic book than I was with Muppet Peter Pan. Normally, I attribute the tone to the writer of the comic, but this time I simply have to acknowledge that both Grace and Amy\u2019s work adds to the exceptional tone of Muppet Peter Pan. Everything fe",
-     "imageUrl": null,
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Band of seniors at the Bedside Manor retirement home, from the comic strip Funky Winkerbean.\n\nThey are led by former Westview High school band fuhrer, Harry L. Dinkle. He seems to have mellowed somewhat, but he still makes the seniors go out and sell candy as a fundraiser. They first appeared in Dec",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Smiling (and smirking) in spite of their impending doom.[1]\n\nIf Coleman Francis were to have drawn a comic strip, it would go something like this. No, really.\n\nIn the beginning, namely, The Seventies, this was a simple gag-per-day strip set at a High School in \"Westview,\" a nondescript suburb[2] of ",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2025,49 +1969,7 @@
      }
     },
     {
-     "text": "Black Squirrel Books\nLisa's Story: Other Shoe SC by (W/A/C) Tom Batiuk\nOriginally a gag-a-day comic strip that portrayed life in high school, Funky Winkerbean has evolved into a mature series of real-life stories examining such social issues as teen dating abuse, teen pregnancy, teen suicide, violen",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Since its newspaper debut in 1972, the comic strip Funky Winkerbean has chronicled the journey through life of a group of students from the fictitious West View High School. This twelfth volume presents strips from 2005, 2006, and 2007.\n\nMixing humor with serious, real-life issues, this volume of Th",
-     "imageUrl": null,
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "As regular ComicsAlliance readers know all too well by now, I have an all-consuming obsession with Tom Batiuk's Funky Winkerbean, a newspaper comic strip that is usually devoted to chronicling the various miseries of its characters. In last month's strips, a joke about the announcement of DC's relau",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I\u2019ve been writing for the \u201cfunnies\u201d - newspaper comic strips - for a few years now, assisting several different clients with scripts, plots and gags. It\u2019s challenging, enjoyable work and I think I\u2019ve gotten pretty good at it. However, every morning, I read a week\u2019s worth of Bill Watterson\u2019s The Comp",
      "imageUrl": null,
      "keyword": "tom batiuk",
      "tier": "namematch",
@@ -2109,49 +2011,105 @@
      }
     },
     {
+     "text": "Roger Bollen was the writer and illustrator of the \"Animal Crackers\" syndicated comic strip, artist of dozens of children's books and producer of television shows.\n\nBollen, who lived in Chagrin Falls, was a prolific creator who started out in newspaper comics strips and went on to illustrate more th",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This fruit-flavored breakfast cereal produced by Ralston Cereals in 1988 was based on the assortment of newspaper comic strips featured on the box.Some of the characters that appeared in the Morning Funnies were Dennis the Menace, the Family Circus family, Popeye, Beetle Baily, Luann, Hagar the Horr",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Smiling (and smirking) in spite of their impending doom.[1]\n\nIf Coleman Francis were to have drawn a comic strip, it would go something like this. No, really.\n\nIn the beginning, namely, The Seventies, this was a simple gag-per-day strip set at a High School in \"Westview,\" a nondescript suburb[2] of ",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I have never been more impressed with the tone of a Muppet comic book than I was with Muppet Peter Pan. Normally, I attribute the tone to the writer of the comic, but this time I simply have to acknowledge that both Grace and Amy\u2019s work adds to the exceptional tone of Muppet Peter Pan. Everything fe",
+     "imageUrl": null,
+     "keyword": "john darling",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Black Squirrel Books\nLisa's Story: Other Shoe SC by (W/A/C) Tom Batiuk\nOriginally a gag-a-day comic strip that portrayed life in high school, Funky Winkerbean has evolved into a mature series of real-life stories examining such social issues as teen dating abuse, teen pregnancy, teen suicide, violen",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "As regular ComicsAlliance readers know all too well by now, I have an all-consuming obsession with Tom Batiuk's Funky Winkerbean, a newspaper comic strip that is usually devoted to chronicling the various miseries of its characters. In last month's strips, a joke about the announcement of DC's relau",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I\u2019ve been writing for the \u201cfunnies\u201d - newspaper comic strips - for a few years now, assisting several different clients with scripts, plots and gags. It\u2019s challenging, enjoyable work and I think I\u2019ve gotten pretty good at it. However, every morning, I read a week\u2019s worth of Bill Watterson\u2019s The Comp",
+     "imageUrl": null,
+     "keyword": "tom batiuk",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Unlike CA Senior Writer Chris Sims, who steadfastly scours the funny pages each month for his Funky Winkerbean/Crankshaft chronicle, Funkywatch (to say nothing of his inspiration, Josh Fruhlinger at the daily Comics Curmudgeon blog), there's a good chance you don't indulge in traditional comic strip",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "You know who else is having a dismal season?  A comic strip called Funky Winkerbean.  Of course, this is the normal state of this strip, so this isn\u2019t news to anyone.\n\nToday\u2019s strip illustrates\u2013or rather, doesn\u2019t illustrate\u2013one of the many problems this strip parades like virtues: people talking abo",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "There are, as you might guess because you\u2019re reading these words on a website called \u201cThe Comics Curmudgeon,\u201d a number of things that irritate me about the comic strip Blondie, and one of them is that we have been repeatedly told that Dagwood\u2019s job title is \u201coffice manager,\u201d despite the fact that he",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Crankshaft\", created by Tom Batiuk and drawn by Dan Davis, first launched in 1987 and follows namesake character Ed Crankshaft, who is an irritable former professional baseball player turned school bus driver. The strip documents his hilariously grouchy attitude toward the mundane, whether he's cle",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2179,7 +2137,7 @@
      }
     },
     {
-     "text": "BY TOM BATIUK AND DAN DAVIS\nClick image to rotate through samples.\n\nHumor. Drama. Real-life stories. In his popular comic strip Crankshaft, cartoonist Tom Batiuk has created a cast of characters so real that fans are compelled to follow their adventures.\n\nA former minor league baseball pitcher, the ",
+     "text": "\"Crankshaft\", created by Tom Batiuk and drawn by Dan Davis, first launched in 1987 and follows namesake character Ed Crankshaft, who is an irritable former professional baseball player turned school bus driver. The strip documents his hilariously grouchy attitude toward the mundane, whether he's cle",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2207,9 +2165,9 @@
      }
     },
     {
-     "text": "This week\u2019s \u201cRhymes With Orange\u201d comic strip hosted a guest artist! Now through Sunday, Susan Camilleri-Konar is taking over Hilary Price\u2019s strip to bring us some of her cartoons. Rina Piccolo (\u201cTina\u2019s Groove\u201d) wrote about Sausan\u2019s guest spot on her blog.\n\nDavid Reddick (\u201cIntelligent Life\u201d) will mod",
+     "text": "Mark Rake-Marona as Hook and John Miller as Smee.\nPhotos by Kat Dollarhide.\nPublished in The News Trivune, Dec. 2, 2011\n\nThe musical \u201cPeter Pan\u201d appeals to children of all ages and to adults who want to recapture the wonder of childhood, if only for a couple of hours. Tacoma Musical Playhouse caters",
      "imageUrl": null,
-     "keyword": "funky winkerbean",
+     "keyword": "john darling",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2235,9 +2193,37 @@
      }
     },
     {
-     "text": "Mark Rake-Marona as Hook and John Miller as Smee.\nPhotos by Kat Dollarhide.\nPublished in The News Trivune, Dec. 2, 2011\n\nThe musical \u201cPeter Pan\u201d appeals to children of all ages and to adults who want to recapture the wonder of childhood, if only for a couple of hours. Tacoma Musical Playhouse caters",
+     "text": "There are, as you might guess because you\u2019re reading these words on a website called \u201cThe Comics Curmudgeon,\u201d a number of things that irritate me about the comic strip Blondie, and one of them is that we have been repeatedly told that Dagwood\u2019s job title is \u201coffice manager,\u201d despite the fact that he",
      "imageUrl": null,
-     "keyword": "john darling",
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "You know who else is having a dismal season?  A comic strip called Funky Winkerbean.  Of course, this is the normal state of this strip, so this isn\u2019t news to anyone.\n\nToday\u2019s strip illustrates\u2013or rather, doesn\u2019t illustrate\u2013one of the many problems this strip parades like virtues: people talking abo",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "BY TOM BATIUK AND DAN DAVIS\nClick image to rotate through samples.\n\nHumor. Drama. Real-life stories. In his popular comic strip Crankshaft, cartoonist Tom Batiuk has created a cast of characters so real that fans are compelled to follow their adventures.\n\nA former minor league baseball pitcher, the ",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2389,7 +2375,35 @@
      }
     },
     {
-     "text": "Tom Batiuk, the award-winning cartoonist who has been writing and drawing the syndicated comic strip, Funky Winkerbean, for over 50 years, has announced that the beloved strip will be coming to a close at the end of this year as a daily comic, but will still continue on his personal website, tombati",
+     "text": "guest review by Kevin Wolf\nTwo books , Safe Return Home: An Inspirational Book for Caregivers of Alzheimer\u2019s (Andrews McMeel publisher 1998) and Roses in December: a story of love and Alzheimer\u2019s (The Kent State University Press 2015) by Tom Batiuk and Chuck Ayers are the early and complete collecti",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Richard Willis replied to Wandering Sensei: Moderator Man's discussion What Comic Books Have You Read Today?\n\"Lee Houston, Junior said: In case you're unaware of this, the Funky Winkerbean strip\u2026\"\n57 minutes ago\n\nRichard Willis replied to Peter Wrexham's discussion Celebrity Mastermind - \"The Histor",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Over the past 40 years, Tom Batiuk\u2019s Funky Winkerbean has transitioned from a gag-a-day comic strip about a high school to an ongoing chronicle of pure, abject misery. Thanks to the ongoing commentary on Josh Fruhlinger\u2019s Comics Curmudgeon, I am now completely obsessed with it, which is why I spend ",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2431,7 +2445,7 @@
      }
     },
     {
-     "text": "guest review by Kevin Wolf\nTwo books , Safe Return Home: An Inspirational Book for Caregivers of Alzheimer\u2019s (Andrews McMeel publisher 1998) and Roses in December: a story of love and Alzheimer\u2019s (The Kent State University Press 2015) by Tom Batiuk and Chuck Ayers are the early and complete collecti",
+     "text": "Tom Batiuk, the award-winning cartoonist who has been writing and drawing the syndicated comic strip, Funky Winkerbean, for over 50 years, has announced that the beloved strip will be coming to a close at the end of this year as a daily comic, but will still continue on his personal website, tombati",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2473,37 +2487,9 @@
      }
     },
     {
-     "text": "Richard Willis replied to Wandering Sensei: Moderator Man's discussion What Comic Books Have You Read Today?\n\"Lee Houston, Junior said: In case you're unaware of this, the Funky Winkerbean strip\u2026\"\n57 minutes ago\n\nRichard Willis replied to Peter Wrexham's discussion Celebrity Mastermind - \"The Histor",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Building their own EcoNest\n\nBy Story By John Darling Photos by Jamie Lusch",
      "imageUrl": null,
      "keyword": "john darling",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Over the past 40 years, Tom Batiuk\u2019s Funky Winkerbean has transitioned from a gag-a-day comic strip about a high school to an ongoing chronicle of pure, abject misery. Thanks to the ongoing commentary on Josh Fruhlinger\u2019s Comics Curmudgeon, I am now completely obsessed with it, which is why I spend ",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2544,6 +2530,48 @@
     },
     {
      "text": "Last Fall I gave a talk at Baldwin Wallace University at the invitation of Dr. Michael Dolzani who taught a graphic novel course where they read Lisa\u2019s Story. Dr. Dolzani recently shared with me some of the essays that were written in regard to Lisa\u2019s Story, and I was very impressed with the work. S",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Guest review by Sathyaraj Venkatesan and Raghavi Ravi Kasthuri, National Institute of Technology, India. Published in 2007, Lisa\u2019s Story: The Other Shoe by Tom Batuik is a compilation of comic strips about the breast cancer experience of Lisa Moore, a popular fictional character in the Funky Winkerb",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The latest minor comic related controversy on the Wild, Wild Web, as I discovered from reading the Robot 6 blog at Comic Book Resources, involves Tom Batiuk, creator of Funky Winkerbean, and his lawyers taking on a site devoted to commenting on and critiquing the strip.  Blog hosting service Wordpre",
+     "imageUrl": null,
+     "keyword": "funky winkerbean",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "...marking the first -- and greatest --- Dick Tracy/Lone Ranger/Flash Gordon/Prince Valiant/Superman crossover ever. Also, it's worth noting that at one point, Lois gets hit with the ray's reverse version and turned into a comic strip character herself, which really made me want the twist ending to ",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2599,35 +2627,7 @@
      }
     },
     {
-     "text": "Guest review by Sathyaraj Venkatesan and Raghavi Ravi Kasthuri, National Institute of Technology, India. Published in 2007, Lisa\u2019s Story: The Other Shoe by Tom Batuik is a compilation of comic strips about the breast cancer experience of Lisa Moore, a popular fictional character in the Funky Winkerb",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The latest minor comic related controversy on the Wild, Wild Web, as I discovered from reading the Robot 6 blog at Comic Book Resources, involves Tom Batiuk, creator of Funky Winkerbean, and his lawyers taking on a site devoted to commenting on and critiquing the strip.  Blog hosting service Wordpre",
-     "imageUrl": null,
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "...marking the first -- and greatest --- Dick Tracy/Lone Ranger/Flash Gordon/Prince Valiant/Superman crossover ever. Also, it's worth noting that at one point, Lois gets hit with the ray's reverse version and turned into a comic strip character herself, which really made me want the twist ending to ",
+     "text": "So, first, yes, Mary Worth once had its own comic book, and was identified on the cover of said book as \u201cOne of America\u2019s great newspaper comics,\u201d despite which obviously false claim the Comics Code Authority still deigned to grant its seal of approval. But as McManx points out, isn\u2019t there somethin",
      "imageUrl": null,
      "keyword": "funky winkerbean",
      "tier": "high",
@@ -2642,16 +2642,16 @@
     }
    ],
    "samples": [
-    "Lisa's Story: The Other Shoe\n\nA story from the comic strips that will make you laugh and cry. Originally a \u201cgag-a-day\u201d comic strip that portrayed life in high school, Funky Winkerbean evolved into a mature series of real-life stories. In 1999, Lisa Moore, one of Funky\u2019s friends and a main character,",
     "Greg Bear wrote a book, more than one. (Photo by Geoffrey A. Landis)\n\nPolish up your geek glasses people, I\u2019ve just spent a month driving close to 9,000 miles with my husband and we\u2019re rolling it into high gear.\n\nFortunately for me, jocks need nerds and my husband understands my need to geek. He hel",
     "Funky Winklebean - One of a Kind Disney Cartoon Character\n\nThe Funky Winkerbean, also known as simply the Winkerbean, is an American cartoon character that was created by Bill Finger and Steve Ditchendorf in Marvel Comics' popular comic book series, The Fantastic Four. The character was first introd",
+    "Today! The latest installment of the Funkyverse\u2019s most exciting new game show, brought to you by Crankshaft!\n\nEND_OF_DOCUMENT_TOKEN_TO_BE_REPLACED\n\nA Stroke of Luck\n\nThis Sunday strip is, I guess, supposed to be ironic. Jessica still doesn\u2019t know the kind of man her father really was. Although Jess ",
+    "Lisa's Story: The Other Shoe\n\nA story from the comic strips that will make you laugh and cry. Originally a \u201cgag-a-day\u201d comic strip that portrayed life in high school, Funky Winkerbean evolved into a mature series of real-life stories. In 1999, Lisa Moore, one of Funky\u2019s friends and a main character,",
     "As a child, Pogo\n\nwas one of those comic strips that looked really funny but was hard for me to figure out. Sort of like Funky Winkerbean. But, then again, how could an 8-year old appreciate the social and politic satire of Walt Kelly?\n\nKelly is an under-appreciated part of American cultural history",
     "Unfortunately, the same can't be said of our friend from the newspaper comic strips, Funky Winkerbean. This was originally meant to be the centerpiece of the parade -- because really, if there's one thing that we can all be thankful for, it's that we're not Funky Winkerbean -- but as it turns out, i",
     "That's why today, I've rounded up another month's worth of absolute sorrow in handy comic strip form to bring you April's Most Depressing Funky Winkerbean strips! And this was a good one, featuring the deadly potential of technology, the deaths of cast members both old and new, and even a guest appe",
-    "Today! The latest installment of the Funkyverse\u2019s most exciting new game show, brought to you by Crankshaft!\n\nEND_OF_DOCUMENT_TOKEN_TO_BE_REPLACED\n\nA Stroke of Luck\n\nThis Sunday strip is, I guess, supposed to be ironic. Jessica still doesn\u2019t know the kind of man her father really was. Although Jess ",
+    "A tip of the SoSF turban to Comic Book Harriet, who never fails to spin enlightening and entertaining gold from Tom Batiuk\u2019s dreary dross.",
     "In the late summer of 1973, I was living in an apartment in Elyria, Ohio and was hard at work on my one year old comic strip Funky Winkerbean. Along with Funky, I was still creating my comic panel Rapping Around for the Tuesday Teen Page in my local paper the Chronicle-Telegram. I had been doing Rap",
-    "Roger Bollen was the writer and illustrator of the \"Animal Crackers\" syndicated comic strip, artist of dozens of children's books and producer of television shows.\n\nBollen, who lived in Chagrin Falls, was a prolific creator who started out in newspaper comics strips and went on to illustrate more th",
-    "A tip of the SoSF turban to Comic Book Harriet, who never fails to spin enlightening and entertaining gold from Tom Batiuk\u2019s dreary dross."
+    "Band of seniors at the Bedside Manor retirement home, from the comic strip Funky Winkerbean.\n\nThey are led by former Westview High school band fuhrer, Harry L. Dinkle. He seems to have mellowed somewhat, but he still makes the seniors go out and sell candy as a fundraiser. They first appeared in Dec"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2725,13 +2725,13 @@
     "longformHits": 596,
     "longformRatio": 0.558,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 79,
      "laion1b-nolang": 133,
      "laion2b-en": 228,
      "laion2b-multi": 32,
      "obelics": 587,
-     "pile": 6,
-     "c4-en": 3
+     "pile": 6
     },
     "reason": null
    },
@@ -2743,13 +2743,13 @@
     "longformHits": 605,
     "longformRatio": 0.733,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 48,
      "laion1b-nolang": 72,
      "laion2b-en": 81,
      "laion2b-multi": 19,
      "obelics": 601,
-     "pile": 3,
-     "c4-en": 1
+     "pile": 3
     },
     "reason": null
    },
@@ -2761,13 +2761,13 @@
     "longformHits": 253,
     "longformRatio": 0.703,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 10,
+     "laion1b-nolang": 31,
      "laion2b-en": 51,
      "laion2b-multi": 15,
-     "laion1b-nolang": 31,
      "obelics": 250,
-     "pile": 2,
-     "c4-en": 1
+     "pile": 2
     },
     "reason": null
    },
@@ -2779,13 +2779,13 @@
     "longformHits": 44215,
     "longformRatio": 0.282,
     "perDataset": {
+     "c4-en": 379,
      "coyo700m": 8412,
      "laion1b-nolang": 37984,
      "laion2b-en": 48166,
      "laion2b-multi": 17928,
      "obelics": 43552,
-     "pile": 284,
-     "c4-en": 379
+     "pile": 284
     },
     "reason": "documented collision"
    }
@@ -2801,15 +2801,15 @@
   },
   "evidenceShown": 115,
   "evidenceWithheld": {
-   "unverified": 1109,
-   "person_photo": 132,
-   "unrelated": 31,
+   "person_photo": 136,
+   "unverified": 1122,
+   "storefront": 20,
    "merchandise": 47,
-   "storefront": 16,
-   "explicit": 1,
-   "derivative": 1
+   "unrelated": 28,
+   "explicit": 4,
+   "derivative": 4
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-tom-batiuk",
  "cohort": "billy-ireland",
@@ -2822,7 +2822,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 2253,
   "datasetsPresent": 7,

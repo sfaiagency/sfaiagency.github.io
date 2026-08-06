@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,8 +898,22 @@
    "totalIncludingLowConfidence": 88,
    "rows": [
     {
-     "text": "The More You Ruv Someone (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/ru/data/upload/99823_w_560x720.jpeg",
+     "text": "Everyone's a Little Bit Racist (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99805_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Music (2006) - Avenue Q (2003 Original Broadway Cast) by Jeff Marx",
+     "imageUrl": "http://www.coverbrowser.com/image/bestselling-music-2006/514-1.jpg",
      "keyword": "jeff marx",
      "tier": "namematch",
      "punsafe": null,
@@ -926,64 +940,8 @@
      }
     },
     {
-     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/480921_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Everyone's a Little Bit Racist (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99805_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Fantasies Come True (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/119421_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "I Wish I Could Go Back To College (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
      "imageUrl": "https://www.musicaneo.com/data/upload/99808_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bestselling Music (2006) - Avenue Q (2003 Original Broadway Cast) by Jeff Marx",
-     "imageUrl": "http://www.coverbrowser.com/image/bestselling-music-2006/514-1.jpg",
      "keyword": "jeff marx",
      "tier": "namematch",
      "punsafe": null,
@@ -1011,7 +969,217 @@
     },
     {
      "text": "What Do You Do with a B.A. in English (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99813_w_560x720.jpeg",
+     "imageUrl": "https://www.musicaneo.com/data/upload/120647_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I Wish I Could Go Back To College (Avenue Q): For voice and piano by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/337091_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Avenue Q Theme (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99804_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I Wish I Could Go Back To College (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/119419_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I'm Not Wearing Underwear Today (Avenue Q): Lyrics and chords by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/274086_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99809_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Schadenfreude (Avenue Q): For voice and piano by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/308712_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My Girlfriend, Who Lives in Canada (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99824_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/119418_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Now (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/119420_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The More You Ruv Someone (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/ru/data/upload/99823_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Schadenfreude (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99826_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99087_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/480921_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Fantasies Come True (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/119421_w_560x720.jpeg",
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The More You Ruv Someone (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/data/upload/119416_w_560x720.jpeg",
      "keyword": "jeff marx",
      "tier": "namematch",
      "punsafe": null,
@@ -1039,7 +1207,7 @@
     },
     {
      "text": "What Do You Do with a B.A. in English (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/120647_w_560x720.jpeg",
+     "imageUrl": "https://www.musicaneo.com/data/upload/99813_w_560x720.jpeg",
      "keyword": "jeff marx",
      "tier": "namematch",
      "punsafe": null,
@@ -1054,48 +1222,6 @@
     {
      "text": "I'm Not Wearing Underwear Today (Avenue Q): Melody line by Jeff Marx, Robert Lopez",
      "imageUrl": "https://www.musicaneo.com/data/upload/306526_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I Wish I Could Go Back To College (Avenue Q): For voice and piano by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/337091_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The More You Ruv Someone (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/119416_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Avenue Q Theme (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99804_w_560x720.jpeg",
      "keyword": "jeff marx",
      "tier": "namematch",
      "punsafe": null,
@@ -1150,134 +1276,8 @@
      }
     },
     {
-     "text": "I Wish I Could Go Back To College (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/119419_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I'm Not Wearing Underwear Today (Avenue Q): Lyrics and chords by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/274086_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Purpose (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
      "imageUrl": "https://www.musicaneo.com/data/upload/99825_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My Girlfriend, Who Lives in Canada (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99824_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/119418_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99809_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Schadenfreude (Avenue Q): For voice and piano by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/308712_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Now (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/119420_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99087_w_560x720.jpeg",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Schadenfreude (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/data/upload/99826_w_560x720.jpeg",
      "keyword": "jeff marx",
      "tier": "namematch",
      "punsafe": null,
@@ -1375,16 +1375,16 @@
     }
    ],
    "samples": [
-    "The More You Ruv Someone (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
-    "Purpose (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-    "I'm Not Wearing Underwear Today (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
     "Everyone's a Little Bit Racist (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-    "Fantasies Come True (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-    "I Wish I Could Go Back To College (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
     "Bestselling Music (2006) - Avenue Q (2003 Original Broadway Cast) by Jeff Marx",
+    "Purpose (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+    "I Wish I Could Go Back To College (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
     "The More You Ruv Someone (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
     "What Do You Do with a B.A. in English (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
-    "The More You Ruv Someone (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez"
+    "I Wish I Could Go Back To College (Avenue Q): For voice and piano by Jeff Marx, Robert Lopez",
+    "The Avenue Q Theme (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+    "I Wish I Could Go Back To College (Avenue Q): For voice and piano (or guitar) by Jeff Marx, Robert Lopez",
+    "I'm Not Wearing Underwear Today (Avenue Q): Lyrics and chords by Jeff Marx, Robert Lopez"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1874,11 +1874,11 @@
      }
     },
     {
-     "text": "If You Were Gay (Avenue Q): Para vocais e piano (ou Guitarra) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/pt/data/upload/99810_w_560x720.jpeg",
+     "text": "Purpose (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/ru/data/upload/99825_w_560x720.jpeg",
      "keyword": "jeff marx",
      "tier": "namematch",
-     "punsafe": 0.0015816986560821533,
+     "punsafe": 0.0021516382694244385,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1888,11 +1888,11 @@
      }
     },
     {
-     "text": "Purpose (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
-     "imageUrl": "https://www.musicaneo.com/ru/data/upload/99825_w_560x720.jpeg",
+     "text": "If You Were Gay (Avenue Q): Para vocais e piano (ou Guitarra) by Jeff Marx, Robert Lopez",
+     "imageUrl": "https://www.musicaneo.com/pt/data/upload/99810_w_560x720.jpeg",
      "keyword": "jeff marx",
      "tier": "namematch",
-     "punsafe": 0.0021516382694244385,
+     "punsafe": 0.0015816986560821533,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2000,20 +2000,6 @@
      }
     },
     {
-     "text": "Woodworking With Jeff Marx Logo",
-     "imageUrl": "https://cdn.dribbble.com/users/571914/screenshots/4633627/woodworking_with_jeff_marx-logov1-800px_teaser.png",
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": 0.00010891926649492234,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Schadenfreude (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
      "imageUrl": "https://www.musicaneo.com/ru/data/upload/99826_w_560x720.jpeg",
      "keyword": "jeff marx",
@@ -2030,8 +2016,8 @@
    ],
    "samples": [
     "The Avenue Q Theme (Avenue Q): F\u00fcr Klavier (sehr leichte Fassung) by Jeff Marx, Robert Lopez",
-    "If You Were Gay (Avenue Q): Para vocais e piano (ou Guitarra) by Jeff Marx, Robert Lopez",
     "Purpose (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
+    "If You Were Gay (Avenue Q): Para vocais e piano (ou Guitarra) by Jeff Marx, Robert Lopez",
     "Album Inyo by Jeff Marx",
     "Your Love Is Extravagant (Casting Crowns): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
     "If You Were Gay (Avenue Q): \u0414\u043b\u044f \u0433\u043e\u043b\u043e\u0441\u0430 \u0438 \u0444\u043e\u0440\u0442\u0435\u043f\u0438\u0430\u043d\u043e (\u0438\u043b\u0438 \u0433\u0438\u0442\u0430\u0440\u044b) by Jeff Marx, Robert Lopez",
@@ -2064,20 +2050,6 @@
    "totalIncludingLowConfidence": 440,
    "rows": [
     {
-     "text": "Winner of the Tony Awards Triple Crown for Best Musical, Best Score and Best Book, Avenue Q has a huge furry, fleshy, funny heart!  Created by Jeff Marx and the writer of the songs for Disney\u2019s Frozen, Robert Lopez, Avenue Q is a charming and cheeky musical which is definitely not for children!\n\nBro",
-     "imageUrl": null,
-     "keyword": "jeff marx",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Note \"Avenue Q\" is inappropriate for children. In fact, its official website suggests the musical is geared more towards adults and mature young people. It contains adult situations and adult language. The musical made by Robert Lopez by Jeff Marx. Marx and Lopez also wrote the lyrics for the play. ",
      "imageUrl": null,
      "keyword": "jeff marx",
@@ -2093,6 +2065,20 @@
     },
     {
      "text": "With music and lyrics by Jeff Marx & Robert Lopez (cocreator of the Book of Mormon and songwriter for Disney\u2019s Frozen) and a book by Jeff Whitty, Avenue Q opened off Broadway at the Vineyard theatre in 2003 before transferring to Broadway in July of the same year. The production went on to win three",
+     "imageUrl": null,
+     "keyword": "jeff marx",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Winner of the Tony Awards Triple Crown for Best Musical, Best Score and Best Book, Avenue Q has a huge furry, fleshy, funny heart!  Created by Jeff Marx and the writer of the songs for Disney\u2019s Frozen, Robert Lopez, Avenue Q is a charming and cheeky musical which is definitely not for children!\n\nBro",
      "imageUrl": null,
      "keyword": "jeff marx",
      "tier": "namematch",
@@ -2190,7 +2176,7 @@
      }
     },
     {
-     "text": "Avenue Q, one of the West End\u2019s funniest shows is returning to Glasgow\u2019s King\u2019s Theatre for 5 days of shows in June 2019.\n\nAfter over ten years of mischief, bad behaviour and political incorrectness, one of  London\u2019s funniest shows is hitting the road once again.\n\nCreated by Jeff Marx and Robert Lop",
+     "text": "Music and Lyrics by Jeff Marx and Robert Lopez, Book by Jeff Whitty. Based on an original concept by Robert Lopez and Jeff Marx\n\nWinner of the Tony \u201cTriple Crown\u201d for Best Musical, Best Score and Best Book, Avenue Q is part flesh, part felt, and packed with heart. The laugh-out-loud musical tells th",
      "imageUrl": null,
      "keyword": "jeff marx",
      "tier": "namematch",
@@ -2204,7 +2190,7 @@
      }
     },
     {
-     "text": "Music and Lyrics by Jeff Marx and Robert Lopez, Book by Jeff Whitty. Based on an original concept by Robert Lopez and Jeff Marx\n\nWinner of the Tony \u201cTriple Crown\u201d for Best Musical, Best Score and Best Book, Avenue Q is part flesh, part felt, and packed with heart. The laugh-out-loud musical tells th",
+     "text": "Avenue Q, one of the West End\u2019s funniest shows is returning to Glasgow\u2019s King\u2019s Theatre for 5 days of shows in June 2019.\n\nAfter over ten years of mischief, bad behaviour and political incorrectness, one of  London\u2019s funniest shows is hitting the road once again.\n\nCreated by Jeff Marx and Robert Lop",
      "imageUrl": null,
      "keyword": "jeff marx",
      "tier": "namematch",
@@ -2303,16 +2289,16 @@
     }
    ],
    "samples": [
-    "Winner of the Tony Awards Triple Crown for Best Musical, Best Score and Best Book, Avenue Q has a huge furry, fleshy, funny heart!  Created by Jeff Marx and the writer of the songs for Disney\u2019s Frozen, Robert Lopez, Avenue Q is a charming and cheeky musical which is definitely not for children!\n\nBro",
     "Note \"Avenue Q\" is inappropriate for children. In fact, its official website suggests the musical is geared more towards adults and mature young people. It contains adult situations and adult language. The musical made by Robert Lopez by Jeff Marx. Marx and Lopez also wrote the lyrics for the play. ",
     "With music and lyrics by Jeff Marx & Robert Lopez (cocreator of the Book of Mormon and songwriter for Disney\u2019s Frozen) and a book by Jeff Whitty, Avenue Q opened off Broadway at the Vineyard theatre in 2003 before transferring to Broadway in July of the same year. The production went on to win three",
+    "Winner of the Tony Awards Triple Crown for Best Musical, Best Score and Best Book, Avenue Q has a huge furry, fleshy, funny heart!  Created by Jeff Marx and the writer of the songs for Disney\u2019s Frozen, Robert Lopez, Avenue Q is a charming and cheeky musical which is definitely not for children!\n\nBro",
     "The naughtiest puppets in New York are heading to Sunderland Empire in comedy musical Avenue Q.\n\nCreated by Jeff Marx and Robert Lopez, co-creator of Book of Mormon - which is also heading to Sunderland - and writer of the songs for Disney\u2019s Frozen, has a cast of loveable, furry characters who spend",
     "The cast of Berkley Playhouse's production of Hairspray at the Julia Morgan Theater in Berkeley, Calif., through May 17. (Photo by Ben Krantz)\n\nBERKELEY, CALIF.: Berkeley Playhouse has announced its 2015\u201316 season, which will include a world-premiere musical about civil rights as well as the first n",
     "music and lyrics by Jeff Marx\n\nWinner of the Tony \u201cTriple Crown\u201d for Best Musical, Best Score and Best Book, Avenue Q is part flesh, part felt, and packed with heart.\nThe laugh-out-loud musical tells the timeless story of a recent college grad named Princeton, who moves into a shabby New York apartm",
     "Music and Lyrics by Jeff Marx and Robert Lopez * Book by Jeff Whitty\nOctober 5-28, 2018\nAvenue Q is part flesh, part felt, and packed with heart. This puppet-filled musical comedy follows a group of twenty-somethings seeking their purpose in big-city life. Recent college grad Princeton moves into a ",
     "Puppet Master and Director John M. Maurer of Ewing is pictured with cast members (from left): Michael Schiumo of Horsham, PA, as Trekkie Monster; Kyrus Keenan Westcott of Hamilton as Nicky; and Mark Applegate of Hamilton as Rod the Republican. Each puppet was handmade by the MPO team. (Photo by Robe",
     "The book in Avenue Q is surprisingly current and is equally funny as thought-provoking. The music, written by Jeff Marx, we well as Robert Lopez (of Frozen fame) is just as raunchy and funny as the dialogue. It\u2019s also very catchy but because of the content you might not want to have it blasting out ",
-    "Avenue Q, one of the West End\u2019s funniest shows is returning to Glasgow\u2019s King\u2019s Theatre for 5 days of shows in June 2019.\n\nAfter over ten years of mischief, bad behaviour and political incorrectness, one of  London\u2019s funniest shows is hitting the road once again.\n\nCreated by Jeff Marx and Robert Lop"
+    "Music and Lyrics by Jeff Marx and Robert Lopez, Book by Jeff Whitty. Based on an original concept by Robert Lopez and Jeff Marx\n\nWinner of the Tony \u201cTriple Crown\u201d for Best Musical, Best Score and Best Book, Avenue Q is part flesh, part felt, and packed with heart. The laugh-out-loud musical tells th"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2400,13 +2386,13 @@
     "longformHits": 445,
     "longformRatio": 0.456,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 88,
      "laion1b-nolang": 63,
      "laion2b-en": 334,
      "laion2b-multi": 45,
      "obelics": 440,
-     "pile": 1,
-     "c4-en": 4
+     "pile": 1
     },
     "reason": null
    }
@@ -2420,17 +2406,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 91,
+  "evidenceShown": 90,
   "evidenceWithheld": {
-   "unverified": 718,
+   "unverified": 717,
    "person_photo": 113,
-   "storefront": 16,
-   "explicit": 16,
    "unrelated": 3,
-   "derivative": 3,
+   "storefront": 17,
+   "explicit": 16,
+   "derivative": 4,
    "merchandise": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-jeff-marx",
  "cohort": "billy-ireland",
@@ -2443,7 +2429,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 975,
   "datasetsPresent": 7,

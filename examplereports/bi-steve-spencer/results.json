@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,50 +898,8 @@
    "totalIncludingLowConfidence": 53,
    "rows": [
     {
-     "text": "Green Fields Painting - South Park Wyoming by Steve Spencer",
-     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/south-park-wyoming-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Wyoming Landscape Wood Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/wood-print/10/7.5/break/images/artworkimages/medium/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Wyoming Landscape Canvas Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/default/canvas-print/10/7.5/mirror/break/images/artworkimages/medium/1/thunderheads-at-fox-creek-pass-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Wyoming Landscape Painting - Thunderheads at Fox Creek Pass by Steve Spencer",
-     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": null,
@@ -982,6 +940,20 @@
      }
     },
     {
+     "text": "Wildlife Acrylic Print featuring the painting Granite Park Bucks by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/acrylic-print/10/7.5/hangingwire/break/images-medium-5/granite-park-bucks-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Wyoming Landscape Acrylic Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/default/acrylic-print/10/7.5/hangingwire/break/images/artworkimages/medium/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -996,8 +968,36 @@
      }
     },
     {
-     "text": "Wildlife Acrylic Print featuring the painting Granite Park Bucks by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/acrylic-print/10/7.5/hangingwire/break/images-medium-5/granite-park-bucks-steve-spencer.jpg",
+     "text": "Wyoming Landscape Wood Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/wood-print/10/7.5/break/images/artworkimages/medium/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Green Fields Painting - South Park Wyoming by Steve Spencer",
+     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/south-park-wyoming-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wyoming Landscape Painting - Thunderheads at Fox Creek Pass by Steve Spencer",
+     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": null,
@@ -1025,14 +1025,14 @@
     }
    ],
    "samples": [
-    "Green Fields Painting - South Park Wyoming by Steve Spencer",
-    "Wyoming Landscape Wood Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
     "Wyoming Landscape Canvas Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
-    "Wyoming Landscape Painting - Thunderheads at Fox Creek Pass by Steve Spencer",
     "Pond Painting - Calm before the Storm by Steve Spencer",
     "Wyoming Landscape Poster featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
-    "Wyoming Landscape Acrylic Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
     "Wildlife Acrylic Print featuring the painting Granite Park Bucks by Steve Spencer",
+    "Wyoming Landscape Acrylic Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
+    "Wyoming Landscape Wood Print featuring the painting Thunderheads at Fox Creek Pass by Steve Spencer",
+    "Green Fields Painting - South Park Wyoming by Steve Spencer",
+    "Wyoming Landscape Painting - Thunderheads at Fox Creek Pass by Steve Spencer",
     "The beautiful Paulene Robin, a former friend of Robert Wadlow. (Photo by Steve Spencer"
    ],
    "partial": false,
@@ -1058,258 +1058,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 532,
    "rows": [
-    {
-     "text": "Acrylic Print featuring the painting Bighorn Trio by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/bighorn-trio-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 4.158448973612394e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bobcats Canvas Print - Silent Caution by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/silent-caution-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 7.478393399651395e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Granite Park Bucks Metal Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/granite-park-bucks-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 9.570330803398974e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Above The River Greeting Card by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/small/greeting-card/images-medium-5/above-the-river-steve-spencer.jpg?transparent=0&targetx=-30&targety=0&imagewidth=560&imageheight=700&modelwidth=500&modelheight=700&backgroundcolor=1C231B&orientation=1&producttype=greetingcard",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.9575633107015165e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Whitetail Sunrise Print by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small-5/whitetail-sunrise-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 7.189226380432956e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Selway River Print by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small-5/selway-river-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 5.788620569546765e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Best Sellers -  - Salmon Paintings Greeting Cards - Sentinel of the Canyon Greeting Card by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/sentinel-of-the-canyon-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.133607495125034e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Acrylic Print featuring the painting Summer Splendor by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium/summer-splendor-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 3.4394097383483313e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "High Realism Prints - Boulder Creek Falls Print by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small/boulder-creek-falls-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.2106721669624676e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Birds Painting - Swans Over Collonade Falls by Steve Spencer",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/swans-over-collonade-falls-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.1877799721560223e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Roadside Garden Acrylic Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images/artworkimages/medium/1/roadside-garden-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.5349108909722418e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Savior Framed Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/the-savior-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 5.155912731424905e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bobcats Greeting Cards - Silent Caution Greeting Card by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/silent-caution-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.0544432572933147e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bighorn Paintings - Centenial by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small/centenial-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 6.210244919202523e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pronghorn Greeting Cards - Western heritage Greeting Card by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium/western-heritage-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.038693673966918e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bighorn Sheep Posters - Bighorn lifescape Poster by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small-5/bighorn-lifescape-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 9.320788194600027e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Daisies And Shades Of Blue Greeting Card by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/small/greeting-card/images/artworkimages/medium/1/daisies-and-shades-of-blue-steve-spencer.jpg?transparent=0&targetx=0&targety=-12&imagewidth=700&imageheight=525&modelwidth=700&modelheight=500&backgroundcolor=5F6F62&orientation=0&producttype=greetingcard",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 3.6424610243557254e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Wyoming Paintings - South Park Wyoming by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small/south-park-wyoming-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.0691342797363177e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Season Pastels Greeting Cards - Elk Lifescape Greeting Card by Steve Spencer",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium/elk-lifescape-steve-spencer.jpg",
@@ -1372,258 +1120,6 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 3.8780584873165935e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Art Print featuring the painting Meadow Creek Montana by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/meadow-creek-montana-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.2510976432622556e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Metal Print featuring the painting Eyes Of The Canyon by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/eyes-of-the-canyon-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.2981267900613602e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Metal Print featuring the painting Summer Splendor by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium/summer-splendor-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.4011958430492086e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Daisies And Shades Of Blue Canvas Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/small/canvas-print/black/break/images/artworkimages/square/1/daisies-and-shades-of-blue-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 3.517851382639492e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Daisies and Shades of Blue Greeting Card by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/daisies-and-shades-of-blue-steve-spencer.jpg?orientation=0",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.1584016849374166e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Painting - Sunflower And Cosmos by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/sunflower-and-cosmos-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 4.097702230865252e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Teton Trio Print by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small/the-teton-trio-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.6695593103577266e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Swans Painting Greeting Cards - The Teton Trio Greeting Card by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-greeting-cards-real/greeting-card-the-teton-trio-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.2894284938956844e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Framed Print featuring the painting Meadow Creek Montana by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/meadow-creek-montana-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.8786070654641662e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Framed Print featuring the painting Only A Memory by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/only-a-memory-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.3574825175055594e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Salmon River Idaho Painting - Fires Re-creation by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium/fires-re-creation-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 4.025886823910696e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Canvas Print featuring the painting Brothers by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/brothers-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 3.7462980344571406e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Sentinel Of The Canyon Wood Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images-medium-5/sentinel-of-the-canyon-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.3650961793464376e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Near Horse Creek Canvas Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/near-horse-creek-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 4.180004680165439e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Salmon Paintings Greeting Cards - Near Horse Creek Greeting Card by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.409530850400188e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bighorn Greeting Cards - Western heritage Greeting Card by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-greeting-cards-real/greeting-card-western-heritage-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 5.2826813771389425e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Trumpeter Swan Painting - Swans Over Collonade Falls by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/swans-over-collonade-falls-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 5.4748376498992e-08,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Canyon Paintings - Deep Creek Sunrise by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small-5/deep-creek-sunrise-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.4309604214067804e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1731,6 +1227,510 @@
      }
     },
     {
+     "text": "Best Sellers -  - Salmon Paintings Greeting Cards - Sentinel of the Canyon Greeting Card by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/sentinel-of-the-canyon-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.133607495125034e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Acrylic Print featuring the painting Summer Splendor by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium/summer-splendor-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 3.4394097383483313e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "High Realism Prints - Boulder Creek Falls Print by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/boulder-creek-falls-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.2106721669624676e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Birds Painting - Swans Over Collonade Falls by Steve Spencer",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/swans-over-collonade-falls-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.1877799721560223e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Roadside Garden Acrylic Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images/artworkimages/medium/1/roadside-garden-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.5349108909722418e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Savior Framed Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/the-savior-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 5.155912731424905e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Acrylic Print featuring the painting Bighorn Trio by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/bighorn-trio-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 4.158448973612394e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bobcats Canvas Print - Silent Caution by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/silent-caution-steve-spencer-canvas-print.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 7.478393399651395e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Granite Park Bucks Metal Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/granite-park-bucks-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 9.570330803398974e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Above The River Greeting Card by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/small/greeting-card/images-medium-5/above-the-river-steve-spencer.jpg?transparent=0&targetx=-30&targety=0&imagewidth=560&imageheight=700&modelwidth=500&modelheight=700&backgroundcolor=1C231B&orientation=1&producttype=greetingcard",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.9575633107015165e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Whitetail Sunrise Print by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small-5/whitetail-sunrise-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 7.189226380432956e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Selway River Print by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small-5/selway-river-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 5.788620569546765e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pronghorn Greeting Cards - Western heritage Greeting Card by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium/western-heritage-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.038693673966918e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bighorn Sheep Posters - Bighorn lifescape Poster by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small-5/bighorn-lifescape-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 9.320788194600027e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Daisies And Shades Of Blue Greeting Card by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/small/greeting-card/images/artworkimages/medium/1/daisies-and-shades-of-blue-steve-spencer.jpg?transparent=0&targetx=0&targety=-12&imagewidth=700&imageheight=525&modelwidth=700&modelheight=500&backgroundcolor=5F6F62&orientation=0&producttype=greetingcard",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 3.6424610243557254e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wyoming Paintings - South Park Wyoming by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/south-park-wyoming-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.0691342797363177e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Metal Print featuring the painting Eyes Of The Canyon by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/eyes-of-the-canyon-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.2981267900613602e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Metal Print featuring the painting Summer Splendor by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium/summer-splendor-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.4011958430492086e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Daisies And Shades Of Blue Canvas Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/small/canvas-print/black/break/images/artworkimages/square/1/daisies-and-shades-of-blue-steve-spencer-canvas-print.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 3.517851382639492e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bobcats Greeting Cards - Silent Caution Greeting Card by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/silent-caution-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.0544432572933147e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bighorn Paintings - Centenial by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/centenial-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 6.210244919202523e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Daisies and Shades of Blue Greeting Card by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/daisies-and-shades-of-blue-steve-spencer.jpg?orientation=0",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.1584016849374166e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Painting - Sunflower And Cosmos by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/sunflower-and-cosmos-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 4.097702230865252e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Teton Trio Print by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/the-teton-trio-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.6695593103577266e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Swans Painting Greeting Cards - The Teton Trio Greeting Card by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-greeting-cards-real/greeting-card-the-teton-trio-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.2894284938956844e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Framed Print featuring the painting Meadow Creek Montana by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/meadow-creek-montana-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.8786070654641662e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Framed Print featuring the painting Only A Memory by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/only-a-memory-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.3574825175055594e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Salmon River Idaho Painting - Fires Re-creation by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium/fires-re-creation-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 4.025886823910696e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art Print featuring the painting Meadow Creek Montana by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/meadow-creek-montana-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.2510976432622556e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Salmon Paintings Greeting Cards - Near Horse Creek Greeting Card by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.409530850400188e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bighorn Greeting Cards - Western heritage Greeting Card by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-greeting-cards-real/greeting-card-western-heritage-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 5.2826813771389425e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Trumpeter Swan Painting - Swans Over Collonade Falls by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/swans-over-collonade-falls-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 5.4748376498992e-08,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Canyon Paintings - Deep Creek Sunrise by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small-5/deep-creek-sunrise-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.4309604214067804e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Canvas Print featuring the painting Brothers by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/brothers-steve-spencer-canvas-print.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 3.7462980344571406e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sentinel Of The Canyon Wood Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images-medium-5/sentinel-of-the-canyon-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.3650961793464376e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Near Horse Creek Canvas Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/near-horse-creek-steve-spencer-canvas-print.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 4.180004680165439e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Canvas Print featuring the painting Flight by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/flight-steve-spencer-canvas-print.jpg",
      "keyword": "steve spencer",
@@ -1745,11 +1745,11 @@
      }
     },
     {
-     "text": "Flowers Painting - Sunflower And Cosmos by Steve Spencer",
-     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sunflower-and-cosmos-steve-spencer.jpg",
+     "text": "Wyoming Landscape Painting - Thunderheads At Fox Creek Pass by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 4.887979230261408e-07,
+     "punsafe": 4.900072099189856e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1759,11 +1759,11 @@
      }
     },
     {
-     "text": "Native Painting - Reflected Tipis by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/reflected-tipis-steve-spencer.jpg",
+     "text": "Painting - Russian Olive Among Daisies by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/russian-ollive-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 2.864999714802252e-06,
+     "punsafe": 2.9948612336738734e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1773,39 +1773,11 @@
      }
     },
     {
-     "text": "Selway River Metal Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/selway-river-steve-spencer.jpg",
+     "text": "Elk Art - Western heritage by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/western-heritage-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.4900344069701532e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Canyon Lake Greeting Card by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/canyon-lake-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 6.006752073517418e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Savior Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/the-savior-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 3.6482444556895643e-05,
+     "punsafe": 2.4618757379357703e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1857,11 +1829,11 @@
      }
     },
     {
-     "text": "Wyoming Landscape Painting - Thunderheads At Fox Creek Pass by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
+     "text": "Daisies Greeting Card featuring the painting Daisies And Shades Of Blue by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/1/daisies-and-shades-of-blue-steve-spencer.jpg?&targetx=0&targety=-12&imagewidth=700&imageheight=525&modelwidth=700&modelheight=500&backgroundcolor=5F6F62&orientation=0",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 4.900072099189856e-07,
+     "punsafe": 2.8846134227933362e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1871,11 +1843,11 @@
      }
     },
     {
-     "text": "Painting - Russian Olive Among Daisies by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/russian-ollive-steve-spencer.jpg",
+     "text": "Metal Print featuring the painting Sunflower And Cosmos by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images/artworkimages/medium/1/sunflower-and-cosmos-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 2.9948612336738734e-06,
+     "punsafe": 6.703751864733931e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1885,11 +1857,39 @@
      }
     },
     {
-     "text": "Elk Art - Western heritage by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small/western-heritage-steve-spencer.jpg",
+     "text": "Swans Over Collonade Falls Greeting Card by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/swans-over-collonade-falls-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 2.4618757379357703e-06,
+     "punsafe": 3.0699155217916996e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Canyon Solitude by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images-medium-large-5/canyon-solitude-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 6.558099812536966e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bighorn Paintings - East Fork Rams by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/east-fork-rams-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.5761670510983095e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1900,16 +1900,16 @@
     }
    ],
    "samples": [
-    "Acrylic Print featuring the painting Bighorn Trio by Steve Spencer",
-    "Bobcats Canvas Print - Silent Caution by Steve Spencer",
-    "Granite Park Bucks Metal Print by Steve Spencer",
-    "Above The River Greeting Card by Steve Spencer",
-    "Whitetail Sunrise Print by Steve Spencer",
-    "Selway River Print by Steve Spencer",
-    "Best Sellers -  - Salmon Paintings Greeting Cards - Sentinel of the Canyon Greeting Card by Steve Spencer",
-    "Acrylic Print featuring the painting Summer Splendor by Steve Spencer",
-    "High Realism Prints - Boulder Creek Falls Print by Steve Spencer",
-    "Birds Painting - Swans Over Collonade Falls by Steve Spencer"
+    "Season Pastels Greeting Cards - Elk Lifescape Greeting Card by Steve Spencer",
+    "Religious Art Print featuring the painting The Savior by Steve Spencer",
+    "Christ Portrait Prints - The Savior Print by Steve Spencer",
+    "Goat Paintings - Sentinel of the Canyon by Steve Spencer",
+    "Wildcat Prints - Silent Caution Print by Steve Spencer",
+    "Desert Lake Painting Posters - Bruneau Sand Dunes Poster by Steve Spencer",
+    "Daisies And Shades Of Blue Acrylic Print by Steve Spencer",
+    "Teton Paintings - Calm before the Storm by Steve Spencer",
+    "Daisies And Shades Of Blue Wood Print by Steve Spencer",
+    "Painting - Above Devils Peak Rapids by Steve Spencer"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1935,6 +1935,20 @@
    "totalIncludingLowConfidence": 86,
    "rows": [
     {
+     "text": "Palisades Creek  Wood Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/wood-print/images/artworkimages/medium/1/palisades-creek-2014-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 5.6568001838286364e-08,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Sentry Framed Print by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/the-sentry-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -1949,25 +1963,11 @@
      }
     },
     {
-     "text": "Near Horse Creek Framed Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
+     "text": "Aspens and Beaver Pond by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/aspens-and-beaver-pond-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 3.964947836720967e-08,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Savior by Steve Spencer",
-     "imageUrl": "https://images.fineartamerica.com/images-square-real-5/the-savior-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 0.0002238154411315918,
+     "punsafe": 1.1700038839990157e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1991,11 +1991,11 @@
      }
     },
     {
-     "text": "Palisades Creek  Wood Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/wood-print/images/artworkimages/medium/1/palisades-creek-2014-steve-spencer.jpg",
+     "text": "The Savior by Steve Spencer",
+     "imageUrl": "https://images.fineartamerica.com/images-square-real-5/the-savior-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 5.6568001838286364e-08,
+     "punsafe": 0.0002238154411315918,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2005,11 +2005,11 @@
      }
     },
     {
-     "text": "Aspens and Beaver Pond by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/aspens-and-beaver-pond-steve-spencer.jpg",
+     "text": "Near Horse Creek Framed Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.1700038839990157e-06,
+     "punsafe": 3.964947836720967e-08,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2103,20 +2103,6 @@
      }
     },
     {
-     "text": "Roadside Garden Wood Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/roadside-garden-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.612371079318109e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Hunter by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/the-hunter-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -2131,11 +2117,11 @@
      }
     },
     {
-     "text": "Bighorn Trio Metal Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/bighorn-trio-steve-spencer.jpg",
+     "text": "Roadside Garden Wood Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/roadside-garden-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 2.5422075395908905e-06,
+     "punsafe": 1.612371079318109e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2159,11 +2145,11 @@
      }
     },
     {
-     "text": "Above The River Framed Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/above-the-river-steve-spencer.jpg",
+     "text": "Bighorn Trio Metal Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/bighorn-trio-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 2.5260253551095957e-06,
+     "punsafe": 2.5422075395908905e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2178,6 +2164,34 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 1.0498498426159131e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Above The River Framed Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/above-the-river-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.5260253551095957e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Western Heritage Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/small/print/images/artworkimages/square/1/western-heritage-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 3.5475020467856666e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2215,11 +2229,11 @@
      }
     },
     {
-     "text": "Western Heritage Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/small/print/images/artworkimages/square/1/western-heritage-steve-spencer.jpg",
+     "text": "Near Smith Gulch Canvas Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images/artworkimages/medium/1/near-smith-gulch-steve-spencer-canvas-print.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 3.5475020467856666e-06,
+     "punsafe": 2.0313322579568194e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2234,20 +2248,6 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 5.208253242017236e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Near Smith Gulch Canvas Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images/artworkimages/medium/1/near-smith-gulch-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.0313322579568194e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2369,6 +2369,20 @@
      }
     },
     {
+     "text": "Gun Barrel Creek Framed Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images/artworkimages/medium/1/gun-barrel-creek-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.7773867000414612e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Bighorn Trio Wood Print by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images-medium-5/bighorn-trio-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -2383,11 +2397,11 @@
      }
     },
     {
-     "text": "Gun Barrel Creek Framed Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images/artworkimages/medium/1/gun-barrel-creek-steve-spencer.jpg",
+     "text": "Western Heritage Wood Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/western-heritage-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.7773867000414612e-07,
+     "punsafe": 1.2902271919301711e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2416,20 +2430,6 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 6.450557702919468e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Western Heritage Wood Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/western-heritage-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.2902271919301711e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2537,6 +2537,20 @@
      }
     },
     {
+     "text": "Near Smith Gulch Framed Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images/artworkimages/medium/1/near-smith-gulch-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 5.379861889309723e-08,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Beaver Slide Canvas Print by Steve Spencer",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/the-beaver-slide-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -2556,20 +2570,6 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 1.1095738727817661e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Near Smith Gulch Framed Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images/artworkimages/medium/1/near-smith-gulch-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 5.379861889309723e-08,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2607,11 +2607,11 @@
      }
     },
     {
-     "text": "Winter Swans Print by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-medium/winter-swans-steve-spencer.jpg",
+     "text": "Bruneau Sand Dunes by Steve Spencer",
+     "imageUrl": "https://fineartamerica.com/images/artworkimages/square/1/bruneau-sand-dunes-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 9.668226539361058e-07,
+     "punsafe": 4.939688551530708e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2621,11 +2621,11 @@
      }
     },
     {
-     "text": "Bruneau Sand Dunes by Steve Spencer",
-     "imageUrl": "https://fineartamerica.com/images/artworkimages/square/1/bruneau-sand-dunes-steve-spencer.jpg",
+     "text": "Winter Swans Print by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-medium/winter-swans-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 4.939688551530708e-06,
+     "punsafe": 9.668226539361058e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2678,12 +2678,12 @@
     }
    ],
    "samples": [
-    "The Sentry Framed Print by Steve Spencer",
-    "Near Horse Creek Framed Print by Steve Spencer",
-    "The Savior by Steve Spencer",
-    "Log Pile by Steve Spencer",
     "Palisades Creek  Wood Print by Steve Spencer",
+    "The Sentry Framed Print by Steve Spencer",
     "Aspens and Beaver Pond by Steve Spencer",
+    "Log Pile by Steve Spencer",
+    "The Savior by Steve Spencer",
+    "Near Horse Creek Framed Print by Steve Spencer",
     "Roadside Garden by Steve Spencer",
     "The Old Bull by Steve Spencer",
     "Landscape Painting - The Boulder by Steve Spencer",
@@ -2713,6 +2713,20 @@
    "totalIncludingLowConfidence": 98,
    "rows": [
     {
+     "text": "Western Heritage Acrylic Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images/artworkimages/medium/1/western-heritage-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.6962262634478975e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Near Horse Creek Wood Print by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -2727,11 +2741,53 @@
      }
     },
     {
-     "text": "Western Heritage Acrylic Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images/artworkimages/medium/1/western-heritage-steve-spencer.jpg",
+     "text": "Salmon River Idaho Painting - Gun Barrel Creek by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/gun-barrel-creek-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.6962262634478975e-06,
+     "punsafe": 4.859343221141899e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Salmon River Idaho Painting - Centenial by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/centenial-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.5614936273777857e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Thunderheads At Fox Creek Pass Print by Steve Spencer",
+     "imageUrl": "http://images.fineartamerica.com/images-small/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.1488587006169837e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Near Horse Creek Print by Steve Spencer",
+     "imageUrl": "http://imageslocal.fineartamerica.com/images/artworkimages/square/1/near-horse-creek-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.1554076568008895e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2797,20 +2853,6 @@
      }
     },
     {
-     "text": "Thunderheads At Fox Creek Pass Print by Steve Spencer",
-     "imageUrl": "http://images.fineartamerica.com/images-small/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.1488587006169837e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Near Horse Creek Metal Print by Steve Spencer",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/small/metal-print/images/artworkimages/square/1/near-horse-creek-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -2839,81 +2881,11 @@
      }
     },
     {
-     "text": "Near Horse Creek Print by Steve Spencer",
-     "imageUrl": "http://imageslocal.fineartamerica.com/images/artworkimages/square/1/near-horse-creek-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.1554076568008895e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Hungarian Partridges by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/hungarian-partridges-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 1.009855736811005e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Salmon River Idaho Painting - Gun Barrel Creek by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/gun-barrel-creek-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 4.859343221141899e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Salmon River Idaho Painting - Centenial by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/centenial-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.5614936273777857e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bruneau Sand Dunes Canvas Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/bruneau-sand-dunes-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 3.665596068458399e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Above Devils Peak Rapids Painting by Steve Spencer",
-     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/above-devils-peak-rapids-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.677794614352024e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2937,11 +2909,11 @@
      }
     },
     {
-     "text": "Palisades Creek  Greeting Card by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/palisades-creek-2014-steve-spencer.jpg?&targetx=0&targety=-12&imagewidth=700&imageheight=525&modelwidth=700&modelheight=500&backgroundcolor=4F564D&orientation=0",
+     "text": "Thunderheads at Fox Creek Pass by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 8.380900595739149e-08,
+     "punsafe": 8.126394845930918e-08,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2965,11 +2937,39 @@
      }
     },
     {
-     "text": "Thunderheads at Fox Creek Pass by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/thunderheads-at-fox-creek-pass-steve-spencer.jpg",
+     "text": "Bruneau Sand Dunes Canvas Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/bruneau-sand-dunes-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 8.126394845930918e-08,
+     "punsafe": 3.665596068458399e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Palisades Creek  Greeting Card by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images/artworkimages/medium/1/palisades-creek-2014-steve-spencer.jpg?&targetx=0&targety=-12&imagewidth=700&imageheight=525&modelwidth=700&modelheight=500&backgroundcolor=4F564D&orientation=0",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 8.380900595739149e-08,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Above Devils Peak Rapids Painting by Steve Spencer",
+     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/above-devils-peak-rapids-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.677794614352024e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3007,11 +3007,11 @@
      }
     },
     {
-     "text": "Canyon Solitude Framed Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/canyon-solitude-steve-spencer.jpg",
+     "text": "Bruneau Sand Dunes Art Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/bruneau-sand-dunes-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.9793653791566612e-06,
+     "punsafe": 2.622448164402158e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3026,34 +3026,6 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 4.200480816507479e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Moran from Pilgrim Creek by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/moran-from-pilgrim-creek-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 4.677235310168726e-08,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bruneau Sand Dunes Art Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/bruneau-sand-dunes-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 2.622448164402158e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3091,11 +3063,25 @@
      }
     },
     {
-     "text": "Idaho Landscape Painting - Canyon Lake by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/canyon-lake-steve-spencer.jpg",
+     "text": "Canyon Solitude Framed Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/canyon-solitude-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 2.4726014657971973e-07,
+     "punsafe": 1.9793653791566612e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Moran from Pilgrim Creek by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/moran-from-pilgrim-creek-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 4.677235310168726e-08,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3133,6 +3119,34 @@
      }
     },
     {
+     "text": "Idaho Landscape Painting - Canyon Lake by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/canyon-lake-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 2.4726014657971973e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Salmon River Idaho Painting - Near Horse Creek by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.6390160340051807e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Western Heritage Poster by Steve Spencer",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/small/poster/images/artworkimages/square/1/western-heritage-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -3152,20 +3166,6 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 4.104556865058839e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Salmon River Idaho Painting - Near Horse Creek by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/near-horse-creek-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 1.6390160340051807e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3203,20 +3203,6 @@
      }
     },
     {
-     "text": "Whitetail Sunrise Canvas Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/whitetail-sunrise-steve-spencer-canvas-print.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 8.587736374465749e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Trumpeter Swan Painting - Winter Swans by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images/artworkimages/medium/1/winter-swans-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -3236,6 +3222,20 @@
      "keyword": "steve spencer",
      "tier": "namematch",
      "punsafe": 6.91748209646903e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Whitetail Sunrise Canvas Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/whitetail-sunrise-steve-spencer-canvas-print.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 8.587736374465749e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3315,11 +3315,11 @@
      }
     },
     {
-     "text": "The Old Bull Wood Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/the-old-bull-steve-spencer.jpg",
+     "text": "Near Horse Creek Acrylic Print by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/small/acrylic-print/metalposts/break/images/artworkimages/square/1/near-horse-creek-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.0001033842854667e-05,
+     "punsafe": 1.5402616782012046e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3329,11 +3329,11 @@
      }
     },
     {
-     "text": "Near Horse Creek Acrylic Print by Steve Spencer",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/small/acrylic-print/metalposts/break/images/artworkimages/square/1/near-horse-creek-steve-spencer.jpg",
+     "text": "Idaho Landscape Painting - Pine Creek Plein-air by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/pine-creek-plein-air-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.5402616782012046e-06,
+     "punsafe": 1.7376231653543073e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3357,11 +3357,11 @@
      }
     },
     {
-     "text": "Idaho Landscape Painting - Pine Creek Plein-air by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/pine-creek-plein-air-steve-spencer.jpg",
+     "text": "The Old Bull Wood Print by Steve Spencer",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images/artworkimages/medium/1/the-old-bull-steve-spencer.jpg",
      "keyword": "steve spencer",
      "tier": "namematch",
-     "punsafe": 1.7376231653543073e-07,
+     "punsafe": 1.0001033842854667e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3511,6 +3511,20 @@
      }
     },
     {
+     "text": "Salmon Painting - Bighorn Trio by Steve Spencer",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/bighorn-trio-steve-spencer.jpg",
+     "keyword": "steve spencer",
+     "tier": "namematch",
+     "punsafe": 1.1154650565003976e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Savior Wood Print by Steve Spencer",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/wood-print/images-square-real-5/the-savior-steve-spencer.jpg",
      "keyword": "steve spencer",
@@ -3537,33 +3551,19 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Bighorn Lifescape Wood Print by Steve Spencer",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/wood-print/images-medium-5/bighorn-lifescape-steve-spencer.jpg",
-     "keyword": "steve spencer",
-     "tier": "namematch",
-     "punsafe": 5.5271052588068414e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Near Horse Creek Wood Print by Steve Spencer",
     "Western Heritage Acrylic Print by Steve Spencer",
+    "Near Horse Creek Wood Print by Steve Spencer",
+    "Salmon River Idaho Painting - Gun Barrel Creek by Steve Spencer",
+    "Salmon River Idaho Painting - Centenial by Steve Spencer",
+    "Thunderheads At Fox Creek Pass Print by Steve Spencer",
+    "Near Horse Creek Print by Steve Spencer",
     "Salmon Painting - Near Horse Creek by Steve Spencer",
     "Near Horse Creek Canvas Print by Steve Spencer",
     "Cottonwood Pond by Steve Spencer",
-    "Pine Creek Plein-air by Steve Spencer",
-    "Thunderheads At Fox Creek Pass Print by Steve Spencer",
-    "Near Horse Creek Metal Print by Steve Spencer",
-    "The Savior Greeting Card by Steve Spencer",
-    "Near Horse Creek Print by Steve Spencer"
+    "Pine Creek Plein-air by Steve Spencer"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3720,13 +3720,13 @@
     "longformHits": 267,
     "longformRatio": 0.258,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 53,
+     "laion1b-nolang": 98,
      "laion2b-en": 532,
      "laion2b-multi": 86,
-     "laion1b-nolang": 98,
      "obelics": 264,
-     "pile": 1,
-     "c4-en": 2
+     "pile": 1
     },
     "reason": null
    }
@@ -3743,14 +3743,14 @@
   "evidenceShown": 186,
   "evidenceWithheld": {
    "unverified": 270,
-   "person_photo": 60,
    "storefront": 20,
+   "person_photo": 61,
    "merchandise": 7,
    "unrelated": 5,
-   "derivative": 3,
+   "derivative": 2,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-steve-spencer",
  "cohort": "billy-ireland",
@@ -3763,7 +3763,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1036,
   "datasetsPresent": 7,

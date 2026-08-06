@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -954,6 +954,20 @@
      }
     },
     {
+     "text": "th Bullying Is No Laughing Matter Stone Soup by Jan Eliot",
+     "imageUrl": "https://readthespirit.com/home/wp-content/uploads/sites/15/2014/10/th-Bullying-Is-No-Laughing-Matter-Stone-Soup-by-Jan-Eliot.jpg",
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Stone Soup by Jan Eliot on Sun, 02 May 2021",
      "imageUrl": "https://assets.amuniversal.com/d3f4e4e06e580139532d005056a9545d",
      "keyword": "jan eliot",
@@ -980,20 +994,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "th Bullying Is No Laughing Matter Stone Soup by Jan Eliot",
-     "imageUrl": "https://readthespirit.com/home/wp-content/uploads/sites/15/2014/10/th-Bullying-Is-No-Laughing-Matter-Stone-Soup-by-Jan-Eliot.jpg",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1001,9 +1001,9 @@
     "Stone Soup by Jan Eliot on Sun, 23 May 2021",
     "Bestselling Comics (2007) - Desperate Households: A Stone Soup Collection (Stone Soup) by Jan Eliot",
     "Stone Soup by Jan Eliot on Sun, 09 May 2021",
+    "th Bullying Is No Laughing Matter Stone Soup by Jan Eliot",
     "Stone Soup by Jan Eliot on Sun, 02 May 2021",
-    "Stone Soup by Jan Eliot on Sun, 16 May 2021",
-    "th Bullying Is No Laughing Matter Stone Soup by Jan Eliot"
+    "Stone Soup by Jan Eliot on Sun, 16 May 2021"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1113,34 +1113,6 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 06 Dec 2020",
-     "imageUrl": "https://assets.amuniversal.com/5265f94006b1013932f2005056a9545d",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.0008918344974517822,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Stone Soup The Comic Strip: The Third Collection of the Syndicated Cartoon Stone Soup by Jan Eliot #GoComics #StoneSoup",
-     "imageUrl": "https://i.pinimg.com/236x/bf/26/e4/bf26e4d7a78492c052fcef34733340dc.jpg",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.0008543729782104492,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Las Hermanas Stone by Jan Eliot for Jul 29, 2018",
      "imageUrl": "https://assets.amuniversal.com/2881b7e061880136416d005056a9545d",
      "keyword": "jan eliot",
@@ -1157,20 +1129,6 @@
     {
      "text": "We'll Be Really Careful! by Jan Eliot",
      "imageUrl": "http://i.shopmania.org/180x180/7/7b/7bcdd055f87d37c2f4c8ed2f6f8133b029dade48.jpg?u=https%3A%2F%2Fd1w7fb2mkkr3kw.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F9674%2F9780967410272.jpg",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.0004975199699401855,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "We'll Be Really Careful! by Jan Eliot",
-     "imageUrl": "http://i.shopmania.org/180x180/2/27/27b99a1405e82f3d8ce416befc7afb3cfcf4819e.jpg?u=https%3A%2F%2Fd4rri9bdfuube.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F9674%2F9780967410272.jpg",
      "keyword": "jan eliot",
      "tier": "namematch",
      "punsafe": 0.0004975199699401855,
@@ -1211,6 +1169,48 @@
      }
     },
     {
+     "text": "Las Hermanas Stone by Jan Eliot on Sun, 06 Dec 2020",
+     "imageUrl": "https://assets.amuniversal.com/5265f94006b1013932f2005056a9545d",
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": 0.0008918344974517822,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "We'll Be Really Careful! by Jan Eliot",
+     "imageUrl": "http://i.shopmania.org/180x180/2/27/27b99a1405e82f3d8ce416befc7afb3cfcf4819e.jpg?u=https%3A%2F%2Fd4rri9bdfuube.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F9674%2F9780967410272.jpg",
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": 0.0004975199699401855,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stone Soup The Comic Strip: The Third Collection of the Syndicated Cartoon Stone Soup by Jan Eliot #GoComics #StoneSoup",
+     "imageUrl": "https://i.pinimg.com/236x/bf/26/e4/bf26e4d7a78492c052fcef34733340dc.jpg",
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": 0.0008543729782104492,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Las Hermanas Stone by Jan Eliot on Sun, 24 Jan 2021",
      "imageUrl": "https://assets.amuniversal.com/1b222ed02d7801393f0c005056a9545d",
      "keyword": "jan eliot",
@@ -1225,11 +1225,11 @@
      }
     },
     {
-     "text": "Stone Soup by Jan Eliot HAPPY NE Holly: We're BORED with 2011.",
-     "imageUrl": "https://assets.amuniversal.com/dd02a0f0b0580130dc1e001dd8b71c47",
+     "text": "Las Hermanas Stone by Jan Eliot for Jul 15, 2018",
+     "imageUrl": "https://assets.amuniversal.com/3ec1f300568701363d2d005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.0005626976490020752,
+     "punsafe": 0.004065275192260742,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1253,11 +1253,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot for Jul 15, 2018",
-     "imageUrl": "https://assets.amuniversal.com/3ec1f300568701363d2d005056a9545d",
+     "text": "Stone Soup by Jan Eliot HAPPY NE Holly: We're BORED with 2011.",
+     "imageUrl": "https://assets.amuniversal.com/dd02a0f0b0580130dc1e001dd8b71c47",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.004065275192260742,
+     "punsafe": 0.0005626976490020752,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1323,11 +1323,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot for October 28, 2018",
-     "imageUrl": "https://assets.amuniversal.com/cf0aee30a99301365bb8005056a9545d",
+     "text": "Bestselling Comics (2007) - Desperate Households: A Stone Soup Collection (Stone Soup) by Jan Eliot",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2007/1146-1.jpg",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.0018869340419769287,
+     "punsafe": 0.010228216648101807,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1337,11 +1337,11 @@
      }
     },
     {
-     "text": "Bestselling Comics (2007) - Desperate Households: A Stone Soup Collection (Stone Soup) by Jan Eliot",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2007/1146-1.jpg",
+     "text": "Las Hermanas Stone by Jan Eliot for October 28, 2018",
+     "imageUrl": "https://assets.amuniversal.com/cf0aee30a99301365bb8005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.010228216648101807,
+     "punsafe": 0.0018869340419769287,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1393,11 +1393,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot for December 09, 2018",
-     "imageUrl": "https://assets.amuniversal.com/22139200cb2601366833005056a9545d",
+     "text": "Stone Soup: It's Hard to Be Holly ebook by Jan Eliot",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/4a127606-5383-4b03-9092-78d0660ab6f0/180/1000/False/stone-soup-it-s-hard-to-be-holly.jpg",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.00231054425239563,
+     "punsafe": 0.028458207845687866,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1407,11 +1407,11 @@
      }
     },
     {
-     "text": "Stone Soup: It's Hard to Be Holly ebook by Jan Eliot",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/4a127606-5383-4b03-9092-78d0660ab6f0/180/1000/False/stone-soup-it-s-hard-to-be-holly.jpg",
+     "text": "Las Hermanas Stone by Jan Eliot for December 09, 2018",
+     "imageUrl": "https://assets.amuniversal.com/22139200cb2601366833005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.028458207845687866,
+     "punsafe": 0.00231054425239563,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1610,9 +1610,9 @@
     "Stone Soup: Evie Rules ebook by Jan Eliot",
     "Desperate Households - A Stone Soup Collection ebook by Jan Eliot",
     "Stone Soup by Jan Eliot",
-    "Las Hermanas Stone by Jan Eliot on Sun, 06 Dec 2020",
-    "Stone Soup The Comic Strip: The Third Collection of the Syndicated Cartoon Stone Soup by Jan Eliot #GoComics #StoneSoup",
     "Las Hermanas Stone by Jan Eliot for Jul 29, 2018",
+    "We'll Be Really Careful! by Jan Eliot",
+    "#4 Road Kill in the Closet, Book Four of the Syndicated Carto... by Jan Eliot",
     "We'll Be Really Careful! by Jan Eliot"
    ],
    "partial": false,
@@ -1709,11 +1709,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot",
-     "imageUrl": "https://assets.amuniversal.com/561fefb02b0b01362d31005056a9545d",
+     "text": "Las Hermanas Stone by Jan Eliot on Sun, 17 Nov 2019",
+     "imageUrl": "https://assets.amuniversal.com/6c27c850d7dc0137c8e7005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.0006243586540222168,
+     "punsafe": 0.0018257200717926025,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1723,11 +1723,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 17 Nov 2019",
-     "imageUrl": "https://assets.amuniversal.com/6c27c850d7dc0137c8e7005056a9545d",
+     "text": "Las Hermanas Stone by Jan Eliot",
+     "imageUrl": "https://assets.amuniversal.com/561fefb02b0b01362d31005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.0018257200717926025,
+     "punsafe": 0.0006243586540222168,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1799,8 +1799,8 @@
     "Las Hermanas Stone by Jan Eliot on Sun, 01 Aug 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 05 Sep 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 08 Aug 2021",
-    "Las Hermanas Stone by Jan Eliot",
     "Las Hermanas Stone by Jan Eliot on Sun, 17 Nov 2019",
+    "Las Hermanas Stone by Jan Eliot",
     "Las Hermanas Stone by Jan Eliot on Sun, 29 Aug 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 15 Aug 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 22 Aug 2021"
@@ -1843,11 +1843,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot for October 07, 2018",
-     "imageUrl": "https://assets.amuniversal.com/d84d1d809956013655d7005056a9545d",
+     "text": "Las Hermanas Stone by Jan Eliot on Sun, 29 Dec 2019",
+     "imageUrl": "https://assets.amuniversal.com/5d371370f9b00137d4cf005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.002061128616333008,
+     "punsafe": 0.0010713934898376465,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1857,11 +1857,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 23 May 2021",
-     "imageUrl": "https://assets.amuniversal.com/104dba208aa601395b49005056a9545d",
+     "text": "Las Hermanas Stone by Jan Eliot for October 07, 2018",
+     "imageUrl": "https://assets.amuniversal.com/d84d1d809956013655d7005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.0025366246700286865,
+     "punsafe": 0.002061128616333008,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1885,11 +1885,11 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 29 Dec 2019",
-     "imageUrl": "https://assets.amuniversal.com/5d371370f9b00137d4cf005056a9545d",
+     "text": "Las Hermanas Stone by Jan Eliot on Sun, 23 May 2021",
+     "imageUrl": "https://assets.amuniversal.com/104dba208aa601395b49005056a9545d",
      "keyword": "jan eliot",
      "tier": "namematch",
-     "punsafe": 0.0010713934898376465,
+     "punsafe": 0.0025366246700286865,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1955,20 +1955,6 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 25 Apr 2021",
-     "imageUrl": "https://assets.amuniversal.com/109e3e70741d013954d0005056a9545d",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.002684652805328369,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Las Hermanas Stone by Jan Eliot for October 14, 2018",
      "imageUrl": "https://assets.amuniversal.com/1e8b06909e93013657be005056a9545d",
      "keyword": "jan eliot",
@@ -1988,6 +1974,20 @@
      "keyword": "jan eliot",
      "tier": "namematch",
      "punsafe": 0.0015310943126678467,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Las Hermanas Stone by Jan Eliot on Sun, 25 Apr 2021",
+     "imageUrl": "https://assets.amuniversal.com/109e3e70741d013954d0005056a9545d",
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": 0.002684652805328369,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2025,20 +2025,6 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 02 May 2021",
-     "imageUrl": "https://assets.amuniversal.com/04120ed07a240139569c005056a9545d",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.0008924305438995361,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Las Hermanas Stone by Jan Eliot on Sun, 26 Jan 2020",
      "imageUrl": "https://assets.amuniversal.com/61babe300f2e0138dbf8005056a9545d",
      "keyword": "jan eliot",
@@ -2067,6 +2053,20 @@
      }
     },
     {
+     "text": "Las Hermanas Stone by Jan Eliot on Sun, 02 May 2021",
+     "imageUrl": "https://assets.amuniversal.com/04120ed07a240139569c005056a9545d",
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": 0.0008924305438995361,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Las Hermanas Stone by Jan Eliot on Sun, 17 Oct 2021",
      "imageUrl": "https://assets.amuniversal.com/acf47e40fe1301397a2c005056a9545d",
      "keyword": "jan eliot",
@@ -2083,15 +2083,15 @@
    ],
    "samples": [
     "Las Hermanas Stone by Jan Eliot on Sun, 15 Dec 2019",
-    "Las Hermanas Stone by Jan Eliot for October 07, 2018",
-    "Las Hermanas Stone by Jan Eliot on Sun, 23 May 2021",
-    "Las Hermanas Stone by Jan Eliot for Jun 24, 2018",
     "Las Hermanas Stone by Jan Eliot on Sun, 29 Dec 2019",
+    "Las Hermanas Stone by Jan Eliot for October 07, 2018",
+    "Las Hermanas Stone by Jan Eliot for Jun 24, 2018",
+    "Las Hermanas Stone by Jan Eliot on Sun, 23 May 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 05 Jan 2020",
     "Las Hermanas Stone by Jan Eliot on Sun, 10 Oct 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 24 Oct 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 01 Dec 2019",
-    "Las Hermanas Stone by Jan Eliot on Sun, 25 Apr 2021"
+    "Las Hermanas Stone by Jan Eliot for October 14, 2018"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2131,20 +2131,6 @@
      }
     },
     {
-     "text": "Privacy is for Wussies: Book 11 of the Syndicated Cartoon...\n\u22126%\nView on Amazon\n\nStone Soup, also known as \"The Great Rabbit\", is an internationally acclaimed syndicated American comic strip originally created and drawn by veteran cartoonist Jan Eliot. The creator of the comic had a passion for brin",
-     "imageUrl": null,
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Before Jan Eliot started out with her comic strip Stone Soup, she started out by testing the waters for a potential audience with a weekly feature, Patience and Sarah that was loosely inspired by her family relations, with a smattering of For Better or For Worse behind it.  After gaining a cult foll",
      "imageUrl": null,
      "keyword": "patience and sarah",
@@ -2160,6 +2146,20 @@
     },
     {
      "text": "In the years following 1975, a group of female-created comic strips came to national attention in a traditionally male-dominated medium. Typical Girls: The Rhetoric of Womanhood in Comic Strips uncovers the understudied and developing history of these strips, defining and exploring the ramifications",
+     "imageUrl": null,
+     "keyword": "jan eliot",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Privacy is for Wussies: Book 11 of the Syndicated Cartoon...\n\u22126%\nView on Amazon\n\nStone Soup, also known as \"The Great Rabbit\", is an internationally acclaimed syndicated American comic strip originally created and drawn by veteran cartoonist Jan Eliot. The creator of the comic had a passion for brin",
      "imageUrl": null,
      "keyword": "jan eliot",
      "tier": "namematch",
@@ -2245,9 +2245,9 @@
    ],
    "samples": [
     "The next presentation, \"So Far, So Good\" was by Jan Eliot of Stone Soup and must have been completely engrossing to me because I forgot to take a single photo. It was a terrific talk, Jan ran down her origins in the world of advertising illustration and how she evolved some of that work into a caree",
-    "Privacy is for Wussies: Book 11 of the Syndicated Cartoon...\n\u22126%\nView on Amazon\n\nStone Soup, also known as \"The Great Rabbit\", is an internationally acclaimed syndicated American comic strip originally created and drawn by veteran cartoonist Jan Eliot. The creator of the comic had a passion for brin",
     "Before Jan Eliot started out with her comic strip Stone Soup, she started out by testing the waters for a potential audience with a weekly feature, Patience and Sarah that was loosely inspired by her family relations, with a smattering of For Better or For Worse behind it.  After gaining a cult foll",
     "In the years following 1975, a group of female-created comic strips came to national attention in a traditionally male-dominated medium. Typical Girls: The Rhetoric of Womanhood in Comic Strips uncovers the understudied and developing history of these strips, defining and exploring the ramifications",
+    "Privacy is for Wussies: Book 11 of the Syndicated Cartoon...\n\u22126%\nView on Amazon\n\nStone Soup, also known as \"The Great Rabbit\", is an internationally acclaimed syndicated American comic strip originally created and drawn by veteran cartoonist Jan Eliot. The creator of the comic had a passion for brin",
     "\u201cEvery Monday morning, there it is, the blank paper that represents the seven comic strips that need to be created,\u201d Eliot explained. \u201cI have reached a point in life where I\u2019d like to be free of these daily deadlines \u2014 free to travel more, spend more time with family and friends, pursue other creati",
     "For Jan Eliot, cartooning started out as therapy and evolved into a career. Juggling life as a single working mom, she drew cartoons at night after the kids went to bed. In 1995 she launched the comic strip Stone Soup, which is loosely based on her family, friends and unsuspecting strangers at the m",
     "Documentary explores the world of the beloved comic strip and its reclusive creator.\n\nWhen I think about what first got me interested in philosophy, a somewhat surprising source comes to mind: Bill Watterson\u2019s comic strip \u201cCalvin and Hobbes.\u201d\n\nI don\u2019t remember when I first met that imaginative (and ",
@@ -2342,10 +2342,10 @@
     "longformRatio": 0.505,
     "perDataset": {
      "coyo700m": 14,
+     "laion1b-nolang": 30,
      "laion2b-en": 51,
      "laion2b-multi": 4,
-     "obelics": 101,
-     "laion1b-nolang": 30
+     "obelics": 101
     },
     "reason": null
    },
@@ -2357,13 +2357,13 @@
     "longformHits": 53,
     "longformRatio": 0.329,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 10,
+     "laion1b-nolang": 21,
      "laion2b-en": 61,
      "laion2b-multi": 16,
-     "laion1b-nolang": 21,
      "obelics": 51,
-     "pile": 1,
-     "c4-en": 1
+     "pile": 1
     },
     "reason": null
    }
@@ -2379,14 +2379,14 @@
   },
   "evidenceShown": 87,
   "evidenceWithheld": {
-   "unverified": 203,
-   "unrelated": 44,
-   "storefront": 5,
+   "unverified": 201,
+   "unrelated": 40,
+   "storefront": 11,
    "person_photo": 13,
    "explicit": 3,
    "derivative": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-jan-eliot",
  "cohort": "billy-ireland",
@@ -2399,7 +2399,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 361,
   "datasetsPresent": 7,

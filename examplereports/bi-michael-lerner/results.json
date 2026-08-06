@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,50 +898,8 @@
    "totalIncludingLowConfidence": 46257,
    "rows": [
     {
-     "text": "ML_28 - 11x17 Photo Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-28_large.jpg?v=1540940656",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ML_33 - 10\" Knife Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-33_large.JPG?v=1541953021",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ML_18 - 8x10 Photo Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-18_large.jpg?v=1540525662",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ML_13 - 8x10 Photo Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-13_large.jpg?v=1540525391",
+     "text": "Revolutionary Love by Michael Lerner",
+     "imageUrl": "https://images.ucpress.edu/covers/200/9780520304505.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
      "punsafe": null,
@@ -968,8 +926,8 @@
      }
     },
     {
-     "text": "Revolutionary Love by Michael Lerner",
-     "imageUrl": "https://images.ucpress.edu/covers/200/9780520304505.jpg",
+     "text": "ML_27 - 11x17 Photo Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-27_large.jpg?v=1540940613",
      "keyword": "michael lerner",
      "tier": "namematch",
      "punsafe": null,
@@ -996,50 +954,8 @@
      }
     },
     {
-     "text": "ML_27 - 11x17 Photo Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-27_large.jpg?v=1540940613",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ML_11 - 8x10 Photo Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-11_large.jpg?v=1540525287",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Interview of Mary Evelyn Tucker by Michael Lerner",
      "imageUrl": "https://dtnetwork.org/wp-content/uploads/2019/05/Mary-Evelyn-1-768x437.jpg",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ML_04 - 8x10 Photo Autographed By Michael Lerner",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-04_8f3f088c-05f4-4644-8539-5c8c036607ce_large.jpg?v=1540525059",
      "keyword": "michael lerner",
      "tier": "namematch",
      "punsafe": null,
@@ -1080,8 +996,92 @@
      }
     },
     {
+     "text": "ML_28 - 11x17 Photo Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-28_large.jpg?v=1540940656",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ML_13 - 8x10 Photo Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-13_large.jpg?v=1540525391",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ML_18 - 8x10 Photo Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-18_large.jpg?v=1540525662",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ML_33 - 10\" Knife Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-33_large.JPG?v=1541953021",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ML_11 - 8x10 Photo Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-11_large.jpg?v=1540525287",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Jews and Blacks by Michael Lerner and Cornel West",
      "imageUrl": "https://images3.penguinrandomhouse.com/cover/9780452275911",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ML_04 - 8x10 Photo Autographed By Michael Lerner",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2382/4281/products/ML-04_8f3f088c-05f4-4644-8539-5c8c036607ce_large.jpg?v=1540525059",
      "keyword": "michael lerner",
      "tier": "namematch",
      "punsafe": null,
@@ -1123,16 +1123,16 @@
     }
    ],
    "samples": [
-    "ML_28 - 11x17 Photo Autographed By Michael Lerner",
-    "ML_33 - 10\" Knife Autographed By Michael Lerner",
-    "ML_18 - 8x10 Photo Autographed By Michael Lerner",
-    "ML_13 - 8x10 Photo Autographed By Michael Lerner",
-    "ML_36 - Michael Myers Mask Autographed By Michael Lerner",
     "Revolutionary Love by Michael Lerner",
-    "ML_16 - 8x10 Photo Autographed By Michael Lerner",
+    "ML_36 - Michael Myers Mask Autographed By Michael Lerner",
     "ML_27 - 11x17 Photo Autographed By Michael Lerner",
-    "ML_11 - 8x10 Photo Autographed By Michael Lerner",
-    "Interview of Mary Evelyn Tucker by Michael Lerner"
+    "ML_16 - 8x10 Photo Autographed By Michael Lerner",
+    "Interview of Mary Evelyn Tucker by Michael Lerner",
+    "ML_26 - 11x14 Photo Autographed By Michael Lerner",
+    "ML_19 - 8x10 Photo Autographed By Michael Lerner",
+    "ML_28 - 11x17 Photo Autographed By Michael Lerner",
+    "ML_13 - 8x10 Photo Autographed By Michael Lerner",
+    "ML_18 - 8x10 Photo Autographed By Michael Lerner"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1186,34 +1186,6 @@
      }
     },
     {
-     "text": "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-11-22)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51OeIkJKj1L._UY250_.jpg",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": 5.166148184798658e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-12-15)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/511YF-ysyaL._AC_US218_.jpg",
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": 0.00014981627464294434,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Best Contemporary Jewish Writing book written by Michael Lerner",
      "imageUrl": "https://wonderclub.com/images/covers/97/22/9780787959722.jpg",
      "keyword": "michael lerner",
@@ -1242,11 +1214,39 @@
      }
     },
     {
+     "text": "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-12-15)",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/511YF-ysyaL._AC_US218_.jpg",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": 0.00014981627464294434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Hershey's Kisses Chocolate Candies Held by Michael Lerner in Godzilla (1998) - Movie Product Placement",
      "imageUrl": "https://productplacementblog.com/wp-content/uploads/2019/05/Hersheys-Kisses-Chocolate-Candies-Held-by-Michael-Lerner-in-Godzilla-800x333.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
      "punsafe": 0.0006400644779205322,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-11-22)",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51OeIkJKj1L._UY250_.jpg",
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": 5.166148184798658e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1326,11 +1326,11 @@
      }
     },
     {
-     "text": "Embracing Israel/Palestine by Michael Lerner",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9781583943380",
+     "text": "Jews and Blacks: A Dialogue on Race, Religion, and Culture in America by Michael Lerner (1996-02-01)",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51fzqCAMw7L._UY250_.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 0.000268399715423584,
+     "punsafe": 2.1980347810313106e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1340,11 +1340,11 @@
      }
     },
     {
-     "text": "The Left Hand Of God: Taking Back Our Country From The Religious Right by Michael Lerner",
-     "imageUrl": "http://i.shopmania.org/180x180/2/2f/2f6e431feb2506b07ca51057ab2909bd0aa80979.jpg?u=https%3A%2F%2Fd20eq91zdmkqd.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F0611%2F9780061146626.jpg",
+     "text": "Embracing Israel/Palestine by Michael Lerner",
+     "imageUrl": "http://images.penguinrandomhouse.com/cover/9781583943380",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 7.818450831109658e-05,
+     "punsafe": 0.000268399715423584,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1368,11 +1368,11 @@
      }
     },
     {
-     "text": "Jews and Blacks: A Dialogue on Race, Religion, and Culture in America by Michael Lerner (1996-02-01)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51fzqCAMw7L._UY250_.jpg",
+     "text": "The Left Hand Of God: Taking Back Our Country From The Religious Right by Michael Lerner",
+     "imageUrl": "http://i.shopmania.org/180x180/2/2f/2f6e431feb2506b07ca51057ab2909bd0aa80979.jpg?u=https%3A%2F%2Fd20eq91zdmkqd.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F0611%2F9780061146626.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 2.1980347810313106e-05,
+     "punsafe": 7.818450831109658e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1410,11 +1410,11 @@
      }
     },
     {
-     "text": "Embracing Israel/Palestine ebook by Michael Lerner",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/2f1d47a0-7239-4198-812d-94cabae5a073/140/215/60/False/embracing-israel-palestine.jpg",
+     "text": "Surplus Powerlessness : The Psychodynamics of Everyday Life and the Psychology of Individual and Social Transformation (Reprint ed) by Michael Lerner (1998-09-11)",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41sqlE40GEL._UY250_.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 2.9653201636392623e-05,
+     "punsafe": 2.2220702078357135e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1424,11 +1424,11 @@
      }
     },
     {
-     "text": "Surplus Powerlessness : The Psychodynamics of Everyday Life and the Psychology of Individual and Social Transformation (Reprint ed) by Michael Lerner (1998-09-11)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41sqlE40GEL._UY250_.jpg",
+     "text": "Embracing Israel/Palestine ebook by Michael Lerner",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/2f1d47a0-7239-4198-812d-94cabae5a073/140/215/60/False/embracing-israel-palestine.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 2.2220702078357135e-07,
+     "punsafe": 2.9653201636392623e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1550,11 +1550,11 @@
      }
     },
     {
-     "text": "Embracing Israel/Palestine - A Strategy to Heal and Transform the Middle East ebook by Michael Lerner",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/2f1d47a0-7239-4198-812d-94cabae5a073/166/300/False/Embracing+Israel%2fPalestine.jpg",
+     "text": "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-11-22)",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51OeIkJKj1L._AC_US218_.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 0.0001575946807861328,
+     "punsafe": 0.0001773536205291748,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1564,11 +1564,11 @@
      }
     },
     {
-     "text": "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-11-22)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51OeIkJKj1L._AC_US218_.jpg",
+     "text": "Embracing Israel/Palestine - A Strategy to Heal and Transform the Middle East ebook by Michael Lerner",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/2f1d47a0-7239-4198-812d-94cabae5a073/166/300/False/Embracing+Israel%2fPalestine.jpg",
      "keyword": "michael lerner",
      "tier": "namematch",
-     "punsafe": 0.0001773536205291748,
+     "punsafe": 0.0001575946807861328,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1819,11 +1819,11 @@
    "samples": [
     "Embracing Israel/Palestine by Michael Lerner",
     "The Left Hand of God by Michael Lerner",
-    "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-11-22)",
-    "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-12-15)",
     "Best Contemporary Jewish Writing book written by Michael Lerner",
     "The Left Hand of God by Michael Lerner",
+    "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-12-15)",
     "Hershey's Kisses Chocolate Candies Held by Michael Lerner in Godzilla (1998) - Movie Product Placement",
+    "Embracing Israel/Palestine: A Strategy to Heal and Transform the Middle East by Michael Lerner (2011-11-22)",
     "Jewish Renewal: Path to Healing and Transformation, A by Michael Lerner (1995-08-24)",
     "Embracing Israel/Palestine - A Strategy to Heal and Transform the Middle East ebook by Michael Lerner",
     "Best Contemporary Jewish Writing by Michael Lerner - 9780787959722 Bo"
@@ -2069,20 +2069,6 @@
    "totalIncludingLowConfidence": 105445,
    "rows": [
     {
-     "text": "Fantasy. 33 out of 120 minutes is a parallel story line which takes place in the imagination of a young boy, made by computer generated imagery. The script is written by Michael Lerner and based on a fiairy tale by Danish writer H.C. Andersen.\n\nThe project was heavily supported by the Russian govern",
-     "imageUrl": null,
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Food banks are booming in the pandemic Photo by Joel Muniz instagram.com/infraredla\n\nCorona virus is having a grand old time, exploiting areas where American society is divided and disorganized, problems that have been damaging us for years but went largely ignored. Now, with the pandemic shining li",
      "imageUrl": null,
      "keyword": "michael lerner",
@@ -2111,6 +2097,20 @@
      }
     },
     {
+     "text": "Fantasy. 33 out of 120 minutes is a parallel story line which takes place in the imagination of a young boy, made by computer generated imagery. The script is written by Michael Lerner and based on a fiairy tale by Danish writer H.C. Andersen.\n\nThe project was heavily supported by the Russian govern",
+     "imageUrl": null,
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "...or I should rather say, \"Mad goes Basil Wolverton!\". Mad Magazine that is...I mean...Mad, the comic book.\n\nFor those not in the know, Mad, \"Humor in a Jugular Vein\", that stalwart companion of all good subversive juveniles and adults for generations. \"What, Me Worry?\", stepping-stone to Harvard A",
      "imageUrl": null,
      "keyword": "humor in a jugular vein",
@@ -2125,7 +2125,7 @@
      }
     },
     {
-     "text": "THE BEAUTICIAN AND THE BEAST MOVIE CAST: PHYLLIS NEWMAN, MICHAEL LERNER and FRAN DRESCHER All three are shown in a captioned still from the 1997 film. Photograph signed: \"Michael Lerner\", \"Phyllis/Newman\", \"Fran Drescher\". B/w, 10x8. Captioned movie still from The Beautician and the Beast (1997). Ac",
+     "text": "The Iraq War Was a Huge Ethical Leap Backwards\n\nFrom the Big Lie to torture and sectarian violence, the U.S. and the Middle East are still paying the price for our moral perversions in Iraq.\nBy Michael Lerner | December 1, 2016\n\nThis commentary is extracted from testimony from CodePink\u2019s Iraq War Tr",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2139,7 +2139,7 @@
      }
     },
     {
-     "text": "The Iraq War Was a Huge Ethical Leap Backwards\n\nFrom the Big Lie to torture and sectarian violence, the U.S. and the Middle East are still paying the price for our moral perversions in Iraq.\nBy Michael Lerner | December 1, 2016\n\nThis commentary is extracted from testimony from CodePink\u2019s Iraq War Tr",
+     "text": "THE BEAUTICIAN AND THE BEAST MOVIE CAST: PHYLLIS NEWMAN, MICHAEL LERNER and FRAN DRESCHER All three are shown in a captioned still from the 1997 film. Photograph signed: \"Michael Lerner\", \"Phyllis/Newman\", \"Fran Drescher\". B/w, 10x8. Captioned movie still from The Beautician and the Beast (1997). Ac",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2181,20 +2181,6 @@
      }
     },
     {
-     "text": "Photo by Toa Heftiba on Unsplash\n\n[Editor's Note: Rabbi Kastel has been a friend of Tikkun ever sincere I visited Australia where he does important interface work as an orthodox rabbi trained by the Chabad/Lubavitcher branch of Judaism. Read below and you can see why we at Tikkun feel blessed to sha",
-     "imageUrl": null,
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "APBS Plugins for PyMOL. APBS Electrostatics Plugin, included in Incentive PyMOL 2.0; APBS Tools 2.1, based on the original version by Michael Lerner.; Both plugins make it possible to run APBS from within PyMOL, and then display the results as a color-coded electrostatic surface (units /) in the mol",
      "imageUrl": null,
      "keyword": "michael lerner",
@@ -2209,7 +2195,7 @@
      }
     },
     {
-     "text": "This is maybe 2 weeks later, when Jack (Campbell) has been cleared of the murders but is trying to get back on the force. I\u2019m a little confused because there\u2019s a new captain and reference to the previous one being dead, but for some reason the commissioner, played by Michael Lerner (BARTON FINK) ins",
+     "text": "On Whidbey Island, north of Seattle, the imprint of architect Ross Chapin\u2019s vision of enchanting small homes and livable pocket neighborhoods is palpable. Ross came to Whidbey in the 1970s, drawn by the vision of the Chinook Learning Center, founded by Fritz and Vivienne Hull. Chinook later became t",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2223,7 +2209,21 @@
      }
     },
     {
-     "text": "On Whidbey Island, north of Seattle, the imprint of architect Ross Chapin\u2019s vision of enchanting small homes and livable pocket neighborhoods is palpable. Ross came to Whidbey in the 1970s, drawn by the vision of the Chinook Learning Center, founded by Fritz and Vivienne Hull. Chinook later became t",
+     "text": "Photo by Toa Heftiba on Unsplash\n\n[Editor's Note: Rabbi Kastel has been a friend of Tikkun ever sincere I visited Australia where he does important interface work as an orthodox rabbi trained by the Chabad/Lubavitcher branch of Judaism. Read below and you can see why we at Tikkun feel blessed to sha",
+     "imageUrl": null,
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This is maybe 2 weeks later, when Jack (Campbell) has been cleared of the murders but is trying to get back on the force. I\u2019m a little confused because there\u2019s a new captain and reference to the previous one being dead, but for some reason the commissioner, played by Michael Lerner (BARTON FINK) ins",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2335,6 +2335,34 @@
      }
     },
     {
+     "text": "The God of the Torah is driven by loneliness, by a desire to be in relationship with humanity and to God\u2019s chosen people, Israel. As Abraham Joshua Heschel says (quoted by Michael Lerner in his book Jewish Renewal), \u201cGod\u2019s dream is not to be alone, but to have humankind as a partner in the drama of ",
+     "imageUrl": null,
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Unseen Histories on Unsplash\n\nI was hugely honored in 2005 when Morehouse College invited me to receive their MLK, Jr./Gandhi annual award, and arranged for me to give a sermon at the Ebenezer Baptist Church in Atlanta where King did much of his preaching. I had become radicalized after att",
+     "imageUrl": null,
+     "keyword": "michael lerner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Photo by Jason Leung on Unsplash\n\nToday many male leaders of two major American religious communities are denying women and some women-supporting men the moral agency to make their own conscientious decisions. about their own lives.\n\nOften the press reduces this to a matter of whether abortion is a ",
      "imageUrl": null,
      "keyword": "michael lerner",
@@ -2363,34 +2391,6 @@
      }
     },
     {
-     "text": "Photo by Unseen Histories on Unsplash\n\nI was hugely honored in 2005 when Morehouse College invited me to receive their MLK, Jr./Gandhi annual award, and arranged for me to give a sermon at the Ebenezer Baptist Church in Atlanta where King did much of his preaching. I had become radicalized after att",
-     "imageUrl": null,
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The God of the Torah is driven by loneliness, by a desire to be in relationship with humanity and to God\u2019s chosen people, Israel. As Abraham Joshua Heschel says (quoted by Michael Lerner in his book Jewish Renewal), \u201cGod\u2019s dream is not to be alone, but to have humankind as a partner in the drama of ",
-     "imageUrl": null,
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Photo by Chris LeBoutillier on Unsplash\n\nFour interconnected pieces of climate change-related news from the past two weeks reveal America's predicament. And they also show the way forward, which ultimately must include oil companies' paying restitution for damage that they have done to the climate a",
      "imageUrl": null,
      "keyword": "michael lerner",
@@ -2406,20 +2406,6 @@
     },
     {
      "text": "Here we go: \u201cAnguish\u201d opens by introducing us to a middle-aged Mama\u2019s boy named John (played with naturalistic neurosis by Michael Lerner) and, of course, his Mother (the tiny but powerful Zelda Rubinstein, or Tangina to all you \u201cPoltergeist\u201d fans out there). These two make an extremely odd and cree",
-     "imageUrl": null,
-     "keyword": "michael lerner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photo by Katt Yukawa on Unsplash\n\n[Editor's note: This is an important response to those who worry about getting or giving \"handouts\" to the needy, mistakenly believing that being a recipient of support makes them less worthy as a human being. Judaism requires care for the poor and the powerless, a ",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2461,7 +2447,21 @@
      }
     },
     {
-     "text": "Before this year\u2019s postseason even got underway, Knight had already earned 17 state tournament medals from indoor and outdoor track. Photo by Elizabeth Metz\n\nBefore this year\u2019s postseason even got underway, Knight had already earned 17 state tournament medals from indoor and outdoor track. Photo by ",
+     "text": "The notorious 1950s issue of Crime SuspenStories sold at Comic Book Auctions as the key attraction in a mixed lot that made \u00a31200.\n\nThe big attraction it seems was a 1954 copy of Crime SuspenStories.\n\nAuctioneer Malcolm Phillips explained the background to its success. \u201cWhen Johnny Craig drew the in",
+     "imageUrl": null,
+     "keyword": "humor in a jugular vein",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Katt Yukawa on Unsplash\n\n[Editor's note: This is an important response to those who worry about getting or giving \"handouts\" to the needy, mistakenly believing that being a recipient of support makes them less worthy as a human being. Judaism requires care for the poor and the powerless, a ",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2475,10 +2475,10 @@
      }
     },
     {
-     "text": "The notorious 1950s issue of Crime SuspenStories sold at Comic Book Auctions as the key attraction in a mixed lot that made \u00a31200.\n\nThe big attraction it seems was a 1954 copy of Crime SuspenStories.\n\nAuctioneer Malcolm Phillips explained the background to its success. \u201cWhen Johnny Craig drew the in",
+     "text": "Before this year\u2019s postseason even got underway, Knight had already earned 17 state tournament medals from indoor and outdoor track. Photo by Elizabeth Metz\n\nBefore this year\u2019s postseason even got underway, Knight had already earned 17 state tournament medals from indoor and outdoor track. Photo by ",
      "imageUrl": null,
-     "keyword": "humor in a jugular vein",
-     "tier": "high",
+     "keyword": "michael lerner",
+     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2545,7 +2545,7 @@
      }
     },
     {
-     "text": "by Michael Lerner\nWe are in the midst of an extraordinary upsurge of interest in the realm of the Spirit. Tens of\u2026",
+     "text": "A protester holds up a banner as General Martin Dempsey, chairman of the Joint Chiefs of Staff, Secretary of Defense Chuck Hagel and Secretary of State John Kerry testify at a U.S. House Foreign Affairs Committee hearing on Syria on Capitol Hill, September 4, 2013. Photo by Jason Reed/ Reuters\n\nIf i",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2559,7 +2559,7 @@
      }
     },
     {
-     "text": "A protester holds up a banner as General Martin Dempsey, chairman of the Joint Chiefs of Staff, Secretary of Defense Chuck Hagel and Secretary of State John Kerry testify at a U.S. House Foreign Affairs Committee hearing on Syria on Capitol Hill, September 4, 2013. Photo by Jason Reed/ Reuters\n\nIf i",
+     "text": "by Michael Lerner\nWe are in the midst of an extraordinary upsurge of interest in the realm of the Spirit. Tens of\u2026",
      "imageUrl": null,
      "keyword": "michael lerner",
      "tier": "namematch",
@@ -2574,16 +2574,16 @@
     }
    ],
    "samples": [
-    "Fantasy. 33 out of 120 minutes is a parallel story line which takes place in the imagination of a young boy, made by computer generated imagery. The script is written by Michael Lerner and based on a fiairy tale by Danish writer H.C. Andersen.\n\nThe project was heavily supported by the Russian govern",
     "Food banks are booming in the pandemic Photo by Joel Muniz instagram.com/infraredla\n\nCorona virus is having a grand old time, exploiting areas where American society is divided and disorganized, problems that have been damaging us for years but went largely ignored. Now, with the pandemic shining li",
     "The Antlers, photo by Shervin Lainez\n\nThe Antlers have returned with their first new song in over six years. It\u2019s called \u201cWheels Roll Home\u201d and, according to lead singer and songwriter Peter Silberman, it\u2019s about the special joy of meeting up with someone you haven\u2019t seen a while \u2014 not unlike the st",
+    "Fantasy. 33 out of 120 minutes is a parallel story line which takes place in the imagination of a young boy, made by computer generated imagery. The script is written by Michael Lerner and based on a fiairy tale by Danish writer H.C. Andersen.\n\nThe project was heavily supported by the Russian govern",
     "...or I should rather say, \"Mad goes Basil Wolverton!\". Mad Magazine that is...I mean...Mad, the comic book.\n\nFor those not in the know, Mad, \"Humor in a Jugular Vein\", that stalwart companion of all good subversive juveniles and adults for generations. \"What, Me Worry?\", stepping-stone to Harvard A",
-    "THE BEAUTICIAN AND THE BEAST MOVIE CAST: PHYLLIS NEWMAN, MICHAEL LERNER and FRAN DRESCHER All three are shown in a captioned still from the 1997 film. Photograph signed: \"Michael Lerner\", \"Phyllis/Newman\", \"Fran Drescher\". B/w, 10x8. Captioned movie still from The Beautician and the Beast (1997). Ac",
     "The Iraq War Was a Huge Ethical Leap Backwards\n\nFrom the Big Lie to torture and sectarian violence, the U.S. and the Middle East are still paying the price for our moral perversions in Iraq.\nBy Michael Lerner | December 1, 2016\n\nThis commentary is extracted from testimony from CodePink\u2019s Iraq War Tr",
+    "THE BEAUTICIAN AND THE BEAST MOVIE CAST: PHYLLIS NEWMAN, MICHAEL LERNER and FRAN DRESCHER All three are shown in a captioned still from the 1997 film. Photograph signed: \"Michael Lerner\", \"Phyllis/Newman\", \"Fran Drescher\". B/w, 10x8. Captioned movie still from The Beautician and the Beast (1997). Ac",
     "Displayed are some of the more than 500,000 pieces of the Mazal Holocaust Collection. The large book in the lower center, \"Auschwitz: Technique and operation of the gas chambers,\" is one of only five in print and two are part of the collection. Photo by Glenn Asakawa/University of Colorado\n\nThe Maza",
     "When Tales Calculated to Drive You MAD\u2014Humor in a Jugular Vein first appeared in 1952, it was like nothing ever seen before. The comic book parodied comic books, which were then under assault as purveyors of violence and degeneracy that contributed to delinquency, homosexuality, and, of course, the ",
-    "Photo by Toa Heftiba on Unsplash\n\n[Editor's Note: Rabbi Kastel has been a friend of Tikkun ever sincere I visited Australia where he does important interface work as an orthodox rabbi trained by the Chabad/Lubavitcher branch of Judaism. Read below and you can see why we at Tikkun feel blessed to sha",
-    "APBS Plugins for PyMOL. APBS Electrostatics Plugin, included in Incentive PyMOL 2.0; APBS Tools 2.1, based on the original version by Michael Lerner.; Both plugins make it possible to run APBS from within PyMOL, and then display the results as a color-coded electrostatic surface (units /) in the mol"
+    "APBS Plugins for PyMOL. APBS Electrostatics Plugin, included in Incentive PyMOL 2.0; APBS Tools 2.1, based on the original version by Michael Lerner.; Both plugins make it possible to run APBS from within PyMOL, and then display the results as a color-coded electrostatic surface (units /) in the mol",
+    "On Whidbey Island, north of Seattle, the imprint of architect Ross Chapin\u2019s vision of enchanting small homes and livable pocket neighborhoods is palpable. Ross came to Whidbey in the 1970s, drawn by the vision of the Chinook Learning Center, founded by Fritz and Vivienne Hull. Chinook later became t"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2691,9 +2691,9 @@
     "longformRatio": 0.523,
     "perDataset": {
      "coyo700m": 1,
+     "laion1b-nolang": 4,
      "laion2b-en": 15,
      "laion2b-multi": 1,
-     "laion1b-nolang": 4,
      "obelics": 22,
      "pile": 1
     },
@@ -2707,13 +2707,13 @@
     "longformHits": 1786,
     "longformRatio": 0.672,
     "perDataset": {
+     "c4-en": 13,
      "coyo700m": 130,
      "laion1b-nolang": 201,
      "laion2b-en": 496,
      "laion2b-multi": 46,
      "obelics": 1754,
-     "pile": 19,
-     "c4-en": 13
+     "pile": 19
     },
     "reason": null
    },
@@ -2725,13 +2725,13 @@
     "longformHits": 104454,
     "longformRatio": 0.28,
     "perDataset": {
+     "c4-en": 479,
      "coyo700m": 46126,
      "laion1b-nolang": 34811,
      "laion2b-en": 170527,
      "laion2b-multi": 16746,
      "obelics": 103669,
-     "pile": 306,
-     "c4-en": 479
+     "pile": 306
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -2747,15 +2747,15 @@
   },
   "evidenceShown": 112,
   "evidenceWithheld": {
-   "unverified": 2084,
-   "person_photo": 385,
+   "unverified": 2077,
+   "person_photo": 381,
+   "storefront": 57,
    "merchandise": 15,
-   "storefront": 50,
    "unrelated": 28,
-   "explicit": 12,
-   "derivative": 3
+   "derivative": 7,
+   "explicit": 12
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-michael-lerner",
  "cohort": "billy-ireland",
@@ -2768,7 +2768,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 2703,
   "datasetsPresent": 7,

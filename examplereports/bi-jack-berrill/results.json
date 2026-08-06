@@ -213,6 +213,17 @@
    ]
   },
   {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
    "name": "IDEFICS-9B-Instruct",
    "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
@@ -222,17 +233,6 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "PixArt-\u03b1",
-   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "Efficient transformer-based text-to-image model.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe"
    ]
   },
   {
@@ -1212,7 +1212,7 @@
      }
     },
     {
-     "text": "The comic strip \u201cGil Thorp\u201d has been published since 1958. And the fourth and newest writer of the strip is Tucson-born author Henry Barajas.\n\n\u201cThe loose pitch was like, let\u2019s do \u2018Ted Lasso\u2019 in a comic strip,\u201d he said.\n\nOne challenge: Gil is an old-fashioned good guy.\n\n\u201cWe\u2019re kind of in the world of",
+     "text": "Jesus, for once I\u2019m really glad I read this feature in color.\n\nWell, what about Rex Morgan, that handsome, upright representative of all that is good about American manhood?\n\nWow. I don\u2019t know what that means, but it sounds \u2026 it sounds very, very wrong. OK, screw you, soap opera comic strips!\n\nBoy, ",
      "imageUrl": null,
      "keyword": "gil thorp",
      "tier": "high",
@@ -1226,7 +1226,7 @@
      }
     },
     {
-     "text": "Jesus, for once I\u2019m really glad I read this feature in color.\n\nWell, what about Rex Morgan, that handsome, upright representative of all that is good about American manhood?\n\nWow. I don\u2019t know what that means, but it sounds \u2026 it sounds very, very wrong. OK, screw you, soap opera comic strips!\n\nBoy, ",
+     "text": "The comic strip \u201cGil Thorp\u201d has been published since 1958. And the fourth and newest writer of the strip is Tucson-born author Henry Barajas.\n\n\u201cThe loose pitch was like, let\u2019s do \u2018Ted Lasso\u2019 in a comic strip,\u201d he said.\n\nOne challenge: Gil is an old-fashioned good guy.\n\n\u201cWe\u2019re kind of in the world of",
      "imageUrl": null,
      "keyword": "gil thorp",
      "tier": "high",
@@ -1351,8 +1351,8 @@
     "longformRatio": 0.885,
     "perDataset": {
      "coyo700m": 3,
-     "laion2b-en": 27,
      "laion1b-nolang": 6,
+     "laion2b-en": 27,
      "obelics": 278
     },
     "reason": null
@@ -1383,14 +1383,14 @@
   "evidenceShown": 19,
   "evidenceWithheld": {
    "unverified": 266,
+   "storefront": 10,
    "unrelated": 11,
-   "storefront": 9,
-   "person_photo": 11,
+   "person_photo": 10,
    "merchandise": 3,
    "derivative": 1,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-jack-berrill",
  "cohort": "billy-ireland",
@@ -1403,7 +1403,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 326,
   "datasetsPresent": 4,

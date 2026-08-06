@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -897,62 +897,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 13530,
    "rows": [
-    {
-     "text": "stand up to bullying with arctic circle comic drawn by Alex Hallatt and distributed by King Features Syndicate",
-     "imageUrl": "https://cdnmarquee.comicskingdom.com/system/blog/feature/4/2018-09-AC181024c.png",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Betty On Deck - Marlins by King Features Syndicate, Inc.",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/49909/41532279_1m.jpg?v=8D92D28D5A5F200",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marvel: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
-     "imageUrl": "https://pics.esmemes.com/gotcha-ennnhs-zarry-lieber-26-02009-marvel-characters-nc-67409437.png",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Betty Pulls The Pin by King Features Syndicate - Giclee",
-     "imageUrl": "https://p1.liveauctioneers.com/2160/45104/20206942_1_x.jpg?auto=webp&format=pjpg&height=270&quality=65&version=1378926343",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Starstruck Betty (with Elvis) by King Features Syndicate, Inc.",
      "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/38233/32821899_1m.jpg?v=8D6AAF6DFF6BCF0",
@@ -982,36 +926,8 @@
      }
     },
     {
-     "text": "Fleischer Studios Betty Boop on Motorcycle Sericel by King Features Syndicate and Hearst Collection Licensed Framed",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/0727/1263/products/1397930737640-358851415_large.jpeg?v=1498091534",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "marvel characters: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
      "imageUrl": "https://pics.onsizzle.com/gotcha-ennnhs-zarry-lieber-26-02009-marvel-characters-nc-67409437.png",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "George Herriman, Krazy Kat. N.d.. Ink, pencil and watercolor on paper. 34,3 x 36,8 cm. Garry Trudeau Collection. \u00a9 King Features Syndicate, Inc. \u2122 Hearst Holdings, inc., King Features Syndicate Division",
-     "imageUrl": "https://static3.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/krazykat_herriman_p.jpg?itok=IpdqmZux",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": null,
@@ -1038,22 +954,8 @@
      }
     },
     {
-     "text": "King Features Syndicate/Other",
-     "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/9/96/QZxkd-OzmZaZagrFeffQwQ47725.jpg/revision/latest?cb=20150424122718",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Characters: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
-     "imageUrl": "https://pics.astrologymemes.com/gotcha-ennnhs-zarry-lieber-26-02009-marvel-characters-nc-67409437.png",
+     "text": "stand up to bullying with arctic circle comic drawn by Alex Hallatt and distributed by King Features Syndicate",
+     "imageUrl": "https://cdnmarquee.comicskingdom.com/system/blog/feature/4/2018-09-AC181024c.png",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": null,
@@ -1094,34 +996,6 @@
      }
     },
     {
-     "text": "Children's wallpaper featuring characters from the \"Popeye\" cartoon: Popeye, Pappy, Olive Oyl, Bluto, Sweet Pea and Wimpy. Copyright by King Features Syndicate is noted on the selvedge. Printed in eight colors on an off-white ground.",
-     "imageUrl": "https://images.collection.cooperhewitt.org/328718_c7f6fdf35e4a9b59_b.jpg",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Popeye Spinach - Limited Edition Deluxe Sericel by King Features Syndicate with a Full Color Giclee Background Steamboat Willie, Classic Cartoons, Cool Cartoons, Famous Cartoons, Popeye Tattoo, Popeye Olive Oyl, Popeye The Sailor Man, Super Anime, Pinturas Disney",
-     "imageUrl": "https://i.pinimg.com/236x/20/06/53/200653d2ab6b50ae82b6d034b1c8b4bd--fine-art-auctions-spinach.jpg",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Betty Boop on Motorcycle Fleischer Studios Sericel by King Features Syndicate and Hearst Collection Licensed Framed",
      "imageUrl": "https://cdn.shopify.com/s/files/1/0727/1263/products/1397925249624-263645141_large.jpeg?v=1524685556",
      "keyword": "king features syndicate",
@@ -1136,8 +1010,8 @@
      }
     },
     {
-     "text": "syndicate: IT WAS ESSENTIAL THAT NONE OF YOU RECOGNIZE ME... SOI CUT OFF MY FACE.. C1992 by King Features Syndicate, Inc. World rights reserv No Face",
-     "imageUrl": "https://pics.ballmemes.com/it-was-essential-that-none-of-you-recognize-me-soi-62007284.png",
+     "text": "Betty On Deck - Marlins by King Features Syndicate, Inc.",
+     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/49909/41532279_1m.jpg?v=8D92D28D5A5F200",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": null,
@@ -1150,50 +1024,8 @@
      }
     },
     {
-     "text": "Official 2004 Betty Boop Hand Bag Purse by King Features Syndicate",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/t20AAOSw8VtgwWaJ/s-l300.jpg",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Homerun Popeye - Reds by King Features Syndicate, Inc.",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/40399/34721569_1m.jpg?v=8D7563FDA479FF0",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tallstacks by King Features Syndicate, Inc.",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/45556/38787600_1m.jpg?v=8D87273877D5A70",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Krazy Kat, \u00a9 King Features Syndicate, Inc. \u2122Hearst Holdings, inc., King Features Syndicate Division",
-     "imageUrl": "https://static4.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/visita-guiada/krazykat_p.jpg?itok=Y5wfuC0H",
+     "text": "Marvel: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
+     "imageUrl": "https://pics.esmemes.com/gotcha-ennnhs-zarry-lieber-26-02009-marvel-characters-nc-67409437.png",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": null,
@@ -1234,6 +1066,174 @@
      }
     },
     {
+     "text": "Betty Pulls The Pin by King Features Syndicate - Giclee",
+     "imageUrl": "https://p1.liveauctioneers.com/2160/45104/20206942_1_x.jpg?auto=webp&format=pjpg&height=270&quality=65&version=1378926343",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Krazy Kat, \u00a9 King Features Syndicate, Inc. \u2122Hearst Holdings, inc., King Features Syndicate Division",
+     "imageUrl": "https://static4.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/visita-guiada/krazykat_p.jpg?itok=Y5wfuC0H",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Fleischer Studios Betty Boop on Motorcycle Sericel by King Features Syndicate and Hearst Collection Licensed Framed",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/0727/1263/products/1397930737640-358851415_large.jpeg?v=1498091534",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "George Herriman, Krazy Kat. N.d.. Ink, pencil and watercolor on paper. 34,3 x 36,8 cm. Garry Trudeau Collection. \u00a9 King Features Syndicate, Inc. \u2122 Hearst Holdings, inc., King Features Syndicate Division",
+     "imageUrl": "https://static3.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/krazykat_herriman_p.jpg?itok=IpdqmZux",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "King Features Syndicate/Other",
+     "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/9/96/QZxkd-OzmZaZagrFeffQwQ47725.jpg/revision/latest?cb=20150424122718",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Characters: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
+     "imageUrl": "https://pics.astrologymemes.com/gotcha-ennnhs-zarry-lieber-26-02009-marvel-characters-nc-67409437.png",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Popeye Spinach - Limited Edition Deluxe Sericel by King Features Syndicate with a Full Color Giclee Background Steamboat Willie, Classic Cartoons, Cool Cartoons, Famous Cartoons, Popeye Tattoo, Popeye Olive Oyl, Popeye The Sailor Man, Super Anime, Pinturas Disney",
+     "imageUrl": "https://i.pinimg.com/236x/20/06/53/200653d2ab6b50ae82b6d034b1c8b4bd--fine-art-auctions-spinach.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Children's wallpaper featuring characters from the \"Popeye\" cartoon: Popeye, Pappy, Olive Oyl, Bluto, Sweet Pea and Wimpy. Copyright by King Features Syndicate is noted on the selvedge. Printed in eight colors on an off-white ground.",
+     "imageUrl": "https://images.collection.cooperhewitt.org/328718_c7f6fdf35e4a9b59_b.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "syndicate: IT WAS ESSENTIAL THAT NONE OF YOU RECOGNIZE ME... SOI CUT OFF MY FACE.. C1992 by King Features Syndicate, Inc. World rights reserv No Face",
+     "imageUrl": "https://pics.ballmemes.com/it-was-essential-that-none-of-you-recognize-me-soi-62007284.png",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Tallstacks by King Features Syndicate, Inc.",
+     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/45556/38787600_1m.jpg?v=8D87273877D5A70",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Official 2004 Betty Boop Hand Bag Purse by King Features Syndicate",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/t20AAOSw8VtgwWaJ/s-l300.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Homerun Popeye - Reds by King Features Syndicate, Inc.",
+     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/40399/34721569_1m.jpg?v=8D7563FDA479FF0",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Red Ryder # 24, March 1945. \u00a9 King Features Syndicate Inc. 1945.",
      "imageUrl": "https://www.vam.ac.uk/blog/wp-content/uploads/2016/01/017Ep9RedRyder017_2218acce14fbe3e10c3a2c098237057e.jpg",
      "keyword": "king features syndicate",
@@ -1248,8 +1248,8 @@
      }
     },
     {
-     "text": "The Phantom, c.1942-45 . The first costumed hero \u2013 an ingenious conflation of fact and fiction. \u00a9 King Features Syndicate Inc. 1942-45.",
-     "imageUrl": "https://www.vam.ac.uk/blog/wp-content/uploads/2016/01/013Ep9Phantom013_2cf6a8f54d6b0fd28fbc0cb9b74cebf4-610x384.jpg",
+     "text": "Vintage New Old Stock Popeye Olive Oyl Terry Towel By King Features Syndicate",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/k6UAAOSwdLpflan2/s-l225.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": null,
@@ -1262,8 +1262,8 @@
      }
     },
     {
-     "text": "Vintage New Old Stock Popeye Olive Oyl Terry Towel By King Features Syndicate",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/k6UAAOSwdLpflan2/s-l225.jpg",
+     "text": "The Phantom, c.1942-45 . The first costumed hero \u2013 an ingenious conflation of fact and fiction. \u00a9 King Features Syndicate Inc. 1942-45.",
+     "imageUrl": "https://www.vam.ac.uk/blog/wp-content/uploads/2016/01/013Ep9Phantom013_2cf6a8f54d6b0fd28fbc0cb9b74cebf4-610x384.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": null,
@@ -1291,16 +1291,16 @@
     }
    ],
    "samples": [
-    "stand up to bullying with arctic circle comic drawn by Alex Hallatt and distributed by King Features Syndicate",
-    "Betty On Deck - Marlins by King Features Syndicate, Inc.",
-    "Marvel: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
-    "Betty Pulls The Pin by King Features Syndicate - Giclee",
     "Starstruck Betty (with Elvis) by King Features Syndicate, Inc.",
     "THE STORY OF JUST KIDS: LICENSED BY KING FEATURES SYNDICATE NO. 283",
-    "Fleischer Studios Betty Boop on Motorcycle Sericel by King Features Syndicate and Hearst Collection Licensed Framed",
     "marvel characters: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026",
-    "George Herriman, Krazy Kat. N.d.. Ink, pencil and watercolor on paper. 34,3 x 36,8 cm. Garry Trudeau Collection. \u00a9 King Features Syndicate, Inc. \u2122 Hearst Holdings, inc., King Features Syndicate Division",
-    "Betty on Deck - Rockies by King Features Syndicate, Inc."
+    "Betty on Deck - Rockies by King Features Syndicate, Inc.",
+    "stand up to bullying with arctic circle comic drawn by Alex Hallatt and distributed by King Features Syndicate",
+    "Betty Boop on Motorcycle Fleischer Studios Sericel by King Features Syndicate and Hearst Collection Licensed",
+    "Starstruck Betty (with Elvis) by King Features Syndicate, Inc.",
+    "Betty Boop on Motorcycle Fleischer Studios Sericel by King Features Syndicate and Hearst Collection Licensed Framed",
+    "Betty On Deck - Marlins by King Features Syndicate, Inc.",
+    "Marvel: GOTCHA! ENNNHS !! ZARRY LIEBER -26 02009 Marvel Characters, nc. All Rights Reserved. Distributed by King Features Syndicate www.KINGFEATURES COM atanzfanz aol.com comicbooth.com Spider-Man\u2026"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1326,11 +1326,11 @@
    "totalIncludingLowConfidence": 42737,
    "rows": [
     {
-     "text": "Hal Foster - Original Comic Strip Art for Prince Valiant Sunday, dated 12-21-52 (King Features Syndicate, 1952). A truly...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F7%2F9%2F9%2F2799962%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Johnny Hazard / ...was an action-adventure comic strip created by cartoonist Frank Robbins for King Features Syndicate.",
+     "imageUrl": "https://i.pinimg.com/216x146/bc/12/72/bc1272401ed06847e39a93722f4c00ea.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.00036901235580444336,
+     "punsafe": 0.0007699131965637207,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1340,11 +1340,11 @@
      }
     },
     {
-     "text": "Vintage Post Card by King Features Syndicate Features Popeye the Sailor Never Used See Scan",
-     "imageUrl": "https://img0.etsystatic.com/160/0/9402999/il_340x270.1120232198_4pad.jpg",
+     "text": "Ace Comics # 101 GD Golden Age Comic Book King Features Syndicate 1945 NE3",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/8f4bbf12582f2ad7116b9d9aa7184357-300.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.00047516822814941406,
+     "punsafe": 1.9430637621553615e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1354,11 +1354,39 @@
      }
     },
     {
-     "text": "BETTY BOOP WATCH GENUINE LICENSED KING FEATURES SYNDICATE /INC FLEISCHER STUDIOS",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/4s4AAOSw4A5Ysibp/s-l225.jpg",
+     "text": "Red Ryder # 24, March 1945. \u00a9 King Features Syndicate Inc. 1945.",
+     "imageUrl": "https://s3-eu-west-1.amazonaws.com/vam-blog/wp-content/uploads/20160104172406/017Ep9RedRyder017_2218acce14fbe3e10c3a2c098237057e.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0021216869354248047,
+     "punsafe": 1.4637935237260535e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Betty on Deck - Yankees by King Features Syndicate, Inc. & Ford",
+     "imageUrl": "http://image.invaluable.com/housePhotos/federal/95/593795/H19591-L101659234_mid.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.005154609680175781,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #1124 Original Art, dated 8-24-58 (King Features Syndicate, 1958)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F9%2F7%2F6%2F3976732%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.008645474910736084,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1424,11 +1452,11 @@
      }
     },
     {
-     "text": "Questel styled the voice of Olive Oyl, the whiny girlfriend of Popeye, after Zasu Pitts. \u00a9 King Features Syndicate/Fleischer Studios.",
-     "imageUrl": "https://www.awn.com/sites/default/files/styles/inline/public/image/attached/584-ledererquestel03.jpg?itok=MP078KAN",
+     "text": "Hal Foster - Original Comic Strip Art for Prince Valiant Sunday, dated 12-21-52 (King Features Syndicate, 1952). A truly...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F7%2F9%2F9%2F2799962%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0001754164695739746,
+     "punsafe": 0.00036901235580444336,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1438,11 +1466,25 @@
      }
     },
     {
-     "text": "George Herriman - Krazy Kat Sunday Comic Strip Original Art, dated 3-31-18 (King Features Syndicate, 1918)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F9%2F8%2F9%2F3989271%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Vintage Post Card by King Features Syndicate Features Popeye the Sailor Never Used See Scan",
+     "imageUrl": "https://img0.etsystatic.com/160/0/9402999/il_340x270.1120232198_4pad.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 3.053587715839967e-05,
+     "punsafe": 0.00047516822814941406,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "BETTY BOOP WATCH GENUINE LICENSED KING FEATURES SYNDICATE /INC FLEISCHER STUDIOS",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/4s4AAOSw4A5Ysibp/s-l225.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0021216869354248047,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1480,11 +1522,11 @@
      }
     },
     {
-     "text": "Johnny Hazard / ...was an action-adventure comic strip created by cartoonist Frank Robbins for King Features Syndicate.",
-     "imageUrl": "https://i.pinimg.com/216x146/bc/12/72/bc1272401ed06847e39a93722f4c00ea.jpg",
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
+     "imageUrl": "http://dyn1.heritagestatic.com/lf?set=path%5B8%2F7%2F0%2F7%2F8707070%5D%2Csizedata%5B220x350%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0007699131965637207,
+     "punsafe": 0.001318126916885376,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1494,11 +1536,11 @@
      }
     },
     {
-     "text": "Ace Comics # 101 GD Golden Age Comic Book King Features Syndicate 1945 NE3",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/8f4bbf12582f2ad7116b9d9aa7184357-300.jpg",
+     "text": "Betty On Deck - Marlins by King Features Syndicate, Inc.",
+     "imageUrl": "https://portal-images.azureedge.net/auctions-2021/federa10171/images/f75335f1-aad7-4996-84a4-ada30141e31b.jpg?h=175",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 1.9430637621553615e-05,
+     "punsafe": 0.0027807950973510742,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1508,11 +1550,11 @@
      }
     },
     {
-     "text": "Red Ryder # 24, March 1945. \u00a9 King Features Syndicate Inc. 1945.",
-     "imageUrl": "https://s3-eu-west-1.amazonaws.com/vam-blog/wp-content/uploads/20160104172406/017Ep9RedRyder017_2218acce14fbe3e10c3a2c098237057e.jpg",
+     "text": "Questel styled the voice of Olive Oyl, the whiny girlfriend of Popeye, after Zasu Pitts. \u00a9 King Features Syndicate/Fleischer Studios.",
+     "imageUrl": "https://www.awn.com/sites/default/files/styles/inline/public/image/attached/584-ledererquestel03.jpg?itok=MP078KAN",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 1.4637935237260535e-05,
+     "punsafe": 0.0001754164695739746,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1522,11 +1564,25 @@
      }
     },
     {
-     "text": "Betty on Deck - Yankees by King Features Syndicate, Inc. & Ford",
-     "imageUrl": "http://image.invaluable.com/housePhotos/federal/95/593795/H19591-L101659234_mid.jpg",
+     "text": "George Herriman - Krazy Kat Sunday Comic Strip Original Art, dated 3-31-18 (King Features Syndicate, 1918)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F9%2F8%2F9%2F3989271%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.005154609680175781,
+     "punsafe": 3.053587715839967e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Hagar the Horrible (1977 King Features Syndicate/Whitman) Comic Library R-09",
+     "imageUrl": "https://d1466nnw0ex81e.cloudfront.net/n_iv/120/3348740.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0005462169647216797,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1578,62 +1634,6 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
-     "imageUrl": "http://dyn1.heritagestatic.com/lf?set=path%5B8%2F7%2F0%2F7%2F8707070%5D%2Csizedata%5B220x350%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.001318126916885376,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Betty On Deck - Marlins by King Features Syndicate, Inc.",
-     "imageUrl": "https://portal-images.azureedge.net/auctions-2021/federa10171/images/f75335f1-aad7-4996-84a4-ada30141e31b.jpg?h=175",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0027807950973510742,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hagar the Horrible (1977 King Features Syndicate/Whitman) Comic Library R-09",
-     "imageUrl": "https://d1466nnw0ex81e.cloudfront.net/n_iv/120/3348740.jpg",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0005462169647216797,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 4-21-35 (King Features Syndicate, 1935)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F4%2F2%2F8%2F7%2F14287753%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.00034439563751220703,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Original Comic Art:Comic Strip Art, George Herriman Last-Ever Krazy Kat Sunday Comic StripOriginal Art dated 6-25-44 (King Features Syndicate, 1944)....",
      "imageUrl": "http://dyn3.heritagestatic.com/lf?set=path%5B5%2F6%2F3%2F6%2F5636046%5D%2Csizedata%5B220x350%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
@@ -1662,11 +1662,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #1124 Original Art, dated 8-24-58 (King Features Syndicate, 1958)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F9%2F7%2F6%2F3976732%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 4-21-35 (King Features Syndicate, 1935)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F4%2F2%2F8%2F7%2F14287753%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.008645474910736084,
+     "punsafe": 0.00034439563751220703,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1695,76 +1695,6 @@
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": 0.0027456283569335938,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Animation Art:Limited Edition Cel, Popeye and Nephews \"\"\"\"Gone Fishing\"\"\"\" Signed Limited Edition Cel, #41/250 (King Features Syndicate/Fleischer, 1991). ...\"\"\"",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F4%2F4%2F7%2F21447085%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.14937371015548706,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Wilson McCoy - The Phantom Sunday Comic Strip Original Art dated 5-22-55 (King Features Syndicate, 1955)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B4%2F0%2F0%2F4%2F4004708%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.003163844347000122,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "George Herriman Krazy Kat Sunday Comic Strip Original Art dated 12-22-18 (King Features Syndicate, 1918)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F2%2F2%2F1%2F17221722%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.009157001972198486,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Mac Raboy Flash Gordon Sunday Comic Strip Original Art dated 2-9-64 (King Features Syndicate, 1964)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F5%2F6%2F4%2F19564276%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.00577855110168457,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "1929 Rare Hubley Cast Iron Popeye Doorstop By King Features Syndicate",
-     "imageUrl": "https://castirondoorstop.name/wp-content/image/1929_Rare_Hubley_Cast_Iron_Popeye_Doorstop_By_King_Features_Syndicate_04_cpg.jpg",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 6.391645456460537e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1844,11 +1774,11 @@
      }
     },
     {
-     "text": "Bringing Up Father was an influential American comic strip created by cartoonist George McManus (1884\u20131954). Distributed by King Features Syndicate, it ran for 87 years, from January 12, 1913, to May 28, 2000.",
-     "imageUrl": "https://i.pinimg.com/236x/26/59/ca/2659caf797353d0d41b1244fa38af07d.jpg",
+     "text": "Original Comic Art:Comic Strip Art, Chic Young Blondie Sunday Comic Strip Original Art dated7-13-47 (King Features Syndicate, 1947). ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F6%2F3%2F0%2F12630272%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0005435347557067871,
+     "punsafe": 0.002590388059616089,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1858,11 +1788,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 9-27-70 (King Features Syndicate, 1970)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F4%2F8%2F9%2F20489852%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Hal Foster Prince Valiant Val and Aleta Sunday Comic Strip Panel Original Art (King Features Syndicate, c. 1946)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B7%2F2%2F8%2F8%2F7288129%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0013003945350646973,
+     "punsafe": 0.0009716153144836426,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1872,11 +1802,53 @@
      }
     },
     {
-     "text": "Olive Oyl ditches her beau Ham Gravy for Popeye. \u00a9 King Features Syndicate Division.",
-     "imageUrl": "https://www.awn.com/sites/default/files/styles/inline/public/image/attached/769-langerpopeye04.jpg?itok=Xdc0oRzB",
+     "text": "Betty On Deck - Marlins by King Features Syndicate, Inc.",
+     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/41841/35942216_1m.jpg?v=8D7B32A175AA7B0",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.021582841873168945,
+     "punsafe": 0.003035128116607666,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Animation Art:Limited Edition Cel, Popeye and Nephews \"\"\"\"Gone Fishing\"\"\"\" Signed Limited Edition Cel, #41/250 (King Features Syndicate/Fleischer, 1991). ...\"\"\"",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F4%2F4%2F7%2F21447085%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.14937371015548706,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wilson McCoy - The Phantom Sunday Comic Strip Original Art dated 5-22-55 (King Features Syndicate, 1955)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B4%2F0%2F0%2F4%2F4004708%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.003163844347000122,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "George Herriman Krazy Kat Sunday Comic Strip Original Art dated 12-22-18 (King Features Syndicate, 1918)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F2%2F2%2F1%2F17221722%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.009157001972198486,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1942,11 +1914,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Chic Young Blondie Sunday Comic Strip Original Art dated7-13-47 (King Features Syndicate, 1947). ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F6%2F3%2F0%2F12630272%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Bringing Up Father was an influential American comic strip created by cartoonist George McManus (1884\u20131954). Distributed by King Features Syndicate, it ran for 87 years, from January 12, 1913, to May 28, 2000.",
+     "imageUrl": "https://i.pinimg.com/236x/26/59/ca/2659caf797353d0d41b1244fa38af07d.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.002590388059616089,
+     "punsafe": 0.0005435347557067871,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1956,11 +1928,11 @@
      }
     },
     {
-     "text": "Hal Foster Prince Valiant Val and Aleta Sunday Comic Strip Panel Original Art (King Features Syndicate, c. 1946)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B7%2F2%2F8%2F8%2F7288129%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 9-27-70 (King Features Syndicate, 1970)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F4%2F8%2F9%2F20489852%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0009716153144836426,
+     "punsafe": 0.0013003945350646973,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1970,11 +1942,39 @@
      }
     },
     {
-     "text": "Betty On Deck - Marlins by King Features Syndicate, Inc.",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/41841/35942216_1m.jpg?v=8D7B32A175AA7B0",
+     "text": "Olive Oyl ditches her beau Ham Gravy for Popeye. \u00a9 King Features Syndicate Division.",
+     "imageUrl": "https://www.awn.com/sites/default/files/styles/inline/public/image/attached/769-langerpopeye04.jpg?itok=Xdc0oRzB",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.003035128116607666,
+     "punsafe": 0.021582841873168945,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Mac Raboy Flash Gordon Sunday Comic Strip Original Art dated 2-9-64 (King Features Syndicate, 1964)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F5%2F6%2F4%2F19564276%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.00577855110168457,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1929 Rare Hubley Cast Iron Popeye Doorstop By King Features Syndicate",
+     "imageUrl": "https://castirondoorstop.name/wp-content/image/1929_Rare_Hubley_Cast_Iron_Popeye_Doorstop_By_King_Features_Syndicate_04_cpg.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 6.391645456460537e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2026,67 +2026,53 @@
      }
     },
     {
-     "text": "Lyman Young and Tom Massey Tim Tyler's Luck Sunday Comic Strip Original Art dated 7-14-57 (King Features Syndicate",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F3%2F7%2F3%2F12373726%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.004111289978027344,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "George Herriman Krazy Kat Sunday page du 7 mars 1937 (King Features Syndicate, 1937)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F8%2F5%2F4%2F1%2F18541415%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.007578492164611816,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Alex Raymond - Rip Kirby Daily Comic Strip Original Art, dated 2-1-54 (King Features Syndicate, 1954). \"\"\"\"Crusher&quo...\"\"\"",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F2%2F0%2F2320411%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.00024643540382385254,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Homerun Popeye - Reds by King Features Syndicate, Inc.",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/45488/38749787_1m.jpg?v=8D8713DBCA50400",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0002970397472381592,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Krazy Kat \u00a9 King Features Syndicate, 1931",
      "imageUrl": "https://comics.uoregon.edu/wp-content/themes/comicstudies/images/comics/title_krazy.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": 9.013248200062662e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Children's wallpaper featuring characters from the \"\"Popeye\"\" cartoon: Popeye, Pappy, Olive Oyl, Bluto, Sweet Pea and Wimpy. Copyright by King Features Syndicate is noted on the selvedge. Printed in eight colors on an off-white ground.\"",
+     "imageUrl": "https://images.collection.cooperhewitt.org/20933_0414e644ed90a2aa_b.jpg",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 4.546440322883427e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster - Original Comic Strip Art for Prince Valiant Sunday,dated 12-21-52 (King Features Syndicate, 1952). A truly bre...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F7%2F9%2F9%2F2799962%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0014780163764953613,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Letter to Ub Iwerks Concerning a Mickey Mouse Newspaper Comic Strip (King Features Syndicate, 1929)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F8%2F8%2F0%2F20880661%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 1.231630108122772e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2124,34 +2110,6 @@
      }
     },
     {
-     "text": "Hal Foster Prince Valiant #310 Sunday Comic Strip Original Art dated 17th January 1943 (King Features Syndicate, 1943)",
-     "imageUrl": "https://i1.wp.com/downthetubes.net/wp-content/uploads/2020/02/Hal_Foster_Prince_Valiant_310_Sunday_Comic_Strip_Original_Art_1-17-43_Heritage_Auctions.jpg?resize=700%2C910&ssl=1",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0013438761234283447,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Stan Drake Heart of Juliet Jones Sunday Comic Strip Original Art dated 8-30-59 (King Features Syndicate, 1959)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F6%2F8%2F1%2F2%2F16812278%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0005886554718017578,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Books:Comics - Golden Age, [Comic Books.] Group of Three Issues of Jeep Comics, Numbers18, 26, and 36. King Features Syndicate, 1945-1...",
      "imageUrl": "https://dyn2.heritagestatic.com/lf?set=path%5B1%2F4%2F5%2F9%2F9%2F14599509%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
@@ -2164,19 +2122,61 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "George Herriman - Krazy Kat Sunday Comic Strip Original Art, dated 8-20-16 (King Features Syndicate, 1916)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F8%2F5%2F585929%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 8.898942905943841e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Hal Foster Prince Valiant Partial Sunday Comic Strip Original Art (King Features Syndicate, undated)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F3%2F2%2F4%2F15324945%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0017013847827911377,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Alex Raymond - Rip Kirby Daily Comic Strip Original Art, dated 2-1-54 (King Features Syndicate, 1954). \"\"\"\"Crusher&quo...\"\"\"",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F2%2F0%2F2320411%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.00024643540382385254,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "Hal Foster - Original Comic Strip Art for Prince Valiant Sunday, dated 12-21-52 (King Features Syndicate, 1952). A truly...",
-    "Vintage Post Card by King Features Syndicate Features Popeye the Sailor Never Used See Scan",
-    "BETTY BOOP WATCH GENUINE LICENSED KING FEATURES SYNDICATE /INC FLEISCHER STUDIOS",
+    "Johnny Hazard / ...was an action-adventure comic strip created by cartoonist Frank Robbins for King Features Syndicate.",
+    "Ace Comics # 101 GD Golden Age Comic Book King Features Syndicate 1945 NE3",
+    "Red Ryder # 24, March 1945. \u00a9 King Features Syndicate Inc. 1945.",
+    "Betty on Deck - Yankees by King Features Syndicate, Inc. & Ford",
+    "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #1124 Original Art, dated 8-24-58 (King Features Syndicate, 1958)....",
     "Alex Raymond - Rip Kirby Daily Comic Strip Original Art, dated 10-19 (King Features Syndicate, circa 1950s). It's tea an...",
     "Alex Raymond Rip Kirby Daily Comic Strip Original Art dated 10-22-52 King Features Syndicate 1952-afnews",
     "Homerun Popeye - Reds by King Features Syndicate, Inc.",
     "Popeye Capt. Wheel by King Features Syndicate -",
-    "Questel styled the voice of Olive Oyl, the whiny girlfriend of Popeye, after Zasu Pitts. \u00a9 King Features Syndicate/Fleischer Studios.",
-    "George Herriman - Krazy Kat Sunday Comic Strip Original Art, dated 3-31-18 (King Features Syndicate, 1918)",
-    "George Herriman Hand Colored Krazy Kat Sunday Comic Strip Original Art dated 6-25-22 (King Features Syndicate, 192"
+    "Hal Foster - Original Comic Strip Art for Prince Valiant Sunday, dated 12-21-52 (King Features Syndicate, 1952). A truly..."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2230,20 +2230,6 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Original de la planche du dimanche 7septembre 1969 (King Features Syndicate, 1969)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F8%2F9%2F0%2F20890912%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0002491772174835205,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "George McManus opvoeden vader Daily Comic Strip originele kunst D.d. 3-11-39 (King Features Syndicate 1939)  George McManus Bringing Up vader dagelijkse Comic Strip originele kunst d.d. 3-11-39 (King Features Syndicate 1939).Inkt over grafiet met blauwe potlood op Bristol bord met een geschatte afbe",
      "imageUrl": "https://i.pinimg.com/736x/ed/3c/6a/ed3c6ab28f783f59ac32a84d3f959fd8.jpg",
      "keyword": "king features syndicate",
@@ -2263,6 +2249,20 @@
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": 0.004265278577804565,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Original de la planche du dimanche 7septembre 1969 (King Features Syndicate, 1969)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F8%2F9%2F0%2F20890912%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0002491772174835205,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2328,11 +2328,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, John Held Jr. Merely Margy Sunday Comic Strip Original Art dated 5-11-30 (King Features Syndicate, 1930).... (Total: 2 Original Art)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F9%2F8%2F1%2F15981956%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, E. C. Segar - Popeye Sunday Comic Strip Original Art, dated 8-30-31 (King Features Syndicate, 1931)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B4%2F8%2F0%2F480694%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0010346174240112305,
+     "punsafe": 0.0018598735332489014,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2342,11 +2342,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, E. C. Segar - Popeye Sunday Comic Strip Original Art, dated 8-30-31 (King Features Syndicate, 1931)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B4%2F8%2F0%2F480694%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, John Held Jr. Merely Margy Sunday Comic Strip Original Art dated 5-11-30 (King Features Syndicate, 1930).... (Total: 2 Original Art)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F9%2F8%2F1%2F15981956%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0018598735332489014,
+     "punsafe": 0.0010346174240112305,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2454,11 +2454,11 @@
      }
     },
     {
-     "text": "Ga\u00ebtane V\u00e9zina, entour\u00e9e des c\u00e9l\u00e8bres quintupl\u00e9es Dionne, qui ont inscrit leur pr\u00e9nom sur la photographie originale, Callander (Ontario), entre 1938 et 1942. Photo : King Features Syndicate. Universit\u00e9 d'Ottawa, CRCCF, Fonds Ga\u00ebtane-V\u00e9zina (P268), Ph213-79.",
-     "imageUrl": "http://crccf.uottawa.ca/exposition_virtuelle/collection_fonds_archives/upload/images/thumbnail/ph213-79_thumb.jpg",
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art Groupof 5 (King Features Syndicate, 1989).... (Total: 5 Original Art)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F8%2F5%2F9%2F19859277%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 4.072354840900516e-06,
+     "punsafe": 0.032901257276535034,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2468,11 +2468,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art Groupof 5 (King Features Syndicate, 1989).... (Total: 5 Original Art)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F8%2F5%2F9%2F19859277%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Ga\u00ebtane V\u00e9zina, entour\u00e9e des c\u00e9l\u00e8bres quintupl\u00e9es Dionne, qui ont inscrit leur pr\u00e9nom sur la photographie originale, Callander (Ontario), entre 1938 et 1942. Photo : King Features Syndicate. Universit\u00e9 d'Ottawa, CRCCF, Fonds Ga\u00ebtane-V\u00e9zina (P268), Ph213-79.",
+     "imageUrl": "http://crccf.uottawa.ca/exposition_virtuelle/collection_fonds_archives/upload/images/thumbnail/ph213-79_thumb.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.032901257276535034,
+     "punsafe": 4.072354840900516e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2527,14 +2527,14 @@
    "samples": [
     "Original Comic Art:Comic Strip Art, Dik Browne Hagar the Horrible Sunday Comic Strip OriginalArt dated 3-14-76 (King Features Syndicate, 1976)....",
     "Original Comic Art:Comic Strip Art, Dik Browne Hagar the Horrible Daily Comic Strip Original Art dated 2-6-76 (King Features Syndicate, 1976)....",
-    "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Original de la planche du dimanche 7septembre 1969 (King Features Syndicate, 1969)....",
     "George McManus opvoeden vader Daily Comic Strip originele kunst D.d. 3-11-39 (King Features Syndicate 1939)  George McManus Bringing Up vader dagelijkse Comic Strip originele kunst d.d. 3-11-39 (King Features Syndicate 1939).Inkt over grafiet met blauwe potlood op Bristol bord met een geschatte afbe",
     "Original Comic Art:Comic Strip Art, Dan DeCarlo Archie Daily Comic Strip Original Art dated3-18-81 (Archie Comics/King Features Syndicate, 1981)....",
+    "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Original de la planche du dimanche 7septembre 1969 (King Features Syndicate, 1969)....",
     "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Original de la planche du dimanche 14juin 1970 (King Features Syndicate, 1970)....",
     "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Original de la planche du dimanche 21 juin 1970 (King Features Syndicate, 1970)....",
     "Original Comic Art:Comic Strip Art, George Herriman - Krazy Kat Hand Colored, Full-Page Saturday Comic Strip Original Art, dated 2-25-22 (King Features Syndicate,...",
     "Plano General de Flash Gordon (194), tar al personaje en un paraje solitario. de Alex Raymond, que permite insertar al personaje en un paraje solitario. \u00a9 King Features Syndicate.",
-    "Original Comic Art:Comic Strip Art, John Held Jr. Merely Margy Sunday Comic Strip Original Art dated 5-11-30 (King Features Syndicate, 1930).... (Total: 2 Original Art)"
+    "Original Comic Art:Comic Strip Art, E. C. Segar - Popeye Sunday Comic Strip Original Art, dated 8-30-31 (King Features Syndicate, 1931)...."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2559,370 +2559,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 27990,
    "rows": [
-    {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry and Bob Fujitani Flash Gordon Sunday Comic StripOriginal Art dated 1-17-82 (King Features Syndicate, 19...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F4%2F9%2F0%2F19490857%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.005410104990005493,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 10-11-34 (King Features Syndicate, 1934)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F3%2F0%2F4%2F23304720%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0015249252319335938,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 12-8-34 (King Features Syndicate, 1934)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F1%2F9%2F4%2F4%2F11944771%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.005870550870895386,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Wilson McCoy The Phantom Original Daily Comic Strip dat\u00e9 17-09-60 (King Features Syndicate, 1960)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F0%2F7%2F2%2F24072758%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.036175042390823364,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 11-22-34 (King Features Syndicate, 1934)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F5%2F5%2F8%2F15558623%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.014922618865966797,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 10-30-88 (King Features Syndicate, 1988)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F9%2F0%2F8%2F15908012%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.004287272691726685,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Frank Robbins Johnny Hazard Sunday Comic Strip dat\u00e9 28-07-57 (King Features Syndicate, 1957)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F2%2F8%2F5%2F24285144%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0008439719676971436,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 7-12-36 (King Features Syndicate, 1936)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F5%2F5%2F7%2F12557443%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0013113915920257568,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Paul Robinson Etta Kett Daily Comic Strip Original Art dated 5-26-32 (King Features Syndicate, 1932)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F2%2F4%2F6%2F5246247%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.016818523406982422,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated4-7 and 4-14-68 Group (King Features Syndicate, 1968)...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F8%2F2%2F3%2F20823731%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.00028315186500549316,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, George Herriman Krazy Kat Daily Comic Strip Original Artdated 3-22-41 (King Features Syndicate, 1941)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F2%2F8%2F8%2F13288435%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.017212361097335815,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Rip Kirby Daily Comic Strip Original Art dated 4-18-49 (King Features Syndicate, 1949)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F1%2F1%2F5%2F21115392%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0024785399436950684,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant #524 Sunday Comic Strip Original Art dated 2-23-47 (King Features Syndicate, 1947)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F1%2F5%2F5%2F21155429%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0014503300189971924,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 8-16-70 (King Features Syndicate, 1970)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F7%2F9%2F0%2F21790998%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0026777684688568115,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 4-14-69 (King Features Syndicate, 1969)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F6%2F0%2F5%2F19605308%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.008191704750061035,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "George Herriman Krazy Kat Sunday Comic Strip Original Art dated 11-28-20 (King Features Syndicate, 1920)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F8%2F8%2F5%2F8%2F18858715%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0017855167388916016,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Frank Godwin Rusty Riley Daily Comic Strip Original Art dated 5-12-56 (King Features Syndicate, 1956)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F4%2F3%2F3%2F23433309%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.00031566619873046875,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Phil Davis Mandrake the Magician Sunday Comic Strip Original Art dated 6-25-44 (King Features Syndicate, 1944)...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B4%2F8%2F7%2F3%2F4873284%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.20765981078147888,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
-     "imageUrl": "http://dyn3.heritagestatic.com/lf?set=path%5B8%2F7%2F0%2F7%2F8707069%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.007416874170303345,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Mac Raboy Flash Gordon Sunday Comic Strip Original Art dated 5-7-61 (King Features Syndicate, 1961). ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F4%2F1%2F4%2F20414156%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.002418309450149536,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Phil Davis Mandrake the Magician Sunday Comic Strip Original Art dated 10-11-36 (King Features Syndicate, 1936)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B8%2F6%2F9%2F9%2F8699782%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0045923590660095215,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Percy Crosby Skippy Daily Comic Strip Original Art dated 6-3-33 (King Features Syndicate, 1933)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F9%2F7%2F7%2F13977373%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.3025849461555481,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 11-8-68 (King Features Syndicate, 1968)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F1%2F9%2F21919081%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.04296761751174927,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Mac Raboy Flash Gordon Sunday Comic Strip Original Art dated 1-13-57 (King Features Syndicate, 1957)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F5%2F2%2F1%2F21521097%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.00021255016326904297,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 8-9-36 (King Features Syndicate, 1936)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F2%2F7%2F8%2F23278131%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.018376022577285767,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
-     "imageUrl": "https://dyn3.heritagestatic.com/lf?set=path%5B8%2F7%2F0%2F7%2F8707069%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.007416874170303345,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant #1751 Sunday Comic Strip OriginalArt dated 8-30-70 (King Features Syndicate, 1970).... (Total: 2Original Art)",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F7%2F7%2F0%2F19770673%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
@@ -3008,11 +2644,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Frank Robbins Johnny Hazard Daily Comic Strip Original Art dated 6-13-69 (King Features Syndicate, 1969)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F8%2F1%2F8%2F21818720%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Frank Godwin Rusty Riley Daily Comic Strip Original Art dated 5-12-56 (King Features Syndicate, 1956)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F4%2F3%2F3%2F23433309%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.002813398838043213,
+     "punsafe": 0.00031566619873046875,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3022,11 +2658,67 @@
      }
     },
     {
-     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 4-5-71 (King Features Syndicate, 1971)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F3%2F2%2F5%2F20325056%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
+     "imageUrl": "https://dyn3.heritagestatic.com/lf?set=path%5B8%2F7%2F0%2F7%2F8707069%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 6.938042497495189e-05,
+     "punsafe": 0.007416874170303345,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Phil Davis Mandrake the Magician Sunday Comic Strip Original Art dated 10-11-36 (King Features Syndicate, 1936)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B8%2F6%2F9%2F9%2F8699782%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0045923590660095215,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Percy Crosby Skippy Daily Comic Strip Original Art dated 6-3-33 (King Features Syndicate, 1933)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F9%2F7%2F7%2F13977373%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.3025849461555481,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Jimmy Murphy - Toots and Casper Daily Comic Strip Original Art,dated 4-19-33 (King Features Syndicate, 1933). The big momen...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B9%2F8%2F8%2F988642%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0043652355670928955,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 3-25-71 (King Features Syndicate, 1971)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F5%2F9%2F9%2F21599602%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0013477802276611328,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3041,34 +2733,6 @@
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": 0.0008016824722290039,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Cy Olson Office Hours Daily Single-Panel Comic Strip Original Art(King Features Syndicate, 1960s). ... (Total: 100 Original Art)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F4%2F1%2F4%2F20414124%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0010866820812225342,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, George Herriman - Krazy Kat Sunday Comic Strip Original Art, 9/17/19 (King Features Syndicate, 1919)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F4%2F2%2F1242304%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 2.692651833058335e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3120,11 +2784,431 @@
      }
     },
     {
+     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 11-22-34 (King Features Syndicate, 1934)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F5%2F5%2F8%2F15558623%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.014922618865966797,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 10-30-88 (King Features Syndicate, 1988)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F9%2F0%2F8%2F15908012%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.004287272691726685,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Frank Robbins Johnny Hazard Sunday Comic Strip dat\u00e9 28-07-57 (King Features Syndicate, 1957)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F2%2F8%2F5%2F24285144%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0008439719676971436,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 7-12-36 (King Features Syndicate, 1936)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F5%2F5%2F7%2F12557443%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0013113915920257568,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Paul Robinson Etta Kett Daily Comic Strip Original Art dated 5-26-32 (King Features Syndicate, 1932)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F2%2F4%2F6%2F5246247%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.016818523406982422,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry and Bob Fujitani Flash Gordon Sunday Comic Strip Original Art dated 12-9-79 (King Features Syndicate, 19...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F2%2F5%2F5%2F3%2F22553477%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.004139721393585205,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Otto Soglow The Little King Sunday Comic Strip Original Art dated 12-16-34 (King Features Syndicate, 1934)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F6%2F3%2F8%2F12638990%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0011868178844451904,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Rip Kirby Daily Comic Strip Original Art dated 9-17-51 (King Features Syndicate, 1951)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F4%2F3%2F7%2F13437713%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0017077922821044922,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry and Bob Fujitani Flash Gordon Sunday Comic StripOriginal Art dated 1-17-82 (King Features Syndicate, 19...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F4%2F9%2F0%2F19490857%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.005410104990005493,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 10-11-34 (King Features Syndicate, 1934)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F3%2F0%2F4%2F23304720%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0015249252319335938,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 12-8-34 (King Features Syndicate, 1934)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F1%2F9%2F4%2F4%2F11944771%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.005870550870895386,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Wilson McCoy The Phantom Original Daily Comic Strip dat\u00e9 17-09-60 (King Features Syndicate, 1960)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F0%2F7%2F2%2F24072758%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.036175042390823364,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated4-7 and 4-14-68 Group (King Features Syndicate, 1968)...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F8%2F2%2F3%2F20823731%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.00028315186500549316,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, George Herriman Krazy Kat Daily Comic Strip Original Artdated 3-22-41 (King Features Syndicate, 1941)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F2%2F8%2F8%2F13288435%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.017212361097335815,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Rip Kirby Daily Comic Strip Original Art dated 4-18-49 (King Features Syndicate, 1949)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F1%2F1%2F5%2F21115392%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0024785399436950684,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Phil Davis Mandrake the Magician Sunday Comic Strip Original Art dated 6-25-44 (King Features Syndicate, 1944)...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B4%2F8%2F7%2F3%2F4873284%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.20765981078147888,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
+     "imageUrl": "http://dyn3.heritagestatic.com/lf?set=path%5B8%2F7%2F0%2F7%2F8707069%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.007416874170303345,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Mac Raboy Flash Gordon Sunday Comic Strip Original Art dated 5-7-61 (King Features Syndicate, 1961). ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F4%2F1%2F4%2F20414156%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.002418309450149536,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Cy Olson Office Hours Daily Single-Panel Comic Strip Original Art(King Features Syndicate, 1960s). ... (Total: 100 Original Art)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F4%2F1%2F4%2F20414124%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0010866820812225342,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, George Herriman - Krazy Kat Sunday Comic Strip Original Art, 9/17/19 (King Features Syndicate, 1919)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F4%2F2%2F1242304%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 2.692651833058335e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Frank Robbins Johnny Hazard Daily Comic Strip Original Art dated 6-13-69 (King Features Syndicate, 1969)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F8%2F1%2F8%2F21818720%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.002813398838043213,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 4-5-71 (King Features Syndicate, 1971)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F3%2F2%2F5%2F20325056%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 6.938042497495189e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant #524 Sunday Comic Strip Original Art dated 2-23-47 (King Features Syndicate, 1947)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F1%2F5%2F5%2F21155429%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0014503300189971924,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 8-16-70 (King Features Syndicate, 1970)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F7%2F9%2F0%2F21790998%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0026777684688568115,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 4-14-69 (King Features Syndicate, 1969)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F6%2F0%2F5%2F19605308%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.008191704750061035,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "George Herriman Krazy Kat Sunday Comic Strip Original Art dated 11-28-20 (King Features Syndicate, 1920)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F8%2F8%2F5%2F8%2F18858715%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.0017855167388916016,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Original Comic Art:Comic Strip Art, Frank Robbins Johnny Hazard Daily Comic Strip Original Art dated 9-3-74 (King Features Syndicate, 1974)....",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F3%2F6%2F1%2F23361897%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
      "punsafe": 0.012418925762176514,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 11-8-68 (King Features Syndicate, 1968)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F1%2F9%2F21919081%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.04296761751174927,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Mac Raboy Flash Gordon Sunday Comic Strip Original Art dated 1-13-57 (King Features Syndicate, 1957)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F5%2F2%2F1%2F21521097%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.00021255016326904297,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 8-9-36 (King Features Syndicate, 1936)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F2%2F7%2F8%2F23278131%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.018376022577285767,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Jose Luis Salinas Cisco Kid Daily Comic Strip Original Art dated 3-29-51 (King Features Syndicate, 1951).",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F2%2F4%2F5%2F5245999%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": 0.001833885908126831,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3176,76 +3260,6 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Jimmy Murphy - Toots and Casper Daily Comic Strip Original Art,dated 4-19-33 (King Features Syndicate, 1933). The big momen...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B9%2F8%2F8%2F988642%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0043652355670928955,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 3-25-71 (King Features Syndicate, 1971)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F5%2F9%2F9%2F21599602%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0013477802276611328,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Jose Luis Salinas Cisco Kid Daily Comic Strip Original Art dated 3-29-51 (King Features Syndicate, 1951).",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F2%2F4%2F5%2F5245999%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.001833885908126831,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Otto Soglow The Little King Sunday Comic Strip Original Art dated 12-16-34 (King Features Syndicate, 1934)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F2%2F6%2F3%2F8%2F12638990%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0011868178844451904,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Alex Raymond Rip Kirby Daily Comic Strip Original Art dated 9-17-51 (King Features Syndicate, 1951)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F4%2F3%2F7%2F13437713%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0017077922821044922,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Original Comic Art:Comic Strip Art, Larry Lieber - The Amazing Spider-Man Daily Comic Strip Original Art, dated 1-27-97 (King Features Syndicate, 1997).. ...",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B9%2F3%2F6%2F936500%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
@@ -3288,11 +3302,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry and Bob Fujitani Flash Gordon Sunday Comic Strip Original Art dated 12-9-79 (King Features Syndicate, 19...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F2%2F5%2F5%2F3%2F22553477%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Darrell McClure - Little Annie Rooney Sunday Comic Strip OriginalArt, dated 5-19-57 (King Features Syndicate, 1957). Glorio...",
+     "imageUrl": "http://dyn3.heritagestatic.com/lf?set=path%5B1%2F6%2F1%2F1%2F1611677%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.004139721393585205,
+     "punsafe": 0.016162097454071045,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3302,11 +3316,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry and Bob Fujitani Flash Gordon Daily Comic Strip Original Art dated 7-8-78 (King Features Syndicate, 1978...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F8%2F2%2F1%2F19821432%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "John Prentice Rip Kirby Daily Comic Strip Original Art Group of 11 (King Features Syndicate, 1989).... (Total: 11 Origin...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F3%2F8%2F3%2F8%2F13838058%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.010274022817611694,
+     "punsafe": 0.00024232268333435059,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3316,11 +3330,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Stan Drake Heart of Juliet Jones Daily Comic Strip Original Art dated 3-3-77 (King Features Syndicate, 1977). ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F8%2F1%2F5%2F21815292%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "George Herriman Krazy Kat Sunday Comic Strip Original Art dated 10-01-22 (King Features Syndicate, 1922)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F3%2F2%2F7%2F15327474%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.0010212361812591553,
+     "punsafe": 0.002819269895553589,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3330,11 +3344,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Phil Davis Mandrake the Magician Daily Comic Strip OriginalArt dated 6-27-60 (King Features Syndicate, 1960)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F4%2F9%2F3%2F5%2F14935979%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Bob Montana - Archie Daily Comic Strip Original Art, dated 6-24-70 (King Features Syndicate, 1970)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F5%2F9%2F1559717%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.017035245895385742,
+     "punsafe": 0.00021219253540039062,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3344,11 +3358,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Billy DeBeck Barney Google Daily Comic Strip Original Art dated 11-7-32 (King Features Syndicate, 1932)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F7%2F7%2F5%2F19775053%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Hal Foster Tarzan Sunday Comic Strip Original Art dated2-5-33 (King Features Syndicate, 1933)....",
+     "imageUrl": "https://i.pinimg.com/236x/8e/8a/e8/8e8ae8ff8fcac4774ac5cc18579c9c55.jpg",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.009370118379592896,
+     "punsafe": 0.003307133913040161,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3358,11 +3372,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated11-5-89 (King Features Syndicate, 1989)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F8%2F6%2F2%2F19862129%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Edd Cartier The Case of the Hit and Run Illustration Original Art (King Features Syndicate, 1949)...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F3%2F6%2F21936793%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.00871315598487854,
+     "punsafe": 0.003182828426361084,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3372,25 +3386,11 @@
      }
     },
     {
-     "text": "E. C. Segar Thimble Theatre starring Popeye Daily Comic Strip Original Art dated 4-9-36 (King Features Syndicate",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F0%2F2%2F9%2F15029842%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, George Herriman Bernie Burns Daily Comic Strip Original Artdated 12-15-31 (King Features Syndicate, 1931)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F0%2F4%2F3%2F15043713%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "king features syndicate",
      "tier": "namematch",
-     "punsafe": 0.004966169595718384,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Al Williamson Secret Agent Corrigan Daily Comic Strip Original Art dated 1-2-72 (King Features Syndicate, 1972)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F6%2F0%2F5%2F19605110%5D%2Csizedata%5B80x120%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": 0.0006450116634368896,
+     "punsafe": 0.0006086230278015137,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3401,16 +3401,16 @@
     }
    ],
    "samples": [
-    "Original Comic Art:Comic Strip Art, Dan Barry and Bob Fujitani Flash Gordon Sunday Comic StripOriginal Art dated 1-17-82 (King Features Syndicate, 19...",
-    "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 10-11-34 (King Features Syndicate, 1934)....",
-    "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 12-8-34 (King Features Syndicate, 1934)....",
-    "Original Comic Art:Comic Strip Art, Wilson McCoy The Phantom Original Daily Comic Strip dat\u00e9 17-09-60 (King Features Syndicate, 1960)....",
-    "Original Comic Art:Comic Strip Art, Alex Raymond Secret Agent X-9 Daily Comic Strip Original Art dated 11-22-34 (King Features Syndicate, 1934)....",
-    "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated 10-30-88 (King Features Syndicate, 1988)....",
-    "Original Comic Art:Comic Strip Art, Frank Robbins Johnny Hazard Sunday Comic Strip dat\u00e9 28-07-57 (King Features Syndicate, 1957)....",
-    "Alex Raymond Flash Gordon Sunday Comic Strip Original Art dated 7-12-36 (King Features Syndicate, 1936)",
-    "Paul Robinson Etta Kett Daily Comic Strip Original Art dated 5-26-32 (King Features Syndicate, 1932)",
-    "Original Comic Art:Comic Strip Art, Dan Barry Flash Gordon Sunday Comic Strip Original Art dated4-7 and 4-14-68 Group (King Features Syndicate, 1968)..."
+    "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant #1751 Sunday Comic Strip OriginalArt dated 8-30-70 (King Features Syndicate, 1970).... (Total: 2Original Art)",
+    "Original Comic Art:Comic Strip Art, Bob Dunn and Hy Eisman Little Iodine Sunday Comic Strip Original Art dated 6-15-69 (King Features Syndicate, 1969)...",
+    "Original Comic Art:Comic Strip Art, John Cullen Murphy Prince Valiant Sunday Comic Strip #1969Original Art dated 11-3-74 (King Features Syndicate...",
+    "Original Comic Art:Comic Strip Art, Frank Godwin Rusty Riley Daily Comic Strip Original Art dated 12-25-56 (King Features Syndicate, 1956)....",
+    "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Partial Sunday Comic Strip Original Art (King Features Syndicate, undated)....",
+    "Original Comic Art:Comic Strip Art, Bob Montana Archie Daily Comic Strip Original Art dated4-22-65 (King Features Syndicate, 1965)....",
+    "Original Comic Art:Comic Strip Art, Frank Godwin Rusty Riley Daily Comic Strip Original Art dated 5-12-56 (King Features Syndicate, 1956)....",
+    "Original Comic Art:Comic Strip Art, Hal Foster Prince Valiant Sunday Comic Strip #112 OriginalArt dated 4-2-39 (King Features Syndicate, 1939...",
+    "Original Comic Art:Comic Strip Art, Phil Davis Mandrake the Magician Sunday Comic Strip Original Art dated 10-11-36 (King Features Syndicate, 1936)....",
+    "Original Comic Art:Comic Strip Art, Percy Crosby Skippy Daily Comic Strip Original Art dated 6-3-33 (King Features Syndicate, 1933)...."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3436,49 +3436,7 @@
    "totalIncludingLowConfidence": 41401,
    "rows": [
     {
-     "text": "\u201cKang the Cruel\u201d was the twenty-third installment of the Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally published between February 11 and May 20, 1945, \u201cKang the Cruel\u201d was the first strip without the story input of creator Alex Raymond. It was illustrated by Austin B",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "This self-taught cartoonist, began by sketching cartoons of her friends in humorous situations. Out of this came \u201cBetween Friends\u201d. Taking only one commercial art course, she learned to draw cartoons by analyzing them in the newspapers. She began sending samples of \u201cBetween Friends\u201d to newspapers in",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Back in the late 1980s Disney had an active in-house Comic Strip Department as part of the Merchandising Division.  Floyd Norman had come back to Disney and was working with Merchandising.  The group also included extraordinary artists such as Daan Jippes.\n\nThe film, Who Framed Roger Rabbit, had bee",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gladstone Publishing comics publishers about the adventures of Donald Duck and his relatives. Comic book contains original material and reprints old strips [n] \u0412\u00abDonald Duck\u0412\u00bb of the 1930s and 1940s and 1980s strips from the publisher King Features Syndicate.\nFrom 1987 to 1998 he published 48 issues",
+     "text": "It's important to keep up with what is changing in the world of art and collecting. Fool-the-eye (trompe-l'oeil) is a popular theme in a new type of art. Today, copies of machines, pieces of buildings, a huge hanging light bulb or an enlarged comic strip or stamp pad are displayed as outdoor statues",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3506,20 +3464,6 @@
      }
     },
     {
-     "text": "Flash Gordon is a classic science fiction comic first written and drawn by Alex Raymond in 1934 and published by King Features Syndicate. It tells the story of Flash Gordon, an athlete who travels with reporter Dale Arden and Dr Hans Zarkov in a rocket Zarkov built to the planet Mongo, ruled by Ming",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Full page is a format roughly 20 inches high and 14 inches wide. The Reading Eagle Sunday comics section is full-page size, though today no individual strips are still printed to take up a full page. When Sunday strips first appeared in newspapers, near the beginning of the 20th Century, they were u",
      "imageUrl": null,
      "keyword": "king features syndicate",
@@ -3534,175 +3478,7 @@
      }
     },
     {
-     "text": "Co-written by Ben Acker and Heath Corson with art by Dan McDaid, colors from Omi Remalante, and lettering from Simon Bowland, Kings Quest #1 continues the adventures of the collected King Features Syndicate heroes. Flash Gordon, Mandrake the Magician, Prince Valiant, and two Phantoms head off into s",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Style Invitational Week 1180: Strip search \u2014 play off a line of text in a comic strip\n\n(From \"Zits,\" by Jerry Scott and Jim Borgman, King Features Syndicate, altered by Bob Staake for The Washington Post with a parody by Chris Doyle)\nBy Pat Myers\n\n(Click here to skip down to the results of Week 1176",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hi and Lois is an American comic strip about a suburban family. Created by Mort Walker and illustrated by Dik Browne, it debuted on October 18, 1954, distributed by King Features Syndicate. [1]\n\nThe Flagstons first appeared in Walker's Beetle Bailey. They spun off into their own strip, written by Wa",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Around 1953, King Features Syndicate wanted to remove Messmer from the Felix comic strip and have Oriolo take over \u2013 but Oriolo refused. KFS let Messmer continue for another year, then retired him due to the strip\u2019s lack of success. They insisted Oriolo continue the drawing duties. Soon after taking",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Today our Barney Google And Snuffy Smith comic strip celebrates its 101st birthday!  When it debuted on June 17, 1919 it was originally titled Take Barney Google, F\u2019rinstance and was created by master cartoonist Billy DeBeck.  It began in the Chicago Herald and Examiner and was picked up by King Fea",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"The Ideal\", published in the September 1935 Wonder Stories, was Weinbaum's first cover story in a science fiction magazine. The \"Van Manderpootz\" story was illustrated by Frank R. Paul\n\nStanley Grauman Weinbaum (April 4, 1902 \u2013 December 14, 1935) was an American science fiction writer. His first st",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "George Joseph Herriman (August 22, 1880 \u2013 April 25, 1944) was an American cartoonist best known for the comic strip Krazy Kat (1913\u20131944). More influential than popular, Krazy Kat had an appreciative audience among those in the arts. Gilbert Seldes' article \u201cThe Krazy Kat Who Walks by Himself\u201d was t",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It's important to keep up with what is changing in the world of art and collecting. Fool-the-eye (trompe-l'oeil) is a popular theme in a new type of art. Today, copies of machines, pieces of buildings, a huge hanging light bulb or an enlarged comic strip or stamp pad are displayed as outdoor statues",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoon by Darrell McClure\nDarrell McClure The Sailor as Cartoonist A tailor, lumberjack, merchant mariner, boatman, and artist, Darrell Craig McClure (1903-1987) was a Californian through and through, though for several years in the middle of his career he lived in Connecticut while he worked in Ne",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "2 edition of The Best of Beetle Bailey found in the catalog.\n\n\nBeetle Bailey - the familiar newspaper comic strip was published in comic book form by virtually every name brand during my youth. This particular issue was published by King Comics, a branch of King Features Syndicate who owned the righ",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\u201cAt War with Ming\u201c was the sixth installment of Alex Raymond\u2019s Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally printed between October 20, 1935 and April 5, 1936, \u201cAt War with Ming\u201d picks up the storyline where the fifth installment, \u201cThe Witch Queen of Mongo\u201d left off",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Dynamite Entertainment is proud to announce the January 2015 launch of \u201cThe King Event,\u201d an epic comic book event that marks the 100th anniversary of King Features Syndicate. The celebratory event will bring history\u2019s most famous comic strip heroes \u2013 Flash Gordon, Mandrake the Magician, Prince Valia",
-     "imageUrl": null,
-     "keyword": "king features syndicate",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\u201cThe Undersea Kingdom of Mongo\u201c was the seventh installment of Alex Raymond\u2019s Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally printed between April 12 and October 11, 1936, \u201cThe Undersea Kingdom of Mongo\u201d picks up the storyline where the sixth installment, \u201cAt War with",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3744,7 +3520,119 @@
      }
     },
     {
+     "text": "George Joseph Herriman (August 22, 1880 \u2013 April 25, 1944) was an American cartoonist best known for the comic strip Krazy Kat (1913\u20131944). More influential than popular, Krazy Kat had an appreciative audience among those in the arts. Gilbert Seldes' article \u201cThe Krazy Kat Who Walks by Himself\u201d was t",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u201cAt War with Ming\u201c was the sixth installment of Alex Raymond\u2019s Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally printed between October 20, 1935 and April 5, 1936, \u201cAt War with Ming\u201d picks up the storyline where the fifth installment, \u201cThe Witch Queen of Mongo\u201d left off",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Around 1953, King Features Syndicate wanted to remove Messmer from the Felix comic strip and have Oriolo take over \u2013 but Oriolo refused. KFS let Messmer continue for another year, then retired him due to the strip\u2019s lack of success. They insisted Oriolo continue the drawing duties. Soon after taking",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today our Barney Google And Snuffy Smith comic strip celebrates its 101st birthday!  When it debuted on June 17, 1919 it was originally titled Take Barney Google, F\u2019rinstance and was created by master cartoonist Billy DeBeck.  It began in the Chicago Herald and Examiner and was picked up by King Fea",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Back in the late 1980s Disney had an active in-house Comic Strip Department as part of the Merchandising Division.  Floyd Norman had come back to Disney and was working with Merchandising.  The group also included extraordinary artists such as Daan Jippes.\n\nThe film, Who Framed Roger Rabbit, had bee",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gladstone Publishing comics publishers about the adventures of Donald Duck and his relatives. Comic book contains original material and reprints old strips [n] \u0412\u00abDonald Duck\u0412\u00bb of the 1930s and 1940s and 1980s strips from the publisher King Features Syndicate.\nFrom 1987 to 1998 he published 48 issues",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "\u201cPower Men of Mongo\u201d was the fourteenth installment of Alex Raymond\u2019s Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally published between April 14, 1940 and January 12, 1941, \u201cPower Men of Mongo\u201d picks up the storyline where the thirteenth installment, \u201cThe Ice Kingdom o",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "June 21, 1936 is a landmark date for SCREWBALL scholars because that was the day the first Squirrel Cage Sunday comic by Gene Ahern appeared.\n\nGenerally, Ahern is best known for his once beloved long-running daily/Sunday comic panel/strip Our Boarding House (Major Hoople), which he wrote and drew fr",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie is a long-running comic strip based on the line of the popular Archie Comics. Launched by King Features Syndicate in 1947, it features the misadventures of Archie Andrews and his pals.\n\nBob Montana drew the first issue of the Archie comic book (November 1942). During World War II, Montana spe",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3786,7 +3674,7 @@
      }
     },
     {
-     "text": "Cartoonist Jerry Craft will join Brenda Johnson Padgitt on ASWIFTT RADIO February 25, 2012 at 1:00 pm. CST to discuss his Comic Strip Characters Moma\u2019s Boyz and how he uses his comic strip creation as a platform to mentor students. Mama\u2019s Boyz is an award-winning comic strip that has been distribute",
+     "text": "Serierutor Fantomen fixar Konsum Photo credit: \u00c2\u00a9 KING FEATURES SYNDICATE. INC./DISTR. BULLS/EGMONTThere are many examples, there is a clear teaching strategy, and the adventures are firmly based in the embodiment of the Swedish model.\nIn one of them \u2013 not one of the most exciting, it must be admitt",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3800,7 +3688,7 @@
      }
     },
     {
-     "text": "Chris Browne is an American comic strip artist and cartoonist. He is the son of cartoonist Dik Browne and brother of cartoonist Chance Browne. Browne writes and draws the comic strip H\u00e4gar the Horrible, which is distributed by King Features Syndicate.\n\nBorn in South Orange, New Jersey and growing up",
+     "text": "This self-taught cartoonist, began by sketching cartoons of her friends in humorous situations. Out of this came \u201cBetween Friends\u201d. Taking only one commercial art course, she learned to draw cartoons by analyzing them in the newspapers. She began sending samples of \u201cBetween Friends\u201d to newspapers in",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3814,7 +3702,7 @@
      }
     },
     {
-     "text": "Mickey Mouse also appeared in other forms of Disney-related print media.  After the appearance of Mickey in the popular animated shorts of the late 1920s and 1930s, Walt entered into an agreement with the King Features Syndicate and a comic strip featuring Mickey and friends was created and first on",
+     "text": "\u201cJungles of Mongo\u201d was the eighteenth installment of Alex Raymond\u2019s Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally published between June 21 and November 1, 1942, \u201cJungles of Mongo\u201d picks up where the preceding installment, \u201cQueen Desira\u201d left off with the seductive Q",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3828,7 +3716,49 @@
      }
     },
     {
-     "text": "Blondie is an American comic strip created by cartoonist Chic Young. Distributed by King Features Syndicate, the strip has been published in newspapers since September 8, 1930.[1] The success of the strip, which features a well-endowed blonde and her sandwich-loving husband, led to the long-running ",
+     "text": "Following up on its success with The Cuphead Show!, the company has set an animated film in development based on the interactive comic strip and animated by LA's Chromosphere.\n\nSlylock Fox is sleuthing his way from comic strip to the screen in a new project from New York-based L&M company King Featu",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "After studying art in Chicago, New York and Cleveland, Young worked for Newspaper Enterprise Association (NEA) from 1920. The first strip he worked on was The Affairs of Jane, before creating Beautiful Bab in 1922 for Bell Syndicate.\n\nYoung was employed by King Features Syndicate in 1924. He first s",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "John Cullen Murphy - Born May 3, 1919 in New York City, New York \u2013 Died July 2, 2004 in Cos Cob, Connecticut was an American illustrator best known for his three decades of work on the Prince Valiant comic strip.\n\nMurphy started art classes at the age of 9, but aspired to be a baseball player. He wa",
+     "imageUrl": null,
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Flash Gordon is a classic science fiction comic first written and drawn by Alex Raymond in 1934 and published by King Features Syndicate. It tells the story of Flash Gordon, an athlete who travels with reporter Dale Arden and Dr Hans Zarkov in a rocket Zarkov built to the planet Mongo, ruled by Ming",
      "imageUrl": null,
      "keyword": "king features syndicate",
      "tier": "namematch",
@@ -3843,16 +3773,16 @@
     }
    ],
    "samples": [
-    "\u201cKang the Cruel\u201d was the twenty-third installment of the Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally published between February 11 and May 20, 1945, \u201cKang the Cruel\u201d was the first strip without the story input of creator Alex Raymond. It was illustrated by Austin B",
-    "This self-taught cartoonist, began by sketching cartoons of her friends in humorous situations. Out of this came \u201cBetween Friends\u201d. Taking only one commercial art course, she learned to draw cartoons by analyzing them in the newspapers. She began sending samples of \u201cBetween Friends\u201d to newspapers in",
-    "Back in the late 1980s Disney had an active in-house Comic Strip Department as part of the Merchandising Division.  Floyd Norman had come back to Disney and was working with Merchandising.  The group also included extraordinary artists such as Daan Jippes.\n\nThe film, Who Framed Roger Rabbit, had bee",
-    "Gladstone Publishing comics publishers about the adventures of Donald Duck and his relatives. Comic book contains original material and reprints old strips [n] \u0412\u00abDonald Duck\u0412\u00bb of the 1930s and 1940s and 1980s strips from the publisher King Features Syndicate.\nFrom 1987 to 1998 he published 48 issues",
+    "It's important to keep up with what is changing in the world of art and collecting. Fool-the-eye (trompe-l'oeil) is a popular theme in a new type of art. Today, copies of machines, pieces of buildings, a huge hanging light bulb or an enlarged comic strip or stamp pad are displayed as outdoor statues",
     "It is with deep sadness that we mark the passing of Jerry Dumas. Dubbed a modern-day \u201cRenaissance Man,\u201d Dumas was a comic artist, writer, poet, storyteller, fine arts painter, athlete and essayist. A longtime King Features artist on the Sam and Silo comic strip, he also worked closely with creator M",
-    "Flash Gordon is a classic science fiction comic first written and drawn by Alex Raymond in 1934 and published by King Features Syndicate. It tells the story of Flash Gordon, an athlete who travels with reporter Dale Arden and Dr Hans Zarkov in a rocket Zarkov built to the planet Mongo, ruled by Ming",
     "Full page is a format roughly 20 inches high and 14 inches wide. The Reading Eagle Sunday comics section is full-page size, though today no individual strips are still printed to take up a full page. When Sunday strips first appeared in newspapers, near the beginning of the 20th Century, they were u",
-    "Co-written by Ben Acker and Heath Corson with art by Dan McDaid, colors from Omi Remalante, and lettering from Simon Bowland, Kings Quest #1 continues the adventures of the collected King Features Syndicate heroes. Flash Gordon, Mandrake the Magician, Prince Valiant, and two Phantoms head off into s",
-    "Style Invitational Week 1180: Strip search \u2014 play off a line of text in a comic strip\n\n(From \"Zits,\" by Jerry Scott and Jim Borgman, King Features Syndicate, altered by Bob Staake for The Washington Post with a parody by Chris Doyle)\nBy Pat Myers\n\n(Click here to skip down to the results of Week 1176",
-    "Hi and Lois is an American comic strip about a suburban family. Created by Mort Walker and illustrated by Dik Browne, it debuted on October 18, 1954, distributed by King Features Syndicate. [1]\n\nThe Flagstons first appeared in Walker's Beetle Bailey. They spun off into their own strip, written by Wa"
+    "Dynamite Entertainment is proud to announce the January 2015 launch of \u201cThe King Event,\u201d an epic comic book event that marks the 100th anniversary of King Features Syndicate. The celebratory event will bring history\u2019s most famous comic strip heroes \u2013 Flash Gordon, Mandrake the Magician, Prince Valia",
+    "Minnie the Minx, whose real name is Hermione Makepeace, is a British comic strip and comic strip character published in the comic magazine The Beano. Created and originally drawn by Leo Baxendale, she first appeared in issue 596, dated 19 December 1953, but is generally considered as being permanent",
+    "Prince Valiant in the Days of King Arthur, or simply Prince Valiant, is an American comic strip created by Hal Foster in 1937. It is an epic adventure that has told a continuous story during its entire history, and the full stretch of that story now totals more than 4000 Sunday strips. Currently, th",
+    "George Joseph Herriman (August 22, 1880 \u2013 April 25, 1944) was an American cartoonist best known for the comic strip Krazy Kat (1913\u20131944). More influential than popular, Krazy Kat had an appreciative audience among those in the arts. Gilbert Seldes' article \u201cThe Krazy Kat Who Walks by Himself\u201d was t",
+    "\u201cAt War with Ming\u201c was the sixth installment of Alex Raymond\u2019s Flash Gordon Sunday comic strip serial for King Features Syndicate. Originally printed between October 20, 1935 and April 5, 1936, \u201cAt War with Ming\u201d picks up the storyline where the fifth installment, \u201cThe Witch Queen of Mongo\u201d left off",
+    "Around 1953, King Features Syndicate wanted to remove Messmer from the Felix comic strip and have Oriolo take over \u2013 but Oriolo refused. KFS let Messmer continue for another year, then retired him due to the strip\u2019s lack of success. They insisted Oriolo continue the drawing duties. Soon after taking",
+    "Today our Barney Google And Snuffy Smith comic strip celebrates its 101st birthday!  When it debuted on June 17, 1919 it was originally titled Take Barney Google, F\u2019rinstance and was created by master cartoonist Billy DeBeck.  It began in the Chicago Herald and Examiner and was picked up by King Fea"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -3900,8 +3830,85 @@
    "thirdPartyCount": 253,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 263,
-   "rows": [],
-   "samples": [],
+   "rows": [
+    {
+     "text": "\"Corned beef and cabbage\" is a popular Irish dinner, and it's often served on St. Patrick's Day. In 1925, \"corned beef and cabbage\" was voted to be the favorite dish of New York City.\n\"Corned beef and cabbage\" was popularized by the character \"Jiggs' in the comic strip \"Bringing Up Father\" by George",
+     "imageUrl": "https://www.barrypopik.com/index.php/new_york_city/entry/corned_beef_and_cabbage_jiggs_dinner",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "NEW YORK, December 3, 2018.To kick off Popeye\u2019s 90th anniversary celebration in 2019, King Features Syndicate, a part of Hearst Entertainment, announces the debut of \u201cPopeye\u2019s Island Adventures.\u201d The original animated short series will introduce comic icon Popeye and his friends to today\u2019s digitally",
+     "imageUrl": "http://kingfeatures.com/2018/12/king-features-produces-new-animation-in-celebration-of-popeyes-90th-anniversary/",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Betty Boop Comic Book Now Available!\nBetty Boop #1, the first comic book, is available with four totally different covers that you can chose from. Each cover features the work of an all-star cast of creative Betty admirers including the legendary Howard Chaykin (American Flagg!), Roger Langridge",
+     "imageUrl": "https://www.fleischerstudios.com/blog/category/bimbo",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The first half of this book contains a nice collection of Al Taliaferro's Donald Duck comic strip (long overdue) and, on its own, gets a strong 4 stars. I can't give it a perfect five for two reasons. First is that this is a reprint of a reprint and retains the first reprint's blotchy coloring. Seco",
+     "imageUrl": "http://5.pdfmedia.co/10119527/disney-s-four-color-adventures-volume-1.html",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Herky, the title character of a short-lived Sunday page by cartoonist Clyde Lewis (Private Buck), has often been cited as a \"superbaby\" and compared to the slightly later work of Jerry Siegel and Joe Shuster.\nHerky was about his parents' exasperation in dealing with a prodigy even more capable than ",
+     "imageUrl": "http://www.coollinesartwork.com/GalleryDetail.asp?Details=0&GSub=43480",
+     "keyword": "king features syndicate",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "\"Corned beef and cabbage\" is a popular Irish dinner, and it's often served on St. Patrick's Day. In 1925, \"corned beef and cabbage\" was voted to be the favorite dish of New York City.\n\"Corned beef and cabbage\" was popularized by the character \"Jiggs' in the comic strip \"Bringing Up Father\" by George",
+    "NEW YORK, December 3, 2018.To kick off Popeye\u2019s 90th anniversary celebration in 2019, King Features Syndicate, a part of Hearst Entertainment, announces the debut of \u201cPopeye\u2019s Island Adventures.\u201d The original animated short series will introduce comic icon Popeye and his friends to today\u2019s digitally",
+    "New Betty Boop Comic Book Now Available!\nBetty Boop #1, the first comic book, is available with four totally different covers that you can chose from. Each cover features the work of an all-star cast of creative Betty admirers including the legendary Howard Chaykin (American Flagg!), Roger Langridge",
+    "The first half of this book contains a nice collection of Al Taliaferro's Donald Duck comic strip (long overdue) and, on its own, gets a strong 4 stars. I can't give it a perfect five for two reasons. First is that this is a reprint of a reprint and retains the first reprint's blotchy coloring. Seco",
+    "Herky, the title character of a short-lived Sunday page by cartoonist Clyde Lewis (Private Buck), has often been cited as a \"superbaby\" and compared to the slightly later work of Jerry Siegel and Joe Shuster.\nHerky was about his parents' exasperation in dealing with a prodigy even more capable than "
+   ],
    "partial": false,
    "shardsScanned": 10,
    "shardsTotal": 10
@@ -3933,13 +3940,13 @@
     "longformHits": 2104,
     "longformRatio": 0.592,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 196,
+     "laion1b-nolang": 308,
      "laion2b-en": 909,
      "laion2b-multi": 36,
      "obelics": 2079,
-     "laion1b-nolang": 308,
-     "pile": 15,
-     "c4-en": 10
+     "pile": 15
     },
     "reason": null
    },
@@ -3951,13 +3958,13 @@
     "longformHits": 31036,
     "longformRatio": 0.26,
     "perDataset": {
+     "c4-en": 201,
      "coyo700m": 11548,
      "laion1b-nolang": 24345,
      "laion2b-en": 34441,
      "laion2b-multi": 18158,
      "obelics": 30732,
-     "pile": 103,
-     "c4-en": 201
+     "pile": 103
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -3969,13 +3976,13 @@
     "longformHits": 2858,
     "longformRatio": 0.431,
     "perDataset": {
+     "c4-en": 24,
      "coyo700m": 714,
      "laion1b-nolang": 817,
      "laion2b-en": 1950,
      "laion2b-multi": 299,
      "obelics": 2825,
-     "pile": 9,
-     "c4-en": 24
+     "pile": 9
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -3987,13 +3994,13 @@
     "longformHits": 2235,
     "longformRatio": 0.437,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 185,
      "laion1b-nolang": 922,
      "laion2b-en": 1062,
      "laion2b-multi": 708,
      "obelics": 2215,
-     "pile": 10,
-     "c4-en": 10
+     "pile": 10
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -4005,13 +4012,13 @@
     "longformHits": 1651,
     "longformRatio": 0.327,
     "perDataset": {
+     "c4-en": 9,
      "coyo700m": 389,
      "laion1b-nolang": 482,
      "laion2b-en": 2024,
      "laion2b-multi": 500,
      "obelics": 1636,
-     "pile": 6,
-     "c4-en": 9
+     "pile": 6
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -4023,13 +4030,13 @@
     "longformHits": 909,
     "longformRatio": 0.342,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 241,
      "laion1b-nolang": 525,
      "laion2b-en": 904,
      "laion2b-multi": 77,
      "obelics": 906,
-     "pile": 1,
-     "c4-en": 2
+     "pile": 1
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -4041,12 +4048,12 @@
     "longformHits": 446,
     "longformRatio": 0.243,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 143,
      "laion1b-nolang": 348,
      "laion2b-en": 777,
      "laion2b-multi": 120,
-     "obelics": 443,
-     "c4-en": 3
+     "obelics": 443
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -4058,13 +4065,13 @@
     "longformHits": 362,
     "longformRatio": 0.329,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 100,
+     "laion1b-nolang": 59,
      "laion2b-en": 561,
      "laion2b-multi": 18,
      "obelics": 357,
-     "laion1b-nolang": 59,
-     "pile": 1,
-     "c4-en": 4
+     "pile": 1
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -4077,9 +4084,9 @@
     "longformRatio": 0.294,
     "perDataset": {
      "coyo700m": 13,
+     "laion1b-nolang": 181,
      "laion2b-en": 89,
      "laion2b-multi": 65,
-     "laion1b-nolang": 181,
      "obelics": 144,
      "pile": 1
     },
@@ -4094,9 +4101,9 @@
     "longformRatio": 0.646,
     "perDataset": {
      "coyo700m": 1,
+     "laion1b-nolang": 3,
      "laion2b-en": 20,
      "laion2b-multi": 11,
-     "laion1b-nolang": 3,
      "obelics": 64
     },
     "reason": "mass-market franchise, not this subject's own work"
@@ -4113,15 +4120,15 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "merchandise": 67,
-   "unverified": 301,
-   "person_photo": 44,
+   "unverified": 289,
+   "person_photo": 41,
+   "merchandise": 70,
    "storefront": 17,
    "unrelated": 3,
-   "explicit": 1,
-   "derivative": 1
+   "derivative": 3,
+   "explicit": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-king-features-syndicate",
  "cohort": "billy-ireland",
@@ -4134,7 +4141,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 3553,
   "datasetsPresent": 7,

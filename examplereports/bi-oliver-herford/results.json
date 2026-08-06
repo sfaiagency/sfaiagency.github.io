@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,8 +898,36 @@
    "totalIncludingLowConfidence": 211,
    "rows": [
     {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_300x300.jpg?v=1571712472",
+     "text": "The Rubaiyat of a Persian Kitten 1906 Ready to pounce Poster Print by Oliver Herford (24 x 36) - Walmart.com - Walmart.com",
+     "imageUrl": "https://i5.walmartimages.com/asr/ee43f885-e685-42a2-8782-2b711a653b16_1.837ef7ddf0c852344e16208d2a95360c.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cinderella and Fairy Godmother by Oliver Herford",
+     "imageUrl": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTU5NTQ1NTc0NjEz/how-to-write-a-fairy-tale.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Phenomenal Fauna by Oliver Herford, Carolyn Wells",
+     "imageUrl": "https://images.thestorygraph.com/sv6l7aeaw6i65oep57kqlzyjqdbg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -926,36 +954,8 @@
      }
     },
     {
-     "text": "Peter Pan, by Oliver Herford, 1907.png",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Peter_Pan%2C_by_Oliver_Herford%2C_1907.png/207px-Peter_Pan%2C_by_Oliver_Herford%2C_1907.png",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_03ff46e5-7470-466c-8eb3-aabac8559637_300x300.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cinderella and Fairy Godmother by Oliver Herford",
-     "imageUrl": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTU5NTQ1NTc0NjEz/how-to-write-a-fairy-tale.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -996,120 +996,8 @@
      }
     },
     {
-     "text": "The Rubaiyat of a Persian Kitten 1906 Ready to pounce Poster Print by Oliver Herford (24 x 36) - Walmart.com - Walmart.com",
-     "imageUrl": "https://i5.walmartimages.com/asr/ee43f885-e685-42a2-8782-2b711a653b16_1.837ef7ddf0c852344e16208d2a95360c.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Phenomenal Fauna by Oliver Herford, Carolyn Wells",
-     "imageUrl": "https://images.thestorygraph.com/sv6l7aeaw6i65oep57kqlzyjqdbg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_5f1a74cd-af15-47d7-8d5d-4a1f44eb1e91_300x300.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "kitten portrait i love all of the cat drawings by oliver herford from this book except for the eyes it s clear that this is a pencil drawn cat",
-     "imageUrl": "https://jf-studios.com/wp-content/uploads/2019/02/drawing-of-cat-eye-kitten-portrait-i-love-all-of-the-cat-drawings-by-oliver-herford-of-drawing-of-cat-eye.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_d67292ea-b590-4323-8558-3edda0c9b929_300x300.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Today Brings Quotes By Oliver Herford: Gather kittens while you may, Time brings only",
-     "imageUrl": "https://www.wisefamousquotes.com/images/today-brings-quotes-by-oliver-herford-1300137.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_032ddbdb-57d3-43c1-bc04-d79905509ed9_300x300.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Catchy Jazz Sayings By Oliver Herford: Only the young die good.",
      "imageUrl": "https://www.greatsayings.net/images/catchy-jazz-sayings-by-oliver-herford-1526029.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_c9490937-26b4-46dd-ad89-e1edab221d70_300x300.jpg?v=1571712472",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1136,106 +1024,8 @@
      }
     },
     {
-     "text": "Wendy Darling by Oliver Herford",
-     "imageUrl": "https://www.melissajwhite.com/wp-content/uploads/2014/05/Wendy_Darling.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Remember The Moment Quotes By Oliver Herford",
-     "imageUrl": "https://quotessayings.net/pics/remember-the-moment-quote-by-oliver-herford-158422.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Aaron in the wildwoods. Illustrated by Oliver Herford. By|Oliver Herford",
-     "imageUrl": "https://covers1.booksamillion.com/covers/bam/1/53/933/026/1539330265_b.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Encyclopedia Of Quotes By Oliver Herford: A pest is a person who can talk",
-     "imageUrl": "https://www.wisefamousquotes.com/images/encyclopedia-of-quotes-by-oliver-herford-1520209.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_9315c764-9e6d-44d0-90c9-0ceeed74bf91_300x300.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Celebrities of yore: According to An Alphabet of Celebrities, a recently unearthed book written in 1899 by Oliver Herford, 11th century noblewoman Lady Godiva (pictured) was one of the most well-known figures in this era",
-     "imageUrl": "https://i.dailymail.co.uk/i/pix/2013/12/30/article-2531249-1A4F1DE500000578-635_634x769.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Elf and the Dormouse illustration by Martha E. Miller Poem by Oliver Herford in Illustrator Martha E. Reprinted in Up One Pair of Stairs of My Book House, edited by Olivia Beaupre Miller, Nursery Rhymes Poems, Pomes, Kids Poems, Children Songs, Fairy Art, Children's Book Illustration, The Elf, F",
-     "imageUrl": "https://i.pinimg.com/236x/b6/cb/a9/b6cba96d0ca363ef4d6c3ae655668a92--the-elf-nursery-rhymes.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pots by Oliver Herford",
-     "imageUrl": "https://kitestudios.org/wp-content/uploads/2020/11/pottery-375x400.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1262,8 +1052,8 @@
      }
     },
     {
-     "text": "1907 illustration by Oliver Herford of Wendy and the Lost Boys. Public domain (OH died 1935). This work is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1923.",
-     "imageUrl": "http://susannahpickering.com/wp-content/uploads/2015/04/Wendy_Darling-248x300.png",
+     "text": "Encyclopedia Of Quotes By Oliver Herford: A pest is a person who can talk",
+     "imageUrl": "https://www.wisefamousquotes.com/images/encyclopedia-of-quotes-by-oliver-herford-1520209.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1304,34 +1094,6 @@
      }
     },
     {
-     "text": "You Re A Joke Quotes By Oliver Herford: The Irish gave the bagpipes to the Scotts",
-     "imageUrl": "https://www.wisefamousquotes.com/images/you-re-a-joke-quotes-by-oliver-herford-87856.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "This Giddy Globe by Oliver Herford",
-     "imageUrl": "https://i1.feedspot.com/200/5196871.jpg?t=1600257689",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Rhinoceros by Oliver Herford",
      "imageUrl": "https://www.poetry4kids.com/wp-content/uploads/2019/08/20Rhinoceros-a.png",
      "keyword": "oliver herford",
@@ -1346,8 +1108,8 @@
      }
     },
     {
-     "text": "The Bashful Earthquake by Oliver Herford 1899",
-     "imageUrl": "https://mysteryarts.typepad.com/.a/6a01053589653e970c01a73d835f2e970d-800wi",
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_300x300.jpg?v=1571712472",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1360,36 +1122,8 @@
      }
     },
     {
-     "text": "OLIVER HERFORD'S BOOK OF ANIMALS, by Oliver Herford - 1906",
-     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/original/products/5170/44707/$_57__09163.1507654498.JPG?c=2",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Deb's Dictionary, by Oliver Herford, with 87 Illustrations. Oliver Herford",
-     "imageUrl": "https://www.mwbooks.ie/pictures/thumb/87004.jpg?v=1598625686",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Elf and the Dormouse illustration by Martha E. Miller Poem by Oliver Herford in Illustrator Martha E. Reprinted in Up One Pair of Stairs of My Book House, edited by Olivia Beaupre Miller, Nursery Rhymes Poems, Kids Poems, Children Songs, Pomes, Fairy Art, Children's Book Illustration, The Elf, F",
-     "imageUrl": "https://i.pinimg.com/236x/38/38/d0/3838d069e3f759b8661c1ad363a5166b.jpg",
+     "text": "Peter Pan, by Oliver Herford, 1907.png",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Peter_Pan%2C_by_Oliver_Herford%2C_1907.png/207px-Peter_Pan%2C_by_Oliver_Herford%2C_1907.png",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1416,8 +1150,8 @@
      }
     },
     {
-     "text": "kitten portrait i love all of the cat drawings by oliver herford from this book",
-     "imageUrl": "https://jf-studios.com/wp-content/uploads/2019/02/drawing-of-a-small-cat-91-best-oliver-herford-s-cats-images-cat-kitty-kitty-cats-of-drawing-of-a-small-cat.jpg",
+     "text": "The Deb's Dictionary, by Oliver Herford, with 87 Illustrations. Oliver Herford",
+     "imageUrl": "https://www.mwbooks.ie/pictures/thumb/87004.jpg?v=1598625686",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1430,8 +1164,260 @@
      }
     },
     {
-     "text": "1903 Calendar for the week of July 1st, with an aphorism by Oliver Herford and an \"O\" monogram",
-     "imageUrl": "https://paulelder.org/wp-content/uploads/2010/08/1903-0701-300x200.jpg",
+     "text": "OLIVER HERFORD'S BOOK OF ANIMALS, by Oliver Herford - 1906",
+     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/original/products/5170/44707/$_57__09163.1507654498.JPG?c=2",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_5f1a74cd-af15-47d7-8d5d-4a1f44eb1e91_300x300.jpg?v=1571712472",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "kitten portrait i love all of the cat drawings by oliver herford from this book except for the eyes it s clear that this is a pencil drawn cat",
+     "imageUrl": "https://jf-studios.com/wp-content/uploads/2019/02/drawing-of-cat-eye-kitten-portrait-i-love-all-of-the-cat-drawings-by-oliver-herford-of-drawing-of-cat-eye.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today Brings Quotes By Oliver Herford: Gather kittens while you may, Time brings only",
+     "imageUrl": "https://www.wisefamousquotes.com/images/today-brings-quotes-by-oliver-herford-1300137.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_032ddbdb-57d3-43c1-bc04-d79905509ed9_300x300.jpg?v=1571712472",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_d67292ea-b590-4323-8558-3edda0c9b929_300x300.jpg?v=1571712472",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_c9490937-26b4-46dd-ad89-e1edab221d70_300x300.jpg?v=1571712472",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wendy Darling by Oliver Herford",
+     "imageUrl": "https://www.melissajwhite.com/wp-content/uploads/2014/05/Wendy_Darling.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aaron in the wildwoods. Illustrated by Oliver Herford. By|Oliver Herford",
+     "imageUrl": "https://covers1.booksamillion.com/covers/bam/1/53/933/026/1539330265_b.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Remember The Moment Quotes By Oliver Herford",
+     "imageUrl": "https://quotessayings.net/pics/remember-the-moment-quote-by-oliver-herford-158422.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pots by Oliver Herford",
+     "imageUrl": "https://kitestudios.org/wp-content/uploads/2020/11/pottery-375x400.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Celebrities of yore: According to An Alphabet of Celebrities, a recently unearthed book written in 1899 by Oliver Herford, 11th century noblewoman Lady Godiva (pictured) was one of the most well-known figures in this era",
+     "imageUrl": "https://i.dailymail.co.uk/i/pix/2013/12/30/article-2531249-1A4F1DE500000578-635_634x769.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Elf and the Dormouse illustration by Martha E. Miller Poem by Oliver Herford in Illustrator Martha E. Reprinted in Up One Pair of Stairs of My Book House, edited by Olivia Beaupre Miller, Nursery Rhymes Poems, Pomes, Kids Poems, Children Songs, Fairy Art, Children's Book Illustration, The Elf, F",
+     "imageUrl": "https://i.pinimg.com/236x/b6/cb/a9/b6cba96d0ca363ef4d6c3ae655668a92--the-elf-nursery-rhymes.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1907 illustration by Oliver Herford of Wendy and the Lost Boys. Public domain (OH died 1935). This work is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1923.",
+     "imageUrl": "http://susannahpickering.com/wp-content/uploads/2015/04/Wendy_Darling-248x300.png",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "You Re A Joke Quotes By Oliver Herford: The Irish gave the bagpipes to the Scotts",
+     "imageUrl": "https://www.wisefamousquotes.com/images/you-re-a-joke-quotes-by-oliver-herford-87856.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Bashful Earthquake by Oliver Herford 1899",
+     "imageUrl": "https://mysteryarts.typepad.com/.a/6a01053589653e970c01a73d835f2e970d-800wi",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This Giddy Globe by Oliver Herford",
+     "imageUrl": "https://i1.feedspot.com/200/5196871.jpg?t=1600257689",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Elf and the Dormouse illustration by Martha E. Miller Poem by Oliver Herford in Illustrator Martha E. Reprinted in Up One Pair of Stairs of My Book House, edited by Olivia Beaupre Miller, Nursery Rhymes Poems, Kids Poems, Children Songs, Pomes, Fairy Art, Children's Book Illustration, The Elf, F",
+     "imageUrl": "https://i.pinimg.com/236x/38/38/d0/3838d069e3f759b8661c1ad363a5166b.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "kitten portrait i love all of the cat drawings by oliver herford from this book",
+     "imageUrl": "https://jf-studios.com/wp-content/uploads/2019/02/drawing-of-a-small-cat-91-best-oliver-herford-s-cats-images-cat-kitty-kitty-cats-of-drawing-of-a-small-cat.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1458,8 +1444,8 @@
      }
     },
     {
-     "text": "The text of the poem The Elf and the Dormouse by Oliver Herford with five vignettes.",
-     "imageUrl": "https://www.lookandlearn.com/history-images/preview/TR/TR0022/TR0022-024-00_The-Elf.jpg",
+     "text": "An illustration by Oliver Herford of Wendy Darling (Source: Wikimedia Commons",
+     "imageUrl": "http://www.sixbyeightpress.com/wp-content/uploads/2017/04/wendy-530x640.png",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1472,8 +1458,8 @@
      }
     },
     {
-     "text": "An illustration by Oliver Herford of Wendy Darling (Source: Wikimedia Commons",
-     "imageUrl": "http://www.sixbyeightpress.com/wp-content/uploads/2017/04/wendy-530x640.png",
+     "text": "The text of the poem The Elf and the Dormouse by Oliver Herford with five vignettes.",
+     "imageUrl": "https://www.lookandlearn.com/history-images/preview/TR/TR0022/TR0022-024-00_The-Elf.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": null,
@@ -1501,15 +1487,15 @@
     }
    ],
    "samples": [
-    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-    "Aaron in the Wildwoods. Illustrated by Oliver Herford|Joel Chandler Harris",
-    "Peter Pan, by Oliver Herford, 1907.png",
-    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+    "The Rubaiyat of a Persian Kitten 1906 Ready to pounce Poster Print by Oliver Herford (24 x 36) - Walmart.com - Walmart.com",
     "Cinderella and Fairy Godmother by Oliver Herford",
+    "A Phenomenal Fauna by Oliver Herford, Carolyn Wells",
+    "Aaron in the Wildwoods. Illustrated by Oliver Herford|Joel Chandler Harris",
+    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
     "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
     "Geographer or Globe-maker drawing by Oliver Herford",
-    "The Rubaiyat of a Persian Kitten 1906 Ready to pounce Poster Print by Oliver Herford (24 x 36) - Walmart.com - Walmart.com",
-    "A Phenomenal Fauna by Oliver Herford, Carolyn Wells",
+    "Catchy Jazz Sayings By Oliver Herford: Only the young die good.",
+    "Confessions of a Caricaturist by Oliver Herford 1917 (Cartoons",
     "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED"
    ],
    "partial": false,
@@ -1536,11 +1522,53 @@
    "totalIncludingLowConfidence": 439,
    "rows": [
     {
-     "text": "An illustration by Oliver Herford of Wendy Darling (Source: Wikimedia Commons)",
-     "imageUrl": "https://www.sixbyeightpress.com/wp-content/uploads/2017/04/wendy-530x640.png",
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_094aab97-a278-49db-8fa4-5c4b3c45e25c_110x110@2x.jpg?v=1517353047",
      "keyword": "oliver herford",
      "tier": "namematch",
-     "punsafe": 0.003148496150970459,
+     "punsafe": 3.488603761070408e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Racism Drawings Greeting Cards - Phrenological Chart Of The German Greeting Card by Oliver Herford",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/phrenological-chart-of-the-german-oliver-herford.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 2.8223648769198917e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_530x@2x.jpg?v=1571712472",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 6.806159217376262e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "If The Good Die Young Quotes By Oliver Herford",
+     "imageUrl": "https://quotessayings.net/pics/if-the-good-die-young-quote-by-oliver-herford-1167950.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 0.00014919042587280273,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1578,11 +1606,11 @@
      }
     },
     {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_094aab97-a278-49db-8fa4-5c4b3c45e25c_110x110@2x.jpg?v=1517353047",
+     "text": "An illustration by Oliver Herford of Wendy Darling (Source: Wikimedia Commons)",
+     "imageUrl": "https://www.sixbyeightpress.com/wp-content/uploads/2017/04/wendy-530x640.png",
      "keyword": "oliver herford",
      "tier": "namematch",
-     "punsafe": 3.488603761070408e-05,
+     "punsafe": 0.003148496150970459,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1648,48 +1676,6 @@
      }
     },
     {
-     "text": "Racism Drawings Greeting Cards - Phrenological Chart Of The German Greeting Card by Oliver Herford",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/phrenological-chart-of-the-german-oliver-herford.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 2.8223648769198917e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_530x@2x.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 6.806159217376262e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "If The Good Die Young Quotes By Oliver Herford",
-     "imageUrl": "https://quotessayings.net/pics/if-the-good-die-young-quote-by-oliver-herford-1167950.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 0.00014919042587280273,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "597px-Edison and Eve - An Alphabet of Celebrities, by Oliver Herford",
      "imageUrl": "https://vignette3.wikia.nocookie.net/malice-in-wonderland-and-all-things-alice/images/7/72/597px-Edison_and_Eve_-_An_Alphabet_of_Celebrities%2C_by_Oliver_Herford.jpg/revision/latest/scale-to-width-down/360?cb=20140124184155",
      "keyword": "oliver herford",
@@ -1732,11 +1718,67 @@
      }
     },
     {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_110x110@2x.jpg?v=1517353047",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 0.0001308917999267578,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Complete Cynic ebook by Oliver Herford",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/513a29b6-eed3-48b8-b253-1fb4af5343c9/180/1000/False/the-complete-cynic-1.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 0.00012084281479474157,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Kitten Portrait    I love all of the cat drawings by Oliver Herford from this book. Except for the eyes, it's clear that this is a pencil drawn cat. But, the eyes, they look like a photograph rather than a simple drawing. It was this technique of using just a hint of color that really makes Herford'",
      "imageUrl": "https://i.pinimg.com/originals/49/70/0d/49700d84ec26b1dd0dff9dc15c65aa92.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": 2.311763410034473e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_4dad2c59-3812-4907-b906-bcdb6971d811_300x300.jpg?v=1571712472",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 5.021290121476341e-07,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Peter Pan Alphabet [ Illustrated ] - [ Free Audiobooks Download ] ebook by Oliver Herford",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/32a69d76-869d-478b-8c44-9b1004a786da/180/1000/False/peter-pan-alphabet-illustrated.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 7.680295311729424e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1788,62 +1830,6 @@
      }
     },
     {
-     "text": "Peter Pan Alphabet [ Illustrated ] - [ Free Audiobooks Download ] ebook by Oliver Herford",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/32a69d76-869d-478b-8c44-9b1004a786da/180/1000/False/peter-pan-alphabet-illustrated.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 7.680295311729424e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_cb1dee96-4f6b-41e7-9961-a5bfe3c0e9dc_110x110@2x.jpg?v=1517353047",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 0.0001308917999267578,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_4dad2c59-3812-4907-b906-bcdb6971d811_300x300.jpg?v=1571712472",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 5.021290121476341e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Cynic ebook by Oliver Herford",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/513a29b6-eed3-48b8-b253-1fb4af5343c9/180/1000/False/the-complete-cynic-1.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 0.00012084281479474157,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_094aab97-a278-49db-8fa4-5c4b3c45e25c_300x300.jpg?v=1571712472",
      "keyword": "oliver herford",
@@ -1877,20 +1863,6 @@
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": 9.210593816533219e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It Was Her Fairy Godmother!, by Oliver Herford, in Childhood's Favorites and Fairy Stories, eds. Mabie, Hale, and Forbush (1919) - via Wikimedia Commons and Project Gutenberg - public domain",
-     "imageUrl": "http://4.bp.blogspot.com/_1TC3AotRO6w/S6Ybr7pAOnI/AAAAAAAAALY/PoW1aEL6hBA/s200/422px-Cinderella_-_Project_Gutenberg_etext_19993.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 3.438558997004293e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1942,25 +1914,11 @@
      }
     },
     {
-     "text": "Cover of: The Rub\u00e1iy\u00e1t of a Persian kitten by Oliver Herford",
-     "imageUrl": "https://covers.openlibrary.org/w/id/5597181-M.jpg",
+     "text": "Bagpipes Quotes By Oliver Herford",
+     "imageUrl": "https://quotessayings.net/pics/bagpipes-quote-by-oliver-herford-1207454.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
-     "punsafe": 5.0849408239628247e-08,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Kitten's Garden of Verses ebook by Oliver Herford",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/6413c086-546c-4f7b-9f9d-a9ad2ffdc6f6/180/1000/False/the-kitten-s-garden-of-verses.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 1.544845645184978e-06,
+     "punsafe": 6.335527814371744e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1998,11 +1956,11 @@
      }
     },
     {
-     "text": "Bagpipes Quotes By Oliver Herford",
-     "imageUrl": "https://quotessayings.net/pics/bagpipes-quote-by-oliver-herford-1207454.jpg",
+     "text": "It Was Her Fairy Godmother!, by Oliver Herford, in Childhood's Favorites and Fairy Stories, eds. Mabie, Hale, and Forbush (1919) - via Wikimedia Commons and Project Gutenberg - public domain",
+     "imageUrl": "http://4.bp.blogspot.com/_1TC3AotRO6w/S6Ybr7pAOnI/AAAAAAAAALY/PoW1aEL6hBA/s200/422px-Cinderella_-_Project_Gutenberg_etext_19993.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
-     "punsafe": 6.335527814371744e-06,
+     "punsafe": 3.438558997004293e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2017,6 +1975,48 @@
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": 9.753729500516783e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover of: The Rub\u00e1iy\u00e1t of a Persian kitten by Oliver Herford",
+     "imageUrl": "https://covers.openlibrary.org/w/id/5597181-M.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 5.0849408239628247e-08,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Kitten's Garden of Verses ebook by Oliver Herford",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/6413c086-546c-4f7b-9f9d-a9ad2ffdc6f6/180/1000/False/the-kitten-s-garden-of-verses.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 1.544845645184978e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Child's Primer of Fantastic Animals by Oliver Herford",
+     "imageUrl": "http://lr-assets.storage.googleapis.com/gardimg/400/9780486797571.jpg",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 0.0001627206802368164,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2054,39 +2054,11 @@
      }
     },
     {
-     "text": "A Child's Primer of Fantastic Animals by Oliver Herford",
-     "imageUrl": "http://lr-assets.storage.googleapis.com/gardimg/400/9780486797571.jpg",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 0.0001627206802368164,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
      "imageUrl": "https://cdn.shopify.com/s/files/1/2803/6230/products/57_094aab97-a278-49db-8fa4-5c4b3c45e25c_300x300.jpg?v=1517353047",
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": 3.197578917024657e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "OLIVER HERFORD'S BOOK OF ANIMALS, by Oliver Herford - 1906",
-     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/160w/products/5170/44707/$_57__09163.1507654498.JPG?c=2",
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": 3.607950915807123e-08,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2129,6 +2101,20 @@
      "keyword": "oliver herford",
      "tier": "namematch",
      "punsafe": 4.583761437970679e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "OLIVER HERFORD'S BOOK OF ANIMALS, by Oliver Herford - 1906",
+     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/160w/products/5170/44707/$_57__09163.1507654498.JPG?c=2",
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": 3.607950915807123e-08,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2377,16 +2363,16 @@
     }
    ],
    "samples": [
-    "An illustration by Oliver Herford of Wendy Darling (Source: Wikimedia Commons)",
+    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+    "Racism Drawings Greeting Cards - Phrenological Chart Of The German Greeting Card by Oliver Herford",
+    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+    "If The Good Die Young Quotes By Oliver Herford",
     "Kitty Riding Bicycle By Oliver Herford (1863-1935) [Public domain], via Wikimedia Commons.",
     "Phrenological Chart Of The German Canvas Print by Oliver Herford",
-    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED",
+    "An illustration by Oliver Herford of Wendy Darling (Source: Wikimedia Commons)",
     "Henry James's Style of Retrospect - Late Personal Writings, 1890-1915 ebook by Oliver Herford",
     "T-rex Joke Quotes By Oliver Herford: The Irish gave the bagpipes to the Scotts",
-    "Kitten Portrait    I love all of the cat drawings by Oliver Herford from this book. Except for the eyes, it's clear that this is a pencil drawn cat. But, the eyes, they look like a photograph rather than a simple drawing. It was this technique of using just a hint of color that really makes Herford'",
-    "Antique 1899 Book The Bashful Earthquake and Other Fables by Oliver Herford",
-    "Racism Drawings Greeting Cards - Phrenological Chart Of The German Greeting Card by Oliver Herford",
-    "CHILD'S PRIMER OF NATURAL HISTORY by Oliver HERFORD 1st / 1st, 1899 ILLUSTRATED"
+    "Kitten Portrait    I love all of the cat drawings by Oliver Herford from this book. Except for the eyes, it's clear that this is a pencil drawn cat. But, the eyes, they look like a photograph rather than a simple drawing. It was this technique of using just a hint of color that really makes Herford'"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2498,11 +2484,11 @@
    "totalIncludingLowConfidence": 50,
    "rows": [
     {
-     "text": "Oliver Herford / The ant / 1899?",
-     "imageUrl": "http://images.lunaimaging.com/images/AMICA/Size0/LOC/loc_.2a13216u.jpg",
+     "text": "Oliver Herford / The reg'lar lark / between 1880 and 1902",
+     "imageUrl": "http://images.lunaimaging.com/images/AMICA/Size0/LOC/loc_.2a13503u.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
-     "punsafe": 7.798887963872403e-05,
+     "punsafe": 1.2081745808245614e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2512,11 +2498,11 @@
      }
     },
     {
-     "text": "Oliver Herford / The reg'lar lark / between 1880 and 1902",
-     "imageUrl": "http://images.lunaimaging.com/images/AMICA/Size0/LOC/loc_.2a13503u.jpg",
+     "text": "Oliver Herford / The ant / 1899?",
+     "imageUrl": "http://images.lunaimaging.com/images/AMICA/Size0/LOC/loc_.2a13216u.jpg",
      "keyword": "oliver herford",
      "tier": "namematch",
-     "punsafe": 1.2081745808245614e-06,
+     "punsafe": 7.798887963872403e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2583,8 +2569,8 @@
     }
    ],
    "samples": [
-    "Oliver Herford / The ant / 1899?",
     "Oliver Herford / The reg'lar lark / between 1880 and 1902",
+    "Oliver Herford / The ant / 1899?",
     "Antique book, Victorian children's verse Animal Anticks by Oliver Herford",
     "Oliver Herford / Rag / 1931?",
     "A Pretty Kettle of Fish 1927 by Oliver Herford, Vintage Mermaids and Sirens Siren Mermaid, Mermaid Art, Mermaid Book, Mermaid Lagoon, Vintage Fairies, Vintage Mermaid, Sirens, Victorian Illustration, Mermaid Illustration",
@@ -2614,7 +2600,7 @@
    "totalIncludingLowConfidence": 230,
    "rows": [
     {
-     "text": "You will click on each reading task on the left and practice each activity and complete quizzes.\n\nGRADE 3 ENGLISH LANGUAGE ARTS/READING\u2014RELEASED FORM 1 Sample Questions The Rhinoceros by Oliver Herford So this is the Rhinoceros! I wonder why he looks so cross. Perhaps he is annoyed a bit Because his",
+     "text": "\u2018T\u2019 depicts Truth as a woman coming out of a well and greeted by two men (the French diplomat Charles Maurice Talleyrand and the American writer Mark Twain). Both men bow to her with glasses in their hands.\n\nFrom An Alphabet of Celebrities by Oliver Herford (1899).",
      "imageUrl": null,
      "keyword": "oliver herford",
      "tier": "namematch",
@@ -2642,7 +2628,7 @@
      }
     },
     {
-     "text": "\u2018T\u2019 depicts Truth as a woman coming out of a well and greeted by two men (the French diplomat Charles Maurice Talleyrand and the American writer Mark Twain). Both men bow to her with glasses in their hands.\n\nFrom An Alphabet of Celebrities by Oliver Herford (1899).",
+     "text": "As a child, my wife Aditi had memorized this poem by Oliver Herford. She remembered enough of it that we were able to find it on the Googles, and I\u2019m absolutely in love with it. As your end-of-the-day, end-of-the-world thought, and as my I-just-ate-my-first-hamburger-in-15-years thought, I present:\n",
      "imageUrl": null,
      "keyword": "oliver herford",
      "tier": "namematch",
@@ -2656,7 +2642,7 @@
      }
     },
     {
-     "text": "As a child, my wife Aditi had memorized this poem by Oliver Herford. She remembered enough of it that we were able to find it on the Googles, and I\u2019m absolutely in love with it. As your end-of-the-day, end-of-the-world thought, and as my I-just-ate-my-first-hamburger-in-15-years thought, I present:\n",
+     "text": "You will click on each reading task on the left and practice each activity and complete quizzes.\n\nGRADE 3 ENGLISH LANGUAGE ARTS/READING\u2014RELEASED FORM 1 Sample Questions The Rhinoceros by Oliver Herford So this is the Rhinoceros! I wonder why he looks so cross. Perhaps he is annoyed a bit Because his",
      "imageUrl": null,
      "keyword": "oliver herford",
      "tier": "namematch",
@@ -2936,20 +2922,6 @@
      }
     },
     {
-     "text": "An illustration from Cupid\u2019s Cyclopedia, 1910.\n\nIf you\u2019re looking for a crash course in prewar hilarity\u2014or, indeed, in American gender dynamics\u2014get yourself to the nearest used bookstore and pick up a copy of 1910\u2019s Cupid\u2019s Cyclopedia, \u201cCompiled for Daniel Cupid by Oliver Herford and John Cecil Clay",
-     "imageUrl": null,
-     "keyword": "oliver herford",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Touch\nThe third presented sense is touch:\n\nThe Elf and the Dormouse by Oliver Herford\nA Riddle\nThe Elves and the Shoemaker (Folk Tale)\nLittle Brown Hands\nJack the Giant Killer (English Folk Tale)\nBees by Frank D Sherman\nA Chill by Christina G. Rossetti\nWhat Black Beauty Did by Anna Sewell\nThe St",
      "imageUrl": null,
      "keyword": "oliver herford",
@@ -2976,13 +2948,27 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "An illustration from Cupid\u2019s Cyclopedia, 1910.\n\nIf you\u2019re looking for a crash course in prewar hilarity\u2014or, indeed, in American gender dynamics\u2014get yourself to the nearest used bookstore and pick up a copy of 1910\u2019s Cupid\u2019s Cyclopedia, \u201cCompiled for Daniel Cupid by Oliver Herford and John Cecil Clay",
+     "imageUrl": null,
+     "keyword": "oliver herford",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "You will click on each reading task on the left and practice each activity and complete quizzes.\n\nGRADE 3 ENGLISH LANGUAGE ARTS/READING\u2014RELEASED FORM 1 Sample Questions The Rhinoceros by Oliver Herford So this is the Rhinoceros! I wonder why he looks so cross. Perhaps he is annoyed a bit Because his",
-    "There are also 25 full page pen-and-ink drawings by Oliver Herford sprinkled throughout which bring the stories to life.\n\nSome of the stories in this volume are:Where the Thunder lives\nHow a King was Found\nThe Magic Ring\nThe Little Boy of the Lantern\nThe King of the Clinkers\nHow Brother Lion lost hi",
     "\u2018T\u2019 depicts Truth as a woman coming out of a well and greeted by two men (the French diplomat Charles Maurice Talleyrand and the American writer Mark Twain). Both men bow to her with glasses in their hands.\n\nFrom An Alphabet of Celebrities by Oliver Herford (1899).",
+    "There are also 25 full page pen-and-ink drawings by Oliver Herford sprinkled throughout which bring the stories to life.\n\nSome of the stories in this volume are:Where the Thunder lives\nHow a King was Found\nThe Magic Ring\nThe Little Boy of the Lantern\nThe King of the Clinkers\nHow Brother Lion lost hi",
     "As a child, my wife Aditi had memorized this poem by Oliver Herford. She remembered enough of it that we were able to find it on the Googles, and I\u2019m absolutely in love with it. As your end-of-the-day, end-of-the-world thought, and as my I-just-ate-my-first-hamburger-in-15-years thought, I present:\n",
+    "You will click on each reading task on the left and practice each activity and complete quizzes.\n\nGRADE 3 ENGLISH LANGUAGE ARTS/READING\u2014RELEASED FORM 1 Sample Questions The Rhinoceros by Oliver Herford So this is the Rhinoceros! I wonder why he looks so cross. Perhaps he is annoyed a bit Because his",
     "\nIt has been bitter cold the past few days here in NYC, so when I heard a Northern mockingbird singing in my rooftop garden, while he/she alighted upon my Avellana corylus, AKA Contorted Hazelnut (as seen in the picture atop this entry), I thought of the poem, I Heard a Bird Sing, by Oliver Herford.",
     "In this issue there are several illustrations including \"Waitress in Quick Lunch Restaurant\" by Everett Shinn; \"Pen and Inklings--The Importance of Being Belasco\" by Oliver Herford; \"Chinese Lyrics\" by Pai Ta-Shun; the double page center fold illustration which is titled \"The Great American Game\" by",
     "GET IT WHILE YOU CAN!! T his sale is for an original 1917 FIRST EDITION , THUS of \" ALICE'S ADVENTURES IN WONDERLAND \" by Lewis Carroll, as illustrated by OLIVER HERFORD. YOU'LL LOVE THIS BOOK!! By the infamous writer and artist, OLIVER HERFORD.\n\nOliver Herford (18631935) was a British-born American",
@@ -3077,13 +3063,13 @@
     "longformHits": 233,
     "longformRatio": 0.238,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 211,
+     "laion1b-nolang": 50,
      "laion2b-en": 439,
      "laion2b-multi": 46,
      "obelics": 230,
-     "laion1b-nolang": 50,
-     "pile": 1,
-     "c4-en": 2
+     "pile": 1
     },
     "reason": null
    }
@@ -3097,17 +3083,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 140,
+  "evidenceShown": 139,
   "evidenceWithheld": {
-   "unverified": 509,
+   "unverified": 507,
    "person_photo": 89,
-   "storefront": 14,
+   "storefront": 17,
    "merchandise": 6,
    "unrelated": 17,
    "explicit": 3,
    "derivative": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-oliver-herford",
  "cohort": "billy-ireland",
@@ -3120,7 +3106,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 979,
   "datasetsPresent": 7,

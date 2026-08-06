@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1012,34 +1012,6 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Hand-Colored Sunday Original Art (Chicago Tribune, 1924)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B6%2F0%2F7%2F6%2F6076814%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 3.754247154574841e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mary Perkins, On Stage - On Stage comic book published by Dell.",
-     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Onstagedell.jpg/330px-Onstagedell.jpg",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 5.650657112710178e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Annie (1982)  Broadway musical based on the Little Orphan Annie comic strip. A young orphan girls adventures in finding a family that will take her.",
      "imageUrl": "https://i.pinimg.com/236x/16/07/f9/1607f9ad14670ac573406b2ce681a57d.jpg",
      "keyword": "annie comic strip",
@@ -1110,6 +1082,34 @@
      }
     },
     {
+     "text": "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Hand-Colored Sunday Original Art (Chicago Tribune, 1924)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B6%2F0%2F7%2F6%2F6076814%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 3.754247154574841e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mary Perkins, On Stage - On Stage comic book published by Dell.",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Onstagedell.jpg/330px-Onstagedell.jpg",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 5.650657112710178e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Orphan Annie Comic Strip via http://madinkbeard.com/archives/arf-the-life-and-times-of-little-orphan-annie-by-harold-gray",
      "imageUrl": "https://lisatracyauthor.files.wordpress.com/2014/12/annie11-300x111.jpg?w=474",
      "keyword": "annie comic strip",
@@ -1129,20 +1129,6 @@
      "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": 0.0019502341747283936,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "#77 MARY PERKINS ON STAGE by Leonard Starr Sunday Half Page Strip April 22, 1973",
-     "imageUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pyoAAOSwWERheAnB/$_12.JPG",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 0.008776932954788208,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1180,11 +1166,11 @@
      }
     },
     {
-     "text": "Winnie Winkle - lot of 14 full color Sunday comic pages from early 1970",
-     "imageUrl": "https://thumbs.ebaystatic.com/images/g/o4wAAOSwEppUTtrL/s-l225.jpg",
-     "keyword": "winnie winkle",
+     "text": "#77 MARY PERKINS ON STAGE by Leonard Starr Sunday Half Page Strip April 22, 1973",
+     "imageUrl": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/pyoAAOSwWERheAnB/$_12.JPG",
+     "keyword": "mary perkins",
      "tier": "high",
-     "punsafe": 0.0010477006435394287,
+     "punsafe": 0.008776932954788208,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1222,6 +1208,20 @@
      }
     },
     {
+     "text": "Winnie Winkle - lot of 14 full color Sunday comic pages from early 1970",
+     "imageUrl": "https://thumbs.ebaystatic.com/images/g/o4wAAOSwEppUTtrL/s-l225.jpg",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 0.0010477006435394287,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "On Stage With Mary Perkins 10-10-1957 Daily by Leonard Starr",
      "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2015/07/On-Stage-With-Mary-Perkins-10-10-1957-Daily-by-Leonard-Starr-480x166.jpg",
      "keyword": "mary perkins",
@@ -1236,11 +1236,39 @@
      }
     },
     {
+     "text": "First Little Orphan Annie Comic Strip",
+     "imageUrl": "https://blog.retroplanet.com/wp-content/uploads/2014/08/first-little-orphan-annie.jpg",
+     "keyword": "annie comic strip",
+     "tier": "high",
+     "punsafe": 0.0033568739891052246,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Little Orphan Annie Comic Strip Created By Harold Gray Ran From 1924 To 2010 C\u00f3mic Strip C\u00f3mic Tiras De Prensa",
      "imageUrl": "https://i.pinimg.com/originals/6a/c6/b3/6ac6b31e99ac76b4f962f60f520e7843.jpg",
      "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": 0.0003763139247894287,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 12-8-68-afnews",
+     "imageUrl": "https://i1.wp.com/www.afnews.info/wordpress/wp-content/uploads/2019/02/Leonard-Starr-Mary-Perkins-On-Stage-Sunday-Comic-Strip-Original-Art-dated-12-8-68-afnews.jpg?w=293&h=206&ssl=1",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 0.0053955018520355225,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1278,39 +1306,11 @@
      }
     },
     {
-     "text": "First Little Orphan Annie Comic Strip",
-     "imageUrl": "https://blog.retroplanet.com/wp-content/uploads/2014/08/first-little-orphan-annie.jpg",
-     "keyword": "annie comic strip",
-     "tier": "high",
-     "punsafe": 0.0033568739891052246,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "aNNIE COMIC STRIP",
      "imageUrl": "http://lh5.ggpht.com/_gLfeaVZEwNo/TBQd-raG6KI/AAAAAAAAKWI/Q4z-3EpdI7c/aNNIE%20COMIC%20STRIP_thumb%5B3%5D.jpg?imgmax=800",
      "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": 0.00024372339248657227,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 12-8-68-afnews",
-     "imageUrl": "https://i1.wp.com/www.afnews.info/wordpress/wp-content/uploads/2019/02/Leonard-Starr-Mary-Perkins-On-Stage-Sunday-Comic-Strip-Original-Art-dated-12-8-68-afnews.jpg?w=293&h=206&ssl=1",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 0.0053955018520355225,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1390,11 +1390,11 @@
      }
     },
     {
-     "text": "Sunday Comics- Feb.24th 1935- The Oregonian- Gasoline Alley - Winnie Winkle",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/zxwAAOSwdhdb4Mqv/s-l225.jpg",
-     "keyword": "winnie winkle",
+     "text": "Golden Age (1938-1955):Miscellaneous, Little Orphan Annie #1 (Dell, 1948) CGC VF+ 8.5 Off-white pages. Little Orphan Annie comic strip reprints. Overstreet 2003 V...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F6%2F3%2F4%2F2634609%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "annie comic strip",
      "tier": "high",
-     "punsafe": 0.00010272829240420833,
+     "punsafe": 4.6103046770440415e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1404,11 +1404,11 @@
      }
     },
     {
-     "text": "Golden Age (1938-1955):Miscellaneous, Little Orphan Annie #1 (Dell, 1948) CGC VF+ 8.5 Off-white pages. Little Orphan Annie comic strip reprints. Overstreet 2003 V...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F6%2F3%2F4%2F2634609%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "annie comic strip",
+     "text": "Sunday Comics- Feb.24th 1935- The Oregonian- Gasoline Alley - Winnie Winkle",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/zxwAAOSwdhdb4Mqv/s-l225.jpg",
+     "keyword": "winnie winkle",
      "tier": "high",
-     "punsafe": 4.6103046770440415e-05,
+     "punsafe": 0.00010272829240420833,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1516,39 +1516,25 @@
      }
     },
     {
-     "text": "Broadway musical based on the Little Orphan Annie comic strip. A young orphan girls adventures in finding a family that will take her. Aileen Quinn, Toni Ann Gisondi,",
-     "imageUrl": "https://i.pinimg.com/236x/8e/1e/a7/8e1ea70371637cc1bf1b827fea291749--action-movies-movie-film.jpg",
-     "keyword": "annie comic strip",
-     "tier": "high",
-     "punsafe": 0.0010623931884765625,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Modern Annie Comic Strip logo",
-     "imageUrl": "https://static.wixstatic.com/media/c94a9f_627aa1e523164f4b9827c975b9c4556b.jpg",
-     "keyword": "annie comic strip",
-     "tier": "high",
-     "punsafe": 0.00014355778694152832,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Comic strip page printing press plate Peanuts On Stage Dick Tracy Winnie Winkle",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/E6kAAOSw4zdf-TEO/s-l225.jpg",
      "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": 0.0010315477848052979,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Broadway musical based on the Little Orphan Annie comic strip. A young orphan girls adventures in finding a family that will take her. Aileen Quinn, Toni Ann Gisondi,",
+     "imageUrl": "https://i.pinimg.com/236x/8e/1e/a7/8e1ea70371637cc1bf1b827fea291749--action-movies-movie-film.jpg",
+     "keyword": "annie comic strip",
+     "tier": "high",
+     "punsafe": 0.0010623931884765625,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1600,20 +1586,6 @@
      }
     },
     {
-     "text": "Winnie Winkle - lot of 16 full color Sunday comic pages from late 1971",
-     "imageUrl": "http://thumbs.ebaystatic.com/images/g/7J4AAOSwv0tVQVql/s-l225.jpg",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 0.002740412950515747,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "1936 Annie comic strip",
      "imageUrl": "https://recessmedia.org/wp-content/uploads/2018/10/Annie-e1539575498258.jpg",
      "keyword": "annie comic strip",
@@ -1626,18 +1598,32 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Winnie Winkle - lot of 16 full color Sunday comic pages from late 1971",
+     "imageUrl": "http://thumbs.ebaystatic.com/images/g/7J4AAOSwv0tVQVql/s-l225.jpg",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 0.002740412950515747,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "Guest volunteer Mary Perkins enjoys the weather and helping out in the garden at Native American Youth and Family Center. Photo by Tamara Branderhorst.",
     "Mary Perkins On Stage by Leonard Starr - early Sunday comic page - June 23, 1957",
-    "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Hand-Colored Sunday Original Art (Chicago Tribune, 1924)....",
-    "Mary Perkins, On Stage - On Stage comic book published by Dell.",
     "Annie (1982)  Broadway musical based on the Little Orphan Annie comic strip. A young orphan girls adventures in finding a family that will take her.",
     "Image: Annie comic strip",
     "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Sunday Comic Strip Original Art dated 12-24-22 (Chicago Tribune, 1922)....",
     "48 WINNIE WINKLE Sunday comics from 1937 featuring LOUIE - EXCELLENT CONDITION",
     "Mary Perkins On Stage By Leonard Starr From 1969 52 Most Tab Size Pages",
+    "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Hand-Colored Sunday Original Art (Chicago Tribune, 1924)....",
+    "Mary Perkins, On Stage - On Stage comic book published by Dell.",
     "Orphan Annie Comic Strip via http://madinkbeard.com/archives/arf-the-life-and-times-of-little-orphan-annie-by-harold-gray"
    ],
    "partial": false,
@@ -1663,20 +1649,6 @@
    "lowConfidenceCount": 29,
    "totalIncludingLowConfidence": 116,
    "rows": [
-    {
-     "text": "Modern Annie Comic Strip logo",
-     "imageUrl": "https://static.wixstatic.com/media/c94a9f_627aa1e523164f4b9827c975b9c4556b.jpg/v1/fill/w_250,h_183,al_c,q_90/c94a9f_627aa1e523164f4b9827c975b9c4556b.jpg",
-     "keyword": "annie comic strip",
-     "tier": "high",
-     "punsafe": 0.00029405951499938965,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Little Orphan Annie Comic Strip Book",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/332051973266_/Little-Orphan-Annie-Comic-Strip-Book.jpg",
@@ -1819,7 +1791,6 @@
     }
    ],
    "samples": [
-    "Modern Annie Comic Strip logo",
     "Little Orphan Annie Comic Strip Book",
     "Annie Comic Strip for November 02, 2014",
     "Mary Perkins on Stage TPB (2006-2016 Classic Comics Press) By Leonard Starr 8-1ST",
@@ -1828,7 +1799,8 @@
     "D420 Lot Of 6 Winnie Winkle  / Joe Palooka 1932 Tabloid Vintage Comic Strips",
     "Mary Perkins on Stage TPB (2006- Classic Comics Press) By Leonard Starr 13-1ST",
     "Mary Perkins on Stage TPB (2006-2016 Classic Comics Press) By Leonard Starr 14-1ST",
-    "Mary Perkins on Stage TPB (2006-2016 Classic Comics Press) By Leonard Starr 4-1ST"
+    "Mary Perkins on Stage TPB (2006-2016 Classic Comics Press) By Leonard Starr 4-1ST",
+    "Little Orphan Annie Comic Strip Cartoon 1 Troy Oz Ag .999 Fine Silver Round Coin"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1853,6 +1825,20 @@
    "lowConfidenceCount": 63,
    "totalIncludingLowConfidence": 181,
    "rows": [
+    {
+     "text": "Winnie Winkle Original Double Daily Comic Strip Art 3/20 & 3/21 1989 Frank Bolle",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/aa7c45e71b31e435b4ddb614c6986bbb-800.jpg",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 0.001367032527923584,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
      "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1883",
@@ -1882,109 +1868,11 @@
      }
     },
     {
-     "text": "Leonard Starr's Mary Perkins On Stage Volume 4 by Leonard Starr",
-     "imageUrl": "http://images.gr-assets.com/books/1428986212l/3306121.jpg",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 0.0020970404148101807,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Winnie Winkle Original Double Daily Comic Strip Art 3/20 & 3/21 1989 Frank Bolle",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/aa7c45e71b31e435b4ddb614c6986bbb-800.jpg",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 0.001367032527923584,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Winnie Winkle Original Double Daily Comic Strip Art 3/24 & 3/25 1989 Frank Bolle",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/378bba4b8a80d57f049fd6581faaea2b-300.jpg",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 0.006612569093704224,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 5-16-71 (Chicago Tribune, 1971)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F5%2F2%2F0%2F20520011%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 0.00029346346855163574,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews-afnews",
-     "imageUrl": "https://i2.wp.com/www.afnews.info/wordpress/wp-content/uploads/2018/07/Leonard-Starr-Mary-Perkins-On-Stage-Sunday-Strip-Original-Art-dated-2-7-65-afnews-afnews.jpg?w=394&h=277&ssl=1",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 0.0012301206588745117,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
-     "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1882",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 0.0004565119743347168,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Original Art MARTIN BRANNER Daily Comic Strip WINNIE WINKLE April 9, 1959",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/142658539596_/Original-Art-MARTIN-BRANNER-Daily-Comic-Strip-WINNIE.jpg",
      "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": 0.003170490264892578,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "1920s Little Orphan Annie Comic Strip Cloth Celebrity Doll w Radio Premium Envelope",
-     "imageUrl": "https://image0-rubylane.s3.amazonaws.com/shops/valeriezakantiquescollectables/003608.1G.jpg?88",
-     "keyword": "annie comic strip",
-     "tier": "high",
-     "punsafe": 0.00012251378211658448,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2008,11 +1896,81 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Daily Comic Strip Original Art dated 11-19-57 (Chicago Tribune Syndicate, 1957)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F2%2F1%2F21921115%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "1920s Little Orphan Annie Comic Strip Cloth Celebrity Doll w Radio Premium Envelope",
+     "imageUrl": "https://image0-rubylane.s3.amazonaws.com/shops/valeriezakantiquescollectables/003608.1G.jpg?88",
+     "keyword": "annie comic strip",
+     "tier": "high",
+     "punsafe": 0.00012251378211658448,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Leonard Starr's Mary Perkins On Stage Volume 4 by Leonard Starr",
+     "imageUrl": "http://images.gr-assets.com/books/1428986212l/3306121.jpg",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 0.0020970404148101807,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Winnie Winkle Original Double Daily Comic Strip Art 3/24 & 3/25 1989 Frank Bolle",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/378bba4b8a80d57f049fd6581faaea2b-300.jpg",
      "keyword": "winnie winkle",
      "tier": "high",
-     "punsafe": 0.0005386769771575928,
+     "punsafe": 0.006612569093704224,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews-afnews",
+     "imageUrl": "https://i2.wp.com/www.afnews.info/wordpress/wp-content/uploads/2018/07/Leonard-Starr-Mary-Perkins-On-Stage-Sunday-Strip-Original-Art-dated-2-7-65-afnews-afnews.jpg?w=394&h=277&ssl=1",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 0.0012301206588745117,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 5-16-71 (Chicago Tribune, 1971)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F5%2F2%2F0%2F20520011%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 0.00029346346855163574,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
+     "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1882",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 0.0004565119743347168,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2027,20 +1985,6 @@
      "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": 0.00030234456062316895,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
-     "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1880",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 0.0002523660659790039,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2078,11 +2022,25 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic StripOriginal Art dated 11-13-66 (Chicago Tribune, 1966)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F2%2F9%2F0%2F15290573%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
+     "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1880",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 0.0002523660659790039,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 8-12-73 (Chicago Tribune, 1973)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F6%2F1%2F1%2F0%2F16110740%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "mary perkins",
      "tier": "high",
-     "punsafe": 0.0022808611392974854,
+     "punsafe": 0.0003393888473510742,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2120,11 +2078,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 8-12-73 (Chicago Tribune, 1973)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F6%2F1%2F1%2F0%2F16110740%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins, On Stage Daily Comic Strip Original Art dated 10-12-64 (Chicago Tribune, 1964). ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F5%2F0%2F4%2F24504420%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "mary perkins",
      "tier": "high",
-     "punsafe": 0.0003393888473510742,
+     "punsafe": 0.0003432035446166992,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2134,11 +2092,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins, On Stage Daily Comic Strip Original Art dated 10-12-64 (Chicago Tribune, 1964). ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F5%2F0%2F4%2F24504420%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic StripOriginal Art dated 11-13-66 (Chicago Tribune, 1966)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F2%2F9%2F0%2F15290573%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "mary perkins",
      "tier": "high",
-     "punsafe": 0.0003432035446166992,
+     "punsafe": 0.0022808611392974854,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2190,20 +2148,6 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic StripOriginal Art dated 11-18-73 (Chicago ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F6%2F0%2F6%2F19606507%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": 0.0008669793605804443,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Winnie Winkle Original Double Daily Comic Strip Art 3/17 & 3/18 1989 Frank Bolle",
      "imageUrl": "https://storage.googleapis.com/hipcomic/p/15f707a75625a9321d5e484cc7e5ef26-300.jpg",
      "keyword": "winnie winkle",
@@ -2232,11 +2176,39 @@
      }
     },
     {
+     "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic StripOriginal Art dated 11-18-73 (Chicago ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F6%2F0%2F6%2F19606507%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 0.0008669793605804443,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Daily Comic Strip Original Artdated 6-11-27 (Chicago Tribune, 1927). ...",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F8%2F2%2F0%2F20820150%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": 0.010780125856399536,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews-afnews",
+     "imageUrl": "https://i2.wp.com/www.afnews.info/wordpress/wp-content/uploads/2018/07/Leonard-Starr-Mary-Perkins-On-Stage-Sunday-Strip-Original-Art-dated-2-7-65-afnews-afnews.jpg?w=406&h=286&ssl=1",
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": 0.0004941821098327637,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2260,11 +2232,11 @@
      }
     },
     {
-     "text": "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews-afnews",
-     "imageUrl": "https://i2.wp.com/www.afnews.info/wordpress/wp-content/uploads/2018/07/Leonard-Starr-Mary-Perkins-On-Stage-Sunday-Strip-Original-Art-dated-2-7-65-afnews-afnews.jpg?w=406&h=286&ssl=1",
-     "keyword": "mary perkins",
+     "text": "\"view Martin M. Branner Collection of the \"\"Winnie Winkle\"\" Comic Strip digital asset: Winnie Winkle Comic Strip\"",
+     "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1885",
+     "keyword": "winnie winkle",
      "tier": "high",
-     "punsafe": 0.0004941821098327637,
+     "punsafe": 0.00813707709312439,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2302,20 +2274,6 @@
      }
     },
     {
-     "text": "\"view Martin M. Branner Collection of the \"\"Winnie Winkle\"\" Comic Strip digital asset: Winnie Winkle Comic Strip\"",
-     "imageUrl": "https://ids.si.edu/ids/deliveryService?max=170&id=damsmdm:NMAH-2008-1885",
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": 0.00813707709312439,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Daily Comic Strip Original Art dated 4-6-59 (Chicago Tribune Syndicate, 1959)....",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F2%2F7%2F6%2F24276217%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "mary perkins",
@@ -2328,19 +2286,33 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Martin Branner Winnie Winkle Daily Comic Strip Original Art dated 11-19-57 (Chicago Tribune Syndicate, 1957)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F1%2F9%2F2%2F1%2F21921115%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": 0.0005386769771575928,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
+    "Winnie Winkle Original Double Daily Comic Strip Art 3/20 & 3/21 1989 Frank Bolle",
     "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
     "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews",
-    "Leonard Starr's Mary Perkins On Stage Volume 4 by Leonard Starr",
-    "Winnie Winkle Original Double Daily Comic Strip Art 3/20 & 3/21 1989 Frank Bolle",
-    "Winnie Winkle Original Double Daily Comic Strip Art 3/24 & 3/25 1989 Frank Bolle",
-    "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 5-16-71 (Chicago Tribune, 1971)....",
-    "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews-afnews",
-    "view Winnie Winkle Comic Strip digital asset: Winnie Winkle Comic Strip",
     "Original Art MARTIN BRANNER Daily Comic Strip WINNIE WINKLE April 9, 1959",
-    "1920s Little Orphan Annie Comic Strip Cloth Celebrity Doll w Radio Premium Envelope"
+    "Joe Kubert School Winnie Winkle Daily Comic Strip Original Art 6 Days From 1981",
+    "1920s Little Orphan Annie Comic Strip Cloth Celebrity Doll w Radio Premium Envelope",
+    "Leonard Starr's Mary Perkins On Stage Volume 4 by Leonard Starr",
+    "Winnie Winkle Original Double Daily Comic Strip Art 3/24 & 3/25 1989 Frank Bolle",
+    "Leonard Starr Mary Perkins On Stage Sunday Strip Original Art dated 2-7-65-afnews-afnews",
+    "Original Comic Art:Comic Strip Art, Leonard Starr Mary Perkins On Stage Sunday Comic Strip Original Art dated 5-16-71 (Chicago Tribune, 1971)...."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2366,7 +2338,7 @@
    "totalIncludingLowConfidence": 750,
    "rows": [
     {
-     "text": "Are you curious about what happened to Winnie Winkle and Brenda Starr?   I was.\n*Winnie Winkle was published from 1920-1996 in more than 100 newspapers.  Stories and artwork by Martin Branner.  Winnie Winkle was one of the first comic strips about working women and served as a reflection of the chan",
+     "text": "Jim Davis\u2019s \u201cGarfield\u201d\u2014along with Charles Schulz\u2019s \u201cPeanuts,\u201d the most heavily merchandised comic strip of the postwar era\u2014made its debut in 41 U.S. newspapers in 1978. A longtime assistant on T. K. Ryan\u2019s strip \u201cTumbleweeds,\u201d Davis shrewdly sized up the U.S. comic strip market and, in a \u201cconscious ",
      "imageUrl": null,
      "keyword": "winnie winkle",
      "tier": "high",
@@ -2380,7 +2352,7 @@
      }
     },
     {
-     "text": "Jim Davis\u2019s \u201cGarfield\u201d\u2014along with Charles Schulz\u2019s \u201cPeanuts,\u201d the most heavily merchandised comic strip of the postwar era\u2014made its debut in 41 U.S. newspapers in 1978. A longtime assistant on T. K. Ryan\u2019s strip \u201cTumbleweeds,\u201d Davis shrewdly sized up the U.S. comic strip market and, in a \u201cconscious ",
+     "text": "Are you curious about what happened to Winnie Winkle and Brenda Starr?   I was.\n*Winnie Winkle was published from 1920-1996 in more than 100 newspapers.  Stories and artwork by Martin Branner.  Winnie Winkle was one of the first comic strips about working women and served as a reflection of the chan",
      "imageUrl": null,
      "keyword": "winnie winkle",
      "tier": "high",
@@ -2397,6 +2369,20 @@
      "text": "Many years ago I drew a couple of newspaper comic strips for the Los Angeles Times Syndicate. One of them was written by veteran comics author Jim Lawrence (James Bond, Friday Foster, Captain Easy etc.). Jim was the source of these two sample weeks of a proposed Harlequin Romances strip, based on th",
      "imageUrl": null,
      "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It is an adaptation of the 1977 Broadway musical, which in turn was based on the 1924 Little Orphan Annie comic strip by Harold Gray. It is sometimes referred to as a remake of the 1982 film of the same name, although this is technically not true since both were adaptations of the musical, with the ",
+     "imageUrl": null,
+     "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2425,20 +2411,6 @@
      "text": "Published 1975 by Mason/Charter in New York .\n\nBackstage Reviews - Reviews of | Sitejabber. Backstage at the Strips is a compilation of Walker's obvious passion for this truly American art form \u201cI think comic strips are an important element in our society.\n\nBesides just being a source of entertainme",
      "imageUrl": null,
      "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It is an adaptation of the 1977 Broadway musical, which in turn was based on the 1924 Little Orphan Annie comic strip by Harold Gray. It is sometimes referred to as a remake of the 1982 film of the same name, although this is technically not true since both were adaptations of the musical, with the ",
-     "imageUrl": null,
-     "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2534,6 +2506,20 @@
      }
     },
     {
+     "text": "Mister Am is a very mysterious character in the Annie comic strip, drawn with a long beard and written with a jovial personality. He seems to have lived for thousands of years (since before cities) and has shown strange supernatural powers. Still, he is not all-powerful or knowledgable but is far mo",
+     "imageUrl": null,
+     "keyword": "annie comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Hopefully fans of the Annie comic strip are reading because Oliver Warbucks, The Asp and Punjab are making a crossover appearance this weekend in the Dick Tracy comic strip!  Tracy has been investigating Moon Maid sightings and Oliver Warbucks Lazarus Project might be a clue.  Even more exciting, we",
      "imageUrl": null,
      "keyword": "annie comic strip",
@@ -2548,7 +2534,7 @@
      }
     },
     {
-     "text": "Mister Am is a very mysterious character in the Annie comic strip, drawn with a long beard and written with a jovial personality. He seems to have lived for thousands of years (since before cities) and has shown strange supernatural powers. Still, he is not all-powerful or knowledgable but is far mo",
+     "text": "A 2014 modern musical inspired by the 1920\u2019s Little Orphan Annie comic strip (which also inspired a movie in 1932, another movie 1938, a Broadway musical in 1977, another movie 1982 and yet another remake in 1999). In this latest iteration, the eternally optimistic Annie is a foster kid (Wallis) who",
      "imageUrl": null,
      "keyword": "annie comic strip",
      "tier": "high",
@@ -2579,20 +2565,6 @@
      "text": "SEP073491\n(W) Leonard Starr (A/CA) Leonard Starr\nby Leonard Starr\nThis first volume of Classic Comics Press's collection of the comic strip Leonard Starr's Mary Perkins on Stage presents the first three storylines from February 1957 to January 1958, with a special introduction by Walt Simonson. This",
      "imageUrl": null,
      "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A 2014 modern musical inspired by the 1920\u2019s Little Orphan Annie comic strip (which also inspired a movie in 1932, another movie 1938, a Broadway musical in 1977, another movie 1982 and yet another remake in 1999). In this latest iteration, the eternally optimistic Annie is a foster kid (Wallis) who",
-     "imageUrl": null,
-     "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2730,51 +2702,9 @@
      }
     },
     {
-     "text": "My Uncle recalls being about ten years old, or so, at the time. My father would have been 12. Here they are in a vintage photo with their sister, Vee, taken about the time of this story.\n\nWinnie Winkle, the first comic strip about a working woman was a favorite of theirs. The many characters in this",
-     "imageUrl": null,
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Frank W. Bolle (June 23, 1924 \u2013 May 12, 2020)[1] was an American comic-strip artist, comic book artist and illustrator, best known as the longtime artist of the newspaper strips Winnie Winkle and The Heart of Juliet Jones; for stints on the comic books Tim Holt and Doctor Solar, Man of the Atom; and",
-     "imageUrl": null,
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "In his introduction to Eclipse Comics' 1988 collection of some of the earliest Simon & Kirby romance comics, Richard Howell writes that \"romance has always been a major component in entertainment, be it novels, plays, or movies, but for over ten years after the first appearance of comic books, roman",
      "imageUrl": null,
      "keyword": "mary perkins",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It\u2019s sometimes said that working women were a recent comic strip phenomenon, but the first one was in 1907-08, (\u201cSallie Snooks, Stenographer\u201d by Dink Shannon for World Color Printing). The second was the daily, later Sunday also, Somebody\u2019s Stenog by Alfred Hayward for the Ledger Syndicate in 1918. ",
-     "imageUrl": null,
-     "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2803,6 +2733,48 @@
      "text": "Annie is a 1999 American made-for-television musical-comedy-drama film from The Wonderful World of Disney, adapted from the 1977 Broadway musical of the same name by Charles Strouse, Martin Charnin, and Thomas Meehan, which in turn is based on the 1924 Little Orphan Annie comic strip by Harold Gray.",
      "imageUrl": null,
      "keyword": "annie comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Frank W. Bolle (June 23, 1924 \u2013 May 12, 2020)[1] was an American comic-strip artist, comic book artist and illustrator, best known as the longtime artist of the newspaper strips Winnie Winkle and The Heart of Juliet Jones; for stints on the comic books Tim Holt and Doctor Solar, Man of the Atom; and",
+     "imageUrl": null,
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My Uncle recalls being about ten years old, or so, at the time. My father would have been 12. Here they are in a vintage photo with their sister, Vee, taken about the time of this story.\n\nWinnie Winkle, the first comic strip about a working woman was a favorite of theirs. The many characters in this",
+     "imageUrl": null,
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It\u2019s sometimes said that working women were a recent comic strip phenomenon, but the first one was in 1907-08, (\u201cSallie Snooks, Stenographer\u201d by Dink Shannon for World Color Printing). The second was the daily, later Sunday also, Somebody\u2019s Stenog by Alfred Hayward for the Ledger Syndicate in 1918. ",
+     "imageUrl": null,
+     "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2870,9 +2842,9 @@
      }
     },
     {
-     "text": "And so just a few short years after the defeat of the Germans, who notoriously burned books they disliked, Americans began putting matches to Batman and Johnny Thunder.\n\nThe gentle comic strips of the 1920s \u2014 Winnie Winkle, Moon Mullins and Gasoline Alley \u2014 were joined in the 1930s by super heroes, ",
+     "text": "Martin Charnin, the writer who adapted the comic strip character Little Orphan Annie for the stage, has died at the age of 84.\n\nCharnin wrote the lyrics for the hit musical\u2019s best-known songs including Tomorrow and It\u2019s The Hard Knock Life.\n\nThe news was first reported by his daughter Sasha, who sai",
      "imageUrl": null,
-     "keyword": "winnie winkle",
+     "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2884,9 +2856,23 @@
      }
     },
     {
-     "text": "Martin Charnin, the writer who adapted the comic strip character Little Orphan Annie for the stage, has died at the age of 84.\n\nCharnin wrote the lyrics for the hit musical\u2019s best-known songs including Tomorrow and It\u2019s The Hard Knock Life.\n\nThe news was first reported by his daughter Sasha, who sai",
+     "text": "And so death, as it must come to all men, has come to one Jay Edward Maeder, Jr., noted newspaper columnist and international comic strip expert, on July 29, 2014, at the age of 67. Mr. Maeder, it seems, was not quite as invincible as he once believed himself to be and life, as so often happens, cau",
      "imageUrl": null,
      "keyword": "annie comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "And so just a few short years after the defeat of the Germans, who notoriously burned books they disliked, Americans began putting matches to Batman and Johnny Thunder.\n\nThe gentle comic strips of the 1920s \u2014 Winnie Winkle, Moon Mullins and Gasoline Alley \u2014 were joined in the 1930s by super heroes, ",
+     "imageUrl": null,
+     "keyword": "winnie winkle",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2926,20 +2912,6 @@
      }
     },
     {
-     "text": "And so death, as it must come to all men, has come to one Jay Edward Maeder, Jr., noted newspaper columnist and international comic strip expert, on July 29, 2014, at the age of 67. Mr. Maeder, it seems, was not quite as invincible as he once believed himself to be and life, as so often happens, cau",
-     "imageUrl": null,
-     "keyword": "annie comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Chris and I have started to collect the wonderful trades being published by Classic Comics Press.\n\nin the paper every once in a while back when I was a kid ... but it was such a sophisticated comic strip I couldn't handle it (hey, I was what, 10?) I found it beautiful to look at, and kept returning ",
      "imageUrl": null,
      "keyword": "mary perkins",
@@ -2957,20 +2929,6 @@
      "text": "The first half of the 20th century: the evolution of the form\n\nThe modern newspaper strip was born in the heat of rivalry between giants of the American press. In January 1894 a comic strip filled for the first time a full-colour page of Joseph Pulitzer\u2019s newspaper the New York World; in October 189",
      "imageUrl": null,
      "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "NBC\u2019s Annie Live! is set to air on Dec. 2, and it marks the fourth onscreen adaptation of 1977\u2019s Annie the musical, based on Harold Gray\u2019s long-running Little Orphan Annie comic strip. Set during the Great Depression in 1930s New York City, the musical follows eleven-year-old Annie as she escapes fr",
-     "imageUrl": null,
-     "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -3010,23 +2968,9 @@
      }
     },
     {
-     "text": "Comic strips foreshadowed the workings of comic books. As soon as one genre or character or notion succeeded others would rush in to cash in on its success. Even the tiniest hamlet had a weekly newspaper, places with two or more crossroads boasted a daily paper, every sizable city had two in furious",
+     "text": "NBC\u2019s Annie Live! is set to air on Dec. 2, and it marks the fourth onscreen adaptation of 1977\u2019s Annie the musical, based on Harold Gray\u2019s long-running Little Orphan Annie comic strip. Set during the Great Depression in 1930s New York City, the musical follows eleven-year-old Annie as she escapes fr",
      "imageUrl": null,
-     "keyword": "winnie winkle",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Guest volunteer Mary Perkins enjoys the weather and helping out in the garden at Native American Youth and Family Center. Photo by Tamara Branderhorst.\n\nComcast Cares Day is Comcast and NBCUniversal\u2019s signature day of service and the nation\u2019s largest single-day corporate volunteer effort.  Across th",
-     "imageUrl": null,
-     "keyword": "mary perkins",
+     "keyword": "annie comic strip",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -3053,6 +2997,34 @@
     },
     {
      "text": "FEB100789\n(W) Leonard Starr (A/CA) Leonard Starr\nThe seventh volume of the Eisner-nominated series Leonard Starr's Mary Perkins On Stage reprints the daily comic strips and Sunday strips, from October 12, 1964 to May 4, 1966, of the acclaimed series about a young woman in the theater culture. Introd",
+     "imageUrl": null,
+     "keyword": "mary perkins",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic strips foreshadowed the workings of comic books. As soon as one genre or character or notion succeeded others would rush in to cash in on its success. Even the tiniest hamlet had a weekly newspaper, places with two or more crossroads boasted a daily paper, every sizable city had two in furious",
+     "imageUrl": null,
+     "keyword": "winnie winkle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Guest volunteer Mary Perkins enjoys the weather and helping out in the garden at Native American Youth and Family Center. Photo by Tamara Branderhorst.\n\nComcast Cares Day is Comcast and NBCUniversal\u2019s signature day of service and the nation\u2019s largest single-day corporate volunteer effort.  Across th",
      "imageUrl": null,
      "keyword": "mary perkins",
      "tier": "high",
@@ -3109,12 +3081,12 @@
     }
    ],
    "samples": [
-    "Are you curious about what happened to Winnie Winkle and Brenda Starr?   I was.\n*Winnie Winkle was published from 1920-1996 in more than 100 newspapers.  Stories and artwork by Martin Branner.  Winnie Winkle was one of the first comic strips about working women and served as a reflection of the chan",
     "Jim Davis\u2019s \u201cGarfield\u201d\u2014along with Charles Schulz\u2019s \u201cPeanuts,\u201d the most heavily merchandised comic strip of the postwar era\u2014made its debut in 41 U.S. newspapers in 1978. A longtime assistant on T. K. Ryan\u2019s strip \u201cTumbleweeds,\u201d Davis shrewdly sized up the U.S. comic strip market and, in a \u201cconscious ",
+    "Are you curious about what happened to Winnie Winkle and Brenda Starr?   I was.\n*Winnie Winkle was published from 1920-1996 in more than 100 newspapers.  Stories and artwork by Martin Branner.  Winnie Winkle was one of the first comic strips about working women and served as a reflection of the chan",
     "Many years ago I drew a couple of newspaper comic strips for the Los Angeles Times Syndicate. One of them was written by veteran comics author Jim Lawrence (James Bond, Friday Foster, Captain Easy etc.). Jim was the source of these two sample weeks of a proposed Harlequin Romances strip, based on th",
+    "It is an adaptation of the 1977 Broadway musical, which in turn was based on the 1924 Little Orphan Annie comic strip by Harold Gray. It is sometimes referred to as a remake of the 1982 film of the same name, although this is technically not true since both were adaptations of the musical, with the ",
     "You can look for a while to find this Iconic Annie periodic comic book, i see many on the Internet, but not really in this fine condition.\nI found this little book at my local thrift shop on Monday, on the right corner of the book when you flip the pages on your finger Annie move very nicely and bec",
     "Published 1975 by Mason/Charter in New York .\n\nBackstage Reviews - Reviews of | Sitejabber. Backstage at the Strips is a compilation of Walker's obvious passion for this truly American art form \u201cI think comic strips are an important element in our society.\n\nBesides just being a source of entertainme",
-    "It is an adaptation of the 1977 Broadway musical, which in turn was based on the 1924 Little Orphan Annie comic strip by Harold Gray. It is sometimes referred to as a remake of the 1982 film of the same name, although this is technically not true since both were adaptations of the musical, with the ",
     "See search results for this author. Are you an author. Learn about Author Central 4/5(1). The Little Orphan Annie comic strip cheered up many Americans during the Great Depression. The comic was a daily comic strip, made by Harold Gray, who was thought to be the first American cartoonist that used h",
     "Buster Brown is a comic strip character created in 1902 by Richard F. Outcault. Adopted as the mascot of the Brown Shoe Company in 1904, Buster Brown, his sister Mary Jane, and his dog Tige, were well known to the American public in the early 20th century. The character's name was also used to descr",
     "This cute wedding invitation from Minted.com takes advantage of the talk bubble to highlight the most important words of your special day.   Thick black outline Since comic books were done cheaply on low-quality paper the art couldn't be done with fine lines. On newsprint the ink can bleed into the ",
@@ -3211,13 +3183,13 @@
     "longformHits": 388,
     "longformRatio": 0.454,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 127,
      "laion1b-nolang": 46,
      "laion2b-en": 261,
      "laion2b-multi": 33,
      "obelics": 381,
-     "pile": 3,
-     "c4-en": 4
+     "pile": 3
     },
     "reason": null
    },
@@ -3229,13 +3201,13 @@
     "longformHits": 85,
     "longformRatio": 0.232,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 49,
      "laion1b-nolang": 69,
      "laion2b-en": 114,
      "laion2b-multi": 49,
      "obelics": 81,
-     "pile": 2,
-     "c4-en": 2
+     "pile": 2
     },
     "reason": null
    },
@@ -3248,10 +3220,10 @@
     "longformRatio": 0.706,
     "perDataset": {
      "coyo700m": 2,
+     "laion1b-nolang": 3,
      "laion2b-en": 20,
      "laion2b-multi": 5,
-     "obelics": 72,
-     "laion1b-nolang": 3
+     "obelics": 72
     },
     "reason": null
    },
@@ -3263,13 +3235,13 @@
     "longformHits": 220,
     "longformRatio": 0.523,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 19,
      "laion1b-nolang": 63,
      "laion2b-en": 90,
      "laion2b-multi": 29,
      "obelics": 216,
-     "pile": 3,
-     "c4-en": 1
+     "pile": 3
     },
     "reason": "common-name match"
    }
@@ -3283,17 +3255,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 421
   },
-  "evidenceShown": 149,
+  "evidenceShown": 147,
   "evidenceWithheld": {
-   "unverified": 990,
+   "unverified": 982,
    "person_photo": 99,
-   "unrelated": 30,
-   "storefront": 24,
+   "unrelated": 23,
+   "storefront": 41,
    "merchandise": 9,
    "explicit": 3,
    "derivative": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-leonard-starr",
  "cohort": "billy-ireland",
@@ -3306,7 +3278,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1323,
   "datasetsPresent": 7,

@@ -50,20 +50,6 @@
      }
     },
     {
-     "text": "Prickly City by Scott Stantis on Sun, 18 Apr 2021",
-     "imageUrl": "https://assets.amuniversal.com/2e43f520653b013950a4005056a9545d",
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Cartoon by Scott Stantis for Oct. 17, 2020.",
      "imageUrl": "https://www.pilotonline.com/resizer/mVi58En5bSL-5e9pCQLAlj9zrXg=/415x321/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/LU2RDFKSYJENDE6N5N57YQQEWM.jpg",
      "keyword": "scott stantis",
@@ -82,6 +68,20 @@
      "imageUrl": "https://media1.fdncms.com/chicago/imager/u/original/25895938/trumpspeak.jpg",
      "keyword": "scott stantis",
      "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Prickly City by Scott Stantis on Sun, 18 Apr 2021",
+     "imageUrl": "https://assets.amuniversal.com/2e43f520653b013950a4005056a9545d",
+     "keyword": "prickly city",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -165,9 +165,9 @@
    "samples": [
     "Cartoon by Scott Stantis for March 16, 2020",
     "Cartoon by Scott Stantis for July 20, 2020.",
-    "Prickly City by Scott Stantis on Sun, 18 Apr 2021",
     "Cartoon by Scott Stantis for Oct. 17, 2020.",
     "A recent Scott Stantis editorial cartoon - REPRINTED WITH PERMISSION",
+    "Prickly City by Scott Stantis on Sun, 18 Apr 2021",
     "By Scott Stantis, Chicago Tribune, for USA TODAY, March 16, 2010, on Texas education follies",
     "Prickly City by Scott Stantis on Sun, 09 May 2021",
     "Cartoon by Scott Stantis for May 14, 2020.",
@@ -282,11 +282,11 @@
      }
     },
     {
-     "text": "Scorching temperatures leave little place for climate change deniers to be honored. (Scott Stantis/Tribune Content Agency).",
-     "imageUrl": "https://www.baltimoresun.com/resizer/EM8kci1H0FTovnvh4o4ZkKulwm4=/415x321/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/NI6YIZFR5ZEXNNQWAOPIZEP3YU.tif",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 9.436358232051134e-05,
+     "text": "Prickly City Comic Strip for October 25, 2020",
+     "imageUrl": "https://assets.amuniversal.com/05d57780dc3501382442005056a9545d",
+     "keyword": "prickly city",
+     "tier": "high",
+     "punsafe": 0.00025781989097595215,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -296,11 +296,11 @@
      }
     },
     {
-     "text": "Prickly City Comic Strip for October 25, 2020",
-     "imageUrl": "https://assets.amuniversal.com/05d57780dc3501382442005056a9545d",
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": 0.00025781989097595215,
+     "text": "Scorching temperatures leave little place for climate change deniers to be honored. (Scott Stantis/Tribune Content Agency).",
+     "imageUrl": "https://www.baltimoresun.com/resizer/EM8kci1H0FTovnvh4o4ZkKulwm4=/415x321/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/NI6YIZFR5ZEXNNQWAOPIZEP3YU.tif",
+     "keyword": "scott stantis",
+     "tier": "namematch",
+     "punsafe": 9.436358232051134e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -336,20 +336,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "light blue long sleeve shirt: Tribune Tower by Scott Stantis",
-     "imageUrl": "https://www.spudart.org/wp-content/uploads/2018/05/light_blue-long_sleeve_shirt-tribune_tower-scott_stantis.jpg",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 3.81966819986701e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -359,8 +345,8 @@
     "Prickly City Comic Strip for January 19, 2020",
     "Prickly City: Big Book of Kevin: The Lost Bunny of the Apocalypse by Scott Stantis",
     "Prickly City on Sunday May 16, 2021 Comic Strip",
-    "Scorching temperatures leave little place for climate change deniers to be honored. (Scott Stantis/Tribune Content Agency).",
     "Prickly City Comic Strip for October 25, 2020",
+    "Scorching temperatures leave little place for climate change deniers to be honored. (Scott Stantis/Tribune Content Agency).",
     "The return of congressional earmarks: They don't look like pork at all. (Scott Stantis/Tribune Content Agency).",
     "Prickly City: Big Book of Kevin: The Lost Bunny of the Apocalypse by Scott Stantis"
    ],
@@ -514,11 +500,11 @@
      }
     },
     {
-     "text": "SCOTT STANTIS / Chicago Tribune",
-     "imageUrl": "https://imengine.prod.srp.navigacloud.com/?uuid=7de5725c-4de9-5e13-9aa2-29fa5004b917&type=primary&q=72&width=1024",
+     "text": "The Frontrunner by Scott Stantis",
+     "imageUrl": "https://i0.wp.com/leftcall.com/wp-content/uploads/2012/03/cartoon031012-300x234.jpg?resize=240%2C187",
      "keyword": "scott stantis",
      "tier": "namematch",
-     "punsafe": 9.460849832976237e-05,
+     "punsafe": 0.0001805424690246582,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -528,11 +514,11 @@
      }
     },
     {
-     "text": "The Frontrunner by Scott Stantis",
-     "imageUrl": "https://i0.wp.com/leftcall.com/wp-content/uploads/2012/03/cartoon031012-300x234.jpg?resize=240%2C187",
+     "text": "SCOTT STANTIS / Chicago Tribune",
+     "imageUrl": "https://imengine.prod.srp.navigacloud.com/?uuid=7de5725c-4de9-5e13-9aa2-29fa5004b917&type=primary&q=72&width=1024",
      "keyword": "scott stantis",
      "tier": "namematch",
-     "punsafe": 0.0001805424690246582,
+     "punsafe": 9.460849832976237e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -566,7 +552,7 @@
     "Stantis, Scott \u2013 Color Editorial Cartoon \u2013 20200323edstc-a.tif",
     "Stantis, Scott \u2013 Color Editorial Cartoon \u2013 20200804edstc-a.tif",
     "Cartoon by Scott Stantis: 2015",
-    "SCOTT STANTIS / Chicago Tribune"
+    "The Frontrunner by Scott Stantis"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -592,11 +578,11 @@
    "totalIncludingLowConfidence": 149,
    "rows": [
     {
-     "text": "Prickly City on Sunday December 16, 2018 Comic Strip",
-     "imageUrl": "https://assets.amuniversal.com/b80c4340c62701366663005056a9545dw",
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": 0.09575322270393372,
+     "text": "Cartoon by Scott Stantis for June 26, 2020",
+     "imageUrl": "https://www.pilotonline.com/resizer/rHCfz5j9R4koI1HM6QB5HiBqz7o=/415x321/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/VKL6MM2S4BD3LPV6OCFNBIM6TI.jpg",
+     "keyword": "scott stantis",
+     "tier": "namematch",
+     "punsafe": 2.086878703266848e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -606,11 +592,11 @@
      }
     },
     {
-     "text": "Cartoon by Scott Stantis for June 26, 2020",
-     "imageUrl": "https://www.pilotonline.com/resizer/rHCfz5j9R4koI1HM6QB5HiBqz7o=/415x321/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/VKL6MM2S4BD3LPV6OCFNBIM6TI.jpg",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 2.086878703266848e-05,
+     "text": "Prickly City on Sunday December 16, 2018 Comic Strip",
+     "imageUrl": "https://assets.amuniversal.com/b80c4340c62701366663005056a9545dw",
+     "keyword": "prickly city",
+     "tier": "high",
+     "punsafe": 0.09575322270393372,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -774,6 +760,20 @@
      }
     },
     {
+     "text": "light blue long sleeve shirt: Tribune Tower by Scott Stantis",
+     "imageUrl": "https://www.spudart.org/wp-content/uploads/2018/05/light_blue-long_sleeve_shirt-tribune_tower-scott_stantis.jpg",
+     "keyword": "scott stantis",
+     "tier": "namematch",
+     "punsafe": 3.81966819986701e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Cartoon by Scott Stantis for June 13, 2020.",
      "imageUrl": "https://www.pilotonline.com/resizer/Ma7ktxDMDXfozVec8hz3IXgYOoI=/415x321/top/cloudfront-us-east-1.images.arcpublishing.com/tronc/SD7FPHQ53BHY5MEYJOKINBVK34.jpg",
      "keyword": "scott stantis",
@@ -859,8 +859,8 @@
     }
    ],
    "samples": [
-    "Prickly City on Sunday December 16, 2018 Comic Strip",
     "Cartoon by Scott Stantis for June 26, 2020",
+    "Prickly City on Sunday December 16, 2018 Comic Strip",
     "Cartoon by Scott Stantis for Jan. 28, 2020",
     "Prickly City - Sunday June 7, 2020 Comic Strip",
     "A recent Scott Stantis editorial cartoon",
@@ -936,20 +936,6 @@
      }
     },
     {
-     "text": "Each year since 2011, cartoonists, comic strips and comics fans have descended on Kenosha, Wisconsin for an ever-expanding 3-day festival of cartooning which features a massive exhibit of comic strip art, lectures, presentations, Q&A and meet-and-greets with the artists, and auction.\n\nThis year the ",
-     "imageUrl": null,
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Remember this? Those were some good times, weren't they?Scott Stantis/Chicago Tribune\n\nIt\u2019s a slow Monday, so everybody is yakking about President Trump\u2019s insistence that he can pardon himself and Rudy Giuliani\u2019s insistence that Trump could gun down Robert Mueller at high noon and not be indicted fo",
      "imageUrl": null,
      "keyword": "scott stantis",
@@ -981,6 +967,20 @@
      "text": "Scott Stantis (born May 2, 1960 in San Diego, California) is the staff editorial cartoonist for the Chicago Tribune. He was the editorial page cartoonist for The Birmingham News from September 1996 until August 2009. His editorial cartoons appear weekly in USA Today and he has also created two natio",
      "imageUrl": null,
      "keyword": "stantis",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Each year since 2011, cartoonists, comic strips and comics fans have descended on Kenosha, Wisconsin for an ever-expanding 3-day festival of cartooning which features a massive exhibit of comic strip art, lectures, presentations, Q&A and meet-and-greets with the artists, and auction.\n\nThis year the ",
+     "imageUrl": null,
+     "keyword": "prickly city",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -1076,34 +1076,6 @@
      }
     },
     {
-     "text": "Last summer the Express-News made a big fuss over a reader survey for its comics section in advance of making a few minor changes to its comics lineup. So I was a little startled last week to open up the paper and find that they had suddenly dropped five comic strips and added three.\nWith one major ",
-     "imageUrl": null,
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Political commentary on the comics page didn't start with Prickly City, or Doonesbury, or even Pogo; it dates all the way back to the very beginning with Yellow Kid. We're not going back quite that far today, however, as Soapboxback Saturday takes another look at the Sunday Funny Pages of a century ",
-     "imageUrl": null,
-     "keyword": "prickly city",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "John Lewis Hart was an American cartoonist noted as the creator of the comic strips B.C. and The Wizard of Id. Brant Parker co-produced and illustrated The Wizard of Id. Hart was recognized with several awards, including the Swedish Adamson Award and five from the National Cartoonists Society. In hi",
      "imageUrl": null,
      "keyword": "prickly city",
@@ -1122,6 +1094,34 @@
      "imageUrl": null,
      "keyword": "scott stantis",
      "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Last summer the Express-News made a big fuss over a reader survey for its comics section in advance of making a few minor changes to its comics lineup. So I was a little startled last week to open up the paper and find that they had suddenly dropped five comic strips and added three.\nWith one major ",
+     "imageUrl": null,
+     "keyword": "prickly city",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Political commentary on the comics page didn't start with Prickly City, or Doonesbury, or even Pogo; it dates all the way back to the very beginning with Yellow Kid. We're not going back quite that far today, however, as Soapboxback Saturday takes another look at the Sunday Funny Pages of a century ",
+     "imageUrl": null,
+     "keyword": "prickly city",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1164,10 +1164,10 @@
     "How the Hell did I get here?\n\nAfter all these years, I look up one day and I have a successful comic strip called Prickly City and I am the Editorial Cartoonist for the Chicago Tribune. Was it luck? Skill? Guile?\n\nOne thing it wasn't was fate. Unlike so many of my fellow cartoonists, I did not grow ",
     "Turkeys and Thanksgiving are the big themes in this week\u2019s editorial cartoon gallery, with riffs on the ceremonial presidential pardon of two birds, seating arrangements by policy and vaccination status, high prices, the Thanksgiving parade of Macy\u2019s and the children\u2019s table.\n\nThere\u2019s also a comment",
     "Scott Stantis Cartoon by permission from The Chicago Tribune\n\nWhen I grew up we put playing cards in the spokes of our bikes and liked the sound of the putt-putt-putt it made. We put a book on a roller-skate and thought we were geniuses when we\u2019d ride it down the hill. The record-player, aka \u201chi-fi,",
-    "Each year since 2011, cartoonists, comic strips and comics fans have descended on Kenosha, Wisconsin for an ever-expanding 3-day festival of cartooning which features a massive exhibit of comic strip art, lectures, presentations, Q&A and meet-and-greets with the artists, and auction.\n\nThis year the ",
     "Remember this? Those were some good times, weren't they?Scott Stantis/Chicago Tribune\n\nIt\u2019s a slow Monday, so everybody is yakking about President Trump\u2019s insistence that he can pardon himself and Rudy Giuliani\u2019s insistence that Trump could gun down Robert Mueller at high noon and not be indicted fo",
     "Chicago Mayor Rahm Emanuel, who studied classical ballet as a youth, is often drawn in \u201cballetic\u201d poses. By Scott Stantis\n\nThe cartoonist exaggerates President Obama\u2019s body language to convey his attitude towards constituents. By Scott Stantis",
     "Scott Stantis (born May 2, 1960 in San Diego, California) is the staff editorial cartoonist for the Chicago Tribune. He was the editorial page cartoonist for The Birmingham News from September 1996 until August 2009. His editorial cartoons appear weekly in USA Today and he has also created two natio",
+    "Each year since 2011, cartoonists, comic strips and comics fans have descended on Kenosha, Wisconsin for an ever-expanding 3-day festival of cartooning which features a massive exhibit of comic strip art, lectures, presentations, Q&A and meet-and-greets with the artists, and auction.\n\nThis year the ",
     "President of the AAEC Ted Rall\n\nSpecial thanks to Journalista! for directing me to this letter from the head of the Association of American Editorial Cartoonists Ted Rall. It\u2019s a really interesting look at how editorial cartoons were effected in 2008 and 2009. It really is funny, informative and wel",
     "As she tells it, she \u201cgrew up in a family of artists, so encouragement was never a problem.  My sister and brother-in-law taught drawing at the Art Center in Pasadena and were always supportive of my early attempts at drawing, painting, ceramics, etc.\u201d\n\nShe always loved the daily comics page, especi",
     "It\u2019s a sad day when one must turn to the comics page of the newspaper, not the op-ed page, for wisdom. \u201cGlobal warming is now called climate change,\u201d explained the liberal character in the strip \u201cPrickly City\u201d on Jan. 27, \u201cso no matter what happens it can be blamed on people.\u201d Indeed.\n\nBut while the"
@@ -1460,6 +1460,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1473,14 +1485,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1510,12 +1521,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -1530,17 +1541,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1580,6 +1580,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1600,17 +1611,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1648,17 +1648,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -1681,12 +1670,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1703,67 +1692,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1857,45 +1791,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1956,6 +1912,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -2000,23 +2022,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -2074,28 +2096,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -2311,7 +2311,7 @@
   ]
  },
  "reportName": "Scott Stantis",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2332,13 +2332,13 @@
     "longformHits": 101,
     "longformRatio": 0.236,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 5,
+     "laion1b-nolang": 65,
      "laion2b-en": 36,
      "laion2b-multi": 221,
-     "laion1b-nolang": 65,
      "obelics": 97,
-     "pile": 3,
-     "c4-en": 1
+     "pile": 3
     },
     "reason": null
    },
@@ -2351,9 +2351,9 @@
     "longformRatio": 0.421,
     "perDataset": {
      "coyo700m": 12,
+     "laion1b-nolang": 21,
      "laion2b-en": 50,
      "laion2b-multi": 5,
-     "laion1b-nolang": 21,
      "obelics": 64
     },
     "reason": null
@@ -2367,9 +2367,9 @@
     "longformRatio": 0.369,
     "perDataset": {
      "coyo700m": 27,
+     "laion1b-nolang": 63,
      "laion2b-en": 53,
      "laion2b-multi": 54,
-     "laion1b-nolang": 63,
      "obelics": 115
     },
     "reason": null
@@ -2386,14 +2386,14 @@
   },
   "evidenceShown": 71,
   "evidenceWithheld": {
-   "unverified": 610,
+   "unverified": 609,
    "not_flat_art": 62,
    "person_photo": 86,
-   "storefront": 15,
    "merchandise": 25,
+   "storefront": 16,
    "unrelated": 7
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "scott-stantis",
  "cohort": "early-adopter",

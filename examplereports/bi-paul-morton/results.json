@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,34 +898,6 @@
    "totalIncludingLowConfidence": 82,
    "rows": [
     {
-     "text": "Chameleon and Bizzi Bee illustrations by Paul Morton",
-     "imageUrl": "https://1.bp.blogspot.com/-6WZ3rqQKv58/XkQYDp4OK2I/AAAAAAAALA8/G16aUiRKjhQBW1DrW7N-3G3Og5NLdzA2gCEwYBhgL/s640/HFG%2Bcharas%2BBB02.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bug Belly Babysitting Trouble by Paul Morton",
-     "imageUrl": "https://static.wixstatic.com/media/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg/v1/fill/w_469,h_609,al_c,q_88,usm_0.66_1.00_0.01/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Northern wheatear in Poole Harbour - an early spring arrival (Photo by Paul Morton",
      "imageUrl": "https://images.cm.archant.co.uk/resource/responsive-image/7002916/article-lead-image/xs/1/dor-march-bop-img-9040.jpg",
      "keyword": "paul morton",
@@ -940,8 +912,8 @@
      }
     },
     {
-     "text": "Download Music Its My Season Mp3 By Paul Morton Ft. JJ Hairston",
-     "imageUrl": "https://primesong.com/wp-content/uploads/2019/07/f2fbf7328de799cac038dc12deb25f44915e34ee.jpg",
+     "text": "Bug Belly Babysitting Trouble by Paul Morton",
+     "imageUrl": "https://static.wixstatic.com/media/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg/v1/fill/w_469,h_609,al_c,q_88,usm_0.66_1.00_0.01/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
      "punsafe": null,
@@ -982,8 +954,8 @@
      }
     },
     {
-     "text": "Barn owl chicks are commonly ringed on farms across Dorset Photo: Paul Morton",
-     "imageUrl": "https://images.cm.archant.co.uk/resource/responsive-image/7061828/article-lead-image/xs/1/dor-sep-20-bop-img-5586.jpg",
+     "text": "How To Drift The Art Of Oversteer by Paul Morton, SA118",
+     "imageUrl": "http://bevenyoung.com.au/images/How%20To%20Drift%20The%20Art%20Of%20Oversteer%20by%20Paul%20Morton,%20SA118.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
      "punsafe": null,
@@ -996,8 +968,36 @@
      }
     },
     {
-     "text": "How To Drift The Art Of Oversteer by Paul Morton, SA118",
-     "imageUrl": "http://bevenyoung.com.au/images/How%20To%20Drift%20The%20Art%20Of%20Oversteer%20by%20Paul%20Morton,%20SA118.jpg",
+     "text": "Chameleon and Bizzi Bee illustrations by Paul Morton",
+     "imageUrl": "https://1.bp.blogspot.com/-6WZ3rqQKv58/XkQYDp4OK2I/AAAAAAAALA8/G16aUiRKjhQBW1DrW7N-3G3Og5NLdzA2gCEwYBhgL/s640/HFG%2Bcharas%2BBB02.jpg",
+     "keyword": "paul morton",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Download Music Its My Season Mp3 By Paul Morton Ft. JJ Hairston",
+     "imageUrl": "https://primesong.com/wp-content/uploads/2019/07/f2fbf7328de799cac038dc12deb25f44915e34ee.jpg",
+     "keyword": "paul morton",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Barn owl chicks are commonly ringed on farms across Dorset Photo: Paul Morton",
+     "imageUrl": "https://images.cm.archant.co.uk/resource/responsive-image/7061828/article-lead-image/xs/1/dor-sep-20-bop-img-5586.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
      "punsafe": null,
@@ -1011,14 +1011,14 @@
     }
    ],
    "samples": [
-    "Chameleon and Bizzi Bee illustrations by Paul Morton",
-    "Bug Belly Babysitting Trouble by Paul Morton",
     "Northern wheatear in Poole Harbour - an early spring arrival (Photo by Paul Morton",
+    "Bug Belly Babysitting Trouble by Paul Morton",
+    "Nelson Mandela and the ANC flag by Paul Morton",
+    "Nelson Mandela and the ANC flag by Paul Morton",
+    "How To Drift The Art Of Oversteer by Paul Morton, SA118",
+    "Chameleon and Bizzi Bee illustrations by Paul Morton",
     "Download Music Its My Season Mp3 By Paul Morton Ft. JJ Hairston",
-    "Nelson Mandela and the ANC flag by Paul Morton",
-    "Nelson Mandela and the ANC flag by Paul Morton",
-    "Barn owl chicks are commonly ringed on farms across Dorset Photo: Paul Morton",
-    "How To Drift The Art Of Oversteer by Paul Morton, SA118"
+    "Barn owl chicks are commonly ringed on farms across Dorset Photo: Paul Morton"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1044,11 +1044,11 @@
    "totalIncludingLowConfidence": 323,
    "rows": [
     {
-     "text": "Nelson Mandela and the ANC flag by Paul Morton",
-     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Mandela-front.jpg",
+     "text": "Bug Belly Babysitting Trouble by Paul Morton",
+     "imageUrl": "https://static.wixstatic.com/media/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg/v1/fit/w_174,h_232,q_88/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.00011457240179879591,
+     "punsafe": 0.00010499927157070488,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1058,11 +1058,11 @@
      }
     },
     {
-     "text": "Bug Belly Babysitting Trouble by Paul Morton",
-     "imageUrl": "https://static.wixstatic.com/media/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg/v1/fit/w_174,h_232,q_88/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg",
+     "text": "Nelson Mandela and the ANC flag by Paul Morton",
+     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Mandela-front.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.00010499927157070488,
+     "punsafe": 0.00011457240179879591,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1086,20 +1086,6 @@
      }
     },
     {
-     "text": "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
-     "imageUrl": "http://direct-ns.rhap.com/imageserver/v2/albums/Alb.107625616/images/500x500.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.0035023093223571777,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Bug Belly - Babysitter Trouble by Paul Morton - 9781912923045 Book",
      "imageUrl": "https://img.fruugo.com/product/5/60/131911605_0340_0340.jpg",
      "keyword": "paul morton",
@@ -1114,11 +1100,11 @@
      }
     },
     {
-     "text": "A high-volume, low-pressure spray gun is pictured here. (Paul Morton/iStock)",
-     "imageUrl": "https://www.repairerdrivennews.com/wp-content/uploads/2016/06/hvlp-paint-gun-iStock_3822797_MEDIUM-e1465362825562-300x277.jpg",
+     "text": "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
+     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.107625616/170x170.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 3.896772977896035e-05,
+     "punsafe": 0.00046950578689575195,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1128,11 +1114,25 @@
      }
     },
     {
-     "text": "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
-     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.107625616/170x170.jpg",
+     "text": "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
+     "imageUrl": "http://direct-ns.rhap.com/imageserver/v2/albums/Alb.107625616/images/500x500.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.00046950578689575195,
+     "punsafe": 0.0035023093223571777,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A high-volume, low-pressure spray gun is pictured here. (Paul Morton/iStock)",
+     "imageUrl": "https://www.repairerdrivennews.com/wp-content/uploads/2016/06/hvlp-paint-gun-iStock_3822797_MEDIUM-e1465362825562-300x277.jpg",
+     "keyword": "paul morton",
+     "tier": "namematch",
+     "punsafe": 3.896772977896035e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1198,11 +1198,11 @@
      }
     },
     {
-     "text": "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
-     "imageUrl": "http://direct.rhapsody.com/imageserver/v2/albums/Alb.107625616/images/170x170.jpg",
+     "text": "Let It Rain (Low Key) [Originally Performed by Paul Morton] [Instrumental Track] SAMPLE",
+     "imageUrl": "https://i.ytimg.com/vi/00fiCJk0DYw/mqdefault.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.00046950578689575195,
+     "punsafe": 0.0005242526531219482,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1212,11 +1212,11 @@
      }
     },
     {
-     "text": "Let It Rain (Low Key) [Originally Performed by Paul Morton] [Instrumental Track] SAMPLE",
-     "imageUrl": "https://i.ytimg.com/vi/00fiCJk0DYw/mqdefault.jpg",
+     "text": "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
+     "imageUrl": "http://direct.rhapsody.com/imageserver/v2/albums/Alb.107625616/images/170x170.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.0005242526531219482,
+     "punsafe": 0.00046950578689575195,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1254,20 +1254,6 @@
      }
     },
     {
-     "text": "Hay bales by Paul Morton",
-     "imageUrl": "https://df0179xsabjj8.cloudfront.net/huge/95294_ODqej0CREJqUTNpc_70660.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.00010865242802537978,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"Be Blessed\"\" by Paul Morton ( \"\"Gifted Angels\"\")  praise dancers\"",
      "imageUrl": "https://i.ytimg.com/vi/VWx-u09dxTM/mqdefault.jpg",
      "keyword": "paul morton",
@@ -1282,11 +1268,11 @@
      }
     },
     {
-     "text": "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
-     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.107625616/500x500.jpg",
+     "text": "Hay bales by Paul Morton",
+     "imageUrl": "https://df0179xsabjj8.cloudfront.net/huge/95294_ODqej0CREJqUTNpc_70660.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.0035023093223571777,
+     "punsafe": 0.00010865242802537978,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1301,6 +1287,20 @@
      "keyword": "paul morton",
      "tier": "namematch",
      "punsafe": 0.00046950578689575195,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
+     "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.107625616/500x500.jpg",
+     "keyword": "paul morton",
+     "tier": "namematch",
+     "punsafe": 0.0035023093223571777,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1367,13 +1367,13 @@
     }
    ],
    "samples": [
-    "Nelson Mandela and the ANC flag by Paul Morton",
     "Bug Belly Babysitting Trouble by Paul Morton",
+    "Nelson Mandela and the ANC flag by Paul Morton",
     "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
-    "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
     "Bug Belly - Babysitter Trouble by Paul Morton - 9781912923045 Book",
-    "A high-volume, low-pressure spray gun is pictured here. (Paul Morton/iStock)",
     "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
+    "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
+    "A high-volume, low-pressure spray gun is pictured here. (Paul Morton/iStock)",
     "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
     "Let It Rain (Medium Key) [Originally Performed by Paul Morton] [Instrumental Track] SAMPLE",
     "Bug Belly  Babysitting Trouble by Paul Morton"
@@ -1458,11 +1458,11 @@
      }
     },
     {
-     "text": "Lake Bonney (1 of 1) by Paul Morton",
-     "imageUrl": "https://df0179xsabjj8.cloudfront.net/large/95294_OAUdw4BoYrDx4Xyf_675323.jpg",
+     "text": "Clouseau fans against the beumb by Paul Morton",
+     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Clouseau-front.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 3.070817547268234e-05,
+     "punsafe": 0.00038376450538635254,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1472,11 +1472,11 @@
      }
     },
     {
-     "text": "Clouseau fans against the beumb by Paul Morton",
-     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Clouseau-front.jpg",
+     "text": "Lake Bonney (1 of 1) by Paul Morton",
+     "imageUrl": "https://df0179xsabjj8.cloudfront.net/large/95294_OAUdw4BoYrDx4Xyf_675323.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.00038376450538635254,
+     "punsafe": 3.070817547268234e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1505,8 +1505,8 @@
     "Clouseau fans against the beumb by Paul Morton",
     "Benjamin Pilgrim receives his award PHOTO: Paul Morton",
     "Let It Rain (Originally Performed by Paul Morton) [Piano Version]",
-    "Lake Bonney (1 of 1) by Paul Morton",
     "Clouseau fans against the beumb by Paul Morton",
+    "Lake Bonney (1 of 1) by Paul Morton",
     "Neutron Artwork by Paul Morton"
    ],
    "partial": false,
@@ -1589,11 +1589,11 @@
      }
     },
     {
-     "text": "Magic dog...illustration by Paul Morton",
-     "imageUrl": "https://i.pinimg.com/236x/6f/df/1f/6fdf1f64c03b457d4f1f61a1288d7849--funny-drawings-dog-illustration.jpg",
+     "text": "Something Happens Jesus by Paul Morton instrumental",
+     "imageUrl": "https://i.ytimg.com/vi/Mhh1rv0YxmQ/hqdefault.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 0.00021642446517944336,
+     "punsafe": 1.0507875231269281e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1603,11 +1603,11 @@
      }
     },
     {
-     "text": "Something Happens Jesus by Paul Morton instrumental",
-     "imageUrl": "https://i.ytimg.com/vi/Mhh1rv0YxmQ/hqdefault.jpg",
+     "text": "Magic dog...illustration by Paul Morton",
+     "imageUrl": "https://i.pinimg.com/236x/6f/df/1f/6fdf1f64c03b457d4f1f61a1288d7849--funny-drawings-dog-illustration.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
-     "punsafe": 1.0507875231269281e-05,
+     "punsafe": 0.00021642446517944336,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1622,8 +1622,8 @@
     "Let It Rain (C) [Minus Piano] [Originally Performed by Paul Morton] [Instrumental Version]",
     "Download Music Its My Season Mp3 By Paul Morton Ft. JJ Hairston",
     "Feeding Froggies game box by Paul Morton",
-    "Magic dog...illustration by Paul Morton",
-    "Something Happens Jesus by Paul Morton instrumental"
+    "Something Happens Jesus by Paul Morton instrumental",
+    "Magic dog...illustration by Paul Morton"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1691,20 +1691,6 @@
      }
     },
     {
-     "text": "\u201cBug Belly, Babysitting Trouble\u201d by Paul Morton is definitely a hilarious story for those just beginning to read alone.  The main character is a frog called Bug Belly, who is called upon to look after his large number of nephews and nieces (tadpoles and froglets) whilst their parents are off at a fr",
-     "imageUrl": null,
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Carolyn Robinson, left, from Buffalo, N.Y., and Marva Chaney from Philadelphia, become emotional during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis ",
      "imageUrl": null,
      "keyword": "paul morton",
@@ -1731,15 +1717,29 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "\u201cBug Belly, Babysitting Trouble\u201d by Paul Morton is definitely a hilarious story for those just beginning to read alone.  The main character is a frog called Bug Belly, who is called upon to look after his large number of nephews and nieces (tadpoles and froglets) whilst their parents are off at a fr",
+     "imageUrl": null,
+     "keyword": "paul morton",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "Tristen Torrez (left) was attacked outside of his school while wearing a Pride flag.Photo: Screenshot/WTOL\n\nAlthough he was already out to some of his friends, Tristen Torrez wanted to be brave and come out to his entire middle school community in a subtle, simple way before the school year ended. S",
     "By turns amusing and disturbing, this collection of 1960s romance comic strips provides a provocative window into male-female power dynamics as conceived by one of mid-century America's foremost comic book artists.\n\nOgden Whitney was one of the unsung masters of American comics. He is perhaps best r",
     "About Return to Romance\n\nBy turns amusing and disturbing, this collection of 1960s romance comic strips provides a provocative window into male-female power dynamics as conceived by one of mid-century America\u2019s foremost comic book artists.\n\nOgden Whitney was one of the unsung masters of American com",
-    "\u201cBug Belly, Babysitting Trouble\u201d by Paul Morton is definitely a hilarious story for those just beginning to read alone.  The main character is a frog called Bug Belly, who is called upon to look after his large number of nephews and nieces (tadpoles and froglets) whilst their parents are off at a fr",
     "Carolyn Robinson, left, from Buffalo, N.Y., and Marva Chaney from Philadelphia, become emotional during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis ",
-    "Pamela Pittman, of Oak Park, Ill., prays during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis Post-Dispatch.\n\nST. LOUIS \u2014 Drums, keyboard and a preach"
+    "Pamela Pittman, of Oak Park, Ill., prays during the noon church service on Thursday, Nov. 5, 2015, at the Church of God in Christ annual convocation at America\u2019s Center. The convocation continues through Sunday. Photo by J.B. Forbes, St. Louis Post-Dispatch.\n\nST. LOUIS \u2014 Drums, keyboard and a preach",
+    "\u201cBug Belly, Babysitting Trouble\u201d by Paul Morton is definitely a hilarious story for those just beginning to read alone.  The main character is a frog called Bug Belly, who is called upon to look after his large number of nephews and nieces (tadpoles and froglets) whilst their parents are off at a fr"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1810,12 +1810,12 @@
     "longformHits": 323,
     "longformRatio": 0.36,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 82,
      "laion1b-nolang": 113,
      "laion2b-en": 323,
      "laion2b-multi": 56,
-     "obelics": 320,
-     "c4-en": 3
+     "obelics": 320
     },
     "reason": null
    }
@@ -1832,14 +1832,14 @@
   "evidenceShown": 50,
   "evidenceWithheld": {
    "unverified": 734,
+   "storefront": 5,
    "person_photo": 85,
    "merchandise": 6,
-   "storefront": 5,
    "unrelated": 3,
    "derivative": 3,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-paul-morton",
  "cohort": "billy-ireland",
@@ -1852,7 +1852,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 897,
   "datasetsPresent": 6,

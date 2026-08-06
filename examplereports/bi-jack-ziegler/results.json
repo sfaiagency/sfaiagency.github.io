@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -891,143 +891,17 @@
    "coverageComplete": true,
    "rowsCovered": 747017344,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 231,
+   "highConfidenceCount": 231,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 231,
    "rows": [
     {
-     "text": "OLD MACDONALD HAD A FARM, EE-YI-EE-YI-OH, AND ON THAT FARM HE HAD A MIRROR - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-old-macdonald-had-a-farm-ee-yi-ee-yi-oh-and-on-that-farm-he-had-a-mirror-new-yorker-cartoon_u-l-pi0zhz0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Let me preface my remarks by saying that the chain is a lot longer than i... - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-let-me-preface-my-remarks-by-saying-that-the-chain-is-a-lot-longer-than-i-new-yorker-cartoon_u-L-Q139YU70.jpg?src=gp&w=300&h=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Big fish with label \"Hidden Agenda\" is eating little fish with label \"agen?\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-big-fish-with-label-hidden-agenda-is-eating-little-fish-with-label-agen-new-yorker-cartoon_u-l-pgqz330.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Yes, yes, yes, I miss you, too, honey. Now put the dog on.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-yes-yes-yes-i-miss-you-too-honey-now-put-the-dog-on-new-yorker-cartoon_u-l-pgqutm0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Man And Woman Leave Costco With A Large Amount Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-man-and-woman-leave-costco-with-a-large-amount-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Cowboy In The Saddle Addresses His Horse Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-cowboy-in-the-saddle-addresses-his-horse-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Your Kids Have Left And Gone On To Lives Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/your-kids-have-left-and-gone-on-to-lives-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hey, Im Thirsty. I Need A Drink. A Drink Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/hey-im-thirsty-i-need-a-drink-a-drink-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker August 4th, 2008 Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/91-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "It Was A Time When Men Regularly Performed Great Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/it-was-a-time-when-men-regularly-performed-great-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1041,7 +915,7 @@
      "text": "January 3rd At Rockefeller Center Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/january-3rd-at-rockefeller-center-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1052,10 +926,10 @@
      }
     },
     {
-     "text": "\"Cyndi Lauper on four, sir, with a bullet.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-cyndi-lauper-on-four-sir-with-a-bullet-new-yorker-cartoon_u-L-PGTUFJ0.jpg?src=gp&w=300&h=375",
+     "text": "\"Let me preface my remarks by saying that the chain is a lot longer than i... - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-let-me-preface-my-remarks-by-saying-that-the-chain-is-a-lot-longer-than-i-new-yorker-cartoon_u-L-Q139YU70.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1066,10 +940,10 @@
      }
     },
     {
-     "text": "\"The people in my new novel have started rejecting print media. That's a b...\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-the-people-in-my-new-novel-have-started-rejecting-print-media-that-s-a-b-new-yorker-cartoon_u-l-q10wxhi0.jpg?src=gp&w=300&h=300",
+     "text": "Big fish with label \"Hidden Agenda\" is eating little fish with label \"agen?\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-big-fish-with-label-hidden-agenda-is-eating-little-fish-with-label-agen-new-yorker-cartoon_u-l-pgqz330.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1080,10 +954,10 @@
      }
     },
     {
-     "text": "A man rakes leaves while four leaves scurry up a tree. - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-man-rakes-leaves-while-four-leaves-scurry-up-a-tree-new-yorker-cartoon_u-l-pyseob0.jpg?src=gp&w=300&h=300",
+     "text": "\"Yes, yes, yes, I miss you, too, honey. Now put the dog on.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-yes-yes-yes-i-miss-you-too-honey-now-put-the-dog-on-new-yorker-cartoon_u-l-pgqutm0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1094,10 +968,10 @@
      }
     },
     {
-     "text": "Thanks, Baby. Ciao Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/thanks-baby-ciao-jack-ziegler.jpg",
+     "text": "A Man And Woman Leave Costco With A Large Amount Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-man-and-woman-leave-costco-with-a-large-amount-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1108,10 +982,10 @@
      }
     },
     {
-     "text": "\"I still think a simple pedestrian mall would have sufficed.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-i-still-think-a-simple-pedestrian-mall-would-have-sufficed-new-yorker-cartoon_u-l-pgsa6s0.jpg?src=gp&w=300&h=300",
+     "text": "A Cowboy In The Saddle Addresses His Horse Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-cowboy-in-the-saddle-addresses-his-horse-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1122,136 +996,10 @@
      }
     },
     {
-     "text": "Someday, Gentlemen, I Promise You - The Heady Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/78-untitled-jack-ziegler.jpg",
+     "text": "Your Kids Have Left And Gone On To Lives Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/your-kids-have-left-and-gone-on-to-lives-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Twelve Labors Of Hercules Of Elmhurst Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/the-twelve-labors-of-hercules-of-elmhurst-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Country Club Dungeon Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/75-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Superman Gives His Card To A Woman He Is Saving Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/superman-gives-his-card-to-a-woman-he-is-saving-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Woman Is Seen Carrying A Laundry Basket Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-woman-is-seen-carrying-a-laundry-basket-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"While we finish our dessert, I thought we could all have a chat on matter?\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-while-we-finish-our-dessert-i-thought-we-could-all-have-a-chat-on-matter-new-yorker-cartoon_u-l-pgsncq0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Olive or Twist. a Book of Drinking Ca By Jack Ziegler",
-     "imageUrl": "https://productimages.worldofbooks.com/0810958872.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "They Say Youre Only As Old As Your Face Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/34-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Man, sitting at tree stump table, motions to a waiter to bring over the re? - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-man-sitting-at-tree-stump-table-motions-to-a-waiter-to-bring-over-the-re-new-yorker-cartoon_u-l-pgtnsv0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Politician Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-politician-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1265,7 +1013,7 @@
      "text": "Marlboro billboard on side of highway with the cowboy looking at a limp ci\u2026 - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-marlboro-billboard-on-side-of-highway-with-the-cowboy-looking-at-a-limp-ci-new-yorker-cartoon_u-L-PGTZ5T0.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1279,7 +1027,7 @@
      "text": "My Brand-New Electric Car Allows Me to Travel Freely To Almost All Four Co? - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-my-brand-new-electric-car-allows-me-to-travel-freely-to-almost-all-four-co-new-yorker-cartoon_u-l-pgtsrn0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1293,63 +1041,7 @@
      "text": "\"Yes, but what I really want to do is write children's books.\" - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-yes-but-what-i-really-want-to-do-is-write-children-s-books-new-yorker-cartoon_u-l-pgqo5z0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Discovering That The Light At The End Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/discovering-that-the-light-at-the-end-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A truck emblazoned with 'lostluggage.com' drives past a taxied airplane. - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-truck-emblazoned-with-lostluggage-com-drives-past-a-taxied-airplane-new-yorker-cartoon_u-l-q11zyvj0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Step a little closer, baby, and let some of the magic rub off.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-step-a-little-closer-baby-and-let-some-of-the-magic-rub-off-new-yorker-cartoon_u-l-pgsmtu0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Keister Island -- Statues Of Butts Instead Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/keister-island-statues-of-butts-instead-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1363,147 +1055,7 @@
      "text": "\"It's a poor craftsman, son, who blames his tools.\" - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-it-s-a-poor-craftsman-son-who-blames-his-tools-new-yorker-cartoon_u-l-pgqben0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"By the way, dollface,nice hooters.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-by-the-way-dollface-nice-hooters-new-yorker-cartoon_u-l-pgrrcx0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"I like my old spin class better.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-i-like-my-old-spin-class-better-new-yorker-cartoon_u-l-pgs9b70.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Three people perform traditional Irish dance on top of an oversize calculator. - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-three-people-perform-traditional-irish-dance-on-top-of-an-oversize-calculator-new-yorker-cartoon_u-l-pgs5p10.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Relationships Pets Travel Problems (businessman Sitting On A Bed In Hotel Room Talking On The Phone.) 121246 Jzi Jack Ziegler Topziegler Canvas Print featuring the drawing Businessman Sitting On A Bed In Hotel Room by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/canvas-print/8/7.5/mirror/break/images-medium-5/businessman-sitting-on-a-bed-in-hotel-room-jack-ziegler-canvas-print.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"When I first learned that men and women have significantly different ways\u2026\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-when-i-first-learned-that-men-and-women-have-significantly-different-ways-new-yorker-cartoon_u-l-pgtfu90.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Put Mattel and Fisher-Price on hold, Miss Leahy. I'll take Nintendo on L\u2026\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-put-mattel-and-fisher-price-on-hold-miss-leahy-i-ll-take-nintendo-on-l-new-yorker-cartoon_u-L-Q1BNX0V0.jpg?src=gp&w=300&h=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"And, for what we don't cover, there's insurance insurance.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-and-for-what-we-don-t-cover-there-s-insurance-insurance-new-yorker-cartoon_u-l-pysebx0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker January 22nd, 2007 Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/72-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker January 11th, 1999 Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/new-yorker-january-11th-1999-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Pinpoint havoc, gentlemen, accuracy of mayhem. And yet our dress blues re?\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-pinpoint-havoc-gentlemen-accuracy-of-mayhem-and-yet-our-dress-blues-re-new-yorker-cartoon_u-l-piczbi0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1517,7 +1069,7 @@
      "text": "Four panel drawing. Janitor has stomped, mopped up, and squeezed grapes i? - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-four-panel-drawing-janitor-has-stomped-mopped-up-and-squeezed-grapes-i-new-yorker-cartoon_u-l-pgtolj0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1531,7 +1083,7 @@
      "text": "Tennis as a Metaphore for the Tri-State Area - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-tennis-as-a-metaphore-for-the-tri-state-area-new-yorker-cartoon_u-l-pgqb5n0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1542,10 +1094,122 @@
      }
     },
     {
-     "text": "Gee, Al, Two Thousand Dollars Doesnt Buy Much Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/gee-al-two-thousand-dollars-doesnt-buy-much-jack-ziegle.jpg",
+     "text": "\"The people in my new novel have started rejecting print media. That's a b...\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-the-people-in-my-new-novel-have-started-rejecting-print-media-that-s-a-b-new-yorker-cartoon_u-l-q10wxhi0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A man rakes leaves while four leaves scurry up a tree. - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-man-rakes-leaves-while-four-leaves-scurry-up-a-tree-new-yorker-cartoon_u-l-pyseob0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Thanks, Baby. Ciao Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/thanks-baby-ciao-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Three people perform traditional Irish dance on top of an oversize calculator. - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-three-people-perform-traditional-irish-dance-on-top-of-an-oversize-calculator-new-yorker-cartoon_u-l-pgs5p10.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"While we finish our dessert, I thought we could all have a chat on matter?\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-while-we-finish-our-dessert-i-thought-we-could-all-have-a-chat-on-matter-new-yorker-cartoon_u-l-pgsncq0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Olive or Twist. a Book of Drinking Ca By Jack Ziegler",
+     "imageUrl": "https://productimages.worldofbooks.com/0810958872.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Someday, Gentlemen, I Promise You - The Heady Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/78-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Twelve Labors Of Hercules Of Elmhurst Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/the-twelve-labors-of-hercules-of-elmhurst-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Country Club Dungeon Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/75-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1559,7 +1223,7 @@
      "text": "It was at this point, gentlemen, that reality intruded by jack ziegler",
      "imageUrl": "https://8womendream.com/wp-content/uploads/statistics-reatlity-intruded-by-jack-ziegler-400x306.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1573,7 +1237,7 @@
      "text": "That Was My Horse. Hes In A Whole Passel Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/that-was-my-horse-hes-in-a-whole-passel-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1587,7 +1251,7 @@
      "text": "I See He Finally Got Rid Of That Idiotic Print by Jack Ziegler",
      "imageUrl": "https://myosu.ru/800/600/https/condenaststore.com/images/images-profile-flow/400/images-medium-large-5/164-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1598,10 +1262,10 @@
      }
     },
     {
-     "text": "Before The Coming Of The White Man Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/before-the-coming-of-the-white-man-jack-ziegler.jpg",
+     "text": "Man, sitting at tree stump table, motions to a waiter to bring over the re? - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-man-sitting-at-tree-stump-table-motions-to-a-waiter-to-bring-over-the-re-new-yorker-cartoon_u-l-pgtnsv0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1615,7 +1279,7 @@
      "text": "Image credit: Jack Ziegler for the New Yorker, via Conde Nast at http://www.condenaststore.com/-sp/A-S-W-A-T-team-member-is-running-down-the-block-chasing-after-a-fly-with-a-New-Yorker-Cartoon-Prints_i8472674_.htm.",
      "imageUrl": "https://scienceblogs.com/files/startswithabang/files/2015/03/jack-ziegler-a-s-w-a-t-team-member-is-running-down-the-block-chasing-after-a-fly-with-a-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1629,7 +1293,7 @@
      "text": "Book Wood Print featuring the drawing A Man Reads A Book Entitled by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/default/wood-print/8/7.5/break/images-medium-5/a-man-reads-a-book-entitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1640,10 +1304,10 @@
      }
     },
     {
-     "text": "A truck of rubble with a warning on its back for other cars to keep back, ... - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-truck-of-rubble-with-a-warning-on-its-back-for-other-cars-to-keep-back-new-yorker-cartoon_u-l-q11d1dg0.jpg?src=gp&w=300&h=300",
+     "text": "\"Objection, Your Honor! Alleged killer whale.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-objection-your-honor-alleged-killer-whale-new-yorker-cartoon_u-l-pgpl4y9nyc8.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1654,10 +1318,10 @@
      }
     },
     {
-     "text": "Hello? Beasts Of The Field? This Is Lou Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/hello-beasts-of-the-field-this-is-lou-jack-ziegler.jpg",
+     "text": "Simpler Times Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/simpler-times-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1668,10 +1332,24 @@
      }
     },
     {
-     "text": "New Yorker March 17th, 2008 Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/170-untitled-jack-ziegler.jpg",
+     "text": "\"When examining these new contracts, gentlemen, please note that in Paragr?\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-when-examining-these-new-contracts-gentlemen-please-note-that-in-paragr-new-yorker-cartoon_u-l-pgs5170.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Of Course It Would Be A Different Story Entirely Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/152-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1685,7 +1363,7 @@
      "text": "\"Look, I'm not saying it's going to be today. But someday\u2014someday\u2014you guy\u2026 by Jack Ziegler",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-look-i-m-not-saying-it-s-going-to-be-today-but-someday-someday-you-guy_u-L-PGTBCU0.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1699,7 +1377,7 @@
      "text": "49% L.l. Bean/49% I.b.m./ 2% Whimsy Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/49-ll-bean49-ibm-2-whimsy-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1710,10 +1388,10 @@
      }
     },
     {
-     "text": "A box from a truck labeled \"Stan's O.K. Deliveries\" is thrown into the sto... - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-box-from-a-truck-labeled-stan-s-o-k-deliveries-is-thrown-into-the-sto-new-yorker-cartoon_u-l-pysyqn0.jpg?src=gp&w=300&h=300",
+     "text": "A businessman walks away from a playground. The playground contains a swin\u2026 - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-a-businessman-walks-away-from-a-playground-the-playground-contains-a-swin-new-yorker-cartoon_u-L-PGRRO20.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1724,10 +1402,332 @@
      }
     },
     {
-     "text": "\"O.K., O.K., here's 'Lassie, Come Home' again! Now are you happy?\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-o-k-o-k-here-s-lassie-come-home-again-now-are-you-happy-new-yorker-cartoon_u-l-pgtq170.jpg?src=gp&w=300&h=300",
+     "text": "\"Hey, what can I say? It's not Baltimore, but then what is?\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-hey-what-can-i-say-it-s-not-baltimore-but-then-what-is-new-yorker-cartoon_u-l-pgqg2r0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Calendar page with daily notes to 'Feed Fluffy' with handwriting that get\u2026 - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-calendar-page-with-daily-notes-to-feed-fluffy-with-handwriting-that-get-new-yorker-cartoon_u-L-PGQH770.jpg?src=gp&w=300&h=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"The way I see it, we lived like pigs in the eighties and, with any luck w?\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-the-way-i-see-it-we-lived-like-pigs-in-the-eighties-and-with-any-luck-w-new-yorker-cartoon_u-l-pgt5sn0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"It's a poor craftsman, son, who blames his tools.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-it-s-a-poor-craftsman-son-who-blames-his-tools-new-yorker-cartoon_u-l-pgqben0.jpg?w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker October 18th, 2004 Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/177-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A man walks into a bathroom where his wife is putting toothpaste on a toot? - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-man-walks-into-a-bathroom-where-his-wife-is-putting-toothpaste-on-a-toot-new-yorker-cartoon_u-l-pgrsrm0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A man who has just crawled through the desert reaches a road, where a New ? - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-man-who-has-just-crawled-through-the-desert-reaches-a-road-where-a-new-new-yorker-cartoon_u-l-phzs100.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marlboro billboard on side of highway with the cowboy looking at a limp ci? - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-marlboro-billboard-on-side-of-highway-with-the-cowboy-looking-at-a-limp-ci-new-yorker-cartoon_u-l-pgtz5t0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Good news, your majesty. We may already be a winner.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-good-news-your-majesty-we-may-already-be-a-winner-new-yorker-cartoon_u-l-q13629t0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Man Walks Past Two Shops Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-man-walks-past-two-shops-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Relationships Pets Travel Problems (businessman Sitting On A Bed In Hotel Room Talking On The Phone.) 121246 Jzi Jack Ziegler Topziegler Metal Print featuring the drawing Businessman Sitting On A Bed In Hotel Room by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/metal-print/8/7.5/break/images-medium-5/businessman-sitting-on-a-bed-in-hotel-room-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "One Man, Sitting In The Window Seat Of A Plane Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/one-man-sitting-in-the-window-seat-of-a-plane-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Proust Is Seen Speaking With The Concierge Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/proust-is-seen-speaking-with-the-concierge-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker January 11th, 1988 Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/new-yorker-january-11th-1988-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Yes, but what I really want to do is write children's books.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-yes-but-what-i-really-want-to-do-is-write-children-s-books-new-yorker-cartoon_u-l-pgqo5z9semz.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Two royals held by servants play badminton. - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-two-royals-held-by-servants-play-badminton-new-yorker-cartoon_u-l-q12tdpf0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker February 11th, 2008 Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/3-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker April 10th, 2017 Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/new-yorker-april-10th-2017-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Hello? Beasts of the Field? This is Lou, over in Birds of the Air. Any?\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-hello-beasts-of-the-field-this-is-lou-over-in-birds-of-the-air-any-new-yorker-cartoon_u-l-pgre2y0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Man walks into party and thinks to himself: \"Yipes! Grownups!!\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-man-walks-into-party-and-thinks-to-himself-yipes-grownups-new-yorker-cartoon_u-l-pgqznz0.jpg?w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Indian consults Rolodex to send smoke signals. - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-indian-consults-rolodex-to-send-smoke-signals-new-yorker-cartoon_u-l-pgt8jc0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Objection, Your Honor! Alleged killer whale.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-objection-your-honor-alleged-killer-whale-new-yorker-cartoon_u-l-pgpl4y0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Water . . . water . . . and maybe just a tiny piece of pie.\" - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-water-water-and-maybe-just-a-tiny-piece-of-pie-new-yorker-cartoon_u-l-pgrv0w0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A man on a desert island on a city street waving to a ship up in a window. - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-man-on-a-desert-island-on-a-city-street-waving-to-a-ship-up-in-a-window-new-yorker-cartoon_u-l-q105rce0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1739,16 +1739,16 @@
     }
    ],
    "samples": [
-    "OLD MACDONALD HAD A FARM, EE-YI-EE-YI-OH, AND ON THAT FARM HE HAD A MIRROR - New Yorker Cartoon by Jack Ziegler",
+    "It Was A Time When Men Regularly Performed Great Drawing by Jack Ziegler",
+    "January 3rd At Rockefeller Center Drawing by Jack Ziegler",
     "\"Let me preface my remarks by saying that the chain is a lot longer than i... - New Yorker Cartoon by Jack Ziegler",
     "Big fish with label \"Hidden Agenda\" is eating little fish with label \"agen?\" - New Yorker Cartoon by Jack Ziegler",
     "\"Yes, yes, yes, I miss you, too, honey. Now put the dog on.\" - New Yorker Cartoon by Jack Ziegler",
     "A Man And Woman Leave Costco With A Large Amount Drawing by Jack Ziegler",
     "A Cowboy In The Saddle Addresses His Horse Drawing by Jack Ziegler",
     "Your Kids Have Left And Gone On To Lives Drawing by Jack Ziegler",
-    "Hey, Im Thirsty. I Need A Drink. A Drink Drawing by Jack Ziegler",
-    "New Yorker August 4th, 2008 Drawing by Jack Ziegler",
-    "It Was A Time When Men Regularly Performed Great Drawing by Jack Ziegler"
+    "Marlboro billboard on side of highway with the cowboy looking at a limp ci\u2026 - New Yorker Cartoon by Jack Ziegler",
+    "My Brand-New Electric Car Allows Me to Travel Freely To Almost All Four Co? - New Yorker Cartoon by Jack Ziegler"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1767,339 +1767,17 @@
    "coverageComplete": true,
    "rowsCovered": 2097690752,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 2343,
+   "highConfidenceCount": 2343,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 2343,
    "rows": [
     {
-     "text": "Street Drawing - I Don't Get It. Who Doesn't Love A Circus? by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/89-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00030168890953063965,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tennis As A Metaphore For The Tri-state Area Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/tennis-as-a-metaphore-for-the-tri-state-area-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 1.810359208320733e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Toaster Drawing - New Yorker December 12th, 1994 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-december-12th-1994-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0008018314838409424,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "At-st Drawing - New Yorker July 19th, 1993 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-july-19th-1993-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0019068419933319092,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Watch Drawing - New Yorker May 26th, 2008 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/176-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00022283196449279785,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Ledge Drawing - The Line Of Succession by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/the-line-of-succession-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 1.9415197130001616e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Damn it, Hopkins, didn't you get yesterday's memo?\"\" - New Yorker Cartoon Premium Giclee Print by Jack Ziegler\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6005/GGFB100Z/posters/jack-ziegler-damn-it-hopkins-didn-t-you-get-yesterday-s-memo-new-yorker-cartoon.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005032718181610107,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"How long has it been now, Mary, since I've been off the charts?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-how-long-has-it-been-now-mary-since-i-ve-been-off-the-charts-new-yorker-cartoon_u-l-pgqks60.jpg?artWidth=300&artHeight=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00034168362617492676,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New boat owner is painting 'My First Boat' on the stern of his small yacht? - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-new-boat-owner-is-painting-my-first-boat-on-the-stern-of-his-small-yacht-new-yorker-cartoon_u-L-PGQE5H0.jpg?artWidth=300&artHeight=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0010176599025726318,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Parking Drawing - A Man Is At A Parking Meter And The Text Box by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-is-at-a-parking-meter-and-the-text-box-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005581676959991455,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Oh, Great! Here Comes The Obligatory Car Chase Greeting Card by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/oh-great-here-comes-the-obligatory-car-chase-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00012078946747351438,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Title: The Texas Chainsaw Quilting Bee.a Group Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/title-the-texas-chainsaw-quilting-beea-group-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0017958879470825195,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Damn It, Hopkins, Didn't You Get Yesterday's Memo? Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/damn-it-hopkins-didnt-you-get-yesterdays-memo-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0002548396587371826,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Free popcorn!\"\" - New Yorker Cartoon Premium Giclee Print by Jack Ziegler\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/67/6701/ELHA100Z/posters/jack-ziegler-free-popcorn-new-yorker-cartoon.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 4.46986268798355e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Well, You've Brought Me Down To The Sea Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/well-youve-brought-me-down-to-the-sea-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 6.155089067760855e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Cubicle Of Dr. Caligari Metal Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/the-cubicle-of-dr-caligari-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 1.5480776710319333e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker May 26th, 2008 Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/176-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00013083219528198242,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker May 9th, 1988 Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-may-9th-1988-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00039950013160705566,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Flying Drawing - A Man Looks Out The Window Of An Airplane by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-man-looks-out-the-window-of-an-airplane-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0011797547340393066,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Country IPhone X Case featuring the drawing Jimmyfest 2006 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/phone-case/iphone10/images-medium-5/80-untitled-jack-ziegler.jpg?&targetx=96&targety=245&imagewidth=190&imageheight=156&modelwidth=382&modelheight=646&backgroundcolor=ffffff&orientation=0",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0027906298637390137,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "People Painting - New Yorker April 3rd, 1978 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/new-yorker-april-3rd-1978-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 2.4517365091014653e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Cubicle Of Dr. Caligari Greeting Card by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/the-cubicle-of-dr-caligari-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 3.18064157909248e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My Insurance Dad Greeting Card by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/my-insurance-dad-jack-ziegle.jpg?&targetx=122&targety=50&imagewidth=455&imageheight=400&modelwidth=700&modelheight=500&backgroundcolor=ffffff&orientation=0",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0001494288444519043,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Cat thinks of a complex equation to get a ball off of a table. - New Yorker Cartoon Wall Art by Jack Ziegler",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9533/NZ44500Z/posters/jack-ziegler-cat-thinks-of-a-complex-equation-to-get-a-ball-off-of-a-table-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0016291439533233643,
      "validation": {
       "category": "artwork",
@@ -2113,7 +1791,7 @@
      "text": "\"\"\"\"\"\"\"Do you see how I'm lifting with my legs?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-do-you-see-how-i-m-lifting-with-my-legs-new-yorker-cartoon_u-L-PZKNKJ0.jpg?artWidth=300&artHeight=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.003215968608856201,
      "validation": {
       "category": "artwork",
@@ -2127,7 +1805,7 @@
      "text": "Costco Floss - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "https://cache2.allpostersimages.com/p/MED/65/6596/JMT2100Z/posters/jack-ziegler-costco-floss-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.894107304513454e-05,
      "validation": {
       "category": "artwork",
@@ -2141,7 +1819,7 @@
      "text": "Storefront Drawing - New Yorker May 16th, 1994 by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/new-yorker-may-16th-1994-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001201567574753426,
      "validation": {
       "category": "artwork",
@@ -2155,7 +1833,7 @@
      "text": "Hamburger Madness Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/hamburger-madness-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0010071992874145508,
      "validation": {
       "category": "artwork",
@@ -2166,11 +1844,11 @@
      }
     },
     {
-     "text": "Captionless Wood Print featuring the drawing A License Plate That Reads  Lic-plt by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/wood-print/8.000/6.750/break/images-medium-5/a-license-plate-that-reads-lic-plt-jack-ziegler.jpg",
+     "text": "London Tube Drawing - Replacing The Burger Tanks At Mr. Big's by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/replacing-the-burger-tanks-at-mr-bigs-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0002811253070831299,
+     "tier": "high",
+     "punsafe": 0.000674515962600708,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2180,11 +1858,11 @@
      }
     },
     {
-     "text": "Man sitting at a computer wearing earphones, talking to his wife. - Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-man-sitting-at-a-computer-wearing-earphones-talking-to-his-wife-cartoon_u-l-pgszqy0.jpg?artWidth=300&artHeight=300",
+     "text": "A Truck Of Rubble With A Warning On Its Back Greeting Card by Jack Ziegler",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/a-truck-of-rubble-with-a-warning-on-its-back-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0006133317947387695,
+     "tier": "high",
+     "punsafe": 0.001131683588027954,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2194,11 +1872,11 @@
      }
     },
     {
-     "text": "The Torah Drawing - Title: Adam And Eve In The Garden Of Fitness by Jack Ziegler",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/title-adam-and-eve-in-the-garden-of-fitness-jack-ziegler.jpg",
+     "text": "Tennis As A Metaphore For The Tri-state Area Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/tennis-as-a-metaphore-for-the-tri-state-area-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.03856745362281799,
+     "tier": "high",
+     "punsafe": 0.00010508000559639186,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2208,11 +1886,11 @@
      }
     },
     {
-     "text": "Sales Drawing - A Couple Stands On A City Street Where Holiday by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/a-couple-stands-on-a-city-street-where-holiday-jack-ziegler.jpg",
+     "text": "I Begged Him To Learn How To Swim - But Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/13-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.001865088939666748,
+     "tier": "high",
+     "punsafe": 6.262944225454703e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2222,11 +1900,11 @@
      }
     },
     {
-     "text": "Businessman Sitting On A Bed In Hotel Room Galaxy Case by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys8/images-medium-5/businessman-sitting-on-a-bed-in-hotel-room-jack-ziegler.jpg?&targetx=210&targety=87&imagewidth=200&imageheight=182&modelwidth=620&modelheight=356&backgroundcolor=ffffff&orientation=1&producttype=galaxys8",
+     "text": "Marlboro Drawing - New Yorker November 23rd, 1998 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-november-23rd-1998-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.007348001003265381,
+     "tier": "high",
+     "punsafe": 4.957326746080071e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2236,11 +1914,235 @@
      }
     },
     {
-     "text": "Wedding Drawing - Look - Let's Just Get Past Today by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/look-lets-just-get-past-today-jack-ziegle.jpg",
+     "text": "Spinning Drawing - New Yorker February 19th, 2007 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/88-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00039649009704589844,
+     "tier": "high",
+     "punsafe": 6.297598156379536e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"How long has it been now, Mary, since I've been off the charts?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-how-long-has-it-been-now-mary-since-i-ve-been-off-the-charts-new-yorker-cartoon_u-l-pgqks60.jpg?artWidth=300&artHeight=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00034168362617492676,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New boat owner is painting 'My First Boat' on the stern of his small yacht? - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-new-boat-owner-is-painting-my-first-boat-on-the-stern-of-his-small-yacht-new-yorker-cartoon_u-L-PGQE5H0.jpg?artWidth=300&artHeight=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0010176599025726318,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Parking Drawing - A Man Is At A Parking Meter And The Text Box by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-is-at-a-parking-meter-and-the-text-box-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0005581676959991455,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Oh, Great! Here Comes The Obligatory Car Chase Greeting Card by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/oh-great-here-comes-the-obligatory-car-chase-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00012078946747351438,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Title: The Texas Chainsaw Quilting Bee.a Group Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/title-the-texas-chainsaw-quilting-beea-group-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0017958879470825195,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Street Drawing - I Don't Get It. Who Doesn't Love A Circus? by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/89-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00030168890953063965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Tennis As A Metaphore For The Tri-state Area Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/tennis-as-a-metaphore-for-the-tri-state-area-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 1.810359208320733e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Toaster Drawing - New Yorker December 12th, 1994 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-december-12th-1994-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0008018314838409424,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "At-st Drawing - New Yorker July 19th, 1993 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-july-19th-1993-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0019068419933319092,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Watch Drawing - New Yorker May 26th, 2008 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/176-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00022283196449279785,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Ledge Drawing - The Line Of Succession by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/the-line-of-succession-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 1.9415197130001616e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Flying Drawing - A Man Looks Out The Window Of An Airplane by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-man-looks-out-the-window-of-an-airplane-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0011797547340393066,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Country IPhone X Case featuring the drawing Jimmyfest 2006 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/phone-case/iphone10/images-medium-5/80-untitled-jack-ziegler.jpg?&targetx=96&targety=245&imagewidth=190&imageheight=156&modelwidth=382&modelheight=646&backgroundcolor=ffffff&orientation=0",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0027906298637390137,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "People Painting - New Yorker April 3rd, 1978 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/new-yorker-april-3rd-1978-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 2.4517365091014653e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Cubicle Of Dr. Caligari Greeting Card by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/the-cubicle-of-dr-caligari-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 3.18064157909248e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My Insurance Dad Greeting Card by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/my-insurance-dad-jack-ziegle.jpg?&targetx=122&targety=50&imagewidth=455&imageheight=400&modelwidth=700&modelheight=500&backgroundcolor=ffffff&orientation=0",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0001494288444519043,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2253,22 +2155,8 @@
      "text": "Sweating man wearing only boxer shorts, shoveling snow from his front walk. - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-sweating-man-wearing-only-boxer-shorts-shoveling-snow-from-his-front-walk-new-yorker-cartoon_u-L-PGT0WQ0.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0065777599811553955,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Man walks into party and thinks to himself: \"\"\"\"Yipes! Grownups!!\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-man-walks-into-party-and-thinks-to-himself-yipes-grownups-new-yorker-cartoon_u-l-pgqznz0.jpg?w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 7.719783752691001e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2281,7 +2169,7 @@
      "text": "Pianist at piano writing sheet music while listening to his iPod. - Cartoon Giclee Print by Jack Ziegler",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/66/6607/N71E100Z/posters/jack-ziegler-pianist-at-piano-writing-sheet-music-while-listening-to-his-ipod-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.34129168651998e-05,
      "validation": {
       "category": "artwork",
@@ -2295,7 +2183,7 @@
      "text": "Four Adults Sit Outside On Uncomfortable Looking Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/four-adults-sit-outside-on-uncomfortable-looking-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00010213854693574831,
      "validation": {
       "category": "artwork",
@@ -2309,7 +2197,7 @@
      "text": "Wall Art - Drawing - My Insurance Dad by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/my-insurance-dad-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00014513731002807617,
      "validation": {
       "category": "artwork",
@@ -2323,8 +2211,92 @@
      "text": "Same Drawing - Roommates by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/90-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0014899969100952148,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Damn It, Hopkins, Didn't You Get Yesterday's Memo? Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/damn-it-hopkins-didnt-you-get-yesterdays-memo-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0002548396587371826,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Free popcorn!\"\" - New Yorker Cartoon Premium Giclee Print by Jack Ziegler\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/67/6701/ELHA100Z/posters/jack-ziegler-free-popcorn-new-yorker-cartoon.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 4.46986268798355e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Well, You've Brought Me Down To The Sea Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/well-youve-brought-me-down-to-the-sea-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 6.155089067760855e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Cubicle Of Dr. Caligari Metal Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/the-cubicle-of-dr-caligari-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 1.5480776710319333e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker May 26th, 2008 Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/176-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00013083219528198242,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker May 9th, 1988 Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-may-9th-1988-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00039950013160705566,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2337,7 +2309,7 @@
      "text": "\"\"\"\"\"\"\"Objection, Your Honor! Alleged killer whale.\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-objection-your-honor-alleged-killer-whale-new-yorker-cartoon_u-l-pgpl4yo3qj6.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0003666877746582031,
      "validation": {
       "category": "artwork",
@@ -2351,7 +2323,7 @@
      "text": "\"\"\"Dude! I am so not prepared for this!\"\" - New Yorker Cartoon by Jack Ziegler\"",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-dude-i-am-so-not-prepared-for-this-new-yorker-cartoon_u-l-pgsyc20.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018069148063659668,
      "validation": {
       "category": "artwork",
@@ -2365,7 +2337,7 @@
      "text": "Bowl Drawing - A Man Sitting On A Couch Watching The Super Bowl by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/a-man-sitting-on-a-couch-watching-the-super-bowl-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0010528564453125,
      "validation": {
       "category": "artwork",
@@ -2379,7 +2351,7 @@
      "text": "I See From Your Resume That You Enjoy Attending Greeting Card by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/i-see-from-your-resume-that-you-enjoy-attending-jack-ziegle.jpg?&targetx=109&targety=50&imagewidth=482&imageheight=400&modelwidth=700&modelheight=500&backgroundcolor=ffffff&orientation=0",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.000673443078994751,
      "validation": {
       "category": "artwork",
@@ -2393,7 +2365,7 @@
      "text": "We Do It, Havermeyer, Because Our Corporate Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/we-do-it-havermeyer-because-our-corporate-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 6.831647624494508e-06,
      "validation": {
       "category": "artwork",
@@ -2407,7 +2379,7 @@
      "text": "Oh, For Pity's Sake, Wouldn't He Be Better Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/oh-for-pitys-sake-wouldnt-he-be-better-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0007571876049041748,
      "validation": {
       "category": "artwork",
@@ -2421,7 +2393,7 @@
      "text": "Fence Drawing - New Yorker May 28th, 2007 by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/151-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0003851354122161865,
      "validation": {
       "category": "artwork",
@@ -2435,7 +2407,7 @@
      "text": "New Yorker May 12th, 1997 Galaxy S7 Case by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys7/images-medium-5/new-yorker-may-12th-1997-jack-ziegle.jpg?&targetx=186&targety=89&imagewidth=292&imageheight=195&modelwidth=664&modelheight=374&backgroundcolor=ffffff&orientation=1&producttype=galaxys7",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0010417699813842773,
      "validation": {
       "category": "artwork",
@@ -2449,7 +2421,7 @@
      "text": "Teachers Drawing - Spelling Bee At Ridgefield Country Day School by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/spelling-bee-at-ridgefield-country-day-school-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0007062554359436035,
      "validation": {
       "category": "artwork",
@@ -2463,7 +2435,7 @@
      "text": "Marry Me, Virginia.  My Genes Are Excellent And Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/marry-me-virginia-my-genes-are-excellent-and-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001251697540283203,
      "validation": {
       "category": "artwork",
@@ -2477,7 +2449,7 @@
      "text": "Metro-north Is Proud To Announce That This Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/metro-north-is-proud-to-announce-that-this-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.002186685800552368,
      "validation": {
       "category": "artwork",
@@ -2488,11 +2460,11 @@
      }
     },
     {
-     "text": "The Subpoenaed Diaries Of An\u00efs Nin - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/66/6616/656E100Z/posters/jack-ziegler-the-subpoenaed-diaries-of-anis-nin-new-yorker-cartoon.jpg",
+     "text": "Captionless Wood Print featuring the drawing A License Plate That Reads  Lic-plt by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/wood-print/8.000/6.750/break/images-medium-5/a-license-plate-that-reads-lic-plt-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0001881718635559082,
+     "tier": "high",
+     "punsafe": 0.0002811253070831299,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2502,11 +2474,11 @@
      }
     },
     {
-     "text": "Literature Drawing - New Yorker December 7th, 1998 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/2-new-yorker-december-7th-1998-jack-ziegle.jpg",
+     "text": "Man sitting at a computer wearing earphones, talking to his wife. - Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-man-sitting-at-a-computer-wearing-earphones-talking-to-his-wife-cartoon_u-l-pgszqy0.jpg?artWidth=300&artHeight=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00038060545921325684,
+     "tier": "high",
+     "punsafe": 0.0006133317947387695,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2516,11 +2488,11 @@
      }
     },
     {
-     "text": "Highway Drawing - New Yorker November 23rd, 1998 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/new-yorker-november-23rd-1998-jack-ziegle.jpg",
+     "text": "The Torah Drawing - Title: Adam And Eve In The Garden Of Fitness by Jack Ziegler",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/title-adam-and-eve-in-the-garden-of-fitness-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00011728157551260665,
+     "tier": "high",
+     "punsafe": 0.03856745362281799,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2530,11 +2502,11 @@
      }
     },
     {
-     "text": "Just Drawing - My Insurance Dad by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/my-insurance-dad-jack-ziegle.jpg",
+     "text": "Sales Drawing - A Couple Stands On A City Street Where Holiday by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/a-couple-stands-on-a-city-street-where-holiday-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 4.682468716055155e-05,
+     "tier": "high",
+     "punsafe": 0.001865088939666748,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2544,11 +2516,25 @@
      }
     },
     {
-     "text": "\"\"\"\"\"\"\"Hey, what can I say?  It's not Baltimore, but then what is?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-hey-what-can-i-say-it-s-not-baltimore-but-then-what-is-new-yorker-cartoon_u-l-pgqg2r0.jpg?src=gp&w=300&h=300",
+     "text": "Businessman Sitting On A Bed In Hotel Room Galaxy Case by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys8/images-medium-5/businessman-sitting-on-a-bed-in-hotel-room-jack-ziegler.jpg?&targetx=210&targety=87&imagewidth=200&imageheight=182&modelwidth=620&modelheight=356&backgroundcolor=ffffff&orientation=1&producttype=galaxys8",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005241334438323975,
+     "tier": "high",
+     "punsafe": 0.007348001003265381,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wedding Drawing - Look - Let's Just Get Past Today by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/look-lets-just-get-past-today-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00039649009704589844,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2561,7 +2547,7 @@
      "text": "Television Program Wall Art - Drawing - Oh, Goody.  More Reality-based Crap by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/oh-goody-more-reality-based-crap-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 4.299153806641698e-05,
      "validation": {
       "category": "artwork",
@@ -2575,7 +2561,7 @@
      "text": "\"\"\"Is that your foot?\"\" - New Yorker Cartoon Premium Giclee Print by Jack Ziegler\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/59/5999/5KPQG00Z/prints/jack-ziegler-is-that-your-foot-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00012958049774169922,
      "validation": {
       "category": "artwork",
@@ -2589,7 +2575,7 @@
      "text": "New Yorker June 29th, 2009 Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/49-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00010397709411336109,
      "validation": {
       "category": "artwork",
@@ -2600,11 +2586,25 @@
      }
     },
     {
-     "text": "London Tube Drawing - Replacing The Burger Tanks At Mr. Big's by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/replacing-the-burger-tanks-at-mr-bigs-jack-ziegle.jpg",
+     "text": "The Subpoenaed Diaries Of An\u00efs Nin - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/66/6616/656E100Z/posters/jack-ziegler-the-subpoenaed-diaries-of-anis-nin-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.000674515962600708,
+     "tier": "high",
+     "punsafe": 0.0001881718635559082,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Literature Drawing - New Yorker December 7th, 1998 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/2-new-yorker-december-7th-1998-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00038060545921325684,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2615,16 +2615,16 @@
     }
    ],
    "samples": [
-    "Street Drawing - I Don't Get It. Who Doesn't Love A Circus? by Jack Ziegler",
-    "Tennis As A Metaphore For The Tri-state Area Framed Print by Jack Ziegler",
-    "Toaster Drawing - New Yorker December 12th, 1994 by Jack Ziegler",
-    "At-st Drawing - New Yorker July 19th, 1993 by Jack Ziegler",
-    "Watch Drawing - New Yorker May 26th, 2008 by Jack Ziegler",
-    "Ledge Drawing - The Line Of Succession by Jack Ziegler",
-    "\"\"\"Damn it, Hopkins, didn't you get yesterday's memo?\"\" - New Yorker Cartoon Premium Giclee Print by Jack Ziegler\"",
-    "\"\"\"\"\"\"\"How long has it been now, Mary, since I've been off the charts?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-    "New boat owner is painting 'My First Boat' on the stern of his small yacht? - New Yorker Cartoon by Jack Ziegler",
-    "Parking Drawing - A Man Is At A Parking Meter And The Text Box by Jack Ziegler"
+    "Cat thinks of a complex equation to get a ball off of a table. - New Yorker Cartoon Wall Art by Jack Ziegler",
+    "\"\"\"\"\"\"\"Do you see how I'm lifting with my legs?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
+    "Costco Floss - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
+    "Storefront Drawing - New Yorker May 16th, 1994 by Jack Ziegler",
+    "Hamburger Madness Drawing by Jack Ziegler",
+    "London Tube Drawing - Replacing The Burger Tanks At Mr. Big's by Jack Ziegler",
+    "A Truck Of Rubble With A Warning On Its Back Greeting Card by Jack Ziegler",
+    "Tennis As A Metaphore For The Tri-state Area Drawing by Jack Ziegler",
+    "I Begged Him To Learn How To Swim - But Framed Print by Jack Ziegler",
+    "Marlboro Drawing - New Yorker November 23rd, 1998 by Jack Ziegler"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2643,8 +2643,8 @@
    "coverageComplete": true,
    "rowsCovered": 2057910016,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 80,
+   "highConfidenceCount": 80,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 80,
@@ -2653,7 +2653,7 @@
      "text": "Taft Canvas Print - Bills Outstanding by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/bills-outstanding-jack-ziegle-canvas-print.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 1.5746352801215835e-05,
      "validation": {
       "category": "artwork",
@@ -2667,7 +2667,7 @@
      "text": "\"\"\"\"\"\"\"She got it in the divorce.\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-she-got-it-in-the-divorce-new-yorker-cartoon_u-L-PO211F0.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0010384619235992432,
      "validation": {
       "category": "artwork",
@@ -2681,22 +2681,8 @@
      "text": "N.y Drawing - N.y.c. Ping Pong Assoc. 2nd Floor by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/2-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00015529990196228027,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Scraper Biking, Manhattan, Spring, '93 - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-scraper-biking-manhattan-spring-93-new-yorker-cartoon_u-l-pgpx110.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0009452700614929199,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2709,8 +2695,36 @@
      "text": "1993 Drawing - Bills Outstanding by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/bills-outstanding-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00012442469596862793,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Scraper Biking, Manhattan, Spring, '93 - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-scraper-biking-manhattan-spring-93-new-yorker-cartoon_u-l-pgpx110.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0009452700614929199,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My Philosophy Take #74 - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon_u-L-PGQD8F0.jpg?src=gp&w=300&h=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00011435233318479732,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2723,7 +2737,7 @@
      "text": "Yuppie Street Gangs - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-yuppie-street-gangs-new-yorker-cartoon_u-l-pgtmnt0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0011378228664398193,
      "validation": {
       "category": "artwork",
@@ -2737,22 +2751,8 @@
      "text": "Jimmyfest 2006 by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-square-real-5/80-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0008561611175537109,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My Philosophy Take #74 - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon_u-L-PGQD8F0.jpg?src=gp&w=300&h=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00011435233318479732,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2765,7 +2765,7 @@
      "text": "Black Humor Drawing - Eddie Was A Simple Man by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/eddie-was-a-simple-man-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.634611731395125e-06,
      "validation": {
       "category": "artwork",
@@ -2779,22 +2779,8 @@
      "text": "A dusty robot plugs itself in. - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-dusty-robot-plugs-itself-in-new-yorker-cartoon_u-l-pgqu1p0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.008298605680465698,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Barn Drawing - Eeeeeeeeeeeeeeeeeeeeeeeeek! Oh by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/eeeeeeeeeeeeeeeeeeeeeeeeek-oh-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0004981160163879395,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2807,7 +2793,7 @@
      "text": "A dusty robot plugs itself in. - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-dusty-robot-plugs-itself-in-new-yorker-cartoon_u-l-pgqu1p0.jpg?artWidth=300&artHeight=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0057649314403533936,
      "validation": {
       "category": "artwork",
@@ -2821,7 +2807,7 @@
      "text": "I Believe In Eggs Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/i-believe-in-eggs-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00010539363574935123,
      "validation": {
       "category": "artwork",
@@ -2832,11 +2818,11 @@
      }
     },
     {
-     "text": "Bills Outstanding Acrylic Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/bills-outstanding-jack-ziegle.jpg",
+     "text": "Barn Drawing - Eeeeeeeeeeeeeeeeeeeeeeeeek! Oh by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/eeeeeeeeeeeeeeeeeeeeeeeeek-oh-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 2.4463506633765064e-05,
+     "tier": "high",
+     "punsafe": 0.0004981160163879395,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2849,8 +2835,22 @@
      "text": "Yuppie Street Gangs Art Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/yuppie-street-gangs-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0006328225135803223,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bills Outstanding Acrylic Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/bills-outstanding-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 2.4463506633765064e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2863,7 +2863,7 @@
      "text": "New Twenty Greeting Card by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/new-twenty-jack-ziegle.jpg?&targetx=70&targety=103&imagewidth=560&imageheight=293&modelwidth=700&modelheight=500&backgroundcolor=ffffff&orientation=0",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0008346140384674072,
      "validation": {
       "category": "artwork",
@@ -2877,7 +2877,7 @@
      "text": "No...Nooooo...Noooooooo - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-no-nooooo-noooooooo-new-yorker-cartoon_u-L-Q10MGNZ0.jpg?artWidth=300&artHeight=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00048619508743286133,
      "validation": {
       "category": "artwork",
@@ -2891,22 +2891,8 @@
      "text": "Festival Drawing - Jimmyfest 2006 by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/80-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00013020634651184082,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Three Stylish Klansmen Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/22-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.000468522310256958,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2919,7 +2905,7 @@
      "text": "Eeeeeeeeeeeeeeeeeeeeeeeeek! Oh Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/eeeeeeeeeeeeeeeeeeeeeeeeek-oh-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.8377533201128244e-05,
      "validation": {
       "category": "artwork",
@@ -2930,249 +2916,11 @@
      }
     },
     {
-     "text": "No...Nooooo...Noooooooo - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-no-nooooo-noooooooo-new-yorker-cartoon_u-l-q10mgnz0.jpg?src=gp&w=300&h=300",
+     "text": "The Three Stylish Klansmen Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/22-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00031301379203796387,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It's A Cat Calendar Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/its-a-cat-calendar-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 2.6205369067611173e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Yuppie Street Gangs Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/yuppie-street-gangs-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00023701786994934082,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker September 23rd, 1985 Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-september-23rd-1985-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00788155198097229,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I Assure Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/i-assure-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00012615323066711426,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Lot Of You Used To Know Us As The L.a Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/a-lot-of-you-used-to-know-us-as-the-la-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 7.414088759105653e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"Free popcorn!\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-free-popcorn-new-yorker-cartoon_u-l-pgy1cq0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00011438789078965783,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A dusty robot plugs itself in. - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-dusty-robot-plugs-itself-in-new-yorker-cartoon_u-l-pgqu1p0.jpg?src=gp&amp;w=300&amp;h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005396902561187744,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Eeeeeeeeeeeeeeeeeeeeeeeeek! Oh Acrylic Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/eeeeeeeeeeeeeeeeeeeeeeeeek-oh-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00011519713007146493,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Beg Acrylic Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/beg-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 3.083715637330897e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Spider Drawing - Eeeeeeeeeeeeeeeeeeeeeeeeek! Oh by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/eeeeeeeeeeeeeeeeeeeeeeeeek-oh-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0006198883056640625,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Heathcliff! Oh, Heathcliff!' - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/61/6151/AHAG100Z/posters/jack-ziegler-heathcliff-oh-heathcliff-new-yorker-cartoon.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.025398820638656616,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My Philosophy Take #74 - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon_u-L-PGQD8F0.jpg?artWidth=300&artHeight=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00022432208061218262,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Jimmyfest 2006 Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/80-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0011511147022247314,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "No...Nooooo...Noooooooo - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-no-nooooo-noooooooo-new-yorker-cartoon_u-L-Q10MGNZ0.jpg?src=gp&w=300&h=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005336403846740723,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Shovels Canvas Print - An Artist Holding A Shovel Opens The Door by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images-medium-5/an-artist-holding-a-shovel-opens-the-door-jack-ziegler-canvas-print.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005042552947998047,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hey, You! Wanna Be My Best Friend? Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/143-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0011176466941833496,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\". . .'The Guns of Navarone,' 'Von Ryan's Express,' 'The Immortal Sergeant?\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-the-guns-of-navarone-von-ryan-s-express-the-immortal-sergeant-new-yorker-cartoon_u-l-pgtvkx0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00020301342010498047,
+     "tier": "high",
+     "punsafe": 0.000468522310256958,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3186,11 +2934,11 @@
     "Taft Canvas Print - Bills Outstanding by Jack Ziegler",
     "\"\"\"\"\"\"\"She got it in the divorce.\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
     "N.y Drawing - N.y.c. Ping Pong Assoc. 2nd Floor by Jack Ziegler",
-    "Scraper Biking, Manhattan, Spring, '93 - New Yorker Cartoon by Jack Ziegler",
     "1993 Drawing - Bills Outstanding by Jack Ziegler",
+    "Scraper Biking, Manhattan, Spring, '93 - New Yorker Cartoon by Jack Ziegler",
+    "My Philosophy Take #74 - New Yorker Cartoon by Jack Ziegler",
     "Yuppie Street Gangs - New Yorker Cartoon by Jack Ziegler",
     "Jimmyfest 2006 by Jack Ziegler",
-    "My Philosophy Take #74 - New Yorker Cartoon by Jack Ziegler",
     "Black Humor Drawing - Eddie Was A Simple Man by Jack Ziegler",
     "A dusty robot plugs itself in. - New Yorker Cartoon by Jack Ziegler"
    ],
@@ -3211,213 +2959,17 @@
    "coverageComplete": true,
    "rowsCovered": 1191320960,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 428,
+   "highConfidenceCount": 428,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 428,
    "rows": [
     {
-     "text": "Toasterman, Pancakeboy, And Mr. Overeasy Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/toasterman-pancakeboy-and-mr-overeasy-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00023066997528076172,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker January 3rd, 2005 Metal Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/59-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0028031766414642334,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-new-yorker-cartoon_u-l-ptyfmi0.jpg?artWidth=300&artHeight=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00016376376152038574,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Russian Drawing - Ralph Lauren Says That by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/ralph-lauren-says-that-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0004062056541442871,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lazy Drawing - Popcorn's Done by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/popcorns-done-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 2.3578490981890354e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Good news, your majesty. We may already be a winner.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-good-news-your-majesty-we-may-already-be-a-winner-new-yorker-cartoon_u-L-Q13629T0.jpg?artWidth=300&artHeight=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0001932084560394287,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Folding Chairs Drawing - Tenafly International Film Festival by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/tenafly-international-film-festival-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 3.2197393011301756e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "November 11th Drawing - New Yorker November 11th, 1991 by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/new-yorker-november-11th-1991-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0002269744873046875,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Grape Drawing - Further Cutbacks 'grape?' by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/further-cutbacksgrape-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00831913948059082,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker April 3rd, 1978 Acrylic Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/new-yorker-april-3rd-1978-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 6.909445073688403e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Oh, hell, Artie. Not another farewell tour.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-oh-hell-artie-not-another-farewell-tour-new-yorker-cartoon_u-l-pgssay0.jpg?artWidth=300&artHeight=300",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00295180082321167,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"I've been a cow all my life, honey.  Don't ask me to change now.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-i-ve-been-a-cow-all-my-life-honey-don-t-ask-me-to-change-now-new-yorker-cartoon_u-L-PGS3Z00.jpg?src=gp&w=300&h=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0008094608783721924,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Costco Floss - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-costco-floss-new-yorker-cartoon_u-L-PGQVUS0.jpg?artWidth=300&artHeight=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 1.774663178366609e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Untitled Framed Print by Jack Ziegler",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/132-untitled-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 4.0030197851592675e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Somewhere in America... - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/61/6148/86EG100Z/posters/jack-ziegler-somewhere-in-america-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001641780138015747,
      "validation": {
       "category": "artwork",
@@ -3431,7 +2983,7 @@
      "text": "A Surprise Guest. - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6066/VOAD100Z/posters/jack-ziegler-a-surprise-guest-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002455711364746094,
      "validation": {
       "category": "artwork",
@@ -3445,7 +2997,7 @@
      "text": "January 3rd At Rockefeller Center by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-square-real-5/january-3rd-at-rockefeller-center-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018647313117980957,
      "validation": {
       "category": "artwork",
@@ -3456,11 +3008,11 @@
      }
     },
     {
-     "text": "Dungeon Galaxy S6 Case - Captionless by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys6/images-medium-5/146-untitled-jack-ziegler.jpg?&targetx=84&targety=204&imagewidth=166&imageheight=153&modelwidth=334&modelheight=562&backgroundcolor=ffffff&orientation=0&producttype=galaxys6",
+     "text": "Hudson River Drawing - Hudson River Crouton by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/hudson-river-crouton-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0013883709907531738,
+     "tier": "high",
+     "punsafe": 3.1142448278842494e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3473,7 +3025,7 @@
      "text": "\"\"\"Damn it, Hopkins, didn't you get yesterday's memo?\"\" - New Yorker Cartoon by Jack Ziegler\"",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-damn-it-hopkins-didn-t-you-get-yesterday-s-memo-new-yorker-cartoon_u-l-pgsv0y0.jpg?artWidth=300&artHeight=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.000394284725189209,
      "validation": {
       "category": "artwork",
@@ -3487,7 +3039,7 @@
      "text": "Tenafly International Film Festival - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-tenafly-international-film-festival-new-yorker-cartoon_u-l-pgsu8i0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0004971325397491455,
      "validation": {
       "category": "artwork",
@@ -3501,7 +3053,7 @@
      "text": "Heathcliff! Oh, Heathcliff!' - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-heathcliff-oh-heathcliff-new-yorker-cartoon_u-l-pgpjr30.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0008030235767364502,
      "validation": {
       "category": "artwork",
@@ -3512,11 +3064,11 @@
      }
     },
     {
-     "text": "The Subpoenaed Diaries Of An\u00efs Nin - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-the-subpoenaed-diaries-of-anis-nin-new-yorker-cartoon_u-L-PGTZA30.jpg?src=gp&w=300&h=375",
+     "text": "Captionless - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-captionless-new-yorker-cartoon_u-l-pibmh30.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0001117921419790946,
+     "tier": "high",
+     "punsafe": 0.0008777379989624023,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3526,81 +3078,11 @@
      }
     },
     {
-     "text": "Hudson River Drawing - Hudson River Crouton by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/hudson-river-crouton-jack-ziegle.jpg",
+     "text": "\"\"\"Oh, hell, Artie. Not another farewell tour.\"\" - New Yorker Cartoon by Jack Ziegler\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-oh-hell-artie-not-another-farewell-tour-new-yorker-cartoon_u-l-pgssay0.jpg?artWidth=300&artHeight=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 3.1142448278842494e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Sightings to date of Tilda Swinton in Kansas--Zero\"\" Desolate Kansas rode... - New Yorker Cartoon by Jack Ziegler\"",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-sightings-to-date-of-tilda-swinton-in-kansas-zero-desolate-kansas-rode-new-yorker-cartoon_u-L-Q11UXPR0.jpg?src=gp&w=300&h=375",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0003184974193572998,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Cartoon Panel Called Siggy Where Sigmund Freud Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-cartoon-panel-called-siggy-where-sigmund-freud-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.00011882033140864223,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker February 10th, 1997 Galaxy S4 Case by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys4/images-medium-5/new-yorker-february-10th-1997-jack-ziegle.jpg?&targetx=169&targety=83&imagewidth=200&imageheight=158&modelwidth=539&modelheight=324&backgroundcolor=ffffff&orientation=1&producttype=galaxys4",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0005978941917419434,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker June 27th, 1977 Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-june-27th-1977-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 3.815026502707042e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker April 12th, 1993 Art Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-april-12th-1993-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0004609227180480957,
+     "tier": "high",
+     "punsafe": 0.00295180082321167,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3613,7 +3095,7 @@
      "text": "My Philosophy Take 74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "https://cache2.allpostersimages.com/p/MED/65/6593/TEU2100Z/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00037220120429992676,
      "validation": {
       "category": "artwork",
@@ -3627,7 +3109,7 @@
      "text": "Tenafly International Film Festival - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-tenafly-international-film-festival-new-yorker-cartoon_u-l-pgsu8io3qj6.jpg?artWidth=300&artHeight=300",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 5.837332719238475e-05,
      "validation": {
       "category": "artwork",
@@ -3641,22 +3123,8 @@
      "text": "New Yorker July 2nd, 2007 Metal Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/50-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.002857297658920288,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Big Bang Comix Drawing by Jack Ziegler",
-     "imageUrl": "https://fineartamerica.com/images-medium-5/big-bang-comix-jack-ziegle.jpg",
-     "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0017750859260559082,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3669,7 +3137,7 @@
      "text": "Freud Drawing - A Cartoon Panel Called Siggy Where Sigmund Freud by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-cartoon-panel-called-siggy-where-sigmund-freud-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 4.875158265349455e-05,
      "validation": {
       "category": "artwork",
@@ -3683,7 +3151,7 @@
      "text": "Nuns Canvas Print - New Yorker April 23rd, 2007 by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images-medium-5/100-untitled-jack-ziegler-canvas-print.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.004037439823150635,
      "validation": {
       "category": "artwork",
@@ -3697,7 +3165,7 @@
      "text": "New Yorker October 1st, 1990 Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-october-1st-1990-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001722574234008789,
      "validation": {
       "category": "artwork",
@@ -3711,8 +3179,414 @@
      "text": "Further Cutbacks 'grape?' Poster by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/poster/images-medium-5/further-cutbacksgrape-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0037235617637634277,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Two royals held by servants play badminton. - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/98/9896/OVNJ500Z/posters/jack-ziegler-two-royals-held-by-servants-play-badminton-new-yorker-cartoon.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0003345310688018799,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Title: Spec Church. A Billboard Outside A Church Print by Jack Ziegler",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/title-spec-church-a-billboard-outside-a-church-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0006634891033172607,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Please Sit Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/please-sit-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0003186464309692383,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-new-yorker-cartoon_u-l-q10dlyq0.jpg?src=gp&w=300&h=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 1.3672986824531108e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Please Sit Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/please-sit-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00019660592079162598,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Russian Drawing - Ralph Lauren Says That by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/ralph-lauren-says-that-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0004062056541442871,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lazy Drawing - Popcorn's Done by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/popcorns-done-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 2.3578490981890354e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-new-yorker-cartoon_u-L-PTYF5J0.jpg?src=gp&w=300&h=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.002556145191192627,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Spirituality Drawing - Title: Spec Church. A Billboard Outside A Church by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/title-spec-church-a-billboard-outside-a-church-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0006634891033172607,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker June 23rd, 1997 Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-june-23rd-1997-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 3.4704986319411546e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker April 3rd, 2006 Art Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/106-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 4.001027627964504e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Toasterman, Pancakeboy, And Mr. Overeasy Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/toasterman-pancakeboy-and-mr-overeasy-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00023066997528076172,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker January 3rd, 2005 Metal Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/59-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0028031766414642334,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-new-yorker-cartoon_u-l-ptyfmi0.jpg?artWidth=300&artHeight=300",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00016376376152038574,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Good news, your majesty. We may already be a winner.\"\" - New Yorker Cartoon by Jack Ziegler\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-good-news-your-majesty-we-may-already-be-a-winner-new-yorker-cartoon_u-L-Q13629T0.jpg?artWidth=300&artHeight=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0001932084560394287,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Folding Chairs Drawing - Tenafly International Film Festival by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/tenafly-international-film-festival-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 3.2197393011301756e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "November 11th Drawing - New Yorker November 11th, 1991 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/new-yorker-november-11th-1991-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0002269744873046875,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Grape Drawing - Further Cutbacks 'grape?' by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/further-cutbacksgrape-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00831913948059082,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker April 3rd, 1978 Acrylic Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/acrylic-print/metalposts/break/images-medium-5/new-yorker-april-3rd-1978-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 6.909445073688403e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Sightings to date of Tilda Swinton in Kansas--Zero\"\" Desolate Kansas rode... - New Yorker Cartoon by Jack Ziegler\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-sightings-to-date-of-tilda-swinton-in-kansas-zero-desolate-kansas-rode-new-yorker-cartoon_u-L-Q11UXPR0.jpg?src=gp&w=300&h=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0003184974193572998,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Cartoon Panel Called Siggy Where Sigmund Freud Drawing by Jack Ziegler",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-cartoon-panel-called-siggy-where-sigmund-freud-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00011882033140864223,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker February 10th, 1997 Galaxy S4 Case by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys4/images-medium-5/new-yorker-february-10th-1997-jack-ziegle.jpg?&targetx=169&targety=83&imagewidth=200&imageheight=158&modelwidth=539&modelheight=324&backgroundcolor=ffffff&orientation=1&producttype=galaxys4",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0005978941917419434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker June 27th, 1977 Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-june-27th-1977-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 3.815026502707042e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dungeon Galaxy S6 Case - Captionless by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys6/images-medium-5/146-untitled-jack-ziegler.jpg?&targetx=84&targety=204&imagewidth=166&imageheight=153&modelwidth=334&modelheight=562&backgroundcolor=ffffff&orientation=0&producttype=galaxys6",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0013883709907531738,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Big Bang Comix Drawing by Jack Ziegler",
+     "imageUrl": "https://fineartamerica.com/images-medium-5/big-bang-comix-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0017750859260559082,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker April 12th, 1993 Art Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-april-12th-1993-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0004609227180480957,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I've been a cow all my life, honey.  Don't ask me to change now.\"\" - New Yorker Cartoon by Jack Ziegler\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-i-ve-been-a-cow-all-my-life-honey-don-t-ask-me-to-change-now-new-yorker-cartoon_u-L-PGS3Z00.jpg?src=gp&w=300&h=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0008094608783721924,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Costco Floss - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-costco-floss-new-yorker-cartoon_u-L-PGQVUS0.jpg?artWidth=300&artHeight=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 1.774663178366609e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Untitled Framed Print by Jack Ziegler",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/132-untitled-jack-ziegler.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 4.0030197851592675e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3725,7 +3599,7 @@
      "text": "My Philosophy Take #74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6066/O1ZD100Z/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00033655762672424316,
      "validation": {
       "category": "artwork",
@@ -3739,7 +3613,7 @@
      "text": "New Yorker October 25th, 1993 Framed Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-october-25th-1993-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 1.257870280824136e-05,
      "validation": {
       "category": "artwork",
@@ -3753,7 +3627,7 @@
      "text": "New Yorker December 28th, 1987 Art Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-december-28th-1987-jack-ziegler.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00020995736122131348,
      "validation": {
       "category": "artwork",
@@ -3767,7 +3641,7 @@
      "text": "New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/96/9627/DBYE500Z/posters/jack-ziegler-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001501142978668213,
      "validation": {
       "category": "artwork",
@@ -3781,7 +3655,7 @@
      "text": "New Yorker June 18th, 1990 Metal Print by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/new-yorker-june-18th-1990-jack-ziegle.jpg",
      "keyword": "jack ziegler",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 2.620899431349244e-05,
      "validation": {
       "category": "artwork",
@@ -3792,11 +3666,137 @@
      }
     },
     {
-     "text": "Please Sit Framed Print by Jack Ziegler",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/please-sit-jack-ziegler.jpg",
+     "text": "The Subpoenaed Diaries Of An\u00efs Nin - New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-the-subpoenaed-diaries-of-anis-nin-new-yorker-cartoon_u-L-PGTZA30.jpg?src=gp&w=300&h=375",
      "keyword": "jack ziegler",
-     "tier": "namematch",
-     "punsafe": 0.0003186464309692383,
+     "tier": "high",
+     "punsafe": 0.0001117921419790946,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Maureen Canvas Print - Man In Graveyard Looks At Tombstones by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images-medium-5/man-in-graveyard-looks-at-tombstones-jack-ziegler-canvas-print.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 6.132922862889245e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Beg Art Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/beg-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 9.566493827151135e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker July 19th, 1993 Framed Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/new-yorker-july-19th-1993-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0006579756736755371,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Etc Canvas Print - Big Bang Comix by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/big-bang-comix-jack-ziegle-canvas-print.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00043913722038269043,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Damn it, Hopkins, didn't you get yesterday's memo?\"\" - New Yorker Cartoon Premium Giclee Print by Jack Ziegler\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6005/GGFB100Z/posters/jack-ziegler-damn-it-hopkins-didn-t-you-get-yesterday-s-memo-new-yorker-cartoon.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0005032718181610107,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"And now, God help us all, Rachmaninoff's Concerto in C Minor.\"\" - New Yorker Cartoon by Jack Ziegler\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-and-now-god-help-us-all-rachmaninoff-s-concerto-in-c-minor-new-yorker-cartoon_u-L-PGQ2G50.jpg?artWidth=300&artHeight=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 9.82183773885481e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Walk Of The Stars: Jasperville Art Print by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/walk-of-the-stars-jasperville-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.00018513202667236328,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "New Yorker Cartoon by Jack Ziegler",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-new-yorker-cartoon_u-L-PTYFMT0.jpg?src=gp&w=300&h=375",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 0.0025286078453063965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoon Drawing - New Yorker June 11th, 1990 by Jack Ziegler",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/new-yorker-june-11th-1990-jack-ziegle.jpg",
+     "keyword": "jack ziegler",
+     "tier": "high",
+     "punsafe": 6.097688583395211e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3807,16 +3807,16 @@
     }
    ],
    "samples": [
-    "Toasterman, Pancakeboy, And Mr. Overeasy Framed Print by Jack Ziegler",
-    "New Yorker January 3rd, 2005 Metal Print by Jack Ziegler",
-    "New Yorker Cartoon by Jack Ziegler",
-    "Russian Drawing - Ralph Lauren Says That by Jack Ziegler",
-    "Lazy Drawing - Popcorn's Done by Jack Ziegler",
-    "\"\"\"Good news, your majesty. We may already be a winner.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-    "Folding Chairs Drawing - Tenafly International Film Festival by Jack Ziegler",
-    "November 11th Drawing - New Yorker November 11th, 1991 by Jack Ziegler",
-    "Grape Drawing - Further Cutbacks 'grape?' by Jack Ziegler",
-    "New Yorker April 3rd, 1978 Acrylic Print by Jack Ziegler"
+    "Somewhere in America... - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
+    "A Surprise Guest. - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
+    "January 3rd At Rockefeller Center by Jack Ziegler",
+    "Hudson River Drawing - Hudson River Crouton by Jack Ziegler",
+    "\"\"\"Damn it, Hopkins, didn't you get yesterday's memo?\"\" - New Yorker Cartoon by Jack Ziegler\"",
+    "Tenafly International Film Festival - New Yorker Cartoon by Jack Ziegler",
+    "Heathcliff! Oh, Heathcliff!' - New Yorker Cartoon by Jack Ziegler",
+    "Captionless - New Yorker Cartoon by Jack Ziegler",
+    "\"\"\"Oh, hell, Artie. Not another farewell tour.\"\" - New Yorker Cartoon by Jack Ziegler\"",
+    "My Philosophy Take 74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3835,8 +3835,8 @@
    "coverageComplete": true,
    "rowsCovered": 141047704,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 128,
+   "highConfidenceCount": 128,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 128,
@@ -3859,8 +3859,8 @@
    "coverageComplete": false,
    "rowsCovered": 917770,
    "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 1,
+   "highConfidenceCount": 1,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 1,
@@ -3883,8 +3883,8 @@
    "coverageComplete": false,
    "rowsCovered": 2230060,
    "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 1,
+   "highConfidenceCount": 1,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 1,
@@ -3905,19 +3905,19 @@
   "keywordEvidence": [
    {
     "keyword": "jack ziegler",
-    "tier": "namematch",
+    "tier": "high",
     "count": 3212,
     "captionHits": 3082,
     "longformHits": 130,
     "longformRatio": 0.04,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 231,
      "laion1b-nolang": 428,
      "laion2b-en": 2343,
      "laion2b-multi": 80,
      "obelics": 128,
-     "pile": 1,
-     "c4-en": 1
+     "pile": 1
     },
     "reason": null
    }
@@ -3926,19 +3926,19 @@
    "datasetsPresent": 7,
    "totalDatasets": 7,
    "credibleMentions": 3212,
-   "highConfidenceMentions": 0,
-   "nameMatchMentions": 3212,
+   "highConfidenceMentions": 3212,
+   "nameMatchMentions": 0,
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "storefront": 4,
-   "person_photo": 3,
-   "unverified": 88,
-   "merchandise": 18
+   "unverified": 85,
+   "merchandise": 18,
+   "person_photo": 1,
+   "storefront": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-jack-ziegler",
  "cohort": "billy-ireland",
@@ -3951,7 +3951,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 3212,
   "datasetsPresent": 7,

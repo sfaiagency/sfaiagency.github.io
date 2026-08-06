@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1051,20 +1051,6 @@
      }
     },
     {
-     "text": "walt kelly the pogo comic strip was syndicated to newspapers for",
-     "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcS7cMlPOC8lzxdCk6XPXh4RM7FuCPYc2cvpstwi38hKMfjFygtY",
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": 0.00012734532356262207,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Comic Original Newspaper strip by Walt Kelly February 15 1970 Miss Peach",
      "imageUrl": "https://i.pinimg.com/236x/ad/32/19/ad321933d2e481b214e7fd5441f5bf81--february--strip.jpg",
      "keyword": "pogo comic",
@@ -1084,6 +1070,20 @@
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 0.00025767087936401367,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "walt kelly the pogo comic strip was syndicated to newspapers for",
+     "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcS7cMlPOC8lzxdCk6XPXh4RM7FuCPYc2cvpstwi38hKMfjFygtY",
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": 0.00012734532356262207,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1135,6 +1135,20 @@
      }
     },
     {
+     "text": "Pogo Comic Strip: The Peace & Harmony Carol Team",
+     "imageUrl": "https://2.bp.blogspot.com/-snpirvVRluU/XgNwfsaU3GI/AAAAAAAAiz0/o570t-UtVUkJa03np4cBxhrY0Psg1O5UwCLcBGAsYHQ/s1600/dba436786c46c1ca7bb316d3f9a4355d.jpg",
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": 0.0007118284702301025,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Pogo Possum #13 comic books for sale",
      "imageUrl": "https://www.covernk.com/Covers/L/P/Pogo%20Possum/pogopossum13.jpg",
      "keyword": "pogo possum",
@@ -1149,11 +1163,25 @@
      }
     },
     {
-     "text": "Pogo Comic Strip: The Peace & Harmony Carol Team",
-     "imageUrl": "https://2.bp.blogspot.com/-snpirvVRluU/XgNwfsaU3GI/AAAAAAAAiz0/o570t-UtVUkJa03np4cBxhrY0Psg1O5UwCLcBGAsYHQ/s1600/dba436786c46c1ca7bb316d3f9a4355d.jpg",
-     "keyword": "pogo comic",
+     "text": "Golden Age (1938-1955):Funny Animal, Animal Comics #1 (Dell, 1942) CGC FN/VF 7.0 Off-white pages. Thefirst appearance of Pogo Possum by Walt Kelly is also the f...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F7%2F4%2F1774399%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 0.0007118284702301025,
+     "punsafe": 2.883382694562897e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Golden Age (1938-1955):Funny Animal, Pogo Possum #15 (Dell, 1954) CGC NM 9.4 Off-white pages. Morehilarity featuring the denizens of Okefenokee Swamp, drawn by ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F7%2F1%2F1771928%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": 1.4326967175293248e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1191,39 +1219,11 @@
      }
     },
     {
-     "text": "Golden Age (1938-1955):Funny Animal, Animal Comics #1 (Dell, 1942) CGC FN/VF 7.0 Off-white pages. Thefirst appearance of Pogo Possum by Walt Kelly is also the f...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F7%2F4%2F1774399%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 2.883382694562897e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Possum #6 comic book vg 4.0",
      "imageUrl": "https://s3.amazonaws.com/productimages.goantiques.gemr/61908/1852939_fullsize.jpg",
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 0.00010473594738868997,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Golden Age (1938-1955):Funny Animal, Pogo Possum #15 (Dell, 1954) CGC NM 9.4 Off-white pages. Morehilarity featuring the denizens of Okefenokee Swamp, drawn by ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F7%2F1%2F1771928%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 1.4326967175293248e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1303,34 +1303,6 @@
      }
     },
     {
-     "text": "Pogo Possum #15 comic books for sale",
-     "imageUrl": "https://www.covernk.com/Covers/S/P/Pogo%20Possum/pogopossum15.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 0.0002740919589996338,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo comic strip mentioning the mythical Jayhawk",
-     "imageUrl": "https://www.kshs.org/cool/graphics/pogo1lg.jpg",
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": 0.0012983381748199463,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Pogo Stepmother Goose by Walt Kelly 5635 (Brechtbug) Tags: pogo possum soft cover news strip cartoon books walt kelly vintage 1950s 50s 1960s 60s albert alligator churchy la femme turtle newspaper comic comics sunday funnies comicstrip opossum animal humor funny beast fable political satire witt",
      "imageUrl": "https://farm8.static.flickr.com/7867/32633268647_5cdff3dcf7_m.jpg",
      "keyword": "pogo possum",
@@ -1359,6 +1331,48 @@
      }
     },
     {
+     "text": "Pogo Possum #15 comic books for sale",
+     "imageUrl": "https://www.covernk.com/Covers/S/P/Pogo%20Possum/pogopossum15.jpg",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": 0.0002740919589996338,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo comic strip mentioning the mythical Jayhawk",
+     "imageUrl": "https://www.kshs.org/cool/graphics/pogo1lg.jpg",
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": 0.0012983381748199463,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Comic Strip Magazine, Vintage I Go Pogo The Okefenokee Star Cartoon Character, Comics Sheet Music & Letters to Editor, Walt Kelly",
+     "imageUrl": "https://img0.etsystatic.com/136/0/9228906/il_340x270.936470070_lsab.jpg",
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": 3.686158379423432e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Pogo Comic Books Vintage Walt Kelly - Pogo and The Pogo Party",
      "imageUrl": "http://img1.etsystatic.com/013/1/6767370/il_170x135.412831289_3hvw.jpg",
      "keyword": "pogo comic",
@@ -1378,20 +1392,6 @@
      "keyword": "pogo comic",
      "tier": "high",
      "punsafe": 0.0002084672451019287,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo Comic Strip Magazine, Vintage I Go Pogo The Okefenokee Star Cartoon Character, Comics Sheet Music & Letters to Editor, Walt Kelly",
-     "imageUrl": "https://img0.etsystatic.com/136/0/9228906/il_340x270.936470070_lsab.jpg",
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": 3.686158379423432e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1485,11 +1485,11 @@
      }
     },
     {
-     "text": "Pogo Possum 1949 Comic Books",
-     "imageUrl": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/834219.jpg",
-     "keyword": "pogo possum",
+     "text": "One View of Change The certainty of misery is better than the misery of uncertainty. Pogo Comic Strip",
+     "imageUrl": "http://images.slideplayer.com/14/4375247/slides/slide_2.jpg",
+     "keyword": "pogo comic",
      "tier": "high",
-     "punsafe": 0.0003781914710998535,
+     "punsafe": 2.943369145214092e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1499,11 +1499,11 @@
      }
     },
     {
-     "text": "One View of Change The certainty of misery is better than the misery of uncertainty. Pogo Comic Strip",
-     "imageUrl": "http://images.slideplayer.com/14/4375247/slides/slide_2.jpg",
-     "keyword": "pogo comic",
+     "text": "Pogo Possum 1949 Comic Books",
+     "imageUrl": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/834219.jpg",
+     "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 2.943369145214092e-05,
+     "punsafe": 0.0003781914710998535,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1653,11 +1653,11 @@
      }
     },
     {
-     "text": "Pogo Possum comic cover, by Walt Kelly",
-     "imageUrl": "https://www.lambiek.net/artists/image/k/kelly/kelly.jpg",
+     "text": "POGO POSSUM #10 1952 DELL by WALT KELLY ''INFINITY VF / NM CONDITION COMIC BOOK",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/09e6b9f2c7a0f8288bfe1cb2b1dde2af-300.jpg",
      "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 1.3677015886059962e-05,
+     "punsafe": 0.0001691877841949463,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1679,20 +1679,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "POGO POSSUM #10 1952 DELL by WALT KELLY ''INFINITY VF / NM CONDITION COMIC BOOK",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/09e6b9f2c7a0f8288bfe1cb2b1dde2af-300.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 0.0001691877841949463,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1704,8 +1690,8 @@
     "Golden Age (1938-1955):Humor, Pogo Possum #14-16 Group (Dell, 1953-54) Condition: Average VG-....(Total: 3 Comic Books)",
     "Pogo Possum comic books",
     "Pogo Comic Books Vintage Walt Kelly - Pogo and The Pogo Party",
-    "walt kelly the pogo comic strip was syndicated to newspapers for",
-    "Pogo Comic Original Newspaper strip by Walt Kelly February 15 1970 Miss Peach"
+    "Pogo Comic Original Newspaper strip by Walt Kelly February 15 1970 Miss Peach",
+    "Easter Bunny Albert Alligator and Pogo 6565 (Brechtbug) Tags: easter bunny albert alligator pogo possum by cartoonist walt kelly cartoon vintage 1960s 60s newspaper comic strip comics sunday funnies comicstrip opossum animal humor funny beast fable political satire witty southern okefenokee swamp cr"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1861,20 +1847,6 @@
      }
     },
     {
-     "text": "Pogo Possum #16-1954 vg last issue / Albert / Walt Kelly / Dell Comic",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/352423006520_/Pogo-Possum-16-1954-vg-last-issue-Albert.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 5.3053503506816924e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Possum #13 comic book fn 6.0",
      "imageUrl": "https://s3.amazonaws.com/productimages.goantiques.gemr/61908/1084688210_fullsize.jpg",
      "keyword": "pogo possum",
@@ -1889,11 +1861,25 @@
      }
     },
     {
-     "text": "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/MWwAAOSwXnVetzXc/s-l300.jpg",
+     "text": "Pogo Possum #16-1954 vg last issue / Albert / Walt Kelly / Dell Comic",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/352423006520_/Pogo-Possum-16-1954-vg-last-issue-Albert.jpg",
      "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 0.00010055551683763042,
+     "punsafe": 5.3053503506816924e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Possum & Albert Walt Kelly Golden Age style comic strip Dell Sericel",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/tesAAOSwEd1g~Yxw/s-l300.jpg",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": 0.00015822052955627441,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1917,11 +1903,11 @@
      }
     },
     {
-     "text": "Pogo Possum & Albert Walt Kelly Golden Age style comic strip Dell Sericel",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/tesAAOSwEd1g~Yxw/s-l300.jpg",
+     "text": "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/MWwAAOSwXnVetzXc/s-l300.jpg",
      "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 0.00015822052955627441,
+     "punsafe": 0.00010055551683763042,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1946,7 +1932,7 @@
     },
     {
      "text": "Pogo Possum (1949) comic books",
-     "imageUrl": "https://falschenflyttade.com/pvr/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
+     "imageUrl": "https://statt-dansjardin.com/hauwfl/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 0.0013253092765808105,
@@ -1973,11 +1959,11 @@
      }
     },
     {
-     "text": "Golden Age (1938-1955):Humor, Pogo Possum Group (Dell, 1951-52).... (Total: 4 Comic Books)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B7%2F2%2F7%2F1%2F7271254%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Pogo Possum (1949) comic books",
+     "imageUrl": "https://falschenflyttade.com/pvr/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
      "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 0.0002256631851196289,
+     "punsafe": 0.0013253092765808105,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1987,11 +1973,11 @@
      }
     },
     {
-     "text": "Pogo Possum (1949) comic books",
-     "imageUrl": "https://statt-dansjardin.com/hauwfl/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
+     "text": "Golden Age (1938-1955):Humor, Pogo Possum Group (Dell, 1951-52).... (Total: 4 Comic Books)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B7%2F2%2F7%2F1%2F7271254%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "pogo possum",
      "tier": "high",
-     "punsafe": 0.0013253092765808105,
+     "punsafe": 0.0002256631851196289,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2029,11 +2015,11 @@
      }
     },
     {
-     "text": "Lot of 11 vintage Walt Kelly POGO comic books",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/HVUAAOSwnsRagiT5/s-l225.jpg",
+     "text": "pogo comic strips jpg 1237x1600",
+     "imageUrl": "https://tse61.mm.bing.net/th?id=OIP.ZjUR_as0vpT22IBDl6pJHgHaJl",
      "keyword": "pogo comic",
      "tier": "high",
-     "punsafe": 7.729065691819414e-05,
+     "punsafe": 0.003332793712615967,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2043,11 +2029,11 @@
      }
     },
     {
-     "text": "pogo comic strips jpg 1237x1600",
-     "imageUrl": "https://tse61.mm.bing.net/th?id=OIP.ZjUR_as0vpT22IBDl6pJHgHaJl",
+     "text": "Lot of 11 vintage Walt Kelly POGO comic books",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/HVUAAOSwnsRagiT5/s-l225.jpg",
      "keyword": "pogo comic",
      "tier": "high",
-     "punsafe": 0.003332793712615967,
+     "punsafe": 7.729065691819414e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2171,15 +2157,15 @@
    ],
    "samples": [
     "Walt Kelly (American, 1913-1973)      Pogo Comic Strip, 7-24 (1969)",
-    "Pogo Possum #16-1954 vg last issue / Albert / Walt Kelly / Dell Comic",
     "Pogo Possum #13 comic book fn 6.0",
-    "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
-    "1951 POGO POSSUM #7 Walt Kelly comic book",
+    "Pogo Possum #16-1954 vg last issue / Albert / Walt Kelly / Dell Comic",
     "Pogo Possum & Albert Walt Kelly Golden Age style comic strip Dell Sericel",
+    "1951 POGO POSSUM #7 Walt Kelly comic book",
+    "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
     "pogo comic strips jpg 1200x388",
     "Pogo Possum (1949) comic books",
     "Pogo comic strip set in the Okefenokee Swamp",
-    "Golden Age (1938-1955):Humor, Pogo Possum Group (Dell, 1951-52).... (Total: 4 Comic Books)"
+    "Pogo Possum (1949) comic books"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2219,7 +2205,7 @@
      }
     },
     {
-     "text": "I am, as I have previously stated, a big fan of Fantagraphics' republishing of Walt Kelly's Pogo comic strip. In the second volume, I was interested to see the last panel of the strip for September 15, 1952. One corner of the panel has clearly been redrawn and relettered, and rather crudely and inac",
+     "text": "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
      "imageUrl": null,
      "keyword": "pogo comic",
      "tier": "high",
@@ -2233,7 +2219,7 @@
      }
     },
     {
-     "text": "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
+     "text": "I am, as I have previously stated, a big fan of Fantagraphics' republishing of Walt Kelly's Pogo comic strip. In the second volume, I was interested to see the last panel of the strip for September 15, 1952. One corner of the panel has clearly been redrawn and relettered, and rather crudely and inac",
      "imageUrl": null,
      "keyword": "pogo comic",
      "tier": "high",
@@ -2275,9 +2261,9 @@
      }
     },
     {
-     "text": "Theme: Left to Right, Up and Down\n\n\u201cPogo\u201d is a comic strip that was launched in 1948, the creation of cartoonist Walt Kelly. The story centers on animals that live in the Okefenokee Swamp on the Georgia-Florida border, with the title character \u201cPogo Possum\u201d being an anthropomorphic opossum.\n\nIn Fren",
+     "text": "(ORIGINALLY PUBLISHED IN JUY 2009)\nIn a recent email exchange with Dave Schuler of The Glittering Eye, he summed up beautifully why the illustrator of the late great Pogo comic strip was such an endearing yet powerful cartoonist.\n\n\"We could use Walt Kelly about now,\" Dave said. \"Criticism without cr",
      "imageUrl": null,
-     "keyword": "pogo possum",
+     "keyword": "pogo comic",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2289,9 +2275,9 @@
      }
     },
     {
-     "text": "(ORIGINALLY PUBLISHED IN JUY 2009)\nIn a recent email exchange with Dave Schuler of The Glittering Eye, he summed up beautifully why the illustrator of the late great Pogo comic strip was such an endearing yet powerful cartoonist.\n\n\"We could use Walt Kelly about now,\" Dave said. \"Criticism without cr",
+     "text": "Theme: Left to Right, Up and Down\n\n\u201cPogo\u201d is a comic strip that was launched in 1948, the creation of cartoonist Walt Kelly. The story centers on animals that live in the Okefenokee Swamp on the Georgia-Florida border, with the title character \u201cPogo Possum\u201d being an anthropomorphic opossum.\n\nIn Fren",
      "imageUrl": null,
-     "keyword": "pogo comic",
+     "keyword": "pogo possum",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2373,6 +2359,48 @@
      }
     },
     {
+     "text": "By now anyone who cares has probably heard of Fantagraphics' noble plans to take yet another run at reprinting the complete POGO comic strip by Walt Kelly. What folks tend to forget, however, is that in later years Kelly had quite a bit of assistance on the strip including from his wife Selby who to",
+     "imageUrl": null,
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "So what brought us to Okefenokee? Ren\u00e9 had never heard of Walt Kelly\u2019s Pogo. The long-running daily classic Pogo comic strip\n\n(1948-75) featured Pogo, one rather political possum, and his friends deep in the Georgia swamps. Besides, when would we ever come back here. And why?\n\n5 thoughts on \u201cI Go Po",
+     "imageUrl": null,
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "'Pogo' returns and he is ours -- in classy hardbacks\n\n\u201cWe have met the enemy and he is us.\u201d\n\nThat famous quote is from the comic strip Pogo, and truer words were never spoken \u2013 even though they were spoken by an anthropomorphic opossum. That little fella, Pogo, was the star of a comic strip written ",
+     "imageUrl": null,
+     "keyword": "albert the alligator",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "|| By LEN ANTHONY || This quote from the Pogo comic strip is the painful truth in the United States today.  I stopped writing editorials because I realized my opinions are not needed or wanted. Only the facts matter.  So, I committed to myself that if I ever wrote another article it would only conta",
      "imageUrl": null,
      "keyword": "pogo comic",
@@ -2415,20 +2443,6 @@
      }
     },
     {
-     "text": "By now anyone who cares has probably heard of Fantagraphics' noble plans to take yet another run at reprinting the complete POGO comic strip by Walt Kelly. What folks tend to forget, however, is that in later years Kelly had quite a bit of assistance on the strip including from his wife Selby who to",
-     "imageUrl": null,
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "I Go Pogo (Best of Pogo)\nView on Amazon\n\nWhat is Pogo? Pogo Comic, also known as Pogo the Bear, was a monthly comic strip created by cartoonist Walt Kelly, and syndicated to US newspapers in 1948 until the end of 1975. Set in the Okefenokee Swamp located in the southern United States, Pogo follows t",
      "imageUrl": null,
      "keyword": "pogo comic",
@@ -2444,48 +2458,6 @@
     },
     {
      "text": "\u201cIt was a finger of speech \u2014 I apologize!\u201d\n\nKelly created his first two characters, Pogo Possum and Albert Alligator, in 1941. Once he created the comic strip Pogo in 1948, it ran until Kelly\u2019s death in 1973. The strip had elements for children but was clearly designed for adults.\n\nThe Okefenokee st",
-     "imageUrl": null,
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "So what brought us to Okefenokee? Ren\u00e9 had never heard of Walt Kelly\u2019s Pogo. The long-running daily classic Pogo comic strip\n\n(1948-75) featured Pogo, one rather political possum, and his friends deep in the Georgia swamps. Besides, when would we ever come back here. And why?\n\n5 thoughts on \u201cI Go Po",
-     "imageUrl": null,
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "'Pogo' returns and he is ours -- in classy hardbacks\n\n\u201cWe have met the enemy and he is us.\u201d\n\nThat famous quote is from the comic strip Pogo, and truer words were never spoken \u2013 even though they were spoken by an anthropomorphic opossum. That little fella, Pogo, was the star of a comic strip written ",
-     "imageUrl": null,
-     "keyword": "albert the alligator",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Or Maybe a Character?\n\nThere\u2019s an ongoing project at the moment aiming to examine a rich supply of decades of work by Walt Kelly (1913-1973).\n\nHis best-known creation was Pogo Possum, introduced in Animal Comics #1 (1942). [Digressing: As an admirer of Kelly, I became a completist in my search for t",
      "imageUrl": null,
      "keyword": "pogo possum",
      "tier": "high",
@@ -2569,23 +2541,9 @@
      }
     },
     {
-     "text": "Walt Kelly debuted his comic strip POGO in the pages of the New York Star on October 4, 1948. The strip ran for the rest of the Star\u2019s publication, which ended on January 28, 1949. But POGO returned, this time in syndication, on May 16, 1949. The early syndicated POGO strips seem familiar. Kelly too",
+     "text": "Or Maybe a Character?\n\nThere\u2019s an ongoing project at the moment aiming to examine a rich supply of decades of work by Walt Kelly (1913-1973).\n\nHis best-known creation was Pogo Possum, introduced in Animal Comics #1 (1942). [Digressing: As an admirer of Kelly, I became a completist in my search for t",
      "imageUrl": null,
      "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Walt Kelly\u2019s Pogo was one of the great hilobrow comic strips of all time. In this 308-pp. whopper of a first volume, we meet for the first time Porkypine, Churchy LaFemme, Beauregard Bugleboy, Seminole Sam, and Howland Owl. (Pogo and Albert the Alligator had first appeared in Animal Comics.) There w",
-     "imageUrl": null,
-     "keyword": "albert the alligator",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2625,6 +2583,48 @@
      }
     },
     {
+     "text": "6 edition of Potluck Pogo. found in the catalog.\n\nPublished 1955 by Simon and Schuster in New York .\nWritten in English\n\n\n28 page color illustrated book. softbound. Slipcase on inner back cover contains Columbia 45rpm Record. Record label pictures POGO. Music by Walt Kelly. Book is near mint plus. r",
+     "imageUrl": null,
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Walt Kelly debuted his comic strip POGO in the pages of the New York Star on October 4, 1948. The strip ran for the rest of the Star\u2019s publication, which ended on January 28, 1949. But POGO returned, this time in syndication, on May 16, 1949. The early syndicated POGO strips seem familiar. Kelly too",
+     "imageUrl": null,
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Walt Kelly\u2019s Pogo was one of the great hilobrow comic strips of all time. In this 308-pp. whopper of a first volume, we meet for the first time Porkypine, Churchy LaFemme, Beauregard Bugleboy, Seminole Sam, and Howland Owl. (Pogo and Albert the Alligator had first appeared in Animal Comics.) There w",
+     "imageUrl": null,
+     "keyword": "albert the alligator",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "I read Saga of the Swamp Thing #32, Pog. This being 11 issues into Moore\u2019s run, this was probably a nice break from the norm found in this mag. The homage is lost on me due to my unfamiliarity with the Pogo comic strip. This decidedly answers the question as to whether I feel this comic is still rel",
      "imageUrl": null,
      "keyword": "pogo comic",
@@ -2640,20 +2640,6 @@
     },
     {
      "text": "I Go Pogo by Walt Kelly\n\n\u201cWe have met the enemy and he is us.\u201d So goes the classic line from Pogo, one of the great comic strips of the 20th century. This reissue of the strip\u2019s first book from 1952 remains painfully and hysterically relevant, as lead character Pogo Possum runs for president and def",
-     "imageUrl": null,
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "6 edition of Potluck Pogo. found in the catalog.\n\nPublished 1955 by Simon and Schuster in New York .\nWritten in English\n\n\n28 page color illustrated book. softbound. Slipcase on inner back cover contains Columbia 45rpm Record. Record label pictures POGO. Music by Walt Kelly. Book is near mint plus. r",
      "imageUrl": null,
      "keyword": "pogo possum",
      "tier": "high",
@@ -2709,9 +2695,9 @@
      }
     },
     {
-     "text": "There are many contenders for the best newspaper comic strip of all time. Krazy Kat was amazingly good, but most people didn\u2019t get it. Peanuts was great, and massively popular. Calvin and Hobbes was great in all respects. There are also cases to me made for Doonesbury, Barnaby, Mickey Mouse, Little ",
+     "text": "In a Pitchfork Magazine interview in 1996, Linnell recalled a Pogo strip that helped inspire the song \"Ana Ng\", specifically the opening lines:\n\n\"The other inspiration for [Ana Ng] was a Pogo comic strip. [...] Some of the characters are digging a hole. They decide they're going to dig to China, but",
      "imageUrl": null,
-     "keyword": "albert the alligator",
+     "keyword": "pogo comic",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2723,9 +2709,9 @@
      }
     },
     {
-     "text": "In a Pitchfork Magazine interview in 1996, Linnell recalled a Pogo strip that helped inspire the song \"Ana Ng\", specifically the opening lines:\n\n\"The other inspiration for [Ana Ng] was a Pogo comic strip. [...] Some of the characters are digging a hole. They decide they're going to dig to China, but",
+     "text": "There are many contenders for the best newspaper comic strip of all time. Krazy Kat was amazingly good, but most people didn\u2019t get it. Peanuts was great, and massively popular. Calvin and Hobbes was great in all respects. There are also cases to me made for Doonesbury, Barnaby, Mickey Mouse, Little ",
      "imageUrl": null,
-     "keyword": "pogo comic",
+     "keyword": "albert the alligator",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2779,34 +2765,6 @@
      }
     },
     {
-     "text": "Sung to the tune of Deck the halls with boughs of holly.\n\nThe artwork sprinkled on these pages is drawn from several sources, including textbooks, children\u2019s books and comic strips. Some effort was done to create a bit of ambience and relevance to the material of the page. With apologies to the auth",
-     "imageUrl": null,
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "During 1935 and 1936, his work also appeared in the fledgling comic book medium working for the company that was to become DC Comics. However, it was in Dell's Animal Comics that Pogo was born in 1941. He was just a featured player in the \"Albert the Alligator\" strip, but assumed a larger, then star",
-     "imageUrl": null,
-     "keyword": "albert the alligator",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The war booklet looks more puce than Lewis's puce monster. The word comes from French puce the color of a flea-- I guess a nasty pink flea.\n\nWL and his Blast, good to hear someone else interested in such things...\n\nThe only puce-colored book I own is \"The Pogo Puce Stamp Catalog\" by Walt Kelly (Simo",
      "imageUrl": null,
      "keyword": "pogo comic",
@@ -2838,6 +2796,34 @@
      "text": "With the development of the internet, they began to appear online as webcomics. There were more than different comic strips and daily cartoon panels in American newspapers alone each day for most of the 20th century, for a total of at least 7,, episodes. As the name implies, comic strips can be humo",
      "imageUrl": null,
      "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sung to the tune of Deck the halls with boughs of holly.\n\nThe artwork sprinkled on these pages is drawn from several sources, including textbooks, children\u2019s books and comic strips. Some effort was done to create a bit of ambience and relevance to the material of the page. With apologies to the auth",
+     "imageUrl": null,
+     "keyword": "pogo comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "During 1935 and 1936, his work also appeared in the fledgling comic book medium working for the company that was to become DC Comics. However, it was in Dell's Animal Comics that Pogo was born in 1941. He was just a featured player in the \"Albert the Alligator\" strip, but assumed a larger, then star",
+     "imageUrl": null,
+     "keyword": "albert the alligator",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2919,9 +2905,9 @@
      }
     },
     {
-     "text": "In addition to comic books, I read several of the comic strips that were published in the daily newspaper.  If you\u2019re under the age of 35, there\u2019s a strong likelihood that you don\u2019t read the newspaper because you\u2019ve been conditioned to retrieve news and current events from your Smartphone or laptop ",
+     "text": "The cover of this comic is drawn by Walk Kelly, though it doesn\u2019t feature his famous creations!  And even though I don\u2019t own this comic, I thought I should mentioned it and even show it to you.  Pogo and Albert the Alligator first appear within it\u2019s pages in a five page story entitled; \u201cAlbert Takes",
      "imageUrl": null,
-     "keyword": "pogo possum",
+     "keyword": "albert the alligator",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -2933,9 +2919,9 @@
      }
     },
     {
-     "text": "The cover of this comic is drawn by Walk Kelly, though it doesn\u2019t feature his famous creations!  And even though I don\u2019t own this comic, I thought I should mentioned it and even show it to you.  Pogo and Albert the Alligator first appear within it\u2019s pages in a five page story entitled; \u201cAlbert Takes",
+     "text": "In addition to comic books, I read several of the comic strips that were published in the daily newspaper.  If you\u2019re under the age of 35, there\u2019s a strong likelihood that you don\u2019t read the newspaper because you\u2019ve been conditioned to retrieve news and current events from your Smartphone or laptop ",
      "imageUrl": null,
-     "keyword": "albert the alligator",
+     "keyword": "pogo possum",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -3003,20 +2989,6 @@
      }
     },
     {
-     "text": "Pogo's 'Deck Us All With Boston Charlie:' A Walt Kelly Christmas Carol\n\nDeck us all with Boston Charlie,\nWalla Walla Wash., an' Kalamazoo!\nNora's freezin' on the trolley,\nSwaller dollar cauliflower alleygaroo!\n\nWalt Kelly's Pogo comic strip stopped publishing in 1975, but the spoof Christmas carol \"",
-     "imageUrl": null,
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "See search results for this author. Are you an author. Learn about Author Central Reviews: 3. Gone Pogo by Walt Kelly. Simon and Schuster Second Printing.\n\nText will be unmarked and pages crisp. Satisfaction is guaranteed with every order. GONE POGO By Walt Kelly **Mint Condition**. This edit will a",
      "imageUrl": null,
      "keyword": "pogo comic",
@@ -3031,7 +3003,21 @@
      }
     },
     {
-     "text": "Shepherd was unscripted, extemporaneous, improvisational, and completely unpredictable.  He loved jazz and sometimes played jazz records.  He loved poetry and sometimes read poems.  He loved the Pogo comic strip and sometimes read Pogo\u2019s songs.  He reflected, he contemplated, he commented, he told s",
+     "text": "Some of you may recall this in it's original sketch form. At C2E2 last month, \"Transylvania TV\" mastermind Gordon Smuder challenged me to draw comic strip icon Pogo Possum as Star Wars Bounty Hunter Boba Fett. I loved the idea so much, and knew with more time and resources, I could make it into some",
+     "imageUrl": null,
+     "keyword": "albert the alligator",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo's 'Deck Us All With Boston Charlie:' A Walt Kelly Christmas Carol\n\nDeck us all with Boston Charlie,\nWalla Walla Wash., an' Kalamazoo!\nNora's freezin' on the trolley,\nSwaller dollar cauliflower alleygaroo!\n\nWalt Kelly's Pogo comic strip stopped publishing in 1975, but the spoof Christmas carol \"",
      "imageUrl": null,
      "keyword": "pogo comic",
      "tier": "high",
@@ -3047,12 +3033,12 @@
    ],
    "samples": [
     "Pogo Possum, our mascot, was created by Walt Kelly, who invented a delicious menagerie of swamp creatures. All of the machines on our DCnet research network 128.4 are named after these creatures. The initials DC stand for District of Columbia, Distributed Computing, Drastically Corrupted or Direct C",
-    "I am, as I have previously stated, a big fan of Fantagraphics' republishing of Walt Kelly's Pogo comic strip. In the second volume, I was interested to see the last panel of the strip for September 15, 1952. One corner of the panel has clearly been redrawn and relettered, and rather crudely and inac",
     "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
+    "I am, as I have previously stated, a big fan of Fantagraphics' republishing of Walt Kelly's Pogo comic strip. In the second volume, I was interested to see the last panel of the strip for September 15, 1952. One corner of the panel has clearly been redrawn and relettered, and rather crudely and inac",
     "\u201cWe are confronted by insurmountable opportunities.\u201d\n\nSo commented Walt Kelly, the genius behind \u201cPogo,\u201d one of the all-time great newspaper comic strips featuring both satire and wordplay.\n\nPogo Possum, Churchy LaFemme, Porky Pine and the rest of the Okefenokee Swamp gang butchered common phrases a",
     "Walt Kelly's newspaper comic strip Pogo was a platform for Kelly to express political satire and commentary via a wildly entertaining, motley group of swamp critters. He tackled many of the sociopolitical issues of his day: the Red Scare, civil rights, the environment, consumerism. But the strip is ",
-    "Theme: Left to Right, Up and Down\n\n\u201cPogo\u201d is a comic strip that was launched in 1948, the creation of cartoonist Walt Kelly. The story centers on animals that live in the Okefenokee Swamp on the Georgia-Florida border, with the title character \u201cPogo Possum\u201d being an anthropomorphic opossum.\n\nIn Fren",
     "(ORIGINALLY PUBLISHED IN JUY 2009)\nIn a recent email exchange with Dave Schuler of The Glittering Eye, he summed up beautifully why the illustrator of the late great Pogo comic strip was such an endearing yet powerful cartoonist.\n\n\"We could use Walt Kelly about now,\" Dave said. \"Criticism without cr",
+    "Theme: Left to Right, Up and Down\n\n\u201cPogo\u201d is a comic strip that was launched in 1948, the creation of cartoonist Walt Kelly. The story centers on animals that live in the Okefenokee Swamp on the Georgia-Florida border, with the title character \u201cPogo Possum\u201d being an anthropomorphic opossum.\n\nIn Fren",
     "That\u2019s sand, not snow, on the grounds of this mid-1800s homestead.\n\nA fun tidbit of information is that the comic strip Pogowas based on animals living within the Okefenokee Swamp. Pogo the Possum and Albert the Alligator were two characters. Real people DID live in the swamp, like the Chesser famil",
     "Pogo: The Complete Syndicated Comic Strips is one of Fantagraphics' most successful reprint series since The Complete Eisner Award winning series represents the first time Pogo has been collected complete and in chronological order anywhere. These deluxe hardcovers present this highly influential, s",
     "Walt Kelly and Pogo: The Art of the Political Swamp\n\nOne of the most popular comic strips of the 1950s and the first to reference politics of the day, Walt Kelly's Pogo took on Joe McCarthy before the controversial senator was a blip on Edward R. Murrow's radar. The strip's satire was so biting, it "
@@ -3161,12 +3147,12 @@
     "longformHits": 134,
     "longformRatio": 0.313,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 12,
+     "laion1b-nolang": 82,
      "laion2b-en": 151,
      "laion2b-multi": 49,
-     "obelics": 132,
-     "laion1b-nolang": 82,
-     "c4-en": 2
+     "obelics": 132
     },
     "reason": null
    },
@@ -3179,9 +3165,9 @@
     "longformRatio": 0.357,
     "perDataset": {
      "coyo700m": 18,
+     "laion1b-nolang": 33,
      "laion2b-en": 100,
      "laion2b-multi": 2,
-     "laion1b-nolang": 33,
      "obelics": 85
     },
     "reason": null
@@ -3194,13 +3180,13 @@
     "longformHits": 154,
     "longformRatio": 0.806,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 1,
      "laion1b-nolang": 10,
      "laion2b-en": 20,
      "laion2b-multi": 6,
      "obelics": 151,
-     "pile": 1,
-     "c4-en": 2
+     "pile": 1
     },
     "reason": null
    },
@@ -3212,13 +3198,13 @@
     "longformHits": 1760,
     "longformRatio": 0.464,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 219,
      "laion1b-nolang": 440,
      "laion2b-en": 1163,
      "laion2b-multi": 211,
      "obelics": 1741,
-     "pile": 9,
-     "c4-en": 10
+     "pile": 9
     },
     "reason": "common-name match"
    }
@@ -3232,17 +3218,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 3793
   },
-  "evidenceShown": 146,
+  "evidenceShown": 145,
   "evidenceWithheld": {
-   "unverified": 533,
-   "merchandise": 31,
    "person_photo": 71,
-   "derivative": 3,
-   "storefront": 14,
-   "unrelated": 10,
+   "unverified": 526,
+   "merchandise": 31,
+   "storefront": 21,
+   "derivative": 4,
+   "unrelated": 9,
    "explicit": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-walt-kelly",
  "cohort": "billy-ireland",
@@ -3255,7 +3241,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 857,
   "datasetsPresent": 7,

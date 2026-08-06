@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -939,11 +939,11 @@
    "totalIncludingLowConfidence": 1144,
    "rows": [
     {
-     "text": "The adorable little stars from Mutts Comic Strip",
-     "imageUrl": "https://i.pinimg.com/236x/30/81/c2/3081c230dc5748ece5cad80366a73283--dog-humour-humor.jpg",
+     "text": "petco love changes everything MUTTS comic strip Patrick McDonnell",
+     "imageUrl": "https://www.sugarthegoldenretriever.com/wp-content/uploads/2017/03/petco-love-changes-everything-MUTTS-comic-strip-Patrick-McDonnell.jpg",
      "keyword": "mutts comic strip",
      "tier": "high",
-     "punsafe": 1.5012012227089144e-05,
+     "punsafe": 0.00021281838417053223,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -967,11 +967,11 @@
      }
     },
     {
-     "text": "petco love changes everything MUTTS comic strip Patrick McDonnell",
-     "imageUrl": "https://www.sugarthegoldenretriever.com/wp-content/uploads/2017/03/petco-love-changes-everything-MUTTS-comic-strip-Patrick-McDonnell.jpg",
+     "text": "The adorable little stars from Mutts Comic Strip",
+     "imageUrl": "https://i.pinimg.com/236x/30/81/c2/3081c230dc5748ece5cad80366a73283--dog-humour-humor.jpg",
      "keyword": "mutts comic strip",
      "tier": "high",
-     "punsafe": 0.00021281838417053223,
+     "punsafe": 1.5012012227089144e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1009,11 +1009,11 @@
      }
     },
     {
-     "text": "Mutts Comic Strip Featured On PBS Nature",
-     "imageUrl": "https://2187.smushcdn.com/991/wp-content/blogs.dir/1/files/2009/05/mutts_nownownow.jpg?lossy=1&strip=1&webp=0",
+     "text": "Call of the Wild : A MUTTS Comic Strip Treasury",
+     "imageUrl": "https://i5.walmartimages.com/asr/1fe08f56-57a1-4d55-aabe-77e33dabebe7_1.9d0f97f91ee5c02dce0ce8e98cfff37a.jpeg?odnWidth=200&amp;odnHeight=200&amp;odnBg=ffffff",
      "keyword": "mutts comic strip",
      "tier": "high",
-     "punsafe": 0.00021925568580627441,
+     "punsafe": 6.937314901733771e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1023,11 +1023,11 @@
      }
     },
     {
-     "text": "Call of the Wild : A MUTTS Comic Strip Treasury",
-     "imageUrl": "https://i5.walmartimages.com/asr/1fe08f56-57a1-4d55-aabe-77e33dabebe7_1.9d0f97f91ee5c02dce0ce8e98cfff37a.jpeg?odnWidth=200&amp;odnHeight=200&amp;odnBg=ffffff",
+     "text": "Mutts Comic Strip Featured On PBS Nature",
+     "imageUrl": "https://2187.smushcdn.com/991/wp-content/blogs.dir/1/files/2009/05/mutts_nownownow.jpg?lossy=1&strip=1&webp=0",
      "keyword": "mutts comic strip",
      "tier": "high",
-     "punsafe": 6.937314901733771e-05,
+     "punsafe": 0.00021925568580627441,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1304,13 +1304,13 @@
     }
    ],
    "samples": [
-    "The adorable little stars from Mutts Comic Strip",
-    "The adorable little stars from Mutts Comic Strip",
     "petco love changes everything MUTTS comic strip Patrick McDonnell",
+    "The adorable little stars from Mutts Comic Strip",
+    "The adorable little stars from Mutts Comic Strip",
     "Call of the Wild: A MUTTS Comic Strip Treasury (Mutts Treasury) ~ Patrick McDonnell",
     "Call of the Wild A MUTTS Comic Strip Treasury 2008 9780740770999 Front Cover",
-    "Mutts Comic Strip Featured On PBS Nature",
     "Call of the Wild : A MUTTS Comic Strip Treasury",
+    "Mutts Comic Strip Featured On PBS Nature",
     "Call of the Wild: A MUTTS Comic Strip Treasury",
     "Call of the Wild: A Mutts Comic Strip Treasury",
     "Signed MUTTS ArtworkMuseum quality MUTTS comic strip hand-signed by Patrick McDonnell, the creator of the beloved daily comic strip Mutts. In 1994, Patrick McDonnell created the comic strip MUTTS which now appears in over 700 newspapers and 20 countries."
@@ -1419,34 +1419,6 @@
    "totalIncludingLowConfidence": 2411,
    "rows": [
     {
-     "text": "New York Times best-selling author Patrick McDonnell is the creator of the award-winning MUTTS comic strip. Always striking a delicate balance between lighthearted fun and responsible social commentary, MUTTS has been recognized by critics and popular press alike for its distinctive style, heartwarm",
-     "imageUrl": null,
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "MUTTS Comes to ACC Along with Shelter Me\n\nAward-winning artist and animal advocate Patrick McDonnell, creator of the MUTTS comic strip, turned his experience at Animal Care Centers of NYC (ACC), into a week\u2019s worth of MUTTS comics called \u201cShelter Stories,\u201d which ran in February, 2016. He was filmed ",
-     "imageUrl": null,
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The truth is, sometimes being loose in the world is not an entirely positive experience.  The Little Red Cat Who Ran Away and Learned His A B C's (the Hard Way) (Little, Brown And Company, September 5, 2017) written and illustrated by Patrick McDonnell follows the adventures of a family feline that ",
      "imageUrl": null,
      "keyword": "mutts comic strip",
@@ -1461,7 +1433,35 @@
      }
     },
     {
+     "text": "New York Times best-selling author Patrick McDonnell is the creator of the award-winning MUTTS comic strip. Always striking a delicate balance between lighthearted fun and responsible social commentary, MUTTS has been recognized by critics and popular press alike for its distinctive style, heartwarm",
+     "imageUrl": null,
+     "keyword": "mutts comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "MUTTS comic strip creator Patrick McDonnell  has authored a new play based on his New York Times best-selling children\u2019s book, The Gift of Nothing. The Kennedy Center-commissioned world premiere musical opens at The Kennedy Center on Nov. 22 and runs until Dec. 28.\n\nIn the musical, Mooch, a charming",
+     "imageUrl": null,
+     "keyword": "mutts comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MUTTS Comes to ACC Along with Shelter Me\n\nAward-winning artist and animal advocate Patrick McDonnell, creator of the MUTTS comic strip, turned his experience at Animal Care Centers of NYC (ACC), into a week\u2019s worth of MUTTS comics called \u201cShelter Stories,\u201d which ran in February, 2016. He was filmed ",
      "imageUrl": null,
      "keyword": "mutts comic strip",
      "tier": "high",
@@ -1629,6 +1629,20 @@
      }
     },
     {
+     "text": "I want you to do something Sunday morning. It\u2019s pretty simple\u2014just open your newspaper and look at the MUTTS comic strip by Patrick McDonnell. (If yours isn\u2019t one of the more than 700 papers that carries MUTTS, or you\u2019ve moved beyond paper, you can see an archive of the strips at muttscomics.com.)\n\n",
+     "imageUrl": null,
+     "keyword": "mutts comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Upon returning east in 1941, Walt began illustrating a series of comic books which featured a \u201cfurred and feathered\u201d bunch of creatures who lived deep in the Okefenokee Swamp, just . Get MUTTS in your inbox\u2014and fetch 15% off your next order! Receive the daily MUTTS comic strip, special offers, and o",
      "imageUrl": null,
      "keyword": "mutts comic strip",
@@ -1643,7 +1657,7 @@
      }
     },
     {
-     "text": "I want you to do something Sunday morning. It\u2019s pretty simple\u2014just open your newspaper and look at the MUTTS comic strip by Patrick McDonnell. (If yours isn\u2019t one of the more than 700 papers that carries MUTTS, or you\u2019ve moved beyond paper, you can see an archive of the strips at muttscomics.com.)\n\n",
+     "text": "I own, enjoy and treasure these books, The Gift of Nothing, Art, Just Like Heaven, Hug Time, South and Wag! by author/illustrator, Patrick McDonnell . McDonnell is the brilliant artist of the acclaimed Mutts comic strip.  He is passionately involved in organizations for the protection of animals and",
      "imageUrl": null,
      "keyword": "mutts comic strip",
      "tier": "high",
@@ -1685,34 +1699,6 @@
      }
     },
     {
-     "text": "I own, enjoy and treasure these books, The Gift of Nothing, Art, Just Like Heaven, Hug Time, South and Wag! by author/illustrator, Patrick McDonnell . McDonnell is the brilliant artist of the acclaimed Mutts comic strip.  He is passionately involved in organizations for the protection of animals and",
-     "imageUrl": null,
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Still date night-high... here's a Mutts comic strip to end this post. :) Have a good next half of October!\n\nLast Sunday, we biked to nearby (30 minutes) Bousai no Oka Park for 11:00am mass with other church community members from our neighboring Kanagawa parishes. The mass was concelebrated by 6 pri",
-     "imageUrl": null,
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Dear Diary - Today I saw a book of fine, gentle, and artful comics so stupidly packaged that it stands as a profoundly sad example of exploitation. I feel sick. I need a belly rub.\n\nMutts, Patrick McDonnell\u2019s sweet, smart comic strip has joyfully chased its tail across the funny page sections of new",
      "imageUrl": null,
      "keyword": "mutts comic strip",
@@ -1728,6 +1714,20 @@
     },
     {
      "text": "It gets worse. The strips are stuck on pages that have the requisite blue and red lines of classroom composition notebook paper. The Mutts comic strips lie on top of the paper like white tiles. The notebook conceit adds nothing, besides a rather ignoble attempt to capitalize on the impressive sales ",
+     "imageUrl": null,
+     "keyword": "mutts comic strip",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Still date night-high... here's a Mutts comic strip to end this post. :) Have a good next half of October!\n\nLast Sunday, we biked to nearby (30 minutes) Bousai no Oka Park for 11:00am mass with other church community members from our neighboring Kanagawa parishes. The mass was concelebrated by 6 pri",
      "imageUrl": null,
      "keyword": "mutts comic strip",
      "tier": "high",
@@ -1783,7 +1783,7 @@
      }
     },
     {
-     "text": "Call of the Wild - A Mutts Comic Strip Treasury (Vol. 17)\n\n\u2022 En ingl\u00e9s / In English. \"To me, Mutts is exactly what a comic strip should be.\" -Charles Schulz, Peanuts creator MUTTS appears in 700 newspapers in more than 20 countries and receives about 1 million visits each month to its official Web s",
+     "text": "Vote For the Best Mutts Comic Strip of the Year\n\nVote For the Best Garfield Comic Strip of 2009\n\nI guess April boasted a lot of good strips for Garfield.\nPosted by Cracked Like An Egg at 4:03 PM 2 comments:",
      "imageUrl": null,
      "keyword": "mutts comic strip",
      "tier": "high",
@@ -1797,7 +1797,7 @@
      }
     },
     {
-     "text": "Vote For the Best Mutts Comic Strip of the Year\n\nVote For the Best Garfield Comic Strip of 2009\n\nI guess April boasted a lot of good strips for Garfield.\nPosted by Cracked Like An Egg at 4:03 PM 2 comments:",
+     "text": "Call of the Wild - A Mutts Comic Strip Treasury (Vol. 17)\n\n\u2022 En ingl\u00e9s / In English. \"To me, Mutts is exactly what a comic strip should be.\" -Charles Schulz, Peanuts creator MUTTS appears in 700 newspapers in more than 20 countries and receives about 1 million visits each month to its official Web s",
      "imageUrl": null,
      "keyword": "mutts comic strip",
      "tier": "high",
@@ -1910,10 +1910,10 @@
     }
    ],
    "samples": [
-    "New York Times best-selling author Patrick McDonnell is the creator of the award-winning MUTTS comic strip. Always striking a delicate balance between lighthearted fun and responsible social commentary, MUTTS has been recognized by critics and popular press alike for its distinctive style, heartwarm",
-    "MUTTS Comes to ACC Along with Shelter Me\n\nAward-winning artist and animal advocate Patrick McDonnell, creator of the MUTTS comic strip, turned his experience at Animal Care Centers of NYC (ACC), into a week\u2019s worth of MUTTS comics called \u201cShelter Stories,\u201d which ran in February, 2016. He was filmed ",
     "The truth is, sometimes being loose in the world is not an entirely positive experience.  The Little Red Cat Who Ran Away and Learned His A B C's (the Hard Way) (Little, Brown And Company, September 5, 2017) written and illustrated by Patrick McDonnell follows the adventures of a family feline that ",
+    "New York Times best-selling author Patrick McDonnell is the creator of the award-winning MUTTS comic strip. Always striking a delicate balance between lighthearted fun and responsible social commentary, MUTTS has been recognized by critics and popular press alike for its distinctive style, heartwarm",
     "MUTTS comic strip creator Patrick McDonnell  has authored a new play based on his New York Times best-selling children\u2019s book, The Gift of Nothing. The Kennedy Center-commissioned world premiere musical opens at The Kennedy Center on Nov. 22 and runs until Dec. 28.\n\nIn the musical, Mooch, a charming",
+    "MUTTS Comes to ACC Along with Shelter Me\n\nAward-winning artist and animal advocate Patrick McDonnell, creator of the MUTTS comic strip, turned his experience at Animal Care Centers of NYC (ACC), into a week\u2019s worth of MUTTS comics called \u201cShelter Stories,\u201d which ran in February, 2016. He was filmed ",
     "Today, June 5th is World Environment Day (WED). It is a day that has been set aside since 1974 to promote \u201cworldwide awareness and action for the protection of our environment.\u201d Last year\u2019s theme was \u201cbeat plastic pollution,\" and the Mutts comic strip stop this entry, is a small reminder of how plas",
     "Unlike the characters in The Mutts comic strip (posted above), on this day after Christmas,  I am stirring, but like them I'm exhausted, so I'll keep it short.\n\nToday is Boxing Day \"which is only celebrated in a few countries; mainly ones historically connected to the UK (such as Canada, Australia, ",
     "MUTTS Comic Strip Creator Patrick McDonnell: \u201cI Try My Best to Give a Voice to Shelter Animals\u201d\n\nGrowing up in Edison, New Jersey in the 1960s, McDonnell longed for two things \u2013 to own a dog and create comics. Alas, he didn\u2019t achieve the first goal until way into his thirties: \u201cMy family had cats. I",
@@ -2010,12 +2010,12 @@
     "longformHits": 65,
     "longformRatio": 0.657,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 1,
-     "laion2b-en": 28,
      "laion1b-nolang": 5,
+     "laion2b-en": 28,
      "obelics": 63,
-     "pile": 1,
-     "c4-en": 1
+     "pile": 1
     },
     "reason": null
    },
@@ -2027,13 +2027,13 @@
     "longformHits": 2235,
     "longformRatio": 0.437,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 185,
      "laion1b-nolang": 922,
      "laion2b-en": 1062,
      "laion2b-multi": 708,
      "obelics": 2215,
-     "pile": 10,
-     "c4-en": 10
+     "pile": 10
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -2045,13 +2045,13 @@
     "longformHits": 137,
     "longformRatio": 0.544,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 12,
+     "laion1b-nolang": 28,
      "laion2b-en": 54,
      "laion2b-multi": 21,
      "obelics": 133,
-     "laion1b-nolang": 28,
-     "pile": 2,
-     "c4-en": 2
+     "pile": 2
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -2067,12 +2067,12 @@
   },
   "evidenceShown": 65,
   "evidenceWithheld": {
+   "unverified": 19,
    "person_photo": 5,
    "unrelated": 2,
-   "unverified": 19,
    "storefront": 4
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-patrick-mcdonnell-and-karen-oconnell",
  "cohort": "billy-ireland",
@@ -2085,7 +2085,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 99,
   "datasetsPresent": 6,

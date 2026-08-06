@@ -805,9 +805,9 @@
     "longformRatio": 0.0,
     "perDataset": {
      "coyo700m": 3,
+     "laion1b-nolang": 4,
      "laion2b-en": 8,
-     "laion2b-multi": 1,
-     "laion1b-nolang": 4
+     "laion2b-multi": 1
     },
     "reason": null
    }
@@ -823,9 +823,10 @@
   },
   "evidenceShown": 3,
   "evidenceWithheld": {
-   "unverified": 13
+   "storefront": 3,
+   "unverified": 10
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-will-rannells",
  "cohort": "billy-ireland",
@@ -838,7 +839,7 @@
   "estimatedMonthlyUsers": 24073000,
   "estimatedTotalGenerations": 4814600000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 16,
   "datasetsPresent": 4,

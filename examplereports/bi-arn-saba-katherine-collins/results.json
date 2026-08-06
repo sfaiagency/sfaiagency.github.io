@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -922,20 +922,6 @@
    "totalIncludingLowConfidence": 127,
    "rows": [
     {
-     "text": "Neil the Horse Comics and Stories Comic Books. Neil the Horse Comics and Stories Comics.",
-     "imageUrl": "https://www.covernk.com/Covers/S/N/Neil%20the%20Horse%20Comics%20and%20Stories/neilthehorsecomicsandstories1.jpg",
-     "keyword": "neil the horse",
-     "tier": "high",
-     "punsafe": 0.000560075044631958,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Arn Saba's NEIL THE HORSE COMICS AND STORIES #12 1985 Vintage Comic Book RARE",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/wZYAAOxyjzNRFbRY/s-l225.jpg",
      "keyword": "neil the horse",
@@ -955,6 +941,20 @@
      "keyword": "neil the horse",
      "tier": "high",
      "punsafe": 0.0014414191246032715,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Neil the Horse Comics and Stories Comic Books. Neil the Horse Comics and Stories Comics.",
+     "imageUrl": "https://www.covernk.com/Covers/S/N/Neil%20the%20Horse%20Comics%20and%20Stories/neilthehorsecomicsandstories1.jpg",
+     "keyword": "neil the horse",
+     "tier": "high",
+     "punsafe": 0.000560075044631958,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1006,6 +1006,20 @@
      }
     },
     {
+     "text": "Neil the Horse Comics and Stories #14 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
+     "imageUrl": "https://www.covernk.com/Covers/S/N/Neil%20the%20Horse%20Comics%20and%20Stories/neilthehorsecomicsandstories14.jpg",
+     "keyword": "neil the horse",
+     "tier": "high",
+     "punsafe": 0.000340193510055542,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Neil the Horse Comics and Stories #9 comic books for sale",
      "imageUrl": "https://www.covernk.com/Covers/S/N/Neil%20the%20Horse%20Comics%20and%20Stories/neilthehorsecomicsandstories9.jpg",
      "keyword": "neil the horse",
@@ -1034,21 +1048,7 @@
      }
     },
     {
-     "text": "Neil the Horse Comics and Stories #14 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
-     "imageUrl": "https://www.covernk.com/Covers/S/N/Neil%20the%20Horse%20Comics%20and%20Stories/neilthehorsecomicsandstories14.jpg",
-     "keyword": "neil the horse",
-     "tier": "high",
-     "punsafe": 0.000340193510055542,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Neil the Horse Comics and Stories #8 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
+     "text": "Neil the Horse Comics and Stories #8 comic books for sale",
      "imageUrl": "https://www.covernk.com/Covers/S/N/Neil%20the%20Horse%20Comics%20and%20Stories/neilthehorsecomicsandstories8.jpg",
      "keyword": "neil the horse",
      "tier": "high",
@@ -1091,16 +1091,16 @@
     }
    ],
    "samples": [
-    "Neil the Horse Comics and Stories Comic Books. Neil the Horse Comics and Stories Comics.",
     "Arn Saba's NEIL THE HORSE COMICS AND STORIES #12 1985 Vintage Comic Book RARE",
     "Neil the Horse Comics and Stories #13 comic books for sale",
+    "Neil the Horse Comics and Stories Comic Books. Neil the Horse Comics and Stories Comics.",
     "Neil the Horse Comics and Stories #4 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
     "Neil the Horse Comics and Stories #5 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
     "Neil the Horse Comics and Stories #12 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
+    "Neil the Horse Comics and Stories #14 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
     "Neil the Horse Comics and Stories #9 comic books for sale",
     "Neil the Horse Comics and Stories #11 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
-    "Neil the Horse Comics and Stories #14 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery",
-    "Neil the Horse Comics and Stories #8 Comic Books - Covers, Scans, Photos  in Neil the Horse Comics and Stories Comic Books - Covers, Scans, Gallery"
+    "Neil the Horse Comics and Stories #8 comic books for sale"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1230,7 +1230,7 @@
      }
     },
     {
-     "text": "It would be hard \u2014 very hard \u2014 to find work as diverse as that of Canadian cartoonist Katherine Collins (formerly Arn Saba). Collins\u2019 Neil the Horse, originally published in the \u201980s, stood unique among its peers. Not content with the violent aesthetic of many of its comic book contemporaries, Neil ",
+     "text": "One cannot help but smile (unless you\u2019re a curmudgeon!) at the motto, \u201cMaking the World Safe for Musical Comedy,\u201d when referring to Neil the Horse, a comic book character that was featured in a newspaper strip, comic book series, and adapted to a musical for radio! The big-eyed black horse with stri",
      "imageUrl": null,
      "keyword": "neil the horse",
      "tier": "high",
@@ -1244,7 +1244,7 @@
      }
     },
     {
-     "text": "One cannot help but smile (unless you\u2019re a curmudgeon!) at the motto, \u201cMaking the World Safe for Musical Comedy,\u201d when referring to Neil the Horse, a comic book character that was featured in a newspaper strip, comic book series, and adapted to a musical for radio! The big-eyed black horse with stri",
+     "text": "It would be hard \u2014 very hard \u2014 to find work as diverse as that of Canadian cartoonist Katherine Collins (formerly Arn Saba). Collins\u2019 Neil the Horse, originally published in the \u201980s, stood unique among its peers. Not content with the violent aesthetic of many of its comic book contemporaries, Neil ",
      "imageUrl": null,
      "keyword": "neil the horse",
      "tier": "high",
@@ -1333,8 +1333,8 @@
     "Ready for round two? The authors and artists from the original The Secret Loves of Geek Girls return with this new volume! Stories of love, lust, bullies, exes, and of course comic books and video-games all make up the varied stories in this collection.\n\nKatie West lives in Scotland and is the owner",
     "Neil the Horse ran 15 issues in the 1980s. With its tagline, \u201cMaking the World Safe for Musical Comedy\u201d it is the world\u2019s only musical comic book. It is a totally original hybrid influenced more by Carl Barks and Fred Astaire than by the underground comics of the time. Originally produced under the ",
     "So I was like 14 at the time, and I was a major fan of the Neil the Horse comic book series by Arn Saba. I think there was an ad for the radio series in one of the issues, so I sent off for a copy. From Arn Saba personally?  Hm.  I don\u2019t recall any more.\n\nAnyway, Neil the Horse is making the world s",
-    "It would be hard \u2014 very hard \u2014 to find work as diverse as that of Canadian cartoonist Katherine Collins (formerly Arn Saba). Collins\u2019 Neil the Horse, originally published in the \u201980s, stood unique among its peers. Not content with the violent aesthetic of many of its comic book contemporaries, Neil ",
     "One cannot help but smile (unless you\u2019re a curmudgeon!) at the motto, \u201cMaking the World Safe for Musical Comedy,\u201d when referring to Neil the Horse, a comic book character that was featured in a newspaper strip, comic book series, and adapted to a musical for radio! The big-eyed black horse with stri",
+    "It would be hard \u2014 very hard \u2014 to find work as diverse as that of Canadian cartoonist Katherine Collins (formerly Arn Saba). Collins\u2019 Neil the Horse, originally published in the \u201980s, stood unique among its peers. Not content with the violent aesthetic of many of its comic book contemporaries, Neil ",
     "composer. Her most famous creation is Neil the Horse. The series ran in Canadian newspapers from 1975 to 1982. It also appeared in fifteen comic book issues from 1983 to 1988. Collins has identified as a transgender woman since 1993. In 2013, she was inducted into the Joe Shuster Canadian Comic Book",
     "The rewards of picto-fiction are strange and awesome. It appeals to base visual sensibilities and highbrow literary interests while packaged in the modest physical form of a comic book. The medium has produced some of sequential art\u2019s most challenging and experimental works.\n\nTerror Illustrated no. ",
     "In the early 1970s, not having read a comic book in 20 years, my interest was re-drawn to them by the question of what gave value to art. I had considered comic books worth a dime, since this is what I had paid for them. But this was no longer the case. Value, it turned out, was affected by such fac",
@@ -1427,12 +1427,12 @@
     "longformHits": 50,
     "longformRatio": 0.226,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 41,
+     "laion1b-nolang": 2,
      "laion2b-en": 127,
      "laion2b-multi": 1,
-     "laion1b-nolang": 2,
-     "obelics": 49,
-     "c4-en": 1
+     "obelics": 49
     },
     "reason": null
    },
@@ -1462,10 +1462,10 @@
   "evidenceWithheld": {
    "unverified": 111,
    "person_photo": 74,
-   "unrelated": 2,
-   "storefront": 1
+   "storefront": 1,
+   "unrelated": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-arn-saba-katherine-collins",
  "cohort": "billy-ireland",
@@ -1478,7 +1478,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 221,
   "datasetsPresent": 6,

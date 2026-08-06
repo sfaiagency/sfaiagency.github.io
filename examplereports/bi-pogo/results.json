@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -897,6 +897,188 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 249,
    "rows": [
+    {
+     "text": "Pogo Sunday Page by Walt Kelly from 12/1/1957 Tabloid Size: 11 x 15 inches",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/38e638bed8332e4ed904132b434e0c21-300.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Sunday Page by Walt Kelly from 3/24/1957 Tabloid Size: 11 x 15 inches",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/e704860b1106742d234835c96e93f555-300.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo - the Complete Syndicated Comic Strips: Clean As a Weasel (Walt Kelly's Pogo, Band 6",
+     "imageUrl": "https://europecheck.de/wp-content/plugins/aawp/public/image.php?url=https://images-eu.ssl-images-amazon.com/images/I/51eNtbZB2OL.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Glob by John O'Reilly, Illustrated by Walt Kelly (1952",
+     "imageUrl": "https://static.wixstatic.com/media/45963b_faf898ef16764a51ad69265d6134486a~mv2.jpg/v1/fill/w_467,h_498,al_c,q_85,usm_0.66_1.00_0.01/45963b_faf898ef16764a51ad69265d6134486a~mv2.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo The Complete Syndicated Comic Strips Box Set: Volume 3 & 4: Evidence To The Contrary and Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
+     "imageUrl": "https://images.booksense.com/images/649/998/9781606998649.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo The Complete Syndicated Comic Strips: Volume 4: Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
+     "imageUrl": "https://images.booksense.com/images/632/998/9781606998632.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "POGO FILES FOR POGOPHILES: A RETROSPECTIVE ON 50 YEARS OF WALT KELLY'S CLASSIC COMIC STRIP. Selby...",
+     "imageUrl": "https://www.atlantavintagebooks.com/images/noimage.png",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
+     "imageUrl": "https://viewcomics.me/images/series/11228.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Sunday Page by Walt Kelly from 1/6/1957 Tabloid Size: 11 x 15 inches",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/7f67015a71637b639ce33cb84648b1ac-300.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
+     "imageUrl": "https://viewcomics.me/images/series/16452.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Sunday Page by Walt Kelly from 12/15/1957 Tabloid Size: 11 x 15 inches",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/50c6fdbdbc11240281e166bcced3511c-300.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Image of Pogo The Complete Syndicated Comic Strips: Volume 3: Evidence To The Contrary (Walt Kelly's Pogo",
+     "imageUrl": "https://m.media-amazon.com/images/I/61u8NCtX29L.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Sunday Page by Walt Kelly from 7/28/1957 Tabloid Size: 11 x 15 inches",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/e943fdf6e39eacd8917cc5b367987cb1-300.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "Pogo The Complete Syndicated Comic Strips: Volume 5: Out Of This World At Home (Walt Kelly's Pogo) Cover Image",
      "imageUrl": "https://images.booksense.com/images/338/961/9781683961338.jpg",
@@ -954,20 +1136,6 @@
      }
     },
     {
-     "text": "Pogo Sunday Page by Walt Kelly from 12/1/1957 Tabloid Size: 11 x 15 inches",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/38e638bed8332e4ed904132b434e0c21-300.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "artsprojekt, village, asian, china, town, people, bone, white, creme, pagoda, age bracket, Jeff Smith (cartoonist), pastern, Pogo (comics), furcula, Jean Giraud, splint bone, Time (magazine), temporal bone, anklebone, animated cartoon, os temporale, comic strip, fetter bone, Walt Kelly, cannon bone,",
      "imageUrl": "http://rlv.zcache.com/bone_village_card-r64c8d1f631334103920c218728117858_xvua8_8byvr_210.jpg",
      "keyword": "walt kelly",
@@ -982,8 +1150,8 @@
      }
     },
     {
-     "text": "Pogo Sunday Page by Walt Kelly from 3/24/1957 Tabloid Size: 11 x 15 inches",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/e704860b1106742d234835c96e93f555-300.jpg",
+     "text": "Pogo the Complete Syndicated Comic Strips: Hijinks from the Horn of Plenty (Walt Kelly\\'s Pogo, Band 8",
+     "imageUrl": "https://m.media-amazon.com/images/I/51EwckNLMjL._SL500_.jpg",
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": null,
@@ -1066,76 +1234,6 @@
      }
     },
     {
-     "text": "Pogo - the Complete Syndicated Comic Strips: Clean As a Weasel (Walt Kelly's Pogo, Band 6",
-     "imageUrl": "https://europecheck.de/wp-content/plugins/aawp/public/image.php?url=https://images-eu.ssl-images-amazon.com/images/I/51eNtbZB2OL.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo The Complete Syndicated Comic Strips Box Set: Volume 3 & 4: Evidence To The Contrary and Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
-     "imageUrl": "https://images.booksense.com/images/649/998/9781606998649.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Glob by John O'Reilly, Illustrated by Walt Kelly (1952",
-     "imageUrl": "https://static.wixstatic.com/media/45963b_faf898ef16764a51ad69265d6134486a~mv2.jpg/v1/fill/w_467,h_498,al_c,q_85,usm_0.66_1.00_0.01/45963b_faf898ef16764a51ad69265d6134486a~mv2.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo The Complete Syndicated Comic Strips: Volume 4: Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
-     "imageUrl": "https://images.booksense.com/images/632/998/9781606998632.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "POGO FILES FOR POGOPHILES: A RETROSPECTIVE ON 50 YEARS OF WALT KELLY'S CLASSIC COMIC STRIP. Selby...",
-     "imageUrl": "https://www.atlantavintagebooks.com/images/noimage.png",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "photo by Tim Casey<br /> <br /> Albert the Alligator was on hand during the Marion County Gator Club's Gator Gathering (and ninth stop of the Gator Country Caravan) on Thursday, July 31, 2008 at Central Florida Community College in Ocala, Fla.",
      "imageUrl": "https://photos.smugmug.com/Other/Photo-Gallery-Ocala-Caravan/i-wLhkBqG/2/8157f1f6/M/06_080731_Albert_1625_TCasey-M.jpg",
      "keyword": "albert the alligator",
@@ -1164,48 +1262,6 @@
      }
     },
     {
-     "text": "Pogo Sunday Page by Walt Kelly from 1/6/1957 Tabloid Size: 11 x 15 inches",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/7f67015a71637b639ce33cb84648b1ac-300.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
-     "imageUrl": "https://viewcomics.me/images/series/16452.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
-     "imageUrl": "https://viewcomics.me/images/series/11228.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Sunday Page by Walt Kelly from 10/13/1957 Tabloid Size: 11 x 15 inches",
      "imageUrl": "https://storage.googleapis.com/hipcomic/p/a98991592df5916aaee453768cbdbf58-300.jpg",
      "keyword": "walt kelly",
@@ -1220,50 +1276,8 @@
      }
     },
     {
-     "text": "Image of Pogo The Complete Syndicated Comic Strips: Volume 3: Evidence To The Contrary (Walt Kelly's Pogo",
-     "imageUrl": "https://m.media-amazon.com/images/I/61u8NCtX29L.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo Sunday Page by Walt Kelly from 12/15/1957 Tabloid Size: 11 x 15 inches",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/50c6fdbdbc11240281e166bcced3511c-300.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo Sunday Page by Walt Kelly from 7/28/1957 Tabloid Size: 11 x 15 inches",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/e943fdf6e39eacd8917cc5b367987cb1-300.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo the Complete Syndicated Comic Strips: Hijinks from the Horn of Plenty (Walt Kelly\\'s Pogo, Band 8",
-     "imageUrl": "https://m.media-amazon.com/images/I/51EwckNLMjL._SL500_.jpg",
+     "text": "Pogo the Complete Syndicated Comic Strips Set: Pockets Full of Pie / Hijinks from the Horn of Plenty (Walt Kelly's Pogo",
+     "imageUrl": "https://m.media-amazon.com/images/I/71XnuMFsw1L._AC_UL320_.jpg",
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": null,
@@ -1278,20 +1292,6 @@
     {
      "text": "Pogo The Complete Syndicated Comic Strips: Out Of This World At Home (Vol. 5) (Walt Kelly's Pogo",
      "imageUrl": "https://m.media-amazon.com/images/I/91X00puEByL._AC_UY218_ML3_.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo the Complete Syndicated Comic Strips Set: Pockets Full of Pie / Hijinks from the Horn of Plenty (Walt Kelly's Pogo",
-     "imageUrl": "https://m.media-amazon.com/images/I/71XnuMFsw1L._AC_UL320_.jpg",
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": null,
@@ -1403,16 +1403,16 @@
     }
    ],
    "samples": [
-    "Pogo The Complete Syndicated Comic Strips: Volume 5: Out Of This World At Home (Walt Kelly's Pogo) Cover Image",
-    "Pogo Sunday Page by Walt Kelly from 6/30/1957 Tabloid Size: 11 x 15 inches",
-    "Pogo the Complete Syndicated Comic Strips Set: Pockets Full of Pie / Hijinks from the Horn of Plenty (Walt Kelly\\'s Pogo",
-    "Pogo The Complete Syndicated Comic Strips: Evidence To The Contrary (Walt Kelly's Pogo) Cover Image",
     "Pogo Sunday Page by Walt Kelly from 12/1/1957 Tabloid Size: 11 x 15 inches",
-    "artsprojekt, village, asian, china, town, people, bone, white, creme, pagoda, age bracket, Jeff Smith (cartoonist), pastern, Pogo (comics), furcula, Jean Giraud, splint bone, Time (magazine), temporal bone, anklebone, animated cartoon, os temporale, comic strip, fetter bone, Walt Kelly, cannon bone,",
     "Pogo Sunday Page by Walt Kelly from 3/24/1957 Tabloid Size: 11 x 15 inches",
-    "Pogo Sunday Page by Walt Kelly from 12/8/1957 Half Full Size: 11 x 15 inches",
-    "Image: Pogo by Walt Kelly: The Complete Syndicated Comic Strips Vol. 5 & 6 Box Set HC - Fantagraphics Books",
-    "Pogo Sunday Page by Walt Kelly from 3/10/1957 Tabloid Size: 11 x 15 inches"
+    "Pogo - the Complete Syndicated Comic Strips: Clean As a Weasel (Walt Kelly's Pogo, Band 6",
+    "The Glob by John O'Reilly, Illustrated by Walt Kelly (1952",
+    "Pogo The Complete Syndicated Comic Strips Box Set: Volume 3 & 4: Evidence To The Contrary and Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
+    "Pogo The Complete Syndicated Comic Strips: Volume 4: Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
+    "POGO FILES FOR POGOPHILES: A RETROSPECTIVE ON 50 YEARS OF WALT KELLY'S CLASSIC COMIC STRIP. Selby...",
+    "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
+    "Pogo Sunday Page by Walt Kelly from 1/6/1957 Tabloid Size: 11 x 15 inches",
+    "Pogo by Walt Kelly: The Complete Syndicated Comic Strips"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1443,6 +1443,20 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 9.467519703321159e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo by Walt Kelly - 27 large 5 column daily comic strips - Complete May 1956",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/8fkAAOSwa2pbPTED/s-l225.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0005664229393005371,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1494,34 +1508,6 @@
      }
     },
     {
-     "text": "Pogo by Walt Kelly - large full tab page color Sunday comic - May 19, 1957](May Coloring Pages)",
-     "imageUrl": "https://i.ebayimg.com/00/s/MTYwMFgxMjU5/z/oZAAAOSwpe1bPT1m/$_1.JPG",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.009458810091018677,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "POGO.WALT KELLY.COMPLETE SYNDICATED COMIC Strips: HUGE VOLS 1 & 2..LIKE NEW COND",
-     "imageUrl": "https://i.ebayimg.com/images/g/96QAAOSwA~1bvZJ7/s-l640.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.008212357759475708,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Possum #1 Comic Books - Covers, Scans, Photos  in Pogo Possum Comic Books - Covers, Scans, Gallery",
      "imageUrl": "https://www.covernk.com/Covers/L/P/Pogo%20Possum/pogopossum1.jpg",
      "keyword": "pogo possum",
@@ -1550,11 +1536,25 @@
      }
     },
     {
-     "text": "Pogo by Walt Kelly - 27 large 5 column daily comic strips - Complete May 1956",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/8fkAAOSwa2pbPTED/s-l225.jpg",
+     "text": "Pogo by Walt Kelly - large full tab page color Sunday comic - May 19, 1957](May Coloring Pages)",
+     "imageUrl": "https://i.ebayimg.com/00/s/MTYwMFgxMjU5/z/oZAAAOSwpe1bPT1m/$_1.JPG",
      "keyword": "walt kelly",
      "tier": "high",
-     "punsafe": 0.0005664229393005371,
+     "punsafe": 0.009458810091018677,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "POGO.WALT KELLY.COMPLETE SYNDICATED COMIC Strips: HUGE VOLS 1 & 2..LIKE NEW COND",
+     "imageUrl": "https://i.ebayimg.com/images/g/96QAAOSwA~1bvZJ7/s-l640.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.008212357759475708,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1569,48 +1569,6 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 0.000641942024230957,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo the Complete Syndicated Comic Strips: Hijinks from the Horn of Plenty (Walt Kelly's Pogo)",
-     "imageUrl": "https://m.media-amazon.com/images/I/71TfCIkohEL._AC_UY218_.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0006105601787567139,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo by Walt Kelly - large full tab page color Sunday comic - April 14, 1957",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/372695300966_/Pogo-by-Walt-Kelly-large-full-tab.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.010445922613143921,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
-     "imageUrl": "https://www.comicextra.com/images/series/large/16241.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 8.579640052630566e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1662,6 +1620,20 @@
      }
     },
     {
+     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
+     "imageUrl": "https://www.comicextra.com/images/series/large/16241.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 8.579640052630566e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Comics: an Illustrated History of Comic Strip Art by Walt Kelly",
      "imageUrl": "http://i.shopmania.org/180x180/0/0f/0f0e1db1b97465daace1306277e8b18d41460029.jpg?u=https%3A%2F%2Fd39ttiideeq0ys.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F5958%2F9781595826572.jpg",
      "keyword": "walt kelly",
@@ -1681,76 +1653,6 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 1.1613822607614566e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo: The Complete Syndicated Comic Strips 6: Clean as a Weasel (Walt Kelly's Pogo)",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81fP--v--kL._AC_UL160_SR160,160_.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00456845760345459,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo: The Complete Syndicated Comic Strips (Walt Kelly's Pogo)",
-     "imageUrl": "https://images-fe.ssl-images-amazon.com/images/I/51HrDe1WsLL._SL200_.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 5.2202551160007715e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo by Walt Kelly - full color Sunday comic page - October 13, 1957",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/372695300980_/Pogo-by-Walt-Kelly-full-color-Sunday.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0005535781383514404,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "walt kelly the pogo comic strip was syndicated to newspapers for",
-     "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcS7cMlPOC8lzxdCk6XPXh4RM7FuCPYc2cvpstwi38hKMfjFygtY",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00012734532356262207,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Great Treasury Of Christmas Comic Book Stories - Walt Kelly",
-     "imageUrl": "https://images.find-more-books.com/buch/cover/OTc4MTYwMDEwNzczMztodHRwczovL2QzOXR0aWlkZWVxMHlzLmNsb3VkZnJvbnQubmV0L2Fzc2V0cy9pbWFnZXMvYm9vay9zbWFsbC85NzgxLzYwMDEvOTc4MTYwMDEwNzczMy5qcGc%3D.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0003553330898284912,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1844,6 +1746,104 @@
      }
     },
     {
+     "text": "Pogo the Complete Syndicated Comic Strips: Hijinks from the Horn of Plenty (Walt Kelly's Pogo)",
+     "imageUrl": "https://m.media-amazon.com/images/I/71TfCIkohEL._AC_UY218_.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0006105601787567139,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo by Walt Kelly - large full tab page color Sunday comic - April 14, 1957",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/372695300966_/Pogo-by-Walt-Kelly-large-full-tab.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.010445922613143921,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo by Walt Kelly - full color Sunday comic page - October 13, 1957",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/372695300980_/Pogo-by-Walt-Kelly-full-color-Sunday.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0005535781383514404,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "walt kelly the pogo comic strip was syndicated to newspapers for",
+     "imageUrl": "http://t0.gstatic.com/images?q=tbn:ANd9GcS7cMlPOC8lzxdCk6XPXh4RM7FuCPYc2cvpstwi38hKMfjFygtY",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00012734532356262207,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Great Treasury Of Christmas Comic Book Stories - Walt Kelly",
+     "imageUrl": "https://images.find-more-books.com/buch/cover/OTc4MTYwMDEwNzczMztodHRwczovL2QzOXR0aWlkZWVxMHlzLmNsb3VkZnJvbnQubmV0L2Fzc2V0cy9pbWFnZXMvYm9vay9zbWFsbC85NzgxLzYwMDEvOTc4MTYwMDEwNzczMy5qcGc%3D.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0003553330898284912,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo: The Complete Syndicated Comic Strips 6: Clean as a Weasel (Walt Kelly's Pogo)",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81fP--v--kL._AC_UL160_SR160,160_.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00456845760345459,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo: The Complete Syndicated Comic Strips (Walt Kelly's Pogo)",
+     "imageUrl": "https://images-fe.ssl-images-amazon.com/images/I/51HrDe1WsLL._SL200_.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 5.2202551160007715e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "e-Book Pogo Files for Pogophiles: A Retrospective on 50 Years of Walt Kelly's Classic Comic Strip download",
      "imageUrl": "https://www.pbstudio.fr/images/316/pogo-files-for-pogophiles-a-retrospective-on-50-years-of-walt-kellys-classic-comic-strip-selby-kelly.jpg",
      "keyword": "walt kelly",
@@ -1891,20 +1891,6 @@
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 0.00012543797492980957,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Pogo - Vol. 1 of the Complete Syndicated Comic Strips: \"\"Through the Wild Blue Wonder\"\" by Walt Kelly - detail\"",
-     "imageUrl": "https://farm7.staticflickr.com/6240/6305011443_c4c16df341.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0002887248992919922,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1970,6 +1956,20 @@
      }
     },
     {
+     "text": "Pogo by Walt Kelly - full color Sunday comic page - March 10, 1957",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/372695300975_/Pogo-by-Walt-Kelly-full-color-Sunday.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00310322642326355,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Walt Kelly Art - Fairy Tale Parade: Classic Comics Library #332: First of Three Giant Volumes  Featuring Golden Age Classics -- Covers and Art by Walt Kelly --- Over 400 Pages --- All Stories -- No Ads",
      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51X4if6RPvL.jpg",
      "keyword": "walt kelly",
@@ -1984,11 +1984,11 @@
      }
     },
     {
-     "text": "Pogo by Walt Kelly - full color Sunday comic page - March 10, 1957",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/372695300975_/Pogo-by-Walt-Kelly-full-color-Sunday.jpg",
+     "text": "\"Pogo - Vol. 1 of the Complete Syndicated Comic Strips: \"\"Through the Wild Blue Wonder\"\" by Walt Kelly - detail\"",
+     "imageUrl": "https://farm7.staticflickr.com/6240/6305011443_c4c16df341.jpg",
      "keyword": "walt kelly",
      "tier": "high",
-     "punsafe": 0.00310322642326355,
+     "punsafe": 0.0002887248992919922,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2040,11 +2040,39 @@
      }
     },
     {
+     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
+     "imageUrl": "https://www.zipcomic.com/img/s3/pogo-by-walt-kelly-the-complete-syndicated-comic-strips/cover.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 1.1024263585568406e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Pogo Possum #13 comic books for sale",
      "imageUrl": "https://www.covernk.com/Covers/L/P/Pogo%20Possum/pogopossum13.jpg",
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 4.130085653741844e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Great Treasury of Christmas Comic Book Stories - Walt Kelly",
+     "imageUrl": "https://www.find-more-books.com/buch/cover/aHR0cDovL3Byb2RpbWFnZS5iYXJuZXNhbmRub2JsZS5jb20vcGltYWdlcy85NzgxNjAwMTA3NzMzX3AwX3YyLmpwZw==.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00030559301376342773,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2073,48 +2101,6 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 0.0008984804153442383,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo by Walt Kelly: The Complete Syndicated Comic Strips",
-     "imageUrl": "https://www.zipcomic.com/img/s3/pogo-by-walt-kelly-the-complete-syndicated-comic-strips/cover.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 1.1024263585568406e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Great Treasury of Christmas Comic Book Stories - Walt Kelly",
-     "imageUrl": "https://www.find-more-books.com/buch/cover/aHR0cDovL3Byb2RpbWFnZS5iYXJuZXNhbmRub2JsZS5jb20vcGltYWdlcy85NzgxNjAwMTA3NzMzX3AwX3YyLmpwZw==.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00030559301376342773,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo: The Complete Syndicated Comic Strips Vols. 5 & 6 Boxed Set (Walt Kelly's Pogo)",
-     "imageUrl": "https://m.media-amazon.com/images/I/71F+trP-YnL._AC_UL320_.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0004496574401855469,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2166,6 +2152,34 @@
      }
     },
     {
+     "text": "Pogo: The Complete Daily & Sunday Comic Strips, Vol. Through the Wild Blue Wonder (v. by Walt Kelly Moving To Los Angeles, Walt Disney Studios, Gentle Giant, Fun Comics, Animation Film, Book Publishing, Comic Strips, Yorkie, Illustration",
+     "imageUrl": "https://i.pinimg.com/236x/72/eb/3d/72eb3d87c8e766c87b17565b363c5cf2--comic-strips-the-wild.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00014904141426086426,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Golden Age (1938-1955):Funny Animal, Pogo Possum #15 (Dell, 1954) CGC NM 9.4 Off-white pages. Morehilarity featuring the denizens of Okefenokee Swamp, drawn by ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F7%2F1%2F1771928%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": 1.4326967175293248e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Pogo Sunday Parade by Walt Kelly Possum Comic Strip Book 5637 (Brechtbug) Tags: pogo possum soft cover news strip cartoon books walt kelly vintage 1950s 50s 1960s 60s albert alligator churchy la femme turtle newspaper comic comics sunday funnies comicstrip opossum animal humor funny beast fable ",
      "imageUrl": "https://farm8.static.flickr.com/7901/47522825472_7e1930f21c_m.jpg",
      "keyword": "pogo possum",
@@ -2185,20 +2199,6 @@
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 9.281400707550347e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo: The Complete Daily & Sunday Comic Strips, Vol. Through the Wild Blue Wonder (v. by Walt Kelly Moving To Los Angeles, Walt Disney Studios, Gentle Giant, Fun Comics, Animation Film, Book Publishing, Comic Strips, Yorkie, Illustration",
-     "imageUrl": "https://i.pinimg.com/236x/72/eb/3d/72eb3d87c8e766c87b17565b363c5cf2--comic-strips-the-wild.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00014904141426086426,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2250,20 +2250,6 @@
      }
     },
     {
-     "text": "Golden Age (1938-1955):Funny Animal, Pogo Possum #15 (Dell, 1954) CGC NM 9.4 Off-white pages. Morehilarity featuring the denizens of Okefenokee Swamp, drawn by ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F7%2F7%2F1%2F1771928%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 1.4326967175293248e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "POGO by Walt KELLY 1951, 1st printing of 1st book, comic strip, Simon & Schuster",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/eHsAAOSwWkFagwQJ/s-l225.jpg",
      "keyword": "walt kelly",
@@ -2276,18 +2262,32 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Pogo Possum #10 comic book vg+ 4.5",
+     "imageUrl": "http://productimages.goantiques.gemr.s3.amazonaws.com/61908/1853041_detail.jpg",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": 6.20771388639696e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "Pogo the Complete Syndicated Comic Strips Set: Pockets Full of Pie / Hijinks from the Horn of Plenty (Walt Kelly's Pogo)",
+    "Pogo by Walt Kelly - 27 large 5 column daily comic strips - Complete May 1956",
     "Pogo Possum #6 comic book vg 4.0",
     "9781683963769-1683963768-Pogo The Complete Syndicated Comic Strips: Pockets Full of Pie (Walt Kelly's Pogo)",
     "Pogo Possum #11 comic books - cover scans photos Pogo Possum #11 comic books - covers, picture gallery",
-    "Pogo by Walt Kelly - large full tab page color Sunday comic - May 19, 1957](May Coloring Pages)",
-    "POGO.WALT KELLY.COMPLETE SYNDICATED COMIC Strips: HUGE VOLS 1 & 2..LIKE NEW COND",
     "Pogo Possum #1 Comic Books - Covers, Scans, Photos  in Pogo Possum Comic Books - Covers, Scans, Gallery",
     "Pogo The Complete Syndicated Comic Strips: Volume 4: Under The Bamboozle Bush (Walt Kelly's Pogo) Cover Image",
-    "Pogo by Walt Kelly - 27 large 5 column daily comic strips - Complete May 1956",
+    "Pogo by Walt Kelly - large full tab page color Sunday comic - May 19, 1957](May Coloring Pages)",
+    "POGO.WALT KELLY.COMPLETE SYNDICATED COMIC Strips: HUGE VOLS 1 & 2..LIKE NEW COND",
     "The Comics: An Illustrated History of Comic Strip Art - Jerry Robinson, Walt Kelly"
    ],
    "partial": false,
@@ -2524,20 +2524,6 @@
      }
     },
     {
-     "text": "The Great Treasury of Christmas Comic Book Stories by Walt Kelly, Richard Scarry, John Stanley, Dan Noon, Craig Yoe (Hardback, 2010)",
-     "imageUrl": "https://i.ebayimg.com/images/g/UMMAAOSwVL1WEffh/s-l140.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0005023479461669922,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo by Walt Kelly Original Daily Comic Strip 12/30/66",
      "imageUrl": "https://original-comic-art.net/uploads/Pogo-by-Walt-Kelly-Original-Daily-Comic-Strip-12-30-66-02-ow.jpg",
      "keyword": "walt kelly",
@@ -2557,6 +2543,20 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 0.0005141198635101318,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Great Treasury of Christmas Comic Book Stories by Walt Kelly, Richard Scarry, John Stanley, Dan Noon, Craig Yoe (Hardback, 2010)",
+     "imageUrl": "https://i.ebayimg.com/images/g/UMMAAOSwVL1WEffh/s-l140.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0005023479461669922,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2630,6 +2630,48 @@
    "totalIncludingLowConfidence": 555,
    "rows": [
     {
+     "text": "Comic Book Letterers: Frank Miller, John Byrne, Eddie Campbell, Richard Corben, Walt Kelly, Dave Gibbons, Dave Sim, Chris Ware, Todd Klein",
+     "imageUrl": "https://books2search.com/storage/bookimages/5/4/9/1/9781155781945.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0001347959041595459,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-7-51 (Post-Hall Syndicate, Inc., 1951)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F9%2F1%2F5%2F23915952%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.000209808349609375,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Great Treasury Of Christmas Comic Book Stories - Walt Kelly",
+     "imageUrl": "https://images.eurolivre.fr/buch/cover/OTc4MTYwMDEwNzczMztodHRwOi8vd3d3LmxlaG1hbm5zLmRlL21lZGlhLzE4ODEwOTQw.",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.002587825059890747,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Walt Kelly (American, 1913-1973)      Pogo Comic Strip, 7-24 (1969)",
      "imageUrl": "https://i9.skinnerinc.com/unsafe/fit-in/252x252/filters:fill(eee)/384/1107384.jpg",
      "keyword": "walt kelly",
@@ -2658,137 +2700,11 @@
      }
     },
     {
-     "text": "Comic Book Letterers: Frank Miller, John Byrne, Eddie Campbell, Richard Corben, Walt Kelly, Dave Gibbons, Dave Sim, Chris Ware, Todd Klein",
-     "imageUrl": "https://books2search.com/storage/bookimages/5/4/9/1/9781155781945.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0001347959041595459,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 7-24-69 (Publishers-Hall Syndicate, 1969)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F0%2F5%2F5%2F23055697%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.008666366338729858,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Great Treasury Of Christmas Comic Book Stories - Walt Kelly",
-     "imageUrl": "https://images.eurolivre.fr/buch/cover/OTc4MTYwMDEwNzczMztodHRwOi8vd3d3LmxlaG1hbm5zLmRlL21lZGlhLzE4ODEwOTQw.",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.002587825059890747,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Image of Pogo The Complete Syndicated Comic Strips: Bona Fide Balderdash (Vol. 2)  (Walt Kelly's Pogo)",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61u78S3oMTL.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00042504072189331055,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/MWwAAOSwXnVetzXc/s-l300.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00010055551683763042,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-7-51 (Post-Hall Syndicate, Inc., 1951)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F9%2F1%2F5%2F23915952%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.000209808349609375,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "1951 POGO POSSUM #7 Walt Kelly comic book",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/382680514319_/1951-POGO-POSSUM-7-Walt-Kelly-comic-book.jpg",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.00012359023094177246,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-20-66-afnews",
      "imageUrl": "https://i0.wp.com/www.afnews.info/wordpress/wp-content/uploads/2019/11/Walt-Kelly-Pogo-Daily-Comic-Strip-Original-Art-dated-7-20-66-afnews.jpg?w=1196&h=367&ssl=1",
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 0.001266568899154663,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo Put in Same Class as Gulliver's Travels Walt Kelly sends original comic strip to Editor Harold Wills [Cochrane Northland Post] Editorial Touches Pogo's Pop Strip Thanks Cochrane Writer",
-     "imageUrl": "https://www.theglobeandmail.com/resizer/WDwrTeETtPi3C1g6foILgQoCXk8=/1600x0/filters:watermark(s3.amazonaws.com/arc-anglerfish-tgam-prod-archive-tgam/public/tgam-watermark.png,50,-50,50)/arc-anglerfish-tgam-prod-archive-tgam/public/M76BWXFQDJH55DBJ4GNA5TGKJM",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 4.355276905698702e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 11-16-52 (Post-Hall Syndicate, 1952)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F4%2F7%2F5%2F24475793%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.06953254342079163,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2826,6 +2742,20 @@
      }
     },
     {
+     "text": "Pogo by Walt Kelly - Prehysterical - full tab page Sunday comic - Feb. 26, 1967",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/333245307123_/Pogo-by-Walt-Kelly-Prehysterical-full.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0016838014125823975,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Pogo Possum & Albert Walt Kelly Golden Age style comic strip Dell Sericel",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/tesAAOSwEd1g~Yxw/s-l300.jpg",
      "keyword": "walt kelly",
@@ -2840,11 +2770,11 @@
      }
     },
     {
-     "text": "Walt Kelly's Pogo - Batman Dark Knight spoof - lot of 6 Sunday comic pages, 1989",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/371885187254_/Walt-Kellys-Pogo-Batman-Dark-Knight-spoof.jpg",
+     "text": "1951 POGO POSSUM #7 Walt Kelly comic book",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/382680514319_/1951-POGO-POSSUM-7-Walt-Kelly-comic-book.jpg",
      "keyword": "walt kelly",
      "tier": "high",
-     "punsafe": 0.00036409497261047363,
+     "punsafe": 0.00012359023094177246,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2854,11 +2784,81 @@
      }
     },
     {
-     "text": "Pogo by Walt Kelly - Prehysterical - full tab page Sunday comic - Feb. 26, 1967",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/333245307123_/Pogo-by-Walt-Kelly-Prehysterical-full.jpg",
+     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 7-24-69 (Publishers-Hall Syndicate, 1969)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F0%2F5%2F5%2F23055697%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "walt kelly",
      "tier": "high",
-     "punsafe": 0.0016838014125823975,
+     "punsafe": 0.008666366338729858,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Put in Same Class as Gulliver's Travels Walt Kelly sends original comic strip to Editor Harold Wills [Cochrane Northland Post] Editorial Touches Pogo's Pop Strip Thanks Cochrane Writer",
+     "imageUrl": "https://www.theglobeandmail.com/resizer/WDwrTeETtPi3C1g6foILgQoCXk8=/1600x0/filters:watermark(s3.amazonaws.com/arc-anglerfish-tgam-prod-archive-tgam/public/tgam-watermark.png,50,-50,50)/arc-anglerfish-tgam-prod-archive-tgam/public/M76BWXFQDJH55DBJ4GNA5TGKJM",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 4.355276905698702e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 11-16-52 (Post-Hall Syndicate, 1952)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F4%2F4%2F7%2F5%2F24475793%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.06953254342079163,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Image of Pogo The Complete Syndicated Comic Strips: Bona Fide Balderdash (Vol. 2)  (Walt Kelly's Pogo)",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61u78S3oMTL.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00042504072189331055,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/MWwAAOSwXnVetzXc/s-l300.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00010055551683763042,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Walt Kelly's Pogo - Batman Dark Knight spoof - lot of 6 Sunday comic pages, 1989",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/371885187254_/Walt-Kellys-Pogo-Batman-Dark-Knight-spoof.jpg",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.00036409497261047363,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2887,6 +2887,20 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 0.021157175302505493,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Pogo Possum (1949) comic books",
+     "imageUrl": "https://statt-dansjardin.com/hauwfl/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": 0.0013253092765808105,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2938,20 +2952,6 @@
      }
     },
     {
-     "text": "Pogo Possum (1949) comic books",
-     "imageUrl": "https://statt-dansjardin.com/hauwfl/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 0.0013253092765808105,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo by Walt Kelly Two Original Daily Comic Strips June 1966",
      "imageUrl": "https://original-comic-art.net/uploads/Pogo-by-Walt-Kelly-Two-Original-Daily-Comic-Strips-June-1966-03-fy.jpg",
      "keyword": "walt kelly",
@@ -2994,20 +2994,6 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Friday the 13th Daily Comic Strip Original Art dated 3-13-64 (Hall Syndicate, 1964)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B9%2F4%2F2%2F0%2F9420931%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0525757372379303,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Possum (1949) comic books",
      "imageUrl": "https://ublizitertek.com/esrwb/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
      "keyword": "pogo possum",
@@ -3027,6 +3013,20 @@
      "keyword": "walt kelly",
      "tier": "high",
      "punsafe": 0.02235165238380432,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Friday the 13th Daily Comic Strip Original Art dated 3-13-64 (Hall Syndicate, 1964)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B9%2F4%2F2%2F0%2F9420931%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0525757372379303,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3330,39 +3330,11 @@
      }
     },
     {
-     "text": "Original Comic Art:Comic Strip Art, Walt Kelly - Pogo Daily Comic Strip Original Art, dated 3-16-60 (Hall Syndicate Inc., 1960)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F4%2F8%2F0%2F3480319%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.0035950541496276855,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Possum (1949) comic books",
      "imageUrl": "https://tudjatokgeduld.com/mgpa/Gma5seLDpH6B79TlOAWuvgHaKi.jpg",
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 0.0013253092765808105,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 2-21-53 (Post-Hall Syndicate, 1953)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F0%2F2%2F6%2F23026171%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": 0.024876415729522705,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3426,19 +3398,47 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Walt Kelly - Pogo Daily Comic Strip Original Art, dated 3-16-60 (Hall Syndicate Inc., 1960)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F4%2F8%2F0%2F3480319%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.0035950541496276855,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 2-21-53 (Post-Hall Syndicate, 1953)....",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F3%2F0%2F2%2F6%2F23026171%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": 0.024876415729522705,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
+    "Comic Book Letterers: Frank Miller, John Byrne, Eddie Campbell, Richard Corben, Walt Kelly, Dave Gibbons, Dave Sim, Chris Ware, Todd Klein",
+    "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-7-51 (Post-Hall Syndicate, Inc., 1951)",
+    "The Great Treasury Of Christmas Comic Book Stories - Walt Kelly",
     "Walt Kelly (American, 1913-1973)      Pogo Comic Strip, 7-24 (1969)",
     "Pogo Possum #13 comic book fn 6.0",
-    "Comic Book Letterers: Frank Miller, John Byrne, Eddie Campbell, Richard Corben, Walt Kelly, Dave Gibbons, Dave Sim, Chris Ware, Todd Klein",
-    "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 7-24-69 (Publishers-Hall Syndicate, 1969)....",
-    "The Great Treasury Of Christmas Comic Book Stories - Walt Kelly",
-    "Image of Pogo The Complete Syndicated Comic Strips: Bona Fide Balderdash (Vol. 2)  (Walt Kelly's Pogo)",
-    "VINTAGE 1952 POGO Possum #10 Walt Kelly Comic Book July-September 15c Band Tuba",
-    "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-7-51 (Post-Hall Syndicate, Inc., 1951)",
-    "1951 POGO POSSUM #7 Walt Kelly comic book",
-    "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-20-66-afnews"
+    "Walt Kelly Pogo Daily Comic Strip Original Art dated 7-20-66-afnews",
+    "Original Comic Art:Comic Strip Art, Walt Kelly Pogo Daily Comic Strip Original Art dated 6-4-55 (Post Hall Syndicate, 1955)....",
+    "Pogo The Complete Syndicated Comic Strips: Volume 2: Bona Fide Balderdash (Walt Kelly's Pogo)",
+    "Pogo by Walt Kelly - Prehysterical - full tab page Sunday comic - Feb. 26, 1967",
+    "Pogo Possum & Albert Walt Kelly Golden Age style comic strip Dell Sericel"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3463,6 +3463,62 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 1958,
    "rows": [
+    {
+     "text": "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Six cartoons get Audio Commentaries, by such esteemed animation historians as Jerry beck and Thad Komorowski. The commentaries provide much-needed historical context and information, well worth a listen. There are also three Comic Book Stories based on the Noveltoons shorts, one drawn by the legenda",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jeremy Love\u2019s graphic novel Bayou (2009) is an audacious bricolage. A Southern tragedy set in the fictional town of Charon, Mississippi during the Depression, Bayou subverts genres to offer something new. Lee Wagstaff, our plucky and determined heroine, struggles to rescue her devoted and industriou",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Perhaps the most quoted line ever to originate in a comic strip came from Pogo when the disgusted possum surveyed an environmental mess made by his fellow swamp denizens. He intoned: \u201cWe have met the enemy, and he is us.\u201c\n\nWalt Kelly was asked to explain what he meant by that.\n\nHe said that he had t",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "Walt Kelly was a genius cartoonist who was responsible for some of Disney's best stuff and he went on to create POGO, the comic strip featured above.",
      "imageUrl": null,
@@ -3548,65 +3604,9 @@
      }
     },
     {
-     "text": "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Six cartoons get Audio Commentaries, by such esteemed animation historians as Jerry beck and Thad Komorowski. The commentaries provide much-needed historical context and information, well worth a listen. There are also three Comic Book Stories based on the Noveltoons shorts, one drawn by the legenda",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\u201cWe are confronted by insurmountable opportunities.\u201d\n\nSo commented Walt Kelly, the genius behind \u201cPogo,\u201d one of the all-time great newspaper comic strips featuring both satire and wordplay.\n\nPogo Possum, Churchy LaFemme, Porky Pine and the rest of the Okefenokee Swamp gang butchered common phrases a",
      "imageUrl": null,
      "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Jeremy Love\u2019s graphic novel Bayou (2009) is an audacious bricolage. A Southern tragedy set in the fictional town of Charon, Mississippi during the Depression, Bayou subverts genres to offer something new. Lee Wagstaff, our plucky and determined heroine, struggles to rescue her devoted and industriou",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Perhaps the most quoted line ever to originate in a comic strip came from Pogo when the disgusted possum surveyed an environmental mess made by his fellow swamp denizens. He intoned: \u201cWe have met the enemy, and he is us.\u201c\n\nWalt Kelly was asked to explain what he meant by that.\n\nHe said that he had t",
-     "imageUrl": null,
-     "keyword": "walt kelly",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -3646,63 +3646,7 @@
      }
     },
     {
-     "text": "Our next selection is \u201cThe Great Treasury of Christmas Comic Book Stories\u201c, an oversized volume that collects from spectacular Christmas stories from comics\u2019 Golden Age.\n\nAmong the joyful and innocent work in this volume, you will find stories by Walt Kelly (\u201cPogo\u201d), John Stanley (\u201cLittle Lulu\u201d), an",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "(ORIGINALLY PUBLISHED IN JUY 2009)\nIn a recent email exchange with Dave Schuler of The Glittering Eye, he summed up beautifully why the illustrator of the late great Pogo comic strip was such an endearing yet powerful cartoonist.\n\n\"We could use Walt Kelly about now,\" Dave said. \"Criticism without cr",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Walt Kelly's comic BOOK work is not as well known as his comic STRIP work; but Kelly was pretty much Dell/Western's star artist in the 40s. He more or less defined their house style, and when not doing licensed material, such as Disney characters in his own inimitable way . . .",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I operate under the belief that I saw the very first Calvin and Hobbes comic strip when it appeared in the newspaper. I have a vague memory of being in one of my high school classrooms, a social studies course where the teacher had the daily newspapers and a bevy of weekly current affairs magazines ",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "In my mind there have been three important, long lasting comic strips that have defined the genre. Peanuts, Doonsbury, and Pogo. What? You haven\u2019t heard of Pogo? Walt Kelly, the creator, died in the mid 70\u2019s so those of you in my generation or later can be forgiven for not being familiar with it. Ke",
      "imageUrl": null,
      "keyword": "walt kelly",
      "tier": "high",
@@ -3730,34 +3674,6 @@
      }
     },
     {
-     "text": "I wouldn\u2019t be surprised if Jordan Peele is a fan of Walt Kelly\u2019s Pogo. It was an excellent, hilarious and incredibly influential comic strip, and Peele strikes me as a man of taste. More specifically, I can see Pogo\u2019s tendency to use genre tropes in the service of social commentary appealing to his ",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Morphology of a Humorous Phrase: \u201cWe have met the enemy and he is us\u201d\n\nI was reminded of a chain of events in the development of a humorous phrase when I saw a rather poignant cartoon by Jim Morin last month.  It got me to thinking about how these phrases get started and how they change over tim",
-     "imageUrl": null,
-     "keyword": "walt kelly",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The official neckware of Arizona is the bolo tie.\nThe official possum of Georgia is Pogo, the possum from Walt Kelly\u2019s long-running comic strip of the same name.\nThe official state beverage of Indiana is water. (In Nebraska, it\u2019s Kool-Aid.)\nThe official state meal of Oklahoma is barbecue pork, chick",
      "imageUrl": null,
      "keyword": "walt kelly",
@@ -3772,7 +3688,7 @@
      }
     },
     {
-     "text": "We have met the enemy, and he is us.\n-Pogo (a comic strip character of Walt Kelly)\n\nI doubt that physicians would have supported the creation of the American Board of Medical Specialties (ABMS) in the early 1900s if they had known that eventual maintenance of certification (MOC) might be used as req",
+     "text": "About a thousand years ago, I was on Steve King\u2019s WGN radio show (now sorely missed) and somebody called in and asked about the name \u201cComic Book.\u201d I was taken aback momentarily, trying to decide if I should go into my \u201cwe\u2019ve kicked the kids out of the donut shop\u201d auto-rant. Out of respect for Steve ",
      "imageUrl": null,
      "keyword": "walt kelly",
      "tier": "high",
@@ -3800,7 +3716,7 @@
      }
     },
     {
-     "text": "Mr. Wilson\u2019s work suggested both the Abstract Expressionists and the splash panels drawn by comic book artists like Jack Kirby and Wally Wood.Credit\u2026Fantagraphics\n\nInterviewed in the early 1990s for The Comics Journal by the underground-comics aficionado Bob Levin, Mr. Wilson called comics \u201ca great ",
+     "text": "Caniff wrote, \u201cToday, 100,000,000 Americans follow at least one comic strip each day.\u201d Successful syndicated cartoonists like Caniff, Al Capp, Walt Kelly and many others were akin to Hollywood celebrities, earning top dollar for speaking engagements, appearing on newspaper society pages and were muc",
      "imageUrl": null,
      "keyword": "walt kelly",
      "tier": "high",
@@ -3828,7 +3744,63 @@
      }
     },
     {
-     "text": "About a thousand years ago, I was on Steve King\u2019s WGN radio show (now sorely missed) and somebody called in and asked about the name \u201cComic Book.\u201d I was taken aback momentarily, trying to decide if I should go into my \u201cwe\u2019ve kicked the kids out of the donut shop\u201d auto-rant. Out of respect for Steve ",
+     "text": "It's the saddest thing.\n\nI thoroughly enjoyed Bona Fide Balderdash, Volume 2 in Fantagraphics' complete reprinting of Walt Kelly's \"Pogo\" comic strip. This volume covers the years 1951-52. There's a decent amount of biographical information in the two volumes, and in this one we begin to see a recur",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Walt Kelly was the greatest daily comic strip artist in American history. His Pogo strip was an uncanny mixture of laughter, high spirits and swamp intrigue, mixed with pointed political satire. His thinly-veiled villain based on Sen. Joseph McCarthy was one of several characters with political over",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I just bought myself the fifth volume of the comprehensive collection of daily and Sunday \"Pogo\" comic strips by Walt Kelly. The foreword by Jake Tapper includes this non-Pogo strip Kelly drew in response to the Displaced Persons Act of 1948.\n\n\nRefugees admitted to the United States under this progr",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Those Fabuleous Fifties brings us a beautiful silent Walt Kelly kids comic strip from Animal Comics #22. Once again I plead into the void\u2026 PLEASE, someone out there reprint all the Kelly kids comics! If a book like this was well-designed and aimed at the kids market rather than the comic collectors\u2019",
+     "imageUrl": null,
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I found a new site full of old comics today. Those Fabuleous Fifties has a lot of nice stuff posted, including the full 1952 Pogo Sunday strip by the great Walt Kelly you see a panel from below. Click on it to go to the post on the Fabuleous Fifties site.",
      "imageUrl": null,
      "keyword": "walt kelly",
      "tier": "high",
@@ -3843,16 +3815,16 @@
     }
    ],
    "samples": [
+    "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
+    "Six cartoons get Audio Commentaries, by such esteemed animation historians as Jerry beck and Thad Komorowski. The commentaries provide much-needed historical context and information, well worth a listen. There are also three Comic Book Stories based on the Noveltoons shorts, one drawn by the legenda",
+    "Jeremy Love\u2019s graphic novel Bayou (2009) is an audacious bricolage. A Southern tragedy set in the fictional town of Charon, Mississippi during the Depression, Bayou subverts genres to offer something new. Lee Wagstaff, our plucky and determined heroine, struggles to rescue her devoted and industriou",
+    "Perhaps the most quoted line ever to originate in a comic strip came from Pogo when the disgusted possum surveyed an environmental mess made by his fellow swamp denizens. He intoned: \u201cWe have met the enemy, and he is us.\u201c\n\nWalt Kelly was asked to explain what he meant by that.\n\nHe said that he had t",
     "Walt Kelly was a genius cartoonist who was responsible for some of Disney's best stuff and he went on to create POGO, the comic strip featured above.",
     "Jules Feiffer's comic strip and outlook influenced a number of cartoonists who came after.\n\nLucy Shelton Caswell, curator of the Billy Ireland Cartoon Library and Museum at The Ohio State University, echoes McDonnell. \"He studied at the feet of a couple of the masters -- Milton Caniff and Will Eisne",
     "I am, as I have previously stated, a big fan of Fantagraphics' republishing of Walt Kelly's Pogo comic strip. In the second volume, I was interested to see the last panel of the strip for September 15, 1952. One corner of the panel has clearly been redrawn and relettered, and rather crudely and inac",
     "And Pogo was always filled with cute and cuddly as well as ridiculous.\n\nAs a boy, I depended on the comic section of the Sunday paper to make sense of the world for me.  If I turned out slightly skewed and warped in certain ways, it is owing to the education I myself was given by Pogo, Lil Abner, Da",
     "From an early collection of political cartoons to Magna anime in Japanese and English1, students and comic enthusiasts will find endless enjoyment from this museum's collections and exhibits. Originally, two converted classrooms in the Journalism building at The Ohio State University2, The Museum ha",
-    "After being published annually as it's own title in 1942-1943, Santa Claus Funnies became a Four Color Comics feature, publishing annually from 1944 to 1961.\nThis tale was written and illustrated by Walt Kelly, before he created the classic comic strip Pogo.\nBeginning with a two-part adaptation of t",
-    "James Madison and Walt Kelly, creator of the Pogo comic strip, had this much in common:  they both concluded that we are the problem.\n\nKelly issued his most famous pronouncement \u2014 \u201cWe have met the enemy and he is us\u201d \u2014 on a poster for the first Earth Day in 1970.",
-    "Six cartoons get Audio Commentaries, by such esteemed animation historians as Jerry beck and Thad Komorowski. The commentaries provide much-needed historical context and information, well worth a listen. There are also three Comic Book Stories based on the Noveltoons shorts, one drawn by the legenda",
-    "\u201cWe are confronted by insurmountable opportunities.\u201d\n\nSo commented Walt Kelly, the genius behind \u201cPogo,\u201d one of the all-time great newspaper comic strips featuring both satire and wordplay.\n\nPogo Possum, Churchy LaFemme, Porky Pine and the rest of the Okefenokee Swamp gang butchered common phrases a",
-    "Jeremy Love\u2019s graphic novel Bayou (2009) is an audacious bricolage. A Southern tragedy set in the fictional town of Charon, Mississippi during the Depression, Bayou subverts genres to offer something new. Lee Wagstaff, our plucky and determined heroine, struggles to rescue her devoted and industriou"
+    "After being published annually as it's own title in 1942-1943, Santa Claus Funnies became a Four Color Comics feature, publishing annually from 1944 to 1961.\nThis tale was written and illustrated by Walt Kelly, before he created the classic comic strip Pogo.\nBeginning with a two-part adaptation of t"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -3900,8 +3872,40 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 12,
-   "rows": [],
-   "samples": [],
+   "rows": [
+    {
+     "text": "What\u2019s the origin of the mysterious phrase \u201cetaoin shrdlu\u201d?\nYou are my last hope. I need to know the origin of the phrase \"etaoin shrdlu.\" I first encountered it in Walt Kelly's \"Pogo\" comic strip, where it was the moniker of an irascible bookworm, and it has turned up periodically since. I have sea",
+     "imageUrl": "https://www.straightdope.com/columns/read/2777/whats-the-origin-of-the-mysterious-phrase-etaoin-shrdlu/",
+     "keyword": "walt kelly",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Others have written oodles on how comics work and the mechanics of the comic book medium. Scott McCloud, for example, has several books examining how layout, composition and the space between the panels affect what works, what has been tried, and how to use the \"rules\" of comics. I'm not going to at",
+     "imageUrl": "http://comicsbin.blogspot.com/2015/01/",
+     "keyword": "pogo possum",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "What\u2019s the origin of the mysterious phrase \u201cetaoin shrdlu\u201d?\nYou are my last hope. I need to know the origin of the phrase \"etaoin shrdlu.\" I first encountered it in Walt Kelly's \"Pogo\" comic strip, where it was the moniker of an irascible bookworm, and it has turned up periodically since. I have sea",
+    "Others have written oodles on how comics work and the mechanics of the comic book medium. Scott McCloud, for example, has several books examining how layout, composition and the space between the panels affect what works, what has been tried, and how to use the \"rules\" of comics. I'm not going to at"
+   ],
    "partial": false,
    "shardsScanned": 10,
    "shardsTotal": 10
@@ -3925,13 +3929,13 @@
     "longformHits": 1760,
     "longformRatio": 0.464,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 219,
      "laion1b-nolang": 440,
      "laion2b-en": 1163,
      "laion2b-multi": 211,
      "obelics": 1741,
-     "pile": 9,
-     "c4-en": 10
+     "pile": 9
     },
     "reason": null
    },
@@ -3943,12 +3947,12 @@
     "longformHits": 134,
     "longformRatio": 0.313,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 12,
+     "laion1b-nolang": 82,
      "laion2b-en": 151,
      "laion2b-multi": 49,
-     "obelics": 132,
-     "laion1b-nolang": 82,
-     "c4-en": 2
+     "obelics": 132
     },
     "reason": null
    },
@@ -3961,9 +3965,9 @@
     "longformRatio": 0.357,
     "perDataset": {
      "coyo700m": 18,
+     "laion1b-nolang": 33,
      "laion2b-en": 100,
      "laion2b-multi": 2,
-     "laion1b-nolang": 33,
      "obelics": 85
     },
     "reason": null
@@ -3980,15 +3984,15 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 1285,
-   "person_photo": 196,
-   "storefront": 40,
-   "merchandise": 42,
-   "unrelated": 107,
+   "unverified": 1290,
+   "person_photo": 197,
+   "unrelated": 103,
+   "storefront": 45,
+   "merchandise": 43,
    "derivative": 5,
-   "explicit": 3
+   "explicit": 4
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-pogo",
  "cohort": "billy-ireland",
@@ -4001,7 +4005,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 4459,
   "datasetsPresent": 7,

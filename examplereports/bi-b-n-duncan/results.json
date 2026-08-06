@@ -933,8 +933,8 @@
     "longformHits": 6,
     "longformRatio": 1.0,
     "perDataset": {
-     "obelics": 4,
-     "c4-en": 2
+     "c4-en": 2,
+     "obelics": 4
     },
     "reason": null
    }
@@ -956,7 +956,7 @@
    "explicit": 1,
    "merchandise": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-b-n-duncan",
  "cohort": "billy-ireland",
@@ -969,7 +969,7 @@
   "estimatedMonthlyUsers": 9712000,
   "estimatedTotalGenerations": 1942400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 14,
   "datasetsPresent": 3,

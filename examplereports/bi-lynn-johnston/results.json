@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -912,8 +912,8 @@
      }
     },
     {
-     "text": "Own inspiration: Lynn Johnston; creator of For Better or For Worse; uses her own family as source of bitter-sweet humor in the mass-syndicated comic strip. Mother of two from Lynn Lake; Man.; is in Toronto for a show of her work at an Avenue Rd. gallery this month. (Ron Bull/Toronto Star/Getty Image",
-     "imageUrl": "https://www.macleans.ca/wp-content/uploads/2016/05/MAC_110_1947_SECONDARY_POST01.jpg",
+     "text": "Colette Fu, Rodin Museum: Lovers, from the series \u201cHaunted Philadelphia,\u201d 2005\u201306; Artist\u2019s book with color prints, Chinese Joss paper and Philadelphia newspapers, 53 x 36 x 22 in. (open); NMWA; Museum purchase with funds donated by Lynn Johnston and Julie Garcia; \u00a9 Colette Fu; Photo by Lee Stalswor",
+     "imageUrl": "http://www.artfixdaily.com/images/cache/Sept15_rodin232x440_c.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -928,34 +928,6 @@
     {
      "text": "For Better or For Worse by Lynn Johnston on Sat, 29 May 2021",
      "imageUrl": "https://assets.amuniversal.com/19f0dff09a5301395f4d005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Mon, 14 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/a75ada80a9e201396341005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Fri, 05 Mar 2021",
-     "imageUrl": "https://assets.amuniversal.com/b3c53c30576201394c1e005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -996,22 +968,8 @@
      }
     },
     {
-     "text": "Colette Fu, Rodin Museum: Lovers, from the series \u201cHaunted Philadelphia,\u201d 2005\u201306; Artist\u2019s book with color prints, Chinese Joss paper and Philadelphia newspapers, 53 x 36 x 22 in. (open); NMWA; Museum purchase with funds donated by Lynn Johnston and Julie Garcia; \u00a9 Colette Fu; Photo by Lee Stalswor",
-     "imageUrl": "http://www.artfixdaily.com/images/cache/Sept15_rodin232x440_c.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Mon, 15 Feb 2021",
-     "imageUrl": "https://assets.amuniversal.com/9c84ca104c78013948d8005056a9545d",
+     "text": "For Better or For Worse by Lynn Johnston on Fri, 05 Mar 2021",
+     "imageUrl": "https://assets.amuniversal.com/b3c53c30576201394c1e005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1026,6 +984,230 @@
     {
      "text": "Lucky Quotes By Lynn Johnston: I was just so lucky to have a",
      "imageUrl": "https://www.wisefamousquotes.com/images/lucky-quotes-by-lynn-johnston-60093.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Sun, 14 Feb 2021",
+     "imageUrl": "https://assets.amuniversal.com/5f93ecc02d2501393ef3005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Wed, 03 Mar 2021",
+     "imageUrl": "https://assets.amuniversal.com/44edbea0576101394c1e005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Sat, 05 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/2276c3f09edb01396078005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse: The Complete Library, Vol. 5 by Lynn Johnston",
+     "imageUrl": "https://images4.penguinrandomhouse.com/cover/9781684057504",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Collect the Entire Run Chronologically Beginning with Volume One One of the most beloved comic strips of all time, this new collection of\u00a0For Better or For Worse, produced with\u00a0Lynn Johnston\u2019s [\u2026",
+     "imageUrl": "https://fanboyfactor.com/wp-content/uploads/2017/10/For-Better-or-For-Worse-banner-600x300.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Crazy But Quotes By Lynn Johnston: I know it sounds crazy, but I have",
+     "imageUrl": "https://www.wisefamousquotes.com/images/crazy-but-quotes-by-lynn-johnston-16880.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ALMOST SPRING Diptych 8 x 8 acrylic by Lynn Johnston",
+     "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s127f6f1d68b00117/image/ibc52a6980e23108f/version/1627118457/image.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Wed, 16 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/e0cded50a9e301396341005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Celebrity Pictures With Sayings By Lynn Johnston: That's what my mother did. And my father was the first person she'd met who",
+     "imageUrl": "https://www.greatsayings.net/images/celebrity-pictures-with-sayings-by-lynn-johnston-625204.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Mon, 01 Mar 2021",
+     "imageUrl": "https://assets.amuniversal.com/d53889f0576301394c1e005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "314) For Better Or For Worse by Lynn Johnston 1-12,1996 Size: 2.5 x 7 inches",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/b8a81f5eee3c72d881583278eb3d29c7-300.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Own inspiration: Lynn Johnston; creator of For Better or For Worse; uses her own family as source of bitter-sweet humor in the mass-syndicated comic strip. Mother of two from Lynn Lake; Man.; is in Toronto for a show of her work at an Avenue Rd. gallery this month. (Ron Bull/Toronto Star/Getty Image",
+     "imageUrl": "https://www.macleans.ca/wp-content/uploads/2016/05/MAC_110_1947_SECONDARY_POST01.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Thu, 11 Feb 2021",
+     "imageUrl": "https://assets.amuniversal.com/64ee238046db01394704005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Tue, 15 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/dde2c580a9e301396341005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Mon, 14 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/a75ada80a9e201396341005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Mon, 15 Feb 2021",
+     "imageUrl": "https://assets.amuniversal.com/9c84ca104c78013948d8005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1066,20 +1248,6 @@
      }
     },
     {
-     "text": "Bestselling Comics (2006) - With This Ring: A For Better or For Worse Collection by Lynn Johnston - With This King - Wedding - Lynn Johnston - Flowers - For Better Or For Worse",
-     "imageUrl": "http://www.coverbrowser.com/image/bestselling-comics-2006/2368-1.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "For Better or For Worse: The Complete Library, Vol. 1 by Lynn Johnston",
      "imageUrl": "https://ywhmlsu40s2sex403o5ffl12-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/FBorFW-81CrijGZZkL-1024x804.jpg",
      "keyword": "lynn johnston",
@@ -1094,22 +1262,8 @@
      }
     },
     {
-     "text": "For Better or For Worse by Lynn Johnston on Sun, 14 Feb 2021",
-     "imageUrl": "https://assets.amuniversal.com/5f93ecc02d2501393ef3005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Sat, 05 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/2276c3f09edb01396078005056a9545d",
+     "text": "Bestselling Comics (2006) - With This Ring: A For Better or For Worse Collection by Lynn Johnston - With This King - Wedding - Lynn Johnston - Flowers - For Better Or For Worse",
+     "imageUrl": "http://www.coverbrowser.com/image/bestselling-comics-2006/2368-1.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1150,8 +1304,36 @@
      }
     },
     {
-     "text": "Collect the Entire Run Chronologically Beginning with Volume One One of the most beloved comic strips of all time, this new collection of\u00a0For Better or For Worse, produced with\u00a0Lynn Johnston\u2019s [\u2026",
-     "imageUrl": "https://fanboyfactor.com/wp-content/uploads/2017/10/For-Better-or-For-Worse-banner-600x300.jpg",
+     "text": "Pin By Lynn Johnston On Environment Map Planets Save The Planet",
+     "imageUrl": "https://i.pinimg.com/originals/2e/35/98/2e3598ca95b56f165ad191812c4cee06.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Sun, 13 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/5e79909089d601395af5005056a9545d",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or For Worse by Lynn Johnston on Sat, 06 Mar 2021",
+     "imageUrl": "https://assets.amuniversal.com/da755a70576301394c1e005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1192,8 +1374,8 @@
      }
     },
     {
-     "text": "For Better or For Worse by Lynn Johnston on Sat, 06 Mar 2021",
-     "imageUrl": "https://assets.amuniversal.com/da755a70576301394c1e005056a9545d",
+     "text": "For Better or For Worse by Lynn Johnston on Sun, 06 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/5a15edd089d601395af5005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1206,78 +1388,8 @@
      }
     },
     {
-     "text": "For Better or For Worse by Lynn Johnston on Sun, 13 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/5e79909089d601395af5005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Wed, 03 Mar 2021",
-     "imageUrl": "https://assets.amuniversal.com/44edbea0576101394c1e005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pin By Lynn Johnston On Environment Map Planets Save The Planet",
-     "imageUrl": "https://i.pinimg.com/originals/2e/35/98/2e3598ca95b56f165ad191812c4cee06.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse: The Complete Library, Vol. 5 by Lynn Johnston",
-     "imageUrl": "https://images4.penguinrandomhouse.com/cover/9781684057504",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Crazy But Quotes By Lynn Johnston: I know it sounds crazy, but I have",
-     "imageUrl": "https://www.wisefamousquotes.com/images/crazy-but-quotes-by-lynn-johnston-16880.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ALMOST SPRING Diptych 8 x 8 acrylic by Lynn Johnston",
-     "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s127f6f1d68b00117/image/ibc52a6980e23108f/version/1627118457/image.jpg",
+     "text": "For Better or For Worse by Lynn Johnston on Mon, 07 Jun 2021",
+     "imageUrl": "https://assets.amuniversal.com/e065db409ed701396078005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1332,48 +1444,6 @@
      }
     },
     {
-     "text": "For Better or For Worse by Lynn Johnston on Mon, 07 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/e065db409ed701396078005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Sun, 06 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/5a15edd089d601395af5005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "314) For Better Or For Worse by Lynn Johnston 1-12,1996 Size: 2.5 x 7 inches",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/b8a81f5eee3c72d881583278eb3d29c7-300.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "For Better or For Worse by Lynn Johnston on Fri, 04 Jun 2021",
      "imageUrl": "https://assets.amuniversal.com/9982cd809ed901396078005056a9545d",
      "keyword": "lynn johnston",
@@ -1416,34 +1486,6 @@
      }
     },
     {
-     "text": "Celebrity Pictures With Sayings By Lynn Johnston: That's what my mother did. And my father was the first person she'd met who",
-     "imageUrl": "https://www.greatsayings.net/images/celebrity-pictures-with-sayings-by-lynn-johnston-625204.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Mon, 01 Mar 2021",
-     "imageUrl": "https://assets.amuniversal.com/d53889f0576301394c1e005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "For Better or For Worse by Lynn Johnston on Fri, 11 Jun 2021",
      "imageUrl": "https://assets.amuniversal.com/e5fb64e09ed701396078005056a9545d",
      "keyword": "lynn johnston",
@@ -1472,50 +1514,8 @@
      }
     },
     {
-     "text": "For Better or For Worse by Lynn Johnston on Wed, 16 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/e0cded50a9e301396341005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Life Shyness Quotes By Lynn Johnston",
      "imageUrl": "https://quotessayings.net/pics/life-shyness-quote-by-lynn-johnston-764418.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Tue, 15 Jun 2021",
-     "imageUrl": "https://assets.amuniversal.com/dde2c580a9e301396341005056a9545d",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or For Worse by Lynn Johnston on Thu, 11 Feb 2021",
-     "imageUrl": "https://assets.amuniversal.com/64ee238046db01394704005056a9545d",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1612,8 +1612,8 @@
      }
     },
     {
-     "text": "The World of Wearable Arts Awards at the TSB Bank Arena. Rachel Curtin and Billee Mutton's piece Basketcase in the Open section (left) followed by the Wellington International Award winner The Countess & Her Cousin: A Self Portrait by Lynn Johnston and Felicity Hardy, Australia and the Mainpower WOW",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000nqnOR0cfjCc/fit=1000x750/World-of-Wearable-Arts-Awards.jpg",
+     "text": "Colette Fu, Rodin Museum: Lovers, from the series \u201cHaunted Philadelphia,\u201d 2005\u201306; Artist\u2019s book with color prints, Chinese Joss paper, and Philadelphia newspapers, 53 x 36 x 22 in. (open); NMWA; Museum purchase with funds donated by Lynn Johnston and Julie Garcia",
+     "imageUrl": "https://nmwa.org/wp-content/uploads/2016/11/ColetteFu_RodinMuseum.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1626,8 +1626,8 @@
      }
     },
     {
-     "text": "Colette Fu, Rodin Museum: Lovers, from the series \u201cHaunted Philadelphia,\u201d 2005\u201306; Artist\u2019s book with color prints, Chinese Joss paper, and Philadelphia newspapers, 53 x 36 x 22 in. (open); NMWA; Museum purchase with funds donated by Lynn Johnston and Julie Garcia",
-     "imageUrl": "https://nmwa.org/wp-content/uploads/2016/11/ColetteFu_RodinMuseum.jpg",
+     "text": "The World of Wearable Arts Awards at the TSB Bank Arena. Rachel Curtin and Billee Mutton's piece Basketcase in the Open section (left) followed by the Wellington International Award winner The Countess & Her Cousin: A Self Portrait by Lynn Johnston and Felicity Hardy, Australia and the Mainpower WOW",
+     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000nqnOR0cfjCc/fit=1000x750/World-of-Wearable-Arts-Awards.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": null,
@@ -1670,15 +1670,15 @@
    ],
    "samples": [
     "Is This One of Those Days, Daddy? By Lynn Johnston",
-    "Own inspiration: Lynn Johnston; creator of For Better or For Worse; uses her own family as source of bitter-sweet humor in the mass-syndicated comic strip. Mother of two from Lynn Lake; Man.; is in Toronto for a show of her work at an Avenue Rd. gallery this month. (Ron Bull/Toronto Star/Getty Image",
+    "Colette Fu, Rodin Museum: Lovers, from the series \u201cHaunted Philadelphia,\u201d 2005\u201306; Artist\u2019s book with color prints, Chinese Joss paper and Philadelphia newspapers, 53 x 36 x 22 in. (open); NMWA; Museum purchase with funds donated by Lynn Johnston and Julie Garcia; \u00a9 Colette Fu; Photo by Lee Stalswor",
     "For Better or For Worse by Lynn Johnston on Sat, 29 May 2021",
-    "For Better or For Worse by Lynn Johnston on Mon, 14 Jun 2021",
-    "For Better or For Worse by Lynn Johnston on Fri, 05 Mar 2021",
     "For Better or For Worse by Lynn Johnston on Mon, 31 May 2021",
     "For Better or For Worse by Lynn Johnston on Wed, 26 May 2021",
-    "Colette Fu, Rodin Museum: Lovers, from the series \u201cHaunted Philadelphia,\u201d 2005\u201306; Artist\u2019s book with color prints, Chinese Joss paper and Philadelphia newspapers, 53 x 36 x 22 in. (open); NMWA; Museum purchase with funds donated by Lynn Johnston and Julie Garcia; \u00a9 Colette Fu; Photo by Lee Stalswor",
-    "For Better or For Worse by Lynn Johnston on Mon, 15 Feb 2021",
-    "Lucky Quotes By Lynn Johnston: I was just so lucky to have a"
+    "For Better or For Worse by Lynn Johnston on Fri, 05 Mar 2021",
+    "Lucky Quotes By Lynn Johnston: I was just so lucky to have a",
+    "For Better or For Worse by Lynn Johnston on Sun, 14 Feb 2021",
+    "For Better or For Worse by Lynn Johnston on Wed, 03 Mar 2021",
+    "For Better or For Worse by Lynn Johnston on Sat, 05 Jun 2021"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1703,6 +1703,48 @@
    "lowConfidenceCount": 2265,
    "totalIncludingLowConfidence": 2681,
    "rows": [
+    {
+     "text": "\"Laugh 'n' Learn Spanish - Featuring the #1 Comic Strip \"\"For Better or For Worse\"\" ebook by Lynn Johnston, Brenda Wegmann\"",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/f814ef39-f298-438e-a940-b9b485ce7e05/140/215/60/False/laugh-n-learn-spanish.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.0005846023559570312,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2006) - Pushing 40 : A For Better or for Worse Collection by Lynn Johnston - Lynn Johnson - Family - For Better Or For Worse - House - Mini Car",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/3603-1.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.00047025084495544434,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Title details for Farley and the Lost Bone by Lynn Johnston - Available",
+     "imageUrl": "https://img1.od-cdn.com/ImageType-100/2437-1/%7BDB3578A0-0D30-42EB-B7BD-710514517BD0%7DImg100.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.0002452731132507324,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "For Better or For Worse: The Complete Library, Vol. 2 by Lynn Johnston",
      "imageUrl": "https://images.penguinrandomhouse.com/cover/9781684052561",
@@ -1760,6 +1802,20 @@
      }
     },
     {
+     "text": "\"\"\"Is This \"\"\"\"One of Those Days,\"\"\"\" Daddy? by Lynn Johnston\"\"\"",
+     "imageUrl": "http://images.gr-assets.com/books/1347650669l/1739855.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.001442253589630127,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Image Credit: Art by Eric Reaves. Snoopy \u00a9 PNTS; Biscuit \u00a9 Jan Eliot; Grimmy \u00a9 Grimmy, Inc.; Marmaduke \u00a9 UFS; Farley \u00a9 Lynn Johnston Productions, Inc.; Otto \u00a9 Comicana, Inc.; Earl \u00a9 Patrick McDonnell; Odie \u00a9 Paws; Snert \u00a9 King Features Syndicate, Inc.; Dawg \u00a9 Comicana, Inc.; Sandy \u00a9 Tribune Media Se",
      "imageUrl": "https://www.liveauctioneers.com/news/wp-content/uploads/2021/07/Dog-Show-Reaves-Art-lowres-final-858x1030.jpg",
      "keyword": "lynn johnston",
@@ -1802,25 +1858,11 @@
      }
     },
     {
-     "text": "\"\"\"Is This \"\"\"\"One of Those Days,\"\"\"\" Daddy? by Lynn Johnston\"\"\"",
-     "imageUrl": "http://images.gr-assets.com/books/1347650669l/1739855.jpg",
+     "text": "FARLEY FOLLOWS HIS NOSE by Lynn Johnston",
+     "imageUrl": "https://d1ldy8a769gy68.cloudfront.net/180/978/006/170/234/1/9780061702341.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.001442253589630127,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Laugh 'n' Learn Spanish - Featuring the #1 Comic Strip \"\"For Better or For Worse\"\" ebook by Lynn Johnston, Brenda Wegmann\"",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/f814ef39-f298-438e-a940-b9b485ce7e05/140/215/60/False/laugh-n-learn-spanish.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0005846023559570312,
+     "punsafe": 7.258216646732762e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1858,34 +1900,6 @@
      }
     },
     {
-     "text": "FARLEY FOLLOWS HIS NOSE by Lynn Johnston",
-     "imageUrl": "https://d1ldy8a769gy68.cloudfront.net/180/978/006/170/234/1/9780061702341.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 7.258216646732762e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "There Goes My Baby! by Lynn Johnston",
-     "imageUrl": "http://images.gr-assets.com/books/1388545586l/351675.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0002759099006652832,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Image for Remembering Farley - A For Better or Worse Collection ---a Signed Copy with Original Drawing  of Ellie, John and Farley -by Lynn Johnston",
      "imageUrl": "https://www.leonardshoup.com/assets/images/product/147644.jpg",
      "keyword": "lynn johnston",
@@ -1900,25 +1914,11 @@
      }
     },
     {
-     "text": "Bestselling Comics (2006) - Pushing 40 : A For Better or for Worse Collection by Lynn Johnston - Lynn Johnson - Family - For Better Or For Worse - House - Mini Car",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/3603-1.jpg",
+     "text": "There Goes My Baby! by Lynn Johnston",
+     "imageUrl": "http://images.gr-assets.com/books/1388545586l/351675.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.00047025084495544434,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Title details for Farley and the Lost Bone by Lynn Johnston - Available",
-     "imageUrl": "https://img1.od-cdn.com/ImageType-100/2437-1/%7BDB3578A0-0D30-42EB-B7BD-710514517BD0%7DImg100.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0002452731132507324,
+     "punsafe": 0.0002759099006652832,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1984,20 +1984,6 @@
      }
     },
     {
-     "text": "For Better Or For Worse The Complete Library, Vol. 3 by Lynn Johnston",
-     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/2fb/209891186.jpeg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.011517643928527832,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Starting from Scratch: A For Better or For Worse Collection - A For Better or For Worse Collection ebook by Lynn Johnston",
      "imageUrl": "https://kbimages1-a.akamaihd.net/5f1fd185-1d35-4fdd-9c5f-b341e0aad399/180/1000/False/starting-from-scratch-a-for-better-or-for-worse-collection.jpg",
      "keyword": "lynn johnston",
@@ -2012,53 +1998,25 @@
      }
     },
     {
+     "text": "For Better Or For Worse The Complete Library, Vol. 3 by Lynn Johnston",
+     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/2fb/209891186.jpeg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.011517643928527832,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "I've Got the One-More-Washload Blues by Lynn Johnston",
      "imageUrl": "https://images.gr-assets.com/books/1388252478l/351663.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": 0.0004546642303466797,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It's One Thing After Another!: For Better or For Worse 4th Treasury by Lynn Johnston",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/Images/b99f0c56-1749-4665-8736-f42367441a2a/140/200/85/false/it-s-one-thing-after-another.jpg?altimages=false&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.00017783045768737793,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Life's Adventures Quotes By Lynn Johnston",
-     "imageUrl": "https://quotessayings.net/pics/lifes-adventures-quote-by-lynn-johnston-748873.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 4.8621295718476176e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Graduation by Lynn Johnston",
-     "imageUrl": "http://d.gr-assets.com/books/1348842420l/351677.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.005297333002090454,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2096,6 +2054,34 @@
      }
     },
     {
+     "text": "Life's Adventures Quotes By Lynn Johnston",
+     "imageUrl": "https://quotessayings.net/pics/lifes-adventures-quote-by-lynn-johnston-748873.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 4.8621295718476176e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Graduation by Lynn Johnston",
+     "imageUrl": "http://d.gr-assets.com/books/1348842420l/351677.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.005297333002090454,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Lynn Johnston's popular comic strip For Better or For Worse television Christmas show: The Bestest Present .",
      "imageUrl": "https://i.pinimg.com/236x/67/99/de/6799de3e2894661dee96241240dc2eef--christmas-movies-comic-strips.jpg",
      "keyword": "lynn johnston",
@@ -2124,6 +2110,20 @@
      }
     },
     {
+     "text": "It's One Thing After Another!: For Better or For Worse 4th Treasury by Lynn Johnston",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/Images/b99f0c56-1749-4665-8736-f42367441a2a/140/200/85/false/it-s-one-thing-after-another.jpg?altimages=false&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.00017783045768737793,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "For Better or For Worse: The Complete Library, Vol. 3 by Lynn Johnston",
      "imageUrl": "https://images2.penguinrandomhouse.com/cover/9781684054268",
      "keyword": "lynn johnston",
@@ -2143,48 +2143,6 @@
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": 5.921814954490401e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Graduation by Lynn Johnston",
-     "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1348842420l/351677.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.005297333002090454,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "LIKE NEW+ For Better or for Worse It's the Thought That Counts by Lynn Johnston",
-     "imageUrl": "http://i.ebayimg.com/thumbs/images/g/7PoAAOSwjL5ZBOIE/s-l225.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.09694930911064148,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "There Goes My Baby! by Lynn Johnston",
-     "imageUrl": "http://d.gr-assets.com/books/1388545586l/351675.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0002759099006652832,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2227,6 +2185,62 @@
      "keyword": "lynn johnston",
      "tier": "namematch",
      "punsafe": 0.00020647048950195312,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u00a92001 A PERFECT CHRISTMAS BY LYNN JOHNSTON SIGNED MINIATURE HARD COVER BOOK",
+     "imageUrl": "https://cdn1.bigcommerce.com/n-dvzvde/z4512/products/946/images/6148/IMG_3582__41104.1622475974.120.120.jpg?c=2",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.004845112562179565,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Small Steps to Healthy Eating: Lose Weight, Have More Energy, Feel Better Eating the Foods You Love ebook by Lynn Johnston",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/06f8c06c-6450-4925-b103-8f0771d039aa/180/1000/False/small-steps-to-healthy-eating-lose-weight-have-more-energy-feel-better-eating-the-foods-you-love.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 7.847385859349743e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2006) - Just One More Hug (For Better or for Worse Collections) by Lynn Johnston",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/3371-1.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.0041837990283966064,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Book by Lynn Johnston on display from \"\"\"\"Mystery Art Sale\"\"\"\"\"\"\"",
+     "imageUrl": "https://images.squarespace-cdn.com/content/5514e2cde4b0263cc207968b/1556693862848-SYHL1M0W6V7VI2OYAO1C/At+Home+with+Shari-FANS2019-i.jpg?format=1000w&content-type=image%2Fjpeg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.0005501806735992432,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2292,11 +2306,11 @@
      }
     },
     {
-     "text": "\u00a92001 A PERFECT CHRISTMAS BY LYNN JOHNSTON SIGNED MINIATURE HARD COVER BOOK",
-     "imageUrl": "https://cdn1.bigcommerce.com/n-dvzvde/z4512/products/946/images/6148/IMG_3582__41104.1622475974.120.120.jpg?c=2",
+     "text": "LIKE NEW+ For Better or for Worse It's the Thought That Counts by Lynn Johnston",
+     "imageUrl": "http://i.ebayimg.com/thumbs/images/g/7PoAAOSwjL5ZBOIE/s-l225.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.004845112562179565,
+     "punsafe": 0.09694930911064148,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2306,53 +2320,11 @@
      }
     },
     {
-     "text": "I've Got the One-More-Washload Blues by Lynn Johnston",
-     "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1173996250l/351663.jpg",
+     "text": "There Goes My Baby! by Lynn Johnston",
+     "imageUrl": "http://d.gr-assets.com/books/1388545586l/351675.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.000748366117477417,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Small Steps to Healthy Eating: Lose Weight, Have More Energy, Feel Better Eating the Foods You Love ebook by Lynn Johnston",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/06f8c06c-6450-4925-b103-8f0771d039aa/180/1000/False/small-steps-to-healthy-eating-lose-weight-have-more-energy-feel-better-eating-the-foods-you-love.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 7.847385859349743e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bestselling Comics (2006) - Just One More Hug (For Better or for Worse Collections) by Lynn Johnston",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/3371-1.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0041837990283966064,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Book by Lynn Johnston on display from \"\"\"\"Mystery Art Sale\"\"\"\"\"\"\"",
-     "imageUrl": "https://images.squarespace-cdn.com/content/5514e2cde4b0263cc207968b/1556693862848-SYHL1M0W6V7VI2OYAO1C/At+Home+with+Shari-FANS2019-i.jpg?format=1000w&content-type=image%2Fjpeg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0005501806735992432,
+     "punsafe": 0.0002759099006652832,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2404,6 +2376,62 @@
      }
     },
     {
+     "text": "Graduation by Lynn Johnston",
+     "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1348842420l/351677.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.005297333002090454,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I've Got the One-More-Washload Blues by Lynn Johnston",
+     "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1173996250l/351663.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.000748366117477417,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2006) - The Big 5-0: A For Better Or For Worse Collection by Lynn Johnston",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/2675-1.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.010899215936660767,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For Better or for Worse: Family Album  Seasons 1 and 2 [DVD]by Lynn Johnston",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/41%2BAY4uru5L._SL500_SS160_.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.00016263127326965332,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Bestselling Comics (2006) - The Last Straw: A For Better or For Worse Collection by Lynn Johnston",
      "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/2104-1.jpg",
      "keyword": "lynn johnston",
@@ -2432,11 +2460,11 @@
      }
     },
     {
-     "text": "Not Able To Sleep Sayings By Lynn Johnston: Not being able to sleep is terrible. You have the misery of having partied all",
-     "imageUrl": "https://www.greatsayings.net/images/not-able-to-sleep-sayings-by-lynn-johnston-609024.jpg",
+     "text": "Bestselling Comics (2006) - Striking A Chord: A For Better or For Worse Collection by Lynn Johnston",
+     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/2015-1.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.0017249882221221924,
+     "punsafe": 0.00014403462409973145,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2446,11 +2474,11 @@
      }
     },
     {
-     "text": "Bestselling Comics (2006) - Striking A Chord: A For Better or For Worse Collection by Lynn Johnston",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/2015-1.jpg",
+     "text": "Not Able To Sleep Sayings By Lynn Johnston: Not being able to sleep is terrible. You have the misery of having partied all",
+     "imageUrl": "https://www.greatsayings.net/images/not-able-to-sleep-sayings-by-lynn-johnston-609024.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.00014403462409973145,
+     "punsafe": 0.0017249882221221924,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2502,34 +2530,6 @@
      }
     },
     {
-     "text": "Bestselling Comics (2006) - The Big 5-0: A For Better Or For Worse Collection by Lynn Johnston",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/2675-1.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.010899215936660767,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "For Better or for Worse: Family Album  Seasons 1 and 2 [DVD]by Lynn Johnston",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/41%2BAY4uru5L._SL500_SS160_.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.00016263127326965332,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Original Comic Art:Comic Strip Art, Lynn Johnston For Better or For Worse Daily Comic StripOriginal Art dated 1-23-95 (Univers...",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F1%2F9%2F0%2F19190723%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "lynn johnston",
@@ -2545,16 +2545,16 @@
     }
    ],
    "samples": [
+    "\"Laugh 'n' Learn Spanish - Featuring the #1 Comic Strip \"\"For Better or For Worse\"\" ebook by Lynn Johnston, Brenda Wegmann\"",
+    "Bestselling Comics (2006) - Pushing 40 : A For Better or for Worse Collection by Lynn Johnston - Lynn Johnson - Family - For Better Or For Worse - House - Mini Car",
+    "Title details for Farley and the Lost Bone by Lynn Johnston - Available",
     "For Better or For Worse: The Complete Library, Vol. 2 by Lynn Johnston",
     "For Better or for Worse The complete Library Volume 1 by Lynn Johnston",
     "\"Is This \"\"One of Those Days,\"\" Daddy? by Lynn Johnston\"",
     "Leaving Home ebook by Lynn Johnston,Andie Parton",
-    "Image Credit: Art by Eric Reaves. Snoopy \u00a9 PNTS; Biscuit \u00a9 Jan Eliot; Grimmy \u00a9 Grimmy, Inc.; Marmaduke \u00a9 UFS; Farley \u00a9 Lynn Johnston Productions, Inc.; Otto \u00a9 Comicana, Inc.; Earl \u00a9 Patrick McDonnell; Odie \u00a9 Paws; Snert \u00a9 King Features Syndicate, Inc.; Dawg \u00a9 Comicana, Inc.; Sandy \u00a9 Tribune Media Se",
-    "Bestselling Comics (2007) - The Lives Behind the Lines: 20 Years of For Better or For Worse by Lynn Johnston",
-    "Leaving Home - Survival of the Hippest ebook by Lynn Johnston,Andie Parton",
     "\"\"\"Is This \"\"\"\"One of Those Days,\"\"\"\" Daddy? by Lynn Johnston\"\"\"",
-    "\"Laugh 'n' Learn Spanish - Featuring the #1 Comic Strip \"\"For Better or For Worse\"\" ebook by Lynn Johnston, Brenda Wegmann\"",
-    "Bestselling Comics (2007) - If This Is A Lecture, How Long Will It Be ?: A For Better or For Worse Collectio - Family - Canada - Humor Cartoons - Lynn Johnston - Comic Strip"
+    "Image Credit: Art by Eric Reaves. Snoopy \u00a9 PNTS; Biscuit \u00a9 Jan Eliot; Grimmy \u00a9 Grimmy, Inc.; Marmaduke \u00a9 UFS; Farley \u00a9 Lynn Johnston Productions, Inc.; Otto \u00a9 Comicana, Inc.; Earl \u00a9 Patrick McDonnell; Odie \u00a9 Paws; Snert \u00a9 King Features Syndicate, Inc.; Dawg \u00a9 Comicana, Inc.; Sandy \u00a9 Tribune Media Se",
+    "Bestselling Comics (2007) - The Lives Behind the Lines: 20 Years of For Better or For Worse by Lynn Johnston"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2664,11 +2664,11 @@
      }
     },
     {
-     "text": "\"\"\"A new Christmas design by Lynn Johnston:  \"\"\"\"Christmas Frenzy\"\"\"\" Leggings \u2014 Full colour on green\"\"\"",
-     "imageUrl": "https://i.pinimg.com/236x/53/e0/93/53e0936792b5dadec59475d6381052a5.jpg",
+     "text": "Striking a Chord by Lynn Johnston",
+     "imageUrl": "http://d2arxad8u2l0g7.cloudfront.net/books/1347890182l/327240.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.011220186948776245,
+     "punsafe": 0.00022459030151367188,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2678,11 +2678,11 @@
      }
     },
     {
-     "text": "Striking a Chord by Lynn Johnston",
-     "imageUrl": "http://d2arxad8u2l0g7.cloudfront.net/books/1347890182l/327240.jpg",
+     "text": "\"\"\"A new Christmas design by Lynn Johnston:  \"\"\"\"Christmas Frenzy\"\"\"\" Leggings \u2014 Full colour on green\"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/53/e0/93/53e0936792b5dadec59475d6381052a5.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.00022459030151367188,
+     "punsafe": 0.011220186948776245,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2699,8 +2699,8 @@
     "FARLEY AND THE LOST BONE, BY LYNN JOHNSTON (ENGLISH) HC/DJ  ***NEW***",
     "Farley and the Lost Bone by Lynn Johnston, Beth Cruikshank (Hardback, 2011)",
     "Hi Mom! Hi Dad! by Lynn Johnston",
-    "\"\"\"A new Christmas design by Lynn Johnston:  \"\"\"\"Christmas Frenzy\"\"\"\" Leggings \u2014 Full colour on green\"\"\"",
-    "Striking a Chord by Lynn Johnston"
+    "Striking a Chord by Lynn Johnston",
+    "\"\"\"A new Christmas design by Lynn Johnston:  \"\"\"\"Christmas Frenzy\"\"\"\" Leggings \u2014 Full colour on green\"\"\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2740,11 +2740,11 @@
      }
     },
     {
-     "text": "Something Old, Something New by Lynn Johnston",
-     "imageUrl": "http://i.shopmania.org/180x180/8/81/81eca41eef1d40285955178b204380a29214f5bf.jpg?u=https%3A%2F%2Fd4rri9bdfuube.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F7407%2F9780740791390.jpg",
+     "text": "Seniors' Discount by Lynn Johnston",
+     "imageUrl": "http://d.gr-assets.com/books/1348838532l/1187014.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.0010078847408294678,
+     "punsafe": 0.00015667080879211426,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2754,11 +2754,11 @@
      }
     },
     {
-     "text": "Seniors' Discount by Lynn Johnston",
-     "imageUrl": "http://d.gr-assets.com/books/1348838532l/1187014.jpg",
+     "text": "Something Old, Something New by Lynn Johnston",
+     "imageUrl": "http://i.shopmania.org/180x180/8/81/81eca41eef1d40285955178b204380a29214f5bf.jpg?u=https%3A%2F%2Fd4rri9bdfuube.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F7407%2F9780740791390.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.00015667080879211426,
+     "punsafe": 0.0010078847408294678,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2796,11 +2796,11 @@
      }
     },
     {
-     "text": "Book Farley and the Lost Bone by Lynn Johnston",
-     "imageUrl": "https://dynamic.indigoimages.ca/books/1449403069.jpg?altimages=true&width=260&quality=85&maxheight=400&lang=en&z=3.6.86.3.6.2.10111-8",
+     "text": "Farley and the Lost Bone by Lynn Johnston - 9781449403065 Book",
+     "imageUrl": "https://img.fruugo.com/product/8/14/131870148_0340_0340.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 9.88484316621907e-05,
+     "punsafe": 0.0004768073558807373,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2810,11 +2810,11 @@
      }
     },
     {
-     "text": "Farley and the Lost Bone by Lynn Johnston - 9781449403065 Book",
-     "imageUrl": "https://img.fruugo.com/product/8/14/131870148_0340_0340.jpg",
+     "text": "Book Farley and the Lost Bone by Lynn Johnston",
+     "imageUrl": "https://dynamic.indigoimages.ca/books/1449403069.jpg?altimages=true&width=260&quality=85&maxheight=400&lang=en&z=3.6.86.3.6.2.10111-8",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.0004768073558807373,
+     "punsafe": 9.88484316621907e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2838,11 +2838,11 @@
      }
     },
     {
-     "text": "Graduation by Lynn Johnston",
-     "imageUrl": "https://images.gr-assets.com/books/1348842420l/351677.jpg",
+     "text": "FARLEY FOLLOWS HIS NOSE by Lynn Johnston",
+     "imageUrl": "https://d3myrwj42s63no.cloudfront.net/180/978/006/170/234/1/9780061702341.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 0.005297333002090454,
+     "punsafe": 7.258216646732762e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2852,11 +2852,11 @@
      }
     },
     {
-     "text": "FARLEY FOLLOWS HIS NOSE by Lynn Johnston",
-     "imageUrl": "https://d3myrwj42s63no.cloudfront.net/180/978/006/170/234/1/9780061702341.jpg",
+     "text": "Graduation by Lynn Johnston",
+     "imageUrl": "https://images.gr-assets.com/books/1348842420l/351677.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
-     "punsafe": 7.258216646732762e-05,
+     "punsafe": 0.005297333002090454,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2908,6 +2908,20 @@
      }
     },
     {
+     "text": "Farley Follows His Nose by Lynn Johnston",
+     "imageUrl": "http://images.gr-assets.com/books/1347713407l/5247583.jpg",
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": 0.0005573034286499023,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Just One More Hug by Lynn Johnston",
      "imageUrl": "https://images.gr-assets.com/books/1347363248l/630007.jpg",
      "keyword": "lynn johnston",
@@ -2937,20 +2951,6 @@
     },
     {
      "text": "Farley Follows His Nose by Lynn Johnston",
-     "imageUrl": "http://images.gr-assets.com/books/1347713407l/5247583.jpg",
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": 0.0005573034286499023,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Farley Follows His Nose by Lynn Johnston",
      "imageUrl": "http://d.gr-assets.com/books/1347713407l/5247583.jpg",
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -2966,15 +2966,15 @@
    ],
    "samples": [
     "Reality Check by Lynn Johnston",
-    "Something Old, Something New by Lynn Johnston",
-    "Seniors' Discount by Lynn Johnston",
     "Seniors' Discount by Lynn Johnston",
     "Something Old, Something New by Lynn Johnston",
-    "Book Farley and the Lost Bone by Lynn Johnston",
+    "Seniors' Discount by Lynn Johnston",
+    "Something Old, Something New by Lynn Johnston",
     "Farley and the Lost Bone by Lynn Johnston - 9781449403065 Book",
+    "Book Farley and the Lost Bone by Lynn Johnston",
     "Family Business by Lynn Johnston",
-    "Graduation by Lynn Johnston",
-    "FARLEY FOLLOWS HIS NOSE by Lynn Johnston"
+    "FARLEY FOLLOWS HIS NOSE by Lynn Johnston",
+    "Graduation by Lynn Johnston"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3001,6 +3001,20 @@
    "rows": [
     {
      "text": "The Genie Award-winning documentary Comic Book Confidential (1988)\u2014researched in part in the extensive comic book collection of bpNichol, Canada\u2019s first alternative comic writer (Bell 143)\u2014offered a broad introduction to American comic books for many, drawing attention to the rich variety of express",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Julie Doucet, a veteran comic book artist from Montreal, wasn't surprised in the least by what transpired with the Grand Prix D'Angoul\u00eame. To her, it has always been a mainstream, commercial, conservative event. But she also says it's not fair to make wide-ranging judgments based on what's happening",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3056,20 +3070,6 @@
      }
     },
     {
-     "text": "Kevin Frank is an award-winning author/illustrator who has been creating books, cartoons and illustrations for over 20 years. He wrote and illustrated a middle-grade graphic novel called SCURVY DOGS which was published by Kane Miller in 2016, and the sequel SCURVY DOGS AND THE DINOSAUR BONEYARD was ",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Elly Paterson is the main female character in the comic strip, For Better or For Worse by Lynn Johnston. Her chain-smoking brother, Phil, is being pressured to quit smoking but isn\u2019t finding it easy. Finally he\u2019s down to his last cigarette before facing a smoke-free future, as illustrated in the Fri",
      "imageUrl": null,
      "keyword": "lynn johnston",
@@ -3084,7 +3084,7 @@
      }
     },
     {
-     "text": "Julie Doucet, a veteran comic book artist from Montreal, wasn't surprised in the least by what transpired with the Grand Prix D'Angoul\u00eame. To her, it has always been a mainstream, commercial, conservative event. But she also says it's not fair to make wide-ranging judgments based on what's happening",
+     "text": "Kevin Frank is an award-winning author/illustrator who has been creating books, cartoons and illustrations for over 20 years. He wrote and illustrated a middle-grade graphic novel called SCURVY DOGS which was published by Kane Miller in 2016, and the sequel SCURVY DOGS AND THE DINOSAUR BONEYARD was ",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3182,20 +3182,6 @@
      }
     },
     {
-     "text": "My good friend Dave Kellett has been working for the last four years on a labor of love: a feature-length documentary film about the art and practice of comic strips.\n\nStripped features dozens and dozens of interviews with cartoonists like Bill Amend (FoxTrot), Stephan Pastis (Pearls Before Swine), ",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "From Benjamin Franklin's drawing of the 1st American political caricature in 1754 to modern cartoonists' blistering assaults on George W. Bush and preliminary love-affair with Barack Obama, editorial cartoons were part of American journalism and politics. American Political Cartoons chronicles the n",
      "imageUrl": null,
      "keyword": "lynn johnston",
@@ -3210,7 +3196,7 @@
      }
     },
     {
-     "text": "We have some very exciting news to share, courtesy of IDW Publishing and the Library of American Comics:\n\nWelcome back, Elly, John, and the entire Patterson family as IDW Publishing and the Library of American Comics proudly announce For Better or For Worse: The Complete Library by Lynn Johnston. Th",
+     "text": "My good friend Dave Kellett has been working for the last four years on a labor of love: a feature-length documentary film about the art and practice of comic strips.\n\nStripped features dozens and dozens of interviews with cartoonists like Bill Amend (FoxTrot), Stephan Pastis (Pearls Before Swine), ",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3266,20 +3252,6 @@
      }
     },
     {
-     "text": "Okay, I can\u2019t really claim to be a regular comic strip reader. But I recently became aware of exciting new developments in Lynn Johnston\u2019s For Better or For Worse (question for all you Strunk and White nerds \u2013 is the name of a comic strip italicized?). I feel like Ms. Johnston, without even meaning ",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "FOR BETTER OR FOR WORSE newspaper comic strip collected\n\nBy pghhead - October 31, 2017\nCollect the Entire Run Chronologically Beginning with Volume One\n\nSan Diego, CA (October 31, 2017) \u2013 One of the most beloved comic strips of all time, this new collection of For Better or For Worse, produced with ",
      "imageUrl": null,
      "keyword": "lynn johnston",
@@ -3295,6 +3267,34 @@
     },
     {
      "text": "In the years following 1975, a group of female-created comic strips came to national attention in a traditionally male-dominated medium. Typical Girls: The Rhetoric of Womanhood in Comic Strips uncovers the understudied and developing history of these strips, defining and exploring the ramifications",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "We have some very exciting news to share, courtesy of IDW Publishing and the Library of American Comics:\n\nWelcome back, Elly, John, and the entire Patterson family as IDW Publishing and the Library of American Comics proudly announce For Better or For Worse: The Complete Library by Lynn Johnston. Th",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Okay, I can\u2019t really claim to be a regular comic strip reader. But I recently became aware of exciting new developments in Lynn Johnston\u2019s For Better or For Worse (question for all you Strunk and White nerds \u2013 is the name of a comic strip italicized?). I feel like Ms. Johnston, without even meaning ",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3350,34 +3350,6 @@
      }
     },
     {
-     "text": "\nThis animated Christmas special, For Better or For Worse: The Bestest Present, was created based on Lynn Johnston's popular comic strip, For Better or For Worse. It was produced for Canadian television in December, 1986, and follows the Patterson family as they get ready for the holidays. Of course",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It seems apt to be writing about American cartoonist Raina Telgemeier\u2019s latest graphic novel Ghosts (released September 2016) after a night or two of \u2018dark and stormy\u2019 wild weather across the country. I lay in bed snuggled up with my children to keep warm, making up spooky stories to tell them as th",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Yellow Kid was the name of a lead American comic strip character that ran from 1895 to 1898 in Joseph Pulitzer's New York World, and later William Randolph Hearst's New York Journal. Created and drawn by Richard F. Outcault in the comic strip Hogan's Alley, it was one of the first Sunday supplem",
      "imageUrl": null,
      "keyword": "lynn johnston",
@@ -3420,7 +3392,7 @@
      }
     },
     {
-     "text": "The title says it all. From the art, I was expecting a graphic novel in the spirit of \u201cCathy\u201d by Cathy Guisewite or something along the lines of the comic strip \u201cFor Better Or Worse\u201d done by Lynn Johnston, but this book lacks any of the humor. Lizzy Stewart is a London illustrator who has won awards",
+     "text": "\nThis animated Christmas special, For Better or For Worse: The Bestest Present, was created based on Lynn Johnston's popular comic strip, For Better or For Worse. It was produced for Canadian television in December, 1986, and follows the Patterson family as they get ready for the holidays. Of course",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3434,7 +3406,21 @@
      }
     },
     {
-     "text": "\"Marbles\" is introduced, Sally gets fat... plus baseball stories! Introduction by Lynn Johnston! With this volume, The Complete Peanuts ventures into the lesser-known 1980s, and Peanuts fans are sure to find plenty of surprises.\n\nIn Snoopy-family news, Spike is drafted into the Infantry (don't worry",
+     "text": "It seems apt to be writing about American cartoonist Raina Telgemeier\u2019s latest graphic novel Ghosts (released September 2016) after a night or two of \u2018dark and stormy\u2019 wild weather across the country. I lay in bed snuggled up with my children to keep warm, making up spooky stories to tell them as th",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The title says it all. From the art, I was expecting a graphic novel in the spirit of \u201cCathy\u201d by Cathy Guisewite or something along the lines of the comic strip \u201cFor Better Or Worse\u201d done by Lynn Johnston, but this book lacks any of the humor. Lizzy Stewart is a London illustrator who has won awards",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3532,7 +3518,7 @@
      }
     },
     {
-     "text": "Book Description: With the pandemic 2020 was a crazy year. Andrew Oh captured the highs and lows of the year in an autobiography styled comic book entitled \u201cDay and Age\u201d. This book talked about the keynites of the times: social distancing, masks, and passing time during quarantine. Andrew Oh has giv",
+     "text": "Pulp vendor, June 1942. Location and photographer unknown. From the collection of William Lampkin and ThePulp.net\n\nComics have proven very popular in Canada and the United States since their beginnings in newspapers and comic books in the late nineteeth and early twentieth centuries (Gabilliet provi",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3546,7 +3532,7 @@
      }
     },
     {
-     "text": "Pulp vendor, June 1942. Location and photographer unknown. From the collection of William Lampkin and ThePulp.net\n\nComics have proven very popular in Canada and the United States since their beginnings in newspapers and comic books in the late nineteeth and early twentieth centuries (Gabilliet provi",
+     "text": "Book Description: With the pandemic 2020 was a crazy year. Andrew Oh captured the highs and lows of the year in an autobiography styled comic book entitled \u201cDay and Age\u201d. This book talked about the keynites of the times: social distancing, masks, and passing time during quarantine. Andrew Oh has giv",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3588,35 +3574,7 @@
      }
     },
     {
-     "text": "Can you tell me about cartoonist Lynn Johnston, who has a comic strip called For Better or Worse?\n\u2014Virginia C., California\n\nLynn Johnston, who doodled as soon as she could hold a pen, says she always knew she would be a cartoonist, but never expected to make her living as one. Johnston, who grew up ",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Layers: So what\u2019s it like to be the person who introduced the comic strip format to an entire country?\n\nKolarov: Well, I\u2019m still waiting for the announcement of Vlad Kolarov\u2019s Comic Strip Day, but I have a funny feeling it\u2019s not going to happen this year\u2014again. Seriously though, I had a blast drawin",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It is no coincidence that Ladies First opens with a series of political cartoons promoting women\u2019s suffrage. After all, this year marks the centennial of the ratification and passage of the 19th Amendment. You can think of no better way for the Billy Ireland Cartoon Library & Museum to celebrate thi",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3658,6 +3616,34 @@
      }
     },
     {
+     "text": "Can you tell me about cartoonist Lynn Johnston, who has a comic strip called For Better or Worse?\n\u2014Virginia C., California\n\nLynn Johnston, who doodled as soon as she could hold a pen, says she always knew she would be a cartoonist, but never expected to make her living as one. Johnston, who grew up ",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It is no coincidence that Ladies First opens with a series of political cartoons promoting women\u2019s suffrage. After all, this year marks the centennial of the ratification and passage of the 19th Amendment. You can think of no better way for the Billy Ireland Cartoon Library & Museum to celebrate thi",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Known best for creating the popular, syndicated FoxTrot comic strip, he was the recipient of the 2007 National Cartoonists' Society's Reuben Award.\n\nWhile growing up in Burlingame, California, he drew cartoons for his high school's newspaper. His first FoxTrot strip was published in April of 1988.\n\n",
      "imageUrl": null,
      "keyword": "lynn johnston",
@@ -3672,35 +3658,7 @@
      }
     },
     {
-     "text": "Characters / For Better or for Worse\n\nThis is a list of characters in the comic strip For Better or for Worse by Lynn Johnston.\n\nThe matriarch of the Patterson family and the main character. She started out as a frustrated housewife who, in a break from the media conventions of the day, did not like",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A woman searches fervently for a comic book to bring joy to her son, who is stationed with the military in Afghanistan. A man grapples with Hollywood producers over the script for a film that is supposed to be about his dead wife. Two middle-aged guys taking part in a charity race use the occasion t",
-     "imageUrl": null,
-     "keyword": "lynn johnston",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Geoff Grogan has been an independent cartoonist for more than 25 years and a working artist for much longer.  He was a Xeric award winner (Look Out! Monsters; 2007), when that was still a thing, and cartoonist of two comic strips formerly at GoComics.com (Plastic Babyheads from Outer Space and Jetpa",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3742,7 +3700,21 @@
      }
     },
     {
-     "text": "Recent comic book scholarship has examined the influence of comic books and comics culture in various countries and regional areas other than the three big traditions (US, Japan, and France-Europe). Comics and the US South (2012), and various essays on cultural identity in Qu\u00e9bec, Scotland and other",
+     "text": "Characters / For Better or for Worse\n\nThis is a list of characters in the comic strip For Better or for Worse by Lynn Johnston.\n\nThe matriarch of the Patterson family and the main character. She started out as a frustrated housewife who, in a break from the media conventions of the day, did not like",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Geoff Grogan has been an independent cartoonist for more than 25 years and a working artist for much longer.  He was a Xeric award winner (Look Out! Monsters; 2007), when that was still a thing, and cartoonist of two comic strips formerly at GoComics.com (Plastic Babyheads from Outer Space and Jetpa",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3770,7 +3742,7 @@
      }
     },
     {
-     "text": "Team Cul de Sac, a collection of comic art by more than 100 cartoonists (including me) to help fund research on Parkinson's disease, arrived in my mailbox yesterday. The assignment was to offer your interpretation of the characters from the comic strip Cul de Sac by Richard Thompson, who has Parkins",
+     "text": "Recent comic book scholarship has examined the influence of comic books and comics culture in various countries and regional areas other than the three big traditions (US, Japan, and France-Europe). Comics and the US South (2012), and various essays on cultural identity in Qu\u00e9bec, Scotland and other",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3784,7 +3756,7 @@
      }
     },
     {
-     "text": "I was recently at the launch for Farley Follows His Nose, a picture book co-written and illustrated by Lynn \"For Better Or For Worse\" Johnston.\n\nIn person she is as funny and engaging as her cartoons, and hearing her speak was a delight.  Several things she said stuck with me, but one anecdote reall",
+     "text": "Team Cul de Sac, a collection of comic art by more than 100 cartoonists (including me) to help fund research on Parkinson's disease, arrived in my mailbox yesterday. The assignment was to offer your interpretation of the characters from the comic strip Cul de Sac by Richard Thompson, who has Parkins",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3812,7 +3784,7 @@
      }
     },
     {
-     "text": "For Better or For Worse\n\nFor thirty years, cartoonist Lynn Johnston made daily additions to what would become a monumental body of work: her newspaper comic strip, For Better or For Worse. Chronicling the daily lives of the middle-class suburbanite Patterson family \u2014 Elly and John and their children",
+     "text": "Team Cul de Sac is an effort by cartoonist Richard Thompson, creator of the comic strip \"Cul de Sac,\" and others to raise funds for researching Parkinson's Disease, which Richard has. Working with the Michael J. Fox Foundation, Team Cul de Sac had the idea of asking other cartoonists, illustrators, ",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3826,7 +3798,35 @@
      }
     },
     {
-     "text": "Team Cul de Sac is an effort by cartoonist Richard Thompson, creator of the comic strip \"Cul de Sac,\" and others to raise funds for researching Parkinson's Disease, which Richard has. Working with the Michael J. Fox Foundation, Team Cul de Sac had the idea of asking other cartoonists, illustrators, ",
+     "text": "SHE PLAYS THE button accordion. That\u2019s about it for new insights into the world of local comic artist Lynn Johnston. Her life, emotions, hopes and dreams have been the fodder for the genre- bending comic strip For Better or Worse that she has penned for the past 30 years.\n\n\u201cThose of us who do comic ",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "cover of issue #4 by Lynn Johnston",
+     "imageUrl": null,
+     "keyword": "lynn johnston",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "cover of issue #5 by Lynn Johnston",
      "imageUrl": null,
      "keyword": "lynn johnston",
      "tier": "namematch",
@@ -3842,12 +3842,12 @@
    ],
    "samples": [
     "The Genie Award-winning documentary Comic Book Confidential (1988)\u2014researched in part in the extensive comic book collection of bpNichol, Canada\u2019s first alternative comic writer (Bell 143)\u2014offered a broad introduction to American comic books for many, drawing attention to the rich variety of express",
+    "Julie Doucet, a veteran comic book artist from Montreal, wasn't surprised in the least by what transpired with the Grand Prix D'Angoul\u00eame. To her, it has always been a mainstream, commercial, conservative event. But she also says it's not fair to make wide-ranging judgments based on what's happening",
     "Known for his ground-breaking comic strip \"Doc and Raider,\" long-time Poser creator Sean Martin (a.k.a., SeanMartin on Renderosity) used his skills to document gay life during the AIDS epidemic.\n\nMartin died in early August from complications of pancreatic cancer. He was 69.\n\nBased on his relationsh",
     "United Media was a large editorial column and comic strip newspaper syndication service based in the United States, owned by the E. W. Scripps Company, that operated from 1978 to 2011. It syndicated 150 comics and editorial columns worldwide. Its core businesses were the United Feature Syndicate and",
     "It seems as though more than half of our time as parents of young kids is spent either apologizing for their antics or cleaning up the resulting debris. Plus there's a lot of yelling, in spite of your best intentions and everything modern parenting gurus preach.\n\nWright's classic comic strip, Nipper",
-    "Kevin Frank is an award-winning author/illustrator who has been creating books, cartoons and illustrations for over 20 years. He wrote and illustrated a middle-grade graphic novel called SCURVY DOGS which was published by Kane Miller in 2016, and the sequel SCURVY DOGS AND THE DINOSAUR BONEYARD was ",
     "Elly Paterson is the main female character in the comic strip, For Better or For Worse by Lynn Johnston. Her chain-smoking brother, Phil, is being pressured to quit smoking but isn\u2019t finding it easy. Finally he\u2019s down to his last cigarette before facing a smoke-free future, as illustrated in the Fri",
-    "Julie Doucet, a veteran comic book artist from Montreal, wasn't surprised in the least by what transpired with the Grand Prix D'Angoul\u00eame. To her, it has always been a mainstream, commercial, conservative event. But she also says it's not fair to make wide-ranging judgments based on what's happening",
+    "Kevin Frank is an award-winning author/illustrator who has been creating books, cartoons and illustrations for over 20 years. He wrote and illustrated a middle-grade graphic novel called SCURVY DOGS which was published by Kane Miller in 2016, and the sequel SCURVY DOGS AND THE DINOSAUR BONEYARD was ",
     "I\u2019ve always loved the \u201cfunny pages.\u201d We called them the \u201cfunnies,\u201d as in, \u201cPass the funnies.\u201d But my life, as the only child of two working parents, wasn\u2019t one I saw in the Sunday comics, where big families, sibling battles and giant sandwiches seemed to be the norm.\n\nEventually \u201cSally Forth\u201d came a",
     "Filed under Poems, Essays, and Things\n\nWalking Around the House (NaPoWriMo #20)\n\nThe dilemnas of being woman of the house from the comic \"For Better or for Worse\" by Lynn Johnston. Sourced by Yahoo!News\n\nOh these breakfast plate piles seem higher each day.\nAt least the sun is out though.\nFirst, into",
     "\u00e2\u20ac\u0153My other favourite comic strip is For Better or For Worse by Lynn Johnston. It\u00e2\u20ac\u2122s very unique because the characters all age in real time, so every year as they got older it was like I was growing up with these people. I did not consider them characters, they were real to me.\u00e2\u20ac\u009d\n\nWhile most youn"
@@ -3937,13 +3937,13 @@
     "longformHits": 577,
     "longformRatio": 0.456,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 114,
+     "laion1b-nolang": 108,
      "laion2b-en": 413,
      "laion2b-multi": 53,
      "obelics": 570,
-     "laion1b-nolang": 108,
-     "pile": 4,
-     "c4-en": 3
+     "pile": 4
     },
     "reason": null
    },
@@ -3955,13 +3955,13 @@
     "longformHits": 39100,
     "longformRatio": 0.924,
     "perDataset": {
+     "c4-en": 236,
      "coyo700m": 874,
+     "laion1b-nolang": 35,
      "laion2b-en": 2265,
      "laion2b-multi": 24,
      "obelics": 38751,
-     "laion1b-nolang": 35,
-     "pile": 113,
-     "c4-en": 236
+     "pile": 113
     },
     "reason": "common English idiom that is also a strip title"
    }
@@ -3977,15 +3977,15 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 495,
+   "unverified": 492,
    "person_photo": 122,
-   "storefront": 14,
-   "unrelated": 33,
+   "storefront": 21,
+   "unrelated": 32,
+   "merchandise": 5,
    "derivative": 2,
-   "merchandise": 4,
-   "explicit": 1
+   "explicit": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-lynn-johnston",
  "cohort": "billy-ireland",
@@ -3998,7 +3998,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1296,
   "datasetsPresent": 7,

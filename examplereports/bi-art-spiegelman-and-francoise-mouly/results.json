@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,36 +898,106 @@
    "totalIncludingLowConfidence": 541,
    "rows": [
     {
-     "text": "The invitation to the Funny Papers book-launch party in March 1985. The illustration of Pinfold and Fuzzy and the Awful Alley kids was drawn by my good friend Walter Gallup, the first drawing ever of my two characters here. I've been fortunate over the years that those two characters (either as Pinf",
-     "imageUrl": "http://cafepinfold.com/wp-content/uploads/2013/10/PartyInvite1-250x300.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Panels from Gasoline Alley comic strip, distributed by Tribune Media, United States, by Frank King. Art Spiegelman, Newspaper Cartoons, Comic Layout, King Photo, Comic Book Panels, Comic Pictures, Classic Comics, Vintage Comics, Psychedelic Art",
-     "imageUrl": "https://i.pinimg.com/236x/ae/18/4a/ae184a736fc252da21f587d3462d23d2--comic-layout-vintage-newspaper.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "page 70 of maus i a survivors tale graphic novel online by art spiegelman",
      "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/070-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 9 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/009-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Daily Heller: Breast-Pocket Book by Robert Coover, Illustrated by Art Spiegelman, Looms Large",
+     "imageUrl": "https://static.wixstatic.com/media/da4aaf_2ae7995d676c4982bf9410e92ea83e82~mv2.png/v1/fill/w_300,h_200,al_c,q_80,usm_0.66_1.00_0.01/da4aaf_2ae7995d676c4982bf9410e92ea83e82~mv2.png",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 37 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/037-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 55 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/055-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A New Yorker cover from 1999, drawn by Art Spiegelman. It alludes to the killing of Amadou Diallo, who was shot at 41 times by four officers.",
+     "imageUrl": "https://i.guim.co.uk/img/media/80a162bb9c274a49b8198b6a9c8f929e7aaa516e/0_0_1463_2000/master/1463.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=12f0715fc27cc99544416315c9fde050",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 141 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/141-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Misery Loves Comedy: New Works by Ivan Brunetti - exhibition print Art Spiegelman, Alternative Comics, Simple Cartoon, You Draw, Stick Figures, New Words, Community Art, Comic Strips, It Works",
+     "imageUrl": "https://i.pinimg.com/236x/2d/c7/8b/2dc78b251cb133525063d69ccacbacfc--alternative-comics-comic-party.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -968,8 +1038,8 @@
      }
     },
     {
-     "text": "page 107 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/107-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 62 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/062-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -982,8 +1052,22 @@
      }
     },
     {
-     "text": "page 13 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/013-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "\u201c9/11/2001,\u201d by Art Spiegelman and Fran\u00e7oise Mouly, September 24, 2001",
+     "imageUrl": "https://static.wixstatic.com/media/9eff16_e2c28f44679846e481f0574501e88649~mv2.jpg/v1/fill/w_659,h_909,al_c,q_90/9eff16_e2c28f44679846e481f0574501e88649~mv2.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art Spiegelman at Gonzaga University Visiting Writers Series Event on Sept. 25, 2018. Photo by Amanda Ford.",
+     "imageUrl": "https://www.gonzaga.edu/-/media/Website/Images/Stories/2018/News-Releases/sq_Spiegelman_GVWS_-AFord.ashx",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1052,8 +1136,8 @@
      }
     },
     {
-     "text": "page 54 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/054-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 107 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/107-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1066,64 +1150,8 @@
      }
     },
     {
-     "text": "page 95 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/095-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A New Yorker cover from 1999, drawn by Art Spiegelman. It alludes to the killing of Amadou Diallo, who was shot at 41 times by four officers.",
-     "imageUrl": "https://i.guim.co.uk/img/media/80a162bb9c274a49b8198b6a9c8f929e7aaa516e/0_0_1463_2000/master/1463.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=12f0715fc27cc99544416315c9fde050",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 141 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/141-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 48 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/048-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 64 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/064-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 13 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/013-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1138,258 +1166,6 @@
     {
      "text": "page 90 of maus i a survivors tale graphic novel online by art spiegelman",
      "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/090-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Books As History The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar 1989 9780878054060 Front Cover",
-     "imageUrl": "https://secure.coverart.textbookrush.com/large/060/1-9780878054060.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 9 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/009-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The great Wally Wood by the Great Robert Crumb. Robert Crumb, Comic Book Artists, Comic Artist, Comic Books Art, Billy Childish, Fritz The Cat, Art Spiegelman, Ec Comics, Music Drawings",
-     "imageUrl": "https://i.pinimg.com/236x/4a/b2/dd/4ab2dd7f6ef01ff8d9d6609f44ba1dc1--robert-crumb-robert-richard.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Misery Loves Comedy: New Works by Ivan Brunetti - exhibition print Art Spiegelman, Alternative Comics, Simple Cartoon, You Draw, Stick Figures, New Words, Community Art, Comic Strips, It Works",
-     "imageUrl": "https://i.pinimg.com/236x/2d/c7/8b/2dc78b251cb133525063d69ccacbacfc--alternative-comics-comic-party.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 131 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/131-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 27 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/027-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Daily Heller: Breast-Pocket Book by Robert Coover, Illustrated by Art Spiegelman, Looms Large",
-     "imageUrl": "https://static.wixstatic.com/media/da4aaf_2ae7995d676c4982bf9410e92ea83e82~mv2.png/v1/fill/w_300,h_200,al_c,q_80,usm_0.66_1.00_0.01/da4aaf_2ae7995d676c4982bf9410e92ea83e82~mv2.png",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 37 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/037-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Title: On the Animal Masks in the Autobiographical Graphic Novel \"MAUS\" by Art Spiegelman",
-     "imageUrl": "https://cdn.openpublishing.com/images/cover/brand/e-book/1/495728_related.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 31 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/031-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 62 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/062-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\u201c9/11/2001,\u201d by Art Spiegelman and Fran\u00e7oise Mouly, September 24, 2001",
-     "imageUrl": "https://static.wixstatic.com/media/9eff16_e2c28f44679846e481f0574501e88649~mv2.jpg/v1/fill/w_659,h_909,al_c,q_90/9eff16_e2c28f44679846e481f0574501e88649~mv2.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Art Spiegelman at Gonzaga University Visiting Writers Series Event on Sept. 25, 2018. Photo by Amanda Ford.",
-     "imageUrl": "https://www.gonzaga.edu/-/media/Website/Images/Stories/2018/News-Releases/sq_Spiegelman_GVWS_-AFord.ashx",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 30 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/030-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 55 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/055-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 140 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/140-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "On the Animal Masks in the Autobiographical Graphic Novel MAUS by Art Spiegelman: Trivialization of the Holocaust?",
-     "imageUrl": "https://m.media-amazon.com/images/I/31ciuNhIURL._SL500_.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 66 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/066-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1444,8 +1220,8 @@
      }
     },
     {
-     "text": "page 11 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/011-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 110 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/110-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1458,8 +1234,8 @@
      }
     },
     {
-     "text": "page 78 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/078-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 132 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/132-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1472,22 +1248,8 @@
      }
     },
     {
-     "text": "page 3 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/003-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 82 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/082-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "Legend of Oz Wicked West by Eric Basaldua Comic Style Art, Comic Styles, Comic Art, Comic Book Heroines, Comic Book Artists, Grimm, Outlaw Women, Nursery Rhyme Characters, Art Spiegelman",
+     "imageUrl": "https://i.pinimg.com/236x/b7/93/ad/b793adf040bf93b205ae7018d7c7752e--pin-up-poses-pin-art.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1570,8 +1332,8 @@
      }
     },
     {
-     "text": "page 136 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/136-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 47 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/047-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1584,8 +1346,8 @@
      }
     },
     {
-     "text": "page 21 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/021-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar (Studies in Popular Culture",
+     "imageUrl": "https://m.media-amazon.com/images/I/41WFFpQV7eL.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1598,8 +1360,8 @@
      }
     },
     {
-     "text": "Legend of Oz Wicked West by Eric Basaldua Comic Style Art, Comic Styles, Comic Art, Comic Book Heroines, Comic Book Artists, Grimm, Outlaw Women, Nursery Rhyme Characters, Art Spiegelman",
-     "imageUrl": "https://i.pinimg.com/236x/b7/93/ad/b793adf040bf93b205ae7018d7c7752e--pin-up-poses-pin-art.jpg",
+     "text": "page 104 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/104-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1612,78 +1374,8 @@
      }
     },
     {
-     "text": "page 67 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/067-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 110 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/110-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 132 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/132-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 102 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/102-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 74 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/074-maus-i-survivors-tale-art-spiegelman.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "page 89 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/089-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "page 15 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/015-maus-i-survivors-tale-art-spiegelman.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1724,8 +1416,316 @@
      }
     },
     {
-     "text": "page 80 of maus i a survivors tale graphic novel online by art spiegelman",
-     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/080-maus-i-survivors-tale-art-spiegelman.jpg",
+     "text": "Titel: On the Animal Masks in the Autobiographical Graphic Novel \"MAUS\" by Art Spiegelman",
+     "imageUrl": "https://cdn.openpublishing.com/images/cover/brand/e-book/1/495728_related.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Part of a serial shows up on the wall of a Budapest metro train March 4, 2005 as an exhibition opened today in the Budapest underground about the work of an artist who has translated the horror of the Holocaust into a comic book novel. Pictures from Art Spiegelman's \"Maus,\" in which the New York-bas",
+     "imageUrl": "https://img.theepochtimes.com/assets/uploads/2021/02/19/GettyImages-52276566-700x420.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 147 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/147-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 49 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/049-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 88 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/088-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "We\u2019ve been thinking a lot about Art Spiegelman lately, in part because the comic artist\u2019s first major Paris retrospective recently opened at Centre Pompidou, the city\u2019s biggest modern art museum. The exhibition, entitled Art Spiegelman: Co-Mix,\u2026 Maus Art Spiegelman, Comic Book Artists, Comic Artist,",
+     "imageUrl": "https://i.pinimg.com/236x/26/f0/7b/26f07ba45a44b7f76df90775c99dd3d5--maus-art-spiegelman-graffiti-art.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The original BWS painted color guide for the cover of Marvel Comics Presents which features chapter 7 of Weapon X Source: Barry Windsor Smith official website. Comic Book Artists, Comic Book Characters, Comic Artist, Comic Books Art, Wolverine Comics, Marvel Comics, Art Spiegelman, Comic Page, Fun C",
+     "imageUrl": "https://i.pinimg.com/236x/44/38/4d/44384d08c39d473b892fcceb8faffdaf--wolverine-comics-marvel-comics.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 127 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/127-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 45 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/045-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 69 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/069-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 75 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/075-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 106 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/106-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 126 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/126-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 39 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/039-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 71 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/071-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Illustration by Art Spiegelman (courtesy the artist, and Museum of American Illustration and Museum of Comic and Cartoon Art",
+     "imageUrl": "https://i1.wp.com/hyperallergic.com/wp-content/uploads/2015/10/batmanbw02.jpg?resize=640%2C995&quality=100",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art Spiegelman's faux-\"Derby Dugan\" Sunday page, circa 1936, done in the style of Harold Gray's \"Little Orphan Annie.",
+     "imageUrl": "http://cafepinfold.com/wp-content/uploads/2015/03/DD-frontispiece-202x300.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Depiction of Jews as Mice in the Graphic Novel \"Maus\" by Art Spiegelman",
+     "imageUrl": "https://m.media-amazon.com/images/I/31PmHVcJAtL._SL500_.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 41 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/041-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 6 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/006-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "page 148 of maus i a survivors tale graphic novel online by art spiegelman",
+     "imageUrl": "https://readgraphicnovel.online/wp-content/uploads/2018/10/148-maus-i-survivors-tale-art-spiegelman.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The invitation to the Funny Papers book-launch party in March 1985. The illustration of Pinfold and Fuzzy and the Awful Alley kids was drawn by my good friend Walter Gallup, the first drawing ever of my two characters here. I've been fortunate over the years that those two characters (either as Pinf",
+     "imageUrl": "http://cafepinfold.com/wp-content/uploads/2013/10/PartyInvite1-250x300.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Panels from Gasoline Alley comic strip, distributed by Tribune Media, United States, by Frank King. Art Spiegelman, Newspaper Cartoons, Comic Layout, King Photo, Comic Book Panels, Comic Pictures, Classic Comics, Vintage Comics, Psychedelic Art",
+     "imageUrl": "https://i.pinimg.com/236x/ae/18/4a/ae184a736fc252da21f587d3462d23d2--comic-layout-vintage-newspaper.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": null,
@@ -1739,16 +1739,16 @@
     }
    ],
    "samples": [
-    "The invitation to the Funny Papers book-launch party in March 1985. The illustration of Pinfold and Fuzzy and the Awful Alley kids was drawn by my good friend Walter Gallup, the first drawing ever of my two characters here. I've been fortunate over the years that those two characters (either as Pinf",
-    "Panels from Gasoline Alley comic strip, distributed by Tribune Media, United States, by Frank King. Art Spiegelman, Newspaper Cartoons, Comic Layout, King Photo, Comic Book Panels, Comic Pictures, Classic Comics, Vintage Comics, Psychedelic Art",
     "page 70 of maus i a survivors tale graphic novel online by art spiegelman",
+    "page 9 of maus i a survivors tale graphic novel online by art spiegelman",
+    "The Daily Heller: Breast-Pocket Book by Robert Coover, Illustrated by Art Spiegelman, Looms Large",
+    "page 37 of maus i a survivors tale graphic novel online by art spiegelman",
+    "page 55 of maus i a survivors tale graphic novel online by art spiegelman",
+    "A New Yorker cover from 1999, drawn by Art Spiegelman. It alludes to the killing of Amadou Diallo, who was shot at 41 times by four officers.",
+    "page 141 of maus i a survivors tale graphic novel online by art spiegelman",
+    "Misery Loves Comedy: New Works by Ivan Brunetti - exhibition print Art Spiegelman, Alternative Comics, Simple Cartoon, You Draw, Stick Figures, New Words, Community Art, Comic Strips, It Works",
     "page 135 of maus i a survivors tale graphic novel online by art spiegelman",
-    "page 93 of maus i a survivors tale graphic novel online by art spiegelman",
-    "page 107 of maus i a survivors tale graphic novel online by art spiegelman",
-    "page 13 of maus i a survivors tale graphic novel online by art spiegelman",
-    "After twenty-five years, Art Spiegelman gathers his thoughts about his prize-winning, ground-breaking graphic novel, MetaMaus .",
-    "page 101 of maus i a survivors tale graphic novel online by art spiegelman",
-    "page 59 of maus i a survivors tale graphic novel online by art spiegelman"
+    "page 93 of maus i a survivors tale graphic novel online by art spiegelman"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1774,20 +1774,6 @@
    "totalIncludingLowConfidence": 2071,
    "rows": [
     {
-     "text": "Cover of the graphic novel Maus by Art Spiegelman",
-     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=445&quality=85&auto=format&fit=max&s=8b0cadbacd58b72d05d03c3f8b74e41a",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 5.818527370138327e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "WWE artist artwork illustration for Raw magazine cover design. Hand painted, hand drawn by illustrator Ben Tallon",
      "imageUrl": "https://bentallon.com/admin/app/web/upload/WWE%20Raw%20cover/WWE-Alexa-Bliss-Illustration-Ben-Tallon-Illustrator-artwork-1200.jpg",
      "keyword": "raw magazine",
@@ -1807,6 +1793,34 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.004920780658721924,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Visitors look at the comics displayed at the 39th edition of Angouleme world comic strip festival headed by American Art Spiegelman on the opening...",
+     "imageUrl": "https://media.gettyimages.com/photos/visitors-look-at-the-comics-displayed-at-the-39th-edition-of-world-picture-id137766543?s=612x612",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 0.22463726997375488,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover of the graphic novel Maus by Art Spiegelman",
+     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=445&quality=85&auto=format&fit=max&s=8b0cadbacd58b72d05d03c3f8b74e41a",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 5.818527370138327e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1858,34 +1872,6 @@
      }
     },
     {
-     "text": "Visitors look at the comics displayed at the 39th edition of Angouleme world comic strip festival headed by American Art Spiegelman on the opening...",
-     "imageUrl": "https://media.gettyimages.com/photos/visitors-look-at-the-comics-displayed-at-the-39th-edition-of-world-picture-id137766543?s=612x612",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.22463726997375488,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "November/December 2001 Horn Book Magazine Special Issue: Politics & Religion; original cover art by Art Spiegelman",
-     "imageUrl": "https://i.pinimg.com/236x/a0/76/1d/a0761d7a91b2d24ed554acc82a313cf4--horn-cover-art.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 9.690926526673138e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Depression-Era Woodcuts by Lynd Ward, Father of the Graphic Novel \u2013 Brain\u2026 Rockwell Kent, Norman Rockwell, Art Spiegelman, Graphic Novel, Woodcut Art, Desenho Tattoo, Scratchboard, Wood Engraving, Printmaking",
      "imageUrl": "https://i.pinimg.com/236x/a2/dd/26/a2dd26334c6639235270692e51143499--surf-art-printmaking.jpg",
      "keyword": "art spiegelman",
@@ -1928,20 +1914,6 @@
      }
     },
     {
-     "text": "MAUS A SURVIVOR'S TALE BY ART SPIEGELMAN VOLUME 1 (1986) CLASSIC GRAPHIC NOVEL",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/HAIAAOSwfjFfGfXS/s-l225.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 3.282078614574857e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Claudia's Cats Collection Ad in RAW Magazine, December 2016 issue. Artwork by Claudia Sanchez Positive Attitude, All Art, Original Artwork, December, My Arts, Around The Worlds, Magazine, Fine Art, Cats",
      "imageUrl": "https://i.pinimg.com/236x/5f/1a/60/5f1a60a92b93cc05d750bd80e7372fc9--around-the-worlds-artworks.jpg",
      "keyword": "raw magazine",
@@ -1956,25 +1928,11 @@
      }
     },
     {
-     "text": "graphic novel fumetto periodo d'oro maus art spiegelman",
-     "imageUrl": "https://fumetto.fantalica.com/wp-content/uploads/2018/09/81sPZcktobL.jpg",
+     "text": "MAUS A SURVIVOR'S TALE BY ART SPIEGELMAN VOLUME 1 (1986) CLASSIC GRAPHIC NOVEL",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/HAIAAOSwfjFfGfXS/s-l225.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 3.039536932192277e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
-     "imageUrl": "http://img.youtube.com/vi/Ob2G_jxPKBU/hqdefault.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.0009166896343231201,
+     "punsafe": 3.282078614574857e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1989,6 +1947,20 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.0012441575527191162,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "graphic novel fumetto periodo d'oro maus art spiegelman",
+     "imageUrl": "https://fumetto.fantalica.com/wp-content/uploads/2018/09/81sPZcktobL.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 3.039536932192277e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2031,6 +2003,20 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.019066721200942993,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Maus I: A Survivor's Tale: My Father Bleeds #History/Art Spiegelman A very good graphic novel based on WW2 , so far. I'm loving it :D",
+     "imageUrl": "https://i.pinimg.com/236x/96/71/fa/9671fad496a36e327e6215e2a677fe8d--fathers-my-father.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 8.047943993005902e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2096,39 +2082,11 @@
      }
     },
     {
-     "text": "Maus I: A Survivor's Tale: My Father Bleeds #History/Art Spiegelman A very good graphic novel based on WW2 , so far. I'm loving it :D",
-     "imageUrl": "https://i.pinimg.com/236x/96/71/fa/9671fad496a36e327e6215e2a677fe8d--fathers-my-father.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 8.047943993005902e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Cover of the graphic novel Maus by Art Spiegelman",
      "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=68b1591e31d1bb6d25ac2f160a90bfd2",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 8.044959031394683e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gale Researcher Guide for  Art Spiegelman and the Graphic Novel",
-     "imageUrl": "https://books.google.com/books/content?id=tpdqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=none&source=gbs_api",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 7.209993054857478e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2171,6 +2129,20 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 3.092191036557779e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gale Researcher Guide for  Art Spiegelman and the Graphic Novel",
+     "imageUrl": "https://books.google.com/books/content?id=tpdqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=none&source=gbs_api",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 7.209993054857478e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2362,11 +2334,11 @@
      }
     },
     {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar H\u00f6rbuch von Joseph Witek Gesprochen von: Gabriel Russo",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51FbtvToUlL._SL140_.jpg",
+     "text": "Art Spiegelman writes a harrowing tale of a Holocaust survivor in his graphic novel Maus",
+     "imageUrl": "https://i2.wp.com/jamestkelly.com/wp-content/uploads/2012/03/20111114-221011.jpg?resize=178%2C253",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.00023120641708374023,
+     "punsafe": 7.568441651528701e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2390,11 +2362,11 @@
      }
     },
     {
-     "text": "Art Spiegelman writes a harrowing tale of a Holocaust survivor in his graphic novel Maus",
-     "imageUrl": "https://i2.wp.com/jamestkelly.com/wp-content/uploads/2012/03/20111114-221011.jpg?resize=178%2C253",
+     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar H\u00f6rbuch von Joseph Witek Gesprochen von: Gabriel Russo",
+     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51FbtvToUlL._SL140_.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 7.568441651528701e-05,
+     "punsafe": 0.00023120641708374023,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2409,20 +2381,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 2.0491335817496292e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Art Spiegelman: One way of understanding a graphic novel is that it's...",
-     "imageUrl": "https://www.storemypic.com/images/2016/11/27/understanding-graphic-novel-ambitious-comic-comics-ambitions-problem-escapism-quote-on-storemypic-ad3b6.png",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.0029068589210510254,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2460,6 +2418,20 @@
      }
     },
     {
+     "text": "Art Spiegelman: One way of understanding a graphic novel is that it's...",
+     "imageUrl": "https://www.storemypic.com/images/2016/11/27/understanding-graphic-novel-ambitious-comic-comics-ambitions-problem-escapism-quote-on-storemypic-ad3b6.png",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 0.0029068589210510254,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "A panel from Art Spiegelman's Maus.",
      "imageUrl": "https://blog-cdn.reedsy.com/uploads/2018/08/Caption.jpg",
      "keyword": "art spiegelman",
@@ -2474,11 +2446,11 @@
      }
     },
     {
-     "text": "A New Yorker cover from 1999, drawn by Art Spiegelman. It alludes to the killing of Amadou Diallo, who was shot at 41 times by four officers.",
-     "imageUrl": "https://i.guim.co.uk/img/media/80a162bb9c274a49b8198b6a9c8f929e7aaa516e/0_0_1463_2000/master/1463.jpg?width=445&quality=85&auto=format&fit=max&s=151b74d7722b40a322e690a0e94e34e9",
+     "text": "MAUS di Art Spiegelman graphic novel",
+     "imageUrl": "https://www.chelibro.com/wp-content/uploads/2019/05/MAUS-di-Art-Spiegelman-004.png",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.00022780895233154297,
+     "punsafe": 0.0001583397388458252,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2488,11 +2460,11 @@
      }
     },
     {
-     "text": "MAUS di Art Spiegelman graphic novel",
-     "imageUrl": "https://www.chelibro.com/wp-content/uploads/2019/05/MAUS-di-Art-Spiegelman-004.png",
+     "text": "A New Yorker cover from 1999, drawn by Art Spiegelman. It alludes to the killing of Amadou Diallo, who was shot at 41 times by four officers.",
+     "imageUrl": "https://i.guim.co.uk/img/media/80a162bb9c274a49b8198b6a9c8f929e7aaa516e/0_0_1463_2000/master/1463.jpg?width=445&quality=85&auto=format&fit=max&s=151b74d7722b40a322e690a0e94e34e9",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.0001583397388458252,
+     "punsafe": 0.00022780895233154297,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2544,6 +2516,20 @@
      }
     },
     {
+     "text": "Art Spiegelman. Photo by Nadja Spiegelman.",
+     "imageUrl": "https://dcmetrotheaterarts.com/wp-content/uploads/2014/10/spiegelman-460x346.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 0.0002512931823730469,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Cover of the graphic novel Maus by Art Spiegelman",
      "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_62_630_379/630.jpg?width=300&quality=85&auto=format&fit=max&s=4dc33619624264ea659f4065afe4c2bc",
      "keyword": "art spiegelman",
@@ -2558,11 +2544,11 @@
      }
     },
     {
-     "text": "Art Spiegelman. Photo by Nadja Spiegelman.",
-     "imageUrl": "https://dcmetrotheaterarts.com/wp-content/uploads/2014/10/spiegelman-460x346.jpg",
+     "text": "Cover of the graphic novel Maus by Art Spiegelman",
+     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=300&quality=85&auto=format&fit=max&s=620ffbba5dafce4d88025d1c4a4d522d",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.0002512931823730469,
+     "punsafe": 1.0155747077078559e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2600,11 +2586,25 @@
      }
     },
     {
-     "text": "Cover of the graphic novel Maus by Art Spiegelman",
-     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=300&quality=85&auto=format&fit=max&s=620ffbba5dafce4d88025d1c4a4d522d",
+     "text": "Art Spiegelman's graphic novel, <em>Maus,</em> chronicled his father's experiences as a Holocaust survivor by depicting Nazis as cats and Jews as mice.",
+     "imageUrl": "https://media.npr.org/assets/img/2013/09/13/author-photo1-0e7785c3cd165413dd2b684fdb107a5914bc425e.jpg?s=4",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 1.0155747077078559e-05,
+     "punsafe": 0.0009036064147949219,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gale Researcher Guide for: Art Spiegelman and the Graphic Novel",
+     "imageUrl": "https://books.google.com/books/content/images/frontcover/tpdqDwAAQBAJ?fife=w150",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 6.943973858142272e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2615,16 +2615,16 @@
     }
    ],
    "samples": [
-    "Cover of the graphic novel Maus by Art Spiegelman",
     "WWE artist artwork illustration for Raw magazine cover design. Hand painted, hand drawn by illustrator Ben Tallon",
     "Joseph Witek - Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar (Unabridged)  artwork",
+    "Visitors look at the comics displayed at the 39th edition of Angouleme world comic strip festival headed by American Art Spiegelman on the opening...",
+    "Cover of the graphic novel Maus by Art Spiegelman",
     "Maus by art spiegelman (not strictly a picture book, visual literature in the form of graphic novel)",
     "Plastic Man - The New Yorker - April 1999 cover by Art Spiegelman The New Yorker, New Yorker Covers, Comic Book Characters, Comic Books, Dc Comics, Art Spiegelman, Plastic Man, Magazine Art, Magazine Covers",
     "MAUS di Art Spiegelman graphic novel",
-    "Visitors look at the comics displayed at the 39th edition of Angouleme world comic strip festival headed by American Art Spiegelman on the opening...",
-    "November/December 2001 Horn Book Magazine Special Issue: Politics & Religion; original cover art by Art Spiegelman",
     "Depression-Era Woodcuts by Lynd Ward, Father of the Graphic Novel \u2013 Brain\u2026 Rockwell Kent, Norman Rockwell, Art Spiegelman, Graphic Novel, Woodcut Art, Desenho Tattoo, Scratchboard, Wood Engraving, Printmaking",
-    "Art Spiegelman | The Complete Graphic Novel Maus"
+    "Art Spiegelman | The Complete Graphic Novel Maus",
+    "WWE artist artwork illustration for Raw magazine cover design. Hand painted, hand drawn by illustrator Ben Tallon"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2734,11 +2734,11 @@
      }
     },
     {
-     "text": "Complete Unit for Art Spiegelman's Graphic Novel Maus Vol. 1",
-     "imageUrl": "https://ecdn.teacherspayteachers.com/thumbitem/Complete-Unit-for-Art-Spiegelman-s-Graphic-Novel-Maus-Vol-1-2518264-1498783720/original-2518264-1.jpg",
+     "text": "US comic book artist Art Spiegelman in Paris, 2012.",
+     "imageUrl": "https://cdn.vox-cdn.com/thumbor/A3fO_OKpNA_tYv38dcmjBdOwYoQ=/0x0:3881x2582/1200x800/filters:focal(1936x869:2556x1489)/cdn.vox-cdn.com/uploads/chorus_image/image/65049895/141628840.jpg.0.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.0003160536289215088,
+     "punsafe": 0.015279531478881836,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2748,11 +2748,11 @@
      }
     },
     {
-     "text": "US comic book artist Art Spiegelman in Paris, 2012.",
-     "imageUrl": "https://cdn.vox-cdn.com/thumbor/A3fO_OKpNA_tYv38dcmjBdOwYoQ=/0x0:3881x2582/1200x800/filters:focal(1936x869:2556x1489)/cdn.vox-cdn.com/uploads/chorus_image/image/65049895/141628840.jpg.0.jpg",
+     "text": "Complete Unit for Art Spiegelman's Graphic Novel Maus Vol. 1",
+     "imageUrl": "https://ecdn.teacherspayteachers.com/thumbitem/Complete-Unit-for-Art-Spiegelman-s-Graphic-Novel-Maus-Vol-1-2518264-1498783720/original-2518264-1.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.015279531478881836,
+     "punsafe": 0.0003160536289215088,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2867,8 +2867,8 @@
     "The Complete Maus - Art Spiegelman Maus Art Spiegelman, William Golding, Penguin Books, Wall Street Journal, Graphic Novel Art, Reading Art, Bd Comics, 12th Book, Scary Stories",
     "Art Spiegelman's Comic Book Layouts | Uncrate",
     "Breakdowns: Gesammelte Comic strips von art spiegelman (1981) HC im Schuber",
-    "Complete Unit for Art Spiegelman's Graphic Novel Maus Vol. 1",
     "US comic book artist Art Spiegelman in Paris, 2012.",
+    "Complete Unit for Art Spiegelman's Graphic Novel Maus Vol. 1",
     "A panel from Art Spiegelman's Maus.",
     "City of Glass: The Graphic Novel - Paul Auster, Art Spiegelman, David Mazzucchelli"
    ],
@@ -2895,6 +2895,34 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 993,
    "rows": [
+    {
+     "text": "Art Spiegelman the complete rat\u00f3n Pulitzer precio c\u00f3mic ingl\u00e9s Graphic Novel SC",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/QfQAAOSw5dNWp3r3/s-l225.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 2.2642852854914963e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "City of Glass: The Graphic Novel (New York Trilogy): Paul Karasik, David Mazzucchelli, Paul Auster, Art Spiegelman: 9780312423605: Amazon.co...",
+     "imageUrl": "https://i.pinimg.com/236x/3d/5f/82/3d5f8270c6d2a3afbf2bf61f019eef30--paul-auster-comic-books.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 2.4788538212305866e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "The Realist Cartoons by Paul Krassner, Gary Groth, Nicole Hollander, Trina Robbins, Robert Crumb, Art Spiegelman, Jay Lynch, Ethan Persoff",
      "imageUrl": "https://images.thestorygraph.com/1vyhm04wp6rzby5np9stdkja3uf8",
@@ -2938,25 +2966,11 @@
      }
     },
     {
-     "text": "Art Spiegelman the complete rat\u00f3n Pulitzer precio c\u00f3mic ingl\u00e9s Graphic Novel SC",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/QfQAAOSw5dNWp3r3/s-l225.jpg",
+     "text": "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
+     "imageUrl": "http://img.youtube.com/vi/Ob2G_jxPKBU/hqdefault.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 2.2642852854914963e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "City of Glass: The Graphic Novel (New York Trilogy): Paul Karasik, David Mazzucchelli, Paul Auster, Art Spiegelman: 9780312423605: Amazon.co...",
-     "imageUrl": "https://i.pinimg.com/236x/3d/5f/82/3d5f8270c6d2a3afbf2bf61f019eef30--paul-auster-comic-books.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 2.4788538212305866e-05,
+     "punsafe": 0.0009166896343231201,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2971,20 +2985,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.00016796588897705078,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "RAW Magazine Vol 1 #8 KAZ Gary Panter Jimbo MAUS 1986. Art Spiegelman, Love And Rockets, Anton, Children's Comics, Graphic Novel Art, Ligne Claire, Arte Popular, Vintage Comics, Comic Artist",
-     "imageUrl": "https://i.pinimg.com/236x/48/7f/0f/487f0f8f1037998af17733b6c9019acd--graphic-novel-ultraviolet.jpg",
-     "keyword": "raw magazine",
-     "tier": "high",
-     "punsafe": 0.01955476403236389,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3022,20 +3022,6 @@
      }
     },
     {
-     "text": "The Complete Maus..art Spiegelman..pb Ex.. Uk Penguin 2003 1St Ed Graphic Novel",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/401279946127_/The-Complete-Mausart-Spiegelmanpb-Ex-Uk-Penguin-2003.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 1.3835775689585716e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Graphic Novel: Maus, by Art Spiegelman Comic Book Characters, Comic Books Art, Comic Art, Maus Art Spiegelman, English Posters, Nonfiction Text Features, Converse, Book Review Blogs, Forrest Gump",
      "imageUrl": "https://i.pinimg.com/236x/69/0b/f5/690bf53bd3f28ae65ad0fd8572dbd83a--art-google-graphic-novel.jpg",
      "keyword": "art spiegelman",
@@ -3050,11 +3036,11 @@
      }
     },
     {
-     "text": "Maus - Art Spiegelman graphic novel story of the Holocaust. Maus Art Spiegelman, New York Times, Frank Kafka, Comic Cover, Books To Read, My Books, Tom Y Jerry, Bd Comics, Books For Boys",
-     "imageUrl": "https://i.pinimg.com/236x/ea/62/8e/ea628e39854e291fa81719b53147771d--fathers-comic-books.jpg",
+     "text": "The Complete Maus..art Spiegelman..pb Ex.. Uk Penguin 2003 1St Ed Graphic Novel",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/401279946127_/The-Complete-Mausart-Spiegelmanpb-Ex-Uk-Penguin-2003.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 8.193615030904766e-06,
+     "punsafe": 1.3835775689585716e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3078,11 +3064,11 @@
      }
     },
     {
-     "text": "best anja spiegelman images comic books comics  excellent visual critical essay graphic essay analyzing icons in art spiegelman s maus",
-     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoogJD16oU5ZjAoTPnTeMxL2cHI3O_ovkQOcTpygMfIVkld-po",
+     "text": "[Graphic Novel]. Art Spiegelman. SIGNED WITH ORIGINAL DRAWING. Maus. A Survivor's Tale. New Yor",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F1%2F5%2F7%2F7%2F11577285%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 2.798406785586849e-05,
+     "punsafe": 5.330474959919229e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3092,11 +3078,11 @@
      }
     },
     {
-     "text": "[Graphic Novel]. Art Spiegelman. SIGNED WITH ORIGINAL DRAWING. Maus. A Survivor's Tale. New Yor",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F1%2F5%2F7%2F7%2F11577285%5D%2Csizedata%5B200x400%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "best anja spiegelman images comic books comics  excellent visual critical essay graphic essay analyzing icons in art spiegelman s maus",
+     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoogJD16oU5ZjAoTPnTeMxL2cHI3O_ovkQOcTpygMfIVkld-po",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 5.330474959919229e-05,
+     "punsafe": 2.798406785586849e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3134,11 +3120,11 @@
      }
     },
     {
-     "text": "\"The cover of Art Spiegelman's graphic novel \"\"Maus\"\"\"",
-     "imageUrl": "https://www.colorado.edu/honorsjournal/sites/default/files/article-image/maus.jpg",
+     "text": "Panel from Maus by Art Spiegelman (1991)",
+     "imageUrl": "https://epriego.files.wordpress.com/2020/09/spiegelman-1.png?w=313&h=225",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 2.2506168534164317e-05,
+     "punsafe": 0.00027108192443847656,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3148,11 +3134,11 @@
      }
     },
     {
-     "text": "Panel from Maus by Art Spiegelman (1991)",
-     "imageUrl": "https://epriego.files.wordpress.com/2020/09/spiegelman-1.png?w=313&h=225",
+     "text": "\"The cover of Art Spiegelman's graphic novel \"\"Maus\"\"\"",
+     "imageUrl": "https://www.colorado.edu/honorsjournal/sites/default/files/article-image/maus.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.00027108192443847656,
+     "punsafe": 2.2506168534164317e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3204,25 +3190,11 @@
      }
     },
     {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
-     "imageUrl": "http://img1.imagesbn.com/p/9780878054060_p0_v1_s260x420.JPG",
+     "text": "Comic Books As History The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar 1989 9780878054060 Front Cover",
+     "imageUrl": "https://secure.coverart.textbookrush.com/medium/060/1-9780878054060.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.00013256072998046875,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Alan Moore Comics, Art Spiegelman, Comic Art, Comic Books, Fantasy Comics, Frank Miller, Jack Kirby, Silver Age, Dark Horse",
-     "imageUrl": "https://i.pinimg.com/236x/8a/d5/f9/8ad5f9a73d6c6c9577902b51b2a7cbc3.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00189208984375,
+     "punsafe": 0.00012433528900146484,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3246,11 +3218,11 @@
      }
     },
     {
-     "text": "Comic Books As History The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar 1989 9780878054060 Front Cover",
-     "imageUrl": "https://secure.coverart.textbookrush.com/medium/060/1-9780878054060.jpg",
+     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
+     "imageUrl": "http://img1.imagesbn.com/p/9780878054060_p0_v1_s260x420.JPG",
      "keyword": "art spiegelman",
      "tier": "high",
-     "punsafe": 0.00012433528900146484,
+     "punsafe": 0.00013256072998046875,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3279,6 +3251,20 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.00012028447963530198,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Alan Moore Comics, Art Spiegelman, Comic Art, Comic Books, Fantasy Comics, Frank Miller, Jack Kirby, Silver Age, Dark Horse",
+     "imageUrl": "https://i.pinimg.com/236x/8a/d5/f9/8ad5f9a73d6c6c9577902b51b2a7cbc3.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 0.00189208984375,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3344,34 +3330,6 @@
      }
     },
     {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar by Joseph Witek, 9780878054060",
-     "imageUrl": "https://booksplea.se/image/cache/catalog/cdn7/9780878054060-210x210.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.0006278455257415771,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Art Spiegelman's Co-Mix: A Retrospective\"\" opens this week at the Jewish Museum. Comic Artist, Artist Art, Laurent Durieux, Art Spiegelman, Create A Comic, Vancouver Art Gallery, Graphic Novel Art, Comic News, Jewish Museum\"",
-     "imageUrl": "https://i.pinimg.com/236x/09/4c/31/094c311e74ef8cde54799c8bfd56c352--checkered-floors-jewish-museum.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.0003350377082824707,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Amazon.com: Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar (Studies in Popular Culture) (9780878054060): Joseph Witek: Books",
      "imageUrl": "https://i.pinimg.com/236x/ad/e2/60/ade2600f10cfc38876e773d6cb06b315--jacksons-art-jack-johnson.jpg",
      "keyword": "art spiegelman",
@@ -3398,19 +3356,61 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "\"\"\"Art Spiegelman's Co-Mix: A Retrospective\"\" opens this week at the Jewish Museum. Comic Artist, Artist Art, Laurent Durieux, Art Spiegelman, Create A Comic, Vancouver Art Gallery, Graphic Novel Art, Comic News, Jewish Museum\"",
+     "imageUrl": "https://i.pinimg.com/236x/09/4c/31/094c311e74ef8cde54799c8bfd56c352--checkered-floors-jewish-museum.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 0.0003350377082824707,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar by Joseph Witek, 9780878054060",
+     "imageUrl": "https://booksplea.se/image/cache/catalog/cdn7/9780878054060-210x210.jpg",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": 0.0006278455257415771,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "RAW Magazine Vol 1 #8 KAZ Gary Panter Jimbo MAUS 1986. Art Spiegelman, Love And Rockets, Anton, Children's Comics, Graphic Novel Art, Ligne Claire, Arte Popular, Vintage Comics, Comic Artist",
+     "imageUrl": "https://i.pinimg.com/236x/48/7f/0f/487f0f8f1037998af17733b6c9019acd--graphic-novel-ultraviolet.jpg",
+     "keyword": "raw magazine",
+     "tier": "high",
+     "punsafe": 0.01955476403236389,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
+    "Art Spiegelman the complete rat\u00f3n Pulitzer precio c\u00f3mic ingl\u00e9s Graphic Novel SC",
+    "City of Glass: The Graphic Novel (New York Trilogy): Paul Karasik, David Mazzucchelli, Paul Auster, Art Spiegelman: 9780312423605: Amazon.co...",
     "The Realist Cartoons by Paul Krassner, Gary Groth, Nicole Hollander, Trina Robbins, Robert Crumb, Art Spiegelman, Jay Lynch, Ethan Persoff",
     "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
     "ART SPIEGELMAN The Complete MAUS Pulitzer Preis Comic englisch graphic novel SC",
-    "Art Spiegelman the complete rat\u00f3n Pulitzer precio c\u00f3mic ingl\u00e9s Graphic Novel SC",
-    "City of Glass: The Graphic Novel (New York Trilogy): Paul Karasik, David Mazzucchelli, Paul Auster, Art Spiegelman: 9780312423605: Amazon.co...",
+    "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
     "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
-    "RAW Magazine Vol 1 #8 KAZ Gary Panter Jimbo MAUS 1986. Art Spiegelman, Love And Rockets, Anton, Children's Comics, Graphic Novel Art, Ligne Claire, Arte Popular, Vintage Comics, Comic Artist",
     "Art Spiegelman Maus Vol. A Survivor's Tale Published by Pantheon Books (Random House) Random Panel Bd Comics, Free Comics, Art Spiegelman Maus, Book Club Books, Good Books, Bd Art, Shakespeare And Company, Graphic Novel Art, Free Comic Books",
     "Complete MAUS Art Spiegelman World War Two Holocaust Graphic Novel WWII",
-    "The Complete Maus..art Spiegelman..pb Ex.. Uk Penguin 2003 1St Ed Graphic Novel"
+    "Graphic Novel: Maus, by Art Spiegelman Comic Book Characters, Comic Books Art, Comic Art, Maus Art Spiegelman, English Posters, Nonfiction Text Features, Converse, Book Review Blogs, Forrest Gump"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3436,90 +3436,6 @@
    "totalIncludingLowConfidence": 6600,
    "rows": [
     {
-     "text": "Barefoot Gen by Keiji Nakazawa deals with the aftermath of Hiroshima. The author of the comic book is a Hiroshima survivor.\n\nMaus (Penguin Press) by Art Spiegelman is about The Holocaust and is generally considered one of the top five comic books ever created.\n\nPin-up (Dargaud) is a Euro-comic that ",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "6 edition of Postmodern art found in the catalog.\n\nby Stuart A. Kallen\n\nPublished 2009 by Lucent Books in Detroit .\nWritten in English\n\nFar more than a comic book with an edge, Art Spiegelman's Maus interrogates the fallacious identity politics of the Nazis, to an unforgettable effect. Given recent ",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Many comic books from the Golden, Silver and Bronze Ages are fun to read, even forty-plus years after their publication. Some of these comics are striking for their timelessness, and others for how they reflect their publication date. If nothing else, it\u2019s enlightening to read the classic stories th",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Blind Vaysha, from The National Film Board of Canada (an outfit that wholly owned the Animated Short category from the \u201960s until the early \u201990s), is directed by Theodor Ushev, and adapted from a philosophical parable penned by Bulgarian poet Georgi Gospodinov. In it, a girl is born with the ability",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The sweeping story of cartoons, comic strips and graphic novels and their century-long hold on the American imagination.\n\nStarting with the Civil War and cartoonist Thomas Nast, creator of the lasting images of Uncle Sam and Santa Claus, author Jeremy\n\nDauber whizzes readers through comics\u2019 progress",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Spiegelman's \"Self portrait with Maus Mask,\" 1989\n\nA reaction to the 9/11 attacks on the World Trade Center in New York, Spiegelman's 2004 comic \"In the Shadow of no towers\" was first published as a comic strip in Germany's Die Zeit weekly before it hit the US market.\n\nIt wasn't his first cooperatio",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Genie Award-winning documentary Comic Book Confidential (1988)\u2014researched in part in the extensive comic book collection of bpNichol, Canada\u2019s first alternative comic writer (Bell 143)\u2014offered a broad introduction to American comic books for many, drawing attention to the rich variety of express",
      "imageUrl": null,
      "keyword": "art spiegelman",
@@ -3534,7 +3450,91 @@
      }
     },
     {
-     "text": "It was the work of writer and cartoonist Art Spiegelman, and the story was a biographical tale of his father's real-life experience as a Polish Jew who survived the horrors of Auschwitz. It's some pretty heavy shit. If there were a comic book hall of fame, Maus would be one of its first inductees. I",
+     "text": "I\u2019ve always been a fan of comics (or is it comix, nowadays?). In fact, they were my first love, way before they metamorphosed and ascended onto the Graphic Novel Pantheon, sometime in the late \u201980s. (Isn\u2019t a graphic novel just a fat comic for grown ups, when it comes down to it?) When I was a kid, I",
+     "imageUrl": null,
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It\u2019s cool to be a nerd. Marvel is pretty much synonymous with box office success and there\u2019s nothing obscure about saying you read graphic novels anymore. Neil Gaiman\u2019s Sandman: Overtures is one of the most famous and influential comics every published. But back in 1989 the comic book industry looke",
+     "imageUrl": null,
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dr. Seuss Goes to War: The World War II Editorial Cartoons of Theodor Seuss Geisel\n\u201d A fascinating collection\u201d of wartime cartoons from the beloved children\u2019s author and illustrator ( The New York Times Book Review ). For decades, readers throughout the world have enjoyed the marvelous stories and i",
+     "imageUrl": null,
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Every now and then you come across a comic book that's just not worth your time, and sadly this is the same mindset that currently keeps me from being a regular visitor to direct comics shops. How the industry manages to field so many titles of so little interest is frankly beyond me, but let the co",
+     "imageUrl": null,
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Director Ron Mann dives deep into the history of one of the twentieth century\u2019s most popular yet least respected art forms: the comic book. Profiling twenty-two of North America\u2019s most significant artists working in the medium, this entertaining documentary traces the evolution of comics from the pu",
+     "imageUrl": null,
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "By now we all ought at least to be aware of, if not conversant with, the growing influence of graphic literature in the culture. By \"graphic\" I mean \"illustrated,\" the medium of cartoons and comics. (As writer-illustrator Marjane Satrapi jokes, \"When you say 'graphic novel,' I think you mean Lady Ch",
+     "imageUrl": null,
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "After writing for Mad, Cracked and Playboy, humorist Lynch recently moved into the children's book field with his book Otto's Orange Day (Toon Books, 2008), illustrated by Syracuse Post-Standard political cartoonist Frank Cammuso. Lynch followed with another 2008 Toon Book, Mo and Jo Fighting Togeth",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3576,7 +3576,7 @@
      }
     },
     {
-     "text": "(JTA) \u2014 A rural Tennessee school board\u2019s decision earlier this month to remove \u201cMaus,\u201d the celebrated graphic novel about the Holocaust, from its curriculum, has attracted fierce backlash from other pockets of the state and beyond.\n\nA nearby comic-book store is pledging to give away the book for fre",
+     "text": "Listen\nA soundtrack to the intimate documentary Kurt Cobain: Montage of Heck (November 6) will leave Nirvana fans feeling all the feels. Expect unreleased home recordings and a sketch comedy routine performed by Cobain. Store it in a heart-shaped box.\n\nRead\nGraphic novel pioneer Will Eisner has an a",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3590,7 +3590,7 @@
      }
     },
     {
-     "text": "On the flipside, underground comic books that reflected the thriving counterculture at the time began to emerge with Robert Crumb\u2019s Fritz the Cat, Spain Rodriguez\u2019s Trashman and Gilbert Shelton\u2019s The Fabulous Furry Freak Brothers. This portion of the documentary is fascinating as this period of comi",
+     "text": "Many comic books from the Golden, Silver and Bronze Ages are fun to read, even forty-plus years after their publication. Some of these comics are striking for their timelessness, and others for how they reflect their publication date. If nothing else, it\u2019s enlightening to read the classic stories th",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3604,7 +3604,7 @@
      }
     },
     {
-     "text": "By now we all ought at least to be aware of, if not conversant with, the growing influence of graphic literature in the culture. By \"graphic\" I mean \"illustrated,\" the medium of cartoons and comics. (As writer-illustrator Marjane Satrapi jokes, \"When you say 'graphic novel,' I think you mean Lady Ch",
+     "text": "Comic Book Confidential and the Art of Perfect Timing\n\nRon Mann\u2019s documentary was dismissed by some as decidedly amateurish upon its release. Now, 25 years later, even its kitschiest elements don\u2019t distract from its status as a document of what may be comics\u2019 most critical moment of maturation.\n\nThe",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3618,7 +3618,7 @@
      }
     },
     {
-     "text": "It\u2019s cool to be a nerd. Marvel is pretty much synonymous with box office success and there\u2019s nothing obscure about saying you read graphic novels anymore. Neil Gaiman\u2019s Sandman: Overtures is one of the most famous and influential comics every published. But back in 1989 the comic book industry looke",
+     "text": "I did not grow up with the work of Maurice Sendak.\n\nWhile I was always peripherally aware of his most famous book \u2014 the now-classic children\u2019s story Where The Wild Things Are \u2014 I didn\u2019t spend any substantial time with him until just a few years ago, when I came across a two-page comic strip from an ",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3632,7 +3632,7 @@
      }
     },
     {
-     "text": "I've been reading the graphic novels written and drawn by Jason \u2013 alias John Arne S\u00e6ter\u00f8y \u2013 since American independent comics publisher Fantagraphics issued the first English-language edition of his work, Hey, Wait..., in 2001. By that point Jason had been publishing comics in his home country of No",
+     "text": "The term graphic novel has been in use since the 1970s, though it did not catch on until a decade later. While graphic novels are comic books, the distinguishing factor for a graphic novel is length. Listed below in no particular order are several novels in different genre from classic to contempora",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3646,7 +3646,7 @@
      }
     },
     {
-     "text": "Every now and then you come across a comic book that's just not worth your time, and sadly this is the same mindset that currently keeps me from being a regular visitor to direct comics shops. How the industry manages to field so many titles of so little interest is frankly beyond me, but let the co",
+     "text": "A beautifully illustrated graphic novel that tells the story of Sim\u00f3n Radowitzky (1891-1956), a gentle soul caught up in a cruel world. The author/illustrator is an Argentinian living in Spain where the book was first published in 2016. Radowitzky appears in a few books (recently The Anarchist Expro",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3660,7 +3660,7 @@
      }
     },
     {
-     "text": "Jules Feiffer's comic strip and outlook influenced a number of cartoonists who came after.\n\nLucy Shelton Caswell, curator of the Billy Ireland Cartoon Library and Museum at The Ohio State University, echoes McDonnell. \"He studied at the feet of a couple of the masters -- Milton Caniff and Will Eisne",
+     "text": "Far-left cartoonist Spiegelman\u2019s experiencing something that was to be fully expected in the tragically politicized climate his side of the spectrum led to, as described by Reuters:\n\nA school board in Tennessee has voted to remove the Holocaust-themed graphic novel \u201cMaus\u201d from its eighth-grade langu",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3674,7 +3674,7 @@
      }
     },
     {
-     "text": "Amazing Spiderman # 25, 1965 | \u00a9 Dave, Flickr, edited, CC-BY-NC-ND-2.0 During the 80s and early 90s, the comic book industry built on a new distribution system that focused on comic book stores that bought their comics directly from publishers at a discount. As a new service for collectors, comic bo",
+     "text": "Webcomic \u2018Ola\u2019 went viral with over 130k views, and is now being developed into a year-long commission. Along with the accompanying animation \u2018There Were Signs\u2019, the stories were co-created with:\n\nAfter being covered by the BBC, and following unprecedented feedback to the platform about the story\u2019s ",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3688,7 +3688,7 @@
      }
     },
     {
-     "text": "After writing for Mad, Cracked and Playboy, humorist Lynch recently moved into the children's book field with his book Otto's Orange Day (Toon Books, 2008), illustrated by Syracuse Post-Standard political cartoonist Frank Cammuso. Lynch followed with another 2008 Toon Book, Mo and Jo Fighting Togeth",
+     "text": "You knew a kid just like him. Pimply chin, buck teeth, always picked last for dodge ball. And after some bully grabbed his lunch money, there\u2019s a pretty good chance he\u2019d bury his shiny nose in a comic book.\n\nDan Pussey is that kid. \u201cI set out to create a truly pink human being, someone totally hideo",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3702,35 +3702,7 @@
      }
     },
     {
-     "text": "From political cartoons and the newspaper funny pages to emotionally resonant biographies and multi-volume superhero epics, the scope of comics is a broad one. While many people may still hold onto the outdated idea that comics are silly or childish, the truth is comics comprise a multi-billion-doll",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "How many artists have created their own genres? Robert Sikoryak may stand among few, especially for genres within the comics form.\n\nHe has an eloquently simple concept: combine a set of words with incongruous drawings in the styles of famous comics. For his first 2009 graphic novel,\nMasterpiece Comi",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tom Hanks, Robert Zemeckis, and Eric Roth are back together again -- this time, to adapt the groundbreaking graphic novel Here. The project will reunite the Oscar-winning trio for the first time in almost 30 years, since they etched their names into Hollywood history with the release of Forrest Gump",
+     "text": "The Times of Israel/JTA reported that there\u2019s been a backlash against the school board\u2019s decision:\n\nA rural Tennessee school board\u2019s decision earlier this month to remove \u201cMaus,\u201d the celebrated graphic novel about the Holocaust, from its curriculum has attracted fierce backlash from other pockets of",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3786,49 +3758,7 @@
      }
     },
     {
-     "text": "Director Ron Mann dives deep into the history of one of the twentieth century\u2019s most popular yet least respected art forms: the comic book. Profiling twenty-two of North America\u2019s most significant artists working in the medium, this entertaining documentary traces the evolution of comics from the pu",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Of Christopher Nolan\u2019s The Dark Knight Rises, director David Cronenberg (The Fly, Videodrome, Scanners, Crash) said, \u201cI don\u2019t think they are making them [comic book movies] an elevated art form.  I think it\u2019s still Batman running around in a stupid cape.\u201d  He went on to claim that, \u201cA superhero movi",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Are you an author. /5(29). The Narrative Corpse (Gates of Heck, ) is a comic book chain-story by 69 all-star cartoonists co-edited by Art Spiegelman and R. Sikoryak.\n\nAlternate cover edition for They take place on desolate /5. Corpse Party: Book of Shadows builds upon the events of the first game, e",
-     "imageUrl": null,
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A beautifully illustrated graphic novel that tells the story of Sim\u00f3n Radowitzky (1891-1956), a gentle soul caught up in a cruel world. The author/illustrator is an Argentinian living in Spain where the book was first published in 2016. Radowitzky appears in a few books (recently The Anarchist Expro",
+     "text": "From political cartoons and the newspaper funny pages to emotionally resonant biographies and multi-volume superhero epics, the scope of comics is a broad one. While many people may still hold onto the outdated idea that comics are silly or childish, the truth is comics comprise a multi-billion-doll",
      "imageUrl": null,
      "keyword": "art spiegelman",
      "tier": "high",
@@ -3843,14 +3773,14 @@
     }
    ],
    "samples": [
-    "Barefoot Gen by Keiji Nakazawa deals with the aftermath of Hiroshima. The author of the comic book is a Hiroshima survivor.\n\nMaus (Penguin Press) by Art Spiegelman is about The Holocaust and is generally considered one of the top five comic books ever created.\n\nPin-up (Dargaud) is a Euro-comic that ",
-    "6 edition of Postmodern art found in the catalog.\n\nby Stuart A. Kallen\n\nPublished 2009 by Lucent Books in Detroit .\nWritten in English\n\nFar more than a comic book with an edge, Art Spiegelman's Maus interrogates the fallacious identity politics of the Nazis, to an unforgettable effect. Given recent ",
-    "Many comic books from the Golden, Silver and Bronze Ages are fun to read, even forty-plus years after their publication. Some of these comics are striking for their timelessness, and others for how they reflect their publication date. If nothing else, it\u2019s enlightening to read the classic stories th",
-    "Blind Vaysha, from The National Film Board of Canada (an outfit that wholly owned the Animated Short category from the \u201960s until the early \u201990s), is directed by Theodor Ushev, and adapted from a philosophical parable penned by Bulgarian poet Georgi Gospodinov. In it, a girl is born with the ability",
-    "The sweeping story of cartoons, comic strips and graphic novels and their century-long hold on the American imagination.\n\nStarting with the Civil War and cartoonist Thomas Nast, creator of the lasting images of Uncle Sam and Santa Claus, author Jeremy\n\nDauber whizzes readers through comics\u2019 progress",
-    "Spiegelman's \"Self portrait with Maus Mask,\" 1989\n\nA reaction to the 9/11 attacks on the World Trade Center in New York, Spiegelman's 2004 comic \"In the Shadow of no towers\" was first published as a comic strip in Germany's Die Zeit weekly before it hit the US market.\n\nIt wasn't his first cooperatio",
     "The Genie Award-winning documentary Comic Book Confidential (1988)\u2014researched in part in the extensive comic book collection of bpNichol, Canada\u2019s first alternative comic writer (Bell 143)\u2014offered a broad introduction to American comic books for many, drawing attention to the rich variety of express",
-    "It was the work of writer and cartoonist Art Spiegelman, and the story was a biographical tale of his father's real-life experience as a Polish Jew who survived the horrors of Auschwitz. It's some pretty heavy shit. If there were a comic book hall of fame, Maus would be one of its first inductees. I",
+    "I\u2019ve always been a fan of comics (or is it comix, nowadays?). In fact, they were my first love, way before they metamorphosed and ascended onto the Graphic Novel Pantheon, sometime in the late \u201980s. (Isn\u2019t a graphic novel just a fat comic for grown ups, when it comes down to it?) When I was a kid, I",
+    "It\u2019s cool to be a nerd. Marvel is pretty much synonymous with box office success and there\u2019s nothing obscure about saying you read graphic novels anymore. Neil Gaiman\u2019s Sandman: Overtures is one of the most famous and influential comics every published. But back in 1989 the comic book industry looke",
+    "Dr. Seuss Goes to War: The World War II Editorial Cartoons of Theodor Seuss Geisel\n\u201d A fascinating collection\u201d of wartime cartoons from the beloved children\u2019s author and illustrator ( The New York Times Book Review ). For decades, readers throughout the world have enjoyed the marvelous stories and i",
+    "Every now and then you come across a comic book that's just not worth your time, and sadly this is the same mindset that currently keeps me from being a regular visitor to direct comics shops. How the industry manages to field so many titles of so little interest is frankly beyond me, but let the co",
+    "Director Ron Mann dives deep into the history of one of the twentieth century\u2019s most popular yet least respected art forms: the comic book. Profiling twenty-two of North America\u2019s most significant artists working in the medium, this entertaining documentary traces the evolution of comics from the pu",
+    "By now we all ought at least to be aware of, if not conversant with, the growing influence of graphic literature in the culture. By \"graphic\" I mean \"illustrated,\" the medium of cartoons and comics. (As writer-illustrator Marjane Satrapi jokes, \"When you say 'graphic novel,' I think you mean Lady Ch",
+    "After writing for Mad, Cracked and Playboy, humorist Lynch recently moved into the children's book field with his book Otto's Orange Day (Toon Books, 2008), illustrated by Syracuse Post-Standard political cartoonist Frank Cammuso. Lynch followed with another 2008 Toon Book, Mo and Jo Fighting Togeth",
     "A comic book is a collection of sequentially juxtaposed panels that depict distinct scenarios in the manner of comics art. Panels are frequently accompanied with descriptive text and written narration, with dialogue typically included in word balloons, which is a hallmark of the comics art style. Th",
     "Cartoonist Don Simpson burst on the scene in the Orwellian year of 1984, at the height of Reagan\u2019s arms race, neutron bombs, \u201cMinute-Man\u201d missiles, and \u201cdense-pack\u201d multiple-warheads packing twenty megatons (millions of tons of TNT) of explosive force each. The American comic book was also in artist"
    ],
@@ -3900,8 +3830,85 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 30,
-   "rows": [],
-   "samples": [],
+   "rows": [
+    {
+     "text": "Let\u2019s call this the battle of the animated animals. NO, the battle of the genre\u2019d animated animals.\nIn one side of the ring we have Blacksad, the noir graphic novel starring a giant black feline private eye named John Blacksad. In the far side of the ring, we have plucky Rango, a laissez-faire chame",
+     "imageUrl": "http://scenicworld.kcmody.com/?tag=graphic-novel",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Good leadership skills and smart decision-making are important for anyone in an organization, no matter what level they occupy, says Management Professor Michael Useem. You never know when the fate of an entire nation might turn on them.\nArt Spiegelman's \"Maus\" uses animals to tell -- in comic book ",
+     "imageUrl": "https://penntoday.upenn.edu/news/archives?topic=All&school=All&page=1283",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Welcome again to the HIVE blog.\nToday we\u2019re discussing the ever-present, somewhat intimidating, but treasured, GRAPHIC NOVEL.\nUnsure what one is, click the link below.\nWhat is a Graphic Novel??\nGraphic novels, or trade paper-backs, have been around for a LONG time, but still seem to be a bit mysteri",
+     "imageUrl": "https://thehivecomics.com/2018/05/17/getting-graphic/",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This right here, folks, is your guide to the Jewish highlights of San Diego Comic-Con 2017.\nBut we doubt anything will live up to the beautifully titled \u201cA Bunch of Jews (A Minyen Yidn),\u201d during which a panel will reflect on the recently-released graphic novel of the same name.\nRead on for more info",
+     "imageUrl": "https://forward.com/schmooze/377271/san-diego-comic-con-jews-gal-gadot/",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From the Sunday funnies to the Daily Newspaper Strips to the EC, DC and Super-Hero comic books of my childhood, comic art was the ultimate disposable medium.\nThe Vault of Horror, Sgt. Rock, Peanuts, Teen Romance, Archie, B.C., Black Bolt and the Inhumans, Classics Illustrated, Nancy and Sluggo, Doct",
+     "imageUrl": "https://williamhorberg.typepad.com/william_horberg/2008/08/not-your-father.html",
+     "keyword": "art spiegelman",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Let\u2019s call this the battle of the animated animals. NO, the battle of the genre\u2019d animated animals.\nIn one side of the ring we have Blacksad, the noir graphic novel starring a giant black feline private eye named John Blacksad. In the far side of the ring, we have plucky Rango, a laissez-faire chame",
+    "Good leadership skills and smart decision-making are important for anyone in an organization, no matter what level they occupy, says Management Professor Michael Useem. You never know when the fate of an entire nation might turn on them.\nArt Spiegelman's \"Maus\" uses animals to tell -- in comic book ",
+    "Welcome again to the HIVE blog.\nToday we\u2019re discussing the ever-present, somewhat intimidating, but treasured, GRAPHIC NOVEL.\nUnsure what one is, click the link below.\nWhat is a Graphic Novel??\nGraphic novels, or trade paper-backs, have been around for a LONG time, but still seem to be a bit mysteri",
+    "This right here, folks, is your guide to the Jewish highlights of San Diego Comic-Con 2017.\nBut we doubt anything will live up to the beautifully titled \u201cA Bunch of Jews (A Minyen Yidn),\u201d during which a panel will reflect on the recently-released graphic novel of the same name.\nRead on for more info",
+    "From the Sunday funnies to the Daily Newspaper Strips to the EC, DC and Super-Hero comic books of my childhood, comic art was the ultimate disposable medium.\nThe Vault of Horror, Sgt. Rock, Peanuts, Teen Romance, Archie, B.C., Black Bolt and the Inhumans, Classics Illustrated, Nancy and Sluggo, Doct"
+   ],
    "partial": false,
    "shardsScanned": 10,
    "shardsTotal": 10
@@ -3926,13 +3933,13 @@
     "longformHits": 6233,
     "longformRatio": 0.587,
     "perDataset": {
+     "c4-en": 27,
      "coyo700m": 477,
      "laion1b-nolang": 711,
      "laion2b-en": 1668,
      "laion2b-multi": 1523,
      "obelics": 6192,
-     "pile": 14,
-     "c4-en": 27
+     "pile": 14
     },
     "reason": null
    },
@@ -3944,13 +3951,13 @@
     "longformHits": 413,
     "longformRatio": 0.323,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 64,
      "laion1b-nolang": 282,
      "laion2b-en": 403,
      "laion2b-multi": 117,
      "obelics": 408,
-     "pile": 2,
-     "c4-en": 3
+     "pile": 2
     },
     "reason": null
    }
@@ -3966,15 +3973,15 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 2737,
-   "person_photo": 572,
-   "unrelated": 209,
-   "merchandise": 13,
-   "storefront": 47,
-   "derivative": 7,
-   "explicit": 5
+   "unverified": 2774,
+   "unrelated": 173,
+   "merchandise": 10,
+   "derivative": 8,
+   "person_photo": 576,
+   "storefront": 115,
+   "explicit": 3
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-art-spiegelman-and-francoise-mouly",
  "cohort": "billy-ireland",
@@ -3987,7 +3994,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 11891,
   "datasetsPresent": 7,

@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -897,6 +897,118 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 365,
    "rows": [
+    {
+     "text": "Babymouse #20: Babymouse Goes for the Gold by Jennifer L. Holm and Matthew Holm",
+     "imageUrl": "https://images1.penguinrandomhouse.com/cover/9780307931634",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Caramel is reading Babymouse: Our Hero (Babymouse #2) by Jennifer L. Holm and Matthew Holm. On these pages we learn about things Babymouse is good at.",
+     "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/05/caramel-babymouse2-3.jpg?w=840",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Little Babymouse and the Christmas Cupcakes by Jennifer L. Holm, illustrated by Matthew Holm",
+     "imageUrl": "https://portlandbookreview.com/wp-content/uploads/2016/11/LittleBabymouse.jpg",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Caramel reviews Babymouse: Queen of the World , the first book in the Babymouse series, written by Jennifer L. Holm and illustrated by Matthew Holm.",
+     "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/05/caramel-babymouse1-1.jpg?w=840",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Graphic Novel Review: Babymouse the Musical",
+     "imageUrl": "https://d202m5krfqbpi5.cloudfront.net/books/1389586570l/3922195.jpg",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover of Babymouse graphic novel",
+     "imageUrl": "https://torchbearer.utk.edu/wp-content/uploads/sites/3/2010/07/reading-babymouse.jpg",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Graphic Novel Review: Babymouse Dragonslayer",
+     "imageUrl": "http://www.thebookmonsters.com/wp-content/uploads/sites/9/2014/03/UBB-Dragonslayerby.jpg",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Caramel is reading Babymouse: Beach Babe (Babymouse #3) written by Jennifer L Holm and illustrated by Matthew Holm.",
+     "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/06/caramel-babymouse3-3.jpg?w=840",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "FREE or Grade Graphic Novels Study Lesson Plan Online Resources - This lesson plan introduces 5 graphic novel series for elementary students: Babymouse, Binky the Space Cat, Zig and Wikki, Guinea Pig: Pet Shop Private Eye, and Nursery Rhyme Comics. Library Lesson Plans, Library Skills, Library Lesso",
      "imageUrl": "https://i.pinimg.com/236x/a9/d0/90/a9d09047d19009694b22e6f7581befca--library-skills-library-lessons.jpg",
@@ -940,62 +1052,6 @@
      }
     },
     {
-     "text": "Caramel reviews Babymouse: Queen of the World , the first book in the Babymouse series, written by Jennifer L. Holm and illustrated by Matthew Holm.",
-     "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/05/caramel-babymouse1-1.jpg?w=840",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Little Babymouse and the Christmas Cupcakes by Jennifer L. Holm, illustrated by Matthew Holm",
-     "imageUrl": "https://portlandbookreview.com/wp-content/uploads/2016/11/LittleBabymouse.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Caramel is reading Babymouse: Our Hero (Babymouse #2) by Jennifer L. Holm and Matthew Holm. On these pages we learn about things Babymouse is good at.",
-     "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/05/caramel-babymouse2-3.jpg?w=840",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #20: Babymouse Goes for the Gold by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images1.penguinrandomhouse.com/cover/9780307931634",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Caramel reviews Babymouse: Beach Babe (Babymouse #3) written by Jennifer L Holm and illustrated by Matthew Holm.",
      "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/06/caramel-babymouse3-1.jpg?w=840",
      "keyword": "babymouse",
@@ -1010,64 +1066,8 @@
      }
     },
     {
-     "text": "Cover of Babymouse graphic novel",
-     "imageUrl": "https://torchbearer.utk.edu/wp-content/uploads/sites/3/2010/07/reading-babymouse.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "review of Babymouse: School Tripped by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://1.bp.blogspot.com/-QDKKWK75Qws/XTorkBN12hI/AAAAAAAAdMg/uzs5ZGzmhGMlRrlFFEWsLI8J56r14B1AgCLcBGAs/s320/Babymouse.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Graphic Novel Review: Babymouse the Musical",
-     "imageUrl": "https://d202m5krfqbpi5.cloudfront.net/books/1389586570l/3922195.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Graphic Novel Review: Babymouse Dragonslayer",
-     "imageUrl": "http://www.thebookmonsters.com/wp-content/uploads/sites/9/2014/03/UBB-Dragonslayerby.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Caramel is reading Babymouse: Beach Babe (Babymouse #3) written by Jennifer L Holm and illustrated by Matthew Holm.",
-     "imageUrl": "https://bookbunniesdotblog.files.wordpress.com/2020/06/caramel-babymouse3-3.jpg?w=840",
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": null,
@@ -1136,20 +1136,6 @@
      }
     },
     {
-     "text": "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9780375843877",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #17: Extreme Babymouse by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images1.penguinrandomhouse.com/cover/9780307931603",
      "keyword": "babymouse",
@@ -1166,6 +1152,20 @@
     {
      "text": "Babymouse #3: Beach Babe by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images3.penguinrandomhouse.com/cover/9780375832314",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
+     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9780375843877",
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": null,
@@ -1207,16 +1207,16 @@
     }
    ],
    "samples": [
-    "FREE or Grade Graphic Novels Study Lesson Plan Online Resources - This lesson plan introduces 5 graphic novel series for elementary students: Babymouse, Binky the Space Cat, Zig and Wikki, Guinea Pig: Pet Shop Private Eye, and Nursery Rhyme Comics. Library Lesson Plans, Library Skills, Library Lesso",
-    "Babymouse #19: Bad Babysitter by Jennifer L. Holm and Matthew Holm",
-    "Caramel reviews Babymouse: Our Hero (Babymouse #2) by Jennifer L. Holm and Matthew Holm.",
-    "Caramel reviews Babymouse: Queen of the World , the first book in the Babymouse series, written by Jennifer L. Holm and illustrated by Matthew Holm.",
-    "Little Babymouse and the Christmas Cupcakes by Jennifer L. Holm, illustrated by Matthew Holm",
-    "Caramel is reading Babymouse: Our Hero (Babymouse #2) by Jennifer L. Holm and Matthew Holm. On these pages we learn about things Babymouse is good at.",
     "Babymouse #20: Babymouse Goes for the Gold by Jennifer L. Holm and Matthew Holm",
-    "Caramel reviews Babymouse: Beach Babe (Babymouse #3) written by Jennifer L Holm and illustrated by Matthew Holm.",
+    "Caramel is reading Babymouse: Our Hero (Babymouse #2) by Jennifer L. Holm and Matthew Holm. On these pages we learn about things Babymouse is good at.",
+    "Little Babymouse and the Christmas Cupcakes by Jennifer L. Holm, illustrated by Matthew Holm",
+    "Caramel reviews Babymouse: Queen of the World , the first book in the Babymouse series, written by Jennifer L. Holm and illustrated by Matthew Holm.",
+    "Graphic Novel Review: Babymouse the Musical",
     "Cover of Babymouse graphic novel",
-    "review of Babymouse: School Tripped by Jennifer L. Holm and Matthew Holm"
+    "Graphic Novel Review: Babymouse Dragonslayer",
+    "Caramel is reading Babymouse: Beach Babe (Babymouse #3) written by Jennifer L Holm and illustrated by Matthew Holm.",
+    "FREE or Grade Graphic Novels Study Lesson Plan Online Resources - This lesson plan introduces 5 graphic novel series for elementary students: Babymouse, Binky the Space Cat, Zig and Wikki, Guinea Pig: Pet Shop Private Eye, and Nursery Rhyme Comics. Library Lesson Plans, Library Skills, Library Lesso",
+    "Babymouse #19: Bad Babysitter by Jennifer L. Holm and Matthew Holm"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1326,6 +1326,20 @@
      }
     },
     {
+     "text": "Babymouse #1: Queen of the World! by Jennifer L. Holm and Matthew Holm",
+     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780307974433",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": 0.0018140673637390137,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "http://images.penguinrandomhouse.com/cover/9780375839887",
      "keyword": "babymouse",
@@ -1354,53 +1368,11 @@
      }
     },
     {
-     "text": "Babymouse #1: Queen of the World! by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780307974433",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0018140673637390137,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #13: Cupcake Tycoon by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375965739",
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": 0.004371285438537598,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of Babymouse graphic novel",
-     "imageUrl": "http://torchbearer.utk.edu/wp-content/uploads/sites/3/2010/07/reading-babymouse.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0003173947334289551,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #2: Our Hero by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images2.penguinrandomhouse.com/cover/9780375832307",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.013108253479003906,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1443,6 +1415,34 @@
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": 0.00935092568397522,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover of Babymouse graphic novel",
+     "imageUrl": "http://torchbearer.utk.edu/wp-content/uploads/sites/3/2010/07/reading-babymouse.jpg",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": 0.0003173947334289551,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Babymouse #2: Our Hero by Jennifer L. Holm and Matthew Holm",
+     "imageUrl": "https://images2.penguinrandomhouse.com/cover/9780375832307",
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": 0.013108253479003906,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1585,9 +1585,9 @@
     "Babymouse #16: Babymouse for President by Jennifer L. Holm and Matthew Holm",
     "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
     "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
+    "Babymouse #1: Queen of the World! by Jennifer L. Holm and Matthew Holm",
     "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
     "Babymouse #10: The Musical by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #1: Queen of the World! by Jennifer L. Holm and Matthew Holm",
     "Babymouse #13: Cupcake Tycoon by Jennifer L. Holm and Matthew Holm"
    ],
    "partial": false,
@@ -1814,7 +1814,7 @@
    "totalIncludingLowConfidence": 398,
    "rows": [
     {
-     "text": "A Review of Squish by Jennifer L. Holm and Matthew Holm\n\nI am a big fan of this duo's Babymouse books, which are a great pick for reluctant girl readers and girls in general ages 8-11. So I've been looking forward to the launch of their new Super Amoeba graphic novel series. Of course, how in the he",
+     "text": "I can't resist a plug for Babymouse: The Musical by Jennifer L. Holm and Matthew Holm. The school's putting on a musical and when dreamy British newcomer Henry encourages Babymouse to try out she can't help but show up at auditions. When she's given the part of Felicia's understudy, Babymouse is sur",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -1828,7 +1828,7 @@
      }
     },
     {
-     "text": "I can't resist a plug for Babymouse: The Musical by Jennifer L. Holm and Matthew Holm. The school's putting on a musical and when dreamy British newcomer Henry encourages Babymouse to try out she can't help but show up at auditions. When she's given the part of Felicia's understudy, Babymouse is sur",
+     "text": "Kit Feeny is on the move! by Michael Townsend Download PDF EPUB FB2\n\nTownsend's first book in the Kit Feeny series is the boy version of Jennifer and Matthew Holm's terrific girl graphic novel series Babymouse, which is a high compliment in my book.\n\nIt is realistic--even though drawn with animal ch",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -1856,20 +1856,6 @@
      }
     },
     {
-     "text": "The San Jose Public Library was most appreciative to be chosen as a recipient of the 2018 ACL mini grant program. This grant was used to fund supplementary programs for our 10th annual Graphic Novel Making Contest, a program in which patrons create their own graphic novels. This program has shown so",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Jennifer L. Holm is a NEW YORK TIMES bestselling children\u2019s author and the recipient of three Newbery Honors for her novels OUR ONLY MAY AMELIA, PENNY FROM HEAVEN, and TURTLE IN PARADISE. Jennifer collaborates with her brother, Matthew Holm, on two graphic novel series \u2014 the Eisner Award-winning Bab",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -1884,7 +1870,7 @@
      }
     },
     {
-     "text": "Kit Feeny is on the move! by Michael Townsend Download PDF EPUB FB2\n\nTownsend's first book in the Kit Feeny series is the boy version of Jennifer and Matthew Holm's terrific girl graphic novel series Babymouse, which is a high compliment in my book.\n\nIt is realistic--even though drawn with animal ch",
+     "text": "The San Jose Public Library was most appreciative to be chosen as a recipient of the 2018 ACL mini grant program. This grant was used to fund supplementary programs for our 10th annual Graphic Novel Making Contest, a program in which patrons create their own graphic novels. This program has shown so",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -1926,7 +1912,21 @@
      }
     },
     {
-     "text": "My favorite book expert from my own local bookshop recommended this adorable series for the youngest graphic novel readers who might be fans of Junie B. Jones and Ivy & Bean \u2014 two great chapter book series for early readers in their own right.\n\nBabymouse, written and illustrated by a sister and brot",
+     "text": "A Review of Squish by Jennifer L. Holm and Matthew Holm\n\nI am a big fan of this duo's Babymouse books, which are a great pick for reluctant girl readers and girls in general ages 8-11. So I've been looking forward to the launch of their new Super Amoeba graphic novel series. Of course, how in the he",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Queen of the World!\n\nby Jennifer L. Holm and Matthew Holm \u2022 Book 1 of the Babymouse Series\n\nBabymouse is suffering from the everyday doldrums. \u201cWhere was the glamour?... read more\n\nBabymouse is suffering from the everyday doldrums. \u201cWhere was the glamour? The excitement? The adventure?\u201d Although she",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -1954,7 +1954,21 @@
      }
     },
     {
-     "text": "Queen of the World!\n\nby Jennifer L. Holm and Matthew Holm \u2022 Book 1 of the Babymouse Series\n\nBabymouse is suffering from the everyday doldrums. \u201cWhere was the glamour?... read more\n\nBabymouse is suffering from the everyday doldrums. \u201cWhere was the glamour? The excitement? The adventure?\u201d Although she",
+     "text": "Sunny Side Up by Jennifer L. Holm and Matthew Holm. GRAPHIX, 2015.\nThe brother and sister team behind the super-silly, super-popular Babymouse and Squish series turn to a more serious topic with this realistic historical. It\u2019s 1976, and Sunny is being sent to spend the summer with her grandfather in",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "My favorite book expert from my own local bookshop recommended this adorable series for the youngest graphic novel readers who might be fans of Junie B. Jones and Ivy & Bean \u2014 two great chapter book series for early readers in their own right.\n\nBabymouse, written and illustrated by a sister and brot",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -1996,20 +2010,6 @@
      }
     },
     {
-     "text": "Sunny Side Up by Jennifer L. Holm and Matthew Holm. GRAPHIX, 2015.\nThe brother and sister team behind the super-silly, super-popular Babymouse and Squish series turn to a more serious topic with this realistic historical. It\u2019s 1976, and Sunny is being sent to spend the summer with her grandfather in",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "And here's the cover:\nJennifer Holm is one busy lady--in addition to her tremendously popular Babymouse series and her historical novels, she has a new graphic novel series premiering as well (also co-written with her brother Matt Holm) which looks hilarious.  The first volume, which hits stores in ",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -2038,7 +2038,7 @@
      }
     },
     {
-     "text": "Graphic novels are a format; comics is a medium\n\nThe word comics is often misconstrued in so many ways so here\u2019s the short of it. Comics is a medium that is delivered in many formats: panels, strips, Sunday Funnies, periodicals (comic books), graphic novels, manga, and webcomics. Like film or music,",
+     "text": "Book Deals for A May Weekend\n\nThe Lion of Mars by Jennifer L. Holm \u2013 ebook\nWe love Jennifer L. Holm at our house (she\u2019s probably best known for her Babymouse graphic novel series), but she has a whole slew of middle grade novels as well, and I just checked this one out of the library, so I was delig",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2066,6 +2066,20 @@
      }
     },
     {
+     "text": "Graphic novels are a format; comics is a medium\n\nThe word comics is often misconstrued in so many ways so here\u2019s the short of it. Comics is a medium that is delivered in many formats: panels, strips, Sunday Funnies, periodicals (comic books), graphic novels, manga, and webcomics. Like film or music,",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Posted by Rachel on January 06, 2010\nI don't really know what Babymouse #13: Cupcake Tycoon by Jennifer L. Holm and Matthew Holm is, aside from a comic featuring the recurring character Babymouse, and it's not coming out until September, but I'm intrigued! (Another one is called Babymouse Burns Rubb",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -2080,49 +2094,7 @@
      }
     },
     {
-     "text": "Book Deals for A May Weekend\n\nThe Lion of Mars by Jennifer L. Holm \u2013 ebook\nWe love Jennifer L. Holm at our house (she\u2019s probably best known for her Babymouse graphic novel series), but she has a whole slew of middle grade novels as well, and I just checked this one out of the library, so I was delig",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Like many of the books on this list, Babymouse is a graphic novel, giving kids pictures along with their words so they can dip their whiskers (ahem, did we mention this is about a mouse?) into the world of reading. The books by Jennifer Holm follow the eponymous character on her classroom adventures",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Queen of the World!\n\nits an awesome graphic novel for kids from 6-9 (but even adults can and will like it) and it has won many awards, which it really deserves. my sister is also reading one of the books in this series.\n\nit is a very amazing book for kids under the age of 8, but the overall book is ",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Graphic novels are a great way to help readers bridge the gap between picture books and chapter books. They build confidence in readers through the visual context cues and through the speed with which kids can read them. The genre has evolved greatly from its origins in comic books and now graphic n",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2164,7 +2136,21 @@
      }
     },
     {
-     "text": "Eighth Grade Is Making Me Sick\n\nPart graphic novel, part scrapbook and altogether original\u2014New York Times bestselling author Jennifer Holm's Eighth Grade Is Making Me Sick is just right for fans of Diary of a Wimpy Kid, Dork Diaries and Babymouse!\nGinny has big plans for eighth grade. She's going to",
+     "text": "Graphic novels are a great way to help readers bridge the gap between picture books and chapter books. They build confidence in readers through the visual context cues and through the speed with which kids can read them. The genre has evolved greatly from its origins in comic books and now graphic n",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Like many of the books on this list, Babymouse is a graphic novel, giving kids pictures along with their words so they can dip their whiskers (ahem, did we mention this is about a mouse?) into the world of reading. The books by Jennifer Holm follow the eponymous character on her classroom adventures",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2248,6 +2234,20 @@
      }
     },
     {
+     "text": "Eighth Grade Is Making Me Sick\n\nPart graphic novel, part scrapbook and altogether original\u2014New York Times bestselling author Jennifer Holm's Eighth Grade Is Making Me Sick is just right for fans of Diary of a Wimpy Kid, Dork Diaries and Babymouse!\nGinny has big plans for eighth grade. She's going to",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "...and the Cyborg Substitute\n...and the League of Librarians\nwritten and illustrated by Jarret J. Krosoczka\nAlfred A. Knopf 2009\n\nThere's evil afoot, and Lunch Lady is there with her trusty hair-netted sidekick Betty to thwart it. Whether its a league of librarians who plan to intercept all the new ",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -2318,7 +2318,7 @@
      }
     },
     {
-     "text": "When I commented on Twitter that this piece of children\u2019s art reminds me of my favorite children\u2019s graphic novel series Babymouse, co-creator Matt Holm told me that in fact Babymouse is part of the new book Hello Kitty, Hello 40: A 40th Anniversary Tribute.",
+     "text": "If there\u2019s one thing I\u2019ve learned from being responsible for stocking the sections for \u201cKids Books to Go\u201d at the Library District, it\u2019s the perennial popularity of comic book heroes and their antics.\n\n\u201cKids Books to Go\u201d is a bookstore-style display of multiple copies of high interest titles. Since i",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2332,7 +2332,7 @@
      }
     },
     {
-     "text": "If there\u2019s one thing I\u2019ve learned from being responsible for stocking the sections for \u201cKids Books to Go\u201d at the Library District, it\u2019s the perennial popularity of comic book heroes and their antics.\n\n\u201cKids Books to Go\u201d is a bookstore-style display of multiple copies of high interest titles. Since i",
+     "text": "When I commented on Twitter that this piece of children\u2019s art reminds me of my favorite children\u2019s graphic novel series Babymouse, co-creator Matt Holm told me that in fact Babymouse is part of the new book Hello Kitty, Hello 40: A 40th Anniversary Tribute.",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2416,6 +2416,20 @@
      }
     },
     {
+     "text": "The first one, Boston Jane: An Adventure, came out back in 2001, but somehow I\u2019d never even heard of them.\n\nI was familiar, of course, with Jennifer L. Holm, thanks to her smash-hit graphic novel series she co-writes with her brother, Babymouse, and I knew she\u2019d written a few other novels, but Bosto",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Holm siblings, best known for the easy to read \u201cBabymouse\u201d graphic novels, have created a board book graphic novel series. Using a combination of full page illustrations with some paneled artwork pages, this combines traditional comic book art with a board book size. In I\u2019m Grumpy, a cloud and t",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -2430,7 +2444,7 @@
      }
     },
     {
-     "text": "The first one, Boston Jane: An Adventure, came out back in 2001, but somehow I\u2019d never even heard of them.\n\nI was familiar, of course, with Jennifer L. Holm, thanks to her smash-hit graphic novel series she co-writes with her brother, Babymouse, and I knew she\u2019d written a few other novels, but Bosto",
+     "text": "Research and anecdotal evidence also shows that graphic novels succeed in encouraging reluctant readers to engage with texts. Babymouse: Queen of the World is a great example of a graphic novel that is fun for all ages, with a story focused on the challenges of the school years and wonders of the im",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2472,20 +2486,6 @@
      }
     },
     {
-     "text": "Research and anecdotal evidence also shows that graphic novels succeed in encouraging reluctant readers to engage with texts. Babymouse: Queen of the World is a great example of a graphic novel that is fun for all ages, with a story focused on the challenges of the school years and wonders of the im",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "This is book number 14 in the Babymouse series.\n\nMeet Babymouse--the spunky mouse beloved by young readers for more than a decade! Watch out, world! Babymouse is entering the science fair! Will her discovery win first place or is Babymouse in over her head? This groundbreaking young graphic novel se",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -2501,6 +2501,20 @@
     },
     {
      "text": "Little Babymouse and the Christmas Cupcakes by Jennifer L. Holm and Matthew Holm\n\nIt\u2019s Christmas Eve, and little Babymouse has eaten all of the cookies meant for Santa. No problem\u2014she\u2019ll just make some cupcakes. But, as usual, Babymouse gets a little carried away by her imagination, envisioning hers",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Babymouse: Queen of the World! Babymouse: Our Hero\n\nJennifer Holm ( ) and her brother Matthew Holm, a graphic designer, make an incursion on territory with these comic books about a girl mouse. Both tales share eye-grabbing black-and-pink graphics, and a perceptible Spiegelman influence simmers in t",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2542,7 +2556,35 @@
      }
     },
     {
-     "text": "Babymouse: Queen of the World! Babymouse: Our Hero\n\nJennifer Holm ( ) and her brother Matthew Holm, a graphic designer, make an incursion on territory with these comic books about a girl mouse. Both tales share eye-grabbing black-and-pink graphics, and a perceptible Spiegelman influence simmers in t",
+     "text": "The Evil Princess vs. the Brave Knight by Jennifer Holm; illustrated by Matthew Holm\n\nOnce upon a time, there was an Evil Princess and a Brave Knight. They shared a castle and a cat and fought all the time. When they fought, the Magic Mirror sent them to their rooms. And staying in their rooms was b",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Babymouse is an award-winning graphic novel series that showcases the trials and tribulations of elementary school students and teachers, as seen through the eyes of Babymouse, as spunky, lovable mouse who wrestles with popularity, quirky lockers, competition \u2014 in the school band, school play, math ",
+     "imageUrl": null,
+     "keyword": "babymouse",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lemonade: and Other Poems Squeezed from a Single Word by Bob Raczka; illustrated by Nancy Doniger\n\nApril is National Poetry Month, and Lemonade looks like a great new title to help celebrate. Raczka creates poems using just the letters from an individual word. For example:\n\nAwesome. Lemonade has alr",
      "imageUrl": null,
      "keyword": "babymouse",
      "tier": "high",
@@ -2584,34 +2626,6 @@
      }
     },
     {
-     "text": "The Evil Princess vs. the Brave Knight by Jennifer Holm; illustrated by Matthew Holm\n\nOnce upon a time, there was an Evil Princess and a Brave Knight. They shared a castle and a cat and fought all the time. When they fought, the Magic Mirror sent them to their rooms. And staying in their rooms was b",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse is an award-winning graphic novel series that showcases the trials and tribulations of elementary school students and teachers, as seen through the eyes of Babymouse, as spunky, lovable mouse who wrestles with popularity, quirky lockers, competition \u2014 in the school band, school play, math ",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\nAvailable to Order from Our Warehouse\nA graphic novel adaptation of the beloved, bestselling Newbery Honor-winning novel.\n\nEleven-year-old Turtle is smart and tough and has seen enough of the world not to expect a Hollywood ending. After all, it's 1935 and money\u2014and sometimes even dreams\u2014is scarce.",
      "imageUrl": null,
      "keyword": "babymouse",
@@ -2638,32 +2652,18 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "In contrast to the Holm siblings' other series, Babymouse, Squish is arguably a graphic novel series that will appeal more to boys while including subtle facts from a microbiology lesson.\n\nI'm very excited to see the other books in the Squish series mix-up the color scheme a little more.\n\nSide note:",
-     "imageUrl": null,
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "A Review of Squish by Jennifer L. Holm and Matthew Holm\n\nI am a big fan of this duo's Babymouse books, which are a great pick for reluctant girl readers and girls in general ages 8-11. So I've been looking forward to the launch of their new Super Amoeba graphic novel series. Of course, how in the he",
     "I can't resist a plug for Babymouse: The Musical by Jennifer L. Holm and Matthew Holm. The school's putting on a musical and when dreamy British newcomer Henry encourages Babymouse to try out she can't help but show up at auditions. When she's given the part of Felicia's understudy, Babymouse is sur",
-    "Raina Telgemeier was producing autobiographical comics long before the runaway success of her New York Times bestselling graphic novels Smile (2010) and Sisters (2014). From the age of 9, enamored by the comic strips she read in newspapers, Telgemeier began creating her own. For a \u201clack of other sto",
-    "The San Jose Public Library was most appreciative to be chosen as a recipient of the 2018 ACL mini grant program. This grant was used to fund supplementary programs for our 10th annual Graphic Novel Making Contest, a program in which patrons create their own graphic novels. This program has shown so",
-    "Jennifer L. Holm is a NEW YORK TIMES bestselling children\u2019s author and the recipient of three Newbery Honors for her novels OUR ONLY MAY AMELIA, PENNY FROM HEAVEN, and TURTLE IN PARADISE. Jennifer collaborates with her brother, Matthew Holm, on two graphic novel series \u2014 the Eisner Award-winning Bab",
     "Kit Feeny is on the move! by Michael Townsend Download PDF EPUB FB2\n\nTownsend's first book in the Kit Feeny series is the boy version of Jennifer and Matthew Holm's terrific girl graphic novel series Babymouse, which is a high compliment in my book.\n\nIt is realistic--even though drawn with animal ch",
+    "Raina Telgemeier was producing autobiographical comics long before the runaway success of her New York Times bestselling graphic novels Smile (2010) and Sisters (2014). From the age of 9, enamored by the comic strips she read in newspapers, Telgemeier began creating her own. For a \u201clack of other sto",
+    "Jennifer L. Holm is a NEW YORK TIMES bestselling children\u2019s author and the recipient of three Newbery Honors for her novels OUR ONLY MAY AMELIA, PENNY FROM HEAVEN, and TURTLE IN PARADISE. Jennifer collaborates with her brother, Matthew Holm, on two graphic novel series \u2014 the Eisner Award-winning Bab",
+    "The San Jose Public Library was most appreciative to be chosen as a recipient of the 2018 ACL mini grant program. This grant was used to fund supplementary programs for our 10th annual Graphic Novel Making Contest, a program in which patrons create their own graphic novels. This program has shown so",
     "Now an animated show streaming on HBO Max! It's SQUISH--a hilarious, action packed graphic novel series from the award-winning creators of Babymouse! Filled with superheroes, comics within comics, and gross-out science, Squish is perfect for fans of Dog Man, Captain Underpants, and My Weird School. ",
     "The comics world looks at \"mainstream comics\" as the superhero crowd, the ones available in comic book stores every Wednesday. But the real mainstream comics and graphic novels are in bookstores and created by a whole different crowd, one that lacks, for the most part, capes, powers, and spandex. Co",
-    "My favorite book expert from my own local bookshop recommended this adorable series for the youngest graphic novel readers who might be fans of Junie B. Jones and Ivy & Bean \u2014 two great chapter book series for early readers in their own right.\n\nBabymouse, written and illustrated by a sister and brot",
+    "A Review of Squish by Jennifer L. Holm and Matthew Holm\n\nI am a big fan of this duo's Babymouse books, which are a great pick for reluctant girl readers and girls in general ages 8-11. So I've been looking forward to the launch of their new Super Amoeba graphic novel series. Of course, how in the he",
+    "Queen of the World!\n\nby Jennifer L. Holm and Matthew Holm \u2022 Book 1 of the Babymouse Series\n\nBabymouse is suffering from the everyday doldrums. \u201cWhere was the glamour?... read more\n\nBabymouse is suffering from the everyday doldrums. \u201cWhere was the glamour? The excitement? The adventure?\u201d Although she",
     "The next week in my classroom I had my new graphic novel book bin to the library and slowly began growing my collection. El Deafo (Cece Bell), Smile (Raina Telgemeier), Phoebe and Her Unicorn (Dana Simpson), Zita the Spacegirl (Hatke, Ben), and Our Hero, Babymouse #2 (Jennifer Holm) go in my new bin"
    ],
    "partial": false,
@@ -2736,13 +2736,13 @@
     "longformHits": 406,
     "longformRatio": 0.136,
     "perDataset": {
+     "c4-en": 6,
      "coyo700m": 365,
      "laion1b-nolang": 379,
      "laion2b-en": 1463,
      "laion2b-multi": 364,
      "obelics": 398,
-     "pile": 2,
-     "c4-en": 6
+     "pile": 2
     },
     "reason": null
    }
@@ -2758,15 +2758,15 @@
   },
   "evidenceShown": 116,
   "evidenceWithheld": {
-   "unrelated": 355,
-   "unverified": 1681,
    "person_photo": 182,
+   "unverified": 1685,
+   "storefront": 61,
    "derivative": 6,
+   "unrelated": 307,
    "merchandise": 47,
-   "storefront": 12,
    "explicit": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-jennifer-l-holm-and-matthew-holm",
  "cohort": "billy-ireland",
@@ -2779,7 +2779,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 2977,
   "datasetsPresent": 7,

@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1180,20 +1180,6 @@
      }
     },
     {
-     "text": "Five-Star Apps: The best iPhone and iPad apps for work and play by Glenn Fleishman",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/Images/bdc146b7-11c2-46cd-837c-7d11ecbd2f18/140/200/85/false/five-star-apps-the-best-iphone-and-ipad-apps-for-work-and-play-1.jpg?altimages=true&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
-     "keyword": "glenn fleishman",
-     "tier": "namematch",
-     "punsafe": 6.171940913191065e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "iPhone & iPad / Five Star Apps: Aplicaciones 5 estrellas / The Best iPhone and iPad Apps for Work and Play (Spanish Edition) by Glenn Fleishman",
      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5110z4Vh-wL._AC_US218_.jpg",
      "keyword": "glenn fleishman",
@@ -1213,6 +1199,20 @@
      "keyword": "glenn fleishman",
      "tier": "namematch",
      "punsafe": 0.0017379522323608398,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Five-Star Apps: The best iPhone and iPad apps for work and play by Glenn Fleishman",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/Images/bdc146b7-11c2-46cd-837c-7d11ecbd2f18/140/200/85/false/five-star-apps-the-best-iphone-and-ipad-apps-for-work-and-play-1.jpg?altimages=true&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
+     "keyword": "glenn fleishman",
+     "tier": "namematch",
+     "punsafe": 6.171940913191065e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1439,20 +1439,6 @@
      }
     },
     {
-     "text": "Yahoo's logo reveals the worst aspects of the engineering mindset -- by Glenn Fleishman",
-     "imageUrl": "https://i.pinimg.com/236x/c7/d4/26/c7d4269247eb2ca4f23a9c468912046b--mindset-engineering.jpg",
-     "keyword": "glenn fleishman",
-     "tier": "namematch",
-     "punsafe": 0.00012171790876891464,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Buy The Wireless Networking Starter Kit by Glenn Fleishman online in india - Bookchor | 9780321224682",
      "imageUrl": "https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/361/9780321224682.jpg",
      "keyword": "glenn fleishman",
@@ -1497,7 +1483,6 @@
    ],
    "samples": [
     "Christmas Tree Shopping, 2009. Photo by Glenn Fleishman.",
-    "Yahoo's logo reveals the worst aspects of the engineering mindset -- by Glenn Fleishman",
     "Buy The Wireless Networking Starter Kit by Glenn Fleishman online in india - Bookchor | 9780321224682",
     "Take Control of Your Wi-Fi Security by Glenn Fleishman",
     "Money plant (Glenn Fleishman/flickr)."
@@ -1596,7 +1581,7 @@
      }
     },
     {
-     "text": "You can't ignore physical realities: Much as we might not like it, the hard work of attaching devices to utility poles and bringing in backhaul to cell and Wi-Fi sites can't just be handled by waving your hands around. Photo by Chris Chan\n\nWe can be just as trendy as everyone else, here at Wi-Fi Net",
+     "text": "Posted by Glenn Fleishman at Adam Thierer wrote one of these reports called \"Risky Business: It was also drafted before Philadelphia's business plan and RFP was issued. The report was updated and released after Philly's plan--Thierer might have gotten advance copies as some people did--but it still ",
      "imageUrl": null,
      "keyword": "glenn fleishman",
      "tier": "namematch",
@@ -1610,7 +1595,7 @@
      }
     },
     {
-     "text": "Posted by Glenn Fleishman at Adam Thierer wrote one of these reports called \"Risky Business: It was also drafted before Philadelphia's business plan and RFP was issued. The report was updated and released after Philly's plan--Thierer might have gotten advance copies as some people did--but it still ",
+     "text": "You can't ignore physical realities: Much as we might not like it, the hard work of attaching devices to utility poles and bringing in backhaul to cell and Wi-Fi sites can't just be handled by waving your hands around. Photo by Chris Chan\n\nWe can be just as trendy as everyone else, here at Wi-Fi Net",
      "imageUrl": null,
      "keyword": "glenn fleishman",
      "tier": "namematch",
@@ -1722,6 +1707,20 @@
      }
     },
     {
+     "text": "Yesterday, we released two Zoom-related books by Glenn Fleishman: a new, free book called Take Control of Zoom Essentials and a gigantic version 1.1 update to the comprehensive Take Control of Zoom. We know a lot of people are using Zoom for work and school, and we hope you find these books helpful.",
+     "imageUrl": null,
+     "keyword": "glenn fleishman",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Posted by Glenn Fleishman at 7:36 AM | Permanent Link | Categories: Humor | No Comments\n\nSix Guys with Laptops in Search of Wi-Fi at Chicago",
      "imageUrl": null,
      "keyword": "glenn fleishman",
@@ -1736,7 +1735,7 @@
      }
     },
     {
-     "text": "Yesterday, we released two Zoom-related books by Glenn Fleishman: a new, free book called Take Control of Zoom Essentials and a gigantic version 1.1 update to the comprehensive Take Control of Zoom. We know a lot of people are using Zoom for work and school, and we hope you find these books helpful.",
+     "text": "BoingBoing has an interesting feature-length piece by Glenn Fleishman about OMNI Magazine and who owns the rights to it. Prompted by an article for Vice\u2019s Motherboard discussing the rediscovery of a treasure-trove of material from the defunct late-70s-to-late-90s SF magazine, Fleishman asks and answ",
      "imageUrl": null,
      "keyword": "glenn fleishman",
      "tier": "namematch",
@@ -1764,34 +1763,6 @@
      }
     },
     {
-     "text": "IPhone & iPad / Five Star Apps: Aplicaciones 5 estrellas / The Best iPhone and iPad Apps for Work and Play (Spanish Edition) by Glenn Fleishman and Vanesa Casanova Fernandez pdf download free. Historically, only Nintendo has . This time, yes we have a team working on chip development, but we already",
-     "imageUrl": null,
-     "keyword": "glenn fleishman",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Designers at Apple have created a custom face mask for employees called Apple Face Mask and sourced another from ClearMask.\n\nYesterday, we released two Zoom-related books by Glenn Fleishman: a new, free book called Take Control of Zoom Essentials and a gigantic version 1.1 update to the comprehensiv",
-     "imageUrl": null,
-     "keyword": "glenn fleishman",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Interesting new document in the May update to Apple\u2019s Platform Security guide: \u201cSecure Intent and Connections to the Secure Enclave\u201d. (Spotted by Glenn Fleishman.) It\u2019s short, so I\u2019m quoting it in its entirety:\n\nSecure intent provides a way to confirm a user\u2019s intent without any interaction with the",
      "imageUrl": null,
      "keyword": "glenn fleishman",
@@ -1806,7 +1777,7 @@
      }
     },
     {
-     "text": "BoingBoing has an interesting feature-length piece by Glenn Fleishman about OMNI Magazine and who owns the rights to it. Prompted by an article for Vice\u2019s Motherboard discussing the rediscovery of a treasure-trove of material from the defunct late-70s-to-late-90s SF magazine, Fleishman asks and answ",
+     "text": "Designers at Apple have created a custom face mask for employees called Apple Face Mask and sourced another from ClearMask.\n\nYesterday, we released two Zoom-related books by Glenn Fleishman: a new, free book called Take Control of Zoom Essentials and a gigantic version 1.1 update to the comprehensiv",
      "imageUrl": null,
      "keyword": "glenn fleishman",
      "tier": "namematch",
@@ -1854,8 +1825,8 @@
     "Today I learned that you can search your photos by text on your iPhone \u2013 that is, by printed text found within the images, using the same tech as Live Text.\n\nApple seems to have kept quiet about it so far, and that may be with good reason \u2026\n\nThe feature is currently pretty flakey, missing some photo",
     "Mark Judge was named by Dr Christine Blasey Ford as being present during the alleged sexual assault she claims Supreme Court nominee Brett Kavanaugh committed at a high school party in 1982.\n\nAnother round of tax cuts pass the House, but may get stopped in Senate.\n\nBy GLENN FLEISHMAN September 28, 2",
     "In the August 2000 issue of BUSINESS2.0, I\u2019m mentioned and quoted in an article by Glenn Fleishman about paid Yahoo listings.\n\nMy services were recommended in an article in the new print and online magazine, BOB Interactive.\n\nI was interviewed for this article in The Industry Standard: Getting the R",
-    "You can't ignore physical realities: Much as we might not like it, the hard work of attaching devices to utility poles and bringing in backhaul to cell and Wi-Fi sites can't just be handled by waving your hands around. Photo by Chris Chan\n\nWe can be just as trendy as everyone else, here at Wi-Fi Net",
     "Posted by Glenn Fleishman at Adam Thierer wrote one of these reports called \"Risky Business: It was also drafted before Philadelphia's business plan and RFP was issued. The report was updated and released after Philly's plan--Thierer might have gotten advance copies as some people did--but it still ",
+    "You can't ignore physical realities: Much as we might not like it, the hard work of attaching devices to utility poles and bringing in backhaul to cell and Wi-Fi sites can't just be handled by waving your hands around. Photo by Chris Chan\n\nWe can be just as trendy as everyone else, here at Wi-Fi Net",
     "What LTE means for Apples new iPadGet ready to download more data faster with the latest version of Apple\u2019s tabletby Glenn Fleishman, Macworld.com   Mar 8, 2012 6:00 amCellular versions of the new iPad come with support for the latest and greatest wireless networking technology, LTE Long Term Evolut",
     "The iPhone doesn t even get announced at WWDC\u2014well, not typically, anyway.\n\nOne is that we may finally see the end of the era when iPhone storage started at a paltry 16GB.\n\nCrowdfunding tech can serve backers poorly, even when the thing gets made by Glenn Fleishman\n\nYou should also tweet at Susie so",
     "DOC OF THE DEAD will delve deep into the myriad crevasses of zombie culture to deliver the first-ever in-depth look at a contemporary social pandemic of global proportions.\nGlenn Fleishman / 9:50 am Wed, Sep 19, 2012\n\nI have fallen in love with a building, hundreds of people, a MakerBot, a portable "
@@ -1963,13 +1934,13 @@
     "longformHits": 601,
     "longformRatio": 0.821,
     "perDataset": {
+     "c4-en": 4,
      "coyo700m": 20,
+     "laion1b-nolang": 19,
      "laion2b-en": 64,
      "laion2b-multi": 28,
-     "laion1b-nolang": 19,
      "obelics": 594,
-     "pile": 3,
-     "c4-en": 4
+     "pile": 3
     },
     "reason": null
    }
@@ -1983,15 +1954,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 61,
+  "evidenceShown": 59,
   "evidenceWithheld": {
-   "unverified": 588,
-   "person_photo": 50,
-   "unrelated": 4,
+   "unverified": 578,
+   "person_photo": 48,
+   "storefront": 34,
+   "unrelated": 3,
    "merchandise": 6,
-   "storefront": 20
+   "derivative": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-glenn-fleishman",
  "cohort": "billy-ireland",
@@ -2004,7 +1976,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 732,
   "datasetsPresent": 7,

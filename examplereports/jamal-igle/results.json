@@ -15,8 +15,8 @@
    "coverageComplete": true,
    "rowsCovered": 747017344,
    "coverageNote": "",
-   "highConfidenceCount": 16,
-   "nameMatchCount": 60,
+   "highConfidenceCount": 76,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 76,
@@ -25,7 +25,7 @@
      "text": "Best quotes by Jamal Igle",
      "imageUrl": "https://loveexpands.com/wp-content/uploads/2020/05/200px-jamal-igle.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -71,18 +71,18 @@
    "coverageComplete": true,
    "rowsCovered": 2097690752,
    "coverageNote": "",
-   "highConfidenceCount": 141,
-   "nameMatchCount": 124,
+   "highConfidenceCount": 265,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 265,
    "rows": [
     {
-     "text": "\"Photo - A page from \"\"Supergirl\"\" No. 34, drawn by Jamal Igle and written by Sterling Gates.  PHOTO PROVIDED BY DC Comics\"",
-     "imageUrl": "http://cdn2.newsok.biz/cache/sq100-3e5a17dc4a09e91b144d559ec5dc5b73.jpg",
+     "text": "Cover Thumbnail for Kiss (2012 series) #1 [Cover B by Jamal Igle]",
+     "imageUrl": "http://files1.comics.org//img/gcd/covers_by_id/871/w100/871436.jpg?6351636009857834610",
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": 0.002427011728286743,
+     "tier": "high",
+     "punsafe": 0.0007201731204986572,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -92,11 +92,11 @@
      }
     },
     {
-     "text": "Cover Thumbnail for Kiss (2012 series) #1 [Cover B by Jamal Igle]",
-     "imageUrl": "http://files1.comics.org//img/gcd/covers_by_id/871/w100/871436.jpg?6351636009857834610",
+     "text": "\"Photo - A page from \"\"Supergirl\"\" No. 34, drawn by Jamal Igle and written by Sterling Gates.  PHOTO PROVIDED BY DC Comics\"",
+     "imageUrl": "http://cdn2.newsok.biz/cache/sq100-3e5a17dc4a09e91b144d559ec5dc5b73.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": 0.0007201731204986572,
+     "tier": "high",
+     "punsafe": 0.002427011728286743,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -109,7 +109,7 @@
      "text": "Molly Danger #1 by Jamal Igle",
      "imageUrl": "https://kbimages1-a.akamaihd.net/Images/03958a3b-cecb-4cc0-ae66-f312e1f2805a/140/200/85/false/molly-danger-1.jpg?altimages=false&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.024239957332611084,
      "validation": {
       "category": "artwork",
@@ -123,7 +123,7 @@
      "text": "Firestorm by Jamal Igle from HeroesCon",
      "imageUrl": "http://firestormfan.com/images/firestorm_igle.JPG",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 1.8618789908941835e-05,
      "validation": {
       "category": "artwork",
@@ -137,7 +137,7 @@
      "text": "Cover for Kiss (IDW, 2012 series) #6 [Cover B by Jamal Igle]",
      "imageUrl": "https://files1.comics.org//img/gcd/covers_by_id/901/w400/901218.jpg?-850027635531662581",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.10168665647506714,
      "validation": {
       "category": "artwork",
@@ -165,7 +165,7 @@
      "text": "Cover Thumbnail for Kiss (IDW, 2012 series) #6 [Cover B by Jamal Igle]",
      "imageUrl": "https://files1.comics.org//img/gcd/covers_by_id/883/w200/883574.jpg?-3544262117937836197",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.053286463022232056,
      "validation": {
       "category": "artwork",
@@ -179,7 +179,7 @@
      "text": "Cover for Kiss (IDW, 2012 series) #6 [Cover B by Jamal Igle]",
      "imageUrl": "https://files1.comics.org//img/gcd/covers_by_id/883/w400/883574.jpg?-3544262117937836197",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.04810667037963867,
      "validation": {
       "category": "artwork",
@@ -193,7 +193,7 @@
      "text": "Cover Thumbnail for Kiss (2012 series) #1 [Cover B by Jamal Igle]",
      "imageUrl": "https://files1.comics.org//img/gcd/covers_by_id/871/w100/871436.jpg?6351636009857834610",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0007201731204986572,
      "validation": {
       "category": "artwork",
@@ -207,7 +207,7 @@
      "text": "Molly Danger #1 ebook by Jamal Igle, Juan Castro",
      "imageUrl": "https://kbimages1-a.akamaihd.net/03958a3b-cecb-4cc0-ae66-f312e1f2805a/140/215/60/False/molly-danger-1.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.007424086332321167,
      "validation": {
       "category": "artwork",
@@ -221,7 +221,7 @@
      "text": "\"A page from \"\"Supergirl\"\" No. 34, drawn by Jamal Igle and written by Sterling Gates.  PHOTO PROVIDED BY DC Comics\"",
      "imageUrl": "http://cdn2.newsok.biz/cache/r960-3e5a17dc4a09e91b144d559ec5dc5b73.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.020977407693862915,
      "validation": {
       "category": "artwork",
@@ -235,7 +235,7 @@
      "text": "Cover Thumbnail for Kiss (IDW Publishing, 2012 series) #6 [Cover B by Jamal Igle]",
      "imageUrl": "http://files1.comics.org//img/gcd/covers_by_id/883/w200/883574.jpg?-3544262117937836197",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.053286463022232056,
      "validation": {
       "category": "artwork",
@@ -263,7 +263,7 @@
      "text": "\"A page from \"\"Supergirl\"\" No. 34, drawn by Jamal Igle and written by Sterling Gates.  PHOTO PROVIDED BY DC Comics\"",
      "imageUrl": "http://cdn2.newsok.biz/cache/r620-3e5a17dc4a09e91b144d559ec5dc5b73.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.02444601058959961,
      "validation": {
       "category": "artwork",
@@ -277,7 +277,7 @@
      "text": "Cover for Kiss (IDW, 2012 series) #6 [Cover B by Jamal Igle]",
      "imageUrl": "http://files1.comics.org//img/gcd/covers_by_id/883/w400/883574.jpg?-3544262117937836197",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.04810667037963867,
      "validation": {
       "category": "artwork",
@@ -289,8 +289,8 @@
     }
    ],
    "samples": [
-    "\"Photo - A page from \"\"Supergirl\"\" No. 34, drawn by Jamal Igle and written by Sterling Gates.  PHOTO PROVIDED BY DC Comics\"",
     "Cover Thumbnail for Kiss (2012 series) #1 [Cover B by Jamal Igle]",
+    "\"Photo - A page from \"\"Supergirl\"\" No. 34, drawn by Jamal Igle and written by Sterling Gates.  PHOTO PROVIDED BY DC Comics\"",
     "Molly Danger #1 by Jamal Igle",
     "Firestorm by Jamal Igle from HeroesCon",
     "Cover for Kiss (IDW, 2012 series) #6 [Cover B by Jamal Igle]",
@@ -317,8 +317,8 @@
    "coverageComplete": true,
    "rowsCovered": 2057910016,
    "coverageNote": "",
-   "highConfidenceCount": 44,
-   "nameMatchCount": 25,
+   "highConfidenceCount": 69,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 69,
@@ -341,18 +341,18 @@
    "coverageComplete": true,
    "rowsCovered": 1191320960,
    "coverageNote": "",
-   "highConfidenceCount": 30,
-   "nameMatchCount": 136,
+   "highConfidenceCount": 166,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 166,
    "rows": [
     {
-     "text": "Supergirl #45 P.15 - Supergirl And Other Heroes Splash - 2009 Art By Jamal Igle \u2022 166.33\u00a3",
-     "imageUrl": "https://www.judecca.co.uk/images/d/l400/pict/362928263267_/supergirl-45-p15-supergirl-and-other-heroes-splash-.jpg",
+     "text": "Zartan by Jamal Igle Comic Art",
+     "imageUrl": "https://i.pinimg.com/originals/01/e0/b3/01e0b37d8dce7d19ddad3e36d4d96c1d.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": 0.0007686018943786621,
+     "tier": "high",
+     "punsafe": 0.0008681118488311768,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -362,11 +362,11 @@
      }
     },
     {
-     "text": "Zartan by Jamal Igle Comic Art",
-     "imageUrl": "https://i.pinimg.com/originals/01/e0/b3/01e0b37d8dce7d19ddad3e36d4d96c1d.jpg",
+     "text": "Supergirl #45 P.15 - Supergirl And Other Heroes Splash - 2009 Art By Jamal Igle \u2022 166.33\u00a3",
+     "imageUrl": "https://www.judecca.co.uk/images/d/l400/pict/362928263267_/supergirl-45-p15-supergirl-and-other-heroes-splash-.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": 0.0008681118488311768,
+     "tier": "high",
+     "punsafe": 0.0007686018943786621,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -379,7 +379,7 @@
      "text": "Firehawk Sketch by Jamal Igle (Supergirl)",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/143046275069_/Firehawk-Sketch-by-Jamal-Igle-Supergirl.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.003893733024597168,
      "validation": {
       "category": "artwork",
@@ -393,7 +393,7 @@
      "text": "Wonder Woman Redux by Jamal Igle",
      "imageUrl": "https://girlsgonegeek.files.wordpress.com/2013/01/wonder-woman-redux-by-jamal-igle.jpg?w=1080",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0029644668102264404,
      "validation": {
       "category": "artwork",
@@ -407,7 +407,7 @@
      "text": "Archie Meets Batman '66 - Variant Cover by Jamal Igle",
      "imageUrl": "https://popculthq.com/wp-content/uploads/2018/11/ArchieBatman_05_CoverD_Igle-195x300.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001276165246963501,
      "validation": {
       "category": "artwork",
@@ -421,7 +421,7 @@
      "text": "Archie Meets Batman '66 - Variant Cover by Jamal Igle",
      "imageUrl": "https://cdn-0.popculthq.com/wp-content/uploads/2018/11/ArchieBatman_05_CoverD_Igle-195x300.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001276165246963501,
      "validation": {
       "category": "artwork",
@@ -435,7 +435,7 @@
      "text": "Wonder Woman Redux by Jamal Igle",
      "imageUrl": "https://girlsgonegeek.files.wordpress.com/2013/01/wonder-woman-redux-by-jamal-igle.jpg?w=840",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.003453493118286133,
      "validation": {
       "category": "artwork",
@@ -449,7 +449,7 @@
      "text": "Draw! Magazine #32/Howard Porter/Jamal Igle/Jerry Ordway/Mike Manley",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/311820750123_/Draw-Magazine-32-Howard-Porter-Jamal-Igle-Jerry-Ordway-Mike-Manley.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002586245536804199,
      "validation": {
       "category": "artwork",
@@ -463,7 +463,7 @@
      "text": "Superman by Jamal Igle",
      "imageUrl": "https://i.pinimg.com/236x/26/f1/62/26f162fceff15ecd030df081a5d7a43c--columns-lex-luthor.jpg",
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0004189014434814453,
      "validation": {
       "category": "artwork",
@@ -475,8 +475,8 @@
     }
    ],
    "samples": [
-    "Supergirl #45 P.15 - Supergirl And Other Heroes Splash - 2009 Art By Jamal Igle \u2022 166.33\u00a3",
     "Zartan by Jamal Igle Comic Art",
+    "Supergirl #45 P.15 - Supergirl And Other Heroes Splash - 2009 Art By Jamal Igle \u2022 166.33\u00a3",
     "Firehawk Sketch by Jamal Igle (Supergirl)",
     "Wonder Woman Redux by Jamal Igle",
     "Archie Meets Batman '66 - Variant Cover by Jamal Igle",
@@ -502,59 +502,17 @@
    "coverageComplete": true,
    "rowsCovered": 141047704,
    "coverageNote": "",
-   "highConfidenceCount": 276,
-   "nameMatchCount": 680,
+   "highConfidenceCount": 956,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 956,
    "rows": [
     {
-     "text": "In an unexpected article posted by \u201cUncle Richie\u201d (our inspiration), the UK muckraker compiled a list of severely late comicbook Kickstarter campaigns, and I wanted to share some of the details with our readers. In a post this week called \u201c35 Late Crowdfunded Kickstarter Comic Books,\u201d Johnston begin",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic book publishing is on my mind, and it\u2019s largely on my mind because I\u2019m in the midst of a Kickstarter that will bring to print one of my books via Comicker Press \u2014 a new publisher that began its life in the realm of digital comics. So, full disclosure here: I have a vested personal interest in ",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Lance Roger Axt \u2013 is the co-founder and co-producer of AudioComics, a production company that produces and distributes professional, full-cast \u201caudio movies\u201d inspired by stories from comic books, graphic novels and genre fiction. Their work can be found on iTunes, Amazon, Audible, and through their ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "WHAT I\u2019M READING, by Jamal Igle\n\nHere\u2019s the thing about me. \u2026 I still read comic books. Every week, I\u2019m in my local shop in Park Slope, Galaxy Comics and Collectibles, buying my \u201ccrack\u201d just like any other comics fiend. I don\u2019t have a pull list, I\u2019m not scouring Previews but I do keep up. Mostly, I ",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -568,35 +526,7 @@
      "text": "June 14, 2018: AHOY Comics is looking to shake up the publishing industry with a bold new format: comic book magazines. The startup company is the brainchild of Publisher Hart Seely, an award-winning reporter whose humor and satire has appeared in The New York Times and on National Public Radio; two",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "IDW Publishing came prepared to Anaheim, California's WonderCon event last weekend, announcing several high profile comic book initiatives. Besides the previously discussed Womanthology ongoing series (of miniseries) and the full-length Rocketeer project by Mark Waid and Chris Samnee, IDW is develop",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "After DC Comics released their latest Social Media Guidelines, comic book veteran Patrick Zircher declared he was going to deactivate his Twitter account. He didn\u2019t give a specific reason as to why he was deactivating his account, but he did say it was \u201cjust a break.\u201d He also said he was re-focusing",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -610,7 +540,7 @@
      "text": "Written by Jay Faerber. Art and Cover by Jamal Igle. Down-on-his-luck reporter Reggie Baxter has stumbled onto one of the greatest secrets of all time\u2026superpowered high school history teacher Joe Campbell! But who is Joe Campbell and more importantly, how rich will Reggie become by blackmailing him?",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -624,7 +554,7 @@
      "text": "Project #2: Black\nWhat it's about: Timed to Black History Month comes a Kickstarter campaign to fund the new independent superhero science fiction original graphic novel Black from Kwanza Johnson p/k/a Kwanza Osajyefo (former DC Comics Digital Editor) and Tim Smith III (Iron Man, The Amazing Spiderm",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -638,7 +568,91 @@
      "text": "She\u2019s written and drawn everything from Star Wars to Marvel. Now Katie Cook, the popular writer of IDW\u2019s My Little Pony: Friendship is Magic brings her creator owned webcomic, Gronk: A monsters story to Action Lab Entertainment.Gronk tells the tale of a young monster who has turned her back on monst",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic book publishing is on my mind, and it\u2019s largely on my mind because I\u2019m in the midst of a Kickstarter that will bring to print one of my books via Comicker Press \u2014 a new publisher that began its life in the realm of digital comics. So, full disclosure here: I have a vested personal interest in ",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "IDW Publishing came prepared to Anaheim, California's WonderCon event last weekend, announcing several high profile comic book initiatives. Besides the previously discussed Womanthology ongoing series (of miniseries) and the full-length Rocketeer project by Mark Waid and Chris Samnee, IDW is develop",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "WHAT I\u2019M READING, by Jamal Igle\n\nHere\u2019s the thing about me. \u2026 I still read comic books. Every week, I\u2019m in my local shop in Park Slope, Galaxy Comics and Collectibles, buying my \u201ccrack\u201d just like any other comics fiend. I don\u2019t have a pull list, I\u2019m not scouring Previews but I do keep up. Mostly, I ",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "After DC Comics released their latest Social Media Guidelines, comic book veteran Patrick Zircher declared he was going to deactivate his Twitter account. He didn\u2019t give a specific reason as to why he was deactivating his account, but he did say it was \u201cjust a break.\u201d He also said he was re-focusing",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In an unexpected article posted by \u201cUncle Richie\u201d (our inspiration), the UK muckraker compiled a list of severely late comicbook Kickstarter campaigns, and I wanted to share some of the details with our readers. In a post this week called \u201c35 Late Crowdfunded Kickstarter Comic Books,\u201d Johnston begin",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Over the past two weeks, the Internet comics community has been buzzing with the news surrounding Rob Granito, a talentless parasite that managed to con his way into comic book conventions as an \"artist\" who sold commissions and \"originals\" that were completely ripped off of other artists' work. The",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -652,7 +666,7 @@
      "text": "Shianndrea Toshigawa is just your average, ordinary ninja -in -training. On the run from her father, the Emperor Terminus and the Azumi ninja clan, Shianndrea trains with the legendary Toshigawa clan to embrace the mysterious power within her. Shinobi: Ninja Princess, (a six issue comic book series)",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -677,24 +691,10 @@
      }
     },
     {
-     "text": "Over the past two weeks, the Internet comics community has been buzzing with the news surrounding Rob Granito, a talentless parasite that managed to con his way into comic book conventions as an \"artist\" who sold commissions and \"originals\" that were completely ripped off of other artists' work. The",
+     "text": "Tomorrow I have a very special guest. I will be interviewing respected comic book artist, editor, art marketing, and creator Jamal Igle. Having been in the comic book business for 27 years, he\u2019s done for many titles such as Supergirl and Firestorm. He\u2019s also the creator behind Molly Danger, the co-c",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Michele and I like to joke that our cat Nettie Netzach is secretly a superhero, that when we aren\u2019t around that she moonlights as the dynamic Netzach Wondercat.  So when I found out that there was an actual comic book series about crime-fighting felines, Hero Cats, of course I had to pick it up.\n\nI ",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -708,7 +708,21 @@
      "text": "The essential Dragonfly & Dragonflyman #3, by Tom Peyer, Peter Krause and Andy Troy, is out from AHOY Comics on Wednesday, Jan. 8 \u2014 so it\u2019s time for another EXCLUSIVE cover commentary by Jamal Igle.\n\nNot only that, Jamal will show off his design for the issue\u2019s big debut: Lady Dragonflyman \u2014 what is",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Michele and I like to joke that our cat Nettie Netzach is secretly a superhero, that when we aren\u2019t around that she moonlights as the dynamic Netzach Wondercat.  So when I found out that there was an actual comic book series about crime-fighting felines, Hero Cats, of course I had to pick it up.\n\nI ",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -722,7 +736,7 @@
      "text": "how have they changed over time?\n\nJAMAL IGLE: Well, to be honest, when I first conceived Molly, the project was much more of mercenary effort, less personal. It started as a television animation pitch then became reworked as a comic book project for the sake of expediency.\n\nOver the years, my perspe",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -750,7 +764,7 @@
      "text": "[Link] A Timeline of Recent Allegations in the Comic Book Industry\n\nEditor's Note: This is too important not to repost.\n\nSince June 15, 2020, when artist/writer Cameron Stewart was widely accused of abusing his clout to prey on aspiring teenage comic book creators, the industry has continued to be r",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -764,21 +778,7 @@
      "text": "The pencils are done by Jamal Igle. While not being an especially stand out artist, he manages to make this book his own. He has a clear talent similar to Rafael Albuquerque at drawing unique  faces which capture a character\u2019s entire mood. It\u2019s something rare in many artists that deserves acknowledg",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tomorrow I have a very special guest. I will be interviewing respected comic book artist, editor, art marketing, and creator Jamal Igle. Having been in the comic book business for 27 years, he\u2019s done for many titles such as Supergirl and Firestorm. He\u2019s also the creator behind Molly Danger, the co-c",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -792,7 +792,7 @@
      "text": "Oh, Political Me, by JAMAL IGLE\n\nWriter and artist Jamal Igle writes about how comics turned him into a liberal political junkie \u2014 in a very unexpected way:\n\nBig shock, I know. I\u2019m a black guy from New York in an interracial relationship with a French woman from Paris, with a mixed race child. I\u2019m a",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -806,63 +806,7 @@
      "text": "Designed as a point of entry for each concept, every ACTIONVERSE issue is a \u201c#1\u201d. The first three issues include:\n\nACTIONVERSE FEATURING MOLLY DANGER #1 is written and drawn by Jamal Igle (SUPERGIRL / THE TERMINATOR / ACTIONVERSE #0), Cover by Igle and Ross Hughes . Jake Roth, after being forced by ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "AHOY Comics is in the middle of a multiverse-spanning event via a series of one-shots under The Wrong Earth line of comics. Each one is written and illustrated by a coterie of incredible writers and artists. The next one-shot up for release is The Wrong Earth: Purple #1, written by Stuart Moore and ",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dragonfly & Dragonflyman #4, by Tom Peyer, Peter Krause and Andy Troy, is out from AHOY Comics on Wednesday, Feb. 12 \u2014 so it\u2019s time for another EXCLUSIVE cover commentary by Jamal Igle.\n\nAgain, following the lead of the previous issue\u2019s cover, we focused on a single moment/world as opposed to the sp",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The superhero has been a mainstay of comic books since 1938 and is synonymous with wall crawlers, dark knights, and other four color characters. This Halloween, Action Lab Entertainment presents its first ever superhero crossover, ACTIONVERSE, which also doubles as a new branding initiative for it\u2019s",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "AudioComics Kids presents its newest title adapted from the children\u2019s graphic novel series from industry superstar Jamal Igle (Action Comics, Supergirl, Firestorm, Daredevil/Shi): Molly Danger!\nProduced in association with Action Lab Entertainment, and directed by AudioComics co-founder William Duf",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -876,7 +820,63 @@
      "text": "In a partnership with Markerstone Pictures, Romark Entertainment has secured the rights to the critically acclaimed comic book series HERALD.\n\nThe series, published by Action Lab Entertainment and created by writer John Reilly, and artists Tom Rogers and Dexter Weeks, tells the story of Nikola Tesla",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dragonfly & Dragonflyman #4, by Tom Peyer, Peter Krause and Andy Troy, is out from AHOY Comics on Wednesday, Feb. 12 \u2014 so it\u2019s time for another EXCLUSIVE cover commentary by Jamal Igle.\n\nAgain, following the lead of the previous issue\u2019s cover, we focused on a single moment/world as opposed to the sp",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "AHOY Comics is in the middle of a multiverse-spanning event via a series of one-shots under The Wrong Earth line of comics. Each one is written and illustrated by a coterie of incredible writers and artists. The next one-shot up for release is The Wrong Earth: Purple #1, written by Stuart Moore and ",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The superhero has been a mainstay of comic books since 1938 and is synonymous with wall crawlers, dark knights, and other four color characters. This Halloween, Action Lab Entertainment presents its first ever superhero crossover, ACTIONVERSE, which also doubles as a new branding initiative for it\u2019s",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "AudioComics Kids presents its newest title adapted from the children\u2019s graphic novel series from industry superstar Jamal Igle (Action Comics, Supergirl, Firestorm, Daredevil/Shi): Molly Danger!\nProduced in association with Action Lab Entertainment, and directed by AudioComics co-founder William Duf",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -904,7 +904,7 @@
      "text": "Dragonfly & Dragonflyman #2, by Tom Peyer, Peter Krause and Andy Troy, is out from AHOY Comics on Wednesday, Dec. 11 \u2014 so it\u2019s time for another EXCLUSIVE cover commentary by Jamal Igle.\n\nAs with Issue #1, Tom\u2019s brief was very simple: \u201cBoth stories feature a fight between Stinger and his brainwashed ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -918,7 +918,7 @@
      "text": "Happy Comic Release Day! Welcome to another installment of GeekMom Comic Book Corner, where we recap our adventures in comics for the week as well give you some of the latest in comic book news.\n\nI\u2019ve been a fan of Batman since I was a child, but due to the darkness of his comic book stories, I have",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -932,21 +932,7 @@
      "text": "Dudley Datson and the Eternal Machine #1\u2014written by Snyder with pencils by Jamal Igle, inks by Juan Castro, colors by Chris Sotomayor, and letters by Tom Napolitano\u2014is the simplest of the three books, but it\u2019s also the weakest. The book focuses on Dudley Datson, a young but brilliant inventor with a",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It is truly an honour and privilege to interview a man who DC describes as a \u201ctriple threat\u201d, comic book legend Jamal Igle. He has worked with the biggest comic book names in the industry, Image, Marvel and DC, but it is his recent work with Action Lab and Molly Danger that caught my attention.\n\nWhe",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -960,7 +946,21 @@
      "text": "Ahead of this week\u2019s publication of their first comic book magazine, AHOY Comics is releasing preview pages of their eagerly anticipated series THE WRONG EARTH and announcing plans for two major industry conventions. Throughout the summer, the startup publisher has been teasing its debut titles and ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "It is truly an honour and privilege to interview a man who DC describes as a \u201ctriple threat\u201d, comic book legend Jamal Igle. He has worked with the biggest comic book names in the industry, Image, Marvel and DC, but it is his recent work with Action Lab and Molly Danger that caught my attention.\n\nWhe",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -974,7 +974,7 @@
      "text": "Sen. Ted Cruz tried to use comic books to illustrate a point against environmentalists in a clip passed around Monday and Tuesday. It went over poorly, both among fans and creators.\n\n\u201cHave you noticed in how many movies, how often rabid environmentalists are the bad guys? Whether it\u2019s Thanos or\u2026 go ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -988,7 +988,7 @@
      "text": "I am not familiar with Ahoy Comics, but when I saw just the cover to The Wrong Earth at my comic shop, it made me want to learn more. It\u2019s a dimension-spanning story of super heroics, two sides of the same coin, but one side has some serious anger issues. From writer Tom Peyer and art by Jamal Igle,",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1002,7 +1002,7 @@
      "text": "SUPERGIRL #43 Written by Sterling GatesArt by Jamal Igle & Jon Sibal Cover by Joshua Middleton\nThings are going well for Supergirl \u2013 she\u2019s back on New Krypton, and she\u2019s even managing to patch things up with her mother, Alura. But when she goes to visit her older cousin, Superman warns her that not ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1030,63 +1030,7 @@
      "text": "Adapting a television show into a comic book is always a bit of a challenge, but cartoon Teen Titans Go! is more challenging than most. Not only are the episodes short, the plots absurd, and the pacing completely manic, but Teen Titans Go! relies quite heavily on sound for many of its funniest bits,",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Significant voices in the comic book industry have called on Marvel Comics to retire The Punisher character. They feel it has become corrupted due to its logo\u2019s use in last week\u2019s United States Capitol Building riots.\n\nSeveral groups have used the iconic skull logo over the years, but seeing it on r",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Not every comic book character gets the chance to have a special day dedicated purely to their heroic deeds \u2014 but AHOY Comics\u2019 Dragonflyman is no mere superhero. Indeed, he\u2019s twice the man that other heroes manage to be \u2014 literally.\n\nThe character debuted in 2018\u2019s The Wrong Earth mini-series, which",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "One of the most prolific and eclectic comic book writers working today, Scott Snyder (Nocterra, American Vampire, Wytches) is just getting started, as it was announced today that his publishing company, Best Jackett Press, is teaming up with comiXology to write eight new comic books that will be rel",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Wrong Earth has always been a great choice for comic book fans who enjoy big, wacky superhero crossovers. Now the series returns for its most extravagant multiverse game to date, and a number of guest star creators are joining the ride.\n\nPrevious volumes of The Wrong Earth have focused on the Ba",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1100,7 +1044,7 @@
      "text": "The first issue to be released as of this line will be The Wrong Earth: Trapped on Teen Planet #1. Written by Gail Simone and illustrated by Bill Morrison, Walter Geovani and Rob Lean, the story follows gritty vigilante Dragonfly as he ventures into a world filled with teenagers, jokes, romance and ",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1114,7 +1058,49 @@
      "text": "The concept of the multiverse is an idea that has long been a hallmark of many comic book yarns throughout the years, and nowhere is the idea of parallel Earths being handled with as much pathos, action, and humor as in AHOY! Comics\u2019 The Wrong Earth, written by Tom Peyer and illustrated by Jamal Igl",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Not every comic book character gets the chance to have a special day dedicated purely to their heroic deeds \u2014 but AHOY Comics\u2019 Dragonflyman is no mere superhero. Indeed, he\u2019s twice the man that other heroes manage to be \u2014 literally.\n\nThe character debuted in 2018\u2019s The Wrong Earth mini-series, which",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "One of the most prolific and eclectic comic book writers working today, Scott Snyder (Nocterra, American Vampire, Wytches) is just getting started, as it was announced today that his publishing company, Best Jackett Press, is teaming up with comiXology to write eight new comic books that will be rel",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Wrong Earth has always been a great choice for comic book fans who enjoy big, wacky superhero crossovers. Now the series returns for its most extravagant multiverse game to date, and a number of guest star creators are joining the ride.\n\nPrevious volumes of The Wrong Earth have focused on the Ba",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1128,7 +1114,7 @@
      "text": "Writer Kwanza Osajyefo, artist Jamal Igle and a group of creators, including designer Tim Smith 3 and cover artist Khary Randolph, are launching a Kickstarter (click here) for a new comic book that asks a very basic, yet provocative, question: What if only black people could get superpowers? Of cour",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1142,7 +1128,7 @@
      "text": "THE FUTURE IS BLACK, by Jamal Igle\n\nHome \u00bb RANDOM STUFF \u00bb THE FUTURE IS BLACK, by Jamal Igle\n\nWhat if only black people had superpowers?",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1156,20 +1142,6 @@
      "text": "I'm asking for a friend. She's very excited about the upcoming Supergirl show, which looks tonally different than any of the 539 other live-action superhero and based-on-a-comic book shows currently on air. I liked the six minutes I saw, and was a little amazed that the preview for a Supergirl telev",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Jamal Yaseem Igle[2] is an American comic book artist, editor, art director, marketing executive and animation storyboard artist. The creator of the comic book series Molly Danger he is also known for his pencilling, inking and coloring work on books such as Supergirl and Firestorm.",
-     "imageUrl": null,
-     "keyword": "molly danger",
      "tier": "high",
      "punsafe": null,
      "validation": {
@@ -1209,80 +1181,10 @@
      }
     },
     {
-     "text": "ZATANNA #12\nWritten by PAUL DINI\nArt by JAMAL IGLE\nCover by ADAM HUGHES\nZatanna\u2019s struggle against the newly rejuvenated Brother Night continues, and his scorched-earth approach has her reconsidering where she draws the line in dealing with her foes . . . and what else she can do to protect the worl",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tomorrow's Teen Titans #52 is being drawn by one of my favorite artists, Jamal Igle.\n\nI had NO idea.\n\nIn the \"House of Seven Hells!\" this man's name on a cover is an easy sell.\n\nMonth in, month out, he's been delivering with quiet reliability.\n\nThere's no guessing with this man's artwork. His charac",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "And yes, I made prints of all the covers including GOLDENGIRL with art by Jamal Igle and colored by Chris Sotomayer. Those stunning images were like screaming billboards that drew everyone in and sold books on their own without pitches from me. Should\u2019ve made them a long time ago.",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover to \u2018The Wrong Earth\u2019 #1. Art by Jamal Igle/AHOY Comics\n\nby Clyde Hall. \u201cWatch out, Dragonflyman and Stinger! The powers of darkness lurk in this room!\u201d They well may, William Dozier-sounding Narrator Guy, but less so this world. Earth-Alpha\u2019s reality is bright as a fresh minted silver dollar (",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Been out of the comic loop for a while? Looking for something new to read? Jay Q is here to help you navigate the comic rack in a weekly look at TPB\u2019s.\n\nFirst question some of you may be asking yourselves is, \u201cWhat is a TPB?\u201d TPB or Trade Paper Back (also known as the Graphic Novel) is a compilation",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "DC's Supergirl Comes to an End in May\n\nSupergirl will come to an end this May with issue #42.\n\n(Keep in mind we are talking about the COMIC BOOK series, not the CW TV series, which was already picked up for another season.)\n\nI don\u2019t know about anyone else, but I think that it\u2019s been difficult to sup",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1296,7 +1198,91 @@
      "text": "Longtime Comic Book Legal Defense Fund Executive Director Charles Brownstein has resigned, and the board of directors has accepted his resignation, according to a statement released by the organization Monday evening.  The move came as creators withdrew or made public their earlier withdrawal of sup",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jamal Yaseem Igle[2] is an American comic book artist, editor, art director, marketing executive and animation storyboard artist. The creator of the comic book series Molly Danger he is also known for his pencilling, inking and coloring work on books such as Supergirl and Firestorm.",
+     "imageUrl": null,
+     "keyword": "molly danger",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "ZATANNA #12\nWritten by PAUL DINI\nArt by JAMAL IGLE\nCover by ADAM HUGHES\nZatanna\u2019s struggle against the newly rejuvenated Brother Night continues, and his scorched-earth approach has her reconsidering where she draws the line in dealing with her foes . . . and what else she can do to protect the worl",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Tomorrow's Teen Titans #52 is being drawn by one of my favorite artists, Jamal Igle.\n\nI had NO idea.\n\nIn the \"House of Seven Hells!\" this man's name on a cover is an easy sell.\n\nMonth in, month out, he's been delivering with quiet reliability.\n\nThere's no guessing with this man's artwork. His charac",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "And yes, I made prints of all the covers including GOLDENGIRL with art by Jamal Igle and colored by Chris Sotomayer. Those stunning images were like screaming billboards that drew everyone in and sold books on their own without pitches from me. Should\u2019ve made them a long time ago.",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cover to \u2018The Wrong Earth\u2019 #1. Art by Jamal Igle/AHOY Comics\n\nby Clyde Hall. \u201cWatch out, Dragonflyman and Stinger! The powers of darkness lurk in this room!\u201d They well may, William Dozier-sounding Narrator Guy, but less so this world. Earth-Alpha\u2019s reality is bright as a fresh minted silver dollar (",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Been out of the comic loop for a while? Looking for something new to read? Jay Q is here to help you navigate the comic rack in a weekly look at TPB\u2019s.\n\nFirst question some of you may be asking yourselves is, \u201cWhat is a TPB?\u201d TPB or Trade Paper Back (also known as the Graphic Novel) is a compilation",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1310,21 +1296,7 @@
      "text": "Below, we have the official press release with additional details on Black's Myth, as well as the main cover (by Liana Kangas) and variant cover for the first issue of the new comic books series that will explore the supernatural underground of Los Angeles.\n\nPress Release: (March 23) Eric Palicki, t",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Thank you for giving us a little of your time, Tom.\n\nHow did a young man from Syracuse end up becoming a comic book writer? Did you have other ambitions growing up?\n\nFirst I wanted to be a mild-mannered reporter for a great metropolitan newspaper. Then I wanted to be a comic book artist. After I too",
-     "imageUrl": null,
-     "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1338,7 +1310,35 @@
      "text": "Excerpts from \u201cThe Access Guide to the Black Comic Book Community,\u201d a new directory of Black comic book creators and their stories that will be promoted during a release party at Anyone Comics July 31.\nAnyone Comics\n\nThe event, held outside of Anyone Comics, will commemorate the worldwide release of",
      "imageUrl": null,
      "keyword": "jamal igle",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Thank you for giving us a little of your time, Tom.\n\nHow did a young man from Syracuse end up becoming a comic book writer? Did you have other ambitions growing up?\n\nFirst I wanted to be a mild-mannered reporter for a great metropolitan newspaper. Then I wanted to be a comic book artist. After I too",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "SAN DEIGO, CA- Action Lab Entertainment announced at their panel today at Comic Con International 2014 that they have secured the license to PUPPET MASTER, bringing Blade, Jester and Tunneler back to the comics page.\n\nThe series will be written and edited by Shawn Gabborin (Fracture, Snowed In) with",
+     "imageUrl": null,
+     "keyword": "jamal igle",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1350,16 +1350,16 @@
     }
    ],
    "samples": [
-    "In an unexpected article posted by \u201cUncle Richie\u201d (our inspiration), the UK muckraker compiled a list of severely late comicbook Kickstarter campaigns, and I wanted to share some of the details with our readers. In a post this week called \u201c35 Late Crowdfunded Kickstarter Comic Books,\u201d Johnston begin",
-    "Comic book publishing is on my mind, and it\u2019s largely on my mind because I\u2019m in the midst of a Kickstarter that will bring to print one of my books via Comicker Press \u2014 a new publisher that began its life in the realm of digital comics. So, full disclosure here: I have a vested personal interest in ",
     "Lance Roger Axt \u2013 is the co-founder and co-producer of AudioComics, a production company that produces and distributes professional, full-cast \u201caudio movies\u201d inspired by stories from comic books, graphic novels and genre fiction. Their work can be found on iTunes, Amazon, Audible, and through their ",
-    "WHAT I\u2019M READING, by Jamal Igle\n\nHere\u2019s the thing about me. \u2026 I still read comic books. Every week, I\u2019m in my local shop in Park Slope, Galaxy Comics and Collectibles, buying my \u201ccrack\u201d just like any other comics fiend. I don\u2019t have a pull list, I\u2019m not scouring Previews but I do keep up. Mostly, I ",
     "June 14, 2018: AHOY Comics is looking to shake up the publishing industry with a bold new format: comic book magazines. The startup company is the brainchild of Publisher Hart Seely, an award-winning reporter whose humor and satire has appeared in The New York Times and on National Public Radio; two",
-    "IDW Publishing came prepared to Anaheim, California's WonderCon event last weekend, announcing several high profile comic book initiatives. Besides the previously discussed Womanthology ongoing series (of miniseries) and the full-length Rocketeer project by Mark Waid and Chris Samnee, IDW is develop",
-    "After DC Comics released their latest Social Media Guidelines, comic book veteran Patrick Zircher declared he was going to deactivate his Twitter account. He didn\u2019t give a specific reason as to why he was deactivating his account, but he did say it was \u201cjust a break.\u201d He also said he was re-focusing",
     "Written by Jay Faerber. Art and Cover by Jamal Igle. Down-on-his-luck reporter Reggie Baxter has stumbled onto one of the greatest secrets of all time\u2026superpowered high school history teacher Joe Campbell! But who is Joe Campbell and more importantly, how rich will Reggie become by blackmailing him?",
     "Project #2: Black\nWhat it's about: Timed to Black History Month comes a Kickstarter campaign to fund the new independent superhero science fiction original graphic novel Black from Kwanza Johnson p/k/a Kwanza Osajyefo (former DC Comics Digital Editor) and Tim Smith III (Iron Man, The Amazing Spiderm",
-    "She\u2019s written and drawn everything from Star Wars to Marvel. Now Katie Cook, the popular writer of IDW\u2019s My Little Pony: Friendship is Magic brings her creator owned webcomic, Gronk: A monsters story to Action Lab Entertainment.Gronk tells the tale of a young monster who has turned her back on monst"
+    "She\u2019s written and drawn everything from Star Wars to Marvel. Now Katie Cook, the popular writer of IDW\u2019s My Little Pony: Friendship is Magic brings her creator owned webcomic, Gronk: A monsters story to Action Lab Entertainment.Gronk tells the tale of a young monster who has turned her back on monst",
+    "Comic book publishing is on my mind, and it\u2019s largely on my mind because I\u2019m in the midst of a Kickstarter that will bring to print one of my books via Comicker Press \u2014 a new publisher that began its life in the realm of digital comics. So, full disclosure here: I have a vested personal interest in ",
+    "IDW Publishing came prepared to Anaheim, California's WonderCon event last weekend, announcing several high profile comic book initiatives. Besides the previously discussed Womanthology ongoing series (of miniseries) and the full-length Rocketeer project by Mark Waid and Chris Samnee, IDW is develop",
+    "WHAT I\u2019M READING, by Jamal Igle\n\nHere\u2019s the thing about me. \u2026 I still read comic books. Every week, I\u2019m in my local shop in Park Slope, Galaxy Comics and Collectibles, buying my \u201ccrack\u201d just like any other comics fiend. I don\u2019t have a pull list, I\u2019m not scouring Previews but I do keep up. Mostly, I ",
+    "After DC Comics released their latest Social Media Guidelines, comic book veteran Patrick Zircher declared he was going to deactivate his Twitter account. He didn\u2019t give a specific reason as to why he was deactivating his account, but he did say it was \u201cjust a break.\u201d He also said he was re-focusing",
+    "In an unexpected article posted by \u201cUncle Richie\u201d (our inspiration), the UK muckraker compiled a list of severely late comicbook Kickstarter campaigns, and I wanted to share some of the details with our readers. In a post this week called \u201c35 Late Crowdfunded Kickstarter Comic Books,\u201d Johnston begin"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1378,8 +1378,8 @@
    "coverageComplete": false,
    "rowsCovered": 917770,
    "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
-   "highConfidenceCount": 1,
-   "nameMatchCount": 3,
+   "highConfidenceCount": 4,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 4,
@@ -1402,8 +1402,8 @@
    "coverageComplete": false,
    "rowsCovered": 2230060,
    "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 2,
+   "highConfidenceCount": 2,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 2,
@@ -1649,6 +1649,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1662,14 +1674,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1699,12 +1710,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -1719,17 +1730,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1769,6 +1769,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1789,17 +1800,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1837,17 +1837,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -1870,12 +1859,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1892,67 +1881,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -2046,45 +1980,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -2145,6 +2101,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -2189,23 +2211,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -2263,28 +2285,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -2512,7 +2512,7 @@
   ]
  },
  "reportName": "Jamal Igle",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2526,6 +2526,24 @@
   ],
   "keywordEvidence": [
    {
+    "keyword": "jamal igle",
+    "tier": "high",
+    "count": 1030,
+    "captionHits": 345,
+    "longformHits": 685,
+    "longformRatio": 0.665,
+    "perDataset": {
+     "c4-en": 2,
+     "coyo700m": 60,
+     "laion1b-nolang": 136,
+     "laion2b-en": 124,
+     "laion2b-multi": 25,
+     "obelics": 680,
+     "pile": 3
+    },
+    "reason": null
+   },
+   {
     "keyword": "molly danger",
     "tier": "high",
     "count": 508,
@@ -2534,29 +2552,11 @@
     "longformRatio": 0.545,
     "perDataset": {
      "coyo700m": 16,
+     "laion1b-nolang": 30,
      "laion2b-en": 141,
      "laion2b-multi": 44,
-     "laion1b-nolang": 30,
      "obelics": 276,
      "pile": 1
-    },
-    "reason": null
-   },
-   {
-    "keyword": "jamal igle",
-    "tier": "namematch",
-    "count": 1030,
-    "captionHits": 345,
-    "longformHits": 685,
-    "longformRatio": 0.665,
-    "perDataset": {
-     "coyo700m": 60,
-     "laion2b-en": 124,
-     "laion2b-multi": 25,
-     "obelics": 680,
-     "laion1b-nolang": 136,
-     "pile": 3,
-     "c4-en": 2
     },
     "reason": null
    }
@@ -2565,22 +2565,22 @@
    "datasetsPresent": 7,
    "totalDatasets": 7,
    "credibleMentions": 1538,
-   "highConfidenceMentions": 508,
-   "nameMatchMentions": 1030,
+   "highConfidenceMentions": 1538,
+   "nameMatchMentions": 0,
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
   "evidenceShown": 86,
   "evidenceWithheld": {
-   "unverified": 548,
-   "person_photo": 208,
-   "storefront": 36,
+   "unverified": 542,
+   "person_photo": 206,
+   "storefront": 50,
    "not_flat_art": 36,
    "unrelated": 25,
    "derivative": 6,
    "merchandise": 11
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "jamal-igle",
  "cohort": "early-adopter",

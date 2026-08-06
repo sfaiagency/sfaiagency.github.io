@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -913,7 +913,7 @@
     },
     {
      "text": "Designed & Illustrated by Thomas Crane & Ellen Houghton",
-     "imageUrl": "http://www.grafamania.net/uploads/posts/2008-11/thumbs/1226667810_london002.jpg",
+     "imageUrl": "http://www.grafamania.net/uploads/posts/2008-11/thumbs/1226667812_london001.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": null,
@@ -940,64 +940,8 @@
      }
     },
     {
-     "text": "Designed & Illustrated by Thomas Crane & Ellen Houghton",
-     "imageUrl": "http://www.grafamania.net/uploads/posts/2008-11/thumbs/1226667812_london001.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Floral Decoration and a Verse. Illustration From London Town' by Thomas Crane",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/thomas-crane-floral-decoration-and-a-verse-illustration-from-london-town_u-L-PIXFCJ0.jpg?src=gp&w=300&h=375",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Queen by Thomas Crane on Carnival Legend",
      "imageUrl": "https://entrepreneursodyssey.com/wp-content/uploads/2018/12/Queen-by-Thomas-Crane-on-Carnival-Legend.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Title Page, Depicting St. Paul's Cathedral. Illustration From London Town' by Thomas Crane",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/thomas-crane-title-page-depicting-st-paul-s-cathedral-illustration-from-london-town_u-L-PIXFC30.jpg?src=gp&w=300&h=375",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Abroad A Victorian Excursion To The Continent By Thomas Crane & Ellen Houghton - Used",
-     "imageUrl": "https://midland-ancestors.shop/image/cache/catalog/USEDB5204-228x228.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": null,
@@ -1024,20 +968,6 @@
      }
     },
     {
-     "text": "Designed & Illustrated by Thomas Crane & Ellen Houghton",
-     "imageUrl": "http://www.grafamania.net/uploads/posts/2008-11/thumbs/1226667909_london004.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Punch and Judy by Thomas Crane",
      "imageUrl": "https://www.meisterdrucke.uk/kunstwerke/500px/Thomas%20Crane%20-%20Punch%20and%20Judy%20%20-%20%28MeisterDrucke-143550%29.jpg",
      "keyword": "thomas crane",
@@ -1052,8 +982,8 @@
      }
     },
     {
-     "text": "Screenshot of the title page from the book Abroad, by Thomas Crane and illustrated by Ellen Houghton, in the HathiTrust book display interface. The title page is a beautifully illustrated image of a train station. A mother and her five young children, dressed in Victorian style, are talking to a tic",
-     "imageUrl": "https://www.hathitrust.org/sites/www.hathitrust.org/files/toggle.png",
+     "text": "In The British Museum by Thomas Crane",
+     "imageUrl": "https://letartliveon.com/images/IMG_9786.JPG",
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": null,
@@ -1066,8 +996,78 @@
      }
     },
     {
-     "text": "In The British Museum by Thomas Crane",
-     "imageUrl": "https://letartliveon.com/images/IMG_9786.JPG",
+     "text": "Designed & Illustrated by Thomas Crane & Ellen Houghton",
+     "imageUrl": "http://www.grafamania.net/uploads/posts/2008-11/thumbs/1226667810_london002.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Floral Decoration and a Verse. Illustration From London Town' by Thomas Crane",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/thomas-crane-floral-decoration-and-a-verse-illustration-from-london-town_u-L-PIXFCJ0.jpg?src=gp&w=300&h=375",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Abroad A Victorian Excursion To The Continent By Thomas Crane & Ellen Houghton - Used",
+     "imageUrl": "https://midland-ancestors.shop/image/cache/catalog/USEDB5204-228x228.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Title Page, Depicting St. Paul's Cathedral. Illustration From London Town' by Thomas Crane",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/thomas-crane-title-page-depicting-st-paul-s-cathedral-illustration-from-london-town_u-L-PIXFC30.jpg?src=gp&w=300&h=375",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Designed & Illustrated by Thomas Crane & Ellen Houghton",
+     "imageUrl": "http://www.grafamania.net/uploads/posts/2008-11/thumbs/1226667909_london004.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Screenshot of the title page from the book Abroad, by Thomas Crane and illustrated by Ellen Houghton, in the HathiTrust book display interface. The title page is a beautifully illustrated image of a train station. A mother and her five young children, dressed in Victorian style, are talking to a tic",
+     "imageUrl": "https://www.hathitrust.org/sites/www.hathitrust.org/files/toggle.png",
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": null,
@@ -1112,13 +1112,13 @@
     "In the Children's Hospital. a Nurse Attending a Sick Child. Illustration From London Town' by Thomas Crane",
     "Designed & Illustrated by Thomas Crane & Ellen Houghton",
     "The Penny Ice-man. a Seller Of Iced Fruit Confectionery. Illustration From London Town' by Thomas Crane",
+    "Queen by Thomas Crane on Carnival Legend",
+    "Saying goodnight to the new baby. / Illustration by Thomas Crane in Abroad / 1882",
+    "Punch and Judy by Thomas Crane",
+    "In The British Museum by Thomas Crane",
     "Designed & Illustrated by Thomas Crane & Ellen Houghton",
     "Floral Decoration and a Verse. Illustration From London Town' by Thomas Crane",
-    "Queen by Thomas Crane on Carnival Legend",
-    "Title Page, Depicting St. Paul's Cathedral. Illustration From London Town' by Thomas Crane",
-    "Abroad A Victorian Excursion To The Continent By Thomas Crane & Ellen Houghton - Used",
-    "Saying goodnight to the new baby. / Illustration by Thomas Crane in Abroad / 1882",
-    "Designed & Illustrated by Thomas Crane & Ellen Houghton"
+    "Abroad A Victorian Excursion To The Continent By Thomas Crane & Ellen Houghton - Used"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1143,34 +1143,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 338,
    "rows": [
-    {
-     "text": "Milking cow for chocolate and milk in late 19th century France Peasant milking cow mother with parasol and child 1882 Drwn by Thomas Crane",
-     "imageUrl": "https://media.gettyimages.com/photos/milking-cow-for-chocolate-and-milk-in-late-19th-century-france-cow-picture-id171122049?s=612x612",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 0.0002449452877044678,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Blue Coat Boys Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/80/8007/5SM6300Z/posters/thomas-crane-the-blue-coat-boys.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 0.0008615851402282715,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "The poetic works of the Reverend William Smith, D.D. late Dean of Chester: with some account of the life and writings of the author; by Thomas Crane, ... - William Smith",
      "imageUrl": "https://images.find-more-books.com/sslp.php?s=http%3A%2F%2Fimages.barnesandnoble.com%2Fimages%2F70070000%2F70072123.JPG&h=2848748059",
@@ -1200,11 +1172,25 @@
      }
     },
     {
-     "text": "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. by Thomas Crane",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-back-cover-of-abroad-coloured-illustration-showing-a-door_u-l-q1hobzc0.jpg?artWidth=300&artHeight=300",
+     "text": "Milking cow for chocolate and milk in late 19th century France Peasant milking cow mother with parasol and child 1882 Drwn by Thomas Crane",
+     "imageUrl": "https://media.gettyimages.com/photos/milking-cow-for-chocolate-and-milk-in-late-19th-century-france-cow-picture-id171122049?s=612x612",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 4.832359650208673e-07,
+     "punsafe": 0.0002449452877044678,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Blue Coat Boys Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/80/8007/5SM6300Z/posters/thomas-crane-the-blue-coat-boys.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 0.0008615851402282715,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1219,6 +1205,20 @@
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 2.0308025341364555e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. by Thomas Crane",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-back-cover-of-abroad-coloured-illustration-showing-a-door_u-l-q1hobzc0.jpg?artWidth=300&artHeight=300",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 4.832359650208673e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1247,20 +1247,6 @@
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 1.6344349205610342e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lowther Arcade from 'London Town' Giclee Print by  Thomas Crane and Ellen Houghton",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/72/7299/FI8O100Z/posters/thomas-crane-and-ellen-houghton-lowther-arcade-from-london-town.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 8.761094795772806e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1312,11 +1298,25 @@
      }
     },
     {
-     "text": "Chapel Of the Foundling Hospital. Illustration From London Town' Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/7UDL100Z/posters/thomas-crane-chapel-of-the-foundling-hospital-illustration-from-london-town.jpg",
+     "text": "A Young Girl Stands Nervously Beside a Yeoman of the Guard Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/80/8046/8WW4300Z/posters/thomas-crane-a-young-girl-stands-nervously-beside-a-yeoman-of-the-guard.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 0.005959540605545044,
+     "punsafe": 0.0001437067985534668,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lowther Arcade from 'London Town' Giclee Print by  Thomas Crane and Ellen Houghton",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/72/7299/FI8O100Z/posters/thomas-crane-and-ellen-houghton-lowther-arcade-from-london-town.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 8.761094795772806e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1340,20 +1340,6 @@
      }
     },
     {
-     "text": "A Young Girl Stands Nervously Beside a Yeoman of the Guard Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/80/8046/8WW4300Z/posters/thomas-crane-a-young-girl-stands-nervously-beside-a-yeoman-of-the-guard.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 0.0001437067985534668,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Milk Woman. a Mil Seller From Chalk Farm Dairy. Illustration From London Town' Giclee Print by Thomas Crane",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/8KDL100Z/posters/thomas-crane-the-milk-woman-a-mil-seller-from-chalk-farm-dairy-illustration-from-london-town.jpg",
      "keyword": "thomas crane",
@@ -1368,39 +1354,25 @@
      }
     },
     {
+     "text": "Chapel Of the Foundling Hospital. Illustration From London Town' Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/7UDL100Z/posters/thomas-crane-chapel-of-the-foundling-hospital-illustration-from-london-town.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 0.005959540605545044,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "In the Children's Hospital. a Nurse Attending a Sick Child. Illustration From London Town' by Thomas Crane",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/thomas-crane-in-the-children-s-hospital-a-nurse-attending-a-sick-child-illustration-from-london-town_u-L-PIXC4H0.jpg?artWidth=300&artHeight=375",
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 1.3916750276621315e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. Giclee Print by Thomas Crane",
-     "imageUrl": "https://cache2.allpostersimages.com/p/MED/70/7032/OZBL100Z/posters/thomas-crane-back-cover-of-abroad-coloured-illustration-showing-a-door.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 6.415881944121793e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "In the Children's Hospital. a Nurse Attending a Sick Child. Illustration From London Town' by Thomas Crane",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-in-the-children-s-hospital-a-nurse-attending-a-sick-child-illustration-from-london-town_u-l-pixc49o1zoo.jpg?artWidth=300&artHeight=300",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 2.0773970391019247e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1425,10 +1397,38 @@
     },
     {
      "text": "In the Children's Hospital. a Nurse Attending a Sick Child. Illustration From London Town' by Thomas Crane",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-in-the-children-s-hospital-a-nurse-attending-a-sick-child-illustration-from-london-town_u-l-pixc49o1zoo.jpg?artWidth=300&artHeight=300",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 2.0773970391019247e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "In the Children's Hospital. a Nurse Attending a Sick Child. Illustration From London Town' by Thomas Crane",
      "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-in-the-children-s-hospital-a-nurse-attending-a-sick-child-illustration-from-london-town_u-l-pixc4h0.jpg?artWidth=300&artHeight=300",
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 1.7153724911622703e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. Giclee Print by Thomas Crane",
+     "imageUrl": "https://cache2.allpostersimages.com/p/MED/70/7032/OZBL100Z/posters/thomas-crane-back-cover-of-abroad-coloured-illustration-showing-a-door.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 6.415881944121793e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1480,6 +1480,48 @@
      }
     },
     {
+     "text": "Lines of Verse Illustrated by an Image of People on a Bridge by Thomas Crane",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-lines-of-verse-illustrated-by-an-image-of-people-on-a-bridge_u-l-ppucqo0.jpg?artWidth=300&artHeight=300",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 5.275854346109554e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Milking cow for chocolate and milk by Thomas Crane",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-milking-cow-for-chocolate-and-milk_u-l-q1gm87n0.jpg?artWidth=300&artHeight=300",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 0.00028955936431884766,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Zelinda and the Monster by Thomas Crane",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/Images/67e82087-108c-4dbd-9496-3165ff0dbae1/140/200/85/false/zelinda-and-the-monster.jpg?altimages=false&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 0.0002716481685638428,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Contents Page For 'London Town'. Illustration From London Town' Giclee Print by Thomas Crane",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/3MDL100Z/posters/thomas-crane-contents-page-for-london-town-illustration-from-london-town.jpg",
      "keyword": "thomas crane",
@@ -1513,34 +1555,6 @@
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 1.2756954674841836e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Knife-grinder of Caen using a dog to power his machine. Dog walks round and round the wheel. 1882. Drawn by Thomas Crane.",
-     "imageUrl": "https://i.pinimg.com/736x/ae/50/bc/ae50bc4b7ebb8bb70810b6529d7f6498--knife-grinder-caen.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 8.197801071219146e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Children Being Given a Ride On an Elephant at London Zoo. Illustration From London Town' Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/EKDL100Z/posters/thomas-crane-children-being-given-a-ride-on-an-elephant-at-london-zoo-illustration-from-london-town.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 4.761473519465653e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1620,11 +1634,11 @@
      }
     },
     {
-     "text": "Lines of Verse Illustrated by an Image of People on a Bridge by Thomas Crane",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-lines-of-verse-illustrated-by-an-image-of-people-on-a-bridge_u-l-ppucqo0.jpg?artWidth=300&artHeight=300",
+     "text": "Knife-grinder of Caen using a dog to power his machine. Dog walks round and round the wheel. 1882. Drawn by Thomas Crane.",
+     "imageUrl": "https://i.pinimg.com/736x/ae/50/bc/ae50bc4b7ebb8bb70810b6529d7f6498--knife-grinder-caen.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 5.275854346109554e-05,
+     "punsafe": 8.197801071219146e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1634,25 +1648,11 @@
      }
     },
     {
-     "text": "Milking cow for chocolate and milk by Thomas Crane",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-milking-cow-for-chocolate-and-milk_u-l-q1gm87n0.jpg?artWidth=300&artHeight=300",
+     "text": "Children Being Given a Ride On an Elephant at London Zoo. Illustration From London Town' Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/EKDL100Z/posters/thomas-crane-children-being-given-a-ride-on-an-elephant-at-london-zoo-illustration-from-london-town.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 0.00028955936431884766,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Zelinda and the Monster by Thomas Crane",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/Images/67e82087-108c-4dbd-9496-3165ff0dbae1/140/200/85/false/zelinda-and-the-monster.jpg?altimages=false&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 0.0002716481685638428,
+     "punsafe": 4.761473519465653e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1704,34 +1704,6 @@
      }
     },
     {
-     "text": "A Coach and Horses. Illustration From London Town' Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/QMDL100Z/posters/thomas-crane-a-coach-and-horses-illustration-from-london-town.jpg",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 0.0001836717128753662,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Detail of London Town by Thomas Crane",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2959/0144/products/g70036-85_1024x1024.jpg?v=1517918929",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 5.039954885432962e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"The Dustman Is Coming. a Mother Takes Her Children To Bed. Illustration From\"\"\"\" London Town\"\"\"\" Giclee Print by Thomas Crane at Art.com.  with dolls\"\"\"",
      "imageUrl": "https://i.pinimg.com/236x/ce/53/e8/ce53e869a9b102be627912d3203240f9--illustrations-vintage-a-mother.jpg",
      "keyword": "thomas crane",
@@ -1751,20 +1723,6 @@
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 0.0001026042373268865,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Detail of The elephant ride by Thomas Crane",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2959/0144/products/g70037-27_1024x1024.jpg?v=1517915638",
-     "keyword": "thomas crane",
-     "tier": "namematch",
-     "punsafe": 2.062855855911039e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1807,6 +1765,48 @@
      "keyword": "thomas crane",
      "tier": "namematch",
      "punsafe": 1.8369058807365946e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Detail of The elephant ride by Thomas Crane",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2959/0144/products/g70037-27_1024x1024.jpg?v=1517915638",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 2.062855855911039e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Coach and Horses. Illustration From London Town' Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/QMDL100Z/posters/thomas-crane-a-coach-and-horses-illustration-from-london-town.jpg",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 0.0001836717128753662,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Detail of London Town by Thomas Crane",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/2959/0144/products/g70036-85_1024x1024.jpg?v=1517918929",
+     "keyword": "thomas crane",
+     "tier": "namematch",
+     "punsafe": 5.039954885432962e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1928,11 +1928,11 @@
      }
     },
     {
-     "text": "The elephant ride by Thomas Crane",
-     "imageUrl": "https://previews.magnoliabox.com/britishlibrary/mb_hero/g70037-27/MUS-FAPC1114_850.jpg",
+     "text": "A Singpost To London Town. Illustration From London Town' Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/GUDL100Z/posters/thomas-crane-a-singpost-to-london-town-illustration-from-london-town.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 1.0551517334533855e-05,
+     "punsafe": 8.604521281085908e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1942,11 +1942,11 @@
      }
     },
     {
-     "text": "A Singpost To London Town. Illustration From London Town' Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/70/7033/GUDL100Z/posters/thomas-crane-a-singpost-to-london-town-illustration-from-london-town.jpg",
+     "text": "The elephant ride by Thomas Crane",
+     "imageUrl": "https://previews.magnoliabox.com/britishlibrary/mb_hero/g70037-27/MUS-FAPC1114_850.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 8.604521281085908e-05,
+     "punsafe": 1.0551517334533855e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1985,16 +1985,16 @@
     }
    ],
    "samples": [
-    "Milking cow for chocolate and milk in late 19th century France Peasant milking cow mother with parasol and child 1882 Drwn by Thomas Crane",
-    "The Blue Coat Boys Giclee Print by Thomas Crane",
     "The poetic works of the Reverend William Smith, D.D. late Dean of Chester: with some account of the life and writings of the author; by Thomas Crane, ... - William Smith",
     "Westminster Abbey Giclee Print by Thomas Crane",
-    "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. by Thomas Crane",
+    "Milking cow for chocolate and milk in late 19th century France Peasant milking cow mother with parasol and child 1882 Drwn by Thomas Crane",
+    "The Blue Coat Boys Giclee Print by Thomas Crane",
     "The Dancing Water, the Singing Apple, and the Speaking Bird by Thomas Crane",
+    "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. by Thomas Crane",
     "\"Embroidery design by Thomas Crane, from the book Art Embroidery by Mary S. Lockwood and Elizabeth Glaister (1878). \"\"Design for square footstool or cushion -- strawberry blossom and leaves...this design is adapted to its purpose by looking equally well in any position, it being impossible to be pla",
     "Paris market in late 19th century Giclee Print by Thomas Crane",
-    "Lowther Arcade from 'London Town' Giclee Print by  Thomas Crane and Ellen Houghton",
-    "The poetic works of the Reverend William Smith, D.D. late Dean of Chester: with some account of the life and writings of the author; by Thomas Crane, ... - William Smith"
+    "The poetic works of the Reverend William Smith, D.D. late Dean of Chester: with some account of the life and writings of the author; by Thomas Crane, ... - William Smith",
+    "Back Cover Of 'Abroad'. Coloured Illustration Showing a Door. Giclee Print by Thomas Crane"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2091,11 +2091,11 @@
    "totalIncludingLowConfidence": 149,
    "rows": [
     {
-     "text": "On the Platform at Portland Road Station London Giclee Print by Thomas Crane",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/17/1735/GFZ3D00Z/posters/thomas-crane-on-the-platform-at-portland-road-station-london.jpg",
+     "text": "Rouen by Thomas Crane",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-rouen_u-l-q1gm7fp0.jpg?artWidth=300&artHeight=300",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 6.27525441814214e-05,
+     "punsafe": 3.9703818401903845e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2105,11 +2105,11 @@
      }
     },
     {
-     "text": "Rouen by Thomas Crane",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/thomas-crane-rouen_u-l-q1gm7fp0.jpg?artWidth=300&artHeight=300",
+     "text": "On the Platform at Portland Road Station London Giclee Print by Thomas Crane",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/17/1735/GFZ3D00Z/posters/thomas-crane-on-the-platform-at-portland-road-station-london.jpg",
      "keyword": "thomas crane",
      "tier": "namematch",
-     "punsafe": 3.9703818401903845e-06,
+     "punsafe": 6.27525441814214e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2344,8 +2344,8 @@
     }
    ],
    "samples": [
-    "On the Platform at Portland Road Station London Giclee Print by Thomas Crane",
     "Rouen by Thomas Crane",
+    "On the Platform at Portland Road Station London Giclee Print by Thomas Crane",
     "Abroad By Thomas Crane",
     "Beggar at church doors by Thomas Crane",
     "Luxembourg Gardens, children's goat ride by Thomas Crane",
@@ -2435,7 +2435,7 @@
      }
     },
     {
-     "text": "A native of Liverpool, Walter Crane () was the son of a lithographer and painter who achieved early success with his color illustrations for children's books. His later art includes illustrations for the works of Shakespeare and Spencer as well as political cartoons/5(3).\n\nWalter Crane (15 August \u2013 ",
+     "text": "Thomas Crane (Jack Gwaltney) holds the rifle as the Glock is put to his head in Season 9's finale \"Cold\" (S9E19).\n\nThe Ithaca 37 shotgun is another weapon frequently carried by NYPD ESU and other SWAT officers in the series. An ESU Team Leader is seen carrying an Ithaca 37 in \"Signature\" (S9E12).",
      "imageUrl": null,
      "keyword": "thomas crane",
      "tier": "namematch",
@@ -2449,7 +2449,7 @@
      }
     },
     {
-     "text": "Thomas Crane (Jack Gwaltney) holds the rifle as the Glock is put to his head in Season 9's finale \"Cold\" (S9E19).\n\nThe Ithaca 37 shotgun is another weapon frequently carried by NYPD ESU and other SWAT officers in the series. An ESU Team Leader is seen carrying an Ithaca 37 in \"Signature\" (S9E12).",
+     "text": "A native of Liverpool, Walter Crane () was the son of a lithographer and painter who achieved early success with his color illustrations for children's books. His later art includes illustrations for the works of Shakespeare and Spencer as well as political cartoons/5(3).\n\nWalter Crane (15 August \u2013 ",
      "imageUrl": null,
      "keyword": "thomas crane",
      "tier": "namematch",
@@ -2608,8 +2608,8 @@
     "Young princess and princes, being watched over by their foster mother\nAdvertisement:\n\nThe Dancing Water, the Singing Apple, and the Speaking Bird is an Italian Fairy Tale collected by Thomas Crane.\n\nA king wanders the streets at night. He hears three sisters talking:\n\nThe oldest said: \"If I were the",
     "A small Victorian girl relaxing in a cane chair, reading a letter and fanning herself with a large peacock feather fan. She appears to be tilting dangerously so could be in a for a nasty shock very soon. From \u201cAt Home,\u201d illustrated by J.G. Sowerby and decorated by Thomas Crane. Printed and published",
     "Alabama-based heavy rockers Love The Hate has released their brutal new single, \u2018Solid Ground.\u2019 With a dark, modern music video directed and filmed by Thomas Crane of KillDevil Films (Saliva, Todd La Torre [Queensryche], Eve to Adam), \u2018Solid Ground\u2019 has quickly dominated local and international radi",
-    "A native of Liverpool, Walter Crane () was the son of a lithographer and painter who achieved early success with his color illustrations for children's books. His later art includes illustrations for the works of Shakespeare and Spencer as well as political cartoons/5(3).\n\nWalter Crane (15 August \u2013 ",
     "Thomas Crane (Jack Gwaltney) holds the rifle as the Glock is put to his head in Season 9's finale \"Cold\" (S9E19).\n\nThe Ithaca 37 shotgun is another weapon frequently carried by NYPD ESU and other SWAT officers in the series. An ESU Team Leader is seen carrying an Ithaca 37 in \"Signature\" (S9E12).",
+    "A native of Liverpool, Walter Crane () was the son of a lithographer and painter who achieved early success with his color illustrations for children's books. His later art includes illustrations for the works of Shakespeare and Spencer as well as political cartoons/5(3).\n\nWalter Crane (15 August \u2013 ",
     "The NYPD ESU snipers are seen armed with the Remington 700PSS rifle throughout the series. The rifle is notably wielded by Thomas Crane (Jack Gwaltney), a corrupt officer from the Fugitive Apprehension Team near the conclusion of Season 9's finale \"Cold\" (S9E19).",
     "Photo Credit: Thomas Crane sALIVA has revealed the second single, \u201cClick Click Boom,\u201d from Every Twenty Years , an EP featuring re-recorded classics with current vocalist Bobby Amaru to commemorate the twentieth anniversary of their major-label debut, Every Six Seconds. \u201cRe-recording \u2018Click Click Bo",
     "KAMELOT has released a brand new music video for the song \"MindFall Remedy\". The clip, which includes a guest appearance by Lauren Hart (ONCE HUMAN), was directed by Thomas Crane of Killdevil Films and features live footage from the band's recent North American tour.\n\nKAMELOT guitarist Thomas Youngb",
@@ -2684,13 +2684,13 @@
     "longformHits": 321,
     "longformRatio": 0.355,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 70,
      "laion1b-nolang": 149,
      "laion2b-en": 338,
      "laion2b-multi": 26,
      "obelics": 316,
-     "pile": 2,
-     "c4-en": 3
+     "pile": 2
     },
     "reason": null
    }
@@ -2706,15 +2706,15 @@
   },
   "evidenceShown": 112,
   "evidenceWithheld": {
-   "unverified": 539,
    "person_photo": 69,
+   "unverified": 540,
    "merchandise": 5,
-   "unrelated": 10,
-   "storefront": 12,
+   "storefront": 13,
    "explicit": 1,
+   "unrelated": 9,
    "derivative": 3
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-thomas-crane",
  "cohort": "billy-ireland",
@@ -2727,7 +2727,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 904,
   "datasetsPresent": 7,

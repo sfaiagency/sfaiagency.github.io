@@ -213,18 +213,6 @@
    ]
   },
   {
-   "name": "IDEFICS-9B-Instruct",
-   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
-   "isMajor": false,
-   "monthlyActiveUsers": 120000,
-   "totalDownloads": 3500000,
-   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
-   "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
    "name": "PixArt-\u03b1",
    "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
    "isMajor": false,
@@ -236,12 +224,12 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
@@ -261,13 +249,14 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
    "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -294,6 +283,17 @@
    "trainingDatasets": [
     "laion/relaion2B-en-research-safe",
     "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -777,13 +777,13 @@
     "longformHits": 6129,
     "longformRatio": 0.111,
     "perDataset": {
+     "c4-en": 52,
      "coyo700m": 5817,
      "laion1b-nolang": 9930,
      "laion2b-en": 31492,
      "laion2b-multi": 2024,
      "obelics": 6053,
-     "pile": 24,
-     "c4-en": 52
+     "pile": 24
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -795,13 +795,13 @@
     "longformHits": 2562,
     "longformRatio": 0.463,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 271,
      "laion1b-nolang": 563,
      "laion2b-en": 1571,
      "laion2b-multi": 571,
      "obelics": 2537,
-     "pile": 15,
-     "c4-en": 10
+     "pile": 15
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -820,7 +820,7 @@
    "unverified": 5,
    "merchandise": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-john-magoun",
  "cohort": "billy-ireland",
@@ -833,7 +833,7 @@
   "estimatedMonthlyUsers": 24569000,
   "estimatedTotalGenerations": 4913800000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 6,
   "datasetsPresent": 2,

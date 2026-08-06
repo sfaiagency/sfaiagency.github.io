@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -897,6 +897,34 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 66,
    "rows": [
+    {
+     "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/123897441379_/The-Hustler-Dogs-Playing-Pool-2x-Matted.jpg",
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
+     "imageUrl": "https://i.pinimg.com/236x/fe/02/6f/fe026f2359ddd47daf3f76318b8b672e--stickers-memories.jpg",
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
      "imageUrl": "http://www.hipsteria.com/images/wp_ans1_mag_inlay_promos_01.jpg",
@@ -927,35 +955,7 @@
     },
     {
      "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/123897441379_/The-Hustler-Dogs-Playing-Pool-2x-Matted.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/123701561548_/Wacky-Packages-Sneeze-It-Signed-by-Jay-Lynch.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
-     "imageUrl": "https://i.pinimg.com/236x/fe/02/6f/fe026f2359ddd47daf3f76318b8b672e--stickers-memories.jpg",
      "keyword": "jay lynch",
      "tier": "namematch",
      "punsafe": null,
@@ -998,9 +998,9 @@
    ],
    "samples": [
     "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
+    "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
+    "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
     "This stunt, from CAPTAIN AMERICA: THE WINTER SOLDIER, is just emblematic of what we're talking about. Nagle wants to clarify this was actually done by Jay Lynch.",
-    "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
-    "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
     "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
     "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
     "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH"
@@ -1029,11 +1029,11 @@
    "totalIncludingLowConfidence": 293,
    "rows": [
     {
-     "text": "2009 Wacky Packages Old School Series 1 Sketch Card By Jay Lynch - Bubble Kid",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/114119894532_/2009-Wacky-Packages-Old-School-Series-1-Sketch.jpg",
+     "text": "Garbage Pail Kids Flashback Sketch Card by Jay Lynch (RARE) & Loco Motion Cards",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/173463129204_/Garbage-Pail-Kids-Flashback-Sketch-Card-by-Jay.jpg",
      "keyword": "jay lynch",
      "tier": "namematch",
-     "punsafe": 0.018546491861343384,
+     "punsafe": 0.002527594566345215,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1057,11 +1057,11 @@
      }
     },
     {
-     "text": "Garbage Pail Kids Flashback Sketch Card by Jay Lynch (RARE) & Loco Motion Cards",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/173463129204_/Garbage-Pail-Kids-Flashback-Sketch-Card-by-Jay.jpg",
+     "text": "2009 Wacky Packages Old School Series 1 Sketch Card By Jay Lynch - Bubble Kid",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/114119894532_/2009-Wacky-Packages-Old-School-Series-1-Sketch.jpg",
      "keyword": "jay lynch",
      "tier": "namematch",
-     "punsafe": 0.002527594566345215,
+     "punsafe": 0.018546491861343384,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1076,20 +1076,6 @@
      "keyword": "jay lynch",
      "tier": "namematch",
      "punsafe": 6.670812581432983e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Nard n' Pat No. 1 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/images/catalog/thumb/ZZZ036449-CX.jpg",
-     "keyword": "nard n' pat",
-     "tier": "high",
-     "punsafe": 1.8043952877633274e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1118,6 +1104,20 @@
      "keyword": "jay lynch",
      "tier": "namematch",
      "punsafe": 0.03258150815963745,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Nard n' Pat No. 1 Comic Book",
+     "imageUrl": "https://images.wolfgangsvault.com/images/catalog/thumb/ZZZ036449-CX.jpg",
+     "keyword": "nard n' pat",
+     "tier": "high",
+     "punsafe": 1.8043952877633274e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1211,11 +1211,11 @@
      }
     },
     {
-     "text": "Nard n' Pat, by Jay Lynch",
-     "imageUrl": "https://www.lambiek.net/artists/image/l/lynch/lynch2.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.0003961622714996338,
+     "text": "Nard n' Pat No. 1 Comic Book",
+     "imageUrl": "https://images.wolfgangsvault.com/nard-n-pat-no-1/comic-book/t/ZZZ036449-CX.jpg",
+     "keyword": "nard n' pat",
+     "tier": "high",
+     "punsafe": 1.8043952877633274e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1225,11 +1225,11 @@
      }
     },
     {
-     "text": "Nard n' Pat No. 1 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/nard-n-pat-no-1/comic-book/t/ZZZ036449-CX.jpg",
-     "keyword": "nard n' pat",
-     "tier": "high",
-     "punsafe": 1.8043952877633274e-05,
+     "text": "Nard n' Pat, by Jay Lynch",
+     "imageUrl": "https://www.lambiek.net/artists/image/l/lynch/lynch2.jpg",
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": 0.0003961622714996338,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1281,20 +1281,6 @@
      }
     },
     {
-     "text": "Pro Junior  (1971 Kitchen Sink), by Jay Lynch 1st Printing Underground Comic Lot",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/292682155033_/Pro-Junior-1971-Kitchen-Sink-by-Jay.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.011704713106155396,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "OTTO'S ORANGE DAY by Jay Lynch",
      "imageUrl": "https://d1ldy8a769gy68.cloudfront.net/110/978/097/992/382/1/9780979923821.jpg",
      "keyword": "jay lynch",
@@ -1309,11 +1295,11 @@
      }
     },
     {
-     "text": "Nard n' Pat #2 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/nard-n-pat-2/comic-book/t/ZZZ042520-CX.jpg",
-     "keyword": "nard n' pat",
-     "tier": "high",
-     "punsafe": 0.09921389818191528,
+     "text": "Pro Junior  (1971 Kitchen Sink), by Jay Lynch 1st Printing Underground Comic Lot",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/292682155033_/Pro-Junior-1971-Kitchen-Sink-by-Jay.jpg",
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": 0.011704713106155396,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1323,11 +1309,11 @@
      }
     },
     {
-     "text": "Bijou Funnies No. 8 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/bijou-funnies-no-8/comic-book/t/ZZZ036443-CX.jpg",
-     "keyword": "bijou funnies",
+     "text": "Nard n' Pat #2 Comic Book",
+     "imageUrl": "https://images.wolfgangsvault.com/nard-n-pat-2/comic-book/t/ZZZ042520-CX.jpg",
+     "keyword": "nard n' pat",
      "tier": "high",
-     "punsafe": 0.006135344505310059,
+     "punsafe": 0.09921389818191528,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1379,11 +1365,11 @@
      }
     },
     {
-     "text": "Silver Age (1956-1969):Alternative/Underground, Bijou Funnies #4 - First printing (Print Mint, 1970) Condition:VF/NM. Art by Jay Lynch, Robert Crumb, Skip Williamson, and ...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F6%2F1%2F0%2F2610509%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "2010 Wacky Packages Old School Series 2 Sketch Card By Jay Lynch  - Frankenstein",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/114120003693_/2010-Wacky-Packages-Old-School-Series-2-Sketch.jpg",
      "keyword": "jay lynch",
      "tier": "namematch",
-     "punsafe": 0.01051977276802063,
+     "punsafe": 0.0049006640911102295,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1393,11 +1379,11 @@
      }
     },
     {
-     "text": "2010 Wacky Packages Old School Series 2 Sketch Card By Jay Lynch  - Frankenstein",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/114120003693_/2010-Wacky-Packages-Old-School-Series-2-Sketch.jpg",
+     "text": "Silver Age (1956-1969):Alternative/Underground, Bijou Funnies #4 - First printing (Print Mint, 1970) Condition:VF/NM. Art by Jay Lynch, Robert Crumb, Skip Williamson, and ...",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F6%2F1%2F0%2F2610509%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "jay lynch",
      "tier": "namematch",
-     "punsafe": 0.0049006640911102295,
+     "punsafe": 0.01051977276802063,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1491,20 +1477,6 @@
      }
     },
     {
-     "text": "The Best Of Bijou Funnies Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/m/large/ZZZ042304-CX/the-best-of-bijou-funnies-comic-book-1981.jpg",
-     "keyword": "bijou funnies",
-     "tier": "high",
-     "punsafe": 0.0014660656452178955,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Jay Lynch/Special to The Chronicle",
      "imageUrl": "http://eaglenewspapers.media.clients.ellingtoncms.com/img/photos/2013/09/20/Charles_Junior_Eder_scanned_t768.jpg?184c2b1839b86dd7d08e9493f8b16dfb4c3de1cb",
      "keyword": "jay lynch",
@@ -1519,11 +1491,11 @@
      }
     },
     {
-     "text": "OTTO'S ORANGE DAY by Jay Lynch",
-     "imageUrl": "https://d3myrwj42s63no.cloudfront.net/180/978/097/992/382/1/9780979923821.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.00048172473907470703,
+     "text": "The Best Of Bijou Funnies Comic Book",
+     "imageUrl": "https://images.wolfgangsvault.com/m/large/ZZZ042304-CX/the-best-of-bijou-funnies-comic-book-1981.jpg",
+     "keyword": "bijou funnies",
+     "tier": "high",
+     "punsafe": 0.0014660656452178955,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1562,13 +1534,13 @@
     }
    ],
    "samples": [
-    "2009 Wacky Packages Old School Series 1 Sketch Card By Jay Lynch - Bubble Kid",
-    "2010 Wacky Packages Old School Series 2 Sketch Card By Jay Lynch - Kook Aid",
     "Garbage Pail Kids Flashback Sketch Card by Jay Lynch (RARE) & Loco Motion Cards",
+    "2010 Wacky Packages Old School Series 2 Sketch Card By Jay Lynch - Kook Aid",
+    "2009 Wacky Packages Old School Series 1 Sketch Card By Jay Lynch - Bubble Kid",
     "Smiley buttons by Jay Lynch",
-    "Nard n' Pat No. 1 Comic Book",
     "Bronze Age (1970-1979):Alternative/Underground, Bogeyman #3 (Company & Sons, 1970) Condition: VF+. Art by Jay Lynch, Rory Hayes, and Rick Griffin. Overstreet does not yet l...",
     "Mineshaft cover by Jay Lynch",
+    "Nard n' Pat No. 1 Comic Book",
     "Bijou Funnies No. 6 Comic Book",
     "The Best Of Bijou Funnies Comic Book",
     "Bijou Funnies No. 7 Comic Book"
@@ -1681,6 +1653,20 @@
      }
     },
     {
+     "text": "OTTO'S ORANGE DAY by Jay Lynch",
+     "imageUrl": "https://d3myrwj42s63no.cloudfront.net/180/978/097/992/382/1/9780979923821.jpg",
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": 0.00048172473907470703,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Bijou Funnies No. 6 Comic Book",
      "imageUrl": "https://images.wolfgangsvault.com/m/medium/ZZZ042436-CX/bijou-funnies-no-6-comic-book-1971.jpg",
      "keyword": "bijou funnies",
@@ -1695,11 +1681,11 @@
      }
     },
     {
-     "text": "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Print Mint/Kitchen Sink, 1970s) Condition: VG/FN.... (Total: 7 Comic Books)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F9%2F3%2F2%2F3932597%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Bijou/Print Mint, 1970s) Condition: Average FN-.... (Total: 4 Comic Books)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B8%2F4%2F5%2F7%2F8457947%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "bijou funnies",
      "tier": "high",
-     "punsafe": 0.008464783430099487,
+     "punsafe": 0.004553169012069702,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1709,11 +1695,11 @@
      }
     },
     {
-     "text": "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Bijou/Print Mint, 1970s) Condition: Average FN-.... (Total: 4 Comic Books)",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B8%2F4%2F5%2F7%2F8457947%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
+     "text": "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Print Mint/Kitchen Sink, 1970s) Condition: VG/FN.... (Total: 7 Comic Books)",
+     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B3%2F9%2F3%2F2%2F3932597%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "bijou funnies",
      "tier": "high",
-     "punsafe": 0.004553169012069702,
+     "punsafe": 0.008464783430099487,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1751,6 +1737,20 @@
      }
     },
     {
+     "text": "Nard n' Pat No. 1 Comic Book",
+     "imageUrl": "https://images.wolfgangsvault.com/m/medium/ZZZ036449-CX/nard-n-pat-no-1-comic-book-1974.jpg",
+     "keyword": "nard n' pat",
+     "tier": "high",
+     "punsafe": 0.00022116303443908691,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies/Big Ass Comics Group of 7 (Bijou, 1970s) Condition: Average FN.... (Total: 7 Comic Books)",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F1%2F4%2F7%2F15147796%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "bijou funnies",
@@ -1770,20 +1770,6 @@
      "keyword": "bijou funnies",
      "tier": "high",
      "punsafe": 0.0018552839756011963,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Nard n' Pat No. 1 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/m/medium/ZZZ036449-CX/nard-n-pat-no-1-comic-book-1974.jpg",
-     "keyword": "nard n' pat",
-     "tier": "high",
-     "punsafe": 0.00022116303443908691,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1863,11 +1849,11 @@
      }
     },
     {
-     "text": "Bijou Funnies #2 3rd Printing / Underground Comix - Jay Lynch / FN- 5.5",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/143081997885_/Bijou-Funnies-2-3rd-Printing-Underground-Comix.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.0008724033832550049,
+     "text": "Bijou Funnies No. 8 Comic Book",
+     "imageUrl": "https://images.wolfgangsvault.com/bijou-funnies-no-8/comic-book/t/ZZZ036443-CX.jpg",
+     "keyword": "bijou funnies",
+     "tier": "high",
+     "punsafe": 0.006135344505310059,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1889,19 +1875,33 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Bijou Funnies #2 3rd Printing / Underground Comix - Jay Lynch / FN- 5.5",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/143081997885_/Bijou-Funnies-2-3rd-Printing-Underground-Comix.jpg",
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": 0.0008724033832550049,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "The Realist Cartoons by Paul Krassner, Gary Groth, Nicole Hollander, Trina Robbins, Robert Crumb, Art Spiegelman, Jay Lynch, Ethan Persoff",
     "Otto's Orange Day by Jay Lynch (Hardback, 2008)",
+    "OTTO'S ORANGE DAY by Jay Lynch",
     "Bijou Funnies No. 6 Comic Book",
-    "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Print Mint/Kitchen Sink, 1970s) Condition: VG/FN.... (Total: 7 Comic Books)",
     "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Bijou/Print Mint, 1970s) Condition: Average FN-.... (Total: 4 Comic Books)",
+    "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Print Mint/Kitchen Sink, 1970s) Condition: VG/FN.... (Total: 7 Comic Books)",
     "Bijou Funnies #2 2nd Printing / Underground Comix - Jay Lynch / FN 6.0",
     "The Best Of Bijou Funnies Comic Book",
-    "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies/Big Ass Comics Group of 7 (Bijou, 1970s) Condition: Average FN.... (Total: 7 Comic Books)",
-    "Bijou Funnies No. 6 Comic Book",
-    "Nard n' Pat No. 1 Comic Book"
+    "Nard n' Pat No. 1 Comic Book",
+    "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies/Big Ass Comics Group of 7 (Bijou, 1970s) Condition: Average FN.... (Total: 7 Comic Books)"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1926,20 +1926,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 752,
    "rows": [
-    {
-     "text": "Reading comic books is fairly intimidating if you don\u2019t get into it until later in life. There is this huge mythos surrounding it all. So many people are \u201cin the know\u201d about all the characters, such as the Marvel universe versus the DC universe (I couldn\u2019t tell you which superhero is in which), that",
-     "imageUrl": null,
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "As the modern vultures descend upon Bill\u2019s contribution to comix (inventing the term \u201cfanboy\u201d), by putting out dozens of books using Bill\u2019s title as their own, and without a speck of recognition for Bill and Al, the injustice of the whole situation is a black eye on the countenance of the comic book",
      "imageUrl": null,
@@ -1969,7 +1955,7 @@
      }
     },
     {
-     "text": "Seth on the end of Bazooka Joe Comics\n\nTopps recently announced the discontinuation of its long-running Bazooka Joe comic strip, since 1954 a popular addition to its bubblegum packaging.  The strip has a storied history (ironically the subject of an upcoming celebratory book from Abrams ComicArt, Ba",
+     "text": "Reading comic books is fairly intimidating if you don\u2019t get into it until later in life. There is this huge mythos surrounding it all. So many people are \u201cin the know\u201d about all the characters, such as the Marvel universe versus the DC universe (I couldn\u2019t tell you which superhero is in which), that",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -1983,7 +1969,7 @@
      }
     },
     {
-     "text": "He ventured to San Francisco in 1970 to join the burgeoning underground comix movement. His first major comic book titles included Tales of Toad and Young Lust (co-created with cartoonist Jay Kinney), a bestselling series parodying romance comics of the time. He co-edited Arcade for its seven-issue ",
+     "text": "Seth on the end of Bazooka Joe Comics\n\nTopps recently announced the discontinuation of its long-running Bazooka Joe comic strip, since 1954 a popular addition to its bubblegum packaging.  The strip has a storied history (ironically the subject of an upcoming celebratory book from Abrams ComicArt, Ba",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2039,7 +2025,7 @@
      }
     },
     {
-     "text": "Stitches by David Small. Unterzakhn by Leela Corman. Drinking at the Movies by Julia Wertz.\n\nAre You My Mother? Anya's Ghost by Vera Brosgol. Celluloid by Dave McKean. Fox series. Otto's Orange Day by Jay Lynch. After a genie fulfills Otto the cat's wish by turning the whole world orange, Otto reali",
+     "text": "He ventured to San Francisco in 1970 to join the burgeoning underground comix movement. His first major comic book titles included Tales of Toad and Young Lust (co-created with cartoonist Jay Kinney), a bestselling series parodying romance comics of the time. He co-edited Arcade for its seven-issue ",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2054,6 +2040,20 @@
     },
     {
      "text": "Known affectionately among collectors as \u201cWacky Packs,\u201d as a creative force with artist Art Spiegelman, the stickers were illustrated by such notable comics artists as Kim Deitch, , Bill Griffith, Jay Lynch, and Norm Saunders.\n\nSweet fucking Jeezis, you'd think that an on-line bookselling outfit cou",
+     "imageUrl": null,
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stitches by David Small. Unterzakhn by Leela Corman. Drinking at the Movies by Julia Wertz.\n\nAre You My Mother? Anya's Ghost by Vera Brosgol. Celluloid by Dave McKean. Fox series. Otto's Orange Day by Jay Lynch. After a genie fulfills Otto the cat's wish by turning the whole world orange, Otto reali",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2095,7 +2095,7 @@
      }
     },
     {
-     "text": "There was then a lull in action before Town carved out their first opening of the game with more than 20 minutes played, as Joe Tomlinson's shot from long-range was fumbled by Jay Lynch, who recovered well to deny Josh Davison on the follow up attempt.\n\nLiam Kelly then fired a half-volley over for t",
+     "text": "Why Would a Loving God Allow Pain and Suffering? By Jay Lynch, M.D.",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2109,7 +2109,7 @@
      }
     },
     {
-     "text": "Why Would a Loving God Allow Pain and Suffering? By Jay Lynch, M.D.",
+     "text": "There was then a lull in action before Town carved out their first opening of the game with more than 20 minutes played, as Joe Tomlinson's shot from long-range was fumbled by Jay Lynch, who recovered well to deny Josh Davison on the follow up attempt.\n\nLiam Kelly then fired a half-volley over for t",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2221,35 +2221,7 @@
      }
     },
     {
-     "text": "\"Mineshaft is the best magazine in America. It's the only thing I read anymore.\"   -Jay Lynch\n\"...a breath of fresh air from some universe next door.\"   -Art Spiegelman\n\"Long live MINESHAFT!\"   -R. Crumb\n\nMay 14, 2020 UPDATE:   Mineshaft #39, featuring out-of-this-world cover art by Christoph Muelle",
-     "imageUrl": null,
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Many of us are still not over the demise of Twinkies. Now there's this.\n\nBazooka Bubble Gum is redoing is packaging and, says The New York Times:\n\n\"What adults may remember best about Bazooka ... is disappearing. The tiny comic strip featuring the eyepatch-wearing brand mascot Bazooka Joe that has b",
-     "imageUrl": null,
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "From the cover:\n\"The impact of American underground comix is profound: They galvanized artists both domestically and abroad; they forever changed the economics of comic book publishing; and they influenced generations of cartoonists, including their predecessors.\n\n\"While the works of Robert Crumb an",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2291,6 +2263,20 @@
      }
     },
     {
+     "text": "From the cover:\n\"The impact of American underground comix is profound: They galvanized artists both domestically and abroad; they forever changed the economics of comic book publishing; and they influenced generations of cartoonists, including their predecessors.\n\n\"While the works of Robert Crumb an",
+     "imageUrl": null,
+     "keyword": "jay lynch",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Angelfood McSpade is a comic book character created and drawn by the 1960s counter culture figure and underground comix artist Robert Crumb. The character first appeared in the Philadelphia-based underground newspaper Yarrowstalks #2 in July 1967, making her comics debut in the second issue of Zap C",
      "imageUrl": null,
      "keyword": "bijou funnies",
@@ -2319,7 +2305,7 @@
      }
     },
     {
-     "text": "Get a limited edition 4-color silk screen printed version of the 2017 PIX poster (above) made by Carol Tyler in honor of Jay Lynch.\n\n\u201cThe 11\u2033 x 17\u2033 print featured a 4 color silk screened image of Jay\u2019s most famous characters, Nard n\u2019 Pat as drawn by cartoonist Carol Tyler in a limited edition of 50,",
+     "text": "With the development of the internet, they began to appear online as webcomics. There were more than different comic strips and daily cartoon panels in American newspapers alone each day for most of the 20th century, for a total of at least 7,, episodes. As the name implies, comic strips can be humo",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2333,7 +2319,7 @@
      }
     },
     {
-     "text": "With the development of the internet, they began to appear online as webcomics. There were more than different comic strips and daily cartoon panels in American newspapers alone each day for most of the 20th century, for a total of at least 7,, episodes. As the name implies, comic strips can be humo",
+     "text": "Get a limited edition 4-color silk screen printed version of the 2017 PIX poster (above) made by Carol Tyler in honor of Jay Lynch.\n\n\u201cThe 11\u2033 x 17\u2033 print featured a 4 color silk screened image of Jay\u2019s most famous characters, Nard n\u2019 Pat as drawn by cartoonist Carol Tyler in a limited edition of 50,",
      "imageUrl": null,
      "keyword": "jay lynch",
      "tier": "namematch",
@@ -2502,16 +2488,16 @@
     }
    ],
    "samples": [
-    "Reading comic books is fairly intimidating if you don\u2019t get into it until later in life. There is this huge mythos surrounding it all. So many people are \u201cin the know\u201d about all the characters, such as the Marvel universe versus the DC universe (I couldn\u2019t tell you which superhero is in which), that",
     "As the modern vultures descend upon Bill\u2019s contribution to comix (inventing the term \u201cfanboy\u201d), by putting out dozens of books using Bill\u2019s title as their own, and without a speck of recognition for Bill and Al, the injustice of the whole situation is a black eye on the countenance of the comic book",
     "He also did a strip for Playboy Magazine called \u201cGive \u2018Em an Inch by Jay Lynch\u201d that I can\u2019t reproduce on this Bunny Blog \u2013no matter how salty the language got this week\u2013 for reasons of decorum.\n\nThanks for the subversion, Jay.  You\u2019re one of the reasons I never got a real job.",
+    "Reading comic books is fairly intimidating if you don\u2019t get into it until later in life. There is this huge mythos surrounding it all. So many people are \u201cin the know\u201d about all the characters, such as the Marvel universe versus the DC universe (I couldn\u2019t tell you which superhero is in which), that",
     "Seth on the end of Bazooka Joe Comics\n\nTopps recently announced the discontinuation of its long-running Bazooka Joe comic strip, since 1954 a popular addition to its bubblegum packaging.  The strip has a storied history (ironically the subject of an upcoming celebratory book from Abrams ComicArt, Ba",
-    "He ventured to San Francisco in 1970 to join the burgeoning underground comix movement. His first major comic book titles included Tales of Toad and Young Lust (co-created with cartoonist Jay Kinney), a bestselling series parodying romance comics of the time. He co-edited Arcade for its seven-issue ",
     "R. Crumb. First Edition. Signed by Author(s). Crumb, Robert [Spiegelman, Alessandrini, Mason]. SMALL BUT SIGNIFICANT ARCHIVE REGARDING THE TRANSLATION OF THE \"CRUMB\" BIOGRAPHY. In the late 1970's Montreal writer & comic book collector, William J. Mason spent several years working on a translation of",
     "\u201cMr. Natural (Fred Natural) is a comic book character created and drawn by 1960s counterculture and underground comix artist Robert Crumb. First appearing in the premiere issue of Yarrowstalks (May 5, 1967), the character gained a following during the underground comix fad of the 1960s and 1970s, an",
     "John Benson, in his historical essay accompanying the selections from the comic books that arose, imitatively, in the wake of the sudden success of Mad in 1953-54, notes that as a passionate young fan of Mad who couldn't get enough of Harvey Kurtzman's innovative satirical comic, he would scour the ",
-    "Stitches by David Small. Unterzakhn by Leela Corman. Drinking at the Movies by Julia Wertz.\n\nAre You My Mother? Anya's Ghost by Vera Brosgol. Celluloid by Dave McKean. Fox series. Otto's Orange Day by Jay Lynch. After a genie fulfills Otto the cat's wish by turning the whole world orange, Otto reali",
-    "Known affectionately among collectors as \u201cWacky Packs,\u201d as a creative force with artist Art Spiegelman, the stickers were illustrated by such notable comics artists as Kim Deitch, , Bill Griffith, Jay Lynch, and Norm Saunders.\n\nSweet fucking Jeezis, you'd think that an on-line bookselling outfit cou"
+    "He ventured to San Francisco in 1970 to join the burgeoning underground comix movement. His first major comic book titles included Tales of Toad and Young Lust (co-created with cartoonist Jay Kinney), a bestselling series parodying romance comics of the time. He co-edited Arcade for its seven-issue ",
+    "Known affectionately among collectors as \u201cWacky Packs,\u201d as a creative force with artist Art Spiegelman, the stickers were illustrated by such notable comics artists as Kim Deitch, , Bill Griffith, Jay Lynch, and Norm Saunders.\n\nSweet fucking Jeezis, you'd think that an on-line bookselling outfit cou",
+    "Stitches by David Small. Unterzakhn by Leela Corman. Drinking at the Movies by Julia Wertz.\n\nAre You My Mother? Anya's Ghost by Vera Brosgol. Celluloid by Dave McKean. Fox series. Otto's Orange Day by Jay Lynch. After a genie fulfills Otto the cat's wish by turning the whole world orange, Otto reali"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2601,9 +2587,9 @@
     "longformRatio": 0.07,
     "perDataset": {
      "coyo700m": 1,
+     "laion1b-nolang": 7,
      "laion2b-en": 17,
      "laion2b-multi": 15,
-     "laion1b-nolang": 7,
      "obelics": 2,
      "pile": 1
     },
@@ -2617,13 +2603,13 @@
     "longformHits": 674,
     "longformRatio": 0.641,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 45,
+     "laion1b-nolang": 102,
      "laion2b-en": 208,
      "laion2b-multi": 22,
-     "laion1b-nolang": 102,
      "obelics": 668,
-     "pile": 3,
-     "c4-en": 3
+     "pile": 3
     },
     "reason": null
    }
@@ -2637,16 +2623,16 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 105,
+  "evidenceShown": 104,
   "evidenceWithheld": {
+   "unverified": 959,
    "person_photo": 160,
-   "unverified": 962,
-   "unrelated": 53,
+   "unrelated": 49,
    "merchandise": 93,
-   "storefront": 28,
+   "storefront": 36,
    "derivative": 5
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-jay-lynch",
  "cohort": "billy-ireland",
@@ -2659,7 +2645,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1427,
   "datasetsPresent": 7,

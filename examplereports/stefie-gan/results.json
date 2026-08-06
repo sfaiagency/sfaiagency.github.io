@@ -111,8 +111,8 @@
    "coverageComplete": true,
    "rowsCovered": 141047704,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 1,
+   "highConfidenceCount": 1,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 1,
@@ -729,7 +729,7 @@
   ]
  },
  "reportName": "Stefie Gan",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -740,7 +740,7 @@
   "keywordEvidence": [
    {
     "keyword": "stefie gan",
-    "tier": "namematch",
+    "tier": "high",
     "count": 1,
     "captionHits": 0,
     "longformHits": 1,
@@ -755,8 +755,8 @@
    "datasetsPresent": 1,
    "totalDatasets": 7,
    "credibleMentions": 1,
-   "highConfidenceMentions": 0,
-   "nameMatchMentions": 1,
+   "highConfidenceMentions": 1,
+   "nameMatchMentions": 0,
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
@@ -764,7 +764,7 @@
   "evidenceWithheld": {
    "unverified": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "stefie-gan",
  "cohort": "early-adopter",

@@ -454,8 +454,8 @@
     "longformHits": 0,
     "longformRatio": 0.0,
     "perDataset": {
-     "laion2b-en": 11,
-     "laion1b-nolang": 1
+     "laion1b-nolang": 1,
+     "laion2b-en": 11
     },
     "reason": null
    }
@@ -471,11 +471,11 @@
   },
   "evidenceShown": 0,
   "evidenceWithheld": {
+   "unverified": 4,
    "explicit": 6,
-   "unrelated": 2,
-   "unverified": 4
+   "unrelated": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-stuart-a-copans",
  "cohort": "billy-ireland",
@@ -488,7 +488,7 @@
   "estimatedMonthlyUsers": 23780000,
   "estimatedTotalGenerations": 4756000000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 12,
   "datasetsPresent": 2,

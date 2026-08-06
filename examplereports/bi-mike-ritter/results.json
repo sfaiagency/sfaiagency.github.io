@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,20 +898,6 @@
    "totalIncludingLowConfidence": 39,
    "rows": [
     {
-     "text": "Baylor University Chief of Police Brad Wigtil and Accreditation Manager Sgt. Andrew Huntington point out their achievement following the Awards Ceremony at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
-     "imageUrl": "https://www.iaclea.org/assets/uploads/images/Accreditation_Baylor.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Mike Ritter's editorial cartoon",
      "imageUrl": "https://cdn.thegavoice.com/wp-content/uploads/2011/06/cartoon-body-6-10-11.jpg",
      "keyword": "mike ritter",
@@ -928,20 +914,6 @@
     {
      "text": "\"I want Martin to live a full life. And I want him to live a full life through all of you...\": -Bill Richard, on the ultimate mission of the Martin W. Richard Foundation. Photo Copyright Mike Ritter/ ritterbin.com",
      "imageUrl": "http://www.dotnews.com/files/images/Martin%20MR8_FenwayKickoff-0452.img_assist_custom-400x353.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Chief Paul Chapa and Lt. John Rouse of Trinity University (Texas) Security and Safety Department receive recognition for achieving initial Accreditation during the 2019 Annual Conference & Exposition. \u00a9 Mike Ritter",
-     "imageUrl": "https://www.iaclea.org/assets/uploads/images/AC19_Accred_Trinity.jpg",
      "keyword": "mike ritter",
      "tier": "namematch",
      "punsafe": null,
@@ -996,50 +968,8 @@
      }
     },
     {
-     "text": "Representatives of the College of Lake County (Illinois) Police Department accepted their IACLEA Accreditation Award at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
-     "imageUrl": "https://www.iaclea.org/assets/uploads/images/Accred_CollegeLakeCounty_Award_Guenther_(3rdfromleft).jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Elijah Rock, Nehal Joshi and Harriet D. Foy Photo credit: Mike Ritter",
-     "imageUrl": "https://www.netheatregeek.com/wp-content/uploads/2015/01/10943763_801612833208988_8497229377482245149_n.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photo by Mike Ritter",
-     "imageUrl": "https://cdn10.bostonmagazine.com/wp-content/uploads/2016/10/Photo-by-Mike-Ritter.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dr. David Churchill. Photo by Mike Ritter.",
-     "imageUrl": "https://www.mun.ca/research/images/news/9607_n.jpg",
+     "text": "PHOTO BY MIKE RITTER/RITTERBIN PHOTOGRAPHY",
+     "imageUrl": "https://cdn10.bostonmagazine.com/wp-content/uploads/2015/08/boston-book-festival1.jpg",
      "keyword": "mike ritter",
      "tier": "namematch",
      "punsafe": null,
@@ -1066,20 +996,6 @@
      }
     },
     {
-     "text": "Carmen Zilles, Carmen M. Herlihy, Paula Plum and Kiara Pichardo during a rehearsal for \"Top Girls.\" (Courtesy Mike Ritter/Huntington Theatre Company",
-     "imageUrl": "https://d279m997dpfwgl.cloudfront.net/wp/2018/04/0424_top-girls-1.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "credit \u00a9 Mike Ritter",
      "imageUrl": "http://softmaterials.brandeis.edu/files/2015/08/mrsec_research.jpg",
      "keyword": "mike ritter",
@@ -1094,8 +1010,8 @@
      }
     },
     {
-     "text": "Joe Pernice Ric Menck James Walbourne (photo by Mike Ritter",
-     "imageUrl": "http://media3.picsearch.com/is?AMolx4D38MaD7DdCjQXFFO0pkMyLULlG9FUu0-fHMik&height=226",
+     "text": "Baylor University Chief of Police Brad Wigtil and Accreditation Manager Sgt. Andrew Huntington point out their achievement following the Awards Ceremony at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
+     "imageUrl": "https://www.iaclea.org/assets/uploads/images/Accreditation_Baylor.jpg",
      "keyword": "mike ritter",
      "tier": "namematch",
      "punsafe": null,
@@ -1108,8 +1024,92 @@
      }
     },
     {
-     "text": "PHOTO BY MIKE RITTER/RITTERBIN PHOTOGRAPHY",
-     "imageUrl": "https://cdn10.bostonmagazine.com/wp-content/uploads/2015/08/boston-book-festival1.jpg",
+     "text": "Chief Paul Chapa and Lt. John Rouse of Trinity University (Texas) Security and Safety Department receive recognition for achieving initial Accreditation during the 2019 Annual Conference & Exposition. \u00a9 Mike Ritter",
+     "imageUrl": "https://www.iaclea.org/assets/uploads/images/AC19_Accred_Trinity.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Mike Ritter",
+     "imageUrl": "https://cdn10.bostonmagazine.com/wp-content/uploads/2016/10/Photo-by-Mike-Ritter.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Elijah Rock, Nehal Joshi and Harriet D. Foy Photo credit: Mike Ritter",
+     "imageUrl": "https://www.netheatregeek.com/wp-content/uploads/2015/01/10943763_801612833208988_8497229377482245149_n.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dr. David Churchill. Photo by Mike Ritter.",
+     "imageUrl": "https://www.mun.ca/research/images/news/9607_n.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Representatives of the College of Lake County (Illinois) Police Department accepted their IACLEA Accreditation Award at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
+     "imageUrl": "https://www.iaclea.org/assets/uploads/images/Accred_CollegeLakeCounty_Award_Guenther_(3rdfromleft).jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Carmen Zilles, Carmen M. Herlihy, Paula Plum and Kiara Pichardo during a rehearsal for \"Top Girls.\" (Courtesy Mike Ritter/Huntington Theatre Company",
+     "imageUrl": "https://d279m997dpfwgl.cloudfront.net/wp/2018/04/0424_top-girls-1.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Joe Pernice Ric Menck James Walbourne (photo by Mike Ritter",
+     "imageUrl": "http://media3.picsearch.com/is?AMolx4D38MaD7DdCjQXFFO0pkMyLULlG9FUu0-fHMik&height=226",
      "keyword": "mike ritter",
      "tier": "namematch",
      "punsafe": null,
@@ -1137,16 +1137,16 @@
     }
    ],
    "samples": [
-    "Baylor University Chief of Police Brad Wigtil and Accreditation Manager Sgt. Andrew Huntington point out their achievement following the Awards Ceremony at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
     "Mike Ritter's editorial cartoon",
     "\"I want Martin to live a full life. And I want him to live a full life through all of you...\": -Bill Richard, on the ultimate mission of the Martin W. Richard Foundation. Photo Copyright Mike Ritter/ ritterbin.com",
-    "Chief Paul Chapa and Lt. John Rouse of Trinity University (Texas) Security and Safety Department receive recognition for achieving initial Accreditation during the 2019 Annual Conference & Exposition. \u00a9 Mike Ritter",
     "Darlene Skinner says research on rats and mice can advance the field of spatial cognition. Photo by Mike Ritter.",
     "Elijah Rock as Roland Hayes and Harriett D. Foy as Angel Mo\u2019 in Daniel Beaty\u2018s \u201cBreath & Imagination.\u201c Mike Ritter/Ritterbin Photography",
     "Mark Gauci at the Elaine Dobbin Centre for Autism. Photo by Mike Ritter.",
-    "Representatives of the College of Lake County (Illinois) Police Department accepted their IACLEA Accreditation Award at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
-    "Elijah Rock, Nehal Joshi and Harriet D. Foy Photo credit: Mike Ritter",
-    "Photo by Mike Ritter"
+    "PHOTO BY MIKE RITTER/RITTERBIN PHOTOGRAPHY",
+    "Dancing with the Stars of Boston: Mary Truong of Carney Hospital twirled her way to a win last year. Photo by Mike Ritter/ritterbin.com",
+    "credit \u00a9 Mike Ritter",
+    "Baylor University Chief of Police Brad Wigtil and Accreditation Manager Sgt. Andrew Huntington point out their achievement following the Awards Ceremony at the 2018 Annual Conference & Exposition. \u00a9 Mike Ritter",
+    "Chief Paul Chapa and Lt. John Rouse of Trinity University (Texas) Security and Safety Department receive recognition for achieving initial Accreditation during the 2019 Annual Conference & Exposition. \u00a9 Mike Ritter"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1172,11 +1172,11 @@
    "totalIncludingLowConfidence": 84,
    "rows": [
     {
-     "text": "Taken Monday, April 20th, 2015 from 9:15-9:28AM.  Found and &copy; by Mike Ritter.<br /> <br /> This was Marathon Monday 2015.  The weather was rainy.  A kind fellow spectator passed me a plastic bag to place over my camera.  While I shot, the announcements of the beginning heats of runners were ann",
-     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000xSqiT7MSroA/fit=1000x750/HighRes-150420-2005-ShopsPruCenter.jpg",
+     "text": "Crowds line up for shuttles at the Fenton shuttle lot (Credit: Mike Ritter / KMOV)",
+     "imageUrl": "http://KMOV.images.worldnow.com/images/17361915_G.jpg?auto=webp&amp;disable=upscale&amp;width=800&amp;lastEditedDate=20180807110502",
      "keyword": "mike ritter",
      "tier": "namematch",
-     "punsafe": 0.0010980069637298584,
+     "punsafe": 9.071949898498133e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1186,11 +1186,11 @@
      }
     },
     {
-     "text": "Crowds line up for shuttles at the Fenton shuttle lot (Credit: Mike Ritter / KMOV)",
-     "imageUrl": "http://KMOV.images.worldnow.com/images/17361915_G.jpg?auto=webp&amp;disable=upscale&amp;width=800&amp;lastEditedDate=20180807110502",
+     "text": "Taken Monday, April 20th, 2015 from 9:15-9:28AM.  Found and &copy; by Mike Ritter.<br /> <br /> This was Marathon Monday 2015.  The weather was rainy.  A kind fellow spectator passed me a plastic bag to place over my camera.  While I shot, the announcements of the beginning heats of runners were ann",
+     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000xSqiT7MSroA/fit=1000x750/HighRes-150420-2005-ShopsPruCenter.jpg",
      "keyword": "mike ritter",
      "tier": "namematch",
-     "punsafe": 9.071949898498133e-05,
+     "punsafe": 0.0010980069637298584,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1285,34 +1285,6 @@
     },
     {
      "text": "Portrait at Epiphany School by Mike Ritter, Ritterbin Photography",
-     "imageUrl": "https://images.squarespace-cdn.com/content/v1/55775130e4b0ae711cbc7ecc/1434754938119-1D1ECU4ITFYC4J1FQDX4/ke17ZwdGBToddI8pDm48kPYsS51_ZNqEPb99crPrVNgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcSUsRueZqYhgBjZ0O1xuk5X3lyjyrfS5aqkS5DibexGSz5CzvKkAvw3QSQ_2PJhJG/WebRes_140905_EpiphanySchoolAR-0551.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": 0.002191513776779175,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Taken Wednesday, July 22nd, 2015 from 5:55-6:30PM.  Found and &copy; by Mike Ritter.<br /> <br /> This is the backside of the Copley Square fountain with Trinity Church and the Hancock Tower (now officially known as 200 Clarendon), two of Boston&rsquo;s most famous buildings, in the background.  The",
-     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000dp6jtUwjF58/fit=1000x750/HighRes-150722-1989-CopleySquare.jpg",
-     "keyword": "mike ritter",
-     "tier": "namematch",
-     "punsafe": 0.00042176246643066406,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Portrait at Epiphany School by Mike Ritter, Ritterbin Photography",
      "imageUrl": "https://images.squarespace-cdn.com/content/55775130e4b0ae711cbc7ecc/1434754938119-1D1ECU4ITFYC4J1FQDX4/WebRes_140905_EpiphanySchoolAR-0551.jpg?format=1000w&content-type=image%2Fjpeg",
      "keyword": "mike ritter",
      "tier": "namematch",
@@ -1340,6 +1312,34 @@
      }
     },
     {
+     "text": "Portrait at Epiphany School by Mike Ritter, Ritterbin Photography",
+     "imageUrl": "https://images.squarespace-cdn.com/content/v1/55775130e4b0ae711cbc7ecc/1434754938119-1D1ECU4ITFYC4J1FQDX4/ke17ZwdGBToddI8pDm48kPYsS51_ZNqEPb99crPrVNgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcSUsRueZqYhgBjZ0O1xuk5X3lyjyrfS5aqkS5DibexGSz5CzvKkAvw3QSQ_2PJhJG/WebRes_140905_EpiphanySchoolAR-0551.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": 0.002191513776779175,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Taken Wednesday, July 22nd, 2015 from 5:55-6:30PM.  Found and &copy; by Mike Ritter.<br /> <br /> This is the backside of the Copley Square fountain with Trinity Church and the Hancock Tower (now officially known as 200 Clarendon), two of Boston&rsquo;s most famous buildings, in the background.  The",
+     "imageUrl": "https://ssl.c.photoshelter.com/img-get2/I0000dp6jtUwjF58/fit=1000x750/HighRes-150722-1989-CopleySquare.jpg",
+     "keyword": "mike ritter",
+     "tier": "namematch",
+     "punsafe": 0.00042176246643066406,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "\"Cartoon by Mike Ritter depicting an elderly person in a hospital bed with a button pinned to his gown reading \"\"hands off medicare.\"\"  Into his left arm feeds an I V drip, with a baby instead of a bag of medicine feeding the tube.\"",
      "imageUrl": "https://apps.weber.edu/wsuimages/weberjournal/Archives/17_0/rtw2.jpg",
      "keyword": "mike ritter",
@@ -1354,11 +1354,11 @@
      }
     },
     {
-     "text": "Taken Monday, April 20th, 2015 from 9:15-9:28AM.  Found and \u00a9 by Mike Ritter.<br /> <br /> This was Marathon Monday 2015.  The weather was rainy.  A kind fellow spectator passed me a plastic bag to place over my camera.  While I shot, the announcements of the beginning heats of runners were announce",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000xSqiT7MSroA/fit=1000x750/HighRes-150420-2005-ShopsPruCenter.jpg",
+     "text": "Taken Saturday, August 8th, 2015 from 7:25-7:46PM. Found and \u00a9 by Mike Ritter.<br /> <br /> Norfolk Ave. intersects with Gerard St. in the distance and runs parallel to Mass Ave through an old industrial area of Roxbury. A city dump is just up Gerard St. on the left from this vantage point. There ar",
+     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000dvalFimTLb4/fit=1000x750/HighRes-150808-1888-87NorfolkAve.jpg",
      "keyword": "mike ritter",
      "tier": "namematch",
-     "punsafe": 0.0010980069637298584,
+     "punsafe": 8.12168073025532e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1368,11 +1368,11 @@
      }
     },
     {
-     "text": "Taken Saturday, August 8th, 2015 from 7:25-7:46PM. Found and \u00a9 by Mike Ritter.<br /> <br /> Norfolk Ave. intersects with Gerard St. in the distance and runs parallel to Mass Ave through an old industrial area of Roxbury. A city dump is just up Gerard St. on the left from this vantage point. There ar",
-     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000dvalFimTLb4/fit=1000x750/HighRes-150808-1888-87NorfolkAve.jpg",
+     "text": "Taken Monday, April 20th, 2015 from 9:15-9:28AM.  Found and \u00a9 by Mike Ritter.<br /> <br /> This was Marathon Monday 2015.  The weather was rainy.  A kind fellow spectator passed me a plastic bag to place over my camera.  While I shot, the announcements of the beginning heats of runners were announce",
+     "imageUrl": "https://m.psecn.photoshelter.com/img-get2/I0000xSqiT7MSroA/fit=1000x750/HighRes-150420-2005-ShopsPruCenter.jpg",
      "keyword": "mike ritter",
      "tier": "namematch",
-     "punsafe": 8.12168073025532e-05,
+     "punsafe": 0.0010980069637298584,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1439,8 +1439,8 @@
     }
    ],
    "samples": [
-    "Taken Monday, April 20th, 2015 from 9:15-9:28AM.  Found and &copy; by Mike Ritter.<br /> <br /> This was Marathon Monday 2015.  The weather was rainy.  A kind fellow spectator passed me a plastic bag to place over my camera.  While I shot, the announcements of the beginning heats of runners were ann",
     "Crowds line up for shuttles at the Fenton shuttle lot (Credit: Mike Ritter / KMOV)",
+    "Taken Monday, April 20th, 2015 from 9:15-9:28AM.  Found and &copy; by Mike Ritter.<br /> <br /> This was Marathon Monday 2015.  The weather was rainy.  A kind fellow spectator passed me a plastic bag to place over my camera.  While I shot, the announcements of the beginning heats of runners were ann",
     "\"Elijah Rock as Roland Hayes and Harriett D. Foy as Angel Mo' in Daniel Beaty's \"\"Breath & Imagination.\"\" Mike Ritter/Ritterbin Photography\"",
     "\"Carmen Zilles, Carmen M. Herlihy, Paula Plum and Kiara Pichardo during a rehearsal for \"\"Top Girls.\"\" (Courtesy Mike Ritter/Huntington Theatre Company)\"",
     "Taken Saturday, June 13th, 2015 from 11:59AM-12:55PM. Found and \u00a9 photo by Mike Ritter.<br /> <br /> The Boston Gay Pride Parade starts on Boylston Street and comes past this point on Clarendon Street shortly later passing through the South End then the Public Garden and Beacon Hill before finishing",
@@ -1448,7 +1448,7 @@
     "Ziegfeld Theatre - New York, NY - Photo Credit: Mike Ritter",
     "Sergio Garcia competes in the Omega 'closest to the pin' competition at the Gateway Arch Monday afternoon. (Mike Ritter / KMOV)",
     "Portrait at Epiphany School by Mike Ritter, Ritterbin Photography",
-    "Taken Wednesday, July 22nd, 2015 from 5:55-6:30PM.  Found and &copy; by Mike Ritter.<br /> <br /> This is the backside of the Copley Square fountain with Trinity Church and the Hancock Tower (now officially known as 200 Clarendon), two of Boston&rsquo;s most famous buildings, in the background.  The"
+    "1927 Time Collage, BU Bridge. Taken Saturday, October 17th, 2015 from 11:47AM-12:37PM. Found and \u00a9 by Mike Ritter."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1837,9 +1837,9 @@
     "longformRatio": 0.565,
     "perDataset": {
      "coyo700m": 39,
+     "laion1b-nolang": 18,
      "laion2b-en": 84,
      "laion2b-multi": 6,
-     "laion1b-nolang": 18,
      "obelics": 191
     },
     "reason": null
@@ -1856,14 +1856,14 @@
   },
   "evidenceShown": 52,
   "evidenceWithheld": {
-   "unverified": 230,
-   "person_photo": 37,
+   "unverified": 229,
+   "person_photo": 36,
    "merchandise": 1,
+   "storefront": 7,
    "unrelated": 4,
-   "explicit": 1,
-   "storefront": 5
+   "explicit": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-mike-ritter",
  "cohort": "billy-ireland",
@@ -1876,7 +1876,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 338,
   "datasetsPresent": 5,

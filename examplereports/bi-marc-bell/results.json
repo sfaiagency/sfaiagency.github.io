@@ -1,0 +1,2150 @@
+{
+ "artistName": "Marc Bell",
+ "modality": "illustration",
+ "models": [
+  {
+   "name": "Midjourney v5",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 8000000,
+   "totalDownloads": 300000000,
+   "description": "Midjourney's proprietary text-to-image generation model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "DALL-E 2",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 5000000,
+   "totalDownloads": 200000000,
+   "description": "OpenAI's text-to-image model using CLIP and diffusion.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion XL",
+   "hfPath": "stabilityai/stable-diffusion-xl-base-1.0",
+   "isMajor": true,
+   "monthlyActiveUsers": 3200000,
+   "totalDownloads": 45000000,
+   "description": "SDXL 1.0 base model by Stability AI with improved image quality at higher resolutions.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 1.5",
+   "hfPath": "runwayml/stable-diffusion-v1-5",
+   "isMajor": true,
+   "monthlyActiveUsers": 2500000,
+   "totalDownloads": 85000000,
+   "description": "Latent text-to-image diffusion model by Runway, fine-tuned from SD 1.4.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Imagen",
+   "hfPath": null,
+   "isMajor": true,
+   "monthlyActiveUsers": 1000000,
+   "totalDownloads": 50000000,
+   "description": "Google's text-to-image diffusion model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Stable Diffusion 2.1",
+   "hfPath": "stabilityai/stable-diffusion-2-1",
+   "isMajor": true,
+   "monthlyActiveUsers": 800000,
+   "totalDownloads": 30000000,
+   "description": "Improved latent diffusion model by Stability AI, trained on LAION-5B subset.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-80b-instruct",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "80B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3",
+   "hfPath": "HuggingFaceM4/Idefics3-8B-Llama3",
+   "isMajor": true,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 5000000,
+   "description": "Third-generation 8B IDEFICS model built on Llama 3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS-80B",
+   "hfPath": "HuggingFaceM4/idefics-80b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "80B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B",
+   "hfPath": "HuggingFaceM4/idefics2-8b",
+   "isMajor": true,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 4000000,
+   "description": "8B-parameter second-generation IDEFICS model by HuggingFace.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "SDXL Turbo",
+   "hfPath": "stabilityai/sdxl-turbo",
+   "isMajor": false,
+   "monthlyActiveUsers": 600000,
+   "totalDownloads": 8000000,
+   "description": "Adversarial diffusion distillation of SDXL for real-time generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "OpenJourney",
+   "hfPath": "prompthero/openjourney",
+   "isMajor": false,
+   "monthlyActiveUsers": 400000,
+   "totalDownloads": 15000000,
+   "description": "SD 1.5 fine-tune trained on Midjourney images.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Realistic Vision V5.1",
+   "hfPath": "SG161222/Realistic_Vision_V5.1_noVAE",
+   "isMajor": false,
+   "monthlyActiveUsers": 350000,
+   "totalDownloads": 14000000,
+   "description": "SD 1.5 fine-tune for photorealistic image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Waifu Diffusion",
+   "hfPath": "hakurei/waifu-diffusion",
+   "isMajor": false,
+   "monthlyActiveUsers": 300000,
+   "totalDownloads": 12000000,
+   "description": "SD fine-tune for anime-style image generation.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "Anything V5",
+   "hfPath": "stablediffusionapi/anything-v5",
+   "isMajor": false,
+   "monthlyActiveUsers": 250000,
+   "totalDownloads": 10000000,
+   "description": "Popular anime-focused SD fine-tune.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Dreamlike Diffusion",
+   "hfPath": "dreamlike-art/dreamlike-diffusion-1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 200000,
+   "totalDownloads": 8000000,
+   "description": "SD 1.5 fine-tune optimized for artistic outputs.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "Playground v2.5",
+   "hfPath": "playgroundai/playground-v2.5-1024px-aesthetic",
+   "isMajor": false,
+   "monthlyActiveUsers": 180000,
+   "totalDownloads": 4000000,
+   "description": "Open-source model by Playground AI focused on aesthetic quality.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "DeepFloyd IF",
+   "hfPath": "DeepFloyd/IF-I-XL-v1.0",
+   "isMajor": false,
+   "monthlyActiveUsers": 150000,
+   "totalDownloads": 5000000,
+   "description": "Pixel-space diffusion model by DeepFloyd (Stability AI).",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B-Instruct",
+   "hfPath": "HuggingFaceM4/idefics-9b-instruct",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "9B-parameter open multimodal model by HuggingFace, instruction-tuned.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "PixArt-\u03b1",
+   "hfPath": "PixArt-alpha/PixArt-XL-2-1024-MS",
+   "isMajor": false,
+   "monthlyActiveUsers": 120000,
+   "totalDownloads": 3500000,
+   "description": "Efficient transformer-based text-to-image model.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Kandinsky 2.2",
+   "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "Multilingual text-to-image model by Sber AI.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion1B-nolang-research-safe"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-5",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 1000000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.5 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B",
+   "hfPath": "BAAI/EVA-CLIP-8B",
+   "isMajor": false,
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter CLIP model by BAAI with improved visual representations.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternVL-14B-224px",
+   "hfPath": "OpenGVLab/InternVL-14B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 800000,
+   "description": "14B-parameter vision-language model by OpenGVLab.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-300M-448px",
+   "hfPath": "OpenGVLab/InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 50000,
+   "totalDownloads": 500000,
+   "description": "Lightweight vision transformer by OpenGVLab for multi-modal tasks.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "laion/relaion2B-en-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-224px",
+   "hfPath": "OpenGVLab/InternViT-6B-224px",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 600000,
+   "description": "6B-parameter vision transformer by OpenGVLab at 224px resolution.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B",
+   "hfPath": "BAAI/EVA-CLIP-18B",
+   "isMajor": false,
+   "monthlyActiveUsers": 40000,
+   "totalDownloads": 800000,
+   "description": "18B-parameter CLIP model by BAAI, largest open CLIP model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-2",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 400000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.2 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B-448",
+   "hfPath": "BAAI/EVA-CLIP-8B-448",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternViT-6B-448px-V1-0",
+   "hfPath": "OpenGVLab/InternViT-6B-448px-V1-0",
+   "isMajor": false,
+   "monthlyActiveUsers": 20000,
+   "totalDownloads": 300000,
+   "description": "6B-parameter vision transformer by OpenGVLab, V1.0 release.",
+   "trainingDatasets": [
+    "laion/relaion2B-multi-research-safe",
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-Zephyr",
+   "hfPath": "Infi-MM/infimm-zephyr",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 200000,
+   "description": "Multimodal model by Infi-MM based on Zephyr architecture.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 15000,
+   "totalDownloads": 300000,
+   "description": "AWQ-quantized chat-optimized IDEFICS2-8B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InfiMM-Vicuna-13B",
+   "hfPath": "Infi-MM/infimm-vicuna13b",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 150000,
+   "description": "Multimodal model by Infi-MM based on Vicuna-13B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Base-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 200000,
+   "description": "AWQ-quantized IDEFICS2-8B base model.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
+   "isMajor": false,
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InfiMM-HD",
+   "hfPath": "Infi-MM/infimm-hd",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 100000,
+   "description": "High-definition multimodal model by Infi-MM.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "isMajor": false,
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "typeof/idefics-9b",
+   "hfPath": "typeof/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Community variant of IDEFICS-9B.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B for Apple Silicon.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-BF16",
+   "hfPath": "Trelis/idefics2-8b-chatty-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 conversion of IDEFICS2-8B-Chatty by Trelis.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-DocVQA",
+   "hfPath": "Reverb/Idefics2-8b-docVQA-finetuned",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for document visual question answering.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-OCR",
+   "hfPath": "huz-relay/idefics2-8b-ocr",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "IDEFICS2-8B fine-tuned for OCR tasks.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-BF16 (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-bf16",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "BF16 MLX conversion of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-4bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "4-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-4bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "4-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS2-8B-Chatty-8bit (MLX)",
+   "hfPath": "mlx-community/idefics2-8b-chatty-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS2-8B-Chatty.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-6bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-6bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "6-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-8bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-8bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "8-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-Q4_K_M (GGUF)",
+   "hfPath": "jesse9527/Idefics3-8B-Llama3-Q4_K_M-GGUF",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "GGUF Q4_K_M quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "UCDR-Net Models",
+   "hfPath": "Baptlem/UCDR-Net_models",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Universal cross-domain retrieval network models.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-Int8-OL",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-Int8-OL",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Int8 quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5-4bit",
+   "hfPath": "wyseow/InternVL-Chat-V1-5-4bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "4-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat-V1-5 (multigpus)",
+   "hfPath": "weikaih/internvl-v1-5-multigpus",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Multi-GPU optimized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton",
+   "hfPath": "radna/mini_intern_chat_triton",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Mini InternChat Triton 2B",
+   "hfPath": "radna/mini_intern_chat_triton_2b",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "2B Triton-optimized mini InternVL chat model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-6B-448px-V1-5",
+   "hfPath": "radna/Triton-InternViT-6B-448px-V1-5",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-6B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "Triton-InternViT-300M-448px",
+   "hfPath": "radna/Triton-InternViT-300M-448px",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Triton-optimized InternViT-300M.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "InternVL-Chat (Devops)",
+   "hfPath": "Devops-hestabit/InternVL-chat",
+   "isMajor": false,
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community deployment of InternVL Chat.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  }
+ ],
+ "imageInference": null,
+ "reportName": "Marc Bell",
+ "datasets": [
+  {
+   "datasetName": "COYO-700M",
+   "hfPath": "kakaobrain/coyo-700m",
+   "apiPath": "kakaobrain/coyo-700m",
+   "datasetKey": "coyo700m",
+   "modality": "image",
+   "found": true,
+   "count": 66,
+   "mentionsFound": 66,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 747017344,
+   "coverageNote": "",
+   "highConfidenceCount": 66,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 66,
+   "rows": [
+    {
+     "text": "The key visual of OAFF 2021 is an original art by Vancouver-based cartoonist Marc Bell.",
+     "imageUrl": "https://genkinahito.files.wordpress.com/2021/02/oaff21_keyvisual.jpg?w=376&h=376",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MONO - Holywood Pier by Marc Bell (10.5 marks",
+     "imageUrl": "https://static.wixstatic.com/media/281489_d6e3c83031f14b5092b145d34d6b4d7b~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_90/281489_d6e3c83031f14b5092b145d34d6b4d7b~mv2.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Taco Approaches Shrimpy And Paul's House\" is copyright \u00a92008 by Marc Bell. All rights reserved. Reproduction prohibited.",
+     "imageUrl": "http://comicartcollective.com/artImages/9FF976F2-6E0A-41A7-85953A19F9F008DC.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marc Bell, a South Florida millionaire, opened his Boca Raton mansion to dozens of foster children made homeless by the devastation of Hurricane Irma.",
+     "imageUrl": "https://media.breitbart.com/media/2017/09/SOS-Childrens-Villages-screenshot-420x315.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "https://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Main.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Wall of Sound by Marc Bell",
+     "imageUrl": "http://newsprintexhibit.com/images/detail_bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From \"Stroppy\" by Marc Bell",
+     "imageUrl": "https://i1.wp.com/comicsgrinder.com/wp-content/uploads/2016/10/marc-bell-comics-2016.jpg?resize=500%2C687&ssl=1",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "PDI - Over the Hill by Marc Bell (14 marks) - Starred",
+     "imageUrl": "https://static.wixstatic.com/media/281489_439420e5820c48efa24d1f90024b97e2~mv2.jpg/v1/fill/w_1600,h_1067,al_c,q_90/281489_439420e5820c48efa24d1f90024b97e2~mv2.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "The key visual of OAFF 2021 is an original art by Vancouver-based cartoonist Marc Bell.",
+    "MONO - Holywood Pier by Marc Bell (10.5 marks",
+    "\"Taco Approaches Shrimpy And Paul's House\" is copyright \u00a92008 by Marc Bell. All rights reserved. Reproduction prohibited.",
+    "Marc Bell, a South Florida millionaire, opened his Boca Raton mansion to dozens of foster children made homeless by the devastation of Hurricane Irma.",
+    "i>Stroppy</i> by Marc Bell Review",
+    "Wall of Sound by Marc Bell",
+    "From \"Stroppy\" by Marc Bell",
+    "PDI - Over the Hill by Marc Bell (14 marks) - Starred"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B English",
+   "hfPath": "laion/relaion2B-en-research-safe",
+   "apiPath": "laion/relaion2B-en-research-safe",
+   "datasetKey": "laion2b-en",
+   "modality": "image",
+   "found": true,
+   "count": 151,
+   "mentionsFound": 151,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2097690752,
+   "coverageNote": "",
+   "highConfidenceCount": 151,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 151,
+   "rows": [
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635736435557974081",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Canvas Print by Marc Bell",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/napa-valley-american-viticulture-areas-marc-bell-canvas-print.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 9.872388909570873e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "hot potatoe, endpaper by marc bell",
+     "imageUrl": "http://www.artnet.com/WebServices/images/ll540192llgvqUCfDrCWXJHQFAD/marc-bell-hot-potatoe,-endpaper.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.0008375644683837891,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635718076610172070",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716356579602806",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635714757215710792",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stroppy by Marc Bell",
+     "imageUrl": "https://www.canadacomicsol.org/wp-content/uploads/2018/11/Stroppy-by-Marc-Bell-225x300.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.005123436450958252,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Shrimpy And Paul And Friends by Marc Bell",
+     "imageUrl": "https://www.canadacomicsol.org/wp-content/uploads/2019/08/Shrimpy-And-Paul-And-Friends-by-Marc-Bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.0008332729339599609,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635741114733539922",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635713795670390082",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635736431663738632",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635737336153667325",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Boutique Mag #1 by Marc Bell",
+     "imageUrl": "https://static.shoplightspeed.com/shops/609678/files/002485671/262x276x1/boutique-mag-1-by-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.016158580780029297,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635713233974438260",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MONO - Pan Rock by Marc Bell (13.5 marks)",
+     "imageUrl": "https://static.wixstatic.com/media/281489_03c4dcbf02fa458cae41cf41bf5c4726~mv2.jpg/v1/fill/w_980,h_551,al_c,q_90/281489_03c4dcbf02fa458cae41cf41bf5c4726~mv2.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 2.4518499230907764e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635738439821535369",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635715518247247225",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Digital Greeting Cards - Napa Valley AVA Map Greeting Card by Marc Bell",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.00013509392738342285,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635712459979209220",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716724091171735",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stroppy by Marc Bell",
+     "imageUrl": "https://www.canadacomicsol.org/wp-content/uploads/2018/11/Stroppy-by-Marc-Bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.004067420959472656,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635713415359731323",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635713639665629761",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635715157309521618",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Framed Print by Marc Bell",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 4.3519099563127384e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "U0027Apollou0027 Is A Industrial Aluminum Light Designed By Marc Bell And Robin  Grasby Of London Based Design Studio International",
+     "imageUrl": "https://i.pinimg.com/736x/29/84/b9/2984b9fcb1e5a68f9159583b3212da9b--lamp-shades-light-shades.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 2.1824369014211698e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635715387903418298",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716889127577446",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635737483114922045",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Marc Bell's Hot Potatoe by Marc Bell",
+     "imageUrl": "http://d.gr-assets.com/books/1312063689l/6574899.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.0017406642436981201,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Metal Print by Marc Bell",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/metal-print/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 8.571040962124243e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716264189584875",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635714019364686050",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716141428490138",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Framed Print by Marc Bell",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 4.3519099563127384e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635715262549078382",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stroppy by Marc Bell - 9781770462052 Book",
+     "imageUrl": "https://img-5.fruugo.com/product/8/90/75763908_0340_0340.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014246225357055664,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Print by Marc Bell",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 4.328366776462644e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716957719709678",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "SHRIMPY and PAUL Marc Bell 2003 HIGHWATER BOOKS Graphic Novel EXCLAIM! mag",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/142947725414_/SHRIMPY-and-PAUL-Marc-Bell-2003-HIGHWATER-BOOKS.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.005614727735519409,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635717094263418772",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Greeting Card by Marc Bell",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.00013509392738342285,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Shrimpy and Paul and Friends by Marc Bell",
+     "imageUrl": "http://d.gr-assets.com/books/1225036833m/1943808.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.017445087432861328,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "<i>Stroppy</i> by Marc Bell Review",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635716800498271540",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 0.014481723308563232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Napa Valley Ava Map Poster by Marc Bell",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/poster/images-medium-5/napa-valley-american-viticulture-areas-marc-bell.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 4.328366776462644e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "<i>Stroppy</i> by Marc Bell Review",
+    "Napa Valley Ava Map Canvas Print by Marc Bell",
+    "hot potatoe, endpaper by marc bell",
+    "<i>Stroppy</i> by Marc Bell Review",
+    "<i>Stroppy</i> by Marc Bell Review",
+    "<i>Stroppy</i> by Marc Bell Review",
+    "Stroppy by Marc Bell",
+    "Shrimpy And Paul And Friends by Marc Bell",
+    "<i>Stroppy</i> by Marc Bell Review",
+    "<i>Stroppy</i> by Marc Bell Review"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-2B Multi",
+   "hfPath": "laion/relaion2B-multi-research-safe",
+   "apiPath": "laion/relaion2B-multi-research-safe",
+   "datasetKey": "laion2b-multi",
+   "modality": "image",
+   "found": true,
+   "count": 47,
+   "mentionsFound": 47,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 2057910016,
+   "coverageNote": "",
+   "highConfidenceCount": 47,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 47,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "LAION Re-1B No Language",
+   "hfPath": "laion/relaion1B-nolang-research-safe",
+   "apiPath": "laion/relaion1b-nolang-research-safe",
+   "datasetKey": "laion1b-nolang",
+   "modality": "image",
+   "found": true,
+   "count": 41,
+   "mentionsFound": 41,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 1191320960,
+   "coverageNote": "",
+   "highConfidenceCount": 41,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 41,
+   "rows": [
+    {
+     "text": "DUST (+ Marc Bell / Marky Ramone RAMONES ) Dust ( S/T same - first - 1st 1er LP) ORIGINAL PROMO",
+     "imageUrl": "https://img.cdandlp.com/2013/04/imgL/1095697372.jpg",
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": 9.099156886804849e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "DUST (+ Marc Bell / Marky Ramone RAMONES ) Dust ( S/T same - first - 1st 1er LP) ORIGINAL PROMO"
+   ],
+   "partial": false,
+   "shardsScanned": 128,
+   "shardsTotal": 128
+  },
+  {
+   "datasetName": "OBELICS",
+   "hfPath": "HuggingFaceM4/OBELICS",
+   "apiPath": "HuggingFaceM4/OBELICS",
+   "datasetKey": "obelics",
+   "modality": "image",
+   "found": true,
+   "count": 592,
+   "mentionsFound": 592,
+   "exact": true,
+   "coverageComplete": true,
+   "rowsCovered": 141047704,
+   "coverageNote": "",
+   "highConfidenceCount": 592,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 592,
+   "rows": [
+    {
+     "text": "The first full-length graphic novel from the author of Shrimpy and Paul: Who will win the All-Star Schnauzer Band song contest?\n\nEnter the strange and wordplay-loving world of the cartoonist and fine artist Marc Bell (Shrimpy and Paul, Hot Potatoe), where the All-Star Schnauzer Band runs things and ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I miss Pittsburgh, Pennsylvania. Being there means friends and good comic book stores and cheap food. So I asked one of my friends from Pittsburgh - the talented Ed Piskor - to write up a scene report for me. Pittsburgh has a lot of cool things to do next weekend October 8th and 9th 2011 - and I am ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stroppy: Being a dandy new 8\" x 10\", 64-page color album by Marc Bell, a very funny and engaging artist who's long worked in self-made comics and solo & collaborative drawings, with one-off books and collections also appearing from Highwater (Shrimpy and Paul and Friends, 2003), Fantagraphics (Worn ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today on the site we have Doug Harvey on Comic Book Apocalypse: The Graphic World of Jack Kirby on view at Cal State Northridge and curated by TCJ-contributor Charles Hatfield.\n\nAssembling and mounting the first serious institutional retrospective exhibition in America examining the art of Jack Kirb",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Manuel Morin in front of his extraordinary bookshop\n\nPARIS: Tucked away from the throngs of tourists in Paris\u2019 Montmartre, there might very well be the greatest comics bookstore in the world. BD Spirit, its name an allusion to comic book legend Will Eisner\u2019s character, is a proud caretaker of the hi",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "We then celebrated the success of the brands first fashion show at the Setai Hotel. Marc and is wife were so gracious in hosting us! KYBOE! has been around in Europe for some time but since being acquired by Marc Bell the brand  officially launched in the US in November and is available at Saks Fift",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mark Connery: Hey Marco, so Stroppy is a very beautiful book, a real treat for the eyes, and also your first graphic novel. It's also one of your easiest-to-read things. How long were you working on it? Was there a challenge in finding a groove to make the story move at the right pace?\n\nMarc Bell: I",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The first full length graphic novel from the author of Shrimpy & Paul. Enter the strange and wordplay-loving world of cartoonist and fine artist Marc Bell, where the All-Star Schnauzer Band runs things and tiny beings hold signs saying \"It's under control.\" Hapless hero Stroppy minds his business, w",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The poster art for Coronavirus pandemic victim VanCAF 2020 was created by Marc Bell.\n\nComics as a community\n\n\nIf you\u2019d asked me six months ago where I\u2019d be today (May 16), I\u2019d have said \u201cat the Roundhouse Community Arts and Recreation Centre in Yaletown, enjoying Day One of the 2020 Vancouver Comic ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Suspect Device is a comic book series in which artists build new stories based on old characters and existing source material. Brooklyn-based editor Josh Bayer has taken to Kickstarter to fund the fourth issue of the series, which will feature a cover by Black Flag album artist Raymond Pettibon and ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The titular character in Marc Bell's new book \u2013 and first all-original graphic novel \u2013 could well be the \"Working Man\" from Rush's radio hit: a blue-collar clock puncher who's got no time for living, though his drudgery gets delineated in cloudbursts of prog-rocky solos and virtuosic noodling. Over ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Today on the site, Matt Seneca visits us with a review of Windowpane 4.\n\nWith this year\u2019s Windowpane 4, Kessler trains his newfound sense of narrative focus on a higher plateau. Tipping the scales at 82 pages, the issue could easily have been marketed as a complete graphic novel, but Kessler retains",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Jump to. Sections of this page. Press alt +, to open this menu.\n\nAll songs written by Chestnut Bakery All lyrics written by Rye All tracks mixed by Jovi All tracks mastered by 11th floor Booklet images and artwork by \u5085\u8a69\u6b23 Published by BoringProductions. Special thanks to Carc, White Light Records, Si",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "At exactly the same time on Wednesday night is the latest installment of the long-running Open Word: Readings and Ideas author series at Open Space. Featured reader this week is Guelph-based cartoonist and graphic novelist Marc Bell. First recognized for his Shrimpy and Paul comic strips, published ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This Saturday and Sunday is the third Toronto Comic Arts Festival, the city\u2019s only comics convention where you\u2019re unlikely to find cosplayers. Instead, fans call comic books \u201cgraphic novels\u201d and story protagonists are often neurotic everymen rather than superheroes. This free event is organized to s",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I'll try to cover everything, but I might miss a few. Here goes: Hot Potatoe by Marc Bell, Bell's gorgeous full color book of comics and pictures and paintings and sculptures and everything under the sun. Only 30 bucks! Bell was there but I missed him; Chickadee by the aforementioned Briana Miller; ",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "September 04, 2010\nThe latest issue of the Croatian online comix magazine Komikaze has some really great stuff in it (as do most of their issues) but this particular strip by Dalibor Baric is blowing my freakin' mind!\n\nI've been working on a d\u00e9tourned comic that uses anagrams myself...hmmm, should I",
+     "imageUrl": null,
+     "keyword": "marc bell",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "The first full-length graphic novel from the author of Shrimpy and Paul: Who will win the All-Star Schnauzer Band song contest?\n\nEnter the strange and wordplay-loving world of the cartoonist and fine artist Marc Bell (Shrimpy and Paul, Hot Potatoe), where the All-Star Schnauzer Band runs things and ",
+    "I miss Pittsburgh, Pennsylvania. Being there means friends and good comic book stores and cheap food. So I asked one of my friends from Pittsburgh - the talented Ed Piskor - to write up a scene report for me. Pittsburgh has a lot of cool things to do next weekend October 8th and 9th 2011 - and I am ",
+    "Stroppy: Being a dandy new 8\" x 10\", 64-page color album by Marc Bell, a very funny and engaging artist who's long worked in self-made comics and solo & collaborative drawings, with one-off books and collections also appearing from Highwater (Shrimpy and Paul and Friends, 2003), Fantagraphics (Worn ",
+    "Today on the site we have Doug Harvey on Comic Book Apocalypse: The Graphic World of Jack Kirby on view at Cal State Northridge and curated by TCJ-contributor Charles Hatfield.\n\nAssembling and mounting the first serious institutional retrospective exhibition in America examining the art of Jack Kirb",
+    "Manuel Morin in front of his extraordinary bookshop\n\nPARIS: Tucked away from the throngs of tourists in Paris\u2019 Montmartre, there might very well be the greatest comics bookstore in the world. BD Spirit, its name an allusion to comic book legend Will Eisner\u2019s character, is a proud caretaker of the hi",
+    "We then celebrated the success of the brands first fashion show at the Setai Hotel. Marc and is wife were so gracious in hosting us! KYBOE! has been around in Europe for some time but since being acquired by Marc Bell the brand  officially launched in the US in November and is available at Saks Fift",
+    "Mark Connery: Hey Marco, so Stroppy is a very beautiful book, a real treat for the eyes, and also your first graphic novel. It's also one of your easiest-to-read things. How long were you working on it? Was there a challenge in finding a groove to make the story move at the right pace?\n\nMarc Bell: I",
+    "The first full length graphic novel from the author of Shrimpy & Paul. Enter the strange and wordplay-loving world of cartoonist and fine artist Marc Bell, where the All-Star Schnauzer Band runs things and tiny beings hold signs saying \"It's under control.\" Hapless hero Stroppy minds his business, w",
+    "The poster art for Coronavirus pandemic victim VanCAF 2020 was created by Marc Bell.\n\nComics as a community\n\n\nIf you\u2019d asked me six months ago where I\u2019d be today (May 16), I\u2019d have said \u201cat the Roundhouse Community Arts and Recreation Centre in Yaletown, enjoying Day One of the 2020 Vancouver Comic ",
+    "Suspect Device is a comic book series in which artists build new stories based on old characters and existing source material. Brooklyn-based editor Josh Bayer has taken to Kickstarter to fund the fourth issue of the series, which will feature a cover by Black Flag album artist Raymond Pettibon and "
+   ],
+   "partial": false,
+   "shardsScanned": 1432,
+   "shardsTotal": 1432
+  },
+  {
+   "datasetName": "The Pile (uncopyrighted)",
+   "hfPath": "monology/pile-uncopyrighted",
+   "apiPath": "monology/pile-uncopyrighted",
+   "datasetKey": "pile",
+   "modality": "text",
+   "found": true,
+   "count": 2,
+   "mentionsFound": 2,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 917770,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.4%)",
+   "highConfidenceCount": 2,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 2,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  },
+  {
+   "datasetName": "C4 (en)",
+   "hfPath": "allenai/c4",
+   "apiPath": "allenai/c4",
+   "datasetKey": "c4-en",
+   "modality": "text",
+   "found": true,
+   "count": 4,
+   "mentionsFound": 4,
+   "exact": true,
+   "coverageComplete": false,
+   "rowsCovered": 2230060,
+   "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
+   "highConfidenceCount": 4,
+   "nameMatchCount": 0,
+   "thirdPartyCount": 0,
+   "lowConfidenceCount": 0,
+   "totalIncludingLowConfidence": 4,
+   "rows": [],
+   "samples": [],
+   "partial": false,
+   "shardsScanned": 10,
+   "shardsTotal": 10
+  }
+ ],
+ "datasetSearch": {
+  "mode": "exhaustive-all-shards",
+  "exact": true,
+  "keywordsScanned": [
+   "Marc Bell"
+  ],
+  "keywordsExcludedAsGeneric": [],
+  "keywordEvidence": [
+   {
+    "keyword": "marc bell",
+    "tier": "high",
+    "count": 903,
+    "captionHits": 305,
+    "longformHits": 598,
+    "longformRatio": 0.662,
+    "perDataset": {
+     "c4-en": 4,
+     "coyo700m": 66,
+     "laion1b-nolang": 41,
+     "laion2b-en": 151,
+     "laion2b-multi": 47,
+     "obelics": 592,
+     "pile": 2
+    },
+    "reason": null
+   }
+  ],
+  "summary": {
+   "datasetsPresent": 7,
+   "totalDatasets": 7,
+   "credibleMentions": 903,
+   "highConfidenceMentions": 903,
+   "nameMatchMentions": 0,
+   "thirdPartyPropertyMentions": 0,
+   "lowConfidenceMentions": 0
+  },
+  "evidenceShown": 71,
+  "evidenceWithheld": {
+   "unverified": 607,
+   "unrelated": 25,
+   "storefront": 79,
+   "person_photo": 96,
+   "merchandise": 18,
+   "derivative": 2,
+   "explicit": 3
+  },
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
+ },
+ "subjectId": "bi-marc-bell",
+ "cohort": "billy-ireland",
+ "collection": "Marc Bell Collection",
+ "summary": {
+  "datasetsPresent": 7,
+  "totalDatasets": 7,
+  "totalMentions": 903,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "estimatedTotalGenerations": 4972400000
+ },
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
+ "holistic": {
+  "datasetEvidence": 903,
+  "datasetsPresent": 7,
+  "membershipInference": null,
+  "confirmedModels": 77,
+  "estimatedMonthlyUsers": 24862000,
+  "membershipInferenceAvailable": false,
+  "note": "Dataset search only \u2014 no membership-inference probe was run for this subject."
+ }
+}

@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,78 +898,8 @@
    "totalIncludingLowConfidence": 291,
    "rows": [
     {
-     "text": "Spotted Wobbegong - photographed by underwater australasia member Michael Gallagher",
-     "imageUrl": "https://underwater.com.au/content/10195/spotted_wobbegong.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Underwater Santa!? Maybe not, but at least he's red with ... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C72090.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Mossad Strain Book 3 The Kefira Mossad Future of Warfare Series by Michael Gallagher",
-     "imageUrl": "http://www.michaeljamesgallagherauthor.com/wp-content/uploads/2019/12/1-The-Mossad-Strain-Book-3-The-Kefira-Mossad-Future-of-Warfare-Series-by-Michael-Gallagher-300x450.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tiny Triplefin (I think??), PNG. Tough to spot and then t... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C70747.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Elaine Bittner, Senior Vice President of Strategic Development, Chesapeake Utilities Corporation (right) receives a Gold Stevie Award for Female Executive of the Year at the 2016 Stevie Awards for Women in Business - presented by Michael Gallagher, President of the Stevie Awards (left).",
      "imageUrl": "https://www.gannett-cdn.com/-mm-/c9aa1c6dced5e5b170a560c3770097dd33c0cc48/c=0-24-1598-927/local/-/media/2016/12/06/Wilmington/Wilmington/636166573963819944-elainebittner.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Whale shark feeding at night, Djibouti by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C71690.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1010,8 +940,8 @@
      }
     },
     {
-     "text": "All pics \u00a9 Michael Gallagher except the poster.",
-     "imageUrl": "http://www.indymedia.ie/cache/imagecache/local/attachments/jul2009/460_0___30_0_0_0_0_0_1.mj._img_3498.jpg",
+     "text": "Spotted Wobbegong - photographed by underwater australasia member Michael Gallagher",
+     "imageUrl": "https://underwater.com.au/content/10195/spotted_wobbegong.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1024,8 +954,8 @@
      }
     },
     {
-     "text": "Speaking Out An Introduction to Public Speaking by Michael Gallagher",
-     "imageUrl": "https://img.fruugo.com/product/6/52/107186526_0340_0340.jpg",
+     "text": "Underwater Santa!? Maybe not, but at least he's red with ... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C72090.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1053,119 +983,7 @@
     },
     {
      "text": "Photo by Michael Gallagher",
-     "imageUrl": "https://2.bp.blogspot.com/-4RFrdZTASnY/U5llNFKAQII/AAAAAAAAF8E/7stxDUaDD6g/s1600/michael+gallagher+2.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photo by Michael Gallagher | Couple's Coordinates",
-     "imageUrl": "https://mediaim.expedia.com/destination/2/a825fc381b06f312bad0194cbd267fa8.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Days of Blue Loyalty: The Politics of Membership of the Fine Gael party by Michael Gallagher & Marsh",
-     "imageUrl": "http://oldparrsbookshop.co.uk/WebRoot/Store30/Shops/a521ef09-f14e-4eeb-9abb-77df4cf74bc6/56A2/4AC7/8E4A/591B/4DA0/0A48/3570/EA87/DSCN0115_m.JPG",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pics copyleft except for commercial use, \u00a9 Michael Gallagher 2010",
-     "imageUrl": "http://www.indymedia.ie/cache/imagecache/local/attachments/mar2010/460_0___30_0_0_0_0_0_2._castlerea_img_0338.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photo by Michael Gallagher",
-     "imageUrl": "https://gmhsnews.com/wp-content/uploads/2018/05/30420405_1325941604174131_3127279461619174030_o-317x475.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photo by Michael Gallagher",
      "imageUrl": "https://gmhsnews.com/wp-content/uploads/2018/05/30420405_1325941604174131_3127279461619174030_o-475x300.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hairy Frogfish By Michael Gallagher",
-     "imageUrl": "https://www.eco-divers.com/wp-content/uploads/2015/06/hairy_frogfish_by_michael_gallagher.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Representative Government in Modern Europe By Michael Gallagher",
-     "imageUrl": "https://productimages.worldofbooks.com/007297706X.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The bow of the Umbria, Sudan - what a brilliant wreck dive! by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C70963.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1180,20 +998,6 @@
     {
      "text": "Michael Gallagher and Joan Taylor - photos by MKW",
      "imageUrl": "http://michaelgallagherwrites.com/lizzie-blaylock-books/scarab-images/scarab-interview-main-image.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Close to nature winner (2013): Cuttlefish Eye by Michael Gallagher, Swanage Pier, Dorset",
-     "imageUrl": "https://i.guim.co.uk/img/media/c1b9642c5c22a0b3b092dc31b9845550d65d4866/0_0_4752_3168/master/4752.jpg?width=300&quality=85&auto=format&fit=max&s=11bb35e6cf1061486698a40cf548648d",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1234,6 +1038,258 @@
      }
     },
     {
+     "text": "Harlequin Shrimp claiming a starfish, Indonesia by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C71567.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Crinoid detail, PNG by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C70455.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "From Holmes to Sherlock : the story of the men and women who created an icon / Mattias Bostrom ; translated by Michael Gallagher",
+     "imageUrl": "https://toledolibrary.s3.amazonaws.com/uploads/blog-images/From-Holmes-to-Sherlock-The-Story-of-the-Men-and-Women-Who-Created-an-Icon-by-mattias-bostrom.jpeg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Message in a bottle, Lembeh, Indonesia... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C73173.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Sailfin Surgeonfish portrait taken in the Egyptian Red Sea by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C71058.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Peter Pan (played by Michael Gallagher) looks down from the trees as Captain Hook (Phillip Culton) makes a point to Wendy (Claire Vanderlinden) in a scene from Western Carolina University\u2019s upcoming production of \u201cPeter Pan: The Boy Who Would Not Grow Up.\u201d (WCU photo)",
+     "imageUrl": "https://www.theonefeather.com/wp-content/uploads/2015/04/Peter-Pan3new-2-e1427989035226.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "All pics \u00a9 Michael Gallagher 2010",
+     "imageUrl": "http://cheney.indymedia.ie/cache/imagecache/local/attachments/aug2010/460_0___30_0_0_0_0_0_1_pod_img_2224.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Mossad Strain Book 3 The Kefira Mossad Future of Warfare Series by Michael Gallagher",
+     "imageUrl": "http://www.michaeljamesgallagherauthor.com/wp-content/uploads/2019/12/1-The-Mossad-Strain-Book-3-The-Kefira-Mossad-Future-of-Warfare-Series-by-Michael-Gallagher-300x450.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Michael Gallagher/UPY 2021",
+     "imageUrl": "https://www.athensvoice.gr/sites/default/files/underwater-awards-503_0.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "All pics \u00a9 Michael Gallagher except the poster.",
+     "imageUrl": "http://www.indymedia.ie/cache/imagecache/local/attachments/jul2009/460_0___30_0_0_0_0_0_1.mj._img_3498.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Whale shark feeding at night, Djibouti by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C71690.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Tiny Triplefin (I think??), PNG. Tough to spot and then t... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C70747.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Michael Gallagher",
+     "imageUrl": "https://2.bp.blogspot.com/-4RFrdZTASnY/U5llNFKAQII/AAAAAAAAF8E/7stxDUaDD6g/s1600/michael+gallagher+2.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Speaking Out An Introduction to Public Speaking by Michael Gallagher",
+     "imageUrl": "https://img.fruugo.com/product/6/52/107186526_0340_0340.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Michael Gallagher | Couple's Coordinates",
+     "imageUrl": "https://mediaim.expedia.com/destination/2/a825fc381b06f312bad0194cbd267fa8.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Days of Blue Loyalty: The Politics of Membership of the Fine Gael party by Michael Gallagher & Marsh",
+     "imageUrl": "http://oldparrsbookshop.co.uk/WebRoot/Store30/Shops/a521ef09-f14e-4eeb-9abb-77df4cf74bc6/56A2/4AC7/8E4A/591B/4DA0/0A48/3570/EA87/DSCN0115_m.JPG",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Representative Government in Modern Europe By Michael Gallagher",
+     "imageUrl": "https://productimages.worldofbooks.com/007297706X.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Hairy Frogfish By Michael Gallagher",
+     "imageUrl": "https://www.eco-divers.com/wp-content/uploads/2015/06/hairy_frogfish_by_michael_gallagher.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Photo submitted by Michael Gallagher",
      "imageUrl": "http://darkroom.baltimoresun.com/wp-content/uploads/2012/11/Michael-Gallagher-760x511.jpeg",
      "keyword": "michael gallagher",
@@ -1248,8 +1304,8 @@
      }
     },
     {
-     "text": "Snowflake moray eel portrait, Lembeh by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C69829.jpg",
+     "text": "The bow of the Umbria, Sudan - what a brilliant wreck dive! by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C70963.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1262,8 +1318,36 @@
      }
     },
     {
-     "text": "Pat O'Donnell at a recent ShelltoSea press conference in Dublin. \u00a9 Michael Gallagher 2009",
-     "imageUrl": "http://www.indymedia.ie/cache/imagecache/local/attachments/feb2010/460_0___30_0_0_0_0_0_pat_odonnell_img_0216.jpg",
+     "text": "Pics copyleft except for commercial use, \u00a9 Michael Gallagher 2010",
+     "imageUrl": "http://www.indymedia.ie/cache/imagecache/local/attachments/mar2010/460_0___30_0_0_0_0_0_2._castlerea_img_0338.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photo by Michael Gallagher",
+     "imageUrl": "https://gmhsnews.com/wp-content/uploads/2018/05/30420405_1325941604174131_3127279461619174030_o-317x475.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Close to nature winner (2013): Cuttlefish Eye by Michael Gallagher, Swanage Pier, Dorset",
+     "imageUrl": "https://i.guim.co.uk/img/media/c1b9642c5c22a0b3b092dc31b9845550d65d4866/0_0_4752_3168/master/4752.jpg?width=300&quality=85&auto=format&fit=max&s=11bb35e6cf1061486698a40cf548648d",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1290,8 +1374,22 @@
      }
     },
     {
-     "text": "Harlequin Shrimp claiming a starfish, Indonesia by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C71567.jpg",
+     "text": "Pat O'Donnell at a recent ShelltoSea press conference in Dublin. \u00a9 Michael Gallagher 2009",
+     "imageUrl": "http://www.indymedia.ie/cache/imagecache/local/attachments/feb2010/460_0___30_0_0_0_0_0_pat_odonnell_img_0216.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Snowflake moray eel portrait, Lembeh by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C69829.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1332,22 +1430,8 @@
      }
     },
     {
-     "text": "From Holmes to Sherlock : the story of the men and women who created an icon / Mattias Bostrom ; translated by Michael Gallagher",
-     "imageUrl": "https://toledolibrary.s3.amazonaws.com/uploads/blog-images/From-Holmes-to-Sherlock-The-Story-of-the-Men-and-Women-Who-Created-an-Icon-by-mattias-bostrom.jpeg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Crinoid detail, PNG by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C70455.jpg",
+     "text": "Michael Gallagher and Joan Taylor - photos by MKW",
+     "imageUrl": "http://michaelgallagherwrites.com/facebook-images/bridge-interview-main-image.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1388,62 +1472,6 @@
      }
     },
     {
-     "text": "Message in a bottle, Lembeh, Indonesia... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C73173.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Michael Gallagher and Joan Taylor - photos by MKW",
-     "imageUrl": "http://michaelgallagherwrites.com/facebook-images/bridge-interview-main-image.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peter Pan (played by Michael Gallagher) looks down from the trees as Captain Hook (Phillip Culton) makes a point to Wendy (Claire Vanderlinden) in a scene from Western Carolina University\u2019s upcoming production of \u201cPeter Pan: The Boy Who Would Not Grow Up.\u201d (WCU photo)",
-     "imageUrl": "https://www.theonefeather.com/wp-content/uploads/2015/04/Peter-Pan3new-2-e1427989035226.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Sailfin Surgeonfish portrait taken in the Egyptian Red Sea by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C71058.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A French Angelfish. Picture: Michael Gallagher/Underwater Photographer of the Year 2021",
      "imageUrl": "https://media.apnarm.net.au/media/images/2021/02/10/v3imagesbin5759577370e77924e4c136f2b36bc844-s3brffl0gnp8hkdguv2_t1880.jpg",
      "keyword": "michael gallagher",
@@ -1472,36 +1500,8 @@
      }
     },
     {
-     "text": "All pics \u00a9 Michael Gallagher 2010",
-     "imageUrl": "http://cheney.indymedia.ie/cache/imagecache/local/attachments/aug2010/460_0___30_0_0_0_0_0_1_pod_img_2224.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Harlequin Tuskfish, GBR, Australia by Michael Gallagher",
      "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C69189.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Michael Gallagher/UPY 2021",
-     "imageUrl": "https://www.athensvoice.gr/sites/default/files/underwater-awards-503_0.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": null,
@@ -1599,16 +1599,16 @@
     }
    ],
    "samples": [
-    "Spotted Wobbegong - photographed by underwater australasia member Michael Gallagher",
-    "Underwater Santa!? Maybe not, but at least he's red with ... by Michael Gallagher",
-    "The Mossad Strain Book 3 The Kefira Mossad Future of Warfare Series by Michael Gallagher",
-    "Tiny Triplefin (I think??), PNG. Tough to spot and then t... by Michael Gallagher",
     "Elaine Bittner, Senior Vice President of Strategic Development, Chesapeake Utilities Corporation (right) receives a Gold Stevie Award for Female Executive of the Year at the 2016 Stevie Awards for Women in Business - presented by Michael Gallagher, President of the Stevie Awards (left).",
-    "Whale shark feeding at night, Djibouti by Michael Gallagher",
     "Cristian on left and his comrade and colleague, Jos\u00e9 at Department of Justice today. \u00a9 Michael Gallagher 2009",
     "Dennis Halliday - Benny McCabe - Andy Storey Pics \u00a9 Michael Gallagher 2010",
-    "All pics \u00a9 Michael Gallagher except the poster.",
-    "Speaking Out An Introduction to Public Speaking by Michael Gallagher"
+    "Spotted Wobbegong - photographed by underwater australasia member Michael Gallagher",
+    "Underwater Santa!? Maybe not, but at least he's red with ... by Michael Gallagher",
+    "Message in a bottle, Lembeh... by Michael Gallagher",
+    "Photo by Michael Gallagher",
+    "Michael Gallagher and Joan Taylor - photos by MKW",
+    "Batfish in those awkward teenage years... by Michael Gallagher",
+    "Tall-fin Batfish Juveniles by Michael Gallagher"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1633,76 +1633,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 845,
    "rows": [
-    {
-     "text": "Freestyle frog! A masked tree frog promptly exits the swi... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C61768.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.000104444487078581,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Plan // A Travel Film by Michael Gallagher",
-     "imageUrl": "https://i.ytimg.com/vi/yNHDV8FJJoQ/0.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.00021314620971679688,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "An icon of Sydney diving - the Eastern Blue Groper. The b... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C55367.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 2.9042656024103053e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Why the Victorians Saw Ghosts: An Illustrated Guide to 19th Century Spiritualism ebook by Michael Gallagher",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/498f0674-74cc-4dcb-8760-e756a2e8ddb8/140/215/60/False/why-the-victorians-saw-ghosts-an-illustrated-guide-to-19th-century-spiritualism.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 9.162497008219361e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Frogfish on the Salem Express by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C46940.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 4.9253390898229554e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "Peak 8 penthouse by michael gallagher and new mood design - Penthouse peakmichael gallagher and new mood design ...",
      "imageUrl": "https://cdn.homedsgn.com/wp-content/uploads/2012/10/Peak-8-Penthouse-11-800x589.jpg",
@@ -1746,11 +1676,11 @@
      }
     },
     {
-     "text": "Self portrait silhouette in Djibouti - just having a bit ... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C65901.jpg",
+     "text": "Diver surrounded by glassfish - inside the Cod Hole, Juli... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C56543.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
-     "punsafe": 0.0004145801067352295,
+     "punsafe": 0.00016236305236816406,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1760,11 +1690,39 @@
      }
     },
     {
-     "text": "Contemporary Mountain Home by Michael Gallagher",
-     "imageUrl": "https://i.pinimg.com/236x/9c/99/d1/9c99d1b161a0aab5244d6473ff3f2a85--penthouse-mountain-homes.jpg",
+     "text": "An icon of Sydney diving - the Eastern Blue Groper. The b... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C55367.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
-     "punsafe": 6.599662447115406e-05,
+     "punsafe": 2.9042656024103053e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Freestyle frog! A masked tree frog promptly exits the swi... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C61768.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.000104444487078581,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Plan // A Travel Film by Michael Gallagher",
+     "imageUrl": "https://i.ytimg.com/vi/yNHDV8FJJoQ/0.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.00021314620971679688,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1835,6 +1793,34 @@
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": 0.001319289207458496,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Why the Victorians Saw Ghosts: An Illustrated Guide to 19th Century Spiritualism ebook by Michael Gallagher",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/498f0674-74cc-4dcb-8760-e756a2e8ddb8/140/215/60/False/why-the-victorians-saw-ghosts-an-illustrated-guide-to-19th-century-spiritualism.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 9.162497008219361e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Frogfish on the Salem Express by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C46940.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 4.9253390898229554e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1942,6 +1928,34 @@
      }
     },
     {
+     "text": "Self portrait silhouette in Djibouti - just having a bit ... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C65901.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.0004145801067352295,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Contemporary Mountain Home by Michael Gallagher",
+     "imageUrl": "https://i.pinimg.com/236x/9c/99/d1/9c99d1b161a0aab5244d6473ff3f2a85--penthouse-mountain-homes.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 6.599662447115406e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Parrotfish poo. It's always funny... by Michael Gallagher",
      "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C54568.jpg",
      "keyword": "michael gallagher",
@@ -1956,109 +1970,11 @@
      }
     },
     {
-     "text": "Diver surrounded by glassfish - inside the Cod Hole, Juli... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C56543.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.00016236305236816406,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Smiley 2012 psychological slasher film title directed by Michael Gallagher starring Caitlin Gerard, Melanie Papalia, Shane Dawson, Andrew James Allen, Liza Weil",
      "imageUrl": "http://3.bp.blogspot.com/-Kn2TVV5pptI/UHUhn5wUs3I/AAAAAAAADHk/0Fur5-DDSIM/s1600/Smiley%2B2012%2Bpsychological%2Bslasher%2Bfilm%2Btitle%2Bdirected%2Bby%2BMichael%2BGallagher%2Bstarring%2BCaitlin%2BGerard%252C%2BMelanie%2BPapalia%252C%2BShane%2BDawson%252C%2BAndrew%2BJames%2BAllen%252C%2BLiza%2BWeil.png",
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": 0.020233869552612305,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Talk to the flipper!! Turtle with attitude - Julian Rocks... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C55763.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.00020423531532287598,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Potato Cod with little yellow friend, Great Barrier Reef by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C54812.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 2.7055324608227238e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gooseberry ebook by Michael Gallagher",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/edec7cc0-89ef-4e01-bf1f-ad8b5903fba6/140/215/60/False/gooseberry-1.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.00025704503059387207,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Peter Pan (played by Michael Gallagher) looks down from the trees as Captain Hook (Phillip Culton) makes a point to Wendy (Claire Vanderlinden) in a scene from Western Carolina University's upcoming production of \"\"\"\"Peter Pan: The Boy Who Would Not Grow Up.\"\"\"\" (WCU photo)\"\"\"",
-     "imageUrl": "https://theonefeather.com/library/uploads/2015/04/Peter-Pan3new-2-e1427989035226.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.0345921516418457,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Reef squid in midwater - shot taken on a night dive in Ko... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C57601.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 4.797599103767425e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Octopus ebook by Michael Gallagher",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/e77af098-0b39-4828-8c76-95c951793536/180/1000/False/octopus-15.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 0.0005066990852355957,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2152,6 +2068,104 @@
      }
     },
     {
+     "text": "Harlequin Tuskfish, GBR, Australia by Michael Gallagher ",
+     "imageUrl": "http://www.underwaterphotography.com/Upload\\UP\\Competition\\69189.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 3.682356691570021e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Coral Cod portrait, Red Sea, Sudan by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C66769.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.00012154912838013843,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Talk to the flipper!! Turtle with attitude - Julian Rocks... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C55763.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.00020423531532287598,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Potato Cod with little yellow friend, Great Barrier Reef by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C54812.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 2.7055324608227238e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gooseberry ebook by Michael Gallagher",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/edec7cc0-89ef-4e01-bf1f-ad8b5903fba6/140/215/60/False/gooseberry-1.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.00025704503059387207,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Oceanic whitetip in the sunbeams, Tokina 10-17mm with Mag... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C46014.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 1.1876385542564094e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Triggerfish at night in the Egyptian Red Sea - playing ar... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C56592.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 5.605942533293273e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "3 old Fiats on the Umbria in Sudan - a fabulous wreck to ... by Michael Gallagher",
      "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C55035.jpg",
      "keyword": "michael gallagher",
@@ -2208,11 +2222,11 @@
      }
     },
     {
-     "text": "Harlequin Tuskfish, GBR, Australia by Michael Gallagher ",
-     "imageUrl": "http://www.underwaterphotography.com/Upload\\UP\\Competition\\69189.jpg",
+     "text": "\"\"\"Peter Pan (played by Michael Gallagher) looks down from the trees as Captain Hook (Phillip Culton) makes a point to Wendy (Claire Vanderlinden) in a scene from Western Carolina University's upcoming production of \"\"\"\"Peter Pan: The Boy Who Would Not Grow Up.\"\"\"\" (WCU photo)\"\"\"",
+     "imageUrl": "https://theonefeather.com/library/uploads/2015/04/Peter-Pan3new-2-e1427989035226.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
-     "punsafe": 3.682356691570021e-05,
+     "punsafe": 0.0345921516418457,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2222,11 +2236,11 @@
      }
     },
     {
-     "text": "Coral Cod portrait, Red Sea, Sudan by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C66769.jpg",
+     "text": "Reef squid in midwater - shot taken on a night dive in Ko... by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C57601.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
-     "punsafe": 0.00012154912838013843,
+     "punsafe": 4.797599103767425e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2236,25 +2250,11 @@
      }
     },
     {
-     "text": "Oceanic whitetip in the sunbeams, Tokina 10-17mm with Mag... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C46014.jpg",
+     "text": "Octopus ebook by Michael Gallagher",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/e77af098-0b39-4828-8c76-95c951793536/180/1000/False/octopus-15.jpg",
      "keyword": "michael gallagher",
      "tier": "namematch",
-     "punsafe": 1.1876385542564094e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Triggerfish at night in the Egyptian Red Sea - playing ar... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C56592.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 5.605942533293273e-06,
+     "punsafe": 0.0005066990852355957,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2362,48 +2362,6 @@
      }
     },
     {
-     "text": "Hammerheads lining up for a closer look at all the divers... by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C56791.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 5.0234284572070464e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hairy Frogfish with snoot, Lembeh by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C67241.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 1.731874931465427e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Bridge of Dead Things ebook by Michael Gallagher",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/f1607532-ef74-497e-b101-ffeea2278c9d/140/215/60/False/the-bridge-of-dead-things.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 1.5688912753830664e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Whitetip reef shark feeding frenzy - night dive at Cocos ... by Michael Gallagher",
      "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C50129.jpg",
      "keyword": "michael gallagher",
@@ -2472,19 +2430,61 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Credit: Michael Gallagher/ZSL Animal Photography Prize 2013 Parrotfish portrait, by Michael Gallagher, adult highly commended in the deep and meaningful category",
+     "imageUrl": "https://i.pinimg.com/736x/c3/20/0e/c3200ed5e430bdf51f5e192b61504984--colorful-animals-colorful-fish.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.00011394932516850531,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Boxfish portrait on a night dive at Cocos Island, Costa Rica by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C48114.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 2.9715849450440146e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The bow of the Umbria, Sudan - what a brilliant wreck dive! by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload\\UP\\Competition\\70963.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 0.00020948052406311035,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "Freestyle frog! A masked tree frog promptly exits the swi... by Michael Gallagher",
-    "The Plan // A Travel Film by Michael Gallagher",
-    "An icon of Sydney diving - the Eastern Blue Groper. The b... by Michael Gallagher",
-    "Why the Victorians Saw Ghosts: An Illustrated Guide to 19th Century Spiritualism ebook by Michael Gallagher",
-    "Frogfish on the Salem Express by Michael Gallagher",
     "Peak 8 penthouse by michael gallagher and new mood design - Penthouse peakmichael gallagher and new mood design ...",
     "Up close and personal with a beautiful mapped pufferfish,... by Michael Gallagher",
     "Peak 8 Penthouse by Michael Gallagher/New Mood Design (14)",
-    "Self portrait silhouette in Djibouti - just having a bit ... by Michael Gallagher",
-    "Contemporary Mountain Home by Michael Gallagher"
+    "Diver surrounded by glassfish - inside the Cod Hole, Juli... by Michael Gallagher",
+    "An icon of Sydney diving - the Eastern Blue Groper. The b... by Michael Gallagher",
+    "Freestyle frog! A masked tree frog promptly exits the swi... by Michael Gallagher",
+    "The Plan // A Travel Film by Michael Gallagher",
+    "From Holmes to Sherlock : the story of the men and women who created an icon / Mattias Bostrom ; translated from the Swedish by Michael Gallagher.",
+    "Lunch!! Cormorant with a freshly caught flounder on the R... by Michael Gallagher",
+    "Lobster portrait, night dive, Cocos Island by Michael Gallagher"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2640,6 +2640,20 @@
      }
     },
     {
+     "text": "Unicornfish close-up portrait, Komodo, Indonesia by Michael Gallagher",
+     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C64041.jpg",
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": 3.1351235065812944e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Yotam Feldman speaking at Trinity College Dublin. Image Credit: Michael Gallagher \u00a9L",
      "imageUrl": "https://www.ipsc.ie/wp-content/uploads/2015/04/lab3.jpg",
      "keyword": "michael gallagher",
@@ -2659,20 +2673,6 @@
      "keyword": "michael gallagher",
      "tier": "namematch",
      "punsafe": 2.5396097953489516e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Unicornfish close-up portrait, Komodo, Indonesia by Michael Gallagher",
-     "imageUrl": "http://www.underwaterphotography.com/Upload%5CUP%5CCompetition%5C64041.jpg",
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": 3.1351235065812944e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2852,9 +2852,9 @@
    ],
    "samples": [
     "Crinoid Squat Lobster, Komodo by Michael Gallagher",
+    "Unicornfish close-up portrait, Komodo, Indonesia by Michael Gallagher",
     "Yotam Feldman speaking at Trinity College Dublin. Image Credit: Michael Gallagher \u00a9L",
     "Juvenile Australian Giant Cuttlefish - Julian Rocks, Byro... by Michael Gallagher",
-    "Unicornfish close-up portrait, Komodo, Indonesia by Michael Gallagher",
     "Green Sea Turtle cruising at Julian Rocks, Byron Bay, Aus... by Michael Gallagher",
     "Turretfish portrait, taken whilst night diving in Komodo,... by Michael Gallagher",
     "Zebra crab on fire urchin, Komodo, Indonesia by Michael Gallagher",
@@ -2886,7 +2886,7 @@
    "totalIncludingLowConfidence": 2042,
    "rows": [
     {
-     "text": "This article, written by Michael Gallagher, public relations executive and historian for Cunard Line, is part of an ongoing series of key moments in Cunard Line's history,\n\n\n10 October 2014 \u2013 We are familiar with the imposing Cunard Building in Liverpool \u2013 one third of the World Heritage listed Thre",
+     "text": "Former Buckeye Swimmer Michael Gallagher, now attending medical school\nat the University of Toledo, says: \"Mental illness and disabilities can affect\nanyone, in the same way that cancer does.\" Photo: Michael Gallagher.\n\nOne student swimmer, Michael Gallagher, a medical school student in Toledo, Ohio",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -2942,20 +2942,6 @@
      }
     },
     {
-     "text": "Bang! Zoom! To the Moon! was written by Michael Gallagher with Kevin West and Steve Montano on art and opens with Charlie-27 being checked out medically after all his recent injuries. Thanks to the Trans-Molecular Reconstitutor , his health is back to what it should be and his strength has increased",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "I guess with any comic book series, things can\u2019t stay simple for long; not just in terms of plot and character depth which I am absolutely for, but in terms of spin-offs, specials, and the intermixing of continuity between them which I\u2019m more or less totally against.  I\u2019ve never gotten into super he",
      "imageUrl": null,
      "keyword": "michael gallagher",
@@ -2970,7 +2956,7 @@
      }
     },
     {
-     "text": "Former Buckeye Swimmer Michael Gallagher, now attending medical school\nat the University of Toledo, says: \"Mental illness and disabilities can affect\nanyone, in the same way that cancer does.\" Photo: Michael Gallagher.\n\nOne student swimmer, Michael Gallagher, a medical school student in Toledo, Ohio",
+     "text": "Bang! Zoom! To the Moon! was written by Michael Gallagher with Kevin West and Steve Montano on art and opens with Charlie-27 being checked out medically after all his recent injuries. Thanks to the Trans-Molecular Reconstitutor , his health is back to what it should be and his strength has increased",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3012,7 +2998,7 @@
      }
     },
     {
-     "text": "Father, why have you forsaken me? Was written by Michael Gallagher, pencilled by Kevin West and inked by Steve Montano and opens with Starhawk being consumed by the Abrogate. He awakens in a white room, surrounded by unfamiliar beings. This is the White Room, last stop for all the wearers of the Qua",
+     "text": "This article, written by Michael Gallagher, public relations executive and historian for Cunard Line, is part of an ongoing series of key moments in Cunard Line's history,\n\n\n10 October 2014 \u2013 We are familiar with the imposing Cunard Building in Liverpool \u2013 one third of the World Heritage listed Thre",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3054,21 +3040,7 @@
      }
     },
     {
-     "text": "The revival iteration of the team: Guardians of the Galaxy #1 (June 1990). Cover art by Jim Valentino, including newer characters Starhawk (Stakar Ogord), Aleta Ogord, and Nikki.\n\n'Guardians of the Galaxy' started out as an idea of mine: about super-guerrillas fighting against Russians and Red Chine",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "WHY, IN THE FACE OF EVIL, DO GOOD PEOPLE LOOK THE OTHER WAY?\n\nBy Michael Gallagher | September 1988\nMichael Gallagher is an author, film critic, and translator, whose articles have appeared in Newsday and elsewhere. He received a National Book Award nomination for his transla\u00adtion of Yukio Mishima's",
+     "text": "Father, why have you forsaken me? Was written by Michael Gallagher, pencilled by Kevin West and inked by Steve Montano and opens with Starhawk being consumed by the Abrogate. He awakens in a white room, surrounded by unfamiliar beings. This is the White Room, last stop for all the wearers of the Qua",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3096,6 +3068,20 @@
      }
     },
     {
+     "text": "Rick Soltesz, general manager of AZTV, told KJZZ News the idea to air 18 episodes was proposed by Michael Gallagher, a station administrator. Soltesz said the feedback so far has been very positive.",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "For decades a key influence on parodists and satirists in all entertainment media, Mad began in 1952 as a full-color Comic Book, Tales Calculated to Drive You Mad, published by EC Comics. Harvey Kurtzman, the founding editor and writer, began by satirizing popular comic book genres of the time (horr",
      "imageUrl": null,
      "keyword": "michael gallagher",
@@ -3110,7 +3096,7 @@
      }
     },
     {
-     "text": "Rick Soltesz, general manager of AZTV, told KJZZ News the idea to air 18 episodes was proposed by Michael Gallagher, a station administrator. Soltesz said the feedback so far has been very positive.",
+     "text": "WHY, IN THE FACE OF EVIL, DO GOOD PEOPLE LOOK THE OTHER WAY?\n\nBy Michael Gallagher | September 1988\nMichael Gallagher is an author, film critic, and translator, whose articles have appeared in Newsday and elsewhere. He received a National Book Award nomination for his transla\u00adtion of Yukio Mishima's",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3152,49 +3138,7 @@
      }
     },
     {
-     "text": "By\nMichael Gallagher,\nThe Contrary Perspective",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Her Majesty Queen Elizabeth names and launches RMS Queen Elizabeth in 1938\n(Credit: Cunard Archives)\nHere is another chapter in the history of Cunard, which celebrated its 175th year in 2015.\n\nThis article, written by Michael Gallagher, public relations executive and historian for Cunard Line, is pa",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Tom McDonagh, Olympic BC gets beaten out of the ring by Michael Gallagher, Finn Valley Boxing Club. Photo: Donna McBride\n\nNINE-times Irish champion Michael Gallagher ensured that a rousing tournament at the Finn Valley Centre ended with a bang on Saturday night.\n\nIn a belting light-heavyweight conte",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Thinning, which has not yet become filming, will be directed by Michael Gallagher, who directed YouTuber Shane Dawson\u2019s short I Hate Myselfie. Gallagher also wrote the script for The Thinning, along with YouTuber Steve Greene (who was recently cast in the Maker Studios mockumentary Internet Famo",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3222,7 +3166,7 @@
      }
     },
     {
-     "text": "A French Angelfish. Picture: Michael Gallagher/Underwater Photographer of the Year 2021\n\nCommenting on the image, the judges said it had a contemporary feel, and relied on both advanced scuba diving and photographic techniques.\n\nOther award-winning shots included an image of a gothic chamber with st",
+     "text": "Her Majesty Queen Elizabeth names and launches RMS Queen Elizabeth in 1938\n(Credit: Cunard Archives)\nHere is another chapter in the history of Cunard, which celebrated its 175th year in 2015.\n\nThis article, written by Michael Gallagher, public relations executive and historian for Cunard Line, is pa",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3236,7 +3180,35 @@
      }
     },
     {
-     "text": "MUSTARD GAS AND ROSES, most widely known as M.G.R., is the cinematic project helmed by Michael Gallagher, formerly of ISIS, Cast Iron Hike, and more. The outfit this week presents its new EP, We Are One through Pax Aeternum, the record featuring two original tracks - \"Shadows\" and \"Becoming\" - as we",
+     "text": "By\nMichael Gallagher,\nThe Contrary Perspective",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Thinning, which has not yet become filming, will be directed by Michael Gallagher, who directed YouTuber Shane Dawson\u2019s short I Hate Myselfie. Gallagher also wrote the script for The Thinning, along with YouTuber Steve Greene (who was recently cast in the Maker Studios mockumentary Internet Famo",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A French Angelfish. Picture: Michael Gallagher/Underwater Photographer of the Year 2021\n\nCommenting on the image, the judges said it had a contemporary feel, and relied on both advanced scuba diving and photographic techniques.\n\nOther award-winning shots included an image of a gothic chamber with st",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3265,6 +3237,62 @@
     },
     {
      "text": "Written by Michael Gallagher and drawn by Dave Manak and Marie Severin, the comic book was a surprise hit, running for 50 issues, thus lasting a couple of years longer than the TV show that it was based upon!\n\nIt was a crossover where the longstanding Marvel villain/supporting character, the High Ev",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MUSTARD GAS AND ROSES, most widely known as M.G.R., is the cinematic project helmed by Michael Gallagher, formerly of ISIS, Cast Iron Hike, and more. The outfit this week presents its new EP, We Are One through Pax Aeternum, the record featuring two original tracks - \"Shadows\" and \"Becoming\" - as we",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "What If? World War Hulk #1 comic book from Marvel Comics.\n\nErupting out of what could have been in the pages of World War Hulk, a double trouble of stories! Writer Mike Raicht (EXILES ANNUAL) and artist Lucio Parrillo (Red Sonja) illustrate the Hulk's war against the Illuminati and the resulting dis",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Red Earth Theatre brings live theatre to the Patio de las Campanas at Tlaquepaque on Wednesday, May 18th at 7pm with an evening of 10-minute plays by five different playwrights from all over the country.\n\nSwimming with Giants by Liz Kerlin is read by Michael Gallagher and Abigail Heydorn with Zayne ",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The medals were presented to Behar by Michael Gallagher, CEO of the Stevie Awards, and by Tanya Beckett, one of the top anchors of the BBC World Service, Monday night at a ceremony in the ballroom of the Ritz Carlton Hotel in Istanbul, Turkey.\n\nM3 Communications Group, Inc., a Hill & Knowlton associ",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3320,49 +3348,7 @@
      }
     },
     {
-     "text": "What If? World War Hulk #1 comic book from Marvel Comics.\n\nErupting out of what could have been in the pages of World War Hulk, a double trouble of stories! Writer Mike Raicht (EXILES ANNUAL) and artist Lucio Parrillo (Red Sonja) illustrate the Hulk's war against the Illuminati and the resulting dis",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Lovebugs are taking over Florida!\n\nIf you live in the state of Florida, you will have noticed the abundance of newly-hatched lovebugs. Love them or hate them, ...\n\nRead More\nPosted by Michael Gallagher on May 17, 2019\nBlog Navigation",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Red Earth Theatre brings live theatre to the Patio de las Campanas at Tlaquepaque on Wednesday, May 18th at 7pm with an evening of 10-minute plays by five different playwrights from all over the country.\n\nSwimming with Giants by Liz Kerlin is read by Michael Gallagher and Abigail Heydorn with Zayne ",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The medals were presented to Behar by Michael Gallagher, CEO of the Stevie Awards, and by Tanya Beckett, one of the top anchors of the BBC World Service, Monday night at a ceremony in the ballroom of the Ritz Carlton Hotel in Istanbul, Turkey.\n\nM3 Communications Group, Inc., a Hill & Knowlton associ",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3390,7 +3376,7 @@
      }
     },
     {
-     "text": "Bennington, VT \u2014 On Sunday, May 22, at 4:00 p.m. Sage City Symphony will present a Spring Concert and Silent Auction at Greenwall Auditorium in the VAPA Building at Bennington College. Admission is free and open to all.\n\nThe program will feature Concerto for Piano and Orchestra, by Michael Gallagher",
+     "text": "Other books by Michael Gallagher\n\nA Guide to Eu Environmental...",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3418,6 +3404,20 @@
      }
     },
     {
+     "text": "Bennington, VT \u2014 On Sunday, May 22, at 4:00 p.m. Sage City Symphony will present a Spring Concert and Silent Auction at Greenwall Auditorium in the VAPA Building at Bennington College. Admission is free and open to all.\n\nThe program will feature Concerto for Piano and Orchestra, by Michael Gallagher",
+     "imageUrl": null,
+     "keyword": "michael gallagher",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Moonlight-illuminated work to re-right a station tipped over by ridging. Image by Michael Gallagher/CIRES & NOAA\n\nMOSAiC team members Michael Gallagher (CIRES & NOAA) and Taneil Uttal (NOAA) were on site fixing the ASFS (atmospheric surface flux station) at MOSAiC's L3 site when they heard the ice m",
      "imageUrl": null,
      "keyword": "michael gallagher",
@@ -3432,7 +3432,7 @@
      }
     },
     {
-     "text": "Other books by Michael Gallagher\n\nA Guide to Eu Environmental...",
+     "text": "Red Earth Theatre brings live theatre to the Patio de las Campanas at Tlaquepaque on Wednesday, May 18, at 7pm with an evening of 10-minute plays by five playwrights from all over the country.\n\nSwimming with Giants by Liz Kerlin is read by Michael Gallagher and Abigail Heydorn with Zayne Hirsch. A C",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3447,20 +3447,6 @@
     },
     {
      "text": "BY CHRIS MCNULTY, RINGSIDE AT THE NATIONAL STADIUM\nPHOTOS BY ADRIAN MELIA\n\nWHEN it was over, Michael Gallagher made a beeline for the blue corner and embraced the man in the yellow and black tracksuit.\n\nThe seventeen-year old Finn Valley ABC man took victory in the heavyweight final at the National ",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Red Earth Theatre brings live theatre to the Patio de las Campanas at Tlaquepaque on Wednesday, May 18, at 7pm with an evening of 10-minute plays by five playwrights from all over the country.\n\nSwimming with Giants by Liz Kerlin is read by Michael Gallagher and Abigail Heydorn with Zayne Hirsch. A C",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3516,20 +3502,6 @@
      }
     },
     {
-     "text": "The aurora seen from the Russian Kapitan Dranitsyn, as it leaves Norway. Photo: Michael Gallagher, CIRES and NOAA\n\nIt is perhaps my last tower climb while being here on Leg 1. Some days ago I had climbed our tower in modest winds to pull down a met sensor that needed to be swapped out (it was needed",
-     "imageUrl": null,
-     "keyword": "michael gallagher",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\u201cI was approached early on by Michael Gallagher to try to discourage me from running,\u201d said Sandberg. \u201cI think it\u2019s inappropriate for any commissioner to endorse another one. It\u2019s important to let the people decide.\u201d\n\nGallagher announced he will back Republican Commissioner Tom Stone, the incumbent ",
      "imageUrl": null,
      "keyword": "michael gallagher",
@@ -3558,7 +3530,7 @@
      }
     },
     {
-     "text": "I noticed that the always handy Election Indices file maintained by Michael Gallagher on his Electoral Systems page did not include Taiwan\u2019s SNTV era of competitive elections (1992-2004). I needed the indicators for something I am working on. It just so happened that I had the candidate-level data f",
+     "text": "The aurora seen from the Russian Kapitan Dranitsyn, as it leaves Norway. Photo: Michael Gallagher, CIRES and NOAA\n\nIt is perhaps my last tower climb while being here on Leg 1. Some days ago I had climbed our tower in modest winds to pull down a met sensor that needed to be swapped out (it was needed",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3572,7 +3544,7 @@
      }
     },
     {
-     "text": "Category Crime and Punishment The Sea and Poison by Shusaku Endo First published in Japanese Translation by Michael Gallagher The Sea and Poison is the story of medical experiments carried out by vivisection upon American prisoners by Japanese doctors during World War II. It is just as much the stor",
+     "text": "I noticed that the always handy Election Indices file maintained by Michael Gallagher on his Electoral Systems page did not include Taiwan\u2019s SNTV era of competitive elections (1992-2004). I needed the indicators for something I am working on. It just so happened that I had the candidate-level data f",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3600,7 +3572,7 @@
      }
     },
     {
-     "text": "Reviews of Oh, No, Octavius! by Michael Gallagher\n\nI loved this book as I did the previous ones in the Send For Octavius series. Sad that this is the last book of the series, I hope Michael continues to write more of this character. I would love to see Octavius and Annie hook up, she seems to be a b",
+     "text": "Category Crime and Punishment The Sea and Poison by Shusaku Endo First published in Japanese Translation by Michael Gallagher The Sea and Poison is the story of medical experiments carried out by vivisection upon American prisoners by Japanese doctors during World War II. It is just as much the stor",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3614,7 +3586,7 @@
      }
     },
     {
-     "text": "The revival iteration of the team: Guardians of the Galaxy #1 (June 1990). Cover art by Jim Valentino, including new characters Starhawk (Stakar Ogord), Aleta Ogord, and Nikki.\n\n'Guardians of the Galaxy' started out as an idea of mine: about super-guerrillas fighting against Russians and Red Chinese",
+     "text": "Reviews of Oh, No, Octavius! by Michael Gallagher\n\nI loved this book as I did the previous ones in the Send For Octavius series. Sad that this is the last book of the series, I hope Michael continues to write more of this character. I would love to see Octavius and Annie hook up, she seems to be a b",
      "imageUrl": null,
      "keyword": "michael gallagher",
      "tier": "namematch",
@@ -3643,16 +3615,16 @@
     }
    ],
    "samples": [
-    "This article, written by Michael Gallagher, public relations executive and historian for Cunard Line, is part of an ongoing series of key moments in Cunard Line's history,\n\n\n10 October 2014 \u2013 We are familiar with the imposing Cunard Building in Liverpool \u2013 one third of the World Heritage listed Thre",
+    "Former Buckeye Swimmer Michael Gallagher, now attending medical school\nat the University of Toledo, says: \"Mental illness and disabilities can affect\nanyone, in the same way that cancer does.\" Photo: Michael Gallagher.\n\nOne student swimmer, Michael Gallagher, a medical school student in Toledo, Ohio",
     "Surfing as art: A talk with Michael Gallagher\n\nSurfside Sports recently took delivery of a long board painted by Michael Gallagher. I happened to be at Surfside just after it arrived, and co-owner Paul Burnett told me the boards may turn into collectors pieces. I even witnessed co-owner Duke Edukas ",
     "\u2018Next free studio for me was a nice little compact effort somewhere in Chester-le-Street where the objective was to record my Texican Raveloni \u2013 Bedside Songs for Problem Children album. The artwork drawn by VIZ Comic\u2019s Chris Donald.\n\nI really can\u2019t remember more details about that one, other than t",
     "He that Dies Pays All Debts was written by Michael Gallagher, inked by Steve Montano and pencilled by Kevin West and opens with both Starhawks ready to battle in the skies over Centauri IV. (For the sake of clarity I\u2019ll refer to them as Aleta and Stakar rather than Starhawk.)",
-    "Bang! Zoom! To the Moon! was written by Michael Gallagher with Kevin West and Steve Montano on art and opens with Charlie-27 being checked out medically after all his recent injuries. Thanks to the Trans-Molecular Reconstitutor , his health is back to what it should be and his strength has increased",
     "I guess with any comic book series, things can\u2019t stay simple for long; not just in terms of plot and character depth which I am absolutely for, but in terms of spin-offs, specials, and the intermixing of continuity between them which I\u2019m more or less totally against.  I\u2019ve never gotten into super he",
-    "Former Buckeye Swimmer Michael Gallagher, now attending medical school\nat the University of Toledo, says: \"Mental illness and disabilities can affect\nanyone, in the same way that cancer does.\" Photo: Michael Gallagher.\n\nOne student swimmer, Michael Gallagher, a medical school student in Toledo, Ohio",
+    "Bang! Zoom! To the Moon! was written by Michael Gallagher with Kevin West and Steve Montano on art and opens with Charlie-27 being checked out medically after all his recent injuries. Thanks to the Trans-Molecular Reconstitutor , his health is back to what it should be and his strength has increased",
     "Let lose the Dogs of War was plotted by Jim Valentino, scripted by Michael Gallagher, guest pencilled by JJ Birch and inked as always by Steve Montano and opens with the Guardians of the Galaxy facing off against the 2nd set of Masters of Evil from the last page of issue 28.",
     "above: circle live in various locations across europe. photos by michael gallagher.\n\ni don't remember when exactly i picked up the album \"raunio\" by the finnish band circle, but it was a very important discovery for me, and proved to be the first of many circle albums to be added to my collection th",
-    "Father, why have you forsaken me? Was written by Michael Gallagher, pencilled by Kevin West and inked by Steve Montano and opens with Starhawk being consumed by the Abrogate. He awakens in a white room, surrounded by unfamiliar beings. This is the White Room, last stop for all the wearers of the Qua"
+    "This article, written by Michael Gallagher, public relations executive and historian for Cunard Line, is part of an ongoing series of key moments in Cunard Line's history,\n\n\n10 October 2014 \u2013 We are familiar with the imposing Cunard Building in Liverpool \u2013 one third of the World Heritage listed Thre",
+    "Time bears all of it\u2019s sons away was written by Michael Gallagher, drawn by Kevin West and inked by Steve Montano and opened with the Dread Dormmamu holding the dead form of the Ancient One, Dr Stephen Strange in space, claiming his soul."
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -3723,13 +3695,13 @@
     "longformHits": 2059,
     "longformRatio": 0.612,
     "perDataset": {
+     "c4-en": 10,
      "coyo700m": 291,
+     "laion1b-nolang": 101,
      "laion2b-en": 845,
      "laion2b-multi": 69,
      "obelics": 2042,
-     "laion1b-nolang": 101,
-     "pile": 7,
-     "c4-en": 10
+     "pile": 7
     },
     "reason": null
    }
@@ -3743,17 +3715,17 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 186,
+  "evidenceShown": 184,
   "evidenceWithheld": {
-   "unverified": 1977,
-   "person_photo": 404,
+   "unverified": 1973,
+   "person_photo": 408,
+   "storefront": 88,
    "unrelated": 31,
-   "storefront": 85,
+   "derivative": 13,
    "merchandise": 4,
-   "derivative": 5,
    "explicit": 4
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-michael-gallagher",
  "cohort": "billy-ireland",
@@ -3766,7 +3738,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 3365,
   "datasetsPresent": 7,

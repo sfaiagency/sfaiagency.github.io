@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,7 +898,7 @@
    "totalIncludingLowConfidence": 1348,
    "rows": [
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-08-05 epidemic",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-08-05 crisis",
      "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f2baac161de5.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
@@ -912,8 +912,36 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-04-22 crisis",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ea28a301a7c3.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-04-15 public",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ea28a24850b1.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2009-07-17 value",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4a63697098c3d0.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-10-18 Mike",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f8f3b4fa88cd.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -982,8 +1010,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-05-14 public health",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ebe2619265ce.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-06-02 Black Lives Matter",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ed722d3678b0.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -996,8 +1024,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2017-02-23 editorial",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg58afb72fa36a6.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2015-09-18 economic",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg55ff740726175.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1010,8 +1038,22 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2021-01-06 Donald",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ff6c037aec04.jpg",
+     "text": "tattoos for men mask artwork by grimmy",
+     "imageUrl": "https://myartmagazine.com/file/images/11-2019/tattoos-men-mask-artwork-grimmy.jpg",
+     "keyword": "grimmy",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2010-06-09 environment",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4c10872ae0230.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1024,8 +1066,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2003-09-12 world",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091203.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2016-05-23 outdoors",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5743d0a05dc9e.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1038,8 +1080,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2019-12-19 white",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5dfc592a6c3e6.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-10-08 epidemic",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f84f43e4b0e2.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1052,8 +1094,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-04-15 public",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ea28a24850b1.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-04-07 world",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ea28a19cd46c.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1066,8 +1108,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2009-07-17 value",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4a63697098c3d0.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2015-11-27 there",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg565bcf123ae6b.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1080,8 +1122,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-10-18 Mike",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f8f3b4fa88cd.jpg",
+     "text": "You're Getting Warmer Mother Goose And Grimm Yearbook By Mike Peters Mint",
+     "imageUrl": "https://www.rarecollectiblesandantiquesvintages.com/files/250/_244/184898193630_1.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1094,8 +1136,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2008-01-30 telephone number",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080129.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2009-02-18 personal finance",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg499c03b5386470.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1108,8 +1150,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2002-05-24 federal budget",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP052402.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-08-20 administration",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f3f6084628ba.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1122,8 +1164,162 @@
      }
     },
     {
-     "text": "Meatpacking District, NYC \u00a9 Mike Peters",
-     "imageUrl": "https://kwerfeldein.de/wp-content/uploads/2013/11/082512r01f07-meatpacking_-650x652.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2006-11-10 voting rights",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1061110.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-08-29 national",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f4f5b4dc86c2.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-08-12 politics",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f34ba38354bd.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "MVSEVM version 3. Photo by Mike Peters",
+     "imageUrl": "http://mvsevm.org/wp-content/uploads/2010/01/012903-gallery0487-300x200.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u200b16 things to do outside to enjoy the warm weather this week - Spot birds along the trails at FortWhyte Alive (photo: Mike Peters",
+     "imageUrl": "https://www.tourismwinnipeg.com/uploads/blog_post/blog_post_image_1146.t1604345864.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Winnipeg makes TIME\u2019s 2021 World's Greatest Places List - Photo: Mike Peters",
+     "imageUrl": "https://www.economicdevelopmentwinnipeg.com/uploads/blog_post/blog_post_image_947.t1626718918.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2003-05-23 environment",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP052303.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2021-04-22 police",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg6081a3289857a.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2019-09-04 assault weapon",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5d7088a6d39d1.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2017-05-17 administration",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg591bca4fc68c3.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2002-02-10 equal rights",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP021002.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-04-16 epidemic",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ea28a2a29d0e.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1206,8 +1402,8 @@
      }
     },
     {
-     "text": "'/ - \" per, ll (D MOTHER GOOSE AND GRMM By Mike Peters s V-{ - > SRR _ -- r li rb \"When did you get your own",
-     "imageUrl": "http://hobbydocbox.com/docs-images/72/66730198/images/39-8.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2012-05-04 2012 primary",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4fa7c13dee632.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1220,8 +1416,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2011-04-27 federal budget",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4db91b8677669.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 1991-09-01 remove",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/Wart.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1234,8 +1430,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2010-05-04 environment",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4be165825b4e1.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2003-06-20 there",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP062003_rev.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1248,8 +1444,8 @@
      }
     },
     {
-     "text": "30 Days of Gift Giving Contest - Let's spread some local love this holiday season! (Photo: Mike Peters",
-     "imageUrl": "https://www.tourismwinnipeg.com/uploads/blog_post/blog_post_image_1150.t1605199383.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2002-09-08 year",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP090802.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1262,8 +1458,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2012-01-04 2012 primary",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4f065f6c00db1.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2012-11-30 2012 election",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg50bcb1a9971c9.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1276,8 +1472,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2008-01-23 economy",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080122.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2014-07-10 republican",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg53bf5a783a6f2.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1290,8 +1486,8 @@
      }
     },
     {
-     "text": "Small World by Mike Peters",
-     "imageUrl": "https://www.barkeranimation.com/media/catalog/product/cache/1/image/400x400/69ce6b71b8813d89313be6f869039d3f/1/5/15933_0101.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-09-21 editorial",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f68f3d62b12b.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1304,22 +1500,8 @@
      }
     },
     {
-     "text": "tattoos for men viking artwork by grimmy",
-     "imageUrl": "https://myartmagazine.com/file/images/11-2019/tattoos-men-viking-artwork-grimmy.jpg",
-     "keyword": "grimmy",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Can You Smell Me Now Mother Goose And Grimm Yearbook 2005 By Mike Peters New",
-     "imageUrl": "https://www.rarecollectiblesandantiquesvintages.com/files/250/_329/184743599946_1.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-06-11 crisis",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ee2fa0c2216d.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1332,8 +1514,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-08-12 Trump administration",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f34ba38354bd.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2001-12-22 coin",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP122201.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1346,8 +1528,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2019-10-03 former president",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5d9aca3f5c211.jpg",
+     "text": "Comic by Mike Peters",
+     "imageUrl": "https://thegnainsider.com/wp-content/uploads/2018/03/Screenshot-2018-03-14-at-7.53.05-AM.png",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1416,8 +1598,8 @@
      }
     },
     {
-     "text": "A cinnamon teal emerges from tules near a viewing deck in Colusa, CA.\u00a0(Mike Peters/San Francisco Chronicle",
-     "imageUrl": "https://s.hdnux.com/photos/66/14/01/14205021/4/920x1240.jpg",
+     "text": "30 Days of Gift Giving Contest - Let's spread some local love this holiday season! (Photo: Mike Peters",
+     "imageUrl": "https://www.tourismwinnipeg.com/uploads/blog_post/blog_post_image_1150.t1605199383.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1430,8 +1612,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-06-14 administration",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ee848b43c1ae.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2012-01-04 2012 primary",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4f065f6c00db1.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1444,8 +1626,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2016-04-07 voter",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5706e6dbd3973.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2008-01-23 economy",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080122.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1458,8 +1640,8 @@
      }
     },
     {
-     "text": "\u200b16 things to do outside to enjoy the warm weather this week - Spot birds along the trails at FortWhyte Alive (photo: Mike Peters",
-     "imageUrl": "https://www.tourismwinnipeg.com/uploads/blog_post/blog_post_image_1146.t1604345864.jpg",
+     "text": "Small World by Mike Peters",
+     "imageUrl": "https://www.barkeranimation.com/media/catalog/product/cache/1/image/400x400/69ce6b71b8813d89313be6f869039d3f/1/5/15933_0101.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1472,8 +1654,8 @@
      }
     },
     {
-     "text": "Winnipeg makes TIME\u2019s 2021 World's Greatest Places List - Photo: Mike Peters",
-     "imageUrl": "https://www.economicdevelopmentwinnipeg.com/uploads/blog_post/blog_post_image_947.t1626718918.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2019-08-29 year",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5d68aac970404.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1486,106 +1668,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2003-05-23 environment",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP052303.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2021-04-22 police",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg6081a3289857a.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Make waves with your next staycation at these Winnipeg hotel pools - Family fun in the pool at Fairfield Inn & Suites (photo: Mike Peters",
-     "imageUrl": "https://www.tourismwinnipeg.com/uploads/blog_post/blog_post_image_1219.t1616528840.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Winnipeg Art Gallery is the perfect place to spend your day off - Save your summer at the Winnipeg Art Gallery (photo: Mike Peters",
-     "imageUrl": "https://www.tourismwinnipeg.com/uploads/blog_post/blog_post_image_1109.t1596047163.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2003-06-29 economic recession",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP062903.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2014-05-01 voter suppression",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg53631acec22f2.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 1994-09-04 public health",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/CondomAds.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-10-09 illness",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f83f5136a589.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-09-30 Mike",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f7bfb75641a4.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1640,92 +1724,8 @@
      }
     },
     {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2004-08-20 2004 Olympics",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP082004_r2.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-07-09 epidemic",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5f0e804e4206e.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters / James Chippendale",
-     "imageUrl": "http://www.lovehopestrength.co.uk/wp-content/uploads/2013/08/SHARE-e1377210317427.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2020-06-02 Black Lives Matter",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ed722d3678b0.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2015-09-18 economic",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg55ff740726175.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2006-04-01 economy",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1060401.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters Mike Peters' Editorial Cartoons 2021-06-11 Donald",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg60c7a9b26acc3.jpg",
+     "text": "Mike Peters Mike Peters' Editorial Cartoons 2011-01-04 account number",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4d25c602abc2f.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": null,
@@ -1739,16 +1739,16 @@
     }
    ],
    "samples": [
-    "Mike Peters Mike Peters' Editorial Cartoons 2020-08-05 epidemic",
-    "Mike Peters Mike Peters' Editorial Cartoons 2020-04-22 crisis",
+    "Mike Peters Mike Peters' Editorial Cartoons 2020-08-05 crisis",
+    "Mike Peters Mike Peters' Editorial Cartoons 2020-04-15 public",
+    "Mike Peters Mike Peters' Editorial Cartoons 2009-07-17 value",
+    "Mike Peters Mike Peters' Editorial Cartoons 2020-10-18 Mike",
     "Mike Peters Mike Peters' Editorial Cartoons 2020-10-27 voting line",
     "Mike Peters Mike Peters' Editorial Cartoons 2019-11-08 money",
     "\"Brick City\" photos by Mike Peters.",
     "woman reading 1978 \u00a9 Mike Peters",
-    "Mike Peters Mike Peters' Editorial Cartoons 2020-05-14 public health",
-    "Mike Peters Mike Peters' Editorial Cartoons 2017-02-23 editorial",
-    "Mike Peters Mike Peters' Editorial Cartoons 2021-01-06 Donald",
-    "Mike Peters Mike Peters' Editorial Cartoons 2003-09-12 world"
+    "Mike Peters Mike Peters' Editorial Cartoons 2020-06-02 Black Lives Matter",
+    "Mike Peters Mike Peters' Editorial Cartoons 2015-09-18 economic"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1774,11 +1774,11 @@
    "totalIncludingLowConfidence": 12089,
    "rows": [
     {
-     "text": "tattoos for men lotus artwork by grimmy",
-     "imageUrl": "http://myartmagazine.com/file/images/11-2019/tattoos-men-lotus-artwork-grimmy.jpg",
-     "keyword": "grimmy",
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2004-11-01 pain",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG110104.jpg",
+     "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.0010929107666015625,
+     "punsafe": 0.0001296699047088623,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1788,11 +1788,11 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2014-11-01 your",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5443f4072ecc3.jpg",
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-09-12 club",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b97bafd9e5d7.jpg",
      "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.00025278329849243164,
+     "punsafe": 5.350761057343334e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1802,11 +1802,11 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-07-15 cat",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b4b9e14f202d.jpg",
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2009-04-26 hair",
+     "imageUrl": "https://www.thecomicstrips.com/properties/grimmy/art_images/tn_cg49f532b9406470.jpg",
      "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.0023272931575775146,
+     "punsafe": 0.0026563405990600586,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1816,11 +1816,179 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2019-05-05 dog",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5cc636373a02c.jpg",
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2015-08-01 skin",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg559ebaf445f5a.jpg",
      "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.0008295178413391113,
+     "punsafe": 0.01622864603996277,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2015-01-23 sea",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg54ba10210c80f.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.03227478265762329,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2019-08-23 cat",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5d59e586637aa.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0012570619583129883,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2015-11-06 Egypt",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5640015d9bb0b.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0014993846416473389,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Date Night by Mike Peters",
+     "imageUrl": "http://direct-ns.rhap.com/imageserver/v2/albums/Alb.173594523/images/170x170.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.029786378145217896,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2009-12-09 heat",
+     "imageUrl": "https://thecomicstrips.com/properties/grimmy/art_images/tn_cg4b1fea437cb490.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.01366204023361206,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2019-03-19 bar",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5c8dd9c1322d8.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.00026047229766845703,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2019-06-21 bad",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5d089db536747.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0007335543632507324,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2011-01-30 cat",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4d471a7b6af45.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.006245970726013184,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2021-08-10 mom",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg6107359a8fc66.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0002765655517578125,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2014-03-30 God",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg532260fb195b9.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 9.774033969733864e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters / Mike Gavrielov - Mission To Israel",
+     "imageUrl": "https://www.lovehopestrength.co.uk/wp-content/uploads/2013/10/IMG_2587-200x200.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0013451874256134033,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Abbey Road Sessions by Mike Peters",
+     "imageUrl": "https://direct.rhapsody.com/imageserver/images/Alb.8913267/170x170.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0001418590545654297,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1886,11 +2054,25 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2012-01-30 tech",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4f294356f0d3f.jpg",
+     "text": "tattoos for men lotus artwork by grimmy",
+     "imageUrl": "http://myartmagazine.com/file/images/11-2019/tattoos-men-lotus-artwork-grimmy.jpg",
+     "keyword": "grimmy",
+     "tier": "high",
+     "punsafe": 0.0010929107666015625,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2014-11-01 your",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5443f4072ecc3.jpg",
      "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.0006969273090362549,
+     "punsafe": 0.00025278329849243164,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1900,11 +2082,11 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2017-06-08 hard",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg592a0448247f2.jpg",
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-07-15 cat",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b4b9e14f202d.jpg",
      "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.0017106235027313232,
+     "punsafe": 0.0023272931575775146,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1914,95 +2096,11 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-06-18 date",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b242c05dfd99.jpg",
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2019-05-05 dog",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5cc636373a02c.jpg",
      "keyword": "mother goose and grimm",
      "tier": "high",
-     "punsafe": 0.0007688403129577637,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2011-05-30 date",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4de3f7ebf3ecb.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.006461620330810547,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2007-12-19 laws",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG1071219.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0005103051662445068,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-09-22 car",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b9ee624e23dc.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0005522668361663818,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2008-07-09 arf",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG1080709.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0015774369239807129,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2020-05-22 virus",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ecb602b5d3d4.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0001157166188932024,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Photographer Mary Ellen Mark, by Mike Peters",
-     "imageUrl": "https://i.pinimg.com/originals/cd/d6/9b/cdd69b6a5b5a75c5bbc4a290635ce85f.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0012677013874053955,
+     "punsafe": 0.0008295178413391113,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2138,188 +2236,6 @@
      }
     },
     {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2004-11-01 pain",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG110104.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0001296699047088623,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-09-12 club",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b97bafd9e5d7.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 5.350761057343334e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2009-04-26 hair",
-     "imageUrl": "https://www.thecomicstrips.com/properties/grimmy/art_images/tn_cg49f532b9406470.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0026563405990600586,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2015-08-01 skin",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg559ebaf445f5a.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.01622864603996277,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2015-01-23 sea",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg54ba10210c80f.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.03227478265762329,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2019-08-23 cat",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5d59e586637aa.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0012570619583129883,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2015-11-06 Egypt",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5640015d9bb0b.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0014993846416473389,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Date Night by Mike Peters",
-     "imageUrl": "http://direct-ns.rhap.com/imageserver/v2/albums/Alb.173594523/images/170x170.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.029786378145217896,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2020-02-10 Mike",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5e40f421ddb6b.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.001111060380935669,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2016-12-17 snow",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg583903a692651.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0007090270519256592,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2011-12-10 set",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4ee63a8196b23.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.021048665046691895,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2005-09-09 mad",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG090905.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0032111406326293945,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2021-03-10 dog",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg603523c9dedbe.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0021987557411193848,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2012-03-05 yeah",
      "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4f54f045ab277.jpg",
      "keyword": "mother goose and grimm",
@@ -2395,6 +2311,132 @@
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": 0.03625226020812988,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2012-01-30 tech",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4f294356f0d3f.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0006969273090362549,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2017-06-08 hard",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg592a0448247f2.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0017106235027313232,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-06-18 date",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b242c05dfd99.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0007688403129577637,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2011-05-30 date",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg4de3f7ebf3ecb.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.006461620330810547,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2007-12-19 laws",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG1071219.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0005103051662445068,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2018-09-22 car",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5b9ee624e23dc.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0005522668361663818,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2008-07-09 arf",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG1080709.jpg",
+     "keyword": "mother goose and grimm",
+     "tier": "high",
+     "punsafe": 0.0015774369239807129,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2020-05-22 virus",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5ecb602b5d3d4.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0001157166188932024,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Photographer Mary Ellen Mark, by Mike Peters",
+     "imageUrl": "https://i.pinimg.com/originals/cd/d6/9b/cdd69b6a5b5a75c5bbc4a290635ce85f.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0012677013874053955,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2570,61 +2612,19 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2020-11-10 long",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/cg5f9fc8f19240a.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0040926337242126465,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2005-11-17 blog",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG1051117.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.0016744136810302734,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Strip Mike Peters  Mother Goose and Grimm 2004-10-14 yeah",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/grimmy/art_images/MGG101404.jpg",
-     "keyword": "mother goose and grimm",
-     "tier": "high",
-     "punsafe": 0.019933253526687622,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "tattoos for men lotus artwork by grimmy",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2014-11-01 your",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2018-07-15 cat",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2019-05-05 dog",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2018-06-21 pee",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2021-07-22 see",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2019-03-15 dog",
-    "Postcard sent to Rob Bevis by Mike Peters June 1983",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2012-01-30 tech",
-    "Comic Strip Mike Peters  Mother Goose and Grimm 2017-06-08 hard"
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2004-11-01 pain",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2018-09-12 club",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2009-04-26 hair",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2015-08-01 skin",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2015-01-23 sea",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2019-08-23 cat",
+    "Mike Peters  Mike Peters' Editorial Cartoons 2015-11-06 Egypt",
+    "Date Night by Mike Peters",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2009-12-09 heat",
+    "Comic Strip Mike Peters  Mother Goose and Grimm 2019-03-19 bar"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2664,11 +2664,11 @@
      }
     },
     {
-     "text": "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://i0.wp.com/faszinationkraniche.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-1.jpg?w=361&",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-10-12 Mike",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5bc4699ea5b1f.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.0006631612777709961,
+     "punsafe": 0.0004121065139770508,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2678,11 +2678,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-10-07 Afghanistan",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4acdd72b5bf950.jpg",
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2001-07-07 Robert Mueller",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP070701.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.00014129281044006348,
+     "punsafe": 5.677998615283286e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2692,39 +2692,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-11-08 Mike",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5be938ff1885e.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-09-12 war",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091202.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 6.520187162095681e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-03-16 war",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP031602.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 8.975874516181648e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2017-12-05 Presidency",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5a276ded0188c.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 1.2437244549801107e-05,
+     "punsafe": 0.00033736228942871094,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2776,11 +2748,67 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-10-12 Mike",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5bc4699ea5b1f.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-06-14 science",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg51befc5cb9fbc.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.0004121065139770508,
+     "punsafe": 0.00019875168800354004,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-05-25 injury",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP1070525.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.012996703386306763,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-10-14 read",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4e9c1cc99d5ea.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.00012671947479248047,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-09-13 war",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091302.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 1.8873310182243586e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-05-21 head",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg4a1615b4ba1960.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0002251267433166504,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2886,621 +2914,19 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-05-21 head",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg4a1615b4ba1960.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0002251267433166504,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2001-07-07 Robert Mueller",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP070701.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 5.677998615283286e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-09-12 war",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091202.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00033736228942871094,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-06-14 science",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg51befc5cb9fbc.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00019875168800354004,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-05-25 injury",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP1070525.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.012996703386306763,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-10-14 read",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4e9c1cc99d5ea.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00012671947479248047,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-09-13 war",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091302.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 1.8873310182243586e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-06-18 100",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP1080618.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.002247244119644165,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-03-15 elderly",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg514707b8e572b.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0002225637435913086,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2019-07-18 Mike",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5d314b8c49e3c.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00015079975128173828,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2006-09-06 wildlife",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1060906.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 4.949003778165206e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2015-04-24 Mike",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg553ef409e87da.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.003034263849258423,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2015-02-19 George",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg54e6a0ff0e023.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 3.195717681592214e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maler Frank Koebsch mit Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://frankkoebsch.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-vom.jpg?w=346&h=519",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.01059231162071228,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2003-08-17 lobbyist",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP081703.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 3.887908678734675e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-01-16 sink",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg497417c3d50b20.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0006839632987976074,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2010-05-14 Afghanistan",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4bf134e982527.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00010197280062129721,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2010-03-02 park",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4b8ea3a8d43db0.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0028123557567596436,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://frankkoebsch.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-1.jpg?w=300",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.007670372724533081,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-05-04 Liz Cheney",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070504.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 4.5400753151625395e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-09-19 member",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg523c398dda1f4.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 3.485175329842605e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-11-02 poem",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4eb28bc29d939.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0001602768898010254,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2014-05-02 George",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg536788a833bb4.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0007260143756866455,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-03-07 Michael Steele",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg49b73ba86d28b0.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0005810260772705078,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-09-25 terrorism",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4ac0a581801330.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 7.856023876229301e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-11-24 Afghanistan",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4b0c60c642c280.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00046056509017944336,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2017-10-23 Presidency",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg59eed11d07d66.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.007589429616928101,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://frankkoebsch.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-1.jpg?w=238&",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0015249252319335938,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2016-03-02 2016 Election Bernie Sanders",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg56d7c693d0cf7.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 4.565727795124985e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-06-05 2008",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4a2bfbed4bd9c0.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00242730975151062,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2006-08-24 murder",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1060824.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.001475304365158081,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-03-25 head",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4d901d72111ec.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0003177225589752197,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-05-15 World War II",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080515.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00011362529767211527,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-12-28 retail",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1071227.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0001685619354248047,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2003-04-13 major",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP041303.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.004212051630020142,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-09-13 eye",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091301.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 5.086748205940239e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-05-18 American History",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070518.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00029397010803222656,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-07-11 meeting",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5b483bb2da5c3.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.07689264416694641,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-01-07 head",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070107.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.00019627809524536133,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2012-04-17 way",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_cg4f8eb829a261b.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.016089677810668945,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-09-21 agency",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070921.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0008259117603302002,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maler Frank Koebsch mit Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://frankkoebsch.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-vom.jpg?w=168&h=252",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.015881001949310303,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-10-20 bear",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4ea167345824e.jpg",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 3.486730929580517e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-01-26 head",
-    "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-10-07 Afghanistan",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-11-08 Mike",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-03-16 war",
-    "Mike Peters  Mike Peters' Editorial Cartoons 2017-12-05 Presidency",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-10-12 Mike",
+    "Mike Peters  Mike Peters' Editorial Cartoons 2001-07-07 Robert Mueller",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-09-12 war",
     "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-10-31 defense",
     "Mike Peters  Mike Peters' Editorial Cartoons 2012-12-27 junk food",
     "Hang Heels EP by Mike Peters",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2018-10-12 Mike"
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-06-14 science",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-05-25 injury",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-10-14 read"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3525,6 +2951,202 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 981,
    "rows": [
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-09-30 terrorist",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1060930.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.005123913288116455,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2004-07-07 alignment",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP070204.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 8.776532195042819e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2017-03-03 Donald",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg58b97ff627624.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 1.8589805677038385e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-09-16 pursue",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4e7733bf43b8d.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.001573324203491211,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-12-10 fund",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1061210.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0002765655517578125,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-12-13 find",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg52ae8bef5a890.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 1.3774378203379456e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2003-10-10 recall",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP101003.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0006085634231567383,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-03-07 Bill Clinton",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080307.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0006646215915679932,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-08-17 republican",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4e4ca341c927a.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0003299713134765625,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-09-18 terrorist",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP091801.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 1.1986221579718404e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-01-25 Rudy Giuliani",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080124.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0005485117435455322,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-03-21 playing",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/tn_MP032102.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0011104941368103027,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-12-06 south",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg52a54b8fac836.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0004534423351287842,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2004-02-27 movie theater",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP022704.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0015347003936767578,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "Dr. Nicholas J. Smith-Sebasto empties food waste into MSU's aerobic composter. (Mike Peters/ Montclair State University)",
      "imageUrl": "http://blog.nwf.org/wp-content/blogs.dir/11/files/2012/03/SmithSebasto-300x200.jpg",
@@ -3554,11 +3176,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-03-16 republican president",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1060316.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-06-01 photo",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070601.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 4.508165147854015e-05,
+     "punsafe": 0.000129014253616333,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3568,11 +3190,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2005-12-11 airplane travel",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1051211.jpg",
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2020-12-14 'tis",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5fd864ce76342.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 8.93217948032543e-05,
+     "punsafe": 0.0006926953792572021,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3582,11 +3204,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2005-01-10 airline travel",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP011005.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-03-23 George W. Bush congress",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070323.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.0009344816207885742,
+     "punsafe": 0.018672019243240356,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3596,11 +3218,179 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-08-08 generation",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP080801.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-12-02 bunny",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1061202.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.002513408660888672,
+     "punsafe": 0.0005200207233428955,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2014-05-02 university",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg536788a833bb4.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0007260143756866455,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2001-08-27 guilty",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP082701.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 7.497228216379881e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2009-11-06 2009",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4af81a099341c0.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 6.349667091853917e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Editorial Cartoons",
+     "imageUrl": "https://i.pinimg.com/236x/05/e2/33/05e2337886d316a5976311a6ab9a6a13.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0005491077899932861,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2017-10-06 devastation",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg59dc757975d88.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0010203421115875244,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-07-21 national",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4e290dba045f4.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 2.0764977307408117e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2007-06-15 damage",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070615.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0018576979637145996,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-03-31 alignment",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg49d353e978e0a0.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 2.0181307263555937e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2017-09-28 storm",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg59cdd93890ddb.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 2.7858835892402567e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2004-12-24 care",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP122404.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.00010356381972087547,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2003-01-25 World War II",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP012503.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.00035640597343444824,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2005-06-11 matter",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP061105.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 5.9227411838946864e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3657,6 +3447,202 @@
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": 3.67182947229594e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2003-07-10 airplane travel",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP071003.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0002428591251373291,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-11-20 news media",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4b0a9b7fa3b8c0.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 2.876642429328058e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2002-01-26 prison",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP012602.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0007500946521759033,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2020-12-11 Donald Trump",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5fd7059ba65ff.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 2.4570803361712024e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2005-03-03 rule of law",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP030305.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 3.6537283449433744e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters Editorial Cartoons",
+     "imageUrl": "https://i.pinimg.com/236x/aa/41/5b/aa415b8c213128f110863a822cc090bc.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0007457733154296875,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-06-24 terrorist",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1080624.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.00014084577560424805,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-11-14 business",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1071114.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0025917887687683105,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2011-12-10 university",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg4ee53166955fd.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0029008984565734863,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2002-06-28 finance",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP062802.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0001141464090324007,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-03-16 republican president",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1060316.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 4.508165147854015e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2005-12-11 airplane travel",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1051211.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 8.93217948032543e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2005-01-10 airline travel",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP011005.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.0009344816207885742,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-08-08 generation",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP080801.jpg",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": 0.002513408660888672,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3764,11 +3750,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2007-03-23 George W. Bush congress",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1070323.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2014-03-21 national",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg532f9e1204386.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.018672019243240356,
+     "punsafe": 5.1139286370016634e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3778,11 +3764,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-12-02 bunny",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP1061202.jpg",
+     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2004-03-06 liberty",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/MP030604.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 0.0005200207233428955,
+     "punsafe": 0.0009261369705200195,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3792,11 +3778,11 @@
      }
     },
     {
-     "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2009-02-10 republican",
-     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg49924123e43d00.jpg",
+     "text": "Mike Peters  Mike Peters' Editorial Cartoons 2015-06-05 2016 Republican Debate",
+     "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg5575023c8d3d1.jpg",
      "keyword": "mike peters",
      "tier": "namematch",
-     "punsafe": 1.2038793101964984e-05,
+     "punsafe": 8.01947753643617e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3807,16 +3793,16 @@
     }
    ],
    "samples": [
-    "Dr. Nicholas J. Smith-Sebasto empties food waste into MSU's aerobic composter. (Mike Peters/ Montclair State University)",
-    "Mike Peters  Mike Peters' Editorial Cartoons 2021-02-06 presidential",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-03-16 republican president",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2005-12-11 airplane travel",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2005-01-10 airline travel",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-08-08 generation",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-08-25 Bill Clinton",
-    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2014-04-17 air travel",
-    "Mike Peters  Mike Peters' Editorial Cartoons 2015-05-21 change",
-    "Mike Peters Editorial Cartoons"
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-09-30 terrorist",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2004-07-07 alignment",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2017-03-03 Donald",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-09-16 pursue",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2006-12-10 fund",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-12-13 find",
+    "Mike Peters  Mike Peters' Editorial Cartoons 2003-10-10 recall",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2008-03-07 Bill Clinton",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2011-08-17 republican",
+    "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2001-09-18 terrorist"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3888,8 +3874,25 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 15,
-   "rows": [],
-   "samples": [],
+   "rows": [
+    {
+     "text": "Across from an abandoned warehouse, 9-year-old orphans Dr. Joe and his illiterate sidekick Bubblegum today will begin their journey to become the world's longest comic strip.\nAnd what happens to the characters and the 100-yard-long, 8-foot- high cartoon strip planned for Hartford's Willie Ware Commu",
+     "imageUrl": "https://www.courant.com/news/connecticut/hc-xpm-1997-07-07-9707070172-story.html",
+     "keyword": "mike peters",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "Across from an abandoned warehouse, 9-year-old orphans Dr. Joe and his illiterate sidekick Bubblegum today will begin their journey to become the world's longest comic strip.\nAnd what happens to the characters and the 100-yard-long, 8-foot- high cartoon strip planned for Hartford's Willie Ware Commu"
+   ],
    "partial": false,
    "shardsScanned": 10,
    "shardsTotal": 10
@@ -3914,9 +3917,9 @@
     "longformRatio": 0.039,
     "perDataset": {
      "coyo700m": 73,
+     "laion1b-nolang": 21,
      "laion2b-en": 3561,
      "laion2b-multi": 3,
-     "laion1b-nolang": 21,
      "obelics": 149,
      "pile": 1
     },
@@ -3930,13 +3933,13 @@
     "longformHits": 967,
     "longformRatio": 0.341,
     "perDataset": {
+     "c4-en": 3,
      "coyo700m": 191,
      "laion1b-nolang": 323,
      "laion2b-en": 1055,
      "laion2b-multi": 297,
      "obelics": 963,
-     "pile": 1,
-     "c4-en": 3
+     "pile": 1
     },
     "reason": null
    },
@@ -3948,13 +3951,13 @@
     "longformHits": 2289,
     "longformRatio": 0.194,
     "perDataset": {
+     "c4-en": 12,
      "coyo700m": 1084,
      "laion1b-nolang": 637,
      "laion2b-en": 7473,
      "laion2b-multi": 338,
      "obelics": 2274,
-     "pile": 3,
-     "c4-en": 12
+     "pile": 3
     },
     "reason": null
    }
@@ -3970,14 +3973,14 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 248,
-   "merchandise": 17,
-   "person_photo": 47,
-   "storefront": 7,
-   "unrelated": 1,
-   "derivative": 8
+   "unverified": 221,
+   "person_photo": 37,
+   "merchandise": 20,
+   "storefront": 9,
+   "derivative": 9,
+   "unrelated": 2
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-mike-peters",
  "cohort": "billy-ireland",
@@ -3990,7 +3993,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 18462,
   "datasetsPresent": 7,

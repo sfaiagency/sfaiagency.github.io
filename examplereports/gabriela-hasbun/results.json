@@ -15,45 +15,17 @@
    "coverageComplete": true,
    "rowsCovered": 747017344,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 12,
+   "highConfidenceCount": 12,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 41,
    "totalIncludingLowConfidence": 53,
    "rows": [
     {
-     "text": "Jagdeep Singh, chief executive of QuantumScape, in San Jose, Calif., on Feb. 4. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
-     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2021/02/154945-780x1170.jpg",
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gabriela Hasbun for the New York Times",
-     "imageUrl": "https://www.moneyreview.gr/wp-content/uploads/2021/03/05_BATTERIES_1-1-320x200.jpg",
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Seed investor: Bonny Meyer plowed cash from the sale of her Napa winery into impact investing --... [+] before it was cool. (Photo credit: Gabriela Hasbun for Forbes",
      "imageUrl": "https://images.forbes.com/media/2015/06/15/0615_ig-bonny-meyer_1200x675.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -67,7 +39,7 @@
      "text": "GABRIELA HASBUN - Vulcan often paints his canvases with unorthodox tools, like scrapers and rollers.",
      "imageUrl": "https://media1.fdncms.com/sfweekly/imager/vulcan-often-paints-his-canvases-with-unor/u/story/2160792/59517.0.jpeg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -81,7 +53,7 @@
      "text": "Pahrump, Nevada. April 16, 2005 Very young girls aim at a target during a self defense practice at a shooting range. Photograph by Gabriela Hasbun.",
      "imageUrl": "https://www.gabrielahasbun.com/wp-content/uploads/2016/01/lifestyle010-600x800.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -95,7 +67,7 @@
      "text": "Gabriela Hasbun\u2019s \u201cLittle Russia\u201d is among the evocative photographic views of The City in \u201cProject 24 San Francisco.\u201d (Courtesy Dryansky Gallery",
      "imageUrl": "https://2zwmzkbocl625qdrf2qqqfok-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/APROJECT2-e1440609675874.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -106,24 +78,10 @@
      }
     },
     {
-     "text": "An employee holds QuantumScape\u2019s solid state lithium metal cell battery for electric vehicles in San Jose, Calif. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
-     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2021/02/154946-780x520.jpg",
+     "text": "Jagdeep Singh, chief executive of QuantumScape, in San Jose, Calif., on Feb. 4. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
+     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2021/02/154945-780x1170.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph",
-     "imageUrl": "https://www.stephenfry.com/wp-content/uploads/2015/05/65846417_Fea006266_3317267b.jpg",
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -137,7 +95,7 @@
      "text": "Gabriela Hasbun for the New York Times",
      "imageUrl": "https://www.moneyreview.gr/wp-content/uploads/2021/03/05_BATTERIES_1-1-768x480.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -151,7 +109,49 @@
      "text": "Discord by Gabriela Hasbun for Forbes-2UP_Photo_Frame_COMP2_GIF-128",
      "imageUrl": "https://thumbor.forbes.com/thumbor/2500x1250/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5efa7aebb198990007d30662%2F0x0.gif%3Ffit%3Dscale",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gabriela Hasbun for the New York Times",
+     "imageUrl": "https://www.moneyreview.gr/wp-content/uploads/2021/03/05_BATTERIES_1-1-320x200.jpg",
+     "keyword": "gabriela hasbun",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "An employee holds QuantumScape\u2019s solid state lithium metal cell battery for electric vehicles in San Jose, Calif. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
+     "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2021/02/154946-780x520.jpg",
+     "keyword": "gabriela hasbun",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph",
+     "imageUrl": "https://www.stephenfry.com/wp-content/uploads/2015/05/65846417_Fea006266_3317267b.jpg",
+     "keyword": "gabriela hasbun",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -165,7 +165,7 @@
      "text": "\u00a0An employee holds QuantumScape\u2019s solid state lithium metal cell battery for electric vehicles in San Jose, Calif, on Feb 4, 2021. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun/The New York Times",
      "imageUrl": "https://d30fl32nd2baj9.cloudfront.net/media/2021/02/17/lithium-metal-battery-170221-01.jpg/ALTERNATES/w640/lithium-metal-battery-170221-01.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -179,7 +179,7 @@
      "text": "The lab at QuantumScape, a Silicon Valley startup whose investors include Volkswagen and Bill Gates, in San Jose, Calif. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun/The New York Times)",
      "imageUrl": "https://static.seattletimes.com/wp-content/uploads/2021/02/154947-780x520.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -191,16 +191,16 @@
     }
    ],
    "samples": [
-    "Jagdeep Singh, chief executive of QuantumScape, in San Jose, Calif., on Feb. 4. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
-    "Gabriela Hasbun for the New York Times",
     "Seed investor: Bonny Meyer plowed cash from the sale of her Napa winery into impact investing --... [+] before it was cool. (Photo credit: Gabriela Hasbun for Forbes",
     "GABRIELA HASBUN - Vulcan often paints his canvases with unorthodox tools, like scrapers and rollers.",
     "Pahrump, Nevada. April 16, 2005 Very young girls aim at a target during a self defense practice at a shooting range. Photograph by Gabriela Hasbun.",
     "Gabriela Hasbun\u2019s \u201cLittle Russia\u201d is among the evocative photographic views of The City in \u201cProject 24 San Francisco.\u201d (Courtesy Dryansky Gallery",
-    "An employee holds QuantumScape\u2019s solid state lithium metal cell battery for electric vehicles in San Jose, Calif. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
-    "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph",
+    "Jagdeep Singh, chief executive of QuantumScape, in San Jose, Calif., on Feb. 4. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
     "Gabriela Hasbun for the New York Times",
-    "Discord by Gabriela Hasbun for Forbes-2UP_Photo_Frame_COMP2_GIF-128"
+    "Discord by Gabriela Hasbun for Forbes-2UP_Photo_Frame_COMP2_GIF-128",
+    "Gabriela Hasbun for the New York Times",
+    "An employee holds QuantumScape\u2019s solid state lithium metal cell battery for electric vehicles in San Jose, Calif. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. (Gabriela Hasbun / The New York Times)",
+    "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -219,8 +219,8 @@
    "coverageComplete": true,
    "rowsCovered": 2097690752,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 14,
+   "highConfidenceCount": 14,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 101,
    "totalIncludingLowConfidence": 115,
@@ -229,7 +229,7 @@
      "text": "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph)",
      "imageUrl": "https://stephenfry.com/wp-content/uploads/2015/05/65846417_Fea006266_3317267b.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.16312652826309204,
      "validation": {
       "category": "artwork",
@@ -243,7 +243,7 @@
      "text": "Brian Chesky | Author: Gabriela Hasbun/News Syndication/PIXSELL",
      "imageUrl": "https://express.24sata.hr/media/img/ff/2c/8606b8db8defbd265cb2.jpeg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.010105609893798828,
      "validation": {
       "category": "artwork",
@@ -257,7 +257,7 @@
      "text": "Retired professional basketball player, Adonal Foyle, photographed in his home in Orinda, California.(Photo by Gabriela Hasbun)",
      "imageUrl": "https://eurweb.com/wp-content/uploads/2015/10/2012-10-12-2012_10_04_Foyle_5687copy-200x300.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.1119360625743866,
      "validation": {
       "category": "artwork",
@@ -271,7 +271,7 @@
      "text": "GABRIELA HASBUN - Adulterers' bane: PI Chris Butler and some of his crew.",
      "imageUrl": "https://media1.fdncms.com/eastbayexpress/imager/adulterers-bane-pi-chris-butler-and-some-of-his-crew/u/story/1082907/1493408.t.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.1795251965522766,
      "validation": {
       "category": "artwork",
@@ -285,7 +285,7 @@
      "text": "\"\"\"\u2022\u2022Jony Ive / Tim Cook / Stephen Fry\u2022\u2022 at the CA, Cupertino Apple Motherhship campus II construction site (photo: Gabriela Hasbun for The Telegraph 2015-05-26) \u2022article by Fry \"\"\"\"When Stephen Fry met Jony Ive: the self-confessed tech geek meets Apple's newly promoted chief design officer\"\"\"\" (to ",
      "imageUrl": "https://i.pinimg.com/236x/c5/65/11/c565116038b4a4931f22fbffd1a9d2d4--site-photo-spaceship-design.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.1019819974899292,
      "validation": {
       "category": "artwork",
@@ -299,7 +299,7 @@
      "text": "The Property Brothers Drew Scott (tie) & Jonathan Scott (blue shirt) photographed at home in Las Vegas, NV on September 19, 2014.  Photographer: Gabriela Hasbun Groomer: Zee Clemente/Zenobia Prop Stylist: Amy Villareale/Zenobia Stylist: Christie Moeller/Zenobia  (no clothing credits needed)",
      "imageUrl": "https://www.gabrielahasbun.com/wp-content/uploads/2018/06/2014_09_19_PropertyBrothers_13993-600x800.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.2081286907196045,
      "validation": {
       "category": "artwork",
@@ -313,7 +313,7 @@
      "text": "Together, Tammy Johnson (left) and Etang Inyang (right) formed Your Body Raks, a wellness group that celebrates bodies of all sizes through belly dance, classes and workshops. (Photo by Gabriela Hasbun)",
      "imageUrl": "http://richmondconfidential.org/wp-content/uploads/2013/09/BodyRaks-600x400.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.03693962097167969,
      "validation": {
       "category": "artwork",
@@ -327,7 +327,7 @@
      "text": "Stephen Fry, Tim Cook and Jony Ive (left to right) (Photo: Gabriela Hasbun for The Telegraph)",
      "imageUrl": "https://www.stephenfry.com/wp-content/uploads/2015/05/65846417_Fea006266_3317267b-550x387.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.09254157543182373,
      "validation": {
       "category": "artwork",
@@ -341,7 +341,7 @@
      "text": "Today's Promo Daily was sent a while back from San Francisco based photographer Gabriela Hasbun.",
      "imageUrl": "https://images.dwell.com/photos-6063391372700811264/6133557570599477248-small/promo-daily-of-changorg-founder-ben-rattray-gabriela-hasbun-promotional-photographer-piece-mailer-portrait.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 1.9363691535545513e-05,
      "validation": {
       "category": "artwork",
@@ -380,8 +380,8 @@
    "coverageComplete": true,
    "rowsCovered": 2057910016,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 10,
+   "highConfidenceCount": 10,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 156,
    "totalIncludingLowConfidence": 166,
@@ -390,7 +390,7 @@
      "text": "Bryan Davis of Lost Spirits Distillery outside his lab in Monterey, Ca.  GABRIELA HASBUN/WIRED",
      "imageUrl": "https://midletonrared.files.wordpress.com/2015/04/2015_04_06_davis_-138-1024x683.jpg?w=640&",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0043739378452301025,
      "validation": {
       "category": "artwork",
@@ -404,22 +404,8 @@
      "text": "Foto: Bryan Davis frente a su peque\u00f1a destiler\u00eda (Foto: Gabriela Hasbun/Wired)",
      "imageUrl": "https://images.ecestaticos.com/MAQPtJPLYIXgRJ8yabZYllFqxwE=/0x52:1021x627/996x560/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F532%2F51c%2Ff38%2F53251cf38bf9ae367b744643bb08bc6b.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00141984224319458,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gabriela Hasbun Redux Dans Paris Match Octobre",
-     "imageUrl": "https://entreprise.agencerea.com/wp-content/uploads/2020/02/Gabriela-Hasbun-Redux-Dans-Paris-Match-Octobre.jpg",
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": 0.0005068480968475342,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -432,8 +418,22 @@
      "text": "Bryan Davis of Lost Spirits Distillery outside his lab in Monterey, Ca.  GABRIELA HASBUN/WIRED",
      "imageUrl": "https://i2.wp.com/tripledistilled.blog/wp-content/uploads/2015/04/2015_04_06_davis_-138-1024x683.jpg?resize=640%2C427&",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.004306793212890625,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gabriela Hasbun Redux Dans Paris Match Octobre",
+     "imageUrl": "https://entreprise.agencerea.com/wp-content/uploads/2020/02/Gabriela-Hasbun-Redux-Dans-Paris-Match-Octobre.jpg",
+     "keyword": "gabriela hasbun",
+     "tier": "high",
+     "punsafe": 0.0005068480968475342,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -446,7 +446,7 @@
      "text": "\u041e\u0441\u043d\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0441\u0442\u0430\u0440\u0442\u0430\u043f\u0430 Frobot \u0438 Kytch \u041c\u0435\u043b\u0438\u0441\u0441\u0430 \u041d\u0435\u043b\u044c\u0441\u043e\u043d \u0438 \u0414\u0436\u0435\u0440\u0435\u043c\u0438 \u041e'\u0421\u0430\u043b\u043b\u0438\u0432\u0430\u043d. \u0424\u043e\u0442\u043e: GABRIELA HASBUN",
      "imageUrl": "https://lh4.googleusercontent.com/Xs6N9oTKtQzi93NBZ9-6RbLIHvr6XMFu0-EkMV_L2QFNYGhg4zH3iM52YlM2XX_FglXbO9BK4v3ohVifFrS_KaHZqBfSLt8a2kHWXn-WMwD1D0weNw-Z18aSF22uX9ecGf6_Qj0o",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00014984607696533203,
      "validation": {
       "category": "artwork",
@@ -460,7 +460,7 @@
      "text": "Bryan Davis of Lost Spirits Distillery outside his lab in Monterey, Ca.  GABRIELA HASBUN/WIRED",
      "imageUrl": "https://i0.wp.com/tripledistilled.blog/wp-content/uploads/2015/04/2015_04_06_davis_-138-1024x683.jpg?resize=640%2C427&ssl=1",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.004306793212890625,
      "validation": {
       "category": "artwork",
@@ -474,7 +474,7 @@
      "text": "Szu-Chi Huang | Gabriela Hasbun",
      "imageUrl": "https://www.gsb.stanford.edu/sites/gsb/files/szuchi-goals-1630_1.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.024153143167495728,
      "validation": {
       "category": "artwork",
@@ -488,7 +488,7 @@
      "text": "\u041e\u0441\u043d\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0441\u0442\u0430\u0440\u0442\u0430\u043f\u0430 Frobot \u0438 Kytch \u041c\u0435\u043b\u0438\u0441\u0441\u0430 \u041d\u0435\u043b\u044c\u0441\u043e\u043d \u0438 \u0414\u0436\u0435\u0440\u0435\u043c\u0438 \u041e'\u0421\u0430\u043b\u043b\u0438\u0432\u0430\u043d. \u0424\u043e\u0442\u043e: GABRIELA HASBUN",
      "imageUrl": "https://kompromat1.ws/foto/articles_images/178000/178850_5.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.601289300713688e-05,
      "validation": {
       "category": "artwork",
@@ -502,8 +502,8 @@
    "samples": [
     "Bryan Davis of Lost Spirits Distillery outside his lab in Monterey, Ca.  GABRIELA HASBUN/WIRED",
     "Foto: Bryan Davis frente a su peque\u00f1a destiler\u00eda (Foto: Gabriela Hasbun/Wired)",
-    "Gabriela Hasbun Redux Dans Paris Match Octobre",
     "Bryan Davis of Lost Spirits Distillery outside his lab in Monterey, Ca.  GABRIELA HASBUN/WIRED",
+    "Gabriela Hasbun Redux Dans Paris Match Octobre",
     "\u041e\u0441\u043d\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0441\u0442\u0430\u0440\u0442\u0430\u043f\u0430 Frobot \u0438 Kytch \u041c\u0435\u043b\u0438\u0441\u0441\u0430 \u041d\u0435\u043b\u044c\u0441\u043e\u043d \u0438 \u0414\u0436\u0435\u0440\u0435\u043c\u0438 \u041e'\u0421\u0430\u043b\u043b\u0438\u0432\u0430\u043d. \u0424\u043e\u0442\u043e: GABRIELA HASBUN",
     "Bryan Davis of Lost Spirits Distillery outside his lab in Monterey, Ca.  GABRIELA HASBUN/WIRED",
     "Szu-Chi Huang | Gabriela Hasbun",
@@ -526,17 +526,31 @@
    "coverageComplete": true,
    "rowsCovered": 1191320960,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 13,
+   "highConfidenceCount": 13,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 151,
    "totalIncludingLowConfidence": 164,
    "rows": [
     {
+     "text": "Promo Daily: Gabriela Hasbun - Photo 1 of 1 -",
+     "imageUrl": "https://d3df8ea8ea59eq.cloudfront.net/photos/6063391372700811264/6133557570599477248/small.jpg",
+     "keyword": "gabriela hasbun",
+     "tier": "high",
+     "punsafe": 1.9363691535545513e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (8)",
      "imageUrl": "https://adelaparvu.com/wp-content/uploads/2013/11/adelaparvu-com-despre-casa-balori-paie-arh-arkin-tilt-foto-gabriela-hasbun-8.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001196742057800293,
      "validation": {
       "category": "artwork",
@@ -550,22 +564,8 @@
      "text": "In Conversation with...Graduate Gabriela Hasbun",
      "imageUrl": "https://i.ytimg.com/vi/Vyqs1Ii11wE/mqdefault.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018724799156188965,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Promo Daily: Gabriela Hasbun - Photo 1 of 1 -",
-     "imageUrl": "https://d3df8ea8ea59eq.cloudfront.net/photos/6063391372700811264/6133557570599477248/small.jpg",
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": 1.9363691535545513e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -578,7 +578,7 @@
      "text": "Students in San Francisco prepare to practise, 2007 - Gabriela Hasbun",
      "imageUrl": "https://s.yimg.com/ny/api/res/1.2/EY0mL_yfEN1uQI5cu4Jq.w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTYwMC4zMzgwMjgxNjkwMTQx/https://s.yimg.com/uu/api/res/1.2/y14hjXuowFtp9nCHPV6o6A--~B/aD00NDQ7dz03MTA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/the_telegraph_818/71333e8663fe9af8e0bf418b49cdc984",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.034436941146850586,
      "validation": {
       "category": "artwork",
@@ -592,7 +592,7 @@
      "text": "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (6)",
      "imageUrl": "https://adelaparvu.com/wp-content/uploads/2013/11/adelaparvu-com-despre-casa-balori-paie-arh-arkin-tilt-foto-gabriela-hasbun-6.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018718838691711426,
      "validation": {
       "category": "artwork",
@@ -606,7 +606,7 @@
      "text": "Cecilia Chung, photo by Gabriela Hasbun",
      "imageUrl": "https://transom.org/wp-content/uploads/2010/06/Cecila_PolkSt.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.30950647592544556,
      "validation": {
       "category": "artwork",
@@ -620,7 +620,7 @@
      "text": "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (4)",
      "imageUrl": "https://adelaparvu.com/wp-content/uploads/2013/11/adelaparvu-com-despre-casa-balori-paie-arh-arkin-tilt-foto-gabriela-hasbun-4.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0018927454948425293,
      "validation": {
       "category": "artwork",
@@ -634,7 +634,7 @@
      "text": "Palmer Luckey, creador del Oculus Rift (Foto: Gabriela Hasbun)",
      "imageUrl": "https://cdn.forbes.com.mx/2016/09/Gabriela-Hasbun-620x400.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001130819320678711,
      "validation": {
       "category": "artwork",
@@ -648,7 +648,7 @@
      "text": "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (8)",
      "imageUrl": "https://adelaparvu.files.wordpress.com/2013/11/adelaparvu-com-despre-casa-balori-paie-arh-arkin-tilt-foto-gabriela-hasbun-8.jpg?w=547&h=358",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.005445003509521484,
      "validation": {
       "category": "artwork",
@@ -662,7 +662,7 @@
      "text": "In Conversation with Gabriela Hasbun",
      "imageUrl": "https://static.wixstatic.com/media/448d74_6f702681df5f40fdb6ee2d2e591466d5~mv2.jpg/v1/fill/w_609,h_545,q_90/448d74_6f702681df5f40fdb6ee2d2e591466d5~mv2.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0003979504108428955,
      "validation": {
       "category": "artwork",
@@ -676,7 +676,7 @@
      "text": "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (7)",
      "imageUrl": "https://adelaparvu.files.wordpress.com/2013/11/adelaparvu-com-despre-casa-balori-paie-arh-arkin-tilt-foto-gabriela-hasbun-7.jpg?w=547&h=820",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0009365081787109375,
      "validation": {
       "category": "artwork",
@@ -690,7 +690,7 @@
      "text": "In Conversation with Gabriela Hasbun",
      "imageUrl": "https://static.wixstatic.com/media/448d74_6f702681df5f40fdb6ee2d2e591466d5~mv2.jpg/v1/fill/w_1280,h_720,q_90/448d74_6f702681df5f40fdb6ee2d2e591466d5~mv2.jpg",
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00012448430061340332,
      "validation": {
       "category": "artwork",
@@ -702,9 +702,9 @@
     }
    ],
    "samples": [
+    "Promo Daily: Gabriela Hasbun - Photo 1 of 1 -",
     "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (8)",
     "In Conversation with...Graduate Gabriela Hasbun",
-    "Promo Daily: Gabriela Hasbun - Photo 1 of 1 -",
     "Students in San Francisco prepare to practise, 2007 - Gabriela Hasbun",
     "adelaparvu.com despre casa balori paie arh. Arkin Tilt Foto Gabriela Hasbun  (6)",
     "Cecilia Chung, photo by Gabriela Hasbun",
@@ -730,8 +730,8 @@
    "coverageComplete": true,
    "rowsCovered": 141047704,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 58,
+   "highConfidenceCount": 58,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 264,
    "totalIncludingLowConfidence": 322,
@@ -740,7 +740,7 @@
      "text": "St. George Spirits from Alameda was one of the California-based distillers present at WhiskyFest San Francisco. (Photo by Gabriela Hasbun)\n\nThere were great American whiskeys in abundance as well, including new and rare expressions. Jack Daniel\u2019s was pouring its much sought-after 10 year old Tenness",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -754,7 +754,7 @@
      "text": "There was no shortage of memorable pours on the WhiskyFest floor. (Photo by Gabriela Hasbun)\n\nAttendee Gnana W. estimated that he\u2019s been to around a dozen WhiskyFests, and noted that while he was very pleasantly surprised by Glyph\u2019s molecular whisky, he was most excited to try single malts from Balb",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -768,7 +768,7 @@
      "text": "Guests flocked to the Ardbeg booth at WhiskyFest San Francisco to sample some peaty Islay scotch. (Photo by Gabriela Hasbun)\n\nA big world of whisky was well represented, including local California distillers like Rod & Hammer\u2019s SLO Stills, St. George Spirits, Bespoken Spirits, and Gold Bar Whiskey. ",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -782,21 +782,7 @@
      "text": "Pop-Up School For Black Entrepreneurs Coming To Tulsa In July\n\nSTORY AND PHOTOS BY GABRIELA HASBUN\n\nI started getting interested in cowboys after my neighbor in Oakland invited me to join her at the Bill Pickett Invitational Rodeo in 2007 \u2014 my first ever. I was raised in cities (San Salvador and Mia",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Our 2011 magazine provided an inside account of the Proposition 8 trial in California over gay marriage, which featured the historic pairing of Bush v. Gore opponents David Boies and Ted Olson. (Photo of Olson, Boies and their clients by Gabriela Hasbun.)\n\nThe issue also presented an in-depth examin",
-     "imageUrl": null,
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -810,7 +796,21 @@
      "text": "Gabriela Hasbun, ASSOCIATED PRESS\nThis photo provided by Shutterfly shows Shutterfly CEO Hillary Schneider. As other technology companies lay off workers and try to cut costs in other ways amid a post-pandemic comedown, Schneider is gearing up for what is expected to be a busy holiday season for dig",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Our 2011 magazine provided an inside account of the Proposition 8 trial in California over gay marriage, which featured the historic pairing of Bush v. Gore opponents David Boies and Ted Olson. (Photo of Olson, Boies and their clients by Gabriela Hasbun.)\n\nThe issue also presented an in-depth examin",
+     "imageUrl": null,
+     "keyword": "gabriela hasbun",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -824,7 +824,7 @@
      "text": "An obsessive interest in anything, such as comic books, can be a sign of geekdom.\nGabriela Hasbun/Taxi/Getty Images\n\nThey're obsessed with something. It might be computers or computer games, comic books, anime, \"Star Wars\" or superheroes. It may even be a school subject or activity -- there are math",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -838,7 +838,7 @@
      "text": "Linda Ampah raised money from family and friends to launch her clothing company: \u201cPeople pitched in here and there.\u201d | Gabriela Hasbun\n\nGhanaian fashion designer Linda Ampah took a double leap of faith when she decided to expand her custom clothing company into mass production in 2012.\n\nShe not only",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -852,7 +852,7 @@
      "text": "A bite of chicken breast grown from stem cells at Upside Foods, one of several companies around the world trying to develop commercially viable meat from animal stem cells. Credit... Gabriela Hasbun for The New York Times\n\nThis weekend, listen to a collection of narrated articles from around The New",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -866,21 +866,7 @@
      "text": "credit Photo by Gabriela Hasbun\nBlow me: The August 3 episode pits a garbage-can hovercraft against a leafblower-borne surfboard.",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The growing ranks of the Mediocre Golf Association know they'll never go low. And accepting this has made the game a lot more fun.\nGabriela Hasbun\n\nJon Morley was born into a happy home in the Cincinnati suburbs and raised by loving parents. They taught him to see the world around him without limits",
-     "imageUrl": null,
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -894,7 +880,21 @@
      "text": "Gabriela Hasbun\nSpy marshal: Scannell fights to protect your passenger info.\nSCANNELL: I read about Capps II and completely lost it. I started to think, well, what can I do? From a PR point of view I thought, man, how stupid can Delta be? They're out there on their own.\n\nSo you threw a boycott. Did ",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The growing ranks of the Mediocre Golf Association know they'll never go low. And accepting this has made the game a lot more fun.\nGabriela Hasbun\n\nJon Morley was born into a happy home in the Cincinnati suburbs and raised by loving parents. They taught him to see the world around him without limits",
+     "imageUrl": null,
+     "keyword": "gabriela hasbun",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -908,7 +908,7 @@
      "text": "Rojas\u2019 mural Enrique\u2019s Journey (2009) was inspired by Sonia Nazario\u2019s book of the same name and is located at Balmy Alley in San Francisco. Photo by Gabriela Hasbun\n\nRojas says his life could\u2019ve gone in a very different direction. His father died when he was 15, and he began acting out. \u201cI started g",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -922,7 +922,7 @@
      "text": "With a team of local street artists, Josu\u00e9 Rojas (\u201915) painted the mural Birds of the Americas in San Francisco\u2019s Mission District. Photo by Gabriela Hasbun\n\nOriginally published in the Spring 2021 issue of CFA magazine. By Marc Chalufour\n\nHundreds of murals illustrate the streets and alleys of San ",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -936,21 +936,7 @@
      "text": "Ullal spent 15 years at Cisco --now her alma mater is suing her.\nPhotograph by Gabriela Hasbun\n\nFortune: The computer networking company you run, Arista Networks, is 10 years old but has never raised money from venture capitalists. How did you manage that?\n\nJayshree Ullal: Our founders are our funde",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gabriela Hasbun on Photographing the Rodeo\n\nVia Chronicle Books\nBy Gabriela Hasbun\n\nIt\u2019s hard to imagine a more powerful symbol of self-reliance, strength, and determination than the cowboy. While the archetypal cowboy is a highly romanticized figure, and one that ignores ugly truths about the cost ",
-     "imageUrl": null,
-     "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -964,7 +950,7 @@
      "text": "KK Brinson is a rodeo rider from West Oakland. She first fell in love with the profession as a pre-teen. Photo by Gabriela Hasbun\n\nPhotographing a hidden Black community in the hills\n\nHasbun first came across Black cowboys in 2007 when her neighbor was on the hunt for authentic fried catfish. They d",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -978,7 +964,7 @@
      "text": "Cowboy Jordan Miller mounts his horse. \u201cJust the fact that there's this culture, this Black community just hidden out here in the hills of the East Bay just kind of blew my mind, because it is one of the safest, warmest, fun communities I've met in a long time,\u201d says photographer Gabriela Hasbun. Ph",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -992,7 +978,7 @@
      "text": "Style is taken seriously even among spectators. Photo by Gabriela Hasbun.\n\nOne year, Brinson stuck around after the rodeo to let fans ride her horse. A young girl called her a Black princess and said she wanted to be like her when she grew up. It was a meaningful moment.\n\n\u201cIt warms my heart when a c",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1006,7 +992,7 @@
      "text": "\u201cPat Davis, [who] owns a barbecue joint here in Berkeley, had a custom Louis Vuitton saddle made for his horse, Hercules,\u201d explains photographer Gabriela Hasbun. Photo by Gabriela Hasbun.\n\nBrinson says she naturally loves to look as stylish as possible. Plus, it helps people remember her.",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1020,7 +1006,21 @@
      "text": "Extract The New Black West: Photographs of the only black rodeo on tour in the United States by Gabriela Hasbun, published by Chronicle Books 2022.\n\nTop photo: Robert \u201cCowboy\u201d Armstead, here in 2018, a retired racehorse groomer from Stockton, California, is eager to continue the history of black cow",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Gabriela Hasbun on Photographing the Rodeo\n\nVia Chronicle Books\nBy Gabriela Hasbun\n\nIt\u2019s hard to imagine a more powerful symbol of self-reliance, strength, and determination than the cowboy. While the archetypal cowboy is a highly romanticized figure, and one that ignores ugly truths about the cost ",
+     "imageUrl": null,
+     "keyword": "gabriela hasbun",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1034,7 +1034,7 @@
      "text": "The lab at QuantumScape, a Silicon Valley start-up whose investors include Volkswagen and Bill Gates, in San Jose, Calif., on Feb. 4, 2021. The company is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge.\nImage: Gabriela Hasbun/The New York Times",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1048,7 +1048,7 @@
      "text": "Ted Olson (left) and David Boies talk with their clients, Sandra Stier and Kristin Perry, who are plaintiffs in the historic Perry trial. (Photo by Gabriela Hasbun)\n\nThe California trial to legalize same-sex marriage was a Scopes trial redux, pitting science against religion. It also dramatized the ",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1062,7 +1062,7 @@
      "text": "Jagdeep Singh is chief executive of QuantumScape, a company that is working on a technology that could make car batteries cheaper, more reliable and quicker to recharge. Credit:Gabriela Hasbun/The New York Times\n\nLong considered one of the least interesting car components, batteries may now be one o",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1076,7 +1076,7 @@
      "text": "The lab at QuantumScape, a Silicon Valley startup whose investors include Volkswagen and Bill Gates.Credit:Gabriela Hasbun/The New York Times\n\n\u201cBattery innovations are not overnight,\u201d said Venkat Srinivasan, director of the Argonne National Laboratory\u2019s Collaborative Centre for Energy Storage Scienc",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1090,7 +1090,7 @@
      "text": "Howard-Yana Shapiro wants to make the genetic makeup of some crops freely available on the internet. Photograph: Gabriela Hasbun/Redux/eyevine\n\nThe future wellbeing of millions of Africans may rest in the unlikely hands of a vegan hippy scientist working for a sweet company who plans to map and then",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1104,7 +1104,7 @@
      "text": "Dina Srinivasan\u2019s research on Google and Facebook is at the center of a wave of antitrust lawsuits against Big Tech.Recognition\u2026Gabriela Hasbun for the New York Times\n\nA former tech industry insider is now playing a key role in the wave of antitrust lawsuits against the giant tech companies.\n\nDina S",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1118,7 +1118,7 @@
      "text": "Heather Elder, owner and CEO of Heather Elder Represents, a San Francisco\u2013based agency representing photographers and directors, connects them with advertising agencies and brands across the country. Photo by Gabriela Hasbun\n\nPhotos taken with Polaroid\u2019s instant cameras are so synonymous with the 70",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1132,7 +1132,7 @@
      "text": "Laura Carstensen is an age disrupter.\nGabriela Hasbun\nBy:\nHugh Delehanty\nMay 02, 2018\n\nYour father lived to age 96. What did he teach you about aging?\n\nWe were sitting around the breakfast table one day, and I was talking about the strengths represented by older people: the wisdom, the knowledge, th",
      "imageUrl": null,
      "keyword": "gabriela hasbun",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1148,8 +1148,8 @@
     "There was no shortage of memorable pours on the WhiskyFest floor. (Photo by Gabriela Hasbun)\n\nAttendee Gnana W. estimated that he\u2019s been to around a dozen WhiskyFests, and noted that while he was very pleasantly surprised by Glyph\u2019s molecular whisky, he was most excited to try single malts from Balb",
     "Guests flocked to the Ardbeg booth at WhiskyFest San Francisco to sample some peaty Islay scotch. (Photo by Gabriela Hasbun)\n\nA big world of whisky was well represented, including local California distillers like Rod & Hammer\u2019s SLO Stills, St. George Spirits, Bespoken Spirits, and Gold Bar Whiskey. ",
     "Pop-Up School For Black Entrepreneurs Coming To Tulsa In July\n\nSTORY AND PHOTOS BY GABRIELA HASBUN\n\nI started getting interested in cowboys after my neighbor in Oakland invited me to join her at the Bill Pickett Invitational Rodeo in 2007 \u2014 my first ever. I was raised in cities (San Salvador and Mia",
-    "Our 2011 magazine provided an inside account of the Proposition 8 trial in California over gay marriage, which featured the historic pairing of Bush v. Gore opponents David Boies and Ted Olson. (Photo of Olson, Boies and their clients by Gabriela Hasbun.)\n\nThe issue also presented an in-depth examin",
     "Gabriela Hasbun, ASSOCIATED PRESS\nThis photo provided by Shutterfly shows Shutterfly CEO Hillary Schneider. As other technology companies lay off workers and try to cut costs in other ways amid a post-pandemic comedown, Schneider is gearing up for what is expected to be a busy holiday season for dig",
+    "Our 2011 magazine provided an inside account of the Proposition 8 trial in California over gay marriage, which featured the historic pairing of Bush v. Gore opponents David Boies and Ted Olson. (Photo of Olson, Boies and their clients by Gabriela Hasbun.)\n\nThe issue also presented an in-depth examin",
     "An obsessive interest in anything, such as comic books, can be a sign of geekdom.\nGabriela Hasbun/Taxi/Getty Images\n\nThey're obsessed with something. It might be computers or computer games, comic books, anime, \"Star Wars\" or superheroes. It may even be a school subject or activity -- there are math",
     "Linda Ampah raised money from family and friends to launch her clothing company: \u201cPeople pitched in here and there.\u201d | Gabriela Hasbun\n\nGhanaian fashion designer Linda Ampah took a double leap of faith when she decided to expand her custom clothing company into mass production in 2012.\n\nShe not only",
     "A bite of chicken breast grown from stem cells at Upside Foods, one of several companies around the world trying to develop commercially viable meat from animal stem cells. Credit... Gabriela Hasbun for The New York Times\n\nThis weekend, listen to a collection of narrated articles from around The New",
@@ -1443,6 +1443,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1456,14 +1468,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1493,12 +1504,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -1513,17 +1524,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1563,6 +1563,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1583,17 +1594,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1631,17 +1631,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -1664,12 +1653,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1686,67 +1675,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1840,45 +1774,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1939,6 +1895,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -1983,23 +2005,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -2057,28 +2079,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -2294,7 +2294,7 @@
   ]
  },
  "reportName": "Gabriela Hasbun",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2306,16 +2306,16 @@
   "keywordEvidence": [
    {
     "keyword": "gabriela hasbun",
-    "tier": "namematch",
+    "tier": "high",
     "count": 107,
     "captionHits": 49,
     "longformHits": 58,
     "longformRatio": 0.542,
     "perDataset": {
      "coyo700m": 12,
+     "laion1b-nolang": 13,
      "laion2b-en": 14,
      "laion2b-multi": 10,
-     "laion1b-nolang": 13,
      "obelics": 58
     },
     "reason": null
@@ -2328,13 +2328,13 @@
     "longformHits": 268,
     "longformRatio": 0.374,
     "perDataset": {
+     "c4-en": 2,
      "coyo700m": 41,
+     "laion1b-nolang": 151,
      "laion2b-en": 101,
      "laion2b-multi": 156,
-     "laion1b-nolang": 151,
      "obelics": 264,
-     "pile": 2,
-     "c4-en": 2
+     "pile": 2
     },
     "reason": "documented collision"
    }
@@ -2343,8 +2343,8 @@
    "datasetsPresent": 5,
    "totalDatasets": 7,
    "credibleMentions": 107,
-   "highConfidenceMentions": 0,
-   "nameMatchMentions": 107,
+   "highConfidenceMentions": 107,
+   "nameMatchMentions": 0,
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 717
   },
@@ -2352,10 +2352,11 @@
   "evidenceWithheld": {
    "person_photo": 5,
    "unverified": 20,
-   "unrelated": 4,
-   "merchandise": 1
+   "unrelated": 3,
+   "merchandise": 1,
+   "storefront": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "gabriela-hasbun",
  "cohort": "early-adopter",

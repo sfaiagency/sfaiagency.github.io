@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -912,6 +912,90 @@
      }
     },
     {
+     "text": "Archie Comics Cover: Archie No.600 Archie Marries Veronica: The Proposal by Stan Goldberg",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/stan-goldberg-archie-comics-cover-archie-no-600-archie-marries-veronica-the-proposal_u-L-PC784YO1ZOO.jpg?src=gp&w=300&h=375",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Title details for Loving, Supporting, and Caring for the Cancer Patient by Stan Goldberg - Available",
+     "imageUrl": "https://img1.od-cdn.com/ImageType-100/1873-1/%7BCCACA2D6-5B35-4E3C-A05F-91A5DE5425AC%7DImg100.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Stan Goldberg photographed by Bruce Guthrie, 2012",
+     "imageUrl": "https://handoffire.files.wordpress.com/2014/08/sdccp1_120715_297.jpg?w=580",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art by Steve Ditko, colors by Stan Goldberg.",
+     "imageUrl": "http://www.blastoffcomics.com/wp-content/uploads/2014/09/Amazing_Fantasy_Vol_1_15_001-204x300.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Modeling With Millie issue 28 pin-up by Stan Goldberg. Source.",
+     "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2015/02/Modeling-With-Millie-issue-28-pin-up-by-Stan-Goldberg-480x747.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Lessons for the Living by Stan Goldberg",
+     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9781590306765",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Archie Comics Cover: Archie No.601 Archie Marries Veronica: The Wedding by Stan Goldberg",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/stan-goldberg-archie-comics-cover-archie-no-601-archie-marries-veronica-the-wedding_u-L-PC7854O1ZOO.jpg?src=gp&w=300&h=375",
      "keyword": "stan goldberg",
@@ -928,20 +1012,6 @@
     {
      "text": "Archie Comics Digest Issue 526 Original Page 1 Framed Art by Stan Goldberg",
      "imageUrl": "http://originalartcomic.com/dune/Archie-Comics-Digest-Issue-526-Original-Page-1-Framed-Art-by-Stan-Goldberg-03-dcl.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie Comics Cover: Archie No.600 Archie Marries Veronica: The Proposal by Stan Goldberg",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/stan-goldberg-archie-comics-cover-archie-no-600-archie-marries-veronica-the-proposal_u-L-PC784YO1ZOO.jpg?src=gp&w=300&h=375",
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": null,
@@ -996,78 +1066,8 @@
      }
     },
     {
-     "text": "Title details for Loving, Supporting, and Caring for the Cancer Patient by Stan Goldberg - Available",
-     "imageUrl": "https://img1.od-cdn.com/ImageType-100/1873-1/%7BCCACA2D6-5B35-4E3C-A05F-91A5DE5425AC%7DImg100.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Stan Goldberg photographed by Bruce Guthrie, 2012",
-     "imageUrl": "https://handoffire.files.wordpress.com/2014/08/sdccp1_120715_297.jpg?w=580",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Archie Comics Digest Issue 526 Original Page 1 Framed Art by Stan Goldberg",
      "imageUrl": "http://originalartcomic.com/dune/Archie-Comics-Digest-Issue-526-Original-Page-1-Framed-Art-by-Stan-Goldberg-04-flze.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Art by Steve Ditko, colors by Stan Goldberg.",
-     "imageUrl": "http://www.blastoffcomics.com/wp-content/uploads/2014/09/Amazing_Fantasy_Vol_1_15_001-204x300.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lessons for the Living by Stan Goldberg",
-     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9781590306765",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Modeling With Millie issue 28 pin-up by Stan Goldberg. Source.",
-     "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2015/02/Modeling-With-Millie-issue-28-pin-up-by-Stan-Goldberg-480x747.jpg",
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": null,
@@ -1152,15 +1152,15 @@
    ],
    "samples": [
     "It\u2019s \u2014 a Girl! Love at First Sight for Clea and Doctor Strange From Strange Tales November Art by Steve Ditko. Colors by Stan Goldberg. Letters by Artie Simek. Words by Stan Lee. Old Comics, Comics Girls, Vintage Comics, Funny Comics, Old Comic Books, Comic Book Pages, Comic Book Artists, Doc Strang",
-    "Archie Comics Cover: Archie No.601 Archie Marries Veronica: The Wedding by Stan Goldberg",
-    "Archie Comics Digest Issue 526 Original Page 1 Framed Art by Stan Goldberg",
     "Archie Comics Cover: Archie No.600 Archie Marries Veronica: The Proposal by Stan Goldberg",
-    "The cover for the final version of Fantastic Four, Vol. 1 # 52 by Jack Kirby, with Inks by Joe Sinnott, and Colors by Stan Goldberg.",
-    "Archie #600 cover by Stan Goldberg and Bob Smith.",
-    "Archie Comics Cover: Archie No.602 Archie Marries Veronica: It's Twins. by Stan Goldberg",
     "Title details for Loving, Supporting, and Caring for the Cancer Patient by Stan Goldberg - Available",
     "Stan Goldberg photographed by Bruce Guthrie, 2012",
-    "Archie Comics Digest Issue 526 Original Page 1 Framed Art by Stan Goldberg"
+    "Art by Steve Ditko, colors by Stan Goldberg.",
+    "Modeling With Millie issue 28 pin-up by Stan Goldberg. Source.",
+    "Lessons for the Living by Stan Goldberg",
+    "Archie Comics Cover: Archie No.601 Archie Marries Veronica: The Wedding by Stan Goldberg",
+    "Archie Comics Digest Issue 526 Original Page 1 Framed Art by Stan Goldberg",
+    "The cover for the final version of Fantastic Four, Vol. 1 # 52 by Jack Kirby, with Inks by Joe Sinnott, and Colors by Stan Goldberg."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1186,11 +1186,11 @@
    "totalIncludingLowConfidence": 21434,
    "rows": [
     {
-     "text": "The Punisher's popularity extended to this Aug. 1994 crossover with Archie Comics. The Marvel version, with identical content but a different cover, was titled The Punisher Meets Archie. Cover art by Stan Goldberg & Henry Scarpelli.",
-     "imageUrl": "http://cosmic-collectibles.com/pics/Punisher_4.jpg",
+     "text": "Archie (1960) #600, cover penciled by Stan Goldberg & inked by Bob Smith.",
+     "imageUrl": "https://images.squarespace-cdn.com/content/55566d6ee4b0a3a2a1a76e5e/1550618349144-X6MZB5JHMPUAH10JMVMG/?format=1000w&content-type=image%2Fjpeg",
      "keyword": "stan goldberg",
      "tier": "namematch",
-     "punsafe": 0.00038889050483703613,
+     "punsafe": 0.05031141638755798,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1219,20 +1219,6 @@
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": 0.0025326311588287354,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie (1960) #600, cover penciled by Stan Goldberg & inked by Bob Smith.",
-     "imageUrl": "https://images.squarespace-cdn.com/content/55566d6ee4b0a3a2a1a76e5e/1550618349144-X6MZB5JHMPUAH10JMVMG/?format=1000w&content-type=image%2Fjpeg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.05031141638755798,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1312,20 +1298,6 @@
      }
     },
     {
-     "text": "\"Archie Comics Cover: Archie 602 Archie Marries Veronica: \"\"It's Twins.\"\" Posters by Stan Goldberg\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/62/6210/JLT1100Z/posters/stan-goldberg-archie-comics-cover-archie-602-archie-marries-veronica-it-s-twins.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.020708590745925903,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"Archie Comics Cover: Archie No.602 Archie Marries Veronica: \"\"It's Twins.\"\" Wall Mural by Stan Goldberg\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/AKBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-no-602-archie-marries-veronica-it-s-twins.jpg",
      "keyword": "stan goldberg",
@@ -1354,20 +1326,6 @@
      }
     },
     {
-     "text": "Archie Comics Cover: Archie 602 Archie Marries Veronica: It's Twins. Prints by Stan Goldberg",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/KEBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-602-archie-marries-veronica-it-s-twins.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.020708590745925903,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Archie Comics Cover: Archie No.602 Archie Marries Veronica: It's Twins. Prints by Stan Goldberg",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/KEBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-no-602-archie-marries-veronica-it-s-twins.jpg",
      "keyword": "stan goldberg",
@@ -1387,6 +1345,34 @@
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": 0.0005073845386505127,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie Comics Cover: Archie 602 Archie Marries Veronica: It's Twins. Prints by Stan Goldberg",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/KEBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-602-archie-marries-veronica-it-s-twins.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.020708590745925903,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Archie Comics Cover: Archie 602 Archie Marries Veronica: \"\"It's Twins.\"\" Posters by Stan Goldberg\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/62/6210/JLT1100Z/posters/stan-goldberg-archie-comics-cover-archie-602-archie-marries-veronica-it-s-twins.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.020708590745925903,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1494,67 +1480,11 @@
      }
     },
     {
-     "text": "\"\"\"I Have Cancer\"\" - 48 Things To Do When You Hear The Words ebook by Stan Goldberg, Ph.D.\"",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/356b2525-8e3f-44a9-a011-b5afc9f4e9ba/180/1000/False/i-have-cancer.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.00015729665756225586,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"Archie Comics Cover: Archie 602 Archie Marries Veronica: \"\"It's Twins.\"\" Wall Mural by Stan Goldberg\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/AKBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-602-archie-marries-veronica-it-s-twins.jpg",
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": 0.0010609328746795654,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie Comics Cover: Archie No.601 Archie Marries Veronica: The Wedding Posters by Stan Goldberg",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/CYBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-no-601-archie-marries-veronica-the-wedding.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.019241005182266235,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Leaning into Sharp Points ebook by Stan Goldberg, PhD",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/b0bbd3e4-1afb-476c-9d09-5c36ca05f552/166/300/False/Leaning+into+Sharp+Points.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 2.3916463760542683e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie (1960) #500, cover penciled by Stan Goldberg & inked by Bob Smith.",
-     "imageUrl": "https://images.squarespace-cdn.com/content/55566d6ee4b0a3a2a1a76e5e/1550617641488-8IP6XRDJKDEL1FNYMIWI/Archie+%281960%29+%23500+Stan+Goldberg+Bob+Smith.jpg?content-type=image%2Fjpeg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.00031763315200805664,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1583,6 +1513,62 @@
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": 4.726175029645674e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie (1960) #500, cover penciled by Stan Goldberg & inked by Bob Smith.",
+     "imageUrl": "https://images.squarespace-cdn.com/content/55566d6ee4b0a3a2a1a76e5e/1550617641488-8IP6XRDJKDEL1FNYMIWI/Archie+%281960%29+%23500+Stan+Goldberg+Bob+Smith.jpg?content-type=image%2Fjpeg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.00031763315200805664,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I Have Cancer\"\" - 48 Things To Do When You Hear The Words ebook by Stan Goldberg, Ph.D.\"",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/356b2525-8e3f-44a9-a011-b5afc9f4e9ba/180/1000/False/i-have-cancer.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.00015729665756225586,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie Comics Cover: Archie No.601 Archie Marries Veronica: The Wedding Posters by Stan Goldberg",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/52/5274/CYBIG00Z/posters/stan-goldberg-archie-comics-cover-archie-no-601-archie-marries-veronica-the-wedding.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.019241005182266235,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Leaning into Sharp Points ebook by Stan Goldberg, PhD",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/b0bbd3e4-1afb-476c-9d09-5c36ca05f552/166/300/False/Leaning+into+Sharp+Points.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 2.3916463760542683e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1662,6 +1648,20 @@
      }
     },
     {
+     "text": "LEANING INTO SHARP POINTS: Practical Guidance and Nurturing Support for Caregivers by Stan Goldberg, PhD - click here for more info and to purchase the book",
+     "imageUrl": "https://merliannews.com/artman2/uploads/1/LeaningIntoSharpPoints.jpg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 5.6017663155216724e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Loving, Supporting, and Caring for the Cancer Patient - A Guide to Communication, Compassion, and Courage ebook by Stan Goldberg",
      "imageUrl": "https://kbimages1-a.akamaihd.net/f6f04966-264d-4b3a-b019-84562ffc976a/166/300/False/Loving%2c+Supporting%2c+and+Caring+for+the+Cancer+Patient.jpg",
      "keyword": "stan goldberg",
@@ -1681,20 +1681,6 @@
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": 0.0011102855205535889,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "LEANING INTO SHARP POINTS: Practical Guidance and Nurturing Support for Caregivers by Stan Goldberg, PhD - click here for more info and to purchase the book",
-     "imageUrl": "https://merliannews.com/artman2/uploads/1/LeaningIntoSharpPoints.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 5.6017663155216724e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1760,11 +1746,11 @@
      }
     },
     {
-     "text": "Leaning into Sharp Points Practical Guidance and Nurturing Support for Caregivers by Stan Goldberg",
-     "imageUrl": "https://lr-assets.storage.googleapis.com/_nielsen/200/9781608680672.jpg",
+     "text": "\"\"\"ARCHIE by Stan Goldberg (1976) 8-1/2 x 11\"\"\"\" unsigned ACBA Sketchbook print\"\"\"",
+     "imageUrl": "https://images.bonanzastatic.com/afu/images/2419/1336/87/__1.jpg",
      "keyword": "stan goldberg",
      "tier": "namematch",
-     "punsafe": 1.8911056031356566e-05,
+     "punsafe": 1.482599964219844e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1774,11 +1760,11 @@
      }
     },
     {
-     "text": "\"\"\"ARCHIE by Stan Goldberg (1976) 8-1/2 x 11\"\"\"\" unsigned ACBA Sketchbook print\"\"\"",
-     "imageUrl": "https://images.bonanzastatic.com/afu/images/2419/1336/87/__1.jpg",
+     "text": "Leaning into Sharp Points Practical Guidance and Nurturing Support for Caregivers by Stan Goldberg",
+     "imageUrl": "https://lr-assets.storage.googleapis.com/_nielsen/200/9781608680672.jpg",
      "keyword": "stan goldberg",
      "tier": "namematch",
-     "punsafe": 1.482599964219844e-05,
+     "punsafe": 1.8911056031356566e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1858,20 +1844,6 @@
      }
     },
     {
-     "text": "'I Have Cancer' - 48 Things To Do When You Hear The Words by Stan Goldberg, Ph.D. from Bookbaby in Family & Health category",
-     "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/images.e-sentral.com/bookbaby/BK00029009-medium.jpg",
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": 0.00038301944732666016,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Fantastic Four Annual (1963) #3, cover penciled by Jack Kirby, inked by Mike Esposito, & colored by Stan Goldberg.",
      "imageUrl": "https://images.squarespace-cdn.com/content/55566d6ee4b0a3a2a1a76e5e/1525893629673-VP9QR1CFI8PLA7DLG2KZ/Fantastic+Four+Annual+%281963%29+%233+Kirby-Esposito-goldberg.jpg?content-type=image%2Fjpeg",
      "keyword": "stan goldberg",
@@ -1900,11 +1872,11 @@
      }
     },
     {
-     "text": "I want so bad... It featured the unlikely meeting of Marvel's murderous vigilante, the\u00a0Punisher, and Archie Comics' all-American teenager,\u00a0Archie Andrews. The book was written by\u00a0Batton Lash, with artwork by\u00a0John Buscema(drawing the Punisher characters) and\u00a0Stan Goldberg\u00a0(drawing the Archie characte",
-     "imageUrl": "https://i.pinimg.com/236x/b6/2a/7a/b62a7a9d98f7bb72b0b4895cea7e3cab--archie-comics-marvel-comics.jpg",
+     "text": "'I Have Cancer' - 48 Things To Do When You Hear The Words by Stan Goldberg, Ph.D. from Bookbaby in Family & Health category",
+     "imageUrl": "https://s3-ap-southeast-1.amazonaws.com/images.e-sentral.com/bookbaby/BK00029009-medium.jpg",
      "keyword": "stan goldberg",
      "tier": "namematch",
-     "punsafe": 5.936675370321609e-05,
+     "punsafe": 0.00038301944732666016,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1914,11 +1886,11 @@
      }
     },
     {
-     "text": "Archie (1960) #600, cover penciled by Stan Goldberg & inked by Bob Smith.",
-     "imageUrl": "https://images.squarespace-cdn.com/content/v1/55566d6ee4b0a3a2a1a76e5e/1550618349144-X6MZB5JHMPUAH10JMVMG/ke17ZwdGBToddI8pDm48kHkq05FXRM9-q0lZsVbREep7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFF4sHvmgi8rFwPHCWctdpmFPOAboazY1sSreyO_pxiCT0iJt0rsYtcEd-a-ITBVI/image-asset.jpeg",
+     "text": "I want so bad... It featured the unlikely meeting of Marvel's murderous vigilante, the\u00a0Punisher, and Archie Comics' all-American teenager,\u00a0Archie Andrews. The book was written by\u00a0Batton Lash, with artwork by\u00a0John Buscema(drawing the Punisher characters) and\u00a0Stan Goldberg\u00a0(drawing the Archie characte",
+     "imageUrl": "https://i.pinimg.com/236x/b6/2a/7a/b62a7a9d98f7bb72b0b4895cea7e3cab--archie-comics-marvel-comics.jpg",
      "keyword": "stan goldberg",
      "tier": "namematch",
-     "punsafe": 0.06776300072669983,
+     "punsafe": 5.936675370321609e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1947,6 +1919,20 @@
      "keyword": "stan goldberg",
      "tier": "namematch",
      "punsafe": 5.465893991640769e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Archie (1960) #600, cover penciled by Stan Goldberg & inked by Bob Smith.",
+     "imageUrl": "https://images.squarespace-cdn.com/content/v1/55566d6ee4b0a3a2a1a76e5e/1550618349144-X6MZB5JHMPUAH10JMVMG/ke17ZwdGBToddI8pDm48kHkq05FXRM9-q0lZsVbREep7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFF4sHvmgi8rFwPHCWctdpmFPOAboazY1sSreyO_pxiCT0iJt0rsYtcEd-a-ITBVI/image-asset.jpeg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.06776300072669983,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2012,11 +1998,25 @@
      }
     },
     {
-     "text": "Tales To Astonish #13, November 1960. Cover art by Jack Kirby, Steve Ditko, and Stan Goldberg.",
-     "imageUrl": "https://i.pinimg.com/736x/fd/33/4a/fd334ad8e3d170677e86787b52a714fa.jpg",
+     "text": "Lessons for the Living by Stan Goldberg",
+     "imageUrl": "http://images.penguinrandomhouse.com/cover/9781590306765",
      "keyword": "stan goldberg",
      "tier": "namematch",
-     "punsafe": 0.0014774203300476074,
+     "punsafe": 4.2303145164623857e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Journey Into Mystery (1952) #83, cover penciled by Jack Kirby, inked by Joe Sinnott, & colored by Stan Goldberg.",
+     "imageUrl": "https://images.squarespace-cdn.com/content/v1/55566d6ee4b0a3a2a1a76e5e/1525892269670-P98HVRL6JJ1CXL7I46W2/ke17ZwdGBToddI8pDm48kNvR-i5dUxnLfVeyyIZB3qlZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVFFDkm0gjIPQ4ixGt0RgbFe_HCGvA4ZmDC5hsXLTusUkTBz7Grdv0tY2kGN0sHcml4/image-asset.jpeg",
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": 0.00012812018394470215,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2027,16 +2027,16 @@
     }
    ],
    "samples": [
-    "The Punisher's popularity extended to this Aug. 1994 crossover with Archie Comics. The Marvel version, with identical content but a different cover, was titled The Punisher Meets Archie. Cover art by Stan Goldberg & Henry Scarpelli.",
+    "Archie (1960) #600, cover penciled by Stan Goldberg & inked by Bob Smith.",
     "Amazing Spider-Man (1963) #1, cover penciled by Jack Kirby, inked by Steve Ditko, & colored by Stan Goldberg.",
     "Archie Comics Cover: Archie No.602 Archie Marries Veronica: It's Twins. by Stan Goldberg",
-    "Archie (1960) #600, cover penciled by Stan Goldberg & inked by Bob Smith.",
     "Fantastic Four (1961) #48, cover penciled by Jack Kirby, inked by Joe Sinnott, & colored by Stan Goldberg.",
     "Loving, Supporting, and Caring for the Cancer Patient - A Guide to Communication, Compassion, and Courage ebook by Stan Goldberg",
     "\"\"\"PATSY's CLASSY CUT-OUT Paper doll pages from Patsy and Hedy #107 (August 1966), art by Stan Goldberg, letters by Sam Rosen  Okay, okay, maybe these aren't \"\"\"\"technically\"\"\"\" paper dolls and they don't have tabs, but it's my blog and I say it's paper dolls and to heck with it.\"\"\"",
     "Archie Meets the Punisher - Cover to Archie Meets the Punisher (Archie Comics version). Art by Stan Goldberg and Henry Scarpelli.",
     "Marvel Super-Heroes (1967) #12, cover penciled by Gene Colan, inked by Frank Giacola, & colored by Stan Goldberg.",
-    "\"Archie Comics Cover: Archie 602 Archie Marries Veronica: \"\"It's Twins.\"\" Posters by Stan Goldberg\""
+    "\"Archie Comics Cover: Archie No.602 Archie Marries Veronica: \"\"It's Twins.\"\" Wall Mural by Stan Goldberg\"",
+    "Archie Meets the Punisher (1994) #1, cover by Stan Goldberg."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2259,7 +2259,7 @@
      }
     },
     {
-     "text": "Detail from \u201cA Day at the Psychedelic Circuits,\u201d by Art Spiegelman. The artist, who won a Pullitzer Prize for his graphic novel Maus,\u201d has created a formalist comic experiment in which readers are encouraged to create multiple narratives by changing the order in which they read the individual panels",
+     "text": "Rarely did a hero get a beating like this in comic books! Spider-Man's rouges gallery, including the Scorpion, were a distinct threat - more like the maniacal Richard Widmark in Kiss of Death (1947) than Superman's Lex Luthor. Ditko made this clear by Spider-Man's crumpled posture and with little to",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2287,35 +2287,21 @@
      }
     },
     {
+     "text": "Detail from \u201cA Day at the Psychedelic Circuits,\u201d by Art Spiegelman. The artist, who won a Pullitzer Prize for his graphic novel Maus,\u201d has created a formalist comic experiment in which readers are encouraged to create multiple narratives by changing the order in which they read the individual panels",
+     "imageUrl": null,
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Hulk is a superhero appearing in publications by the American publisher Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. In his comic book appearances, the character is both the Hulk, a green-skinned, hulking and muscular humanoid possessing a vast degree of phy",
-     "imageUrl": null,
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Rarely did a hero get a beating like this in comic books! Spider-Man's rouges gallery, including the Scorpion, were a distinct threat - more like the maniacal Richard Widmark in Kiss of Death (1947) than Superman's Lex Luthor. Ditko made this clear by Spider-Man's crumpled posture and with little to",
-     "imageUrl": null,
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My indexing for the Grand Comic Book Database often leads to interesting roads. I've been adding lettering and coloring credits to Marvel\u2019s titles, circa late 1950\u2019s through the 1970\u2019s. While going over some early Amazing Spider-Man interior credits (adding Stan Goldberg\u2019s coloring credit, since he ",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2357,7 +2343,7 @@
      }
     },
     {
-     "text": "Several small comic publishers put in an appearance at BEA this year there are comic and manga publishers here.  One of our favorites is Papercutz and today they had award winning and well known illustrator Stan Goldberg not only signing his Nancy Drew graphic novel, but he included original drawing",
+     "text": "APR152033\nComic Book Creator #9 features a sizzlin' Joe Staton and his energizin' art extravaganza! We talk with the cartoonist about his career in comics (with special emphasis on E-Man and Nova, who dominate our cover!), from his days at Charlton, through working with the Big Two (and co-creating ",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2371,7 +2357,21 @@
      }
     },
     {
-     "text": "APR152033\nComic Book Creator #9 features a sizzlin' Joe Staton and his energizin' art extravaganza! We talk with the cartoonist about his career in comics (with special emphasis on E-Man and Nova, who dominate our cover!), from his days at Charlton, through working with the Big Two (and co-creating ",
+     "text": "My indexing for the Grand Comic Book Database often leads to interesting roads. I've been adding lettering and coloring credits to Marvel\u2019s titles, circa late 1950\u2019s through the 1970\u2019s. While going over some early Amazing Spider-Man interior credits (adding Stan Goldberg\u2019s coloring credit, since he ",
+     "imageUrl": null,
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Several small comic publishers put in an appearance at BEA this year there are comic and manga publishers here.  One of our favorites is Papercutz and today they had award winning and well known illustrator Stan Goldberg not only signing his Nancy Drew graphic novel, but he included original drawing",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2441,7 +2441,7 @@
      }
     },
     {
-     "text": "The folks at Papercutz love a good laugh, and who better to provide it than the Three Stooges? Here\u2019s a look at their second volume of new Three Stooges comics, written by George Gladir and Stefan Petrucha and illustrated by Stan Goldberg. Gladir and Goldberg are old Archie hands, while Petrucha wri",
+     "text": "David Campiti, long-time Art Agent and owner of Glass House Graphics, shares his confessions of his love for the females in comics with C4S.\n\nThe first time I\u2019d read a VAMPIRELLA comic from Warren, I was in high school; I was wowed by the sexy-but-realistic art by Enrich and by Jose Gonzalez. I also",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2455,7 +2455,7 @@
      }
     },
     {
-     "text": "David Campiti, long-time Art Agent and owner of Glass House Graphics, shares his confessions of his love for the females in comics with C4S.\n\nThe first time I\u2019d read a VAMPIRELLA comic from Warren, I was in high school; I was wowed by the sexy-but-realistic art by Enrich and by Jose Gonzalez. I also",
+     "text": "The folks at Papercutz love a good laugh, and who better to provide it than the Three Stooges? Here\u2019s a look at their second volume of new Three Stooges comics, written by George Gladir and Stefan Petrucha and illustrated by Stan Goldberg. Gladir and Goldberg are old Archie hands, while Petrucha wri",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2637,7 +2637,7 @@
      }
     },
     {
-     "text": "Kathy 1 (Oct/59) was published by the company going without a cover name between calling itself Atlas and Marvel; Vicki 4 (Aug/75) by Atlas/Seaboard. Both covers were drawn by Stan Goldberg. The question is whether he needed any help for the eight words of dialogue on the Kathy cover if he came up w",
+     "text": "Matt Brandstein (born January 29, 1972) is an American writer and occasional Bollywood film actor. He is most known for his writing of the popular Jewish childrens comic book series Mendy and the Golem. Brandstein often employs the use of his Hebrew name Moshe in honor of his Jewish heritage.\nBiogra",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2651,7 +2651,7 @@
      }
     },
     {
-     "text": "Matt Brandstein (born January 29, 1972) is an American writer and occasional Bollywood film actor. He is most known for his writing of the popular Jewish childrens comic book series Mendy and the Golem. Brandstein often employs the use of his Hebrew name Moshe in honor of his Jewish heritage.\nBiogra",
+     "text": "Kathy 1 (Oct/59) was published by the company going without a cover name between calling itself Atlas and Marvel; Vicki 4 (Aug/75) by Atlas/Seaboard. Both covers were drawn by Stan Goldberg. The question is whether he needed any help for the eight words of dialogue on the Kathy cover if he came up w",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2693,6 +2693,20 @@
      }
     },
     {
+     "text": "The first volume of Nancy Drew and the Clue Crew debuts from Papercutz on October 30, and we have a sneak preview for you. Like the prose chapter books of the same name, this graphic novel features Nancy and her familiar friends from the series as eight-year-olds, so it\u2019s pitched at a younger audien",
+     "imageUrl": null,
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Written by George Gladir, with art by Stan Goldberg, Mike Esposito, Bill Yoshida, and Barry Grossman \u2014 this comic was about Betty and her friends in Riverdale dealing with the struggles of virtual home schooling!",
      "imageUrl": null,
      "keyword": "stan goldberg",
@@ -2721,20 +2735,6 @@
      }
     },
     {
-     "text": "The second, and perhaps more traditional homage to the female form is Millie The Model #127 from March 1965. Once again, the editor is Stan Lee, and the cover is drawn and inked by Stan Goldberg. When I was younger, I never read a US romance comic, but I often admired the cover art on the spinners. ",
-     "imageUrl": null,
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Remember Bingo? That Wilkin Boy? In spite being little more than a hipper Archie clone without the romantic triangle aspect, Bingo was successful enough to hold his own comic book--which began in 1969--throughout the 1970s. He's even been revived from time to time both in cameos and in reprints in t",
      "imageUrl": null,
      "keyword": "stan goldberg",
@@ -2749,7 +2749,7 @@
      }
     },
     {
-     "text": "The first volume of Nancy Drew and the Clue Crew debuts from Papercutz on October 30, and we have a sneak preview for you. Like the prose chapter books of the same name, this graphic novel features Nancy and her familiar friends from the series as eight-year-olds, so it\u2019s pitched at a younger audien",
+     "text": "It\u2019s with great sadness that the NCS passes on the news that comic book legend Stan Goldberg passed away Sunday, Aug 31st, at age 82 from complications of a severe stroke he suffered a few weeks earlier. Stan and his wife Pauline were two of the most wonderful, friendly and genuine people The Lovely",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2764,20 +2764,6 @@
     },
     {
      "text": "This 1962 MILLIE THE MODEL flashback story deals with Millie's teenage obsession with fashion which makes it a de facto origin story for Millie! Written by Stan Lee and drawn by Stan Goldberg in a style somewhat between the early humor style and the mid-sixties soap opera seriousness of the title, i",
-     "imageUrl": null,
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It\u2019s with great sadness that the NCS passes on the news that comic book legend Stan Goldberg passed away Sunday, Aug 31st, at age 82 from complications of a severe stroke he suffered a few weeks earlier. Stan and his wife Pauline were two of the most wonderful, friendly and genuine people The Lovely",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2819,20 +2805,6 @@
      }
     },
     {
-     "text": "When you think of Stan Lee and his inheritance when he falls to him, much of this legacy revolves around helping us bring some amazing stories about comic books. Working together with the legends of comic colleagues like Jack Kirby, Steve Ditko, John Romita, Moebius, Joe Maneely, Gene Colan, Don Hec",
-     "imageUrl": null,
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Over at Publishers Weekly, I talked to the folks at Fulcrum Publishing about their nonfiction graphic novel line, which includes the anthologies Trickster, Wild Ocean, and Colonial Comics, and to one of their authors, Joel Christian Gill, creator of Strange Fruit and Tales of the Talented Tenth.\n\nAt",
      "imageUrl": null,
      "keyword": "stan goldberg",
@@ -2847,21 +2819,7 @@
      }
     },
     {
-     "text": "Steve Ditko\u2019s superb embellishment adds crispness and moodiness to Kirby's pencils. Ditko\u2019s inking was very much influenced by John Severin in this period, and his delineation over Kirby was impressive (further complimented by Stan Goldberg's coloring). This is another tale of a young recruit facing",
-     "imageUrl": null,
-     "keyword": "stan goldberg",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Love and Rockets' creators Gilbert and Jaime Hernandez have mentioned in interviews that they loved Little Archie comic books when they were growing up. Little Archie was started in the 1950s and stars the characters from Archie comics as little kids. The earlier stories were written and drawn by Bo",
+     "text": "When you think of Stan Lee and his inheritance when he falls to him, much of this legacy revolves around helping us bring some amazing stories about comic books. Working together with the legends of comic colleagues like Jack Kirby, Steve Ditko, John Romita, Moebius, Joe Maneely, Gene Colan, Don Hec",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2903,6 +2861,20 @@
      }
     },
     {
+     "text": "Love and Rockets' creators Gilbert and Jaime Hernandez have mentioned in interviews that they loved Little Archie comic books when they were growing up. Little Archie was started in the 1950s and stars the characters from Archie comics as little kids. The earlier stories were written and drawn by Bo",
+     "imageUrl": null,
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "During the 1990s, intercompany crossovers were a popular trend in the American comic book industry and management at Archie Comics wanted to participate to raise its visibility in specialty comic shops and boost sales.[4][8][9][10] During a lunch in San Diego, top Archie editor Victor Gorelick discu",
      "imageUrl": null,
      "keyword": "stan goldberg",
@@ -2931,7 +2903,7 @@
      }
     },
     {
-     "text": "Pen name of Solly B. is used mostly by Sol Brodsky but sometimes by Stan Goldberg when did pencils for Willie the Model (and inked by Sol Brodsky).",
+     "text": "Steve Ditko\u2019s superb embellishment adds crispness and moodiness to Kirby's pencils. Ditko\u2019s inking was very much influenced by John Severin in this period, and his delineation over Kirby was impressive (further complimented by Stan Goldberg's coloring). This is another tale of a young recruit facing",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2945,7 +2917,7 @@
      }
     },
     {
-     "text": "Forget who drew this, who colored it? What a display! Were all Suspense's stories like this?\nThanks!\n\nDarci, hard to tell, since I am not one to recognize who colored comic books (unless I know in advance, like EC Comics' Marie Severin), and because I am still having eye problems even after cataract",
+     "text": "Pen name of Solly B. is used mostly by Sol Brodsky but sometimes by Stan Goldberg when did pencils for Willie the Model (and inked by Sol Brodsky).",
      "imageUrl": null,
      "keyword": "stan goldberg",
      "tier": "namematch",
@@ -2971,19 +2943,33 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Forget who drew this, who colored it? What a display! Were all Suspense's stories like this?\nThanks!\n\nDarci, hard to tell, since I am not one to recognize who colored comic books (unless I know in advance, like EC Comics' Marie Severin), and because I am still having eye problems even after cataract",
+     "imageUrl": null,
+     "keyword": "stan goldberg",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
     "Many comic books from the Golden, Silver and Bronze Ages are fun to read, even forty-plus years after their publication. Some of these comics are striking for their timelessness, and others for how they reflect their publication date. If nothing else, it\u2019s enlightening to read the classic stories th",
     "In case you haven't noticed--and arguably in spite of all logic--the 21st Century is a great time to be an Archie Comics fan. Along with Marvel and DC, Archie is the only US comic book company to have weathered the twists and turns of the market for seven straight decades and even now the company's ",
     "COMIC BOOK CREATOR #9 electrifies your summer with a sizzlin' JOE STATON and his energizin' art extravaganza! We talk with the cartoonist about his long, productive career in comics (with special emphasis on fan-favorite E-MAN and NOVA, who dominate our exclusive Staton cover), from his days at Char",
-    "Detail from \u201cA Day at the Psychedelic Circuits,\u201d by Art Spiegelman. The artist, who won a Pullitzer Prize for his graphic novel Maus,\u201d has created a formalist comic experiment in which readers are encouraged to create multiple narratives by changing the order in which they read the individual panels",
-    "The late Stan Goldberg once told me that KATHY, THE TEENAGE TORNADO--one of several Atlas/Marvel Archie variations--was the first regular comic book he ever drew (after a couple tries at horror stories). Mainly the company's colorist in this period, Stan G (so dubbed to differentiate him from Editor",
-    "The Hulk is a superhero appearing in publications by the American publisher Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. In his comic book appearances, the character is both the Hulk, a green-skinned, hulking and muscular humanoid possessing a vast degree of phy",
     "Rarely did a hero get a beating like this in comic books! Spider-Man's rouges gallery, including the Scorpion, were a distinct threat - more like the maniacal Richard Widmark in Kiss of Death (1947) than Superman's Lex Luthor. Ditko made this clear by Spider-Man's crumpled posture and with little to",
-    "My indexing for the Grand Comic Book Database often leads to interesting roads. I've been adding lettering and coloring credits to Marvel\u2019s titles, circa late 1950\u2019s through the 1970\u2019s. While going over some early Amazing Spider-Man interior credits (adding Stan Goldberg\u2019s coloring credit, since he ",
+    "The late Stan Goldberg once told me that KATHY, THE TEENAGE TORNADO--one of several Atlas/Marvel Archie variations--was the first regular comic book he ever drew (after a couple tries at horror stories). Mainly the company's colorist in this period, Stan G (so dubbed to differentiate him from Editor",
+    "Detail from \u201cA Day at the Psychedelic Circuits,\u201d by Art Spiegelman. The artist, who won a Pullitzer Prize for his graphic novel Maus,\u201d has created a formalist comic experiment in which readers are encouraged to create multiple narratives by changing the order in which they read the individual panels",
+    "The Hulk is a superhero appearing in publications by the American publisher Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. In his comic book appearances, the character is both the Hulk, a green-skinned, hulking and muscular humanoid possessing a vast degree of phy",
     "March 13: Kathy by Stan Lee and Stan Goldberg. I collect this 1960s  teen humor series by my favorite Stans. It ranks with the very best of the genre. It\u2019s a delightful and unfortunately rare day when I can add an issue to my collection.\n\nMarch 14: The Access Guide to the Black Comic Book Community ",
-    "This final page is from 1987. Pencils by Stan Goldberg with inks by Rudy Lapick."
+    "This final page is from 1987. Pencils by Stan Goldberg with inks by Rudy Lapick.",
+    "APR152033\nComic Book Creator #9 features a sizzlin' Joe Staton and his energizin' art extravaganza! We talk with the cartoonist about his career in comics (with special emphasis on E-Man and Nova, who dominate our cover!), from his days at Charlton, through working with the Big Two (and co-creating "
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -3073,9 +3059,9 @@
     "longformRatio": 0.311,
     "perDataset": {
      "coyo700m": 89,
+     "laion1b-nolang": 182,
      "laion2b-en": 430,
      "laion2b-multi": 81,
-     "laion1b-nolang": 182,
      "obelics": 351,
      "pile": 2
     },
@@ -3089,13 +3075,13 @@
     "longformHits": 13311,
     "longformRatio": 0.281,
     "perDataset": {
+     "c4-en": 47,
      "coyo700m": 5015,
      "laion1b-nolang": 4421,
      "laion2b-en": 21004,
      "laion2b-multi": 3580,
      "obelics": 13228,
-     "pile": 36,
-     "c4-en": 47
+     "pile": 36
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -3109,17 +3095,17 @@
    "thirdPartyPropertyMentions": 47331,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 140,
+  "evidenceShown": 139,
   "evidenceWithheld": {
-   "unverified": 698,
-   "person_photo": 187,
-   "storefront": 20,
+   "unverified": 697,
+   "person_photo": 192,
+   "storefront": 34,
    "merchandise": 11,
-   "unrelated": 11,
    "explicit": 1,
-   "derivative": 2
+   "derivative": 3,
+   "unrelated": 10
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-stan-goldberg",
  "cohort": "billy-ireland",
@@ -3132,7 +3118,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 1135,
   "datasetsPresent": 6,

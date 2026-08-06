@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -898,246 +898,8 @@
    "totalIncludingLowConfidence": 6227,
    "rows": [
     {
-     "text": "Will Eisner, Champion of the Graphic Novel",
-     "imageUrl": "https://www.lambiek.net/share/image.php/will-eisner--champion-of-the-graphic-novel.jpg?width=350&image=/catalog/img/1024--64161-800-v9y.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1943 March 14",
      "imageUrl": "https://storage.googleapis.com/hipcomic/p/6a1a0eae66ca2d1238d6ded38e2abbc3-800.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit comic book frames about card magic greats",
-     "imageUrl": "http://johnnyacepalmer.com/media/Spirit_blowup.png",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Dallas Moring News June 8 1941",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/8b70e3cac88555ac508a1f3d5ab105f7-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Look Before You Shoot by Will Eisner, PS Magazine, Will Eisner: A Spirited Life",
-     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2015/07/00O0O_hAzthNSMWiN_600x450.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover Braun - Will Eisner Graphic Novel Godfather",
-     "imageUrl": "https://comix-online.com/wp-content/uploads/2021/04/Braun_eisner_00.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Windy City art by Will Eisner",
-     "imageUrl": "https://bookpalace.com/acatalog/EisnerWillPI-N.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 3",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/f6dbcc9e6872270b830683e4d9674507-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Fagin the Jew by Will Eisner",
-     "imageUrl": "https://freebooksummary.com/wp-content/uploads/2017/04/Oliver-Twist.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Books #16 And #18",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/Xf8AAOSwf11eq2Ug/s-l300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "To the Heart of the Storm by Will Eisner",
-     "imageUrl": "https://paperkingdom.com/novel-november/2016/covers/will-eisner-to-the-heart-of-the-storm.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Plot The Secret Story of The Protocols of the Elders of Zion (by Will Eisner",
-     "imageUrl": "https://erikbuys.files.wordpress.com/2013/10/the-plot-the-secret-story-of-the-protocols-of-the-elders-of-zion-by-will-eisner.jpg?w=208&h=300",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "from PS, The Preventative Maintenance Monthly #104 (1961), art by Will Eisner",
-     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/11/104e.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bestselling Comics (2006) - The Spirit Archives, Volume 20 by Will Eisner",
-     "imageUrl": "http://www.coverbrowser.com/image/bestselling-comics-2006/2822-1.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Celebrate one of the most influential comic book creators this week by reading a book by Will Eisner. On March 6th, Will Eisner would have been 103 years old. To [\u2026",
-     "imageUrl": "http://fanboyfactor.com/wp-content/uploads/2020/02/will-eisner-week-banner-600x300.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Dallas Moring News June 15 1941",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/3dbd115f7a3e01084a5e4cd0b89ce40c-800.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Last Day in Vietnam: A Memory by Will Eisner",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/51vxiim1dEL.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 September 13",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/3afbefee0adb17edcaa46012e666c2ef-300.jpg",
      "keyword": "the spirit comic",
      "tier": "high",
      "punsafe": null,
@@ -1206,78 +968,8 @@
      }
     },
     {
-     "text": "\u00a9 Will Eisner : A Contract with God\u00bb, 1978, Will Eisner Studios, Inc.",
-     "imageUrl": "https://www.fykmag.com/wp-content/uploads/2021/03/17_Big-City-Life_Will-Eisner-A-contract-with-God_1978_Presse-771x1100.jpg",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Dallas Morning News May 11 1941",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/a5dea859ab9c219539664b5b46188b9b-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Plot by Will Eisner",
-     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2013/02/517C5G5VFTL.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "An original art panel from Denis Kitchen and Will Eisner",
      "imageUrl": "https://static.wixstatic.com/media/2a34d8_947a6f6f408a43d89b6889753a824fc0~mv2.jpg/v1/fill/w_600,h_535,al_c,q_90/2a34d8_947a6f6f408a43d89b6889753a824fc0~mv2.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Life, in Pictures: Autobiographical Stories by Will Eisner",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/51n3qt0yLKL.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Outer Space Spirit 1952 by Will Eisner Wally Wood 1",
-     "imageUrl": "https://jplevraud.com/wp-content/uploads/The-Outer-Space-Spirit-1952-by-Will-Eisner-Wally-Wood-1-819x1024.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1318,8 +1010,134 @@
      }
     },
     {
-     "text": "\"Honoring the great master Will Eisner\" - Comic Book Artist - novembro/2005",
-     "imageUrl": "http://farm6.static.flickr.com/5107/5689627280_7d18e126ab_z.jpg",
+     "text": "The Spirit Comic Book Section Dallas Morning News May 11 1941",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/a5dea859ab9c219539664b5b46188b9b-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Dallas Moring News June 8 1941",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/8b70e3cac88555ac508a1f3d5ab105f7-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Look Before You Shoot by Will Eisner, PS Magazine, Will Eisner: A Spirited Life",
+     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2015/07/00O0O_hAzthNSMWiN_600x450.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Life, in Pictures: Autobiographical Stories by Will Eisner",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51n3qt0yLKL.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Outer Space Spirit 1952 by Will Eisner Wally Wood 1",
+     "imageUrl": "https://jplevraud.com/wp-content/uploads/The-Outer-Space-Spirit-1952-by-Will-Eisner-Wally-Wood-1-819x1024.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Plot The Secret Story of The Protocols of the Elders of Zion (by Will Eisner",
+     "imageUrl": "https://erikbuys.files.wordpress.com/2013/10/the-plot-the-secret-story-of-the-protocols-of-the-elders-of-zion-by-will-eisner.jpg?w=208&h=300",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "from PS, The Preventative Maintenance Monthly #104 (1961), art by Will Eisner",
+     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/11/104e.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bestselling Comics (2006) - The Spirit Archives, Volume 20 by Will Eisner",
+     "imageUrl": "http://www.coverbrowser.com/image/bestselling-comics-2006/2822-1.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 3",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/f6dbcc9e6872270b830683e4d9674507-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Fagin the Jew by Will Eisner",
+     "imageUrl": "https://freebooksummary.com/wp-content/uploads/2017/04/Oliver-Twist.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1360,24 +1178,10 @@
      }
     },
     {
-     "text": "How to Avoid Death & Taxes by Will Eisner",
-     "imageUrl": "https://www.deniskitchen.com/mm5/graphics/00000001/B_WE.DEATHTAX.S.JPG",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Man who could fly by Will Eisner",
-     "imageUrl": "https://3.bp.blogspot.com/-XpFCeSIEUFY/T8jg9r08bSI/AAAAAAAAAeI/S8fReRUM9vg/s320/Eisnergerhardshnobble.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 September 13",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/3afbefee0adb17edcaa46012e666c2ef-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1390,104 +1194,6 @@
     {
      "text": "invisible people by will eisner",
      "imageUrl": "https://i2.wp.com/www.splitlipcomic.com/wp-content/uploads/2009/02/invisible-people.jpg?resize=590%2C332&ssl=1",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 July 12",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/19432acf69125c5d1d88933408400ba5-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Hawks Of The Seas cover by Will Eisner. Source.",
-     "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2014/11/Hawks-Of-The-Seas-cover-by-Will-Eisner-480x722.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Superman by Will Eisner",
-     "imageUrl": "https://i2.wp.com/downthetubes.net/wp-content/uploads/2020/06/img_4143.jpg?resize=700%2C1000&ssl=1",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 24",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/fb1a5a732e4e449770bf2de937d7b591-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit, October 6, 1946, page 1, panel 1, art and script by Will Eisner",
-     "imageUrl": "https://swanshadow.files.wordpress.com/2010/03/pgell_eisner.jpg?w=450",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Section 8-17-52 page 6 by Will Eisner and Al Wenzel. Source.",
-     "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2014/11/The-Spirit-Section-8-17-52-page-6-by-Will-Eisner-and-Al-Wenzel-480x707.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\u2018Adult comics, for adults\u2019: Will Eisner and the break-out story of the graphic novel",
-     "imageUrl": "https://s01.sgp1.cdn.digitaloceanspaces.com/thumbnail/124766-tdlogwscae-1564550845.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1528,8 +1234,8 @@
      }
     },
     {
-     "text": "Will Eisner: Champion of the Graphic Novel",
-     "imageUrl": "https://images.gr-assets.com/books/1427933300l/25073670.jpg",
+     "text": "Cover painting - New York - The big city by Will Eisner - Original Cover",
+     "imageUrl": "https://www.2dgalleries.com/planches/800W/2015/24/eisner-cover-painting-new-york-the-big-city-2oyh.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1542,80 +1248,52 @@
      }
     },
     {
-     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 August 16",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/521e29873b0fc337a87bc08235016642-300.jpg",
+     "text": "The Spirit Archives by Will Eisner",
+     "imageUrl": "http://comicsbeat.com/wp-content/uploads/2012/12/Spirit_Archives_Vol_1_1.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\u2018Adult comics, for adults\u2019: Will Eisner and the break-out story of the graphic novel",
+     "imageUrl": "https://s01.sgp1.cdn.digitaloceanspaces.com/thumbnail/124766-tdlogwscae-1564550845.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Superman by Will Eisner",
+     "imageUrl": "https://i2.wp.com/downthetubes.net/wp-content/uploads/2020/06/img_4143.jpg?resize=700%2C1000&ssl=1",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 24",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/fb1a5a732e4e449770bf2de937d7b591-300.jpg",
      "keyword": "the spirit comic",
      "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Sunday May 24 1942 Vg Very Good Staining",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/2c5cdc0ef6e44719b53263f8340d16fd-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bestselling Comics (2006) - The Spirit Archives, Volume 19 by Will Eisner",
-     "imageUrl": "http://www.coverbrowser.com/image/bestselling-comics-2006/1169-1.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The New Kid Eternity, created by Will Eisner",
-     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2012/08/1342469009.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit, Comic Book Resources, Will Eisner: A Spirited Life",
-     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2015/03/TheSpiritBanner.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Plot: The Secret Story of the Protocols of the Elders of Zion by Will Eisner",
-     "imageUrl": "https://4.bp.blogspot.com/-A3r48hp7Mto/UTZmPYYbY5I/AAAAAAAADmI/VhLbvOX-s78/s320/plot-secret-story-protocols-elders-zion-eisner-graphic-novel-umberto-eco.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1654,8 +1332,106 @@
      }
     },
     {
-     "text": "image of Will Eisner's the Spirit: A Pop-up Graphic Novel",
-     "imageUrl": "https://d3525k1ryd2155.cloudfront.net/f/465/784/9781933784465.RH.0.m.jpg",
+     "text": "The Plot: The Secret Story of the Protocols of the Elders of Zion by Will Eisner",
+     "imageUrl": "https://4.bp.blogspot.com/-A3r48hp7Mto/UTZmPYYbY5I/AAAAAAAADmI/VhLbvOX-s78/s320/plot-secret-story-protocols-elders-zion-eisner-graphic-novel-umberto-eco.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Image: Will Eisner's The Spirit: A Pop-Up Graphic Novel - Insight Editions",
+     "imageUrl": "https://westfieldcomics.com/wow/art/large/2008_08-xx582.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comics & Sequential Art by Will Eisner",
+     "imageUrl": "https://i1.whakoom.com/small/29/19/224af94c9c2a4f96b1a46371a10737d1.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The New Kid Eternity, created by Will Eisner",
+     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2012/08/1342469009.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Sunday May 24 1942 Vg Very Good Staining",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/2c5cdc0ef6e44719b53263f8340d16fd-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner: Champion of the Graphic Novel",
+     "imageUrl": "https://images.gr-assets.com/books/1427933300l/25073670.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner\u2019s personal account of the birth of the Golden Age of comics. \u201d order_by=\u201dsortorder\u201d order_direction=\u201dASC\u201d returns=\u201dincluded\u201d maximum_entity_count=\u201d500\u2033]This is one of my personal favorites\u00a0written and drawn by Will Eisner: The [\u2026",
+     "imageUrl": "https://fanboyfactor.com/wp-content/uploads/2020/02/dreamer-banner.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Plot: The Secret Story of The Protocols of the Elders of Zion by Will Eisner",
+     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2006/07/51BgauwtyXL._SX349_BO1204203200_.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1669,7 +1445,7 @@
     },
     {
      "text": "Will Eisner: Champion of the Graphic Novel",
-     "imageUrl": "https://cdn.asaha.com/assets/thumbs/7ff/7ff18a3c603f703d0e249c14109d85ad.jpg",
+     "imageUrl": "https://bargainbookhutonline.com/public/storage/products/2423/NwM58G5apUsTZMATZwYZpqroFzAZIMo3etUssXZ6.jpeg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1682,8 +1458,8 @@
      }
     },
     {
-     "text": "image from The Plot (by Will Eisner",
-     "imageUrl": "https://erikbuys.files.wordpress.com/2013/10/image-from-the-plot-by-will-eisner.jpg?w=254&h=300",
+     "text": "Invisible People by Will Eisner",
+     "imageUrl": "https://static.wixstatic.com/media/8a2706_2e79012c51b245268ec79eb6cd24871a~mv2.jpg/v1/fill/w_498,h_665,al_c,q_85,usm_0.66_1.00_0.01/8a2706_2e79012c51b245268ec79eb6cd24871a~mv2.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1696,8 +1472,8 @@
      }
     },
     {
-     "text": "Cover painting - New York - The big city by Will Eisner - Original Cover",
-     "imageUrl": "https://www.2dgalleries.com/planches/800W/2015/24/eisner-cover-painting-new-york-the-big-city-2oyh.jpg",
+     "text": "Image for *Signed* Bill of Sale Signed by Will Eisner",
+     "imageUrl": "http://www.oncereadbooks.com/assets/images/product/325822.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1710,8 +1486,8 @@
      }
     },
     {
-     "text": "The Spirit Archives by Will Eisner",
-     "imageUrl": "http://comicsbeat.com/wp-content/uploads/2012/12/Spirit_Archives_Vol_1_1.jpg",
+     "text": "Front cover of PS Magazine by Will Eisner",
+     "imageUrl": "http://bookfish.co.za/sites/default/files/ps_magazine_front.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": null,
@@ -1724,10 +1500,234 @@
      }
     },
     {
-     "text": "Will Eisner Comic Book Industry Awards",
-     "imageUrl": "https://i0.wp.com/www.comicsbeat.com/wp-content/uploads/2019/07/eisner-awards-banner.png?fit=1200%2C450&ssl=1&resize=350%2C200",
+     "text": "Will Eisner: Champion of the Graphic Novel",
+     "imageUrl": "https://images.bookoutlet.ca/covers/large/isbn978141/9781419714986-l.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1943 May 2",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/38a9f22ab5235141074a15a4a3bb5f09-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Plot: The Secret Story of The Protocols of the Elders of Zion by Will Eisner",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/517C5G5VFTL.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comics and Sequential Art by Will Eisner",
+     "imageUrl": "https://toledolibrary.s3.amazonaws.com/uploads/blog-images/Comics-and-Sequential-Art.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner, Father of the Graphic Novel, Cartoon Art Museum, San Francisco",
+     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2013/09/pg187.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Plot by Will Eisner",
+     "imageUrl": "https://lh3.googleusercontent.com/proxy/uIOmV6Q_CEEEQ3QVUZtWa1K9s4fRI0FudY99kz1_rtEg-fmvNBw-ZlWps79FI_V6YEldsaeNhyP08S01DU5k1zbXnnUfSYTEc9csvxJ8WRs=s0-d",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit to the Rescue art by Will Eisner",
+     "imageUrl": "https://bookpalace.com/acatalog/EisnerWAirBalloon-N.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Front cover of PS Magazine by Will Eisner",
+     "imageUrl": "https://bookfish.co.za/sites/default/files/styles/flexslider_full/public/ps_magazine_front.jpg?itok=iTI_ZlMg&timestamp=1462277447",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Invisible People by Will Eisner signed HC / AP",
+     "imageUrl": "https://www.deniskitchen.com/mm5/graphics/00000001/B_WE.invisible.people.SM.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Sunday November 9 1947 Nm Near Mint",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/41e06b2195b09cede21f8b459046865e-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 April 19",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/a26286c6cb6c6741c8117323757c036f-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Dallas Moring News June 15 1941",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/5f61f0b6a14e8b19b5612a57d589479b-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Last Day in Vietnam (2nd edition) by Will Eisner",
+     "imageUrl": "https://images1.penguinrandomhouse.com/cover/9781506706467",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Bench art by Will Eisner",
+     "imageUrl": "https://bookpalace.com/acatalog/EisnerWTheClue-N.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Bring in San Saref\" (January 15, 1950), script and art by Will Eisner",
+     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/03/12a.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner, Champion of the Graphic Novel",
+     "imageUrl": "https://www.lambiek.net/share/image.php/will-eisner--champion-of-the-graphic-novel.jpg?width=350&image=/catalog/img/1024--64161-800-v9y.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit comic book frames about card magic greats",
+     "imageUrl": "http://johnnyacepalmer.com/media/Spirit_blowup.png",
+     "keyword": "the spirit comic",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1739,16 +1739,16 @@
     }
    ],
    "samples": [
-    "Will Eisner, Champion of the Graphic Novel",
     "The Spirit Comic Book Section Newspaper Very Fine Or Better 1943 March 14",
-    "The Spirit comic book frames about card magic greats",
-    "The Spirit Comic Book Section Dallas Moring News June 8 1941",
-    "Look Before You Shoot by Will Eisner, PS Magazine, Will Eisner: A Spirited Life",
-    "Cover Braun - Will Eisner Graphic Novel Godfather",
-    "The Windy City art by Will Eisner",
-    "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 3",
-    "Fagin the Jew by Will Eisner",
-    "The Spirit Comic Books #16 And #18"
+    "Pre-Order Autobiographix by Will Eisner, Matt Wagner and More",
+    "Image: The Dreamer by Will Eisner (tpb) - Kitchen Sink Press",
+    "How to Avoid Death & Taxes by Will Eisner",
+    "The Dreamer by Will Eisner",
+    "An original art panel from Denis Kitchen and Will Eisner",
+    "Left: from \"The Name Is 'Powder'\" (January 4, 1948), script and art by Will Eisner, backgrounds by Jerry Grandenetti Right: from \"Teacher's Pet\" (September 10, 1950), script and art by Will Eisner",
+    "New York Life in the Big City HC By Will Eisner #1-1ST VF 2006 Stock Image",
+    "The Spirit Comic Book Section Dallas Morning News May 11 1941",
+    "The Spirit Comic Book Section Dallas Moring News June 8 1941"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1774,11 +1774,11 @@
    "totalIncludingLowConfidence": 13353,
    "rows": [
     {
-     "text": "Extracts from A Contract with God, P.S. Magazine and The Plot by Will Eisner",
-     "imageUrl": "https://panelborders.files.wordpress.com/2014/03/eisner.jpg?w=504",
+     "text": "Will Eisner's masterpiece, graphic novel, A Contract with God, tenements, New York",
+     "imageUrl": "https://i.pinimg.com/236x/6d/23/2c/6d232cae1582f02e6281c840e9f00534.jpg",
      "keyword": "a contract with god",
      "tier": "high",
-     "punsafe": 0.0005558431148529053,
+     "punsafe": 0.00012508034706115723,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1788,11 +1788,39 @@
      }
     },
     {
-     "text": "A contract with god - cookalein page 36 by Will Eisner - Comic Strip",
-     "imageUrl": "https://www.2dgalleries.com/planches/2015/7/eisner-a-contract-with-god-cookalein-page-36-2ngb.jpg",
+     "text": "\"Eisner's \"\"A Contract With God,\"\" which gave rise to the modern graphic novel boom.\"",
+     "imageUrl": "https://images.squarespace-cdn.com/content/v1/5a7e1b57017db2560eebc2e1/1518239234995-2OMBYORW1ZBOYZEN0K1R/ke17ZwdGBToddI8pDm48kJztAXAvMIRuHY_QZZ4kiFFZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-sVucfqeeaRrnnRX04WgfWBz_XVoGe9d9mDS29eWTllug/contract.jpg",
      "keyword": "a contract with god",
      "tier": "high",
-     "punsafe": 0.0011331140995025635,
+     "punsafe": 0.00011007743887603283,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Last Knight by Will Eisner",
+     "imageUrl": "https://usercontent1.hubstatic.com/12794110.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00031825900077819824,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Building by Will Eisner",
+     "imageUrl": "http://d.gr-assets.com/books/1184871207l/1535935.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 2.102957478200551e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1830,11 +1858,25 @@
      }
     },
     {
-     "text": "Will Eisner: Champion of the Graphic Novel",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/61toHpu0KKL._UX160_.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0001302659511566162,
+     "text": "Extracts from A Contract with God, P.S. Magazine and The Plot by Will Eisner",
+     "imageUrl": "https://panelborders.files.wordpress.com/2014/03/eisner.jpg?w=504",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 0.0005558431148529053,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A contract with god - cookalein page 36 by Will Eisner - Comic Strip",
+     "imageUrl": "https://www.2dgalleries.com/planches/2015/7/eisner-a-contract-with-god-cookalein-page-36-2ngb.jpg",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 0.0011331140995025635,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1886,11 +1928,67 @@
      }
     },
     {
-     "text": "Will Eisner's masterpiece, graphic novel, A Contract with God, tenements, New York",
-     "imageUrl": "https://i.pinimg.com/236x/6d/23/2c/6d232cae1582f02e6281c840e9f00534.jpg",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 0.00012508034706115723,
+     "text": "Will Eisner: Champion of the Graphic Novel",
+     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/61toHpu0KKL._UX160_.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0001302659511566162,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner \u2013 Graphic Novel Godfather",
+     "imageUrl": "https://i1.wp.com/comic.highlightzone.de/wp-content/uploads/2021/03/Eisner-5.jpg?resize=300%2C394",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00036963820457458496,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Last Knight by Will Eisner",
+     "imageUrl": "http://d.gr-assets.com/books/1176069528l/589280.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00011973055370617658,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit by Will Eisner",
+     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2013/05/36e854ce742f69d5_large-100x100.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.024370253086090088,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Plot by Will Eisner",
+     "imageUrl": "http://d2arxad8u2l0g7.cloudfront.net/books/1388719617l/33478.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00067940354347229,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1970,53 +2068,11 @@
      }
     },
     {
-     "text": "Will Eisner \u2013 Graphic Novel Godfather",
-     "imageUrl": "https://i1.wp.com/comic.highlightzone.de/wp-content/uploads/2021/03/Eisner-5.jpg?resize=300%2C394",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00036963820457458496,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Last Knight by Will Eisner",
-     "imageUrl": "http://d.gr-assets.com/books/1176069528l/589280.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00011973055370617658,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit by Will Eisner",
-     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2013/05/36e854ce742f69d5_large-100x100.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.024370253086090088,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Plot by Will Eisner",
-     "imageUrl": "http://d2arxad8u2l0g7.cloudfront.net/books/1388719617l/33478.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00067940354347229,
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 August 16",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/521e29873b0fc337a87bc08235016642-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": 0.00010064080561278388,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2082,48 +2138,6 @@
      }
     },
     {
-     "text": "\"Eisner's \"\"A Contract With God,\"\" which gave rise to the modern graphic novel boom.\"",
-     "imageUrl": "https://images.squarespace-cdn.com/content/v1/5a7e1b57017db2560eebc2e1/1518239234995-2OMBYORW1ZBOYZEN0K1R/ke17ZwdGBToddI8pDm48kJztAXAvMIRuHY_QZZ4kiFFZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-sVucfqeeaRrnnRX04WgfWBz_XVoGe9d9mDS29eWTllug/contract.jpg",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 0.00011007743887603283,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Last Knight by Will Eisner",
-     "imageUrl": "https://usercontent1.hubstatic.com/12794110.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00031825900077819824,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Building by Will Eisner",
-     "imageUrl": "http://d.gr-assets.com/books/1184871207l/1535935.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 2.102957478200551e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Spirit Archives, Vol. 1 by Will Eisner",
      "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1358136721l/602518.jpg",
      "keyword": "will eisner",
@@ -2143,146 +2157,6 @@
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": 0.001664668321609497,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Contract with God by Will Eisner - Jewish Gifts, Collectibles and Judaica | Reboot Shop",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1429/3534/products/contract-1_large.jpg?v=1527333981",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 4.0621322114020586e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Will Eisner: Champion of the Graphic Novel",
-     "imageUrl": "http://bookpalace.com/acatalog/EisnerChampionCvr.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 1.9714258087333292e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Manual for M16A1 Rifle by Will Eisner",
-     "imageUrl": "https://www.lambiek.net/artists/image/e/eisner/eisner_will_1968.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 4.405245999805629e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Minor Miracles by Will Eisner",
-     "imageUrl": "http://images.gr-assets.com/books/1348797921l/7897032.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 6.358617247315124e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Contract with God by Will Eisner - Jewish Gifts, Collectibles and Judaica | Reboot Shop",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1429/3534/products/contract-1_large.jpg?v=1492365360",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 4.0621322114020586e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Contract with God by Will Eisner",
-     "imageUrl": "http://images.gr-assets.com/books/1464994829m/30285142.jpg",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 0.0004436671733856201,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit by Will Eisner",
-     "imageUrl": "https://comic-con.org/sites/default/files/styles/w220/public/content_section/toucan_dilettante15_01_powdersplash.jpg?itok=Gu7WVsTC",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0031653940677642822,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A contract with God and other tenement stories / by Will Eisner.<br />",
-     "imageUrl": "https://library.missouri.edu/specialcollections/files/square_thumbnails/2baff1544f731fe51d0786f50442f00a.jpg",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 0.0005780458450317383,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Contract With God Trilogy by Will Eisner",
-     "imageUrl": "https://images.gr-assets.com/books/1324242014m/33472.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 3.712512261699885e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Artist And Audience Quotes By Will Eisner",
-     "imageUrl": "https://quotessayings.net/pics/artist-and-audience-quote-by-will-eisner-1203673.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00018331408500671387,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2376,6 +2250,48 @@
      }
     },
     {
+     "text": "A contract with God and other tenement stories / by Will Eisner.<br />",
+     "imageUrl": "https://library.missouri.edu/specialcollections/files/square_thumbnails/2baff1544f731fe51d0786f50442f00a.jpg",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 0.0005780458450317383,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Contract With God Trilogy by Will Eisner",
+     "imageUrl": "https://images.gr-assets.com/books/1324242014m/33472.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 3.712512261699885e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Artist And Audience Quotes By Will Eisner",
+     "imageUrl": "https://quotessayings.net/pics/artist-and-audience-quote-by-will-eisner-1203673.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00018331408500671387,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "A Contract With God by Will Eisner - New, S/N",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/vJQAAOSwA3dYL7GV/s-l225.jpg",
      "keyword": "a contract with god",
@@ -2432,104 +2348,6 @@
      }
     },
     {
-     "text": "Last Day in Vietnam: A Memory by Will Eisner",
-     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2013/03/05/LastDaysLead.jpg?635466411681093766",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 1.4134526281850412e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Archives, Vol. 1 by Will Eisner",
-     "imageUrl": "http://d.gr-assets.com/books/1358136721l/602518.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00012332721962593496,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Dreamer by Will Eisner",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/51CzyhqiY%2BL.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0006743967533111572,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Contract with God by WILL EISNER Signed First Edition 1978 Graphic Novel 1st",
-     "imageUrl": "https://signedfirstedition.xyz/image/A-Contract-with-God-by-WILL-EISNER-Signed-First-Edition-1978-Graphic-Novel-1st-05-yk.jpg",
-     "keyword": "a contract with god",
-     "tier": "high",
-     "punsafe": 9.633946319809183e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 24",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/fb1a5a732e4e449770bf2de937d7b591-800.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": 0.0011579394340515137,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit Comic Book Section Sunday November 9 1947 Nm Near Mint",
-     "imageUrl": "https://storage.googleapis.com/hipcomic/p/41e06b2195b09cede21f8b459046865e-300.jpg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": 2.4513461539754644e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Robert's Rules of Order by Will Eisner",
-     "imageUrl": "https://i1.ebkimg.com/previews/000/000649/000649256/000649256-hq-168-80.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 1.391799196426291e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A Contract With God Ebook By Will Eisner 9780393076547 Rakuten Kobo",
      "imageUrl": "https://kbimages1-a.akamaihd.net/358b1e93-d17a-40d7-8bab-f39b4232d37d/353/569/90/False/a-contract-with-god.jpg",
      "keyword": "a contract with god",
@@ -2572,6 +2390,118 @@
      }
     },
     {
+     "text": "The Spirit by Will Eisner",
+     "imageUrl": "https://www.comic-con.org/sites/default/files/styles/w220/public/content_section/toucan_dilettante15_01_powdersplash.jpg?itok=Gu7WVsTC",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0031653940677642822,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Contract with God by Will Eisner - Jewish Gifts, Collectibles and Judaica | Reboot Shop",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/1429/3534/products/contract-1_large.jpg?v=1527333981",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 4.0621322114020586e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner: Champion of the Graphic Novel",
+     "imageUrl": "http://bookpalace.com/acatalog/EisnerChampionCvr.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 1.9714258087333292e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Manual for M16A1 Rifle by Will Eisner",
+     "imageUrl": "https://www.lambiek.net/artists/image/e/eisner/eisner_will_1968.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 4.405245999805629e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Minor Miracles by Will Eisner",
+     "imageUrl": "http://images.gr-assets.com/books/1348797921l/7897032.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 6.358617247315124e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Contract with God by WILL EISNER Signed First Edition 1978 Graphic Novel 1st",
+     "imageUrl": "https://signedfirstedition.xyz/image/A-Contract-with-God-by-WILL-EISNER-Signed-First-Edition-1978-Graphic-Novel-1st-05-yk.jpg",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 9.633946319809183e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Comic Book Section Newspaper Very Fine Or Better 1942 May 24",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/fb1a5a732e4e449770bf2de937d7b591-800.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": 0.0011579394340515137,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Robert's Rules of Order by Will Eisner",
+     "imageUrl": "https://i1.ebkimg.com/previews/000/000649/000649256/000649256-hq-168-80.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 1.391799196426291e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "To the Heart of the Storm by Will Eisner",
      "imageUrl": "http://i.shopmania.org/180x180/b/bf/bf5d3b5fc9a7e31a4fb3b9a4568dfa5f7c5bf019.jpg?u=https%3A%2F%2Fd4rri9bdfuube.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F3933%2F9780393328103.jpg",
      "keyword": "will eisner",
@@ -2586,8 +2516,64 @@
      }
     },
     {
+     "text": "Last Day in Vietnam: A Memory by Will Eisner",
+     "imageUrl": "http://cdn.pastemagazine.com/www/articles/2013/03/05/LastDaysLead.jpg?635466411681093766",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 1.4134526281850412e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Archives, Vol. 1 by Will Eisner",
+     "imageUrl": "http://d.gr-assets.com/books/1358136721l/602518.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00012332721962593496,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Contract with God by Will Eisner - Jewish Gifts, Collectibles and Judaica | Reboot Shop",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/1429/3534/products/contract-1_large.jpg?v=1492365360",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 4.0621322114020586e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Contract with God by Will Eisner",
+     "imageUrl": "http://images.gr-assets.com/books/1464994829m/30285142.jpg",
+     "keyword": "a contract with god",
+     "tier": "high",
+     "punsafe": 0.0004436671733856201,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "The Spirit by Will Eisner",
-     "imageUrl": "https://www.comic-con.org/sites/default/files/styles/w220/public/content_section/toucan_dilettante15_01_powdersplash.jpg?itok=Gu7WVsTC",
+     "imageUrl": "https://comic-con.org/sites/default/files/styles/w220/public/content_section/toucan_dilettante15_01_powdersplash.jpg?itok=Gu7WVsTC",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": 0.0031653940677642822,
@@ -2612,19 +2598,33 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "Will Eisner's New York by Will Eisner",
+     "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1347468912l/33473.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 2.1662472136085853e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
+    "Will Eisner's masterpiece, graphic novel, A Contract with God, tenements, New York",
+    "\"Eisner's \"\"A Contract With God,\"\" which gave rise to the modern graphic novel boom.\"",
+    "The Last Knight by Will Eisner",
+    "The Building by Will Eisner",
+    "Last Day in Vietnam: A Memory by Will Eisner",
+    "Last Day in Vietnam: A Memory by Will Eisner",
     "Extracts from A Contract with God, P.S. Magazine and The Plot by Will Eisner",
     "A contract with god - cookalein page 36 by Will Eisner - Comic Strip",
-    "Last Day in Vietnam: A Memory by Will Eisner",
-    "Last Day in Vietnam: A Memory by Will Eisner",
-    "Will Eisner: Champion of the Graphic Novel",
     "To the Heart of the Storm by Will Eisner",
-    "The Best of the Spirit by Will Eisner",
-    "Read A Contract with God Graphic Novel",
-    "Will Eisner's masterpiece, graphic novel, A Contract with God, tenements, New York",
-    "Will Eisner: Champion of the Graphic Novel"
+    "The Best of the Spirit by Will Eisner"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2664,20 +2664,6 @@
      }
     },
     {
-     "text": "Will Eisner's The Spirit drawn by Batton Lash, Mr. Media Interviews",
-     "imageUrl": "https://i2.wp.com/mrmedia.com/wp-content/uploads/2015/03/SPIRIT-for-Mr.-Media.jpeg?resize=219%2C300",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0003896653652191162,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "El ojo y el ca\u00f1\u00f3n del rev\u00f3lver en primer plano, inmediatamente antes de su disparo, en Spirit (1950), de Will Eisner, que utiliza tambi\u00e9n expresivas onomatopeyas. \u00a9 Will Eisner.",
      "imageUrl": "https://www.el-ilustrador.com/wp-content/uploads/2016/12/encuadres-comic4.jpg",
      "keyword": "will eisner",
@@ -2706,11 +2692,11 @@
      }
     },
     {
-     "text": "\"\"\"\"\"\"\"I LOVE COMIC BOOKS!\"\"\"\": Will Eisner's THE SPIRIT...\"\"\"",
-     "imageUrl": "https://i.pinimg.com/236x/a2/60/43/a26043dec0edd717727d8cc0ab4a59fb.jpg",
+     "text": "Will Eisner's The Spirit drawn by Batton Lash, Mr. Media Interviews",
+     "imageUrl": "https://i2.wp.com/mrmedia.com/wp-content/uploads/2015/03/SPIRIT-for-Mr.-Media.jpeg?resize=219%2C300",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.00019085407257080078,
+     "punsafe": 0.0003896653652191162,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2734,11 +2720,39 @@
      }
     },
     {
+     "text": "\"\"\"\"\"\"\"I LOVE COMIC BOOKS!\"\"\"\": Will Eisner's THE SPIRIT...\"\"\"",
+     "imageUrl": "https://i.pinimg.com/236x/a2/60/43/a26043dec0edd717727d8cc0ab4a59fb.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00019085407257080078,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "New York by Will Eisner",
      "imageUrl": "http://d.gr-assets.com/books/1327951983l/2217976.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": 0.0004935562610626221,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "S\u00e9rie Graphic Novel [Abril] n\u00ba 008 fev/1989 - O Edif\u00edcio - Por Will Eisner",
+     "imageUrl": "https://9a4cdd8e5789bb85.cdn.gocache.net/planetagib/catalog/product/cache/1/small_image/480x/03f5b2c0500579388df8d61ded4b6716/s/e/serie-graphic-novel-abril-n-008-fev-1989-o-edificio-por-will-eisner_1.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 4.867191091761924e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2776,25 +2790,11 @@
      }
     },
     {
-     "text": "C\u00f3mics: SUPER THE SPIRIT WILL EISNER. VOL. 1 NS. 1 AL 6. COMIC BOOKS NORMA. Lote 62358336",
-     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2016/10/11/14/62358336.jpg?size=230x230&crop=true",
+     "text": "Will Eisner's Shop Talk by Will Eisner",
+     "imageUrl": "https://lr-assets.storage.googleapis.com/_nielsen/400/9781569715369.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0012023746967315674,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "S\u00e9rie Graphic Novel [Abril] n\u00ba 008 fev/1989 - O Edif\u00edcio - Por Will Eisner",
-     "imageUrl": "https://9a4cdd8e5789bb85.cdn.gocache.net/planetagib/catalog/product/cache/1/small_image/480x/03f5b2c0500579388df8d61ded4b6716/s/e/serie-graphic-novel-abril-n-008-fev-1989-o-edificio-por-will-eisner_1.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 4.867191091761924e-05,
+     "punsafe": 0.0014490485191345215,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2818,11 +2818,11 @@
      }
     },
     {
-     "text": "Will Eisner's Shop Talk by Will Eisner",
-     "imageUrl": "https://lr-assets.storage.googleapis.com/_nielsen/400/9781569715369.jpg",
+     "text": "C\u00f3mics: SUPER THE SPIRIT WILL EISNER. VOL. 1 NS. 1 AL 6. COMIC BOOKS NORMA. Lote 62358336",
+     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2016/10/11/14/62358336.jpg?size=230x230&crop=true",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0014490485191345215,
+     "punsafe": 0.0012023746967315674,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2844,425 +2844,19 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Ausstellung Will Eisner, Godfather der Graphic Novel 3",
-     "imageUrl": "https://comix-online.com/wp-content/uploads/2021/02/Eisner_Godfather_02-1024x681.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0010670721530914307,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Will Eisner - Graphic Novel Godfather (Illustriertes Buch)",
-     "imageUrl": "https://www.comic-base-berlin.de/images/product_images/info_images/65295_0.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 2.0350396880530752e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New York by Will Eisner",
-     "imageUrl": "https://www.graphicnovelsblog.com/wp-content/uploads/2021/10/13-1-1024x576.png",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00010951588046737015,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Will Eisner's New York by Will Eisner",
-     "imageUrl": "http://images.gr-assets.com/books/1423668413l/33473.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0002205967903137207,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Spirit h\u00e6fte nr. 3 by Will Eisner",
-     "imageUrl": "http://pics.cdn.librarything.com/picsizes/ca/f9/caf9e65b37f2fd1597777365977434f414f4141.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.03072524070739746,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Download free El Comic y el Arte Secuencial MOBI by Will Eisner",
-     "imageUrl": "http://d.gr-assets.com/books/1262044058l/7438882.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 5.400550435297191e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Spirit magazine 1980 No. 24 24 by Will Eisner aikakauslehti",
-     "imageUrl": "https://www.kane.fi/prestashop/108364-home_default/spirit-magazine-1980-no-24-24-by-will-eisner-aikakauslehti.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0010828673839569092,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Super Patriotic Heroes by Will Eisner",
-     "imageUrl": "https://books.boomerangbooks.com.au/Large/793/9781684051793.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0016161203384399414,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Spirit magazine 1982 No. 34 34 by Will Eisner aikakauslehti",
-     "imageUrl": "https://www.kane.fi/prestashop/108420-home_default/spirit-magazine-1982-no-34-34-by-will-eisner-aikakauslehti.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.002456188201904297,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Will Eisner's New York by Will Eisner",
-     "imageUrl": "http://d.gr-assets.com/books/1423668413l/33473.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0002205967903137207,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "affiche SPIRIT by Will Eisner",
-     "imageUrl": "https://jplevraud.com/wp-content/uploads/affiche-SPIRIT-by-Will-Eisner-768x1024.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.010603457689285278,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "THE SPIRIT #1 First Issue by Will Eisner! Warren Magazine ~ FN",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/222619627148_/THE-SPIRIT-1-First-Issue-by-Will-Eisner.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 6.785587902413681e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Ebook Um contrato com Deus e outras hist\u00f3rias de corti\u00e7o by Will Eisner PDF!",
-     "imageUrl": "https://images.gr-assets.com/books/1332600972l/13558949.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00017276406288146973,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "La cover della graphic novel di Will Eisner",
-     "imageUrl": "https://scontent.ccdn.cloud/image/nospoiler/ae35593f-8cf9-4aee-9561-abd14c1dc1e8/la-copertina-di-contratto-con-dio-di-will-eisner-maxw-697.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0006891489028930664,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "THE SPIRIT: ESPACIO EXTERIOR - WILL EISNER / WALLY WOOD - TOUTAIN EDITOR (Tebeos y Comics - Toutain - \u00c1lbumes)",
-     "imageUrl": "https://cloud10.todocoleccion.online/comics-toutain/tc/2020/09/22/09/218458601.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0001646876335144043,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "La cover della graphic novel di Will Eisner",
-     "imageUrl": "https://cc-media-foxit.fichub.com/image/fox-it-mondofox/ae35593f-8cf9-4aee-9561-abd14c1dc1e8/la-copertina-di-contratto-con-dio-di-will-eisner-maxw-654.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0007309317588806152,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit #11 by Will Eisner (December 1975, Warren)",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/KjkAAOSwTGNctgpR/s-l300.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.08505332469940186,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Spirit magazine 1981 No. 27 27 by Will Eisner aikakauslehti",
-     "imageUrl": "https://www.kane.fi/prestashop/108404-home_default/spirit-magazine-1981-no-27-27-by-will-eisner-aikakauslehti.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.004606455564498901,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dropsie Avenue: The Neighborhood by Will Eisner",
-     "imageUrl": "https://images.thestorygraph.com/m39nsqrcld8gv69iuu0ytmf6xs8u",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 3.0906151096132817e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "THE SPIRIT by Will Eisner, 1950 Newark Star Ledger Spirit Section, Baseball",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/221559827589_/THE-SPIRIT-by-Will-Eisner-1950-Newark-Star.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 9.625626262277365e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit by Will Eisner - Buste r\u00e9sine - Dark horse Deluxe - Lim. 950 exs",
-     "imageUrl": "https://i.ebayimg.com/images/g/HKMAAOSwMzBc3C8j/s-l1600.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0002161562442779541,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "F\u00f6rstasida till The Spirit Comic Book Section fr\u00e5n 20 april 1941. \u00a9Register&Tribune",
-     "imageUrl": "https://rogersmagasin.com/wp-content/uploads/2021/03/AFE25F64-91E6-4633-87DB-96AD68C51B15-741x1024.jpeg",
-     "keyword": "the spirit comic",
-     "tier": "high",
-     "punsafe": 0.0006260871887207031,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "L'Appel de l'Espace [Will Eisner / Delcourt]",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/173731261008_/LAppel-de-lEspace-Will-Eisner-Delcourt.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.00010664503497537225,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Quadrinhos e Arte Seq\u00fcencial by Will Eisner",
-     "imageUrl": "https://images.thestorygraph.com/bi1ihwleess6696r19ri4l6mlj02",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 8.95899283932522e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "El so\u00f1ador by Will Eisner",
-     "imageUrl": "https://images.thestorygraph.com/46k7ecaw9hs9blg74fgck0xr0a40",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0003784000873565674,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Art by Will Eisner - The Spirit - 5th June 1949",
-     "imageUrl": "https://i1.wp.com/downthetubes.net/wp-content/uploads/2021/07/Musee-Thomas-Henry-Eisner-Face-to-Face-4.jpg?resize=700%2C975&ssl=1",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.000911414623260498,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lifeforce von Will Eisner / Feest Verlag /\u2026",
-     "imageUrl": "https://pics.cdn.librarything.com/picsizes/92/02/92027c530518c4f596751527577433041414141_v5.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 1.2537265320133884e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "La cover della graphic novel di Will Eisner",
-     "imageUrl": "https://cc-media-foxit.fichub.com/image/fox-it-mondofox/ae35593f-8cf9-4aee-9561-abd14c1dc1e8/la-copertina-di-contratto-con-dio-di-will-eisner-maxw-644.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0005886256694793701,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit \u00a9 Will Eisner, 1945",
-     "imageUrl": "https://comics.uoregon.edu/wp-content/themes/comicstudies/images/comics/title_spirit.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 2.6569045076030307e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "CITY A Narrative Portfolio by Will Eisner",
-    "Will Eisner's The Spirit drawn by Batton Lash, Mr. Media Interviews",
     "El ojo y el ca\u00f1\u00f3n del rev\u00f3lver en primer plano, inmediatamente antes de su disparo, en Spirit (1950), de Will Eisner, que utiliza tambi\u00e9n expresivas onomatopeyas. \u00a9 Will Eisner.",
     "Will Eisner's The Spirit drawn by Batton Lash, Mr. Media Interviews",
-    "\"\"\"\"\"\"\"I LOVE COMIC BOOKS!\"\"\"\": Will Eisner's THE SPIRIT...\"\"\"",
+    "Will Eisner's The Spirit drawn by Batton Lash, Mr. Media Interviews",
     "The Spirit #6 by Will Eisner - Original '70's Warren Magazine",
+    "\"\"\"\"\"\"\"I LOVE COMIC BOOKS!\"\"\"\": Will Eisner's THE SPIRIT...\"\"\"",
     "New York by Will Eisner",
+    "S\u00e9rie Graphic Novel [Abril] n\u00ba 008 fev/1989 - O Edif\u00edcio - Por Will Eisner",
     "Building HC (1987 Kitchen Sink) By Will Eisner 1-1ST",
-    "CITY A Narrative Portfolio by Will Eisner",
-    "C\u00f3mics: SUPER THE SPIRIT WILL EISNER. VOL. 1 NS. 1 AL 6. COMIC BOOKS NORMA. Lote 62358336"
+    "CITY A Narrative Portfolio by Will Eisner"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3287,6 +2881,62 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 3553,
    "rows": [
+    {
+     "text": "The Spirit by Will Eisner",
+     "imageUrl": "https://i.pinimg.com/236x/28/9b/1f/289b1ff370a8a5c458621a97b1b33373.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 4.917702608508989e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Odd Fact Newspaper Strip By Will Eisner - 7-1-1976",
+     "imageUrl": "https://romitaman.b-cdn.net/Images/Category_2/subcat_1247/odd7-1-76.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.048522740602493286,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Art by Will Eisner - The Spirit - Run Mac, Run",
+     "imageUrl": "https://i2.wp.com/downthetubes.net/wp-content/uploads/2021/07/Musee-Thomas-Henry-Eisner-New-York-Room-Run-Mac.jpg?resize=700%2C1010&ssl=1",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 8.970243652584031e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Odd Fact Newspaper Strip By Will Eisner - 8-30-1975 Comic Art",
+     "imageUrl": "http://cdn.romitaman.com/Images/Category_2/subcat_1247/thumbs/odd8-30-75.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0009648501873016357,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
     {
      "text": "Odd Fact Newspaper Strip By Will Eisner - 8-4-1975 Comic Art",
      "imageUrl": "http://cdn.romitaman.com/Images/Category_2/subcat_1247/thumbs/odd8-4-75.jpg",
@@ -3316,11 +2966,11 @@
      }
     },
     {
-     "text": "The Spirit by Will Eisner",
-     "imageUrl": "https://i.pinimg.com/236x/28/9b/1f/289b1ff370a8a5c458621a97b1b33373.jpg",
+     "text": "Eisner/Miller by Will Eisner",
+     "imageUrl": "http://i.shopmania.org/180x180/f/fa/fafb352dd63cd0b43592b2ba9b9dc3e5c22bdcef.jpg?u=https%3A%2F%2Fd39ttiideeq0ys.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F5697%2F9781569717554.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 4.917702608508989e-05,
+     "punsafe": 0.002528280019760132,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3330,11 +2980,11 @@
      }
     },
     {
-     "text": "Odd Fact Newspaper Strip By Will Eisner - 8-30-1975 Comic Art",
-     "imageUrl": "http://cdn.romitaman.com/Images/Category_2/subcat_1247/thumbs/odd8-30-75.jpg",
+     "text": "Autobiographix (Second Edition) by Will Eisner, William Stout, Gabriel Ba, Fabio Moon and Stan Sakai",
+     "imageUrl": "https://images4.penguinrandomhouse.com/cover/9781506716848",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0009648501873016357,
+     "punsafe": 0.0005895793437957764,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3344,39 +2994,11 @@
      }
     },
     {
-     "text": "will eisner jack katz graphic novel comics",
-     "imageUrl": "http://www.dominicumile.com/wp-content/uploads/2017/05/Inks-cover_300dpi-210x300.jpg",
+     "text": "Will Eisner Sunday Comics, The Spirit, 090140",
+     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2012/08/eisnerad090140-100x100.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0031531155109405518,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Odd Fact Newspaper Strip By Will Eisner - 7-1-1976",
-     "imageUrl": "https://romitaman.b-cdn.net/Images/Category_2/subcat_1247/odd7-1-76.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.048522740602493286,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Art by Will Eisner - The Spirit - Run Mac, Run",
-     "imageUrl": "https://i2.wp.com/downthetubes.net/wp-content/uploads/2021/07/Musee-Thomas-Henry-Eisner-New-York-Room-Run-Mac.jpg?resize=700%2C1010&ssl=1",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 8.970243652584031e-05,
+     "punsafe": 0.0002326667308807373,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3428,11 +3050,11 @@
      }
     },
     {
-     "text": "Autobiographix (Second Edition) by Will Eisner, William Stout, Gabriel Ba, Fabio Moon and Stan Sakai",
-     "imageUrl": "https://images4.penguinrandomhouse.com/cover/9781506716848",
+     "text": "will eisner jack katz graphic novel comics",
+     "imageUrl": "http://www.dominicumile.com/wp-content/uploads/2017/05/Inks-cover_300dpi-210x300.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0005895793437957764,
+     "punsafe": 0.0031531155109405518,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3447,48 +3069,6 @@
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": 0.001489788293838501,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Eisner/Miller by Will Eisner",
-     "imageUrl": "http://i.shopmania.org/180x180/f/fa/fafb352dd63cd0b43592b2ba9b9dc3e5c22bdcef.jpg?u=https%3A%2F%2Fd39ttiideeq0ys.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F5697%2F9781569717554.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.002528280019760132,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Will Eisner Sunday Comics, The Spirit, 090140",
-     "imageUrl": "https://aspiritedlife.com/wp-content/uploads/2012/08/eisnerad090140-100x100.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.0002326667308807373,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Spirit 2-26-1950 by Will Eisner",
-     "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2015/03/The-Spirit-2-26-1950-by-Will-Eisner-480x355.jpg",
-     "keyword": "will eisner",
-     "tier": "namematch",
-     "punsafe": 0.005051374435424805,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3517,6 +3097,20 @@
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": 0.00016370415687561035,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit 2-26-1950 by Will Eisner",
+     "imageUrl": "https://www.comicbookdaily.com/wp-content/uploads/2015/03/The-Spirit-2-26-1950-by-Will-Eisner-480x355.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.005051374435424805,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3582,11 +3176,11 @@
      }
     },
     {
-     "text": "C\u00f3mics: THE SPIRIT N\u00ba 34 - WILL EISNER - COMIC BOOKS NORMA. Lote 28093709",
-     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2011/08/02/28093709.jpg?size=230x230&crop=true",
+     "text": "will eisner graphic novel city clowns",
+     "imageUrl": "http://www.dominicumile.com/wp-content/uploads/2015/11/clowns-1-688x1024.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0021877288818359375,
+     "punsafe": 0.00025025010108947754,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3596,11 +3190,11 @@
      }
     },
     {
-     "text": "will eisner graphic novel city clowns",
-     "imageUrl": "http://www.dominicumile.com/wp-content/uploads/2015/11/clowns-1-688x1024.jpg",
+     "text": "C\u00f3mics: THE SPIRIT N\u00ba 34 - WILL EISNER - COMIC BOOKS NORMA. Lote 28093709",
+     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2011/08/02/28093709.jpg?size=230x230&crop=true",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.00025025010108947754,
+     "punsafe": 0.0021877288818359375,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3629,6 +3223,20 @@
      "keyword": "will eisner",
      "tier": "namematch",
      "punsafe": 0.00012283434625715017,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Plot by Will Eisner",
+     "imageUrl": "https://img.fruugo.com/product/9/53/103221539_0340_0340.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0030264556407928467,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3708,11 +3316,11 @@
      }
     },
     {
-     "text": "Plot by Will Eisner",
-     "imageUrl": "https://img.fruugo.com/product/9/53/103221539_0340_0340.jpg",
+     "text": "The Dreamer by Will Eisner",
+     "imageUrl": "http://ecx.images-amazon.com/images/I/51CzyhqiY%2BL.jpg",
      "keyword": "will eisner",
      "tier": "namematch",
-     "punsafe": 0.0030264556407928467,
+     "punsafe": 0.0006743967533111572,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3792,6 +3400,20 @@
      }
     },
     {
+     "text": "The Spirit Comic Book Section Dallas Moring News June 15 1941",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/3dbd115f7a3e01084a5e4cd0b89ce40c-800.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": 4.170834654360078e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Odd Fact Newspaper Strip By Will Eisner - 11-18-1975",
      "imageUrl": "https://romitaman.b-cdn.net/Images/Category_2/subcat_1247/odd11-18-75.jpg",
      "keyword": "will eisner",
@@ -3804,19 +3426,313 @@
       "source": "heuristic",
       "confidence": 0.6
      }
+    },
+    {
+     "text": "The Spirit Comic Book Section Dallas Moring News June 15 1941",
+     "imageUrl": "https://storage.googleapis.com/hipcomic/p/3dbd115f7a3e01084a5e4cd0b89ce40c-300.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": 0.00015869736671447754,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit #1 October 1966 Giant Size Harvey Comics Thriller By Will Eisner",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/382317730344_/The-Spirit-1-October-1966-Giant-Size-Harvey.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0003829002380371094,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "will eisner graphic novel city clowns",
+     "imageUrl": "http://www.dominicumile.com/wp-content/uploads/2015/12/page-85-676x1024.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0001029970808303915,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit by Will Eisner - cd cover",
+     "imageUrl": "http://www.fumetti.org/notizie/2000/02/Spiritcdcover.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 5.314617374096997e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"The Spirit - \"\"Mr. McDool\"\" (Oct 12, 1947) - art by Will Eisner - Fight\"",
+     "imageUrl": "https://i0.wp.com/downthetubes.net/wp-content/uploads/2021/07/Musee-Thomas-Henry-The-Spirit-Mr-McDool-Fight.jpg?resize=700%2C634&ssl=1",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0008576512336730957,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Spirit Archives, Volume 23 by Will Eisner",
+     "imageUrl": "http://ecx.images-amazon.com/images/P/1401215114.01._SX142_SY224_SCLZZZZZZZ_.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00022932887077331543,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "PEP 1975  nr. 03 - DE GENERAAL/WILL EISNER/FRANKA",
+     "imageUrl": "https://www.picclickimg.com/d/l400/pict/170717577128_/PEP-1975-nr-03-DE-GENERAAL-WILL.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.006901055574417114,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner Comic Book Industry Awards",
+     "imageUrl": "https://i0.wp.com/www.comicsbeat.com/wp-content/uploads/2019/07/eisner-awards-banner.png?fit=1200%2C450&ssl=1",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 3.145853042951785e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit by Will Eisner",
+     "imageUrl": "https://www.comic-con.org/sites/default/files/styles/w220/public/content_section/toucan_dilettante15_01_powdersplash.jpg?itok=fZ4ki_H0",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0031653940677642822,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "(c) Will Eisner",
+     "imageUrl": "http://www.fumetti.org/img/EisnerDreamer.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 2.5791885491344146e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit magazine #2, cover by Will Eisner",
+     "imageUrl": "https://i.pinimg.com/originals/a5/6d/fb/a56dfb89be4c18563fab02faff79ca9d.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00013047456741333008,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Dreamer by Will Eisner",
+     "imageUrl": "https://images.gr-assets.com/books/1200946418l/2350295.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 5.460527609102428e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "THE SPIRIT N\u00ba 21 - WILL EISNER - COMIC BOOKS NORMA (Tebeos y Comics - Norma - Comic USA)",
+     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2011/07/29/28043517.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.0009684562683105469,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner's The Spirit: A Pop-up Graphic Novel",
+     "imageUrl": "https://img.valorebooks.com/W120/97/9781/978193/9781933784465.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 7.349064253503457e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "C\u00f3mics: THE SPIRIT N\u00ba 30 - WILL EISNER - COMIC BOOKS NORMA. Lote 28093601",
+     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2011/08/02/28093601.jpg?size=230x230&crop=true",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.007131367921829224,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Odd Fact Newspaper Strip By Will Eisner - 12-24-1975",
+     "imageUrl": "http://cdn.romitaman.com/Images/Category_2/subcat_1247/odd12-24-75.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00034487247467041016,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "1975 Warren Magazine The Spirit Comic Book # 6",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/tmkAAOSwbIFaV5dP/s-l225.jpg",
+     "keyword": "the spirit comic",
+     "tier": "high",
+     "punsafe": 0.0011982321739196777,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Dropsie Avenue by Will Eisner",
+     "imageUrl": "https://images.gr-assets.com/books/1348793059l/123911.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 3.0906151096132817e-06,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "C\u00f3mics: THE SPIRIT N\u00ba 10 - WILL EISNER - COMIC BOOKS NORMA. Lote 28129780",
+     "imageUrl": "https://cloud10.todocoleccion.online/comics-norma/tc/2011/08/06/28129780.jpg?size=230x230&crop=true",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 3.812255090451799e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Spirit Archives, Volume 15 by Will Eisner - 2005-02-01",
+     "imageUrl": "https://d3525k1ryd2155.cloudfront.net/f/623/201/9781401201623.OL.0.m.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 0.00040343403816223145,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Will Eisner Graphic Novel Grants for Libraries",
+     "imageUrl": "https://americanlibrariesmagazine.org/wp-content/uploads/2018/10/willeisnergrants.jpg",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": 7.538712088717148e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
     }
    ],
    "samples": [
-    "Odd Fact Newspaper Strip By Will Eisner - 8-4-1975 Comic Art",
-    "C\u00f3mics 26 -- The Spirit by Will Eisner",
     "The Spirit by Will Eisner",
-    "Odd Fact Newspaper Strip By Will Eisner - 8-30-1975 Comic Art",
-    "will eisner jack katz graphic novel comics",
     "Odd Fact Newspaper Strip By Will Eisner - 7-1-1976",
     "Art by Will Eisner - The Spirit - Run Mac, Run",
-    "The Spirit by Will Eisner",
-    "The Spirit Comic Book Section Dallas Moring News June 15 1941",
-    "Noirish Spirit cover by Will Eisner"
+    "Odd Fact Newspaper Strip By Will Eisner - 8-30-1975 Comic Art",
+    "Odd Fact Newspaper Strip By Will Eisner - 8-4-1975 Comic Art",
+    "C\u00f3mics 26 -- The Spirit by Will Eisner",
+    "Eisner/Miller by Will Eisner",
+    "Autobiographix (Second Edition) by Will Eisner, William Stout, Gabriel Ba, Fabio Moon and Stan Sakai",
+    "Will Eisner Sunday Comics, The Spirit, 090140",
+    "The Spirit by Will Eisner"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3888,8 +3804,100 @@
    "thirdPartyCount": 153,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 186,
-   "rows": [],
-   "samples": [],
+   "rows": [
+    {
+     "text": "With its attention to horror, human drama and, most importantly, craft, Robert Kirkman's comic book The Walking Dead harkens to the brilliance of George Romero's locally produced 1968 classic, Night of the Living Dead. Like people who presumed that story to be just another monster movie, those who p",
+     "imageUrl": "https://www.pghcitypaper.com/pittsburgh/dead-again/Content?oid=1337671",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The bestselling, mind-blowing graphic history of our favorite medium continues - with the long birth of the Graphic Novel, spanning from1835 Switzerland to the USA today! How French and Belgian comics broke away from the American tradition - and inspired Heavy Metal and a sci-fi comics revolution! S",
+     "imageUrl": "http://www.bookgn.com/17683-comic-book-history-of-comics-v2-1-2-2017-2018.html",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Below is a selection of the best comic Books and DVDs.\nThe books and dvds can be purchased by clicking on the \u201cCheck Price and Buy It\u201d link below the review. Purchase is in association with Amazon so you can be sure of secure online payment and fast delivery.\nWith the release of the new Superman, an",
+     "imageUrl": "http://www.comic.ukwebad.com/comicbooks.htm",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Comic-Con International: San Diego  began in 1970 when a group of comics, movie, and science fiction fans -- including the late Shel Dorf,  Ken Krueger,  and Richard Alf  -- banded together to put on the first comic book convention in southern California. Comic-Con started as a one-day \u201cminicon,\u201d ca",
+     "imageUrl": "https://www.comic-con.org/print/17",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This right here, folks, is your guide to the Jewish highlights of San Diego Comic-Con 2017.\nBut we doubt anything will live up to the beautifully titled \u201cA Bunch of Jews (A Minyen Yidn),\u201d during which a panel will reflect on the recently-released graphic novel of the same name.\nRead on for more info",
+     "imageUrl": "https://forward.com/schmooze/377271/san-diego-comic-con-jews-gal-gadot/",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "For those of you who haven\u2019t heard of him, Stan is a comic book writer, editor, publisher, media producer, and former president and chairman of Marvel Comics.\nIn collaboration with several artists, most notably Jack Kirby and Steve Ditko, Stan co-created Spider-Man, the Hulk, the X-Men, the Fantasti",
+     "imageUrl": "http://anaalexander.com/2013/04/01/stan-lee/",
+     "keyword": "will eisner",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    }
+   ],
+   "samples": [
+    "With its attention to horror, human drama and, most importantly, craft, Robert Kirkman's comic book The Walking Dead harkens to the brilliance of George Romero's locally produced 1968 classic, Night of the Living Dead. Like people who presumed that story to be just another monster movie, those who p",
+    "The bestselling, mind-blowing graphic history of our favorite medium continues - with the long birth of the Graphic Novel, spanning from1835 Switzerland to the USA today! How French and Belgian comics broke away from the American tradition - and inspired Heavy Metal and a sci-fi comics revolution! S",
+    "Below is a selection of the best comic Books and DVDs.\nThe books and dvds can be purchased by clicking on the \u201cCheck Price and Buy It\u201d link below the review. Purchase is in association with Amazon so you can be sure of secure online payment and fast delivery.\nWith the release of the new Superman, an",
+    "Comic-Con International: San Diego  began in 1970 when a group of comics, movie, and science fiction fans -- including the late Shel Dorf,  Ken Krueger,  and Richard Alf  -- banded together to put on the first comic book convention in southern California. Comic-Con started as a one-day \u201cminicon,\u201d ca",
+    "This right here, folks, is your guide to the Jewish highlights of San Diego Comic-Con 2017.\nBut we doubt anything will live up to the beautifully titled \u201cA Bunch of Jews (A Minyen Yidn),\u201d during which a panel will reflect on the recently-released graphic novel of the same name.\nRead on for more info",
+    "For those of you who haven\u2019t heard of him, Stan is a comic book writer, editor, publisher, media producer, and former president and chairman of Marvel Comics.\nIn collaboration with several artists, most notably Jack Kirby and Steve Ditko, Stan co-created Spider-Man, the Hulk, the X-Men, the Fantasti"
+   ],
    "partial": false,
    "shardsScanned": 10,
    "shardsTotal": 10
@@ -3919,12 +3927,12 @@
     "longformHits": 736,
     "longformRatio": 0.624,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 16,
-     "laion2b-en": 427,
      "laion1b-nolang": 1,
+     "laion2b-en": 427,
      "obelics": 734,
-     "pile": 1,
-     "c4-en": 1
+     "pile": 1
     },
     "reason": null
    },
@@ -3937,9 +3945,9 @@
     "longformRatio": 0.257,
     "perDataset": {
      "coyo700m": 34,
+     "laion1b-nolang": 19,
      "laion2b-en": 48,
      "laion2b-multi": 3,
-     "laion1b-nolang": 19,
      "obelics": 36
     },
     "reason": null
@@ -3952,8 +3960,8 @@
     "longformHits": 15,
     "longformRatio": 0.6,
     "perDataset": {
-     "laion2b-en": 7,
      "laion1b-nolang": 3,
+     "laion2b-en": 7,
      "obelics": 15
     },
     "reason": null
@@ -3966,13 +3974,13 @@
     "longformHits": 7222,
     "longformRatio": 0.389,
     "perDataset": {
+     "c4-en": 32,
      "coyo700m": 1637,
      "laion1b-nolang": 1814,
      "laion2b-en": 5990,
      "laion2b-multi": 1882,
      "obelics": 7169,
-     "pile": 21,
-     "c4-en": 32
+     "pile": 21
     },
     "reason": null
    },
@@ -3984,13 +3992,13 @@
     "longformHits": 15703,
     "longformRatio": 0.528,
     "perDataset": {
+     "c4-en": 153,
      "coyo700m": 4539,
      "laion1b-nolang": 1709,
      "laion2b-en": 6868,
      "laion2b-multi": 931,
      "obelics": 15508,
-     "pile": 42,
-     "c4-en": 153
+     "pile": 42
     },
     "reason": "documented collision"
    },
@@ -4003,9 +4011,9 @@
     "longformRatio": 0.925,
     "perDataset": {
      "coyo700m": 1,
+     "laion1b-nolang": 7,
      "laion2b-en": 13,
      "laion2b-multi": 2,
-     "laion1b-nolang": 7,
      "obelics": 281,
      "pile": 2
     },
@@ -4023,14 +4031,14 @@
   },
   "evidenceShown": 200,
   "evidenceWithheld": {
-   "unverified": 1789,
-   "unrelated": 65,
-   "person_photo": 171,
-   "merchandise": 8,
-   "storefront": 26,
-   "derivative": 3
+   "unverified": 1420,
+   "person_photo": 158,
+   "storefront": 36,
+   "unrelated": 56,
+   "merchandise": 6,
+   "derivative": 4
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-will-eisner",
  "cohort": "billy-ireland",
@@ -4043,7 +4051,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 19890,
   "datasetsPresent": 7,

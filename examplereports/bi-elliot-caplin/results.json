@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -850,28 +872,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -1011,7 +1011,7 @@
    "totalIncludingLowConfidence": 933,
    "rows": [
     {
-     "text": "John Cullen Murphy - Born May 3, 1919 in New York City, New York \u2013 Died July 2, 2004 in Cos Cob, Connecticut was an American illustrator best known for his three decades of work on the Prince Valiant comic strip.\n\nMurphy started art classes at the age of 9, but aspired to be a baseball player. He wa",
+     "text": "THE HEART OF JULIET JONES was a classic love melodrama strip, or soap opera, if you like. This had been a staple genre for strips as far back as when continuities started to flourish in the 1920\u2019s, but Drake\u2019s strip (written by Elliot Caplin) was right up to date.\n\nThe story centers around Juliet, a",
      "imageUrl": null,
      "keyword": "elliot caplin",
      "tier": "namematch",
@@ -1025,7 +1025,7 @@
      }
     },
     {
-     "text": "THE HEART OF JULIET JONES was a classic love melodrama strip, or soap opera, if you like. This had been a staple genre for strips as far back as when continuities started to flourish in the 1920\u2019s, but Drake\u2019s strip (written by Elliot Caplin) was right up to date.\n\nThe story centers around Juliet, a",
+     "text": "John Cullen Murphy - Born May 3, 1919 in New York City, New York \u2013 Died July 2, 2004 in Cos Cob, Connecticut was an American illustrator best known for his three decades of work on the Prince Valiant comic strip.\n\nMurphy started art classes at the age of 9, but aspired to be a baseball player. He wa",
      "imageUrl": null,
      "keyword": "elliot caplin",
      "tier": "namematch",
@@ -1137,7 +1137,7 @@
      }
     },
     {
-     "text": "#\nMAY100966\n(W) Elliot Caplin (A/CA) John Cullen Murphy\nPresenting the first volume in a planned reprinting of the complete run of John Cullen Murphy's classic American comic strip Big Ben Bolt, written by Elliot Caplan. The debut volume will feature dailies from the comic strip's start February 20,",
+     "text": "Distributed to 350 newspapers worldwide by King Features Syndicate, Prince Valiant chronicles the travails of King Arthur, Camelot and the Knights of the Round Table. It is the best of the illustrated adventure strips to emerge from the Golden Age and is considered to be fine art by collectors and c",
      "imageUrl": null,
      "keyword": "elliot caplin",
      "tier": "namematch",
@@ -1151,7 +1151,7 @@
      }
     },
     {
-     "text": "Distributed to 350 newspapers worldwide by King Features Syndicate, Prince Valiant chronicles the travails of King Arthur, Camelot and the Knights of the Round Table. It is the best of the illustrated adventure strips to emerge from the Golden Age and is considered to be fine art by collectors and c",
+     "text": "#\nMAY100966\n(W) Elliot Caplin (A/CA) John Cullen Murphy\nPresenting the first volume in a planned reprinting of the complete run of John Cullen Murphy's classic American comic strip Big Ben Bolt, written by Elliot Caplan. The debut volume will feature dailies from the comic strip's start February 20,",
      "imageUrl": null,
      "keyword": "elliot caplin",
      "tier": "namematch",
@@ -1180,8 +1180,8 @@
     }
    ],
    "samples": [
-    "John Cullen Murphy - Born May 3, 1919 in New York City, New York \u2013 Died July 2, 2004 in Cos Cob, Connecticut was an American illustrator best known for his three decades of work on the Prince Valiant comic strip.\n\nMurphy started art classes at the age of 9, but aspired to be a baseball player. He wa",
     "THE HEART OF JULIET JONES was a classic love melodrama strip, or soap opera, if you like. This had been a staple genre for strips as far back as when continuities started to flourish in the 1920\u2019s, but Drake\u2019s strip (written by Elliot Caplin) was right up to date.\n\nThe story centers around Juliet, a",
+    "John Cullen Murphy - Born May 3, 1919 in New York City, New York \u2013 Died July 2, 2004 in Cos Cob, Connecticut was an American illustrator best known for his three decades of work on the Prince Valiant comic strip.\n\nMurphy started art classes at the age of 9, but aspired to be a baseball player. He wa",
     "You can look for a while to find this Iconic Annie periodic comic book, i see many on the Internet, but not really in this fine condition.\nI found this little book at my local thrift shop on Monday, on the right corner of the book when you flip the pages on your finger Annie move very nicely and bec",
     "With its first appearance on March 14, 1971, Dark Shadows, had a daily and Sunday feature based on the popular Dan Curtis ABC television soap opera. Created by the Newspaper Enterprise Association, it was written by Elliot Caplin and drawn by artist Ken Bald, under the pen name K. Bruce due to confl",
     "Big Ben Bolt is a comic strip that was syndicated from February 20, 1950 to April 15, 1978.[1] It was drawn by John Cullen Murphy, written by Elliot Caplin, and distributed by King Features Syndicate. The strip followed the adventures of boxer and journalist Ben Bolt.[2][3]",
@@ -1189,7 +1189,7 @@
     "Although it certainly qualifies as an obscurity today, Uncle George Washington Bings was one of the headliner acts in the C.J. Hirt version of the McClure Sunday comic section for almost three and a half years. H.C. Greening produced this well-drawn and entertaining strip from September 25 1904 to J",
     "Long Sam was an American comic strip created by Al Capp\nAl Capp\nAlfred Gerald Caplin , better known as Al Capp, was an American cartoonist and humorist best known for the satirical comic strip Li'l Abner. He also wrote the comic strips Abbie an' Slats and Long Sam...\n, writer-artist of Li'l Abner\nLi",
     "Cartoonist Al Capp was an admirer of Dr. King and his studio produced Martin Luther King and the Montgomery Story at no charge. The comic was co-written by Hassler and Benton Resnik, and drawn by an uncredited artist.  The artist has since been confirmed to be Sy Barry. Sy was given the job by the C",
-    "#\nMAY100966\n(W) Elliot Caplin (A/CA) John Cullen Murphy\nPresenting the first volume in a planned reprinting of the complete run of John Cullen Murphy's classic American comic strip Big Ben Bolt, written by Elliot Caplan. The debut volume will feature dailies from the comic strip's start February 20,"
+    "Distributed to 350 newspapers worldwide by King Features Syndicate, Prince Valiant chronicles the travails of King Arthur, Camelot and the Knights of the Round Table. It is the best of the illustrated adventure strips to emerge from the Golden Age and is considered to be fine art by collectors and c"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -1265,9 +1265,9 @@
     "longformRatio": 0.861,
     "perDataset": {
      "coyo700m": 1,
+     "laion1b-nolang": 1,
      "laion2b-en": 1,
      "laion2b-multi": 2,
-     "laion1b-nolang": 1,
      "obelics": 31
     },
     "reason": null
@@ -1280,13 +1280,13 @@
     "longformHits": 762,
     "longformRatio": 0.218,
     "perDataset": {
+     "c4-en": 6,
      "coyo700m": 211,
      "laion1b-nolang": 801,
      "laion2b-en": 1139,
      "laion2b-multi": 579,
      "obelics": 752,
-     "pile": 4,
-     "c4-en": 6
+     "pile": 4
     },
     "reason": "mass-market franchise, not this subject's own work"
    },
@@ -1299,9 +1299,9 @@
     "longformRatio": 0.226,
     "perDataset": {
      "coyo700m": 2,
+     "laion1b-nolang": 50,
      "laion2b-en": 63,
      "laion2b-multi": 135,
-     "laion1b-nolang": 50,
      "obelics": 73
     },
     "reason": "mass-market franchise, not this subject's own work"
@@ -1315,10 +1315,10 @@
     "longformRatio": 0.636,
     "perDataset": {
      "coyo700m": 3,
+     "laion1b-nolang": 9,
      "laion2b-en": 19,
      "laion2b-multi": 13,
-     "obelics": 77,
-     "laion1b-nolang": 9
+     "obelics": 77
     },
     "reason": "mass-market franchise, not this subject's own work"
    }
@@ -1338,7 +1338,7 @@
    "unverified": 18,
    "storefront": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-elliot-caplin",
  "cohort": "billy-ireland",
@@ -1351,7 +1351,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 36,
   "datasetsPresent": 5,

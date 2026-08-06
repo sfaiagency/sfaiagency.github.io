@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -900,48 +900,6 @@
     {
      "text": "Image by Stephanie McMillan",
      "imageUrl": "https://i0.wp.com/chapters.deepgreenresistance.org/southwestcoalition/wp-content/uploads/sites/10/2014/05/mn140407.gif?resize=490%2C582",
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Minimum Security Chronicles by Stephanie McMillan",
-     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9781609805111",
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Break the Chains by Stephanie McMillan",
-     "imageUrl": "https://monthlyreview.org/wp-content/uploads/2019/07/coloring-may-day-1200-wide-300x300.jpg",
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Image Credit: Stephanie McMillan",
-     "imageUrl": "https://i2.wp.com/www.planetexperts.com/wp-content/uploads/2015/02/Picture-12.png?resize=300%2C219",
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
      "punsafe": null,
@@ -998,6 +956,48 @@
     {
      "text": "Drawing by Stephanie McMillan",
      "imageUrl": "https://i0.wp.com/climateandcapitalism.com/wp-content/uploads/2013/12/Devouring-Earth.jpg?resize=418%2C516&ssl=1",
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Minimum Security Chronicles by Stephanie McMillan",
+     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9781609805111",
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Break the Chains by Stephanie McMillan",
+     "imageUrl": "https://monthlyreview.org/wp-content/uploads/2019/07/coloring-may-day-1200-wide-300x300.jpg",
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Image Credit: Stephanie McMillan",
+     "imageUrl": "https://i2.wp.com/www.planetexperts.com/wp-content/uploads/2015/02/Picture-12.png?resize=300%2C219",
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
      "punsafe": null,
@@ -1068,13 +1068,13 @@
    ],
    "samples": [
     "Image by Stephanie McMillan",
-    "The Minimum Security Chronicles by Stephanie McMillan",
-    "Break the Chains by Stephanie McMillan",
-    "Image Credit: Stephanie McMillan",
     "Image Credit: Stephanie McMillan",
     "Page from \"As the World Burns: 50 Simple Things You Can Do to Stay in Denial-A Graphic Novel\" by errick Jensen, Stephanie McMillan, Seven Stories Press, 2011.",
     "The Owner Finally Agreed to the Workers\u2019 Demands by Stephanie McMillan",
     "Drawing by Stephanie McMillan",
+    "The Minimum Security Chronicles by Stephanie McMillan",
+    "Break the Chains by Stephanie McMillan",
+    "Image Credit: Stephanie McMillan",
     "The Beginning of the American Fall by Stephanie McMillan",
     "Stephanie McMillan, award-winning journalist and political cartoonist, elaborated on everything wrong with capitalists in a slideshow presentation featuring the colorful commentary in her political cartoons. Michael Erazo/The Sundial."
    ],
@@ -1172,20 +1172,6 @@
      }
     },
     {
-     "text": "Courage by Stephanie McMillan",
-     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/courage-stephanie-mcmillan.jpg",
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": 2.6427680495544337e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Minimum Security Chronicles by Stephanie McMillan",
      "imageUrl": "http://images.randomhouse.com/cover/9781609805111",
      "keyword": "stephanie mcmillan",
@@ -1200,11 +1186,11 @@
      }
     },
     {
-     "text": "\"\"\"Code Green\"\" - editorial cartoons by Stephanie McMillan\"",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1775/1969/products/2009-08-03-outside_160x.jpg?v=1575891691",
+     "text": "Courage by Stephanie McMillan",
+     "imageUrl": "https://render.fineartamerica.com/images/images-profile-flow/350/images/artworkimages/medium/1/courage-stephanie-mcmillan.jpg",
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
-     "punsafe": 0.0001455843448638916,
+     "punsafe": 2.6427680495544337e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1233,6 +1219,20 @@
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
      "punsafe": 7.645980076631531e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Code Green\"\" - editorial cartoons by Stephanie McMillan\"",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/1775/1969/products/2009-08-03-outside_160x.jpg?v=1575891691",
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": 0.0001455843448638916,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1397,20 +1397,6 @@
     },
     {
      "text": "The Minimum Security Chronicles by Stephanie McMillan",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9781609805111",
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": 7.645980076631531e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Minimum Security Chronicles by Stephanie McMillan",
      "imageUrl": "http://images.penguinrandomhouse.com/cover/9781609805111",
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
@@ -1424,25 +1410,11 @@
      }
     },
     {
-     "text": "The Beginning of the American Fall by Stephanie McMillan",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9781609804534",
+     "text": "The Minimum Security Chronicles by Stephanie McMillan",
+     "imageUrl": "https://images.penguinrandomhouse.com/cover/9781609805111",
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
-     "punsafe": 0.00010791674867505208,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Minimum Security Chronicles - Resistance to Ecocide ebook by Stephanie McMillan",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/7c441663-980f-4c39-81fe-0515a15770fa/180/1000/False/The+Minimum+Security+Chronicles.jpg",
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": 6.953284173505381e-05,
+     "punsafe": 7.645980076631531e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1466,11 +1438,25 @@
      }
     },
     {
-     "text": "As the World Burns - 50 Simple Things You Can Do to Stay in Denial-A Graphic Novel ebook by Derrick Jensen,Stephanie McMillan",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/d43b4ba4-e671-46e9-8262-3cbbca945bc0/180/1000/False/as-the-world-burns.jpg",
+     "text": "The Minimum Security Chronicles - Resistance to Ecocide ebook by Stephanie McMillan",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/7c441663-980f-4c39-81fe-0515a15770fa/180/1000/False/The+Minimum+Security+Chronicles.jpg",
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
-     "punsafe": 0.0014613568782806396,
+     "punsafe": 6.953284173505381e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "The Beginning of the American Fall by Stephanie McMillan",
+     "imageUrl": "http://images.penguinrandomhouse.com/cover/9781609804534",
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": 0.00010791674867505208,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1485,6 +1471,20 @@
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
      "punsafe": 0.0002594292163848877,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "As the World Burns - 50 Simple Things You Can Do to Stay in Denial-A Graphic Novel ebook by Derrick Jensen,Stephanie McMillan",
+     "imageUrl": "https://kbimages1-a.akamaihd.net/d43b4ba4-e671-46e9-8262-3cbbca945bc0/180/1000/False/as-the-world-burns.jpg",
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": 0.0014613568782806396,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1570,11 +1570,11 @@
     "The Minimum Security Chronicles Book By Stephanie Mcmillan",
     "The Beginning of the American Fall by Stephanie McMillan",
     "The Beginning of the American Fall by Stephanie McMillan",
-    "Courage by Stephanie McMillan",
     "The Minimum Security Chronicles by Stephanie McMillan",
+    "Courage by Stephanie McMillan",
     "\"\"\"Code Green\"\" - editorial cartoons by Stephanie McMillan\"",
-    "\"\"\"Code Green\"\" - editorial cartoons by Stephanie McMillan\"",
-    "The Minimum Security Chronicles by Stephanie McMillan"
+    "The Minimum Security Chronicles by Stephanie McMillan",
+    "\"\"\"Code Green\"\" - editorial cartoons by Stephanie McMillan\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1742,20 +1742,6 @@
    "totalIncludingLowConfidence": 1057,
    "rows": [
     {
-     "text": "Other books by Stephanie McMillan",
-     "imageUrl": null,
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "As the World Burns\n\nBy DERRICK JENSEN and STEPHANIE MCMILLAN\n\nTwo of America\u2019s most talented activists team up to deliver a bold and hilarious satire of modern environmental policy in this fully illustrated graphic novel. The U.S. government gives robot machines from space permission to eat the eart",
      "imageUrl": null,
      "keyword": "stephanie mcmillan",
@@ -1770,7 +1756,35 @@
      }
     },
     {
+     "text": "Other books by Stephanie McMillan",
+     "imageUrl": null,
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
      "text": "Stephanie McMillan, award-winning journalist and political cartoonist, elaborated on everything wrong with capitalists in a slideshow presentation featuring the colorful commentary in her political cartoons. Michael Erazo/The Sundial.\n\nThe Cal State Northridge Institute for Sustainability on Tuesday",
+     "imageUrl": null,
+     "keyword": "stephanie mcmillan",
+     "tier": "namematch",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "As The World Burns : 50 Things You Can Do to Stay in Denial\n\nTwo of America's most talented activists team up to deliver a bold and hilarious satire of modern environmental policy in this fully illustrated graphic novel. The U.S. government gives robot machines from space permission to eat the earth",
      "imageUrl": null,
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
@@ -1799,20 +1813,6 @@
     },
     {
      "text": "When I was in University, I went on a delirious late-night rant about climate change one night in which I made a number of dramatic and outlandish claims about overpopulation and our disposable culture. This caused my roommate to lend me her copy of a graphic novel called \u201cAs the World Burns: 50 Sim",
-     "imageUrl": null,
-     "keyword": "stephanie mcmillan",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "As The World Burns : 50 Things You Can Do to Stay in Denial\n\nTwo of America's most talented activists team up to deliver a bold and hilarious satire of modern environmental policy in this fully illustrated graphic novel. The U.S. government gives robot machines from space permission to eat the earth",
      "imageUrl": null,
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
@@ -1868,7 +1868,7 @@
      }
     },
     {
-     "text": "The Beginning of the American Fall by Stephanie McMillan (2012). This insider\u2019s account of the Occupy movement flips the script on the American Dream, and adds a bunch of illustrations. It\u2019s a landmark of comics journalism that points to the joy found in activism and resistance. How does it fit with",
+     "text": "Stephanie McMillan self-syndicates the editorial cartoon \"Code Green,\" which focuses exclusively on topics related to the environmental crisis. Her comics journalism piece about the Occupy protests, \"The Beginning of the American Fall\" was originally commissioned by the Cartoon Movement, and will be",
      "imageUrl": null,
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
@@ -1882,7 +1882,7 @@
      }
     },
     {
-     "text": "Stephanie McMillan self-syndicates the editorial cartoon \"Code Green,\" which focuses exclusively on topics related to the environmental crisis. Her comics journalism piece about the Occupy protests, \"The Beginning of the American Fall\" was originally commissioned by the Cartoon Movement, and will be",
+     "text": "The Beginning of the American Fall by Stephanie McMillan (2012). This insider\u2019s account of the Occupy movement flips the script on the American Dream, and adds a bunch of illustrations. It\u2019s a landmark of comics journalism that points to the joy found in activism and resistance. How does it fit with",
      "imageUrl": null,
      "keyword": "stephanie mcmillan",
      "tier": "namematch",
@@ -1925,16 +1925,16 @@
     }
    ],
    "samples": [
-    "Other books by Stephanie McMillan",
     "As the World Burns\n\nBy DERRICK JENSEN and STEPHANIE MCMILLAN\n\nTwo of America\u2019s most talented activists team up to deliver a bold and hilarious satire of modern environmental policy in this fully illustrated graphic novel. The U.S. government gives robot machines from space permission to eat the eart",
+    "Other books by Stephanie McMillan",
     "Stephanie McMillan, award-winning journalist and political cartoonist, elaborated on everything wrong with capitalists in a slideshow presentation featuring the colorful commentary in her political cartoons. Michael Erazo/The Sundial.\n\nThe Cal State Northridge Institute for Sustainability on Tuesday",
+    "As The World Burns : 50 Things You Can Do to Stay in Denial\n\nTwo of America's most talented activists team up to deliver a bold and hilarious satire of modern environmental policy in this fully illustrated graphic novel. The U.S. government gives robot machines from space permission to eat the earth",
     "by Derrick Jensen and Stephanie McMillan\n\nAs the World Burns: 50 Simple Things You Can Do to Stay in Denial: A Graphic Novel",
     "When I was in University, I went on a delirious late-night rant about climate change one night in which I made a number of dramatic and outlandish claims about overpopulation and our disposable culture. This caused my roommate to lend me her copy of a graphic novel called \u201cAs the World Burns: 50 Sim",
-    "As The World Burns : 50 Things You Can Do to Stay in Denial\n\nTwo of America's most talented activists team up to deliver a bold and hilarious satire of modern environmental policy in this fully illustrated graphic novel. The U.S. government gives robot machines from space permission to eat the earth",
     "Editorial cartoons reveal truths about current events and politics while making the reader laugh, usually in bitter recognition. The form \u2013 an image in a box, with or without a bit of text \u2013 forces the message to be pared down to its minimal essence. When done well, a cartoon reaches the reader\u2019s co",
     "Every time a political cartoon gets a tremendous response, be it praise or death threats, editorial cartoonists feel vindicated about the inherent power of their medium, which is sometimes trivialized or ignored in favor of more \"serious\" commentary. With the latest controversy over cartoons in Char",
     "Also the graphic novel, As The World Burns, by Derrick Jensen and Illustrated by Stephanie McMillan, was a quite satisfying Earth Day week read.",
-    "The Beginning of the American Fall by Stephanie McMillan (2012). This insider\u2019s account of the Occupy movement flips the script on the American Dream, and adds a bunch of illustrations. It\u2019s a landmark of comics journalism that points to the joy found in activism and resistance. How does it fit with"
+    "Stephanie McMillan self-syndicates the editorial cartoon \"Code Green,\" which focuses exclusively on topics related to the environmental crisis. Her comics journalism piece about the Occupy protests, \"The Beginning of the American Fall\" was originally commissioned by the Cartoon Movement, and will be"
    ],
    "partial": false,
    "shardsScanned": 1432,
@@ -2008,9 +2008,9 @@
     "longformRatio": 0.467,
     "perDataset": {
      "coyo700m": 19,
+     "laion1b-nolang": 25,
      "laion2b-en": 62,
      "laion2b-multi": 14,
-     "laion1b-nolang": 25,
      "obelics": 104,
      "pile": 1
     },
@@ -2024,13 +2024,13 @@
     "longformHits": 956,
     "longformRatio": 0.627,
     "perDataset": {
+     "c4-en": 1,
      "coyo700m": 167,
      "laion1b-nolang": 27,
      "laion2b-en": 349,
      "laion2b-multi": 25,
      "obelics": 953,
-     "pile": 2,
-     "c4-en": 1
+     "pile": 2
     },
     "reason": "common English idiom that is also a strip title"
    }
@@ -2046,12 +2046,12 @@
   },
   "evidenceShown": 64,
   "evidenceWithheld": {
-   "person_photo": 44,
+   "person_photo": 43,
    "unverified": 106,
-   "unrelated": 3,
-   "storefront": 2
+   "storefront": 3,
+   "unrelated": 3
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "bi-stephanie-mcmillan",
  "cohort": "billy-ireland",
@@ -2064,7 +2064,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 225,
   "datasetsPresent": 6,

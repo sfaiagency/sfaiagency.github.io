@@ -15,8 +15,8 @@
    "coverageComplete": true,
    "rowsCovered": 747017344,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 35,
+   "highConfidenceCount": 35,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 708,
    "totalIncludingLowConfidence": 743,
@@ -25,7 +25,7 @@
      "text": "Affirmative Action is keeping me down! by Lalo Alcaraz on JULY 2, 2015",
      "imageUrl": "https://www.alanalentin.net/wp-content/uploads/laloaffirmative2003-300x228.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -39,7 +39,7 @@
      "text": "The Impeachment Evidence is Clear by Lalo Alcaraz @laloalcaraz",
      "imageUrl": "https://i0.wp.com/cartoonstate.com/wp-content/uploads/2021/02/The-Impeachment-Evidence-is-Clear-by-Lalo-Alcaraz-@laloalcaraz.jpeg?resize=678%2C592&ssl=1",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -71,18 +71,18 @@
    "coverageComplete": true,
    "rowsCovered": 2097690752,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 159,
+   "highConfidenceCount": 159,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 3469,
    "totalIncludingLowConfidence": 3628,
    "rows": [
     {
-     "text": "Migra Mouse by Lalo Alcaraz, 9780971920620.",
-     "imageUrl": "https://bazarek.gallery/607135/21067/8428592/250_1305659810568d2a21b5fd5.jpg",
+     "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
+     "imageUrl": "http://a.abcnews.com/images/ABC_Univision/honordud_16x9_992.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": 0.0009384453296661377,
+     "tier": "high",
+     "punsafe": 0.00033089518547058105,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -92,11 +92,11 @@
      }
     },
     {
-     "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
-     "imageUrl": "http://a.abcnews.com/images/ABC_Univision/honordud_16x9_992.jpg",
+     "text": "Migra Mouse by Lalo Alcaraz, 9780971920620.",
+     "imageUrl": "https://bazarek.gallery/607135/21067/8428592/250_1305659810568d2a21b5fd5.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": 0.00033089518547058105,
+     "tier": "high",
+     "punsafe": 0.0009384453296661377,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -109,7 +109,7 @@
      "text": "The OC Weekly's May 5 cover (Illustration by Lalo Alcaraz, Design by Dustin Ames/OC Weekly)",
      "imageUrl": "https://i0.wp.com/2d0yaz2jiom3c6vy7e7e5svk.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/a9-297x345.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002346634864807129,
      "validation": {
       "category": "artwork",
@@ -123,8 +123,22 @@
      "text": "The OC Weekly's May 5 cover (Illustration by Lalo Alcaraz, Design by Dustin Ames/OC Weekly)",
      "imageUrl": "https://i2.wp.com/2d0yaz2jiom3c6vy7e7e5svk.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/a9-297x345.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002346634864807129,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
+     "imageUrl": "http://a.abcnews.com/images/ABC_Univision/honordud_33x16_992.jpg",
+     "keyword": "lalo alcaraz",
+     "tier": "high",
+     "punsafe": 0.00016120076179504395,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -137,7 +151,7 @@
      "text": "CHE - Che Guevara - by Lalo Alcaraz - United States 1997 - Vintage Print-Poster-Elysiumprints",
      "imageUrl": "https://cdn.shopify.com/s/files/1/0772/6133/products/che-che-guevara-by-lalo-alcaraz-united-states-1997-vintage-print_480x480.jpg?v=1503428161",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 4.313130830269074e-06,
      "validation": {
       "category": "artwork",
@@ -151,22 +165,8 @@
      "text": "Migra Mouse, Political Cartoons on Immigration by Lalo Alcaraz, 9780971920620.",
      "imageUrl": "https://bazarek.gallery/442946/20070/5721078/250_733702072535bb6a63ca6c.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0009384453296661377,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
-     "imageUrl": "http://a.abcnews.com/images/ABC_Univision/honordud_33x16_992.jpg",
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": 0.00016120076179504395,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -179,7 +179,7 @@
      "text": "Lalo Alcaraz, chicano cartoon artist, introduces himself at the free teen workshop where he showed his political cartoons and a sneak peek of the new cartoon show, Border Town.",
      "imageUrl": "http://multimedianewsroom.us/wp-content/uploads/2015/08/IMG_0606-150x150.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0006154179573059082,
      "validation": {
       "category": "artwork",
@@ -193,7 +193,7 @@
      "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
      "imageUrl": "https://s.abcnews.com/images/ABC_Univision/honordud_33x16_992.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00016120076179504395,
      "validation": {
       "category": "artwork",
@@ -207,7 +207,7 @@
      "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
      "imageUrl": "http://a.abcnews.com/images/ABC_Univision/honordud_33x16_1600.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001952648162841797,
      "validation": {
       "category": "artwork",
@@ -221,7 +221,7 @@
      "text": "\"Lalo Alcaraz, Mexican-American cartoonist. Most known for  'La Cucaracha\"\" comic strip.\"",
      "imageUrl": "http://multimedianewsroom.us/wp-content/uploads/2015/08/IMG_0730-150x150.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.002381056547164917,
      "validation": {
       "category": "artwork",
@@ -235,7 +235,7 @@
      "text": "Darth Chuco print by Lalo Alcaraz",
      "imageUrl": "https://cdn.shopify.com/s/files/1/1073/2478/products/Darth_Chuco_Print_grande.jpg?v=1448553166",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0019201934337615967,
      "validation": {
       "category": "artwork",
@@ -249,7 +249,7 @@
      "text": "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
      "imageUrl": "http://a.abcnews.go.com/images/ABC_Univision/honordud_33x16_1600.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001952648162841797,
      "validation": {
       "category": "artwork",
@@ -263,7 +263,7 @@
      "text": "The OC Weekly's May 5 cover (Illustration by Lalo Alcaraz, Design by Dustin Ames/OC Weekly)",
      "imageUrl": "http://2d0yaz2jiom3c6vy7e7e5svk.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/a9-297x345.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002346634864807129,
      "validation": {
       "category": "artwork",
@@ -275,13 +275,13 @@
     }
    ],
    "samples": [
-    "Migra Mouse by Lalo Alcaraz, 9780971920620.",
     "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
+    "Migra Mouse by Lalo Alcaraz, 9780971920620.",
     "The OC Weekly's May 5 cover (Illustration by Lalo Alcaraz, Design by Dustin Ames/OC Weekly)",
     "The OC Weekly's May 5 cover (Illustration by Lalo Alcaraz, Design by Dustin Ames/OC Weekly)",
+    "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
     "CHE - Che Guevara - by Lalo Alcaraz - United States 1997 - Vintage Print-Poster-Elysiumprints",
     "Migra Mouse, Political Cartoons on Immigration by Lalo Alcaraz, 9780971920620.",
-    "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
     "Lalo Alcaraz, chicano cartoon artist, introduces himself at the free teen workshop where he showed his political cartoons and a sneak peek of the new cartoon show, Border Town.",
     "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans.",
     "PHOTO: Lalo Alcaraz illustrates Native American misappropriation by Redskins fans."
@@ -303,8 +303,8 @@
    "coverageComplete": true,
    "rowsCovered": 2057910016,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 54,
+   "highConfidenceCount": 54,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 12259,
    "totalIncludingLowConfidence": 12313,
@@ -313,7 +313,7 @@
      "text": "La Cucaracha by Lalo Alcaraz",
      "imageUrl": "https://gocomics.typepad.com/.a/6a00d8341c5f3053ef01bb0887b581970d-800wi",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00637248158454895,
      "validation": {
       "category": "artwork",
@@ -327,7 +327,7 @@
      "text": "cartoon by Lalo Alcaraz",
      "imageUrl": "https://queenmephistia.files.wordpress.com/2014/01/1-honoring-you.jpg?w=300&h=233",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001315772533416748,
      "validation": {
       "category": "artwork",
@@ -341,7 +341,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=220&amp;image_width=160",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 1.2313101251493208e-05,
      "validation": {
       "category": "artwork",
@@ -355,7 +355,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=231&amp;image_width=168",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 6.1064702094881795e-06,
      "validation": {
       "category": "artwork",
@@ -369,7 +369,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=276&amp;image_width=200",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 5.9957551457046065e-06,
      "validation": {
       "category": "artwork",
@@ -383,7 +383,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=462&amp;image_width=336",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.5778837172983913e-06,
      "validation": {
       "category": "artwork",
@@ -397,7 +397,7 @@
      "text": "Marjorie Tayor Greene - Jewish Space Lasers FOREVER by Lalo Alcaraz @laloalcaraz",
      "imageUrl": "https://i1.wp.com/cartoonstate.com/wp-content/uploads/2021/02/Feb-3-Marjorie-Tayor-Greene-Jewish-Space-Lasers-FOREVER-by-Lalo-Alcaraz-@laloalcaraz.jpg?resize=678%2C736&ssl=1",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0029927492141723633,
      "validation": {
       "category": "artwork",
@@ -411,7 +411,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=275&amp;image_width=200",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.639751285954844e-06,
      "validation": {
       "category": "artwork",
@@ -425,7 +425,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.5600928640633356e-06,
      "validation": {
       "category": "artwork",
@@ -439,7 +439,7 @@
      "text": "La Cucaracha by Lalo Alcaraz - 9780740746598 Book",
      "imageUrl": "https://img.fruugo.com/product/4/06/148920064_0340_0340.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.04371967911720276,
      "validation": {
       "category": "artwork",
@@ -453,7 +453,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=550&amp;image_width=400",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 2.4926137029979145e-06,
      "validation": {
       "category": "artwork",
@@ -467,7 +467,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?amp;image_width=560",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.5600928640633356e-06,
      "validation": {
       "category": "artwork",
@@ -481,7 +481,7 @@
      "text": "\"\"\"\"\"\"\"Che\"\"\"\" by Lalo Alcaraz\"\"\"",
      "imageUrl": "https://alibi.com/image/pix_id/9638/Che-by-Lalo-Alcaraz.jpg?image_height=237&amp;image_width=172",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.192099812731612e-06,
      "validation": {
       "category": "artwork",
@@ -495,7 +495,7 @@
      "text": "Caution - CancunCruz Crossing! by Lalo Alcaraz @laloalcaraz",
      "imageUrl": "https://i2.wp.com/cartoonstate.com/wp-content/uploads/2021/02/Caution-CancunCruz-Crossing-by-Lalo-Alcaraz-@laloalcaraz.jpg?resize=678%2C546&ssl=1",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0016825199127197266,
      "validation": {
       "category": "artwork",
@@ -509,7 +509,7 @@
      "text": "Cartoon by Lalo Alcaraz",
      "imageUrl": "https://bicoastalbitchin.files.wordpress.com/2014/04/honoringyoudood.jpg?w=584",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00013592839241027832,
      "validation": {
       "category": "artwork",
@@ -549,8 +549,8 @@
    "coverageComplete": true,
    "rowsCovered": 1191320960,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 50,
+   "highConfidenceCount": 50,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 4582,
    "totalIncludingLowConfidence": 4632,
@@ -559,7 +559,7 @@
      "text": "Image: Political cartoon by Lalo Alcaraz",
      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2020_40/3417195/201002-lalo-Alcaraz-cartoon-ac-1031p.jpg",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.809167765211896e-06,
      "validation": {
       "category": "artwork",
@@ -573,7 +573,7 @@
      "text": "Una Manana Con Lalo Alcaraz/A Morning with Lalo Alcaraz tickets",
      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F171736549%2F15375396619%2F1%2Foriginal.20211021-221104?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C252%2C1080%2C540&s=af6a302fae0e85a01d2cd897cd56bf33",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0029620230197906494,
      "validation": {
       "category": "artwork",
@@ -587,7 +587,7 @@
      "text": "Cartoon By Lalo Alcaraz http://www.pocho.com/",
      "imageUrl": "https://img.huffingtonpost.com/asset/5976d84b1500002a008b36ad.jpg?ops=scalefit_820_noupscale",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.6063615880266298e-06,
      "validation": {
       "category": "artwork",
@@ -601,7 +601,7 @@
      "text": "Reuniting Families by Lalo Alcaraz @laloalcaraz",
      "imageUrl": "https://i2.wp.com/cartoonstate.com/wp-content/uploads/2021/02/Reuniting-Families-by-Lalo-Alcaraz-@laloalcaraz.jpeg?resize=678%2C436&ssl=1",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 5.7123546866932884e-05,
      "validation": {
       "category": "artwork",
@@ -615,7 +615,7 @@
      "text": "Political cartoon by Lalo Alcaraz February 15, 2017",
      "imageUrl": "https://aldianews.com/sites/default/files/styles/medium/public/articles/spla_c170214_1131.jpg?itok=DmwOKYU4",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0003052949905395508,
      "validation": {
       "category": "artwork",
@@ -629,7 +629,7 @@
      "text": "Lil Judge Lopez Print By Lalo Alcaraz Lalo Alcaraz Art Shop",
      "imageUrl": "https://cdn.shopify.com/s/files/1/1073/2478/products/lalo.sotomayor_grande.jpg?v=1448553241",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.000544816255569458,
      "validation": {
       "category": "artwork",
@@ -665,31 +665,17 @@
    "coverageComplete": true,
    "rowsCovered": 141047704,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 542,
+   "highConfidenceCount": 542,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 18334,
    "totalIncludingLowConfidence": 18876,
    "rows": [
     {
-     "text": "(This cartoon about Trump's immigration wishes is by Lalo Alcaraz at pocho.com.)\n\nDonald Trump tells us he wants to \"fix\" the problems with immigration. But his proposals will just make our immigration problems worse.\n\nHere is what Daniel Costa at the Economic Policy Institute had to say about the c",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Creator of the syndicated comic strip \"La Cucaracha,\" award-winning editorial cartoonist and acclaimed author Lalo Alcaraz made to transition to animation with his work on the tv show \"Bordertown\" and the hit movie \"COCO.\" He is currently working on the upcoming \u201cLos Casagrandes\u201d for Nickelodeon TV.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -703,7 +689,7 @@
      "text": "GoComics' and Andrews McMeel Syndication's own Lalo Alcaraz (\"La Cucaracha,\" editorial cartoons) continues to make his mark on the animation world with the October 14th debut of Nickelodeon's \"The Casagrandes.\"\n\nLalo serves as a writer and producer. You may recall that Lalo has worked on such remark",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -714,38 +700,10 @@
      }
     },
     {
-     "text": "\nWhy a Contrarian History of the United States Is Needed Now\n\nIlan Stavans is Lewis-Sebring Professor in Latin American and Latino Culture at Amherst College. He is the author of \"A Most Imperfect Union: A Contrarian History of the United States\" (Basis Books, illustrated by Lalo Alcaraz). His new b",
+     "text": "(This cartoon about Trump's immigration wishes is by Lalo Alcaraz at pocho.com.)\n\nDonald Trump tells us he wants to \"fix\" the problems with immigration. But his proposals will just make our immigration problems worse.\n\nHere is what Daniel Costa at the Economic Policy Institute had to say about the c",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Re: America's Deadly Wealth Pyramid: Eric Garner Stood His Ground and was Crushed for It (Claire O'Connor)\nSmothered Justice  --  cartoon by Rob Rogers\nRe: How Far Will Republicans Go to Destroy Democracy? And Can They Still Be Stopped? (JD Scot; Gordon Galland)\nDeja Vu All Over Again? YIKES!  --  c",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoonist Lalo Alcaraz, who created the comic strip \u201cLa Cucaracha\u201d and served as a consultant on the popular Pixar film \u201cCoco,\u201d had a singular message for students Friday during a visit to SRJC: learn to write well.|",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -759,7 +717,49 @@
      "text": "Comic-Con's lack of diversity has been called out many times. Lalo Alcaraz, creator of the first nationally-syndicated, political, Latino-themed comic strip \"La Cucaracha,\" laments that his success as a Chicano artist as well as the success of other Latino artists in the industry has come so late or",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\nWhy a Contrarian History of the United States Is Needed Now\n\nIlan Stavans is Lewis-Sebring Professor in Latin American and Latino Culture at Amherst College. He is the author of \"A Most Imperfect Union: A Contrarian History of the United States\" (Basis Books, illustrated by Lalo Alcaraz). His new b",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Re: America's Deadly Wealth Pyramid: Eric Garner Stood His Ground and was Crushed for It (Claire O'Connor)\nSmothered Justice  --  cartoon by Rob Rogers\nRe: How Far Will Republicans Go to Destroy Democracy? And Can They Still Be Stopped? (JD Scot; Gordon Galland)\nDeja Vu All Over Again? YIKES!  --  c",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoonist Lalo Alcaraz, who created the comic strip \u201cLa Cucaracha\u201d and served as a consultant on the popular Pixar film \u201cCoco,\u201d had a singular message for students Friday during a visit to SRJC: learn to write well.|",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -773,7 +773,7 @@
      "text": "Voteria board illustrated by Lalo Alcaraz.\n\nInspired by Alcaraz\u2019s \u201cVoter\u00eda,\u201d De Aztlan approached El Paso artist Rogelio Lozano and pitched him the idea to create a Voter\u00eda board. Together, they developed ideas and Lozano illustrated them.\n\n\u201cIt\u2019s the same issue: they wanted to engage more voters but",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -787,7 +787,7 @@
      "text": "This week\u2019s \u201cminorities in cartoons\u201d entry is the comic strip \u201cLa Cucaracha,\u201d written and drawn by Lalo Alcaraz.\n\nA political strip, its name is Spanish for \u201cthe cockroach.\u201d In this case, one of the main characters is a six-foot (1.8 meters) tall anthropomorphic, clothed cockroach named \u201cCuco Rocha.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -801,7 +801,7 @@
      "text": "Latino cartoonist Lalo Alcaraz (illustrator of Latino USA, A Cartoon History) presented a group of his political cartoons (5:30) during a C-SPAN discussion on race.\n\nOne of the cartoons (above) depicts a wall along what appears to be the oft-discussed Aztlan boundary (6:34).\n\nAlcaraz says the line r",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -815,7 +815,7 @@
      "text": "Dear GOP, MSM: Take Out the Trash  --  cartoon by Lalo Alcaraz\nRe: How Serious Is the Authoritarian Threat in the US? What Can We Do About It? (Arlene Geiger; Courtney Childs)\nGOP Campaign Against Social Security - Tidbits - Nov. 3 (Daniel Millstone)\nDeSantis Wins, With a Little Help From His Friend",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -829,35 +829,7 @@
      "text": "Lalo Alcaraz shows the audience one of his satirical Sunday comics",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "One of the biggest comic book conventions of the year may have just wrapped up this past weekend, but arguably one of the most important conventions will be taking place this coming weekend. The 2nd annual Texas Latino Comic Con will be held at the Latino Cultural Center in Dallas Texas July 28, 201",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Scenes from Days of the Dead in Los Angeles, 2013. Photo by Emmanuel Sandoval.\n\nI was a Chicano boy growing up Apostolic-Pentecostal in Los Angeles. I never celebrated anything remotely Catholic like the feasts of All Souls nor All Saints. \u00a1Dios nos libre! (God forbid)\u2014God keep us from anything as p",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -871,7 +843,35 @@
      "text": "Shorts 3: For the Culture: Now + Forever\n\nSuper Vaccine Vato is the new Lalo Alcaraz/Pocho Villa Productions public health hero. Stay tooned for new episodes of SVV as he takes on public health emergencies for Covidlatino.org and the ASU School of Transborder Studies.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "One of the biggest comic book conventions of the year may have just wrapped up this past weekend, but arguably one of the most important conventions will be taking place this coming weekend. The 2nd annual Texas Latino Comic Con will be held at the Latino Cultural Center in Dallas Texas July 28, 201",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Scenes from Days of the Dead in Los Angeles, 2013. Photo by Emmanuel Sandoval.\n\nI was a Chicano boy growing up Apostolic-Pentecostal in Los Angeles. I never celebrated anything remotely Catholic like the feasts of All Souls nor All Saints. \u00a1Dios nos libre! (God forbid)\u2014God keep us from anything as p",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -885,7 +885,7 @@
      "text": "\u201cA Most Imperfect Union: A Contrarian History of the United States\u201d by Ilan Stavans and illustrated by Lalo Alcaraz. (Basic)\n\nThe authors have constructed much of this book as call-and-response, with Stavans as cartoon character functioning as the storyteller and Alcaraz\u2019s character delivering cutti",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -899,7 +899,7 @@
      "text": "The tragic death of Long Beach homegirl Jenni Rivera and the school massacre in Newtown, MA inspired two editorial cartoons from POCHO Jefe-in-Chief Lalo Alcaraz this week. And then there was the guy who emailed some Photoshop experts asking for helping removing the Mexicans from his snapshot of Dis",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -913,7 +913,7 @@
      "text": "Adult Children By Stephen Beals. The Adventures of Business Cat By Tom Fonder. Agnes By Tony Cochran. AJ and Magnus By Bryan and Simon Steel. Lalo Alcaraz. Origins of the Sunday Comics By Peter Maresca. The Other Coast By Adrian Raeside. The Other End By Neil Kohney. Our Super Adventure By Sarah Gra",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -927,21 +927,7 @@
      "text": "Re: Occupy Wall Street at 10: What It Taught Us, and Why It Mattered (Jose Luis Medina)\nRe: The War on Terror Was Corrupt From the Start (Paul Buhle)\nThe U.S._Border_Patrol  --  cartoon by Lalo Alcaraz\nI'm a Teacher in America  --  Time Magazine cover\nRe: Striking Cookie Workers Refuse to Crumble (J",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Re: Judge Removes New Mexico Official From Office (Norm Littlejohn; Deborah R Kingery)\nTrump\u2019s \u2018F____ YOUR FEELINGS\u2019 faction gets the sads  --  cartoon by Lalo Alcaraz\nRe: A Justice Department Show of Force in the Mar-a-Lago Case (Peter M. Filardo; Jennifer Nouri)\nCrime in the Cities  --  cartoon by",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -955,7 +941,21 @@
      "text": "\u201cAttack of the 14 Yr. Old Black Girl\u201d by Lalo Alcaraz\n\nCampbell gave us permission to feature a few of these hugely important pieces here, and I wish I could make this volume required reading. Artists against Police Brutality should be on every bookshelf and in every school and library in America an",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Re: Judge Removes New Mexico Official From Office (Norm Littlejohn; Deborah R Kingery)\nTrump\u2019s \u2018F____ YOUR FEELINGS\u2019 faction gets the sads  --  cartoon by Lalo Alcaraz\nRe: A Justice Department Show of Force in the Mar-a-Lago Case (Peter M. Filardo; Jennifer Nouri)\nCrime in the Cities  --  cartoon by",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -969,7 +969,7 @@
      "text": "\u2013 Plans to republish and translate a lost \u201cAsterix\u201d comic, \u201cAsterix and the Golden Menhir,\u201d were revealed. Written by Rene Goscinny with artwork by Albert Uderzo, the book was originally published in 1967, but has since been out of print and was never translated. The story sees the bard Cacofonix go",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -983,7 +983,7 @@
      "text": "Above are voting rights prints by Lalo Alcaraz, possibly selected by Helena Zinkham.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -997,7 +997,7 @@
      "text": "Re: Chileans Voted for an End to Neoliberalism (Hiram Diaz)\nRace Massacres  --  cartoon by Rob Rogers\nRe: Review: Lesley Blume's \u201cFallout: The Hiroshima Cover-up and the Reporter Who Revealed It to the World\u201d (John Aldis)\nNothing to See, Nothing to Investigate  --  cartoon by Lalo Alcaraz\nRe: White ",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1011,7 +1011,7 @@
      "text": "Earlier this month, cartoonist Lalo Alcaraz became aware of the fact that the Chicago Sun-Times was no longer running his comic strip, La Cucaracha, in its funny pages.\n\nWhat ensued was a Twitter campaign to get fans to write to the newspaper asking for the comic\u2019s return, the result of which still ",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1025,7 +1025,7 @@
      "text": "From the Archives: Comic Book Characters Came to Life in San Diego\n\nSan Diego Comic-Con@Home, a free online version of the annual Comic-Con International, ends today. With COVID-19 restrictions in place, this is the first year since 1970 that the convention has not drawn pop culture and comic book f",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1039,21 +1039,7 @@
      "text": "Besides the aforementioned guests Hernandez and Alvarez the event also featured DC, Marvel, Image and Dark Horse artist Sam de la Rosa, creator of the nationally published comic strip Baldo Hector Cantu, special guest Lalo Alcaraz and fantasy themed artist Dianita Ceron. Ceron, a recipient of the Me",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Posted by William A. Nericcio at 1:49 PM No comments:\n\nBack in 2016 I was a guest blogger for Arrob@ for Duke's Latino Studies in the Global South page ... some of the stuff I...\n\nPosted by William A. Nericcio at 9:12 AM No comments:\n\nWhen the Daily Fishwrap Shrinks the Sunday Comics So Small Someth",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1067,7 +1053,21 @@
      "text": "An accomplished illustrator and Chicano artist, Alcaraz\u2019s work has been featured in numerous museums, galleries and publications around the world and on broadcast television and documentaries. Lalo\u2019s graphic novel and cartoon books include the New York Times bestseller A Most Imperfect Union; Latino",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Posted by William A. Nericcio at 1:49 PM No comments:\n\nBack in 2016 I was a guest blogger for Arrob@ for Duke's Latino Studies in the Global South page ... some of the stuff I...\n\nPosted by William A. Nericcio at 9:12 AM No comments:\n\nWhen the Daily Fishwrap Shrinks the Sunday Comics So Small Someth",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1081,7 +1081,7 @@
      "text": "Mar 26,  \u00b7 From artworks, to videos, to fan-made comic strips, fans go out of their way to show their love for icons of the pop culture. Just like anything and everything else in this world, the methods that fandoms use to show their adoration for characters and Adult . Adult Children By Stephen Bea",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1095,21 +1095,7 @@
      "text": "Which Way the Wind is Blowing  --  cartoon by Jack Ohman\nRe: \u2018Africa Is on the Frontlines but Not the Front Pages\u2019: Vanessa Nakate on Her Climate Fight (Linda Gillison)\nUSA's Morality Police  --  cartoon by Lalo Alcaraz\nRe: John Roberts\u2019s Long Game (Eleanor Roosevelt; Lorraine Suzuki)\nRe: Most US Pr",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "This past weekend the Museum of Latin American Art in Long Beach held the inaugural Southern California debut of the Latino Comics Expo. After appearing the last two years in San Francisco the founders decided to bring the Expo to comic book fans in Los Angeles. Javier Hernandez, co-founder of the e",
-     "imageUrl": null,
-     "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1123,7 +1109,21 @@
      "text": "Comic book dilemma: Tackle the coronavirus, or not?\n\nIn the 35 years that Greg Evans drew and wrote the \u201cLuann\u201d comic, he tackled many difficult subjects. Rape by date. Menstruation. Cancer.\n\nThe novel coronavirus? Evans, a San Marcos resident, observes his own form of social distancing.\n\nFor now, h",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "This past weekend the Museum of Latin American Art in Long Beach held the inaugural Southern California debut of the Latino Comics Expo. After appearing the last two years in San Francisco the founders decided to bring the Expo to comic book fans in Los Angeles. Javier Hernandez, co-founder of the e",
+     "imageUrl": null,
+     "keyword": "lalo alcaraz",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1137,7 +1137,7 @@
      "text": "July 20, 2013\u2014 -- The audience went loco en la cabeza when I posted a pic to the internets of myself holding my super coveted badge of nerdian honor: my San Diego Comic-Con badge. It's like I came out of a comic book-filled closet. I am Lalo Alcaraz, professional geek.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1151,7 +1151,7 @@
      "text": "Lalo Alcaraz, chicano cartoon artist, introduces himself at the free teen workshop where he showed his political cartoons and a sneak peek of the new cartoon show, Border Town.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1165,7 +1165,7 @@
      "text": "A Most Imperfect Union: A Contrarian History of the United States. Illustrated by Lalo Alcaraz. Lalo sold several of this comic books at the workshop for 15 dollars.",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1179,7 +1179,7 @@
      "text": "BOOYAH: A new cartoon by Jim Lujan , part of what he's calling the PREvengeance series.... This cartoon features Big Papa Booyah , a pro wrestler that also will appear in REVENGEANCE (except he's a burn out EX-wrestler in that film). This is sort of a backstory on Booyah, who he was BEFORE Revengean",
      "imageUrl": null,
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1191,13 +1191,13 @@
     }
    ],
    "samples": [
-    "(This cartoon about Trump's immigration wishes is by Lalo Alcaraz at pocho.com.)\n\nDonald Trump tells us he wants to \"fix\" the problems with immigration. But his proposals will just make our immigration problems worse.\n\nHere is what Daniel Costa at the Economic Policy Institute had to say about the c",
     "Creator of the syndicated comic strip \"La Cucaracha,\" award-winning editorial cartoonist and acclaimed author Lalo Alcaraz made to transition to animation with his work on the tv show \"Bordertown\" and the hit movie \"COCO.\" He is currently working on the upcoming \u201cLos Casagrandes\u201d for Nickelodeon TV.",
     "GoComics' and Andrews McMeel Syndication's own Lalo Alcaraz (\"La Cucaracha,\" editorial cartoons) continues to make his mark on the animation world with the October 14th debut of Nickelodeon's \"The Casagrandes.\"\n\nLalo serves as a writer and producer. You may recall that Lalo has worked on such remark",
+    "(This cartoon about Trump's immigration wishes is by Lalo Alcaraz at pocho.com.)\n\nDonald Trump tells us he wants to \"fix\" the problems with immigration. But his proposals will just make our immigration problems worse.\n\nHere is what Daniel Costa at the Economic Policy Institute had to say about the c",
+    "Comic-Con's lack of diversity has been called out many times. Lalo Alcaraz, creator of the first nationally-syndicated, political, Latino-themed comic strip \"La Cucaracha,\" laments that his success as a Chicano artist as well as the success of other Latino artists in the industry has come so late or",
     "\nWhy a Contrarian History of the United States Is Needed Now\n\nIlan Stavans is Lewis-Sebring Professor in Latin American and Latino Culture at Amherst College. He is the author of \"A Most Imperfect Union: A Contrarian History of the United States\" (Basis Books, illustrated by Lalo Alcaraz). His new b",
     "Re: America's Deadly Wealth Pyramid: Eric Garner Stood His Ground and was Crushed for It (Claire O'Connor)\nSmothered Justice  --  cartoon by Rob Rogers\nRe: How Far Will Republicans Go to Destroy Democracy? And Can They Still Be Stopped? (JD Scot; Gordon Galland)\nDeja Vu All Over Again? YIKES!  --  c",
     "Cartoonist Lalo Alcaraz, who created the comic strip \u201cLa Cucaracha\u201d and served as a consultant on the popular Pixar film \u201cCoco,\u201d had a singular message for students Friday during a visit to SRJC: learn to write well.|",
-    "Comic-Con's lack of diversity has been called out many times. Lalo Alcaraz, creator of the first nationally-syndicated, political, Latino-themed comic strip \"La Cucaracha,\" laments that his success as a Chicano artist as well as the success of other Latino artists in the industry has come so late or",
     "Voteria board illustrated by Lalo Alcaraz.\n\nInspired by Alcaraz\u2019s \u201cVoter\u00eda,\u201d De Aztlan approached El Paso artist Rogelio Lozano and pitched him the idea to create a Voter\u00eda board. Together, they developed ideas and Lozano illustrated them.\n\n\u201cIt\u2019s the same issue: they wanted to engage more voters but",
     "This week\u2019s \u201cminorities in cartoons\u201d entry is the comic strip \u201cLa Cucaracha,\u201d written and drawn by Lalo Alcaraz.\n\nA political strip, its name is Spanish for \u201cthe cockroach.\u201d In this case, one of the main characters is a six-foot (1.8 meters) tall anthropomorphic, clothed cockroach named \u201cCuco Rocha.",
     "Latino cartoonist Lalo Alcaraz (illustrator of Latino USA, A Cartoon History) presented a group of his political cartoons (5:30) during a C-SPAN discussion on race.\n\nOne of the cartoons (above) depicts a wall along what appears to be the oft-discussed Aztlan boundary (6:34).\n\nAlcaraz says the line r"
@@ -1243,8 +1243,8 @@
    "coverageComplete": false,
    "rowsCovered": 2230060,
    "coverageNote": "HF /parquet exposes only the auto-converted head of this corpus (~0.6%)",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 5,
+   "highConfidenceCount": 5,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 35,
    "totalIncludingLowConfidence": 40,
@@ -1253,7 +1253,7 @@
      "text": "To support the collection, design, editing and publishing of a book featuring political cartoons and archival materials by and about nationally-syndicated political cartoonist Lalo Alcaraz. The material will span twenty-five years of political cartoons, daily comic strips and satirical performance a",
      "imageUrl": "https://grantee.nalac.org/lalo-alcaraz",
      "keyword": "lalo alcaraz",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -1507,6 +1507,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -1520,14 +1532,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -1557,12 +1568,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -1577,17 +1588,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1627,6 +1627,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -1647,17 +1658,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -1695,17 +1695,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -1728,12 +1717,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1750,67 +1739,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -1904,45 +1838,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -2003,6 +1959,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -2047,23 +2069,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -2121,28 +2143,6 @@
    "description": "Community deployment of InternVL Chat.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   }
  ],
@@ -2358,7 +2358,7 @@
   ]
  },
  "reportName": "Lalo Alcaraz",
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "datasetSearch": {
   "mode": "exhaustive-all-shards",
   "exact": true,
@@ -2373,18 +2373,18 @@
   "keywordEvidence": [
    {
     "keyword": "lalo alcaraz",
-    "tier": "namematch",
+    "tier": "high",
     "count": 845,
     "captionHits": 298,
     "longformHits": 547,
     "longformRatio": 0.647,
     "perDataset": {
+     "c4-en": 5,
      "coyo700m": 35,
+     "laion1b-nolang": 50,
      "laion2b-en": 159,
      "laion2b-multi": 54,
-     "obelics": 542,
-     "laion1b-nolang": 50,
-     "c4-en": 5
+     "obelics": 542
     },
     "reason": null
    },
@@ -2396,13 +2396,13 @@
     "longformHits": 16951,
     "longformRatio": 0.529,
     "perDataset": {
+     "c4-en": 29,
      "coyo700m": 601,
      "laion1b-nolang": 3202,
      "laion2b-en": 2357,
      "laion2b-multi": 8962,
      "obelics": 16879,
-     "pile": 43,
-     "c4-en": 29
+     "pile": 43
     },
     "reason": "documented collision"
    },
@@ -2414,13 +2414,13 @@
     "longformHits": 1466,
     "longformRatio": 0.199,
     "perDataset": {
+     "c4-en": 6,
      "coyo700m": 107,
      "laion1b-nolang": 1380,
      "laion2b-en": 1112,
      "laion2b-multi": 3297,
      "obelics": 1455,
-     "pile": 5,
-     "c4-en": 6
+     "pile": 5
     },
     "reason": "documented collision"
    }
@@ -2429,23 +2429,23 @@
    "datasetsPresent": 6,
    "totalDatasets": 7,
    "credibleMentions": 845,
-   "highConfidenceMentions": 0,
-   "nameMatchMentions": 845,
+   "highConfidenceMentions": 845,
+   "nameMatchMentions": 0,
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 39435
   },
   "evidenceShown": 75,
   "evidenceWithheld": {
+   "unverified": 482,
    "person_photo": 206,
-   "unverified": 484,
+   "storefront": 10,
    "unrelated": 6,
    "not_flat_art": 43,
    "derivative": 5,
    "explicit": 8,
-   "merchandise": 4,
-   "storefront": 8
+   "merchandise": 4
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "lalo-alcaraz",
  "cohort": "early-adopter",

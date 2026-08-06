@@ -236,6 +236,18 @@
    ]
   },
   {
+   "name": "IDEFICS-9B",
+   "hfPath": "HuggingFaceM4/idefics-9b",
+   "isMajor": false,
+   "monthlyActiveUsers": 100000,
+   "totalDownloads": 3000000,
+   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "trainingDatasets": [
+    "laion/relaion2B-en-research-safe",
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "Kandinsky 2.2",
    "hfPath": "kandinsky-community/kandinsky-2-2-decoder",
    "isMajor": false,
@@ -249,14 +261,13 @@
    ]
   },
   {
-   "name": "IDEFICS-9B",
-   "hfPath": "HuggingFaceM4/idefics-9b",
+   "name": "IDEFICS2-8B-Base",
+   "hfPath": "HuggingFaceM4/idefics2-8b-base",
    "isMajor": false,
-   "monthlyActiveUsers": 100000,
-   "totalDownloads": 3000000,
-   "description": "9B-parameter open multimodal model by HuggingFace.",
+   "monthlyActiveUsers": 80000,
+   "totalDownloads": 2000000,
+   "description": "8B-parameter second-generation IDEFICS base model.",
    "trainingDatasets": [
-    "laion/relaion2B-en-research-safe",
     "HuggingFaceM4/OBELICS"
    ]
   },
@@ -286,12 +297,12 @@
    ]
   },
   {
-   "name": "IDEFICS2-8B-Base",
-   "hfPath": "HuggingFaceM4/idefics2-8b-base",
+   "name": "IDEFICS2-8B-Chatty",
+   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
    "isMajor": false,
-   "monthlyActiveUsers": 80000,
-   "totalDownloads": 2000000,
-   "description": "8B-parameter second-generation IDEFICS base model.",
+   "monthlyActiveUsers": 60000,
+   "totalDownloads": 1500000,
+   "description": "Chat-optimized IDEFICS2-8B variant.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -306,17 +317,6 @@
    "trainingDatasets": [
     "laion/relaion2B-multi-research-safe",
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-Chatty",
-   "hfPath": "HuggingFaceM4/idefics2-8b-chatty",
-   "isMajor": false,
-   "monthlyActiveUsers": 60000,
-   "totalDownloads": 1500000,
-   "description": "Chat-optimized IDEFICS2-8B variant.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -356,6 +356,17 @@
    ]
   },
   {
+   "name": "IDEFICS2-8B-AWQ",
+   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
+   "isMajor": false,
+   "monthlyActiveUsers": 30000,
+   "totalDownloads": 500000,
+   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "InternViT-6B-448px-V1-2",
    "hfPath": "OpenGVLab/InternViT-6B-448px-V1-2",
    "isMajor": false,
@@ -376,17 +387,6 @@
    "description": "8B-parameter CLIP model by BAAI at 448px resolution.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "IDEFICS2-8B-AWQ",
-   "hfPath": "HuggingFaceM4/idefics2-8b-AWQ",
-   "isMajor": false,
-   "monthlyActiveUsers": 30000,
-   "totalDownloads": 500000,
-   "description": "AWQ-quantized IDEFICS2-8B for efficient inference.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
    ]
   },
   {
@@ -424,17 +424,6 @@
    ]
   },
   {
-   "name": "MLCD ViT-Large-336",
-   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
-   "isMajor": false,
-   "monthlyActiveUsers": 10000,
-   "totalDownloads": 100000,
-   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
    "name": "InfiMM-Vicuna-13B",
    "hfPath": "Infi-MM/infimm-vicuna13b",
    "isMajor": false,
@@ -457,12 +446,12 @@
    ]
   },
   {
-   "name": "MLCD ViT-Base-224",
-   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
+   "name": "MLCD ViT-Large-336",
+   "hfPath": "DeepGlint-AI/mlcd-vit-large-patch14-336",
    "isMajor": false,
-   "monthlyActiveUsers": 8000,
-   "totalDownloads": 80000,
-   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
+   "monthlyActiveUsers": 10000,
+   "totalDownloads": 100000,
+   "description": "Multi-label contrastive distillation ViT-Large by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -479,67 +468,12 @@
    ]
   },
   {
-   "name": "COYO-Align B7 Base",
-   "hfPath": "kakaobrain/coyo-align-b7-base",
+   "name": "MLCD ViT-Base-224",
+   "hfPath": "DeepGlint-AI/mlcd-vit-base-patch32-224",
    "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InterDiffusion-2",
-   "hfPath": "cutycat2000/InterDiffusion-2",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Diffusion model variant trained with COYO data.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5 (quantable)",
-   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Quantization-ready InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "InternVL-Chat-V1-5-8bit",
-   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "8-bit quantized InternVL Chat V1.5.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-18B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-18B.",
-   "trainingDatasets": [
-    "kakaobrain/coyo-700m"
-   ]
-  },
-  {
-   "name": "EVA-CLIP-8B (Safetensors)",
-   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
-   "isMajor": false,
-   "monthlyActiveUsers": 5000,
-   "totalDownloads": 50000,
-   "description": "Safetensors conversion of EVA-CLIP-8B.",
+   "monthlyActiveUsers": 8000,
+   "totalDownloads": 80000,
+   "description": "Multi-label contrastive distillation ViT-Base by DeepGlint.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -633,45 +567,67 @@
    ]
   },
   {
-   "name": "InterDiffusion-3",
-   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "name": "COYO-Align B7 Base",
+   "hfPath": "kakaobrain/coyo-align-b7-base",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "Third iteration of InterDiffusion model.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "CLIP-like alignment model trained on COYO-700M by Kakao Brain.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.3B",
-   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "name": "InterDiffusion-2",
+   "hfPath": "cutycat2000/InterDiffusion-2",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.3B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Diffusion model variant trained with COYO data.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-0.6B",
-   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "name": "InternVL-Chat-V1-5 (quantable)",
+   "hfPath": "failspy/InternVL-Chat-V1-5-quantable",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "0.6B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Quantization-ready InternVL Chat V1.5.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
   },
   {
-   "name": "UniViTAR-1B",
-   "hfPath": "MM-MVR/UniViTAR-1B",
+   "name": "InternVL-Chat-V1-5-8bit",
+   "hfPath": "failspy/InternVL-Chat-V1-5-8bit",
    "isMajor": false,
-   "monthlyActiveUsers": 3000,
-   "totalDownloads": 30000,
-   "description": "1B universal vision transformer for retrieval.",
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "8-bit quantized InternVL Chat V1.5.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-18B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-18B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-18B.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "EVA-CLIP-8B (Safetensors)",
+   "hfPath": "exdysa/EVA-CLIP-8B-SAFETENSORS",
+   "isMajor": false,
+   "monthlyActiveUsers": 5000,
+   "totalDownloads": 50000,
+   "description": "Safetensors conversion of EVA-CLIP-8B.",
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
@@ -732,6 +688,72 @@
    ]
   },
   {
+   "name": "InterDiffusion-3",
+   "hfPath": "cutycat2000x/InterDiffusion-3",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "Third iteration of InterDiffusion model.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.3B",
+   "hfPath": "MM-MVR/UniViTAR-0.3B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.3B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-0.6B",
+   "hfPath": "MM-MVR/UniViTAR-0.6B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "0.6B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "UniViTAR-1B",
+   "hfPath": "MM-MVR/UniViTAR-1B",
+   "isMajor": false,
+   "monthlyActiveUsers": 3000,
+   "totalDownloads": 30000,
+   "description": "1B universal vision transformer for retrieval.",
+   "trainingDatasets": [
+    "kakaobrain/coyo-700m"
+   ]
+  },
+  {
+   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
+   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
+   "name": "areegtarek/idefics-9b-instruct-all",
+   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "isMajor": false,
+   "monthlyActiveUsers": 2000,
+   "totalDownloads": 20000,
+   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "trainingDatasets": [
+    "HuggingFaceM4/OBELICS"
+   ]
+  },
+  {
    "name": "UCDR-Net Models",
    "hfPath": "Baptlem/UCDR-Net_models",
    "isMajor": false,
@@ -776,23 +798,23 @@
    ]
   },
   {
-   "name": "IDEFICS3-8B-Llama3-3bit (MLX)",
-   "hfPath": "mlx-community/Idefics3-8B-Llama3-3bit",
+   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
+   "hfPath": "peterpeter8585/ai2",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "3-bit MLX quantization of IDEFICS3-8B-Llama3.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
   },
   {
-   "name": "areegtarek/idefics-9b-instruct-all",
-   "hfPath": "areegtarek/idefics-9b-instruct-all",
+   "name": "IDEFICS3-8B-Llama3 (saujasv)",
+   "hfPath": "saujasv/Idefics3-8B-Llama3",
    "isMajor": false,
-   "monthlyActiveUsers": 2000,
-   "totalDownloads": 20000,
-   "description": "Community fine-tune of IDEFICS-9B-Instruct.",
+   "monthlyActiveUsers": 1000,
+   "totalDownloads": 10000,
+   "description": "Community variant of IDEFICS3-8B-Llama3.",
    "trainingDatasets": [
     "HuggingFaceM4/OBELICS"
    ]
@@ -851,28 +873,6 @@
    "trainingDatasets": [
     "kakaobrain/coyo-700m"
    ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (peterpeter8585)",
-   "hfPath": "peterpeter8585/ai2",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
-  },
-  {
-   "name": "IDEFICS3-8B-Llama3 (saujasv)",
-   "hfPath": "saujasv/Idefics3-8B-Llama3",
-   "isMajor": false,
-   "monthlyActiveUsers": 1000,
-   "totalDownloads": 10000,
-   "description": "Community variant of IDEFICS3-8B-Llama3.",
-   "trainingDatasets": [
-    "HuggingFaceM4/OBELICS"
-   ]
   }
  ],
  "imageInference": null,
@@ -891,8 +891,8 @@
    "coverageComplete": true,
    "rowsCovered": 747017344,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 23,
+   "highConfidenceCount": 23,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 23,
@@ -901,21 +901,7 @@
      "text": "Cartoon by Tom Toro: \"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"",
      "imageUrl": "https://i2.wp.com/pics.me.me/Instagram-279363.png?resize=542%2C566&ssl=1",
      "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-it-s-a-congressional-election-year-you-ll-want-this-sackcloth-and-a-bottl-cartoon_u-l-pngv6h0.jpg?src=gp&w=300&h=300",
-     "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -929,7 +915,21 @@
      "text": "Premium Giclee Print: \"Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders.\" by Tom Toro New Yorker Cartoons, Caricatures, Together We Can, The New Yorker, Beautiful Moments, Popular Memes, Being Ugly, Thankful, Passion",
      "imageUrl": "https://i.pinimg.com/236x/e7/93/8f/e7938f6f92ef0ce5ada677da845a27a8.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
+     "punsafe": null,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-it-s-a-congressional-election-year-you-ll-want-this-sackcloth-and-a-bottl-cartoon_u-l-pngv6h0.jpg?src=gp&w=300&h=300",
+     "keyword": "tom toro",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -943,7 +943,7 @@
      "text": "\"Yes, the planet got destroyed, but for a beautiful moment in time we created a lot of value for shareholders\" - New Yorker Cartoon by Tom Toro Horror, By Any Means Necessary, New Yorker Cartoons, We Are The World, Political Cartoons, Political Satire, Political Issues, Beautiful Moments, Mother Ear",
      "imageUrl": "https://i.pinimg.com/236x/33/f1/97/33f19743048de9a6afe78eb839e347a8--new-yorker-cartoons-beautiful-moments.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -956,8 +956,8 @@
    ],
    "samples": [
     "Cartoon by Tom Toro: \"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"",
-    "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro",
     "Premium Giclee Print: \"Yes, the planet got destroyed. But for a beautiful moment in time we created a lot of value for shareholders.\" by Tom Toro New Yorker Cartoons, Caricatures, Together We Can, The New Yorker, Beautiful Moments, Popular Memes, Being Ugly, Thankful, Passion",
+    "\"It's a congressional election year\u2014you'll want this sackcloth and a bottl\u2026\" - Cartoon by Tom Toro",
     "\"Yes, the planet got destroyed, but for a beautiful moment in time we created a lot of value for shareholders\" - New Yorker Cartoon by Tom Toro Horror, By Any Means Necessary, New Yorker Cartoons, We Are The World, Political Cartoons, Political Satire, Political Issues, Beautiful Moments, Mother Ear"
    ],
    "partial": false,
@@ -977,129 +977,17 @@
    "coverageComplete": true,
    "rowsCovered": 2097690752,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 501,
+   "highConfidenceCount": 501,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 501,
    "rows": [
     {
-     "text": "\"\"\"I can't go much longer without your asking why I'm vegan.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6056/R29D100Z/posters/tom-toro-i-can-t-go-much-longer-without-your-asking-why-i-m-vegan-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.010046601295471191,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "grown numb to exclamation points comic strip new yorker tom toro Exclamation Points [Comic Strip]",
-     "imageUrl": "https://twistedsifter.files.wordpress.com/2012/05/grown-numb-to-exclamation-points-comic-strip-new-yorker-tom-toro.jpg?w=800&",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00040969252586364746,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Boxing Drawing - I Misunderstood The Term Pugilism! by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/i-misunderstood-the-term-pugilism-tom-tor.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.000638425350189209,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "General Drawing - General Strike by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/general-strike-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00016617774963378906,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Cartoon by Tom Toro: \"\"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"\"\"",
-     "imageUrl": "https://pics.me.me/Instagram-279363.png",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0002824068069458008,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"What sort of Valentine's Day gift says, 'I'm willing to let you believe \u2026\"\"\"\" - Cartoon by Tom Toro\"\"\"",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-what-sort-of-valentine-s-day-gift-says-i-m-willing-to-let-you-believe-cartoon_u-L-PNGVG40.jpg?src=gp&w=300&h=375",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00018724799156188965,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Drawing - A Fly Fisherman Casts Back A Reel That Forms by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-fly-fisherman-casts-back-a-reel-that-forms-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 2.3135422452469356e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/68/6877/R5EJ100Z/prints/tom-toro-good-shootin-son-i-m-pretty-sure-that-was-a-squirrel-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 9.089893865166232e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A man stands in the top half of an hourglass trying to collect handfuls an... - New Yorker Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9566/E712500Z/posters/tom-toro-a-man-stands-in-the-top-half-of-an-hourglass-trying-to-collect-handfuls-an-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.007411301136016846,
      "validation": {
       "category": "artwork",
@@ -1113,7 +1001,7 @@
      "text": "A man sitting in the park notices pirate squirrels digging for treasure.  - New Yorker Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/91/9128/JRSF500Z/posters/tom-toro-a-man-sitting-in-the-park-notices-pirate-squirrels-digging-for-treasure-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.003376483917236328,
      "validation": {
       "category": "artwork",
@@ -1127,7 +1015,7 @@
      "text": "Traveling with Child - Day 2 - Cartoon Regular Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/91/9128/VRSF500Z/posters/tom-toro-traveling-with-child-day-2-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001727670431137085,
      "validation": {
       "category": "artwork",
@@ -1138,11 +1026,67 @@
      }
     },
     {
-     "text": "\"\"\"\"\"\"\"All I did was remove his flag pin!\"\"\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"\"\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/65/6569/3Q72100Z/posters/tom-toro-all-i-did-was-remove-his-flag-pin-new-yorker-cartoon.jpg",
+     "text": "General Drawing - General Strike by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/general-strike-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.000270843505859375,
+     "tier": "high",
+     "punsafe": 0.00016617774963378906,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I can't go much longer without your asking why I'm vegan.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6056/R29D100Z/posters/tom-toro-i-can-t-go-much-longer-without-your-asking-why-i-m-vegan-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.010046601295471191,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "grown numb to exclamation points comic strip new yorker tom toro Exclamation Points [Comic Strip]",
+     "imageUrl": "https://twistedsifter.files.wordpress.com/2012/05/grown-numb-to-exclamation-points-comic-strip-new-yorker-tom-toro.jpg?w=800&",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00040969252586364746,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Boxing Drawing - I Misunderstood The Term Pugilism! by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/i-misunderstood-the-term-pugilism-tom-tor.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.000638425350189209,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/68/6877/R5EJ100Z/prints/tom-toro-good-shootin-son-i-m-pretty-sure-that-was-a-squirrel-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 9.089893865166232e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1155,8 +1099,50 @@
      "text": "An Optometrist Examines A Cowboy Canvas Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/canvas-print/black/break/images-square-real-5/an-optometrist-examines-a-cowboy-tom-toro-canvas-print.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001233739167219028,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"Cartoon by Tom Toro: \"\"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"\"\"",
+     "imageUrl": "https://pics.me.me/Instagram-279363.png",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0002824068069458008,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"What sort of Valentine's Day gift says, 'I'm willing to let you believe \u2026\"\"\"\" - Cartoon by Tom Toro\"\"\"",
+     "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-what-sort-of-valentine-s-day-gift-says-i-m-willing-to-let-you-believe-cartoon_u-L-PNGVG40.jpg?src=gp&w=300&h=375",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00018724799156188965,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Drawing - A Fly Fisherman Casts Back A Reel That Forms by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-fly-fisherman-casts-back-a-reel-that-forms-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 2.3135422452469356e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1169,7 +1155,7 @@
      "text": "Love at First Sign - Cartoon Regular Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10032/JLQW500Z/posters/tom-toro-love-at-first-sign-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0011678338050842285,
      "validation": {
       "category": "artwork",
@@ -1183,7 +1169,7 @@
      "text": "\"\"\"I've grown numb to exclamation points.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/63/6356/TS88100Z/prints/tom-toro-i-ve-grown-numb-to-exclamation-points-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0005306601524353027,
      "validation": {
       "category": "artwork",
@@ -1194,25 +1180,11 @@
      }
     },
     {
-     "text": "Aging Drawing - A Man Stands In The Top Half Of An Hourglass by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-stands-in-the-top-half-of-an-hourglass-tom-toro.jpg",
+     "text": "\"\"\"\"\"\"\"All I did was remove his flag pin!\"\"\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"\"\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/65/6569/3Q72100Z/posters/tom-toro-all-i-did-was-remove-his-flag-pin-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00032761693000793457,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bite Drawing - A Fly Fisherman Casts Back A Reel That Forms by Tom Toro",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-fly-fisherman-casts-back-a-reel-that-forms-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 2.3135422452469356e-05,
+     "tier": "high",
+     "punsafe": 0.000270843505859375,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1225,7 +1197,7 @@
      "text": "\"\"\"I installed Skype, so it'll be just like you never went away to college.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6064/ZICD100Z/posters/tom-toro-i-installed-skype-so-it-ll-be-just-like-you-never-went-away-to-college-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.14458544482477e-05,
      "validation": {
       "category": "artwork",
@@ -1239,8 +1211,36 @@
      "text": "How to Potty Train Your Porcupine by Tom Toro - 9780316495394 Book",
      "imageUrl": "https://img.fruugo.com/product/8/58/131820588_0340_0340.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 5.4396281484514475e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Aging Drawing - A Man Stands In The Top Half Of An Hourglass by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-stands-in-the-top-half-of-an-hourglass-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00032761693000793457,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Bite Drawing - A Fly Fisherman Casts Back A Reel That Forms by Tom Toro",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-fly-fisherman-casts-back-a-reel-that-forms-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 2.3135422452469356e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1253,7 +1253,7 @@
      "text": "\"\"\"I don't like large groups. I can never remember what our plural is.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/96/9679/HZMC500Z/posters/tom-toro-i-don-t-like-large-groups-i-can-never-remember-what-our-plural-is-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00038310885429382324,
      "validation": {
       "category": "artwork",
@@ -1267,162 +1267,8 @@
      "text": "\"\"\"\"\"\"\"It's touching, actually, to see white dudes fumble around for a few last \u2026\"\"\"\" - Cartoon by Tom Toro\"\"\"",
      "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-it-s-touching-actually-to-see-white-dudes-fumble-around-for-a-few-last-cartoon_u-l-q13drfg0.jpg?src=gp&amp;w=300&amp;h=300",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.161830919561908e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Old Canvas Print - An Older Genie Speaks To Young Boy As He Emerges by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/an-older-genie-speaks-to-young-boy-as-he-emerges-tom-toro-canvas-print.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0003218650817871094,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A psychiatrist is jogging in the park while pushing his patient on a couch\u2026 - New Yorker Cartoon Premium Giclee Print by Tom Toro",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/62/6230/M763100Z/posters/tom-toro-a-psychiatrist-is-jogging-in-the-park-while-pushing-his-patient-on-a-couch-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0014072060585021973,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"We're running late. Just pick a facial expression already.\"\"\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"\"\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/93/9309/CL17500Z/posters/tom-toro-we-re-running-late-just-pick-a-facial-expression-already-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0003019571304321289,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Wait. Don't look. O.K., over my left shoulderis that God\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9572/4X92500Z/posters/tom-toro-wait-don-t-look-o-k-over-my-left-shoulder-is-that-god-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0011472702026367188,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"We can do this the easy way or the Hitchcockian way.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/98/9844/W2XY500Z/posters/tom-toro-we-can-do-this-the-easy-way-or-the-hitchcockian-way-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0010989904403686523,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"He's in a better place now\u2013no offense to Buffalo.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/61/6111/3DYF100Z/posters/tom-toro-he-s-in-a-better-place-now-no-offense-to-buffalo-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00014719367027282715,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "grown numb to exclamation points comic strip new yorker tom toro Exclamation Points [Comic Strip]",
-     "imageUrl": "https://twistedsifter.com/wp-content/uploads/2012/05/grown-numb-to-exclamation-points-comic-strip-new-yorker-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00040969252586364746,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Looking back, it was probably a mistake to disregard global warming after\u2026\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/77/7702/F3W1300Z/posters/tom-toro-looking-back-it-was-probably-a-mistake-to-disregard-global-warming-after-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0020408034324645996,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Can we talk through a decision that I've already made\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9573/LM92500Z/posters/tom-toro-can-we-talk-through-a-decision-that-i-ve-already-made-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0015348494052886963,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Squirrel Drawing - A Man Sitting In The Park Notices Pirate by Tom Toro",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-sitting-in-the-park-notices-pirate-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0012169182300567627,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Indie Wall Art - Drawing - Goldilocks At Sundance by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/3-goldilocks-at-sundance-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0013542473316192627,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1435,7 +1281,7 @@
      "text": "\"\"\"Punxsutawney Phil can also predict the political climate.\"\" - Cartoon Regular Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10013/1HYW500Z/posters/tom-toro-punxsutawney-phil-can-also-predict-the-political-climate-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0013623833656311035,
      "validation": {
       "category": "artwork",
@@ -1449,8 +1295,64 @@
      "text": "Capitol Drawing - A Woman Is In Bed With The Capitol Building by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/a-woman-is-in-bed-with-the-capitol-building-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.005313098430633545,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Looking back, it was probably a mistake to disregard global warming after\u2026\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/77/7702/F3W1300Z/posters/tom-toro-looking-back-it-was-probably-a-mistake-to-disregard-global-warming-after-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0020408034324645996,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Can we talk through a decision that I've already made\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9573/LM92500Z/posters/tom-toro-can-we-talk-through-a-decision-that-i-ve-already-made-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0015348494052886963,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Squirrel Drawing - A Man Sitting In The Park Notices Pirate by Tom Toro",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-sitting-in-the-park-notices-pirate-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0012169182300567627,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Indie Wall Art - Drawing - Goldilocks At Sundance by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/3-goldilocks-at-sundance-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0013542473316192627,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1463,7 +1365,7 @@
      "text": "Washington Dc Drawing - It Lets You Hold The President's Attention by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/it-lets-you-hold-the-presidents-attention-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 9.296787902712822e-05,
      "validation": {
       "category": "artwork",
@@ -1477,7 +1379,7 @@
      "text": "An Older Genie Speaks To Young Boy As He Emerges Framed Print by Tom Toro",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/an-older-genie-speaks-to-young-boy-as-he-emerges-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0005789995193481445,
      "validation": {
       "category": "artwork",
@@ -1491,78 +1393,8 @@
      "text": "Wall Art - Drawing - Several Geese Fly In A V-formation by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/several-geese-fly-in-a-v-formation-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 7.13800618541427e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"There's nothing worse than waiting in the wrong line.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/92/9256/9LS3500Z/posters/tom-toro-there-s-nothing-worse-than-waiting-in-the-wrong-line-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00018236041069030762,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Fly Fisherman Casts Back A Reel That Forms Drawing by Tom Toro",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-fly-fisherman-casts-back-a-reel-that-forms-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00010342011955799535,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "An Alien In A Baseball Cap And Polo Shirt Talks Framed Print by Tom Toro",
-     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/an-alien-in-a-baseball-cap-and-polo-shirt-talks-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0001173522905446589,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Skiing Drawing - We Need One Of Those At The E.u. Border by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/21-untitled-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0016631484031677246,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"If I don't make it out of here alive, please send my sweetheart this pict\u2026\"\"\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"\"\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/69/6993/LVGW100Z/posters/tom-toro-if-i-don-t-make-it-out-of-here-alive-please-send-my-sweetheart-this-pict-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.000933915376663208,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1575,7 +1407,7 @@
      "text": "An unattended table has a sign that says balloon animals, and a balloon be\u2026 - New Yorker Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/69/6948/NQDK100Z/posters/tom-toro-an-unattended-table-has-a-sign-that-says-balloon-animals-and-a-balloon-be-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.000405043363571167,
      "validation": {
       "category": "artwork",
@@ -1589,7 +1421,7 @@
      "text": "\"\"\"Super! Now, once you've rebuilt civilization I can do the investment bank\u2026\"\" - New Yorker Cartoon by Tom Toro\"",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-super-now-once-you-ve-rebuilt-civilization-i-can-do-the-investment-bank-new-yorker-cartoon_u-L-PGRQSU0.jpg?src=gp&w=300&h=375",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.002867460250854492,
      "validation": {
       "category": "artwork",
@@ -1603,8 +1435,176 @@
      "text": "Take a look at Tom Toro's daily cartoon about the Sochi Winter Olympics.",
      "imageUrl": "https://i.pinimg.com/736x/2f/d9/04/2fd9041577ad5a32ff40a2749554e23e--daily-cartoons-new-yorker-cartoons.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018927454948425293,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Old Canvas Print - An Older Genie Speaks To Young Boy As He Emerges by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/an-older-genie-speaks-to-young-boy-as-he-emerges-tom-toro-canvas-print.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0003218650817871094,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "An Alien In A Baseball Cap And Polo Shirt Talks Framed Print by Tom Toro",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/an-alien-in-a-baseball-cap-and-polo-shirt-talks-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0001173522905446589,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Skiing Drawing - We Need One Of Those At The E.u. Border by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/21-untitled-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0016631484031677246,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"If I don't make it out of here alive, please send my sweetheart this pict\u2026\"\"\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"\"\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/69/6993/LVGW100Z/posters/tom-toro-if-i-don-t-make-it-out-of-here-alive-please-send-my-sweetheart-this-pict-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.000933915376663208,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"There's nothing worse than waiting in the wrong line.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/92/9256/9LS3500Z/posters/tom-toro-there-s-nothing-worse-than-waiting-in-the-wrong-line-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00018236041069030762,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Fly Fisherman Casts Back A Reel That Forms Drawing by Tom Toro",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/a-fly-fisherman-casts-back-a-reel-that-forms-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00010342011955799535,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A psychiatrist is jogging in the park while pushing his patient on a couch\u2026 - New Yorker Cartoon Premium Giclee Print by Tom Toro",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/62/6230/M763100Z/posters/tom-toro-a-psychiatrist-is-jogging-in-the-park-while-pushing-his-patient-on-a-couch-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0014072060585021973,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"We're running late. Just pick a facial expression already.\"\"\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"\"\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/93/9309/CL17500Z/posters/tom-toro-we-re-running-late-just-pick-a-facial-expression-already-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0003019571304321289,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Wait. Don't look. O.K., over my left shoulderis that God\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9572/4X92500Z/posters/tom-toro-wait-don-t-look-o-k-over-my-left-shoulder-is-that-god-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0011472702026367188,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"We can do this the easy way or the Hitchcockian way.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/98/9844/W2XY500Z/posters/tom-toro-we-can-do-this-the-easy-way-or-the-hitchcockian-way-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0010989904403686523,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"He's in a better place now\u2013no offense to Buffalo.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/61/6111/3DYF100Z/posters/tom-toro-he-s-in-a-better-place-now-no-offense-to-buffalo-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00014719367027282715,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "grown numb to exclamation points comic strip new yorker tom toro Exclamation Points [Comic Strip]",
+     "imageUrl": "https://twistedsifter.com/wp-content/uploads/2012/05/grown-numb-to-exclamation-points-comic-strip-new-yorker-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00040969252586364746,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1617,7 +1617,7 @@
      "text": "\"\"\"Can we talk through a decision that I've already made?\"\" - New Yorker Cartoon Poster Print by Tom Toro at the Cond\u00e9 Nast Collection\"",
      "imageUrl": "https://i.pinimg.com/236x/84/0c/e4/840ce4381dbdc0106477647fda5b1431.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00023412704467773438,
      "validation": {
       "category": "artwork",
@@ -1631,7 +1631,7 @@
      "text": "Traveling with Child - Day 3 - Cartoon Regular Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/91/9128/PRSF500Z/posters/tom-toro-traveling-with-child-day-3-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00361710786819458,
      "validation": {
       "category": "artwork",
@@ -1645,22 +1645,8 @@
      "text": "A pirate caption being mocked behind his back, but only on the side where ... - New Yorker Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/97/9729/R5PA500Z/posters/tom-toro-a-pirate-caption-being-mocked-behind-his-back-but-only-on-the-side-where-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00025513768196105957,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"He's in a better place now\u2013no offense to Buffalo.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/61/6111/3DYF100Z/prints/tom-toro-he-s-in-a-better-place-now-no-offense-to-buffalo-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00014719367027282715,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1673,7 +1659,7 @@
      "text": "\"\"\"Which team does Frederick Douglass play for?\"\" - Cartoon Regular Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10013/4HYW500Z/posters/tom-toro-which-team-does-frederick-douglass-play-for-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 5.0846625526901335e-05,
      "validation": {
       "category": "artwork",
@@ -1687,7 +1673,7 @@
      "text": "\"\"\"That was funny like a thousand miles ago.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/67/6784/UL8I100Z/posters/tom-toro-that-was-funny-like-a-thousand-miles-ago-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 7.815573189873248e-05,
      "validation": {
       "category": "artwork",
@@ -1701,78 +1687,8 @@
      "text": "Pirate With One Hand Asks For Help Lighting Framed Print by Tom Toro",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/pirate-with-one-hand-asks-for-help-lighting-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00016114115715026855,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"I suspect a challenger from the right. Let's slaughter everyone on the ri...\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/94/9475/IFB6500Z/posters/tom-toro-i-suspect-a-challenger-from-the-right-let-s-slaughter-everyone-on-the-ri-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.007988423109054565,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A panel depicts a sleeping man dreaming up a lightbulb, then pulling the l... - New Yorker Cartoon Premium Giclee Print by Tom Toro",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9514/1JS6500Z/posters/tom-toro-a-panel-depicts-a-sleeping-man-dreaming-up-a-lightbulb-then-pulling-the-l-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 6.466775812441483e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"I misunderstood the term pugilism!\"\" - New Yorker Cartoon Stretched Canvas Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10010/8CAW500Z/posters/tom-toro-i-misunderstood-the-term-pugilism-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.000505596399307251,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Team Player Drawing - A Bear Emerges From A Cave by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/a-bear-emerges-from-a-cave-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0003402531147003174,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Goldfish Canvas Print - A Cat Speaks To A Dog by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images-medium-5/a-cat-speaks-to-a-dog-tom-toro-canvas-print.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 1.2692020391114056e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1785,7 +1701,7 @@
      "text": "\"\"\"I enjoy role-playing, but do we really need the dramaturge?\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/88/8817/M3WO300Z/posters/tom-toro-i-enjoy-role-playing-but-do-we-really-need-the-dramaturge-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0068947672843933105,
      "validation": {
       "category": "artwork",
@@ -1799,7 +1715,7 @@
      "text": "\"\"\"Those who don't study history are doomed to repeat it. Yet those who do s?\"\" - Cartoon by Tom Toro\"",
      "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-those-who-don-t-study-history-are-doomed-to-repeat-it-yet-those-who-do-s-cartoon_u-l-pufv620.jpg?src=gp&w=300&h=300",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0006678104400634766,
      "validation": {
       "category": "artwork",
@@ -1813,8 +1729,92 @@
      "text": "A Woman Addresses Her Husband In His Home Office Round Beach Towel by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/flat/round-beach-towel/images-medium-5/a-woman-addresses-her-husband-in-his-home-office-tom-toro.jpg?transparent=0&targetx=143&targety=138&imagewidth=502&imageheight=512&modelwidth=788&modelheight=788&backgroundcolor=ffffff&orientation=0&producttype=beachtowelround",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0048091113567352295,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Squirrel Drawing - A Man Sitting In The Park Notices Pirate by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/a-man-sitting-in-the-park-notices-pirate-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0012169182300567627,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "A Viking King Oversees A Social Gathering Framed Print by Tom Toro",
+     "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/a-viking-king-oversees-a-social-gathering-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0010275840759277344,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"\"\"\"\"You aren't the only intelligent life in the universe who elected an embar? - Cartoon by Tom Toro\"\"\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-you-aren-t-the-only-intelligent-life-in-the-universe-who-elected-an-embar-cartoon_u-l-q13duv10.jpg?src=gp&amp;w=300&amp;h=300",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 6.855786341475323e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Mets Wood Print featuring the drawing A Family Holds Hands In A Circle With A Psychic by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/default/wood-print/8.000/6.500/break/images-medium-5/a-family-holds-hands-in-a-circle-with-a-psychic-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0011368095874786377,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Several Geese Fly In A V-formation Greeting Card by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/several-geese-fly-in-a-v-formation-tom-toro.jpg?&targetx=94&targety=50&imagewidth=512&imageheight=400&modelwidth=700&modelheight=500&backgroundcolor=ffffff&orientation=0",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00016689300537109375,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Drawing - Nevertheless She Persisted by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/nevertheless-she-persisted-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 6.466201739385724e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1825,16 +1825,16 @@
     }
    ],
    "samples": [
+    "A man stands in the top half of an hourglass trying to collect handfuls an... - New Yorker Cartoon Premium Giclee Print by Tom Toro",
+    "A man sitting in the park notices pirate squirrels digging for treasure.  - New Yorker Cartoon Premium Giclee Print by Tom Toro",
+    "Traveling with Child - Day 2 - Cartoon Regular Giclee Print by Tom Toro",
+    "General Drawing - General Strike by Tom Toro",
     "\"\"\"I can't go much longer without your asking why I'm vegan.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
     "grown numb to exclamation points comic strip new yorker tom toro Exclamation Points [Comic Strip]",
     "Boxing Drawing - I Misunderstood The Term Pugilism! by Tom Toro",
-    "General Drawing - General Strike by Tom Toro",
-    "\"Cartoon by Tom Toro: \"\"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"\"\"",
-    "\"\"\"\"\"\"\"What sort of Valentine's Day gift says, 'I'm willing to let you believe \u2026\"\"\"\" - Cartoon by Tom Toro\"\"\"",
-    "Drawing - A Fly Fisherman Casts Back A Reel That Forms by Tom Toro",
     "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-    "A man stands in the top half of an hourglass trying to collect handfuls an... - New Yorker Cartoon Premium Giclee Print by Tom Toro",
-    "A man sitting in the park notices pirate squirrels digging for treasure.  - New Yorker Cartoon Premium Giclee Print by Tom Toro"
+    "An Optometrist Examines A Cowboy Canvas Print by Tom Toro",
+    "\"Cartoon by Tom Toro: \"\"Those who don't study history are doomed to repeat it. Yet those who do study history are doomed to stand by helplessly while everyone else repeats it.\"\"\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1853,8 +1853,8 @@
    "coverageComplete": true,
    "rowsCovered": 2057910016,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 13,
+   "highConfidenceCount": 13,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 13,
@@ -1863,7 +1863,7 @@
      "text": "\"\"\"\"\"\"\"I will study hard unlike Betsy DeVos.\"\"\"\" - Cartoon by Tom Toro\"\"\"",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-i-will-study-hard-unlike-betsy-devos-cartoon_u-L-Q13DO070.jpg?src=gp&amp;w=300&amp;h=375",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00038054585456848145,
      "validation": {
       "category": "artwork",
@@ -1877,7 +1877,7 @@
      "text": "\"\"\"\"\"\"\"I feel like we're making progress.\"\"\"\" - Cartoon Premium Giclee Print by Tom Toro\"\"\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/88/8899/UTYP300Z/posters/tom-toro-i-feel-like-we-re-making-progress-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0004133880138397217,
      "validation": {
       "category": "artwork",
@@ -1891,7 +1891,7 @@
      "text": "Goldilocks at Sundance - New Yorker Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/77/7717/KUQ1300Z/posters/tom-toro-goldilocks-at-sundance-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.059283435344696045,
      "validation": {
       "category": "artwork",
@@ -1905,7 +1905,7 @@
      "text": "Dye Canvas Print - Grateful Dead Concert In Heaven by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/canvas-print/mirror/break/images/artworkimages/medium/1/grateful-dead-concert-in-heaven-tom-toro-canvas-print.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00219649076461792,
      "validation": {
       "category": "artwork",
@@ -1939,45 +1939,17 @@
    "coverageComplete": true,
    "rowsCovered": 1191320960,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 142,
+   "highConfidenceCount": 142,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 142,
    "rows": [
     {
-     "text": "I Wish The King Drawing by Tom Toro",
-     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/i-wish-the-king-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 5.5068776418920606e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"I hate how we stigmatize eating by calling it a feeding frenzy.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/65/6561/KLD2100Z/posters/tom-toro-i-hate-how-we-stigmatize-eating-by-calling-it-a-feeding-frenzy-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0007295906543731689,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Team Drawing - Trump Giving A Speech by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/trump-giving-a-speech-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 8.543807780370116e-05,
      "validation": {
       "category": "artwork",
@@ -1988,11 +1960,11 @@
      }
     },
     {
-     "text": "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/68/6877/R5EJ100Z/posters/tom-toro-good-shootin-son-i-m-pretty-sure-that-was-a-squirrel-new-yorker-cartoon.jpg",
+     "text": "\"\"\"This is the kind of socialist wasteland that Bernie Sanders wants to turn\u2026\"\" - Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/89/8970/PO7Q300Z/posters/tom-toro-this-is-the-kind-of-socialist-wasteland-that-bernie-sanders-wants-to-turn-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 9.089893865166232e-05,
+     "tier": "high",
+     "punsafe": 0.002012968063354492,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2005,7 +1977,7 @@
      "text": "\"\"\"I hate how we stigmatize eating by calling it a feeding frenzy.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/65/6589/4UW2100Z/posters/tom-toro-i-hate-how-we-stigmatize-eating-by-calling-it-a-feeding-frenzy-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0007295906543731689,
      "validation": {
       "category": "artwork",
@@ -2019,8 +1991,50 @@
      "text": "A Salesman Shows A Couple A Leaf Blower Art Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/print/images-square-real-5/a-salesman-shows-a-couple-a-leaf-blower-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00013434886932373047,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "I Wish The King Drawing by Tom Toro",
+     "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/i-wish-the-king-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 5.5068776418920606e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/68/6877/R5EJ100Z/posters/tom-toro-good-shootin-son-i-m-pretty-sure-that-was-a-squirrel-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 9.089893865166232e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I hate how we stigmatize eating by calling it a feeding frenzy.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/65/6561/KLD2100Z/posters/tom-toro-i-hate-how-we-stigmatize-eating-by-calling-it-a-feeding-frenzy-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0007295906543731689,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2033,36 +2047,8 @@
      "text": "Caucasian Drawing - General Strike by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/general-strike-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0004221796989440918,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"This is the kind of socialist wasteland that Bernie Sanders wants to turn\u2026\"\" - Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/89/8970/PO7Q300Z/posters/tom-toro-this-is-the-kind-of-socialist-wasteland-that-bernie-sanders-wants-to-turn-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.002012968063354492,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"I misunderstood the term pugilism!\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/99/9995/FM1W500Z/posters/tom-toro-i-misunderstood-the-term-pugilism-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0006210803985595703,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2075,22 +2061,8 @@
      "text": "New Yorker Cartoon by Tom Toro",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-new-yorker-cartoon_u-L-PO47EE0.jpg?src=gp&w=300&h=375",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0005891621112823486,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Optometrist Canvas Print - An Optometrist Examines A Cowboy by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/an-optometrist-examines-a-cowboy-tom-toro-canvas-print.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 9.927478822646663e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2103,8 +2075,36 @@
      "text": "Employee Shows Boss Circus Tricks. Canvas Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/employee-shows-boss-circus-tricks-tom-toro-canvas-print.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 3.748637391254306e-05,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I misunderstood the term pugilism!\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/99/9995/FM1W500Z/posters/tom-toro-i-misunderstood-the-term-pugilism-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0006210803985595703,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Optometrist Canvas Print - An Optometrist Examines A Cowboy by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/an-optometrist-examines-a-cowboy-tom-toro-canvas-print.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 9.927478822646663e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2117,7 +2117,7 @@
      "text": "New Yorker Cartoon by Tom Toro",
      "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-new-yorker-cartoon_u-l-q1bnac10.jpg?src=gp&w=300&h=300",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0005891621112823486,
      "validation": {
       "category": "artwork",
@@ -2131,22 +2131,8 @@
      "text": "A Salesman Shows A Couple A Leaf Blower Canvas Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/canvas-print/black/break/images-square-real-5/a-salesman-shows-a-couple-a-leaf-blower-tom-toro-canvas-print.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00028327107429504395,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "General Strike - Cartoon Premium Giclee Print by Tom Toro",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10032/ULQW500Z/posters/tom-toro-general-strike-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.001469343900680542,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2159,22 +2145,8 @@
      "text": "\"\"\"This is the kind of socialist wasteland that Bernie Sanders wants to turn...\"\" - Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/89/8970/JO7Q300Z/posters/tom-toro-this-is-the-kind-of-socialist-wasteland-that-bernie-sanders-wants-to-turn-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.002012968063354492,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "captionless cartoon by Tom Toro",
-     "imageUrl": "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F791018b2-df4e-473a-8c24-6dbcd145a31a_1160x788.jpeg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0019460618495941162,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2187,7 +2159,7 @@
      "text": "\"\"\"Impressive, but I meant accounting tricks.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/101/10148/S7LM500Z/posters/tom-toro-impressive-but-i-meant-accounting-tricks-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 4.096784323337488e-05,
      "validation": {
       "category": "artwork",
@@ -2201,8 +2173,36 @@
      "text": "A Salesman Shows A Couple A Leaf Blower Wood Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/wood-print/images-square-real-5/a-salesman-shows-a-couple-a-leaf-blower-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002408921718597412,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "General Strike - Cartoon Premium Giclee Print by Tom Toro",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10032/ULQW500Z/posters/tom-toro-general-strike-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.001469343900680542,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "captionless cartoon by Tom Toro",
+     "imageUrl": "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F791018b2-df4e-473a-8c24-6dbcd145a31a_1160x788.jpeg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0019460618495941162,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2215,22 +2215,8 @@
      "text": "Two Men At A Bar Discuss The Big Lebowski Canvas Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/small/canvas-print/black/break/images-square-real-5/two-men-at-a-bar-discuss-the-big-lebowski-tom-toro-canvas-print.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0004899501800537109,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoon Drawing - Smoke And Mirrors Lounge by Tom Toro",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/smoke-and-mirrors-lounge-tom-toro.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.001233220100402832,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2243,8 +2229,22 @@
      "text": "Pug Dog Canvas Print - I Misunderstood The Term Pugilism! by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/i-misunderstood-the-term-pugilism-tom-tor-canvas-print.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0003077387809753418,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Cartoon Drawing - Smoke And Mirrors Lounge by Tom Toro",
+     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/smoke-and-mirrors-lounge-tom-toro.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.001233220100402832,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2257,7 +2257,7 @@
      "text": "Boss Drawing - Employee Shows Boss Circus Tricks. by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images/artworkimages/medium/1/employee-shows-boss-circus-tricks-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00017955899238586426,
      "validation": {
       "category": "artwork",
@@ -2271,7 +2271,7 @@
      "text": "Sea Food Drawing - Bottom Gourmands by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/bottom-gourmands-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.006958097219467163,
      "validation": {
       "category": "artwork",
@@ -2285,7 +2285,7 @@
      "text": "Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/90/9031/74KB500Z/posters/tom-toro-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0003065168857574463,
      "validation": {
       "category": "artwork",
@@ -2299,7 +2299,7 @@
      "text": "Goldilocks at Sundance - Cartoon Regular Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/76/7640/I77G300Z/posters/tom-toro-goldilocks-at-sundance-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.059283435344696045,
      "validation": {
       "category": "artwork",
@@ -2313,7 +2313,7 @@
      "text": "General Strike - Cartoon Regular Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10032/VLQW500Z/posters/tom-toro-general-strike-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.001469343900680542,
      "validation": {
       "category": "artwork",
@@ -2327,7 +2327,7 @@
      "text": "Cartoon Drawing - Im Tweeting That Climate Change Is Fake by Tom Toro",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/im-tweeting-that-climate-change-is-fake-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00011568770423764363,
      "validation": {
       "category": "artwork",
@@ -2341,7 +2341,7 @@
      "text": "Alice Is Seen Talking With Tweedle-dee by Tom Toro",
      "imageUrl": "https://images.fineartamerica.com/images-square-real-5/alice-is-seen-talking-with-tweedle-dee-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 2.3758808310958557e-05,
      "validation": {
       "category": "artwork",
@@ -2355,7 +2355,7 @@
      "text": "Marriage People - Cartoon by Tom Toro",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-marriage-people-cartoon_u-L-PUEPVE0.jpg?src=gp&amp;w=300&amp;h=375",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00036713480949401855,
      "validation": {
       "category": "artwork",
@@ -2369,7 +2369,7 @@
      "text": "A Man And 3 Children Sit Around A Fire Galaxy Case by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/phone-case/galaxys8/images-medium-5/a-man-and-3-children-sit-around-a-fire-tom-toro.jpg?&targetx=208&targety=87&imagewidth=203&imageheight=182&modelwidth=620&modelheight=356&backgroundcolor=ffffff&orientation=1&producttype=galaxys8",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0002573728561401367,
      "validation": {
       "category": "artwork",
@@ -2383,7 +2383,7 @@
      "text": "New Yorker Cartoon by Tom Toro",
      "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-new-yorker-cartoon_u-l-po47ee0.jpg?src=gp&amp;w=300&amp;h=300",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018548965454101562,
      "validation": {
       "category": "artwork",
@@ -2397,50 +2397,8 @@
      "text": "21st Drawing - Goldilocks At Sundance by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/8-untitled-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.002209097146987915,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"I bet you feel pretty ridiculous bringing that wind chime.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/62/6225/HC73100Z/posters/tom-toro-i-bet-you-feel-pretty-ridiculous-bringing-that-wind-chime-new-yorker-cartoon.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.00021144747734069824,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"By Jove, you've got it! Unprofessional, clingy, boorish, volatile, fake-m? - Cartoon by Tom Toro\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-by-jove-you-ve-got-it-unprofessional-clingy-boorish-volatile-fake-m-cartoon_u-l-q13dutu0.jpg?src=gp&amp;w=300&amp;h=300",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 0.0001468956470489502,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Employee Shows Boss Circus Tricks. Canvas Print by Tom Toro",
-     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/1-employee-shows-boss-circus-tricks-tom-toro-canvas-print.jpg",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 3.748637391254306e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2453,7 +2411,7 @@
      "text": "New Yorker Cartoon by Tom Toro",
      "imageUrl": "https://imgc.allpostersimages.com/img/posters/tom-toro-new-yorker-cartoon_u-L-PO47EE0.jpg?src=gp&amp;w=300&amp;h=375",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018548965454101562,
      "validation": {
       "category": "artwork",
@@ -2467,8 +2425,50 @@
      "text": "\"\"\"I will study hard unlike Betsy DeVos.\"\" - Cartoon Regular Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/100/10032/4LQW500Z/posters/tom-toro-i-will-study-hard-unlike-betsy-devos-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.02246648073196411,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"I bet you feel pretty ridiculous bringing that wind chime.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+     "imageUrl": "http://cache2.allpostersimages.com/p/MED/62/6225/HC73100Z/posters/tom-toro-i-bet-you-feel-pretty-ridiculous-bringing-that-wind-chime-new-yorker-cartoon.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.00021144747734069824,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "\"\"\"By Jove, you've got it! Unprofessional, clingy, boorish, volatile, fake-m? - Cartoon by Tom Toro\"",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-by-jove-you-ve-got-it-unprofessional-clingy-boorish-volatile-fake-m-cartoon_u-l-q13dutu0.jpg?src=gp&amp;w=300&amp;h=300",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 0.0001468956470489502,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Employee Shows Boss Circus Tricks. Canvas Print by Tom Toro",
+     "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images/artworkimages/medium/1/1-employee-shows-boss-circus-tricks-tom-toro-canvas-print.jpg",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 3.748637391254306e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2481,7 +2481,7 @@
      "text": "A Salesman Shows A Couple A Leaf Blower Framed Print by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/a-salesman-shows-a-couple-a-leaf-blower-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.00018933415412902832,
      "validation": {
       "category": "artwork",
@@ -2495,22 +2495,8 @@
      "text": "Guru Drawing - Three Panels Of A Man Sitting On An Glacier by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/three-panels-of-a-man-sitting-on-an-glacier-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 9.883895472739823e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Restroom - Cartoon by Tom Toro",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-restroom-cartoon_u-l-q13drew0.jpg?src=gp&amp;w=300&amp;h=300",
-     "keyword": "tom toro",
-     "tier": "namematch",
-     "punsafe": 2.8155188829259714e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2523,8 +2509,22 @@
      "text": "\"\"\"Frank?\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/87/8763/HS2T300Z/posters/tom-toro-frank-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.003760218620300293,
+     "validation": {
+      "category": "artwork",
+      "reason": "",
+      "displayable": true,
+      "source": "heuristic",
+      "confidence": 0.6
+     }
+    },
+    {
+     "text": "Restroom - Cartoon by Tom Toro",
+     "imageUrl": "https://imgc.artprintimages.com/img/print/tom-toro-restroom-cartoon_u-l-q13drew0.jpg?src=gp&amp;w=300&amp;h=300",
+     "keyword": "tom toro",
+     "tier": "high",
+     "punsafe": 2.8155188829259714e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2537,7 +2537,7 @@
      "text": "\"\"\"Here's how grown-ups play make-believe.\"\" - Cartoon Premium Giclee Print by Tom Toro\"",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/89/8965/LUGQ300Z/posters/tom-toro-here-s-how-grown-ups-play-make-believe-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 4.842855560127646e-05,
      "validation": {
       "category": "artwork",
@@ -2551,7 +2551,7 @@
      "text": "Alice Drawing - Alice Is Seen Talking With Tweedle-dee by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/print/images-medium-5/alice-is-seen-talking-with-tweedle-dee-tom-toro.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 9.651722393755335e-06,
      "validation": {
       "category": "artwork",
@@ -2565,7 +2565,7 @@
      "text": "Dogs Drawing - I Misunderstood The Term Pugilism! by Tom Toro",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/i-misunderstood-the-term-pugilism-tom-tor.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0001742243766784668,
      "validation": {
       "category": "artwork",
@@ -2579,7 +2579,7 @@
      "text": "Two men at a bar discuss The Big Lebowski. - New Yorker Cartoon Premium Giclee Print by Tom Toro",
      "imageUrl": "http://cache2.allpostersimages.com/p/MED/75/7582/EXTD300Z/posters/tom-toro-two-men-at-a-bar-discuss-the-big-lebowski-new-yorker-cartoon.jpg",
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": 0.0007655620574951172,
      "validation": {
       "category": "artwork",
@@ -2591,16 +2591,16 @@
     }
    ],
    "samples": [
-    "I Wish The King Drawing by Tom Toro",
-    "\"\"\"I hate how we stigmatize eating by calling it a feeding frenzy.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
     "Team Drawing - Trump Giving A Speech by Tom Toro",
-    "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+    "\"\"\"This is the kind of socialist wasteland that Bernie Sanders wants to turn\u2026\"\" - Cartoon Premium Giclee Print by Tom Toro\"",
     "\"\"\"I hate how we stigmatize eating by calling it a feeding frenzy.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
     "A Salesman Shows A Couple A Leaf Blower Art Print by Tom Toro",
+    "I Wish The King Drawing by Tom Toro",
+    "\"\"\"Good shootin', son. I'm pretty sure that was a squirrel.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
+    "\"\"\"I hate how we stigmatize eating by calling it a feeding frenzy.\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
     "Caucasian Drawing - General Strike by Tom Toro",
-    "\"\"\"This is the kind of socialist wasteland that Bernie Sanders wants to turn\u2026\"\" - Cartoon Premium Giclee Print by Tom Toro\"",
-    "\"\"\"I misunderstood the term pugilism!\"\" - New Yorker Cartoon Premium Giclee Print by Tom Toro\"",
-    "New Yorker Cartoon by Tom Toro"
+    "New Yorker Cartoon by Tom Toro",
+    "Employee Shows Boss Circus Tricks. Canvas Print by Tom Toro"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2619,8 +2619,8 @@
    "coverageComplete": true,
    "rowsCovered": 141047704,
    "coverageNote": "",
-   "highConfidenceCount": 0,
-   "nameMatchCount": 68,
+   "highConfidenceCount": 68,
+   "nameMatchCount": 0,
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 68,
@@ -2629,7 +2629,7 @@
      "text": "Thanks to The New Yorker's Tom Toro, we now have a Donald Trump-era update of the leftist editorial cartoons that are hilarious except for the inconvenient fact that they seem to be based upon little, if any, substantial reality.\n\nAs I wrote back in December,\n\n\nLike cartoonists around the world, [Th",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2643,7 +2643,7 @@
      "text": "To find out more about original artwork available by Tom Toro, please contact us:",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2657,7 +2657,7 @@
      "text": "New York \u2014 Swann Galleries will offer an auction of Illustration Art on Tuesday, June 5, with more than 250 original works of art including comics, pin-ups and covers for books and magazines.\n\nSetting the auction apart is a selection of classic original comic strips, led by the original nine-panel S",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2671,7 +2671,7 @@
      "text": "Above, Tom Toro's first cartoon picked up by The New Yorker. The 610th drawing he had submitted to the magazine, it was published the week of his 28th birthday. Tom Toro/The New Yorker hide caption",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2685,7 +2685,7 @@
      "text": "These aren\u2019t bad either.\n\nMy other favourites include this by Tom Toro pic.twitter.com/DGty6DEYAq\n\nCartoon of the day",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2699,7 +2699,7 @@
      "text": "Are we headed for dotcom bust 2.0?\n\n\"Those who don\u2019t study history are doomed to repeat it.\n\nThose who do study history are doomed to stand by helplessly while everyone else repeats it.\"\n\nThese words \u2013 from an editorial cartoon by Tom Toro of the New Yorker \u2013 aptly describe the state of the tech wor",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2713,7 +2713,7 @@
      "text": "Why cats are mesmerized by random objects is also the subject of this wordless cartoon by Tom Toro, featuring felines taking in a flick:",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2727,7 +2727,7 @@
      "text": "Book Of Interest: A User\u2019s Guide To Democracy, Illustrated By Tom Toro\n\nToday is publication day for A User\u2019s Guide To Democracy, by Nick Capodice & Hannah McCarthy, with illustrations by New Yorker cartoonist Tom Toro (he began contributing to the magazine a decade ago). Ordering info and more on t",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2741,7 +2741,7 @@
      "text": "Swann Galleries will offer an auction of Illustration Art on Tuesday, June 5, with more than 250 original works of art including comics, pin-ups and covers for books and magazines.\n\nSetting the auction apart is a selection of classic original comic strips, led by the original nine-panel Sunday Peanu",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2755,7 +2755,7 @@
      "text": "\"Good shootin', son. I'm pretty sure that was a squirrel.\"\n(By Tom Toro in The New Yorker)\n\nI'm giving it a 9.5 at least, because I find it hilarious.\n\nOf course, you may not find it funny at all, in which case you are probably a fascist.\n\nWhat?  An explanation is called for?\n\nOK, what gives this ca",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2769,7 +2769,7 @@
      "text": "A hilarious and clever bath-time picture book by humorist, novelist, and TV writer Simon Rich, with illustrations by Tom Toro (How to Potty Train Your Porcupine).\n\n\nAnd so begins a hilarious dip into the choppy waters of a nightly ritual that parents and children alike often dread. Filled with soaps",
      "imageUrl": null,
      "keyword": "tom toro",
-     "tier": "namematch",
+     "tier": "high",
      "punsafe": null,
      "validation": {
       "category": "artwork",
@@ -2857,16 +2857,16 @@
   "keywordEvidence": [
    {
     "keyword": "tom toro",
-    "tier": "namematch",
+    "tier": "high",
     "count": 747,
     "captionHits": 679,
     "longformHits": 68,
     "longformRatio": 0.091,
     "perDataset": {
      "coyo700m": 23,
+     "laion1b-nolang": 142,
      "laion2b-en": 501,
      "laion2b-multi": 13,
-     "laion1b-nolang": 142,
      "obelics": 68
     },
     "reason": null
@@ -2876,21 +2876,21 @@
    "datasetsPresent": 5,
    "totalDatasets": 7,
    "credibleMentions": 747,
-   "highConfidenceMentions": 0,
-   "nameMatchMentions": 747,
+   "highConfidenceMentions": 747,
+   "nameMatchMentions": 0,
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
   "evidenceShown": 125,
   "evidenceWithheld": {
    "storefront": 11,
+   "unverified": 175,
    "person_photo": 16,
-   "unverified": 180,
    "not_flat_art": 8,
-   "merchandise": 24,
+   "merchandise": 23,
    "unrelated": 1
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T07:10:11.007705+00:00"
  },
  "subjectId": "tom-toro",
  "cohort": "early-adopter",
@@ -2902,7 +2902,7 @@
   "estimatedMonthlyUsers": 24862000,
   "estimatedTotalGenerations": 4972400000
  },
- "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+ "generatedAt": "2026-08-06T07:10:11.007705+00:00",
  "holistic": {
   "datasetEvidence": 747,
   "datasetsPresent": 5,
