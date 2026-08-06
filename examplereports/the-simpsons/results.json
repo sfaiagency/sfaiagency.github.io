@@ -117,13 +117,2229 @@
       "source": "human-review",
       "confidence": 1.0
      }
+    },
+    {
+     "text": "Marge Simpson Wikisimpsons The Simpsons Wiki",
+     "imageUrl": "https://static.simpsonswiki.com/images/thumb/0/0b/Marge_Simpson.png/250px-Marge_Simpson.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Marge Simpson with rabbit ears",
+     "imageUrl": "https://www.thefactsite.com/wp-content/uploads/2012/12/marge-simpson-ears.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Check out this awesome 'Pocket+Tee++-+Toasty+Cinnamon+Bun' design on Cartoon Wallpaper, Simpson Wallpaper Iphone, Disney Wallpaper, Simpsons Cartoon, Graffiti Characters, Small Canvas Art, Human Drawing, Cartoon Profile Pictures, Psychedelic Art",
+     "imageUrl": "https://i.pinimg.com/236x/d6/63/79/d66379b0661519608379f27828a02391.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Authors Coming!",
+     "imageUrl": "https://www.jamakehoebigger.com/wp-content/uploads/2016/07/Homer-Simpson-Authors-Coming.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson banned in Iran",
+     "imageUrl": "https://cdn.quotesgram.com/small/16/48/178590496-homer-simpson.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson reading a map",
+     "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2021-07/19/19/asset/d89e490dc865/sub-buzz-4453-1626724685-8.png?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Download Lisa Simpson App Icon Background",
+     "imageUrl": "https://ik.imagekit.io/bustmag/images/articles/38857/2hwa25_26ab1.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart & LIsa Simpson \"Oh do we have to?\"",
+     "imageUrl": "https://landingpagehub.net/wp-content/uploads/2020/05/simpsons-do-we-have-to-still.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The SImpsons ebola",
+     "imageUrl": "https://i.insider.com/5cdd47d0021b4c08c57ae606?width=700&format=jpeg&auto=webp",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image result for Marge Simpson",
+     "imageUrl": "https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201805/182014771.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "\"The Simpsons\" Krusty the Clown",
+     "imageUrl": "https://shotonwhat.com/images/8340896.jpg",
+     "keyword": "krusty the clown",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson in The Force Awakens from Its Nap 1",
+     "imageUrl": "https://image.tmdb.org/t/p/w1280/xX6lXOiW11US1RU7UfCCJxVPBIp.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons, Homer Simpson",
+     "imageUrl": "https://wallup.net/wp-content/uploads/2016/07/20/43315-The_Simpsons-Homer_Simpson-300x200.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Stream \"All Alone\" Sad xxxTentacion x Lil Peep Rap/Lo-Fi Type Beat by Cajj from desktop or your mobile device Lisa Simpson, Bart Simpson Tumblr, Simpson Wave, Simpsons Drawings, Simpsons Art, Simpsons Quotes, Simpson Wallpaper Iphone, Cartoon Wallpaper, Blackbear Quotes",
+     "imageUrl": "https://i.pinimg.com/236x/54/73/77/547377eee5634f24fca43aef49a08231.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson's Presentation | Scooby-dooby-doo, coming after you, my gun goes pew-pew-pew | image tagged in lisa simpson's presentation,nooo haha go brrr,gun,lisa simpson | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/4xbim9.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 1\u00d77",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/cEFXcoo9pzXrcVtNXo8y0rrhFJm.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Pen drive Marge Simpson na internet",
+     "imageUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/725/852/products/pen-drive-margie-simpson-31-4db651d5bb6c0eed7215208132163519-240-0.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "bart simpson android wallpapers wallpaper cave",
+     "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.6Rlk5mYGWWjEur0JwfghdwHaO0&pid=15.1",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson in Trash of the Titans",
+     "imageUrl": "https://i1.wp.com/juanomatic.net/wp-content/uploads/2017/01/NewImage.png?resize=480%2C360&ssl=1",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to draw Lisa Simpson playing the saxophone - step 09",
+     "imageUrl": "https://sketchok.com/images/articles/01-cartoons/001-simpsons/14/09.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "the simpsons and lisa simpson",
+     "imageUrl": "http://1tb.favim.com/preview/7/776/7763/77637/7763762.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson | per\u0161\u00e1nci Simpsons Drawings, Simpsons Art, Cartoon Drawings, Easy Drawings, Cartoon Clip, Cartoon Shows, Simpsons Characters, Geeks, Cartoon Background",
+     "imageUrl": "https://i.pinimg.com/236x/6b/36/2e/6b362e1f6c48309b77999236a5c4f30a--les-simpson-homer-simpson.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Transparent Image PNG Maggie Simpson PNG images",
+     "imageUrl": "https://www.freeiconspng.com/thumbs/maggie-simpson-png/maggie-simpson-png-7.png",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "image Marge Simpson",
+     "imageUrl": "https://www.omdb.org/image/default/21213.jpeg?v=1",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "marge simpson hats - 6898140160",
+     "imageUrl": "https://i.chzbgr.com/full/6898140160/h57FAA225/who-wore-it-better",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Datei:Marge Simpson 4.png",
+     "imageUrl": "https://simpsonspedia.net/images/thumb/f/fe/Marge_Simpson_4.png/600px-Marge_Simpson_4.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "29 ideas for wallpaper iphone sad simpsons Cartoon Wallpaper, Simpson Wallpaper Iphone, Mood Wallpaper, Trendy Wallpaper, Cute Wallpaper Backgrounds, Tumblr Wallpaper, Wallpaper Iphone Cute, Aesthetic Iphone Wallpaper, Disney Wallpaper",
+     "imageUrl": "https://i.pinimg.com/236x/8a/50/95/8a5095e99c5f7710d937d40f89bbfe1b.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Free Vector download",
+     "imageUrl": "https://www.cgcreativeshop.com/wp-content/uploads/2014/08/Bart_P-300x300.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Coloriage Bart Simpson",
+     "imageUrl": "https://api.coloriages-a-imprimer.com/coloring/assets/gas4xtxv4m8gswgw?key=thumbnail",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "maggie simpson thinking coloring page maggie simpson coloring pages coloringpagescom",
+     "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.OCX9XDHVgV2AHJ5uymlvXQHaLC&pid=15.1",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to draw Bart Simpson",
+     "imageUrl": "https://sketchok.com/images/articles/01-cartoons/001-simpsons/21/11.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Facts about Bart Simpson",
+     "imageUrl": "https://factfile.org/wp-content/uploads/2015/05/Facts-about-Bart-Simpson.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Saw Game",
+     "imageUrl": "https://www5.minijuegosgratis.com/v3/games/thumbnails/19721_1.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "20 Facts About Lisa Simpson | The Simpsons",
+     "imageUrl": "https://www.thefactsite.com/wp-content/uploads/2013/01/lisa-simpson-facts.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "'The Simpsons' character Apu Nahasapeemapetilon - for Hank Azaria Apologizes for Apu Image",
+     "imageUrl": "https://www.boomermagazine.com/wp-content/uploads/2021/04/Apu-at-work-800x450.png",
+     "keyword": "apu nahasapeemapetilon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson Sleeping on Bed Free Coloring Page for Kids",
+     "imageUrl": "https://www.coloringpages101.com/coloring-pages/Cartoon-Characters/Maggie-Simpson/tn_Maggie-Simpson-Sleeping-on-Bed-coloring-page.png",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Teaser for Matt Groening\u2019s DISENCHANTMENT Gives a Glimpse of Dreamland",
+     "imageUrl": "https://www.geekgirlauthority.com/wp-content/uploads/2018/06/disenchantment-627x376.jpg",
+     "keyword": "matt groening",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "I don't care - I love it. Colorjob from PoneJoe of a old Lisa Simpson (The Simpsons) drawing.",
+     "imageUrl": "https://i.fairycosmo.com/2021/02/fc_526_th-285x285.png",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "homer simpson belly growl stomach hunger",
+     "imageUrl": "https://neallynch.files.wordpress.com/2015/01/homer-simpson-belly-growl-stomach-hunger.gif?w=610",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "cartoon, funny, homer and homer simpson",
+     "imageUrl": "http://s5.favim.com/orig/141021/cartoon-funny-homer-homer-simpson-Favim.com-2168145.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Funny Coloring Pages Homer Simpson",
+     "imageUrl": "https://www.bestcoloringpagesforkids.com/wp-content/uploads/2018/11/Funny-Coloring-Pages-Homer-Simpson.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Picture PNG Image",
+     "imageUrl": "https://freepngimg.com/thumb/bart_simpson/3-2-bart-simpson-picture.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Ned Flanders, who lives next to the Simpsons.",
+     "imageUrl": "https://www.newstalkzb.co.nz/media/9547401/simpson-_ned_flanders.png?mode=max&amp;rnd=130761573155470000&height=559&width=994&quality=80&scale=both",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 19\u00d71",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/1Jd30wJA5xkDcHnggt4d7HGb9lR.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 17\u00d71",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/zLejNwBEel18JKXd630eOtjg2nR.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "A Clockwork Orange alex animation awesome creepy Maggie Simpson the simpsons treehouse of horror - 4181523200",
+     "imageUrl": "https://i.chzbgr.com/full/4181523200/hA93D2268/cue-wendy-carlo-williams-synthesizer-score",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson Wallpapers - Top Free Maggie Simpson ...",
+     "imageUrl": "https://wallpaperaccess.com/full/1202274.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "how to draw Maggie Simpson step by step",
+     "imageUrl": "http://www.drawingforall.net/wp-content/uploads/2016/01/6-how-to-draw-Maggie-Simpson-step-by-step.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson Sleeping on Bed",
+     "imageUrl": "http://www.connectthedots101.com/dot-to-dot/Maggie-Simpson/tn_Maggie_Simpson_Sleeping_on_Bed_connect_dots.png",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer to leave Marge Simpson!",
+     "imageUrl": "https://i.cdn.newsbytesapp.com/images/l1473938088.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Marge Simpson The Simpsons",
+     "imageUrl": "http://neilmonnery.co.uk/wp-content/uploads/2011/09/margesimpson21-300x254.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Donuts",
+     "imageUrl": "https://wallpapertag.com/wallpaper/middle/9/b/4/800352-homer-simpson-mac-wallpaper-1920x1200-iphone.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "lisa simpson quotes re the simpsons chat lisa simpson watch",
+     "imageUrl": "https://cdn.quotesgram.com/small/83/73/1814473979-tumblr_mbmu2vIn6e1rsjyv2o1_500.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson signed drawing",
+     "imageUrl": "https://cdn.shopify.com/s/files/1/1645/0221/files/PF106medium.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 4\u00d710",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/315Weu2PRav3bjxDQGCH9hnSRjh.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 6\u00d71",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/rz9uFKuZLHz0UhtOf4SgnSir1xD.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Art Bart Area Marge Simpson PNG Image",
+     "imageUrl": "https://freepngimg.com/thumb/bart_simpson/89936-homer-art-bart-area-marge-simpson.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "29 ideas for wallpaper iphone sad simpsons Cartoon Wallpaper, Simpson Wallpaper Iphone, Sad Wallpaper, Cute Wallpaper Backgrounds, Wallpaper Iphone Cute, Tumblr Wallpaper, Black Wallpaper, Aesthetic Iphone Wallpaper, Disney Wallpaper",
+     "imageUrl": "https://i.pinimg.com/236x/df/8e/17/df8e17fd65966737eabffb31381c3931.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson gets her Hollywood close-up Simpsons Drawings, Simpsons Cartoon, Ralph Wiggum, Drugs Art, Cartoon Tv Shows, Futurama, Animated Cartoons, King Kong, Swagg",
+     "imageUrl": "https://i.pinimg.com/236x/b8/aa/1b/b8aa1beda180edd5966656a9731688f2--les-simpson-mcfarlane.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Billy (Krusty the Clown).png",
+     "imageUrl": "https://static.simpsonswiki.com/images/thumb/d/d5/Billy_%28Krusty_the_Clown%29.png/250px-Billy_%28Krusty_the_Clown%29.png",
+     "keyword": "krusty the clown",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Ned Flanders 560x280",
+     "imageUrl": "https://us-east-1.linodeobjects.com/gunaxin/2010/05/Ned-Flanders-560x280.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson with a Donut",
+     "imageUrl": "https://mystickermania.com/cdn/stickers/7/1818-230x230.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson's Beer Song",
+     "imageUrl": "https://www.irunfar.com/wp-content/uploads/Homer-Simpsons-Beer-Song.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "bart simpson clipart simpsons character.",
+     "imageUrl": "https://clipground.com/images/imagenes-de-los-simpson-clipart-9.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Icon 256x256 png",
+     "imageUrl": "https://files.softicons.com/download/tv-movie-icons/the-simpsons-icons-by-harenome-razanajato/png/256/Bart%20Simpson.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Pin by Queen.jay on Mood Lisa simpson, The simpsons",
+     "imageUrl": "https://i.pinimg.com/originals/02/1e/ae/021eae375ab2ba1e244bcdde329fbe72.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "25.09. The Simpsons",
+     "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s06386414d485873f/image/i65a9b52d5554810c/version/1589830746/image.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 25\u00d72",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/rw5b4OE7mylQ4NqeMZKr3hISMam.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Charles Montgomery Burns/Waylon Smithers/Principal Seymour Skinner/Ned Flanders/Otto Mann/Scratchy/Kent Brockman/Dr. Julius Hibbert/Reverend Timothy Lovejoy Harry Shearer The Simpsons",
+     "imageUrl": "https://assets.foxdcg.com/dpp-uploaded/images/credits/270765094704/TheSimpsons_MrBurns_R1.jpg?fit=inside%7C*:312",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Lisa Simpson Bart Simpson Marge Simpson Ned Flanders Bart Simpson Televisao Mao Desenho Animado Png Pngwing",
+     "imageUrl": "https://w7.pngwing.com/pngs/883/562/png-transparent-homer-simpson-lisa-simpson-bart-simpson-marge-simpson-ned-flanders-bart-simpson-television-hand-cartoon.png",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson at the Blackboard",
+     "imageUrl": "https://img.izismile.com/img/img4/20110819/640/bart_simpson_at_the_blackboard_640_03.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson PNG - 1423",
+     "imageUrl": "https://pluspng.com/img-png/bart-simpson-png-image-39279-325.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Drooling Blank Template - Imgflip",
+     "imageUrl": "https://i.imgflip.com/9czz.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "drawing homer simpson step 1",
+     "imageUrl": "https://iheartcraftythings.com/wp-content/uploads/2021/07/The-Simpsons-DRAWING-%E2%80%93-STEP-1.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to draw MAGGIE SIMPSON Face EASY with pencil | draw easy stuff | SPEED ART",
+     "imageUrl": "https://cdn.mycrafts.com/i/1/4/54/how-to-draw-maggie-simpson-face-e6HP-m.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Animated Cartoon Maggie Simpson Hd Wallpaper | Free High ...",
+     "imageUrl": "https://3.bp.blogspot.com/-FL-Op7KhqHc/VsCBi5hfvMI/AAAAAAAApew/eqxLjKsAkvs/s1600/maggie-simpson-crawling.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Backgrounds (81",
+     "imageUrl": "https://wallpapertag.com/wallpaper/middle/4/e/0/1000527-amazing-homer-simpson-backgrounds-1920x1440.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson PNG",
+     "imageUrl": "https://pngimg.com/uploads/simpsons/small/simpsons_PNG86.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Adults Bart Simpson Mask",
+     "imageUrl": "https://static1.funidelia.com/38935-f6_list/adults-bart-simpson-mask.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson PNG Clipart",
+     "imageUrl": "http://www.pngall.com/wp-content/uploads/2016/06/Bart-Simpson-PNG-Clipart.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Simpsons Cartoon, Simpson Wallpaper Iphone, Page Setup, Best Tv Shows, Lisa Simpson, Cartoons, Photo Wall, Lily, Disney",
+     "imageUrl": "https://i.pinimg.com/236x/b0/97/4b/b0974b9c1b8a8a69fcf423e66d9d6db0.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Motivational Monday 5 12 The Simpsons Movie Simpsons Cartoon The Simpsons",
+     "imageUrl": "https://i.pinimg.com/originals/bb/ff/ff/bbffff662ddd78defde4f7983a0b032b.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "marge simpson open this pit up the simpsons - 6770028800",
+     "imageUrl": "https://i.chzbgr.com/full/6770028800/h96CBBBAF/moshin-marge",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson Wallpapers - Wallpaper Cave",
+     "imageUrl": "https://wallpapercave.com/wp/wp3824538.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Download Free png Ned Flanders Homer Simpson Bart Simpson.",
+     "imageUrl": "https://clipground.com/images/ned-flanders-png-10.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson Bowling",
+     "imageUrl": "http://www.connectthedots101.com/dot-to-dot/Maggie-Simpson/tn_Maggie_Simpson_Bowling_connect_dots.png",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Angry Maggie Simpson",
+     "imageUrl": "https://www.connectthedots101.com/dot-to-dot/Maggie-Simpson/Angry_Maggie_Simpson_connect_dots.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Aesthetic Computer Wallpaper",
+     "imageUrl": "https://wallpaperaccess.com/thumb/2205145.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Saw Game",
+     "imageUrl": "https://www5.minijuegosgratis.com/v3/games/thumbnails/19721_7_sq.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "THE SIMPSONS School Notebook ITALY IMPORT - new! blank pages - Homer & Duff Beer",
+     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/brUAAOSwWs9gcFCf/s-l300.jpg",
+     "keyword": "duff beer",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Marge Simpson Png Simpsons Characters Maggie Simpson Simpson",
+     "imageUrl": "https://i.pinimg.com/236x/c7/d6/d3/c7d6d320e499118edf0abf5ce32d9e2d.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Ned Flanders Wave | HIDLEY HO; QUARANTINOS | image tagged in ned flanders wave | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/3swjyh.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Cryptocurrency Trading Bart Simpson",
+     "imageUrl": "https://www.savethestudent.org/uploads/etoro_profile.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Looking Up",
+     "imageUrl": "http://www.connectthedots101.com/dot-to-dot/The-Simpsons/tn_Bart_Simpson_Looking_Up_connect_dots.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Prof. Frink hides from ghost Lisa Simpson",
+     "imageUrl": "https://cdn.drawception.com/images/panels/2014/10-26/cEg9DAEPmB-7.png",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson drawing by Cec",
+     "imageUrl": "https://www.drawize.com/drawings/images/cb462d63_lisa-simpson?width=1200",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson with Bart and Lisa on the couch",
+     "imageUrl": "https://animationconnection.com/assets/artwork/1627578800-368-5603-homer-simpson-with-bart-and-lisa-on-the-couch.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How To Draw Homer Simpson Face",
+     "imageUrl": "https://i0.wp.com/clipart-library.com/images_k/bart-simpson-transparent/bart-simpson-transparent-10.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 2\u00d714",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/o8KfsDWUm7BSWmT2Hll2Tc4CkOR.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson posing all swanky like",
+     "imageUrl": "https://cdn.drawception.com/drawings/737133/42w3dT4D1H.png",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Coloriage homer marge simpson",
+     "imageUrl": "https://img-31.ccm2.net/YBQeJnMx4C84WVwM6_e9zVoGG1c=/595x/smart/2ec40210dc1445a4ad4d661348c3e477/ccmcms-hugo/10559043.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Just to say I don't love u Charles Montgomery, Montgomery Burns, Dont Love, Love You, Kent Brockman, Ralph Wiggum, English Quotes, The Simpsons, Frases",
+     "imageUrl": "https://i.pinimg.com/236x/0a/9f/a8/0a9fa892d482ceb8aa6343fbafcf2f73.jpg",
+     "keyword": "montgomery burns",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image titled Draw Bart Simpson Step 38",
+     "imageUrl": "https://www.wikihow.com/images/thumb/b/b5/Draw-Bart-Simpson-Step-38.jpg/v4-460px-Draw-Bart-Simpson-Step-38.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image titled Draw Bart Simpson Step 18",
+     "imageUrl": "https://www.wikihow.com/images/thumb/1/11/Draw-Bart-Simpson-Step-18.jpg/v4-460px-Draw-Bart-Simpson-Step-18.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to Draw Homer Simpson: Step 4",
+     "imageUrl": "https://easydrawingguides.com/wp-content/uploads/2019/08/homer-simpson-04.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to draw Homer Simpson",
+     "imageUrl": "https://easydrawingart.com/wp-content/uploads/2021/03/How-to-draw-Homer-Simpson-420x420.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson drawing by Jimmah",
+     "imageUrl": "https://www.drawize.com/drawings/images/dbca97Lisa_Simpson",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson in The Force Awakens from its Nap Watch Movie",
+     "imageUrl": "https://image.tmdb.org/t/p/w500/otPUDVYn4JFHrPrSNbpdOxDoGT3.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons - Original drawing of Marge Simpson `Demolition Derby` - Uniek",
+     "imageUrl": "https://assets.catawiki.nl/assets/2020/10/6/1/c/b/thumb5_1cbcef77-62b2-4acf-ac25-2de762b9ad4d.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "bart simpson as seeker playing quidditch",
+     "imageUrl": "https://cdn.drawception.com/images/panels/2012/4-3/OBBPjOS4tX-245.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Imagen titulada Draw Homer Simpson Step 34",
+     "imageUrl": "https://www.wikihow.com/images_en/thumb/c/cd/Draw-Homer-Simpson-Step-34.jpg/v4-460px-Draw-Homer-Simpson-Step-34.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Picture - Mistakes (Homer Simpson",
+     "imageUrl": "http://byrnesconsulting.com/wp-content/uploads/2010/03/Picture-Mistakes-Homer-Simpson.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart and lisa simpson wallpaper Simpson Wallpaper Iphone, Cartoon Wallpaper Iphone, Aesthetic Iphone Wallpaper, Disney Wallpaper, Cool Wallpaper, Aesthetic Wallpapers, Wallpaper Ideas, Screen Wallpaper, The Simpsons",
+     "imageUrl": "https://i.pinimg.com/236x/40/87/1f/40871f31e4eb583aa057e271e02f9e29.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Im actually curious | I'm curious... like if you're a guy comment if you're a girl and if you are gender neutral comment aswell | image tagged in lisa simpson's presentation | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/5bd26m.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson- The Simpsons Coloring Page - Super Fun Coloring | 220x220",
+     "imageUrl": "http://images.hellokids.com/_uploads/_tiny_galerie/20080623/simpson-na5uf.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Pretty Maggie Simpson Free Coloring Page for Kids",
+     "imageUrl": "https://www.coloringpages101.com/coloring-pages/Cartoon-Characters/Maggie-Simpson/tn_Pretty-Maggie-Simpson-coloring-page.png",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "hd wallpaper bart simpson the",
+     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9qcDoejQwFnH94Bf5eAhMcEneg94oF8AKP4DDkn0QiegbLfKv&w=65&h=65",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to draw Lisa Simpson playing the saxophone - step 06",
+     "imageUrl": "https://sketchok.com/images/articles/01-cartoons/001-simpsons/14/06.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "TV Show - The Simpsons Lisa Simpson Wallpaper",
+     "imageUrl": "https://wallpapertag.com/wallpaper/middle/5/7/9/228930-amazing-the-simpsons-wallpaper-1920x1080-phone.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Best of Homer Simpson's Quotes",
+     "imageUrl": "https://cdn.quotesgram.com/small/95/50/2118578189-homer_simpson_quotes.jpeg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "drawing homer simpson step 9",
+     "imageUrl": "https://iheartcraftythings.com/wp-content/uploads/2021/07/The-Simpsons-DRAWING-%E2%80%93-STEP-9.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "donuts homer simpson",
+     "imageUrl": "https://i-mom.unimedias.fr/2020/09/16/donut-homer-simpson.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=crop&h=227&w=405",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons: 9\u00d72",
+     "imageUrl": "https://image.tmdb.org/t/p/w300/zzo26GVc3Q3ITYw11NeUaLS354b.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "pumpkin carvings the simpsons marge simpson 1",
+     "imageUrl": "https://walyou.com/wp-content/uploads//2010/10/pumpkin-carvings-the-simpsons-marge-simpson-1.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "homer simpson taking out the trash",
+     "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2021-01/21/16/asset/91e59bd4811d/anigif_sub-buzz-21165-1611248365-9_preview.gif?output-quality=auto&output-format=auto&downsize=360:*",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Chasing Donuts",
+     "imageUrl": "https://honors.syr.edu/wp-content/uploads/2015/10/Homer-Simpson-Chasing-Donuts.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson electric",
+     "imageUrl": "https://animationconnection.com/assets/artwork/1627433949-788-5577-homer-simpson-electric.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson bushes",
+     "imageUrl": "https://i2.wp.com/drawingontheword.com/wp-content/uploads/2018/03/Homer-Simpson-bushes.gif?resize=340%2C255&ssl=1",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson pizza",
+     "imageUrl": "http://img.randomlulz.com/bf1189de8eb33291f1fd425ab4e7b444.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "simpsons lisa simpson wallpaper high definition",
+     "imageUrl": "https://lh3.googleusercontent.com/proxy/uHW3ywGG-VJ5V9_yRgyQgdMI3VA8vFKeJi06pSR8FCF6glQqScqEyj3Jz3MznduyWOI8StkbLIfyiKA1yXaTOOzzY6UMzyg1VPLFq-P9xNwRoyijhAX9rNQ=s0-d",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart simpson lines on chalk board",
+     "imageUrl": "https://image.boxrox.com/2016/05/The-Simpsons-Voices.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Adults Bart Simpson Mask",
+     "imageUrl": "https://static1.funidelia.com/38935-f6_big2/adults-bart-simpson-mask.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons Games",
+     "imageUrl": "https://www.desura.com/files/images/18/18cd7373cee90aadb43c772f13f6a8ce_70.png",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "To the world hello we are NCT male au Simpson Wallpaper Iphone, Cartoon Wallpaper Iphone, Cute Cartoon Wallpapers, Cartoon Icons, Cartoon Memes, Cartoon Art, Simpsons Cartoon, Mood Wallpaper, Aesthetic Iphone Wallpaper",
+     "imageUrl": "https://i.pinimg.com/236x/8b/e8/4a/8be84aa2d18abac2aebe4e5882c49593.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons Deep Thoughts - plakat - cm Gdzie kupi\u0107? Homer Quotes, Homer Simpson Quotes, Homer Simpson Beer, Funny Quotes, Simpsons Quotes, Simpsons Cartoon, The Simpsons Show, Laugh Till You Cry, Homer Simpson",
+     "imageUrl": "https://i.pinimg.com/236x/ab/6d/38/ab6d382a702a68eac0503b31059cbc64--simpsons-cartoon-simpsons-quotes.jpg",
+     "keyword": "simpsons cartoon",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Marge Simpson 200x200",
+     "imageUrl": "https://ranktopten.com/upload/-m/pq/marge-simpson_c_200x200.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "free vector Homer Simpson 01 The Simpsons",
+     "imageUrl": "https://4vector.com/data/097/431/thumb/97431_1_s.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson 01 The Simpsons",
+     "imageUrl": "https://4vector.com/thumb_data/afd-97836.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "abstract homer simpson",
+     "imageUrl": "https://cdn.drawception.com/drawings/911175/opsQRJXCnt.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson Coloring Pages - KidsColoringSource.",
+     "imageUrl": "https://coloringhome.com/thumbnail/KLi/dXo/KLidXodc4.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson Free Vector download",
+     "imageUrl": "https://www.cgcreativeshop.com/wp-content/uploads/2014/08/Lisa_P-300x300.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Marge simpson commissions dress",
+     "imageUrl": "https://img.xbooru.com/samples/511/sample_0c135bdd4dc21f5de7e209a76f35aaa0.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to Draw Marge Simpson",
+     "imageUrl": "http://www.drawingforall.net/wp-content/uploads/2016/07/5-How-to-Draw-Marge-Simpson.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Matt Groening Confirms That The Simpsons Movie Will Get A Sequel",
+     "imageUrl": "https://www.kiis1011.com.au/wp-content/uploads/sites/3/2019/07/simpsons-1.jpg?crop=175px,0px,751px,900px&resize=280,336&quality=75",
+     "keyword": "matt groening",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "pokly dokly mon | HELLO THERE; DO YOU WANT TO CATCH A POKLY DOKLY MON | image tagged in ned flanders wave | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/46gyeg.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image titled Draw Bart Simpson Step 21",
+     "imageUrl": "https://www.wikihow.com/images/thumb/3/37/Draw-Bart-Simpson-Step-21.jpg/v4-460px-Draw-Bart-Simpson-Step-21.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How To Draw How To Draw Bart Simpson.",
+     "imageUrl": "https://clipground.com/images/bart-simpson-png-10.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson Coloring Sheet",
+     "imageUrl": "https://superfuncoloring.com/wp-content/uploads/2018/03/17-Bart-Simpson-coloring-sheets-1.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer simpson the simpsons wallpaper.",
+     "imageUrl": "https://www.pixelstalk.net/wp-content/uploads/2016/06/Homer-simpson-the-simpsons-wallpaper-620x388.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image result for homer simpson beer",
+     "imageUrl": "http://icons.iconarchive.com/icons/jonathan-rey/simpsons/256/Homer-Simpson-03-Beer-icon.png",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Homer Simpson Quotes About...",
+     "imageUrl": "https://cdn.quotesgram.com/small/45/24/302207904-homer-simpson-quotes-about-love-i9.jpg",
+     "keyword": "homer simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to draw cute Lisa Simpson - step 03",
+     "imageUrl": "https://sketchok.com/images/articles/01-cartoons/001-simpsons/15/03.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image result for lisa simpson quotes",
+     "imageUrl": "https://s-media-cache-ak0.pinimg.com/originals/54/e0/2c/54e02c3c63e7bd1070e32e40df3bfd24.png",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson playing a saxophone",
+     "imageUrl": "https://cdn.drawception.com/images/panels/2012/12-31/q3FSNtyzkw-5.png",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Ned Flanders | FLANDERS 2016; MAKE AMERICA OKEY-DIDDLY-DOKEY AGAIN! | image tagged in ned flanders | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/10p3uh.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Harry Shearer, The Voice Of Mr.Burns, Ned Flanders and Principal Skinner WILL Return For The New Series...",
+     "imageUrl": "https://img.huffingtonpost.com/asset/5d017ce92400008c1788d395.jpeg?ops=scalefit_630_noupscale",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Ned Flanders Thumb png download.",
+     "imageUrl": "https://clipground.com/images/ned-flanders-png-6.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "image Ned Flanders",
+     "imageUrl": "https://www.omdb.org/image/default/819.jpeg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Image titled Draw Bart Simpson Step 35",
+     "imageUrl": "https://www.wikihow.com/images/thumb/b/b6/Draw-Bart-Simpson-Step-35.jpg/v4-460px-Draw-Bart-Simpson-Step-35.jpg",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Bart Simpson, free PNG collection",
+     "imageUrl": "https://static.wixstatic.com/media/2cd43b_cd129afca1eb4e378549e94e0fba32d3~mv2.png/v1/fill/w_222,h_367,q_90/2cd43b_cd129afca1eb4e378549e94e0fba32d3~mv2.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "How to Draw Bart Simpson: Step 6",
+     "imageUrl": "https://easydrawingguides.com/wp-content/uploads/2019/08/Bart-Simpson-6.png",
+     "keyword": "bart simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Lisa Simpson's Presentation | Even if schools did teach actual life skills, you wouldn't pay attention | image tagged in lisa simpson's presentation | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/5bgym4.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "I think thats fair. | If you laugh at or agree with a meme you should upvote it | image tagged in meme,lisa simpson's presentation | made w/ Imgflip meme maker",
+     "imageUrl": "https://i.imgflip.com/4igoee.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "TV Bars - The Simpsons",
+     "imageUrl": "https://www.tvinsider.com/wp-content/uploads/2015/11/Simpsons1-scaled.jpg",
+     "keyword": "the simpsons",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Maggie Simpson in The Force Awakens from Its Nap 2",
+     "imageUrl": "https://image.tmdb.org/t/p/w1280/ldZ37wdvIxIGOadZAJZhWNp4AdF.jpg",
+     "keyword": "maggie simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "The Simpsons Movie Bart Simpson Homer Simpson Lisa Simpson Marge Simpson Maggie Simpson Png Bart S Bart Simpson Art Homer Simpson Drawing Simpsons Drawings",
+     "imageUrl": "https://i.pinimg.com/originals/24/ac/8a/24ac8a6e4ea35dbc3fe07c97dc29120d.jpg",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "30 Days Of Nerdy Hair Day 4 Marge Simpsons Blue Hair Blog Series Marge Simpson Simpson Marge",
+     "imageUrl": "https://i.pinimg.com/originals/ee/2b/60/ee2b6075fb0bd7770f5e1454875dd6bb.png",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "Photograph face Marge Simpson",
+     "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f990d2de-3db6-4a5f-977d-a7fe7e214a96/d6f9afg-17140bf1-17bc-4da4-8137-550cd7210964.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y5OTBkMmRlLTNkYjYtNGE1Zi05NzdkLWE3ZmU3ZTIxNGE5NlwvZDZmOWFmZy0xNzE0MGJmMS0xN2JjLTRkYTQtODEzNy01NTBjZDcyMTA5NjQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PPpkyQGDXFdMjvedlRDEafE5L9CEm90pqCh4qDEDnS0",
+     "keyword": "marge simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "There is a ned flanders themed metal band ymf4.h720",
+     "imageUrl": "https://sm.ign.com/t/ign_de/blogroll/t/there-is-a/there-is-a-ned-flanders-themed-metal-band_ymf4.h720.jpg",
+     "keyword": "ned flanders",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
+    },
+    {
+     "text": "ilustration, lisa simpson, quote, quotes, simpsons, system",
+     "imageUrl": "https://cdn.quotesgram.com/small/6/90/562245363-ilustration-lisa-simpson-quote-quotes-simpsons-Favim_com-405927.jpg",
+     "keyword": "lisa simpson",
+     "tier": "high",
+     "validation": {
+      "category": "artwork",
+      "displayable": true,
+      "source": "human-review",
+      "confidence": 1.0,
+      "reason": "confirmed by visual review of the rendered gallery"
+     }
     }
    ],
    "samples": [
     "Lisa simpson nackt picture 10",
     "Shared by The Simpsons. Find images and videos about black and white, sad and mood on We Heart It - the app to get lost in what you love. Simpson Wallpaper Iphone, Cartoon Wallpaper, Iphone Wallpaper, Cartoon Memes, Cartoon Pics, Cartoons, Simpsons Art, The Simpsons Tumblr, Simpsons Cartoon",
     "\"\"\"The Simpsons\"\" character Apu Nahasapeemapetilon is at his job. (Youtube screenshot/The Bootstrap MF)\"",
-    "\"\"\"The Simpsons\"\" character Apu Nahasapeemapetilon is at his job. (Youtube screenshot/The Bootstrap MF)\""
+    "\"\"\"The Simpsons\"\" character Apu Nahasapeemapetilon is at his job. (Youtube screenshot/The Bootstrap MF)\"",
+    "Marge Simpson Wikisimpsons The Simpsons Wiki",
+    "Marge Simpson with rabbit ears",
+    "Check out this awesome 'Pocket+Tee++-+Toasty+Cinnamon+Bun' design on Cartoon Wallpaper, Simpson Wallpaper Iphone, Disney Wallpaper, Simpsons Cartoon, Graffiti Characters, Small Canvas Art, Human Drawing, Cartoon Profile Pictures, Psychedelic Art",
+    "Homer Simpson Authors Coming!",
+    "Homer Simpson banned in Iran",
+    "Bart Simpson reading a map"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1762,7 +3978,7 @@
    "thirdPartyPropertyMentions": 20940,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 12,
+  "evidenceShown": 182,
   "evidenceWithheld": {
    "unverified": 23327,
    "person_photo": 5095,
@@ -1775,7 +3991,7 @@
    "failed_visual_review": 188
   },
   "generatedAt": "2026-08-06T05:42:04.598909+00:00",
-  "evidenceCuration": "visual review of every rendered example"
+  "evidenceCuration": "visual review of every rendered example; expanded from the full candidate pool"
  },
  "subjectId": "the-simpsons",
  "cohort": "early-adopter-positive-control",
