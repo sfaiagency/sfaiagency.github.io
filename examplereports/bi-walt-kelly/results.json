@@ -1107,20 +1107,6 @@
      }
     },
     {
-     "text": "walt kelly the pogo comic strip was syndicated to newspapers for",
-     "imageUrl": "https://i.pinimg.com/originals/b1/4b/13/b14b13cbbf20bf47aae63f8bdf4b1c07.jpg",
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": 2.2630418243352324e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pogo Possum books by Walt Kelly 1951-1965, 15 complete books",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/123439845234_/Pogo-Possum-books-by-Walt-Kelly-1951-1965-15.jpg",
      "keyword": "pogo possum",
@@ -1224,20 +1210,6 @@
      "keyword": "pogo possum",
      "tier": "high",
      "punsafe": 0.00010473594738868997,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo Possum #10 comic book vg+ 4.5",
-     "imageUrl": "http://productimages.goantiques.gemr.s3.amazonaws.com/61908/1853041_detail.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 6.20771388639696e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1443,20 +1415,6 @@
      }
     },
     {
-     "text": "Pogo Possum #6 comic book vg 4.0",
-     "imageUrl": "https://s3.amazonaws.com/productimages.goantiques.gemr/61908/1852937_thumbnail.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 1.1405929399188608e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Easter Bunny Albert Alligator and Pogo 6579 (Brechtbug) Tags: easter bunny albert alligator pogo possum by cartoonist walt kelly cartoon vintage 1960s 60s newspaper comic strip comics sunday funnies comicstrip opossum animal humor funny beast fable political satire witty southern okefenokee swamp cr",
      "imageUrl": "https://farm66.static.flickr.com/65535/40689768623_95ef130106_m.jpg",
      "keyword": "pogo possum",
@@ -1630,20 +1588,6 @@
      "keyword": "pogo comic",
      "tier": "high",
      "punsafe": 8.368034286831971e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pogo Possum #10 comic book vg+ 4.5",
-     "imageUrl": "http://productimages.goantiques.gemr.s3.amazonaws.com/61908/1853041_thumbnail.jpg",
-     "keyword": "pogo possum",
-     "tier": "high",
-     "punsafe": 9.61757468758151e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2062,20 +2006,6 @@
      "keyword": "pogo comic",
      "tier": "high",
      "punsafe": 0.0010644793510437012,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "pogo comic strip. enemy is us",
-     "imageUrl": "http://i1.wp.com/successful-photographer.com/wp-content/uploads/2016/08/pogo_enemy_quote.jpg?resize=493%2C600",
-     "keyword": "pogo comic",
-     "tier": "high",
-     "punsafe": 6.406905595213175e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3204,7 +3134,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 3793
   },
-  "evidenceShown": 144,
+  "evidenceShown": 139,
   "evidenceWithheld": {
    "person_photo": 49,
    "unverified": 531,
@@ -3212,7 +3142,8 @@
    "storefront": 52,
    "derivative": 9,
    "unrelated": 9,
-   "explicit": 1
+   "explicit": 1,
+   "near_duplicate": 5
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

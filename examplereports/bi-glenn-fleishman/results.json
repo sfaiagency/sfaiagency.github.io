@@ -1152,20 +1152,6 @@
      }
     },
     {
-     "text": "A Practical Guide to Networking, Privacy, and Security in IOS 11 by Glenn Fleishman image",
-     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/3ca/201186279.jpeg",
-     "keyword": "glenn fleishman",
-     "tier": "namematch",
-     "punsafe": 1.2762710866809357e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Take Control of Your Wi-Fi Security by Glenn Fleishman",
      "imageUrl": "http://i4.ebkimg.com/previews/000/000712/000712819/000712819-hq-168-80.jpg",
      "keyword": "glenn fleishman",
@@ -1227,20 +1213,6 @@
      "keyword": "glenn fleishman",
      "tier": "namematch",
      "punsafe": 0.00012301476090215147,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A Practical Guide to Networking, Privacy, and Security in IOS 11 by Glenn Fleishman image",
-     "imageUrl": "https://d3fa68hw0m2vcc.cloudfront.net/a26/201186281.jpeg",
-     "keyword": "glenn fleishman",
-     "tier": "namematch",
-     "punsafe": 5.928205791860819e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1940,14 +1912,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 58,
+  "evidenceShown": 56,
   "evidenceWithheld": {
    "unverified": 570,
    "person_photo": 47,
    "storefront": 36,
    "unrelated": 3,
    "merchandise": 11,
-   "derivative": 4
+   "derivative": 4,
+   "near_duplicate": 2
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

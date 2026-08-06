@@ -1020,39 +1020,11 @@
      }
     },
     {
-     "text": "Scorchy Smith And The Art Of Noel Sickles by Noel Sickles (2008-07-30)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/61FD-ge+8ML._AC_US218_.jpg",
-     "keyword": "scorchy smith",
-     "tier": "high",
-     "punsafe": 0.0017743408679962158,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Fom Scorchy Smith by Noel Sickles",
      "imageUrl": "https://i.pinimg.com/236x/13/db/44/13db441fd3ae01c6b69b6397f554856a.jpg",
      "keyword": "scorchy smith",
      "tier": "high",
      "punsafe": 0.003526031970977783,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"Stop right where y'are\"\"\"\" - Scorchy Smith by Noel Sickles\"\"\"",
-     "imageUrl": "https://i.pinimg.com/236x/72/f3/f4/72f3f4c4724dc9519c01e2f389f99054.jpg",
-     "keyword": "scorchy smith",
-     "tier": "high",
-     "punsafe": 0.004111647605895996,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1074,20 +1046,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Scorchy Smith and the Art of Noel Sickles by Noel Sickles, Jim Steranko, Dean Mullaney, Bruce Canwell",
-     "imageUrl": "https://images.thestorygraph.com/sq7pxdqrn2eofnl4266yct7cysg1",
-     "keyword": "scorchy smith",
-     "tier": "high",
-     "punsafe": 0.004999309778213501,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1098,9 +1056,8 @@
     "Noel Sickles Scorchy Smith Comic Strip Reprint book",
     "SCORCHY SMITH - Vol 2 - PARTNERS IN DANGER by Noel Sickles",
     "Scorchy Smith's Adventure Comic Strip Style Legacy",
-    "Scorchy Smith And The Art Of Noel Sickles by Noel Sickles (2008-07-30)",
     "Fom Scorchy Smith by Noel Sickles",
-    "\"\"\"\"\"\"\"Stop right where y'are\"\"\"\" - Scorchy Smith by Noel Sickles\"\"\""
+    "SCORCHY SMITH - Vol 2 - PARTNERS IN DANGER by Noel Sickles"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1699,14 +1656,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 234
   },
-  "evidenceShown": 40,
+  "evidenceShown": 37,
   "evidenceWithheld": {
    "unverified": 144,
    "person_photo": 11,
    "unrelated": 9,
    "storefront": 9,
    "merchandise": 4,
-   "derivative": 1
+   "derivative": 1,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

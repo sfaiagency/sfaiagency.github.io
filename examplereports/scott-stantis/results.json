@@ -438,20 +438,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "The Frontrunner by Scott Stantis",
-     "imageUrl": "https://i0.wp.com/leftcall.com/wp-content/uploads/2012/03/cartoon031012.jpg?resize=544%2C400&amp;ssl=1",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 0.00040459632873535156,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -463,8 +449,7 @@
     "Stantis, Scott \u2013 Color Editorial Cartoon \u2013 20200804edstc-a.tif",
     "Cartoon by Scott Stantis: 2015",
     "The Frontrunner by Scott Stantis",
-    "SCOTT STANTIS / Chicago Tribune",
-    "The Frontrunner by Scott Stantis"
+    "SCOTT STANTIS / Chicago Tribune"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2296,7 +2281,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 65,
+  "evidenceShown": 64,
   "evidenceWithheld": {
    "unverified": 564,
    "not_flat_art": 62,
@@ -2304,7 +2289,8 @@
    "derivative": 18,
    "person_photo": 79,
    "merchandise": 29,
-   "unrelated": 7
+   "unrelated": 7,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

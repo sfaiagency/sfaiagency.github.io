@@ -1127,20 +1127,6 @@
      }
     },
     {
-     "text": "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press",
-     "imageUrl": "https://www.kentstateuniversitypress.com/wp-content/uploads/2018/10/Batiuk_Funky8-hr.jpg",
-     "keyword": "funky winkerbean",
-     "tier": "high",
-     "punsafe": 0.002487003803253174,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
      "imageUrl": "https://photos.smugmug.com/photos/i-LPz33nC/0/XL/i-LPz33nC-XL.jpg",
      "keyword": "john darling",
@@ -1160,20 +1146,6 @@
      "keyword": "funky winkerbean",
      "tier": "high",
      "punsafe": 0.00014579296112060547,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns",
-     "imageUrl": "https://i2.wp.com/television.laurelgreen.com/wp-content/uploads/2013/11/michael-john-hipster-guns.png?fit=640%2C359&quality=100&ssl=1",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.003165990114212036,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1239,34 +1211,6 @@
      }
     },
     {
-     "text": "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns",
-     "imageUrl": "https://i1.wp.com/television.laurelgreen.com/wp-content/uploads/2013/11/michael-john-hipster-guns.png?resize=640%2C359&",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.003165990114212036,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns",
-     "imageUrl": "https://i2.wp.com/television.laurelgreen.com/wp-content/uploads/2013/11/michael-john-hipster-guns.png?resize=640%2C359&quality=100",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.003165990114212036,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Roses in December: A Story of Love and Alzheimer's by Tom Batiuk",
      "imageUrl": "https://kbimages1-a.akamaihd.net/Images/d71532da-612c-4cbb-9a00-92677b53e8d7/140/200/85/false/roses-in-december-3.jpg?altimages=false&amp;scaleup=true&amp;maxheight=515&amp;width=380&amp;method=scale",
      "keyword": "tom batiuk",
@@ -1286,20 +1230,6 @@
      "keyword": "funky winkerbean",
      "tier": "high",
      "punsafe": 0.00020369887351989746,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Emily Yetter (Tinkerbell), Scott Weston (Michael Darling), Ciaran Joyce (Peter Pan), Evelyn Hoskins (Wendy Darling) and Tom Larkin (John Darling) fly off to Neverland in a scene from \"\"Peter Pan\"\". Photo by Kevin Berne\"",
-     "imageUrl": "https://chicagotheaterblog.files.wordpress.com/2011/05/flight-to-neverland_sf-copy_thumb.jpg?w=464&",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.0010844767093658447,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1379,20 +1309,6 @@
      }
     },
     {
-     "text": "a screencap of john darling (played by matt kane) and michael darling (played by james immekus) pointing guns",
-     "imageUrl": "https://i2.wp.com/television.laurelgreen.com/wp-content/uploads/2013/11/michael-john-hipster-guns.png?resize=640%2C359&",
-     "keyword": "john darling",
-     "tier": "high",
-     "punsafe": 0.003165990114212036,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
      "imageUrl": "https://mediacenter.smugmug.com/photos/i-LPz33nC/0/XL/i-LPz33nC-XL.jpg",
      "keyword": "john darling",
@@ -1457,9 +1373,9 @@
     ". John Darling, left, Carlos Tovar, both employees at Frontier Roofing System in east Denver, work on making a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
     "A detail from Ashland artist Deb Van Poolen's painting that's featured on the Klamather River Fishes poster. Photo by John Darling",
     "Roses in December - A Story of Love and Alzheimer's by Tom Batiuk - Ch",
-    "The Complete Funky Winkerbean Volume 8 by Tom Batiuk. Kent State University Press",
     ". Carlos Tovar, left, and John Darling, both employees at Frontier Roofing System in east Denver, put sheet metal on the side of a 14-foot Vince Lombardi Trophy, January, 26 2014.  (Photo by RJ Sangosti/The Denver Post)",
-    "150th anniversary illustration by Tom Batiuk (Funky Winkerbean artist) who is a Medina resident."
+    "150th anniversary illustration by Tom Batiuk (Funky Winkerbean artist) who is a Medina resident.",
+    "\"Emily Yetter (Tinkerbell), Scott Weston (Michael Darling), Ciaran Joyce (Peter Pan), Evelyn Hoskins (Wendy Darling) and Tom Larkin (John Darling) fly off to Neverland in a scene from \"\"Peter Pan\"\". Photo by Kevin Berne\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1583,20 +1499,6 @@
      }
     },
     {
-     "text": "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
-     "imageUrl": "https://www.kentstateuniversitypress.com/wp-content/uploads/2019/09/Batiuk_Funky-9-240x173.jpg",
-     "keyword": "tom batiuk",
-     "tier": "namematch",
-     "punsafe": 0.0005979835987091064,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Lot of Five Funky Winkerbean Reprint Books by Tom Batiuk \u2013 MINT - SCARCE?",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/162941280764_/Lot-of-Five-Funky-Winkerbean-Reprint-Books-by.jpg",
      "keyword": "funky winkerbean",
@@ -1657,7 +1559,6 @@
     "The Complete Funky Winkerbean - Volume 2 - 1975-1977 by Tom Batiuk - 9",
     "Feburary 14 funky winkerbean comic strip",
     "Strike Four! - The Crankshaft Baseball Book by Tom Batiuk - Chuck Ayer",
-    "The Complete Funky Winkerbean Volume 9 by Tom Batiuk. Kent State University Press.",
     "Lot of Five Funky Winkerbean Reprint Books by Tom Batiuk \u2013 MINT - SCARCE?",
     "Delphi Borich (Wendy Darling), S\u00e9amus Gailor (Michael Darling), Matthew Caraccioli (John Darling), and Troy Hussmann (Peter Pan) in PETER PAN rehearsals. Photo by Brenna Merritt.",
     "The Complete Funky Winkerbean by Tom Batiuk",
@@ -2685,7 +2586,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 156705
   },
-  "evidenceShown": 107,
+  "evidenceShown": 100,
   "evidenceWithheld": {
    "person_photo": 131,
    "unverified": 1066,
@@ -2693,7 +2594,8 @@
    "derivative": 29,
    "merchandise": 62,
    "unrelated": 28,
-   "explicit": 4
+   "explicit": 4,
+   "near_duplicate": 7
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -1310,24 +1310,9 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Elizabeth La touche (n\u00e9e Vicars), by John Whitaker - NPG D18415",
-     "imageUrl": "https://collectionimages.npg.org.uk/std/mw70976/Elizabeth-La-touche-ne-Vicars.jpg",
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": 4.0048224036581814e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Elizabeth La touche (n\u00e9e Vicars), by John Whitaker - NPG D18415",
     "Elizabeth La touche (n\u00e9e Vicars), by John Whitaker - NPG D18415"
    ],
    "partial": false,
@@ -1353,20 +1338,6 @@
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 396,
    "rows": [
-    {
-     "text": "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
-     "imageUrl": "https://dxqn7p4scykcf.cloudfront.net/wp-content/uploads/sites/16/2020/04/mrs_peter_la_touche_s.jpg",
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": 8.504543075105175e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
     {
      "text": "The history of Manchester. In four books. By John Whitaker. Volume 2 of 2 - John Whitaker",
      "imageUrl": "https://images.eurolivre.fr/buch/cover/OTc4MTE3MDA5NzQ3MjtodHRwOi8vaW1hZ2VzLmJhcm5lc2FuZG5vYmxlLmNvbS9pbWFnZXMvNzAwNzAwMDAvNzAwNzEyNzEuSlBH.JPG",
@@ -1410,34 +1381,6 @@
      }
     },
     {
-     "text": "York Gate Garden near Leeds. Photo by John Whitaker. Via ...",
-     "imageUrl": "https://i.pinimg.com/originals/8b/06/cd/8b06cd818f095043720ddcb8591dafac.jpg",
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": 0.026796996593475342,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
-     "imageUrl": "https://dxqn7p4scykcf.cloudfront.net/wp-content/uploads/sites/20/cms/m/mrs_peter_la_touche.jpg",
-     "keyword": "john whitaker",
-     "tier": "namematch",
-     "punsafe": 0.00014841556549072266,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The history of Manchester. In four books. By John Whitaker. Volume 1 of 2 - John Whitaker",
      "imageUrl": "https://images.find-more-books.com/buch/cover/OTc4MTE3MDA5NzQ2NTtodHRwOi8vaW1hZ2VzLmJhcm5lc2FuZG5vYmxlLmNvbS9pbWFnZXMvNzAwNzAwMDAvNzAwNzEyNjUuSlBH.JPG",
      "keyword": "john whitaker",
@@ -1453,12 +1396,9 @@
     }
    ],
    "samples": [
-    "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
     "The history of Manchester. In four books. By John Whitaker. Volume 2 of 2 - John Whitaker",
     "Walking the Dog by John Whitaker",
     "The history of Manchester. In four books. By John Whitaker. Volume 2 of 2 - John Whitaker",
-    "York Gate Garden near Leeds. Photo by John Whitaker. Via ...",
-    "Elizabeth La Touche | by John Whitaker, National Portrait Gallery, London",
     "The history of Manchester. In four books. By John Whitaker. Volume 1 of 2 - John Whitaker"
    ],
    "partial": false,
@@ -1992,14 +1932,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 62,
+  "evidenceShown": 58,
   "evidenceWithheld": {
    "unverified": 2230,
    "person_photo": 399,
    "storefront": 90,
    "derivative": 10,
    "merchandise": 75,
-   "unrelated": 17
+   "unrelated": 17,
+   "near_duplicate": 4
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

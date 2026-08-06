@@ -681,25 +681,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "PALMER COX  BUSY BROWNIES  1896  PROMOTIONAL  PLATINUM COMIC BOOK  GIVEAWAY",
-     "imageUrl": "https://thumbs.ebaystatic.com/images/g/kcgAAOSw5cNYFOmK/s-l225.jpg",
-     "keyword": "busy brownies",
-     "tier": "high",
-     "punsafe": 2.9848744816263206e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Palmer Cox Busy Brownies 1896 Promotional Platinum Comic Book Giveaway",
-    "PALMER COX  BUSY BROWNIES  1896  PROMOTIONAL  PLATINUM COMIC BOOK  GIVEAWAY"
+    "Palmer Cox Busy Brownies 1896 Promotional Platinum Comic Book Giveaway"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -873,11 +858,12 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 9
   },
-  "evidenceShown": 2,
+  "evidenceShown": 1,
   "evidenceWithheld": {
    "unverified": 6,
    "merchandise": 1,
-   "storefront": 1
+   "storefront": 1,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

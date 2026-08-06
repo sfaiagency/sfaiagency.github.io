@@ -983,38 +983,10 @@
     },
     {
      "text": "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
-     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/160w/products/7664/70692/Bootsie_1__19743.1631893425.JPG?c=2",
-     "keyword": "ollie harrington",
-     "tier": "high",
-     "punsafe": 0.10573410987854004,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
      "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/original/products/7664/70688/Bootsie_11__83123.1550167902.JPG?c=2",
      "keyword": "ollie harrington",
      "tier": "high",
      "punsafe": 2.2728614567313343e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
-     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/original/products/7664/70692/Bootsie_1__19743.1550167903.JPG?c=2",
-     "keyword": "ollie harrington",
-     "tier": "high",
-     "punsafe": 0.005612850189208984,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1078,32 +1050,15 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
-     "imageUrl": "https://cdn11.bigcommerce.com/s-5sppbk3px9/images/stencil/160w/products/7664/70692/Bootsie_1__19743.1550170036.JPG?c=2",
-     "keyword": "ollie harrington",
-     "tier": "high",
-     "punsafe": 0.10573410987854004,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
     "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
     "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
-    "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
-    "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
     "SoulShots Folio 1972 Political Cartoon Ollie Harrington Richard Nixon Vietnam #2",
     "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
     "\"\"\"Welcome to the Great Watergate Swamp,\"\" original published art by Ollie Harrington, May 2, 1973\"",
-    "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]",
     "BOOTSIE AND OTHERS, by Ollie Harrington - 1958 [Signed 1st Ed]"
    ],
    "partial": false,
@@ -1418,13 +1373,14 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 21,
+  "evidenceShown": 18,
   "evidenceWithheld": {
    "unverified": 49,
    "derivative": 2,
    "person_photo": 9,
    "storefront": 1,
-   "unrelated": 1
+   "unrelated": 1,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

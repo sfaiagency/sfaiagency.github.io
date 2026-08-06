@@ -325,24 +325,9 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Dorothy McGreal Comic Strip Collection SDCC 2018",
-     "imageUrl": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:350/h:350/q:75/rt:fill/g:ce/https://bleedingcool.com/wp-content/uploads/2018/07/WOCA-2-350x350.jpg",
-     "keyword": "dorothy mcgreal",
-     "tier": "namematch",
-     "punsafe": 0.0030946731567382812,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Dorothy McGreal Comic Strip Collection SDCC 2018",
     "Dorothy McGreal Comic Strip Collection SDCC 2018"
    ],
    "partial": false,
@@ -500,8 +485,10 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 2,
-  "evidenceWithheld": {},
+  "evidenceShown": 1,
+  "evidenceWithheld": {
+   "near_duplicate": 1
+  },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
  "subjectId": "bi-dorothy-mcgreal",

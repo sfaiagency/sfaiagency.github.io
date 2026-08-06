@@ -1970,39 +1970,11 @@
      }
     },
     {
-     "text": "\"\"\"\"\"\"\"9/11/2001,\"\"\"\" by Art Spiegelman and Fran\u00e7oise Mouly\"\"\"",
-     "imageUrl": "https://static.wixstatic.com/media/2a34d8_0f9666c813d746ff86880527e1530515~mv2.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.000341266393661499,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Art Spiegelman; Photo by Enno Kapitza \u2013 Agentur Focus",
      "imageUrl": "https://inside.bard.edu/wwwmedia/images/4475412/2/Art%20Spiegelman%201%20-%20low%20res.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.019066721200942993,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maus I: A Survivor's Tale: My Father Bleeds #History/Art Spiegelman A very good graphic novel based on WW2 , so far. I'm loving it :D",
-     "imageUrl": "https://i.pinimg.com/236x/96/71/fa/9671fad496a36e327e6215e2a677fe8d--fathers-my-father.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 8.047943993005902e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2045,34 +2017,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 3.054850139960763e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic books as history : the narrative art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
-     "imageUrl": "http://coverart.oclc.org/ImageWebSvc/oclc/+-+406865575_140.jpg?SearchOrder=+-+OT,OS,TN,GO,FA",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00010070292046293616,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of the graphic novel Maus by Art Spiegelman",
-     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=68b1591e31d1bb6d25ac2f160a90bfd2",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 8.044959031394683e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2250,20 +2194,6 @@
      }
     },
     {
-     "text": "In the Shadow of No Towers by Art Spiegelman - First Edition 2004 - Political Cartoons, Twin Towers, 9/11",
-     "imageUrl": "https://i.etsystatic.com/14376751/c/1000/794/465/576/il/67452a/1943444498/il_680x540.1943444498_9lkb.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00021752715110778809,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Picture of Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
      "imageUrl": "https://bookshop.canterbury.ac.uk/content/images/thumbs/018/0187012_9780878054060_150.jpeg",
      "keyword": "art spiegelman",
@@ -2306,20 +2236,6 @@
      }
     },
     {
-     "text": "MAUS di Art Spiegelman graphic novel",
-     "imageUrl": "https://www.chelibro.com/wp-content/uploads/2019/05/MAUS-di-Art-Spiegelman-332x488.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 2.287949791934807e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Art Spiegelman writes a harrowing tale of a Holocaust survivor in his graphic novel Maus",
      "imageUrl": "https://i2.wp.com/jamestkelly.com/wp-content/uploads/2012/03/20111114-221011.jpg?resize=178%2C253",
      "keyword": "art spiegelman",
@@ -2339,20 +2255,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.0004565417766571045,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar H\u00f6rbuch von Joseph Witek Gesprochen von: Gabriel Russo",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51FbtvToUlL._SL140_.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00023120641708374023,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2446,39 +2348,11 @@
      }
     },
     {
-     "text": "A New Yorker cover from 1999, drawn by Art Spiegelman. It alludes to the killing of Amadou Diallo, who was shot at 41 times by four officers.",
-     "imageUrl": "https://i.guim.co.uk/img/media/80a162bb9c274a49b8198b6a9c8f929e7aaa516e/0_0_1463_2000/master/1463.jpg?width=445&quality=85&auto=format&fit=max&s=151b74d7722b40a322e690a0e94e34e9",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00022780895233154297,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "graphic novel fumetto periodo d'oro maus art spiegelman",
      "imageUrl": "http://fumetto.fantalica.com/wp-content/uploads/2018/09/81sPZcktobL.jpg",
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 3.039536932192277e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maus I: A Survivor's Tale: My Father Bleeds #History/Art Spiegelman A very good graphic novel based on WW2 , so far. I'm loving it :D",
-     "imageUrl": "https://i.pinimg.com/736x/96/71/fa/9671fad496a36e327e6215e2a677fe8d--fathers-my-father.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 1.6749409041949548e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2507,34 +2381,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.0002512931823730469,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of the graphic novel Maus by Art Spiegelman",
-     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_62_630_379/630.jpg?width=300&quality=85&auto=format&fit=max&s=4dc33619624264ea659f4065afe4c2bc",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 4.4906387302035e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of the graphic novel Maus by Art Spiegelman",
-     "imageUrl": "https://i.guim.co.uk/img/media/28894020a0ae96ff2e45946c3a7f2ec6974207fb/0_0_630_876/master/630.jpg?width=300&quality=85&auto=format&fit=max&s=620ffbba5dafce4d88025d1c4a4d522d",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 1.0155747077078559e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2577,20 +2423,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.0009036064147949219,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Gale Researcher Guide for: Art Spiegelman and the Graphic Novel",
-     "imageUrl": "https://books.google.com/books/content/images/frontcover/tpdqDwAAQBAJ?fife=w150",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 6.943973858142272e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2804,20 +2636,6 @@
      }
     },
     {
-     "text": "Complete Unit for Art Spiegelman's Graphic Novel Maus Vol. 1",
-     "imageUrl": "https://ecdn.teacherspayteachers.com/thumbitem/Complete-Unit-for-Art-Spiegelman-s-Graphic-Novel-Maus-Vol-1-2518264/large-2518264-1.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00027623772621154785,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "City of Glass: The Graphic Novel - Paul Auster, Art Spiegelman, David Mazzucchelli",
      "imageUrl": "http://booklikes.com/photo/max/100/155/upload/books/b/3/azure_b32fbbc80c960ae529909a9052dd87e4.jpg",
      "keyword": "art spiegelman",
@@ -2915,48 +2733,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 0.0009166896343231201,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ART SPIEGELMAN The Complete MAUS Pulitzer Preis Comic englisch graphic novel SC",
-     "imageUrl": "http://thumbs.ebaystatic.com/images/g/QfQAAOSw5dNWp3r3/s-l225.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 2.2642852854914963e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
-     "imageUrl": "http://img.youtube.com/vi/Ob2G_jxPKBU/hqdefault.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.0009166896343231201,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51FbtvToUlL._AC_US218_.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00016796588897705078,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3092,20 +2868,6 @@
      }
     },
     {
-     "text": "\"The cover of Art Spiegelman's graphic novel \"\"Maus\"\"\"",
-     "imageUrl": "https://www.colorado.edu/honorsjournal/sites/default/files/article-image/maus.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 2.2506168534164317e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Will Eisner: Champion of the Graphic Novel - Paul Levitz, Brad Meltzer, Jules Feiffer, Art Spiegelman, Scott McCloud, Jeff Smith, Denis Kitchen, Neil Gaiman",
      "imageUrl": "http://booklikes.com/photo/max/150/0/upload/books/7/e/7eec91dffb25b805a2eb1b9102c49b56.jpg",
      "keyword": "art spiegelman",
@@ -3134,34 +2896,6 @@
      }
     },
     {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81FB6TpQnBL._AC_UL200_SR200,200_.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00032252073287963867,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
-     "imageUrl": "http://img1.imagesbn.com/p/9780878054060_p0_v1_s260x420.JPG",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00013256072998046875,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Comic Books As History: Narrative Art of Jack Jackson, Art Spiegelman, and Pekar",
      "imageUrl": "http://thumbs.ebaystatic.com/images/g/2ssAAOSwal5YLdLu/s-l225.jpg",
      "keyword": "art spiegelman",
@@ -3181,20 +2915,6 @@
      "keyword": "art spiegelman",
      "tier": "high",
      "punsafe": 2.9741549951722845e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar (Unabridged) - Joseph Witek",
-     "imageUrl": "http://is1.mzstatic.com/image/thumb/Music118/v4/b6/15/65/b6156584-7fd8-5054-88fe-77416a2ec416/rm_image.jpg/170x170bb-85.jpg",
-     "keyword": "art spiegelman",
-     "tier": "high",
-     "punsafe": 0.00023552775382995605,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3306,13 +3026,13 @@
     "Art Spiegelman the complete rat\u00f3n Pulitzer precio c\u00f3mic ingl\u00e9s Graphic Novel SC",
     "City of Glass: The Graphic Novel (New York Trilogy): Paul Karasik, David Mazzucchelli, Paul Auster, Art Spiegelman: 9780312423605: Amazon.co...",
     "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
-    "ART SPIEGELMAN The Complete MAUS Pulitzer Preis Comic englisch graphic novel SC",
-    "GRAPHIC NOVEL: Maus (Art Spiegelman) | Leitora na Holanda",
-    "Comic Books as History: The Narrative Art of Jack Jackson, Art Spiegelman, and Harvey Pekar",
     "Art Spiegelman Maus Vol. A Survivor's Tale Published by Pantheon Books (Random House) Random Panel Bd Comics, Free Comics, Art Spiegelman Maus, Book Club Books, Good Books, Bd Art, Shakespeare And Company, Graphic Novel Art, Free Comic Books",
     "Complete MAUS Art Spiegelman World War Two Holocaust Graphic Novel WWII",
     "The Complete Maus..art Spiegelman..pb Ex.. Uk Penguin 2003 1St Ed Graphic Novel",
-    "Chute analysis of form of Maus Maus Art Spiegelman, Underground Comics, Comic Book Artists, Comic Books, Bd Comics, Essay Topics, Comic Page, Graphic Art, Graphic Novels"
+    "Chute analysis of form of Maus Maus Art Spiegelman, Underground Comics, Comic Book Artists, Comic Books, Bd Comics, Essay Topics, Comic Page, Graphic Art, Graphic Novels",
+    "[Graphic Novel]. Art Spiegelman. SIGNED WITH ORIGINAL DRAWING. Maus. A Survivor's Tale. New Yor",
+    "best anja spiegelman images comic books comics  excellent visual critical essay graphic essay analyzing icons in art spiegelman s maus",
+    "Maus-Art Spiegelman- Vols. 1 & 2 -1986 &1991-Pulitzer Graphic Novel-Holocaust"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3971,7 +3691,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 200,
+  "evidenceShown": 180,
   "evidenceWithheld": {
    "unverified": 2716,
    "unrelated": 174,
@@ -3979,7 +3699,8 @@
    "derivative": 41,
    "person_photo": 501,
    "storefront": 203,
-   "explicit": 3
+   "explicit": 3,
+   "near_duplicate": 20
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

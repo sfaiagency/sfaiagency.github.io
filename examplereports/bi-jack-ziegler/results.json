@@ -1430,20 +1430,6 @@
      }
     },
     {
-     "text": "\"It's a poor craftsman, son, who blames his tools.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-it-s-a-poor-craftsman-son-who-blames-his-tools-new-yorker-cartoon_u-l-pgqben0.jpg?w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "New Yorker October 18th, 2004 Drawing by Jack Ziegler",
      "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/177-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
@@ -1474,34 +1460,6 @@
     {
      "text": "A man who has just crawled through the desert reaches a road, where a New ? - New Yorker Cartoon by Jack Ziegler",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-man-who-has-just-crawled-through-the-desert-reaches-a-road-where-a-new-new-yorker-cartoon_u-l-phzs100.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Marlboro billboard on side of highway with the cowboy looking at a limp ci? - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-marlboro-billboard-on-side-of-highway-with-the-cowboy-looking-at-a-limp-ci-new-yorker-cartoon_u-l-pgtz5t0.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"Good news, your majesty. We may already be a winner.\" - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-good-news-your-majesty-we-may-already-be-a-winner-new-yorker-cartoon_u-l-q13629t0.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
      "tier": "high",
      "punsafe": null,
@@ -1863,20 +1821,6 @@
      "keyword": "jack ziegler",
      "tier": "high",
      "punsafe": 0.001131683588027954,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tennis As A Metaphore For The Tri-state Area Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/tennis-as-a-metaphore-for-the-tri-state-area-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.00010508000559639186,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2306,20 +2250,6 @@
      }
     },
     {
-     "text": "\"\"\"\"\"\"\"Objection, Your Honor! Alleged killer whale.\"\"\"\" - New Yorker Cartoon by Jack Ziegler\"\"\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-objection-your-honor-alleged-killer-whale-new-yorker-cartoon_u-l-pgpl4yo3qj6.jpg?src=gp&w=300&h=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.0003666877746582031,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"Dude! I am so not prepared for this!\"\" - New Yorker Cartoon by Jack Ziegler\"",
      "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-dude-i-am-so-not-prepared-for-this-new-yorker-cartoon_u-l-pgsyc20.jpg?src=gp&w=300&h=300",
      "keyword": "jack ziegler",
@@ -2437,20 +2367,6 @@
      "keyword": "jack ziegler",
      "tier": "high",
      "punsafe": 0.0001251697540283203,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Metro-north Is Proud To Announce That This Drawing by Jack Ziegler",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/metro-north-is-proud-to-announce-that-this-jack-ziegler.jpg",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.002186685800552368,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2622,9 +2538,9 @@
     "Hamburger Madness Drawing by Jack Ziegler",
     "London Tube Drawing - Replacing The Burger Tanks At Mr. Big's by Jack Ziegler",
     "A Truck Of Rubble With A Warning On Its Back Greeting Card by Jack Ziegler",
-    "Tennis As A Metaphore For The Tri-state Area Drawing by Jack Ziegler",
     "I Begged Him To Learn How To Swim - But Framed Print by Jack Ziegler",
-    "Marlboro Drawing - New Yorker November 23rd, 1998 by Jack Ziegler"
+    "Marlboro Drawing - New Yorker November 23rd, 1998 by Jack Ziegler",
+    "Spinning Drawing - New Yorker February 19th, 2007 by Jack Ziegler"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2781,20 +2697,6 @@
      "keyword": "jack ziegler",
      "tier": "high",
      "punsafe": 0.008298605680465698,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A dusty robot plugs itself in. - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-a-dusty-robot-plugs-itself-in-new-yorker-cartoon_u-l-pgqu1p0.jpg?artWidth=300&artHeight=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.0057649314403533936,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3078,39 +2980,11 @@
      }
     },
     {
-     "text": "\"\"\"Oh, hell, Artie. Not another farewell tour.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-oh-hell-artie-not-another-farewell-tour-new-yorker-cartoon_u-l-pgssay0.jpg?artWidth=300&artHeight=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.00295180082321167,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "My Philosophy Take 74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
      "imageUrl": "https://cache2.allpostersimages.com/p/MED/65/6593/TEU2100Z/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon.jpg",
      "keyword": "jack ziegler",
      "tier": "high",
      "punsafe": 0.00037220120429992676,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Tenafly International Film Festival - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/jack-ziegler-tenafly-international-film-festival-new-yorker-cartoon_u-l-pgsu8io3qj6.jpg?artWidth=300&artHeight=300",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 5.837332719238475e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3386,20 +3260,6 @@
      }
     },
     {
-     "text": "\"\"\"Good news, your majesty. We may already be a winner.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-good-news-your-majesty-we-may-already-be-a-winner-new-yorker-cartoon_u-L-Q13629T0.jpg?artWidth=300&artHeight=375",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.0001932084560394287,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Folding Chairs Drawing - Tenafly International Film Festival by Jack Ziegler",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/tenafly-international-film-festival-jack-ziegle.jpg",
      "keyword": "jack ziegler",
@@ -3568,39 +3428,11 @@
      }
     },
     {
-     "text": "Costco Floss - New Yorker Cartoon by Jack Ziegler",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/jack-ziegler-costco-floss-new-yorker-cartoon_u-L-PGQVUS0.jpg?artWidth=300&artHeight=375",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 1.774663178366609e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Untitled Framed Print by Jack Ziegler",
      "imageUrl": "http://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/132-untitled-jack-ziegler.jpg",
      "keyword": "jack ziegler",
      "tier": "high",
      "punsafe": 4.0030197851592675e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My Philosophy Take #74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/60/6066/O1ZD100Z/posters/jack-ziegler-my-philosophy-take-74-new-yorker-cartoon.jpg",
-     "keyword": "jack ziegler",
-     "tier": "high",
-     "punsafe": 0.00033655762672424316,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3815,8 +3647,8 @@
     "Tenafly International Film Festival - New Yorker Cartoon by Jack Ziegler",
     "Heathcliff! Oh, Heathcliff!' - New Yorker Cartoon by Jack Ziegler",
     "Captionless - New Yorker Cartoon by Jack Ziegler",
-    "\"\"\"Oh, hell, Artie. Not another farewell tour.\"\" - New Yorker Cartoon by Jack Ziegler\"",
-    "My Philosophy Take 74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler"
+    "My Philosophy Take 74 - New Yorker Cartoon Premium Giclee Print by Jack Ziegler",
+    "New Yorker July 2nd, 2007 Metal Print by Jack Ziegler"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -3931,13 +3763,14 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 200,
+  "evidenceShown": 188,
   "evidenceWithheld": {
    "unverified": 85,
    "derivative": 1,
    "merchandise": 18,
    "person_photo": 2,
-   "storefront": 2
+   "storefront": 2,
+   "near_duplicate": 12
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

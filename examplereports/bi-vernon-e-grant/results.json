@@ -934,24 +934,9 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "The Love Rangers, by Vernon E. Grant.",
-     "imageUrl": "https://chroniclesofharriet.files.wordpress.com/2013/10/manga-10.jpg?w=236&",
-     "keyword": "love rangers",
-     "tier": "high",
-     "punsafe": 0.0001231172209372744,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "The Love Rangers, by Vernon E. Grant.",
     "The Love Rangers, by Vernon E. Grant."
    ],
    "partial": false,
@@ -1205,14 +1190,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 7,
+  "evidenceShown": 6,
   "evidenceWithheld": {
    "unverified": 92,
    "person_photo": 8,
    "merchandise": 27,
    "storefront": 6,
    "explicit": 1,
-   "derivative": 1
+   "derivative": 1,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

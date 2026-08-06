@@ -1886,20 +1886,6 @@
      }
     },
     {
-     "text": "\"\"\"\"\"\"\"Marmaduke\"\"\"\" Drawing Signed by Brad Anderson.\"\"\"",
-     "imageUrl": "https://dygtyjqp7pi0m.cloudfront.net/i/38443/33001451_1m.jpg?v=8D6B87B3F7515F0",
-     "keyword": "marmaduke",
-     "tier": "high",
-     "punsafe": 0.003939181566238403,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Marmaduke Comic Strip, September 17, 2016 on GoComics.com",
      "imageUrl": "https://i.pinimg.com/736x/2a/8a/ba/2a8abacb3acda51c4805f9b6d3b88de0.jpg",
      "keyword": "marmaduke",
@@ -3255,7 +3241,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 5982
   },
-  "evidenceShown": 147,
+  "evidenceShown": 146,
   "evidenceWithheld": {
    "unverified": 4480,
    "storefront": 239,
@@ -3263,7 +3249,8 @@
    "person_photo": 394,
    "derivative": 36,
    "unrelated": 66,
-   "explicit": 12
+   "explicit": 12,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

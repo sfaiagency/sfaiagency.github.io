@@ -1242,20 +1242,6 @@
    "totalIncludingLowConfidence": 1463,
    "rows": [
     {
-     "text": "Babymouse #18: Happy Birthday, Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780307975447",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.009307891130447388,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #14: Mad Scientist by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "http://images.randomhouse.com/cover/9780375865749",
      "keyword": "babymouse",
@@ -1284,39 +1270,11 @@
      }
     },
     {
-     "text": "Babymouse #16: Babymouse for President by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.randomhouse.com/cover/9780375867804",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.00018873810768127441,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "http://images.penguinrandomhouse.com/cover/9780375837982",
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": 0.14239755272865295,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.randomhouse.com/cover/9780375843877",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.009300291538238525,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1340,39 +1298,11 @@
      }
     },
     {
-     "text": "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780375839887",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.007771879434585571,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #10: The Musical by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images4.penguinrandomhouse.com/cover/9780375843884",
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": 0.0017450153827667236,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #13: Cupcake Tycoon by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375965739",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.004371285438537598,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1396,48 +1326,6 @@
      }
     },
     {
-     "text": "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780375939884",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.014203459024429321,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375843877",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.00935092568397522,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of Babymouse graphic novel",
-     "imageUrl": "http://torchbearer.utk.edu/wp-content/uploads/sites/3/2010/07/reading-babymouse.jpg",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0003173947334289551,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #2: Our Hero by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images2.penguinrandomhouse.com/cover/9780375832307",
      "keyword": "babymouse",
@@ -1452,109 +1340,11 @@
      }
     },
     {
-     "text": "Babymouse #14: Mad Scientist by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375865749",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.025400876998901367,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780307979377",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0019668936729431152,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.randomhouse.com/cover/9780375939884",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.013847589492797852,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #10: The Musical by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375937910",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0023772120475769043,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #15: A Very Babymouse Christmas by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375967795",
      "keyword": "babymouse",
      "tier": "high",
      "punsafe": 0.0030491650104522705,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #2: Our Hero by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780307979278",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.013108253479003906,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #20: Babymouse Goes for the Gold by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images2.penguinrandomhouse.com/cover/9780375970993",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.011778295040130615,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #18: Happy Birthday, Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375970979",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.009307891130447388,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1579,16 +1369,15 @@
     }
    ],
    "samples": [
-    "Babymouse #18: Happy Birthday, Babymouse by Jennifer L. Holm and Matthew Holm",
     "Babymouse #14: Mad Scientist by Jennifer L. Holm and Matthew Holm",
     "Babymouse Our Hero by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #16: Babymouse for President by Jennifer L. Holm and Matthew Holm",
     "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
     "Babymouse #1: Queen of the World! by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
     "Babymouse #10: The Musical by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #13: Cupcake Tycoon by Jennifer L. Holm and Matthew Holm"
+    "Matthew Holm, left, signs a copy of one of his Babymouse books for fan Alexandria Rector, right, at Klindt's Booksellers in The Dalles Sept. 19. Holm spoke to local students about what it is like to be an author.\tPhoto by Jade McDowell",
+    "Babymouse #2: Our Hero by Jennifer L. Holm and Matthew Holm",
+    "Babymouse #15: A Very Babymouse Christmas by Jennifer L. Holm and Matthew Holm",
+    "Babymouse #12: Burns Rubber by Jennifer L. Holm and Matthew Holm"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1638,48 +1427,6 @@
    "totalIncludingLowConfidence": 379,
    "rows": [
     {
-     "text": "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375937989",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.1367294192314148,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780375837982",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.14239755272865295,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #19: Bad Babysitter by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images4.penguinrandomhouse.com/cover/9780307975454",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0446191132068634,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm",
      "imageUrl": "https://images4.penguinrandomhouse.com/cover/9780375957123",
      "keyword": "babymouse",
@@ -1692,103 +1439,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "http://images.penguinrandomhouse.com/cover/9780307979377",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0019668936729431152,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9780307979391",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0046107470989227295,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images1.penguinrandomhouse.com/cover/9780307979315",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.007771879434585571,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9780375837982",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.14239755272865295,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images2.penguinrandomhouse.com/cover/9780307979391",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.0046107470989227295,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
-     "imageUrl": "https://images3.penguinrandomhouse.com/cover/9780375939884",
-     "keyword": "babymouse",
-     "tier": "high",
-     "punsafe": 0.014203459024429321,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #19: Bad Babysitter by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #9: Monster Mash by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #5: Heartbreaker by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm",
-    "Babymouse #6: Camp Babymouse by Jennifer L. Holm and Matthew Holm"
+    "Babymouse #11: Dragonslayer by Jennifer L. Holm and Matthew Holm"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2756,7 +2410,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 116,
+  "evidenceShown": 92,
   "evidenceWithheld": {
    "storefront": 96,
    "unverified": 1659,
@@ -2764,7 +2418,8 @@
    "merchandise": 60,
    "person_photo": 157,
    "unrelated": 305,
-   "explicit": 2
+   "explicit": 2,
+   "near_duplicate": 24
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

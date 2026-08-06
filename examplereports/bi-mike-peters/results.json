@@ -2860,20 +2860,6 @@
      }
     },
     {
-     "text": "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://frankkoebsch.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-1.jpg?w=281&h=188",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0006406307220458984,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Cartoonist Mike Peters  Mike Peters' Editorial Cartoons 2013-06-06 defense",
      "imageUrl": "https://www.cartoonistgroup.com/properties/peters/art_images/cg51b1dbe49ecc0.jpg",
      "keyword": "mike peters",
@@ -2907,20 +2893,6 @@
      "keyword": "mike peters",
      "tier": "namematch",
      "punsafe": 0.00877314805984497,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Maler Frank Koebsch zwischen Dr. Thomas F\u00f6rster (r.), dem Leiter des NATUREUMs, und Cornelia Grabow vom Besucherservice. (Foto: Mike Peters/Deutsches Meeresmuseum)",
-     "imageUrl": "https://i0.wp.com/faszinationkraniche.files.wordpress.com/2016/09/maler-frank-koebsch-zwischen-dr-thomas-fc3b6rster-r-dem-leiter-des-natureums-und-cornelia-grabow-1.jpg?w=361&",
-     "keyword": "mike peters",
-     "tier": "namematch",
-     "punsafe": 0.0006631612777709961,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3968,14 +3940,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 200,
+  "evidenceShown": 198,
   "evidenceWithheld": {
    "unverified": 222,
    "storefront": 13,
    "person_photo": 38,
    "merchandise": 22,
    "derivative": 9,
-   "unrelated": 2
+   "unrelated": 2,
+   "near_duplicate": 2
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

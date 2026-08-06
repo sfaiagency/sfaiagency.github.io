@@ -1253,20 +1253,6 @@
      }
     },
     {
-     "text": "WACKY PACKAGES ANS7 FOIL 3 MOSQUITOES SIGNED BY JAY LYNCH",
-     "imageUrl": "https://i.ebayimg.com/images/g/u3UAAOxy3yNTiV-P/s-l500.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 3.8222919101826847e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "2010 Wacky Packages Old School Series 2 Sketch Card By Jay Lynch  - Dunce Guy",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/114120007457_/2010-Wacky-Packages-Old-School-Series-2-Sketch.jpg",
      "keyword": "jay lynch",
@@ -1398,20 +1384,6 @@
      "keyword": "nard n' pat",
      "tier": "high",
      "punsafe": 0.06046092510223389,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "OTTO'S ORANGE DAY by Jay Lynch",
-     "imageUrl": "https://d1ldy8a769gy68.cloudfront.net/180/978/097/992/382/1/9780979923821.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.00048172473907470703,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1596,34 +1568,6 @@
    "totalIncludingLowConfidence": 246,
    "rows": [
     {
-     "text": "Otto's Orange Day by Jay Lynch (Hardback, 2008)",
-     "imageUrl": "https://i.ebayimg.com/images/a/(KGrHqFHJEQF!d5HtvL-BQbdZ1Dlg!~~/s-l140.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.0006992220878601074,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "OTTO'S ORANGE DAY by Jay Lynch",
-     "imageUrl": "https://d3myrwj42s63no.cloudfront.net/180/978/097/992/382/1/9780979923821.jpg",
-     "keyword": "jay lynch",
-     "tier": "namematch",
-     "punsafe": 0.00048172473907470703,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Bijou Funnies No. 6 Comic Book",
      "imageUrl": "https://images.wolfgangsvault.com/m/medium/ZZZ042436-CX/bijou-funnies-no-6-comic-book-1971.jpg",
      "keyword": "bijou funnies",
@@ -1680,53 +1624,11 @@
      }
     },
     {
-     "text": "The Best Of Bijou Funnies Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/m/medium/ZZZ042304-CX/the-best-of-bijou-funnies-comic-book-1981.jpg",
-     "keyword": "bijou funnies",
-     "tier": "high",
-     "punsafe": 0.0009945333003997803,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Nard n' Pat No. 1 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/m/medium/ZZZ036449-CX/nard-n-pat-no-1-comic-book-1974.jpg",
-     "keyword": "nard n' pat",
-     "tier": "high",
-     "punsafe": 0.00022116303443908691,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies/Big Ass Comics Group of 7 (Bijou, 1970s) Condition: Average FN.... (Total: 7 Comic Books)",
      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B1%2F5%2F1%2F4%2F7%2F15147796%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
      "keyword": "bijou funnies",
      "tier": "high",
      "punsafe": 0.0038868486881256104,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bijou Funnies No. 6 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/m/large/ZZZ042436-CX/bijou-funnies-no-6-comic-book-1971.jpg",
-     "keyword": "bijou funnies",
-     "tier": "high",
-     "punsafe": 0.0018552839756011963,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1806,20 +1708,6 @@
      }
     },
     {
-     "text": "Bijou Funnies No. 8 Comic Book",
-     "imageUrl": "https://images.wolfgangsvault.com/images/catalog/thumb/ZZZ036443-CX.jpg",
-     "keyword": "bijou funnies",
-     "tier": "high",
-     "punsafe": 0.006135344505310059,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Bijou Funnies #2 3rd Printing / Underground Comix - Jay Lynch / FN- 5.5",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/143081997885_/Bijou-Funnies-2-3rd-Printing-Underground-Comix.jpg",
      "keyword": "jay lynch",
@@ -1835,16 +1723,16 @@
     }
    ],
    "samples": [
-    "Otto's Orange Day by Jay Lynch (Hardback, 2008)",
-    "OTTO'S ORANGE DAY by Jay Lynch",
     "Bijou Funnies No. 6 Comic Book",
     "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Bijou/Print Mint, 1970s) Condition: Average FN-.... (Total: 4 Comic Books)",
     "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies Group (Print Mint/Kitchen Sink, 1970s) Condition: VG/FN.... (Total: 7 Comic Books)",
     "Bijou Funnies #2 2nd Printing / Underground Comix - Jay Lynch / FN 6.0",
-    "The Best Of Bijou Funnies Comic Book",
-    "Nard n' Pat No. 1 Comic Book",
     "Bronze Age (1970-1979):Alternative/Underground, Bijou Funnies/Big Ass Comics Group of 7 (Bijou, 1970s) Condition: Average FN.... (Total: 7 Comic Books)",
-    "Bijou Funnies No. 6 Comic Book"
+    "Bijou Funnies No. 5 Comic Book",
+    "Otto's Orange Day by Jay Lynch",
+    "Bijou Funnies No. 8 Comic Book",
+    "Bijou Funnies No. 2 Comic Book",
+    "Bijou Funnies No. 8 Comic Book"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2566,14 +2454,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 100,
+  "evidenceShown": 92,
   "evidenceWithheld": {
    "unverified": 933,
    "person_photo": 132,
    "derivative": 33,
    "unrelated": 48,
    "merchandise": 102,
-   "storefront": 59
+   "storefront": 59,
+   "near_duplicate": 8
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -1106,20 +1106,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "'You Are Who You Eat,' THE book of cannibal jokes, with cartoons by Dedini",
-     "imageUrl": "http://inaspawprints.com/images/You_Are_Who_You_Eat_FRONT_COVER_250_web.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1177,20 +1163,6 @@
      "keyword": "eldon dedini",
      "tier": "namematch",
      "punsafe": 4.522474409895949e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Today I'm going to be unaware, uninvolved, uncommitted, and self-centered - New Yorker Cartoon Premium Giclee Print by Eldon Dedini\"",
-     "imageUrl": "http://cache2.allpostersimages.com/p/MED/95/9582/WJZ2500Z/posters/eldon-dedini-today-i-m-going-to-be-unaware-uninvolved-uncommitted-and-self-centered-new-yorker-cartoon.jpg",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 0.00327947735786438,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1592,20 +1564,6 @@
      }
     },
     {
-     "text": "'You Are Who You Eat,' THE book of cannibal jokes, with cartoons by Dedini",
-     "imageUrl": "https://inaspawprints.com/images/You_Are_Who_You_Eat_FRONT_COVER_250_web.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": 0.0012636780738830566,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "(a Rather Unhappy-looking Man Sits On A Sofa With His Hands Folded) Psychology Greeting Card featuring the drawing While He Was In Paris by Eldon Dedini",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/default/greeting-card/images-medium-5/while-he-was-in-paris-eldon-dedin.jpg?&targetx=160&targety=25%E2%84%91width=380%E2%84%91height=450&modelwidth=700&modelheight=500&backgroundcolor=ffffff%E2%88%A8ientation=0",
      "keyword": "eldon dedini",
@@ -1970,20 +1928,6 @@
      }
     },
     {
-     "text": "\"A Soviet store lists its other locations: \"\"Moscow, Leningrad, Odessa, Pari?\"\" - New Yorker Cartoon by Eldon Dedini\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/eldon-dedini-a-soviet-store-lists-its-other-locations-moscow-leningrad-odessa-pari-new-yorker-cartoon_u-l-pgtp4q0.jpg?src=gp&w=300&h=300",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 0.001087099313735962,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "'man Who Has Been Everywhere And Is Still Going' Framed Print by Eldon Dedini",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/man-who-has-been-everywhere-and-is-still-going-eldon-dedini.jpg",
      "keyword": "eldon dedini",
@@ -2001,14 +1945,14 @@
    "samples": [
     "Today I'm Going To Be Unaware Galaxy S4 Case by Eldon Dedini",
     "A leaping deer with a deer-crossing sign that shows a silhouette of a deer\u2026 - New Yorker Cartoon Premium Giclee Print by Eldon Dedini",
-    "\"\"\"Today I'm going to be unaware, uninvolved, uncommitted, and self-centered - New Yorker Cartoon Premium Giclee Print by Eldon Dedini\"",
     "The Art of Assemblage (SIGNED by Eldon Dedini). William C. Seitz.",
     "\"\"\"Your mother was young and restless and knew what she wanted.  She wanted \u2026\"\" - New Yorker Cartoon Premium Giclee Print by Eldon Dedini\"",
     "Discovered Drawing - Marco Polo Discovers Monosodium Glutamate by Eldon Dedini",
     "\"\"\"Even my childhood dreams were of tax cuts.\"\" - New Yorker Cartoon Stretched Canvas Print by Eldon Dedini\"",
     "License Plate Drawing - New Yorker August 15th, 1988 by Eldon Dedini",
     "Large words printed on museum floor read, 'Visit Our Gift Shop.' - New Yorker Cartoon Premium Giclee Print by Eldon Dedini",
-    "&quot;Guess where my Guccis took me today.&quot; - New Yorker Cartoon Premium Giclee Print by Eldon Dedini"
+    "&quot;Guess where my Guccis took me today.&quot; - New Yorker Cartoon Premium Giclee Print by Eldon Dedini",
+    "\"\"\"My people will get back to your people.\"\" - New Yorker Cartoon Premium Giclee Print by Eldon Dedini\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2049,20 +1993,6 @@
     },
     {
      "text": "Cartoons by Dedini New Years Toasts 1950",
-     "imageUrl": "http://productimages.goantiques.gemr.s3.amazonaws.com/45407/3548897_thumbnail.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": 0.0003847479820251465,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoons by Dedini New Years Toasts 1950",
      "imageUrl": "https://s3.amazonaws.com/productimages.goantiques.gemr/45407/3548898_thumbnail.jpg",
      "keyword": "dedini",
      "tier": "high",
@@ -2074,55 +2004,9 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Cartoons by Dedini New Years Toasts 1950",
-     "imageUrl": "https://s3.amazonaws.com/productimages.goantiques.gemr/45407/3548897_fullsize.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": 0.001355499029159546,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoons by Dedini New Years Toasts 1950",
-     "imageUrl": "https://s3.amazonaws.com/productimages.goantiques.gemr/45407/3548898_fullsize.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": 0.00024002790451049805,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cartoons by Dedini New Years Toasts 1950",
-     "imageUrl": "http://productimages.goantiques.gemr.s3.amazonaws.com/45407/3548897_detail.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": 0.0004742145538330078,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Cartoons by Dedini New Years Toasts 1950",
-    "Cartoons by Dedini New Years Toasts 1950",
-    "Cartoons by Dedini New Years Toasts 1950",
-    "Cartoons by Dedini New Years Toasts 1950",
     "Cartoons by Dedini New Years Toasts 1950",
     "Cartoons by Dedini New Years Toasts 1950"
    ],
@@ -2360,20 +2244,6 @@
      }
     },
     {
-     "text": "Cartoon By Dedini Broken Foot 1949",
-     "imageUrl": "http://productimages.goantiques.gemr.s3.amazonaws.com/45407/3548805_fullsize.jpg",
-     "keyword": "dedini",
-     "tier": "high",
-     "punsafe": 7.588229345856234e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "New Yorker July 12th, 1952 Greeting Card by Eldon Dedini",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/medium/greeting-card/images-medium-5/new-yorker-july-12th-1952-eldon-dedini.jpg?&targetx=50&targety=99&imagewidth=400&imageheight=501&modelwidth=500&modelheight=700&backgroundcolor=ffffff&orientation=1",
      "keyword": "eldon dedini",
@@ -2472,20 +2342,6 @@
      }
     },
     {
-     "text": "\"\"\"No matter how I treated you, Julia, haunting a man at golf is hitting bel?\"\" - New Yorker Cartoon by Eldon Dedini\"",
-     "imageUrl": "https://imgc.allpostersimages.com/img/posters/eldon-dedini-no-matter-how-i-treated-you-julia-haunting-a-man-at-golf-is-hitting-bel-new-yorker-cartoon_u-L-PGPI010.jpg?artWidth=300&artHeight=375",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 0.0002218484878540039,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Stop Sign Canvas Print - New Yorker November 9th, 1987 by Eldon Dedini",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/canvas-print/mirror/break/images-medium-5/new-yorker-november-9th-1987-eldon-dedini-canvas-print.jpg",
      "keyword": "eldon dedini",
@@ -2547,20 +2403,6 @@
      "keyword": "eldon dedini",
      "tier": "namematch",
      "punsafe": 6.712254253216088e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "New Yorker June 16th, 1997 Drawing by Eldon Dedini",
-     "imageUrl": "https://images.fineartamerica.com/images-medium-large-5/new-yorker-june-16th-1997-eldon-dedin.jpg",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 0.0001894533634185791,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2920,34 +2762,6 @@
      }
     },
     {
-     "text": "\"\"\"I was born an urban bird and I'll die an urban bird.\"\" - New Yorker Cartoon by Eldon Dedini\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/eldon-dedini-i-was-born-an-urban-bird-and-i-ll-die-an-urban-bird-new-yorker-cartoon_u-l-pgt4180.jpg?src=gp&w=300&h=300",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 5.3428371757036075e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"A Soviet store lists its other locations: \"\"Moscow, Leningrad, Odessa, Pari?\"\" - New Yorker Cartoon by Eldon Dedini\"",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/eldon-dedini-a-soviet-store-lists-its-other-locations-moscow-leningrad-odessa-pari-new-yorker-cartoon_u-l-pgtp4p0.jpg?artWidth=300&artHeight=300",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 0.0008841156959533691,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "New Yorker June 16th, 1997 Poster by Eldon Dedini",
      "imageUrl": "https://render.fineartamerica.com/images/rendered/search/poster/images-medium-5/new-yorker-june-16th-1997-eldon-dedin.jpg",
      "keyword": "eldon dedini",
@@ -2967,20 +2781,6 @@
      "keyword": "eldon dedini",
      "tier": "namematch",
      "punsafe": 1.797312688722741e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Moonrise, East Dudley, Rhode Island, July 1988 - New Yorker Cartoon by Eldon Dedini",
-     "imageUrl": "https://imgc.artprintimages.com/img/print/eldon-dedini-moonrise-east-dudley-rhode-island-july-1988-new-yorker-cartoon_u-l-pgtwnj0.jpg?src=gp&w=300&h=300",
-     "keyword": "eldon dedini",
-     "tier": "namematch",
-     "punsafe": 4.6162440412444994e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -3180,7 +2980,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 145,
+  "evidenceShown": 131,
   "evidenceWithheld": {
    "storefront": 46,
    "unverified": 396,
@@ -3188,7 +2988,8 @@
    "merchandise": 13,
    "unrelated": 6,
    "derivative": 8,
-   "explicit": 4
+   "explicit": 4,
+   "near_duplicate": 14
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

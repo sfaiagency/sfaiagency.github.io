@@ -1267,20 +1267,6 @@
      }
     },
     {
-     "text": "Road Kill in the Closet by Jan Eliot",
-     "imageUrl": "http://d2arxad8u2l0g7.cloudfront.net/books/1388899420l/623450.jpg",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.0026983022689819336,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Stone Soup by Jan Eliot",
      "imageUrl": "https://assets.amuniversal.com/bd7506b0b0550130dc1e001dd8b71c47",
      "keyword": "jan eliot",
@@ -1314,20 +1300,6 @@
      "keyword": "jan eliot",
      "tier": "namematch",
      "punsafe": 0.0006350576877593994,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bestselling Comics (2007) - Desperate Households: A Stone Soup Collection (Stone Soup) by Jan Eliot",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2007/1146-1.jpg",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.010228216648101807,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1941,20 +1913,6 @@
      }
     },
     {
-     "text": "Las Hermanas Stone by Jan Eliot on Sun, 01 Dec 2019",
-     "imageUrl": "https://assets.amuniversal.com/1fb1e0d0e3f20137cd6e005056a9545d",
-     "keyword": "jan eliot",
-     "tier": "namematch",
-     "punsafe": 0.014931827783584595,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Las Hermanas Stone by Jan Eliot for October 14, 2018",
      "imageUrl": "https://assets.amuniversal.com/1e8b06909e93013657be005056a9545d",
      "keyword": "jan eliot",
@@ -2090,8 +2048,8 @@
     "Las Hermanas Stone by Jan Eliot on Sun, 05 Jan 2020",
     "Las Hermanas Stone by Jan Eliot on Sun, 10 Oct 2021",
     "Las Hermanas Stone by Jan Eliot on Sun, 24 Oct 2021",
-    "Las Hermanas Stone by Jan Eliot on Sun, 01 Dec 2019",
-    "Las Hermanas Stone by Jan Eliot for October 14, 2018"
+    "Las Hermanas Stone by Jan Eliot for October 14, 2018",
+    "Las Hermanas Stone by Jan Eliot on Sun, 08 Dec 2019"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2362,7 +2320,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 86,
+  "evidenceShown": 83,
   "evidenceWithheld": {
    "merchandise": 3,
    "unverified": 194,
@@ -2370,7 +2328,8 @@
    "storefront": 12,
    "person_photo": 13,
    "explicit": 3,
-   "derivative": 7
+   "derivative": 7,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

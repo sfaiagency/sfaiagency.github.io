@@ -1330,20 +1330,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "I& a great admirer of Dan DeCarlo& work, and Archie comics take me back to the good ol& days like nothing else can. Comics Vintage, Vintage Comic Books, Vintage Cartoon, Cartoon Art, Archie Comics Characters, Archie Comic Books, Comic Books Art, Archie Comics Strips, Archie Comics Veronica",
-     "imageUrl": "https://i.pinimg.com/236x/b3/2f/be/b32fbeec8475e1056f3d8983f746bdb7--sound-effects-archie-comics.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1401,34 +1387,6 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 0.012224584817886353,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cover of Homer, The Happy Ghost #1 (November 1969), art by Dan DeCarlo",
-     "imageUrl": "http://13thdimension.com/wp-content/uploads/2014/01/homer01.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.00012270368461031467,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Panel from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.",
-     "imageUrl": "http://13thdimension.com/wp-content/uploads/2014/01/homer03b.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.00012752413749694824,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1541,20 +1499,6 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 0.0003293752670288086,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Archie by Dan DeCarlo",
-     "imageUrl": "http://d.gr-assets.com/books/1343713421l/10730.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.009356498718261719,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1681,20 +1625,6 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 0.02942568063735962,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"The ghost of \"\"Dum-Dum\"\" Dugan? Panels from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.\"",
-     "imageUrl": "https://13thdimension.com/wp-content/uploads/2014/01/homer06.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 1.0373546501796227e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1844,20 +1774,6 @@
      }
     },
     {
-     "text": "\"\"\"Model sheets by Dan Decarlo for Penthouse magazines \"\"\"\"Pets\"\"\"\" cartoon strip.\"\"\"",
-     "imageUrl": "https://i.pinimg.com/736x/97/fb/22/97fb22ccca83b947a6b018fdfcc34f4a.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.31410861015319824,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "FS Pep 157 Complete 6 Page Story By Dan DeCarlo Rudy",
      "imageUrl": "https://cafart.r.worldssl.net/images/Category_13344/subcat_169608/pep157p5.jpg",
      "keyword": "dan decarlo",
@@ -1905,20 +1821,6 @@
      "keyword": "dan decarlo",
      "tier": "namematch",
      "punsafe": 0.001115351915359497,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "TO MILLIE, MUSIC IS THE END. art by Dan DeCarlo",
-     "imageUrl": "https://i.pinimg.com/736x/37/8f/32/378f32295d8cd78d04229c60b4cb97a3.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.0025810301303863525,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -2015,14 +1917,14 @@
    "samples": [
     "Betty and Veronica Spectacular Archie Betty And Veronica, Archie Comics Riverdale, Archie Comic Books, Archie Jughead, Dan Decarlo, Josie And The Pussycats, Comic Boards, Archie Andrews, Pop Art",
     "Original Comic Art:Illustrations, Dan DeCarlo Humorama July-1957 Gag Cartoon Illustration Original Art (Timely Features/Humorama, 1957). ...",
-    "Cover of Homer, The Happy Ghost #1 (November 1969), art by Dan DeCarlo",
-    "Panel from Homer, The Happy Ghost #1 (November 1969), script by Stan Lee, art by Dan DeCarlo.",
     "Sabrina the Teenage Witch from Archie's Madhouse nr 22 (1962) by Dan DeCarlo (art) and George Gladir.",
     "Archie: The Best of Dan Decarlo v. 1 by Dan DeCarlo",
     "\"\"\"Why are you chasing Veronica?\"\"\"\" \"\"\"\"The Obstacle\"\"\"\" in Archie's Girls Betty and Veronica December art by Dan DeCarlo\"\"\"",
     "Archie - by Dan DeCarlo - lot of 24 color Sunday comic pages - early 1978",
     "Archie - by Dan DeCarlo - lot of 23 color Sunday comic pages - early 1979",
-    "\"Read \"\"World of Archie Double Digest by Various available from Rakuten Kobo. Dilton in Vidiots Delight Boy genius Dilton puts his imagination to the video gaming test as he tries out his new intera. Archie Comics Characters, Archie Comic Books, Female Characters, Old Comics, Vintage Comics, Bulldog"
+    "\"Read \"\"World of Archie Double Digest by Various available from Rakuten Kobo. Dilton in Vidiots Delight Boy genius Dilton puts his imagination to the video gaming test as he tries out his new intera. Archie Comics Characters, Archie Comic Books, Female Characters, Old Comics, Vintage Comics, Bulldog",
+    "MELODY'S FASHIONS. Occasionally featured in the comic, these pages showed off Dan DeCarlo's pretty drawing style and sense of fashion drawing (readers often suggested the designs). Archie Comics Characters, Archie Comic Books, Vintage Comic Books, Vintage Comics, Comic Books Art, Comic Art, Archie C",
+    "Reggie And Me #111, January 1979, cover by Dan DeCarlo"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2235,20 +2137,6 @@
      }
     },
     {
-     "text": "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
-     "imageUrl": "http://13thdimension.com/wp-content/uploads/2014/01/homer04.jpg",
-     "keyword": "dan decarlo",
-     "tier": "namematch",
-     "punsafe": 0.0005967020988464355,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Veronica by Dan DeCarlo comic books comics Comic Books Art, Comic Art, Archie Comics Veronica, Comic Character, Character Design, Pop Art, Dan Decarlo, Betty & Veronica, Sexy Cartoons",
      "imageUrl": "https://i.pinimg.com/236x/3f/29/f2/3f29f2cf28a8d89bb53d9311807096ae.jpg",
      "keyword": "dan decarlo",
@@ -2310,7 +2198,6 @@
     "Archie Sunday Page 6-16-91 Original art - Dan DeCarlo, Marriage",
     "Pinup art of Cheryl Blossom by Dan Decarlo himself Archie Comic Books, Vintage Comic Books, Comic Book Characters, Vintage Comics, Cartoon Girl Drawing, Girl Cartoon, Cheryl Blossom Comics, Archie Comics Riverdale, Comic Book Girl",
     "G.i. Joe 18-100 Pg Golden Age War-Norm Saunders-Wendy Waf By Dan Decarlo-Reprint",
-    "Atlas-era Homer. Left: Homer, the Happy Ghost #19 (May 1958), art by Dan DeCarlo. Right: Adventures of Homer Ghost #2 (August 1957), art by Tony DiPreta.",
     "Veronica by Dan DeCarlo comic books comics Comic Books Art, Comic Art, Archie Comics Veronica, Comic Character, Character Design, Pop Art, Dan Decarlo, Betty & Veronica, Sexy Cartoons",
     "Original Comic Art:Comic Strip Art, Dan DeCarlo - Original Comic Strip Art for Archie Daily, dated6-9-82 (King Features, 1982). A cute four-panel gag strip fea...",
     "The Proud Beauty trope as used in popular culture. Vintage Comics, Vintage Posters, Vintage Art, Archie Comics Veronica, Blueberry Girl, Archie Comics Riverdale, Archie Comic Books, Dan Decarlo, Children's Comics",
@@ -3338,7 +3225,7 @@
    "thirdPartyPropertyMentions": 67873,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 153,
+  "evidenceShown": 145,
   "evidenceWithheld": {
    "unverified": 627,
    "unrelated": 25,
@@ -3346,7 +3233,8 @@
    "storefront": 92,
    "derivative": 30,
    "merchandise": 22,
-   "explicit": 5
+   "explicit": 5,
+   "near_duplicate": 8
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

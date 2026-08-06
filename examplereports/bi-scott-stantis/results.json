@@ -1198,20 +1198,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "The Frontrunner by Scott Stantis",
-     "imageUrl": "https://i0.wp.com/leftcall.com/wp-content/uploads/2012/03/cartoon031012.jpg?resize=544%2C400&amp;ssl=1",
-     "keyword": "scott stantis",
-     "tier": "namematch",
-     "punsafe": 0.00040459632873535156,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1219,8 +1205,7 @@
     "Political Cartoons by Scott Stantis",
     "Cartoon by Scott Stantis: 2015",
     "The Frontrunner by Scott Stantis",
-    "SCOTT STANTIS / Chicago Tribune",
-    "The Frontrunner by Scott Stantis"
+    "SCOTT STANTIS / Chicago Tribune"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1787,7 +1772,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 47,
+  "evidenceShown": 46,
   "evidenceWithheld": {
    "not_flat_art": 35,
    "unverified": 155,
@@ -1795,7 +1780,8 @@
    "derivative": 1,
    "person_photo": 25,
    "merchandise": 25,
-   "unrelated": 4
+   "unrelated": 4,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

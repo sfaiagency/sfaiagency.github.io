@@ -910,25 +910,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "National Flag and Display produces the Custom Banner being displayed by Howard Siegel (President of National Flag and Display) and his son, Ryan Siegel, celebrating the birthday of Zack Siegel, their son / brother, respectively, at the Summit of Mount Rainier, July 2, 2018!",
-     "imageUrl": "https://nationalflag.com/wp-content/uploads/2018/07/ZackRainier.jpeg",
-     "keyword": "howard siegel",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "National Flag and Display produces the Custom Banner being displayed by Howard Siegel",
-    "National Flag and Display produces the Custom Banner being displayed by Howard Siegel (President of National Flag and Display) and his son, Ryan Siegel, celebrating the birthday of Zack Siegel, their son / brother, respectively, at the Summit of Mount Rainier, July 2, 2018!"
+    "National Flag and Display produces the Custom Banner being displayed by Howard Siegel"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1130,14 +1115,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 3,
+  "evidenceShown": 2,
   "evidenceWithheld": {
    "person_photo": 19,
    "unverified": 60,
    "derivative": 6,
    "unrelated": 2,
    "storefront": 4,
-   "merchandise": 3
+   "merchandise": 3,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -997,20 +997,6 @@
      }
     },
     {
-     "text": "T.H.U.N.D.E.R. Agents Classics Volume 1 by Larry Ivie (2013-08-27)",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/516qaZ9YIXL._SL160_.jpg",
-     "keyword": "larry ivie",
-     "tier": "namematch",
-     "punsafe": 0.000600963830947876,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "SATA ILLUSTRATED (SATYR COMICS) #14 FANZINE (1963) LARRY IVIE/GEORGE BARR/TARZAN",
      "imageUrl": "http://d1g4sq00ps2bp3.cloudfront.net/img/_categories/_images/Fanzines/fanzine_satyr14.jpg",
      "keyword": "larry ivie",
@@ -1037,29 +1023,13 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Castle Of Frankenstein, Issue 5 Cover (1964)Art by Larry Ivie",
-     "imageUrl": "https://lh6.googleusercontent.com/proxy/qLJwPfGqvcXALv5ErGerW2_aT5Hz8vGi4V7ToAnazSUBqJV36MYx5Sc3SUkQGveF0CxVGWv8C366dkRp2NI0x_oT6t7CPcw5rM3c9RswpAyUWr4=s0-d",
-     "keyword": "larry ivie",
-     "tier": "namematch",
-     "punsafe": 0.00013619661331176758,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "T.H.U.N.D.E.R. Agents Classics Volume 1 by Larry Ivie and Len Brown",
     "Castle Of Frankenstein, Issue 5 Cover (1964)Art by Larry Ivie",
-    "T.H.U.N.D.E.R. Agents Classics Volume 1 by Larry Ivie (2013-08-27)",
     "SATA ILLUSTRATED (SATYR COMICS) #14 FANZINE (1963) LARRY IVIE/GEORGE BARR/TARZAN",
-    "SATA ILLUSTRATED #13 FANZINE (1961) LARRY IVIE / ROGER BRAND / ROY KRENKEL",
-    "Castle Of Frankenstein, Issue 5 Cover (1964)Art by Larry Ivie"
+    "SATA ILLUSTRATED #13 FANZINE (1961) LARRY IVIE / ROGER BRAND / ROY KRENKEL"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1333,14 +1303,15 @@
    "thirdPartyPropertyMentions": 3492,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 15,
+  "evidenceShown": 13,
   "evidenceWithheld": {
    "unverified": 66,
    "storefront": 7,
    "derivative": 7,
    "person_photo": 13,
    "unrelated": 2,
-   "explicit": 1
+   "explicit": 1,
+   "near_duplicate": 2
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -996,25 +996,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Bestselling Movies (2008) - The Little Mermaid II: Return to the Sea [Special Edition] by Jim Kammerud;Brian",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-movies-2008/190-6.jpg",
-     "keyword": "jim kammerud",
-     "tier": "namematch",
-     "punsafe": 0.0033552944660186768,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Directed by Jim Kammerud, Brian Smith. With Barry Bostwick, Jason  Alexander, Martin Short, Bobby Lockwood.\u2026   Disney movie night, Publicity  campaign, 101 dalmatians",
-    "Bestselling Movies (2008) - The Little Mermaid II: Return to the Sea [Special Edition] by Jim Kammerud;Brian"
+    "Directed by Jim Kammerud, Brian Smith. With Barry Bostwick, Jason  Alexander, Martin Short, Bobby Lockwood.\u2026   Disney movie night, Publicity  campaign, 101 dalmatians"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1303,14 +1288,15 @@
    "thirdPartyPropertyMentions": 1426,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 13,
+  "evidenceShown": 12,
   "evidenceWithheld": {
    "unverified": 60,
    "storefront": 6,
    "derivative": 2,
    "person_photo": 7,
    "unrelated": 5,
-   "merchandise": 7
+   "merchandise": 7,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

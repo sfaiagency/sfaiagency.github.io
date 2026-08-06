@@ -1039,20 +1039,6 @@
      }
     },
     {
-     "text": "Children's Letters to God: The New Collection by Stuart Hample (Hardback, 1991)",
-     "imageUrl": "https://i.ebayimg.com/images/g/hbcAAOSwWxNYwHOO/s-l140.jpg",
-     "keyword": "children's letters to god",
-     "tier": "high",
-     "punsafe": 6.42024606349878e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Stuart Hample Dread and Superficiality: Woody Allen as Comic Strip",
      "imageUrl": "http://ecx.images-amazon.com/images/I/41tMcY6uDRL._SL160_.jpg",
      "keyword": "stuart hample",
@@ -1086,34 +1072,6 @@
      "keyword": "stuart hample",
      "tier": "namematch",
      "punsafe": 0.005205303430557251,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Children's Letters to God by Stuart Hample",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2624/0972/articles/Children_s_Letters_to_God_by_Stuart_Hample_1024x1024.jpg?v=1518567379",
-     "keyword": "children's letters to god",
-     "tier": "high",
-     "punsafe": 0.00010342554014641792,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Image for Non-Being and Somethingness Selections from the Comic Strip Inside Woody Allen",
-     "imageUrl": "https://www.theridgebooks.com/assets/images/product/ad071a45bc4c0a9abb2030bfd02aecf7.jpg",
-     "keyword": "inside woody allen",
-     "tier": "high",
-     "punsafe": 0.00025200843811035156,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1165,20 +1123,6 @@
      }
     },
     {
-     "text": "Non-being and somethingness: Selections from the comic strip INSIDE WOODY ALLEN (0394735900) by Woody Allen",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/51RjgYGrfxL._SL160_.jpg",
-     "keyword": "inside woody allen",
-     "tier": "high",
-     "punsafe": 2.8186339477542788e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Inside Woody Allen Selections From The Comic Strip by Stuart E. Hample",
      "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1256853439l/272119.jpg",
      "keyword": "inside woody allen",
@@ -1193,39 +1137,11 @@
      }
     },
     {
-     "text": "Childrens Letters to God by Stuart Hample, Eric Marshall",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/AJEAAOSwcB5ZMMzM/s-l200.jpg",
-     "keyword": "stuart hample",
-     "tier": "namematch",
-     "punsafe": 6.539704190799966e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Cover of: Children's letters to God | compiled by Stuart Hample and Eric Marshall ; illustrated by Tom Bloom.",
      "imageUrl": "https://covers.openlibrary.org/b/id/6471866-M.jpg",
      "keyword": "children's letters to god",
      "tier": "high",
      "punsafe": 4.2923369619529694e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dread and Superficiality by Stuart Hample",
-     "imageUrl": "http://i.shopmania.org/180x180/3/3e/3ed9849bccae79a1072fb9dfebfae970066c24a9.jpg?u=https%3A%2F%2Fd3by36x8sj6cra.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F8109%2F9780810957428.jpg",
-     "keyword": "stuart hample",
-     "tier": "namematch",
-     "punsafe": 0.005205303430557251,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1254,20 +1170,6 @@
      "keyword": "inside woody allen",
      "tier": "high",
      "punsafe": 0.002216905355453491,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Dread and Superficiality by Stuart Hample",
-     "imageUrl": "http://i.shopmania.org/180x180/6/63/63a233a9dd6217f5ddb08beb9418ccbf8cab09a3.jpg?u=https%3A%2F%2Fd39ttiideeq0ys.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9780%2F8109%2F9780810957428.jpg",
-     "keyword": "stuart hample",
-     "tier": "namematch",
-     "punsafe": 0.005205303430557251,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1347,20 +1249,6 @@
      }
     },
     {
-     "text": "Inside Woody Allen Selections From The Comic Strip by Stuart E. Hample",
-     "imageUrl": "http://d.gr-assets.com/books/1256853439l/272119.jpg",
-     "keyword": "inside woody allen",
-     "tier": "high",
-     "punsafe": 0.0004653036594390869,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "'Inside Woody Allen,' a comic strip from 1976-84: WoodyA9.jpg",
      "imageUrl": "https://www.juxtapoz.com/media/k2/galleries/51154/WoodyA9.jpg",
      "keyword": "inside woody allen",
@@ -1381,11 +1269,11 @@
     "'Inside Woody Allen,' a comic strip from 1976-84: WoodyA5.jpg",
     "Non-Being and Somethingness: Selections from the Comic Strip Inside Woody Allen",
     "Inside Woody Allen: Selections from the Comic Strip",
-    "Children's Letters to God: The New Collection by Stuart Hample (Hardback, 1991)",
     "Stuart Hample Dread and Superficiality: Woody Allen as Comic Strip",
     "You Stink! I Love You: From Brothers and Sisters, of Course by Stuart Hample",
     "Dread and Superficiality by Stuart Hample",
-    "Children's Letters to God by Stuart Hample"
+    "Cover of: Non-being and somethingness: selections from the comic strip Inside Woody Allen",
+    "'Inside Woody Allen' comic strip, 1978"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1466,20 +1354,6 @@
      }
     },
     {
-     "text": "Children's Letters to God by Stuart Hample (1991-03-01)",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51DG8ktW5iL._SL160_.jpg",
-     "keyword": "children's letters to god",
-     "tier": "high",
-     "punsafe": 1.1981295756413601e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A panel from Stuart Hample's Inside Woody Allen comic strip",
      "imageUrl": "https://s.writework.com/uploads/5/54078/panel-stuart-hample-s-inside-woody-allen-comic-strip-thumb.png",
      "keyword": "inside woody allen",
@@ -1536,20 +1410,6 @@
      }
     },
     {
-     "text": "Grandma, Grandpa And Me by Stuart Hample",
-     "imageUrl": "https://www.qbd.com.au/img/products/0/9780761107675.jpg",
-     "keyword": "stuart hample",
-     "tier": "namematch",
-     "punsafe": 0.00030556321144104004,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Dread & Superficiality: Woody Allen as Comic Strip HC by Stuart Hample",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/202979086075_/Dread-Superficiality-Woody-Allen-as-Comic-Strip.jpg",
      "keyword": "stuart hample",
@@ -1566,12 +1426,10 @@
    ],
    "samples": [
     "Grandma, Grandpa and Me: Stuff Kids Tell Us by Stuart Hample: Used",
-    "Children's Letters to God by Stuart Hample (1991-03-01)",
     "A panel from Stuart Hample's Inside Woody Allen comic strip",
     "A panel from Stuart Hample's Inside Woody Allen comic strip",
     "Image result for inside woody allen comic strip",
     "Dread & Superficiality: Woody Allen as Comic Strip HC by Stuart Hample",
-    "Grandma, Grandpa And Me by Stuart Hample",
     "Dread & Superficiality: Woody Allen as Comic Strip HC by Stuart Hample"
    ],
    "partial": false,
@@ -1812,14 +1670,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 47,
+  "evidenceShown": 37,
   "evidenceWithheld": {
    "unverified": 287,
    "unrelated": 31,
    "person_photo": 13,
    "storefront": 26,
    "merchandise": 1,
-   "derivative": 1
+   "derivative": 1,
+   "near_duplicate": 10
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

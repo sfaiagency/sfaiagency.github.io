@@ -940,20 +940,6 @@
      }
     },
     {
-     "text": "The Concentration of Attention: Stereo Photography by Hal Rammel",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/0278/8655/1139/products/ConcentrationOfAttention_HR_large.jpg?v=1594827844",
-     "keyword": "hal rammel",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Apparitions of things to come. Tales of mystery & imagination. Edited and introduced by Franklin Rosemont. Collages by Hal Rammel. Edward Bellamy.",
      "imageUrl": "https://www.bolerium.com/pictures/medium/99036.jpg?v=1484191622",
      "keyword": "hal rammel",
@@ -985,7 +971,6 @@
    "samples": [
     "Quote by Hal Rammel: Tristan had maintained a remarkable level of accomplishment in every direction he took.",
     "Cover photo by Hal Rammel.png",
-    "The Concentration of Attention: Stereo Photography by Hal Rammel",
     "The Concentration of Attention: Stereo Photography by Hal Rammel",
     "Apparitions of things to come. Tales of mystery & imagination. Edited and introduced by Franklin Rosemont. Collages by Hal Rammel. Edward Bellamy.",
     "D)(B)(H) / Hal Rammel / Seeded Plain - Bad For Business / Seeded Plain & Hal Rammel mp3 download"
@@ -1268,11 +1253,12 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 12,
+  "evidenceShown": 11,
   "evidenceWithheld": {
    "unverified": 35,
    "person_photo": 7,
-   "explicit": 1
+   "explicit": 1,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

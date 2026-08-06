@@ -1124,20 +1124,6 @@
      }
     },
     {
-     "text": "Bestselling Comics (2006) - My Cat's Not Fat, He's Just Big-Boned by Nicole Hollander - Nicole Hollander - Mine - Mine As Well - My Cats Not Fat Hes Just Big-boned - Im Just Holding This Cookie For A Friend",
-     "imageUrl": "https://www.coverbrowser.com/image/bestselling-comics-2006/3183-1.jpg",
-     "keyword": "nicole hollander",
-     "tier": "namematch",
-     "punsafe": 0.00047767162322998047,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Everything Here Is Mine (1887166661) by Nicole Hollander",
      "imageUrl": "http://ecx.images-amazon.com/images/I/51LCkMxb0BL._SL160_.jpg",
      "keyword": "nicole hollander",
@@ -1157,20 +1143,6 @@
      "keyword": "nicole hollander",
      "tier": "namematch",
      "punsafe": 9.882496669888496e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "My Cat's Not Fat, He's Just Big-Boned by Nicole Hollander",
-     "imageUrl": "http://d202m5krfqbpi5.cloudfront.net/books/1179097822l/874309.jpg",
-     "keyword": "nicole hollander",
-     "tier": "namematch",
-     "punsafe": 0.0010240375995635986,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1222,39 +1194,11 @@
      }
     },
     {
-     "text": "Everything Here is Mine by Nicole Hollander",
-     "imageUrl": "http://d.gr-assets.com/books/1387710215l/1223363.jpg",
-     "keyword": "nicole hollander",
-     "tier": "namematch",
-     "punsafe": 0.000509411096572876,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Tales from the Planet Sylvia: An Exhibition of Cartoons by Nicole Hollander. Nicole Hollander",
      "imageUrl": "https://www.johnwindle.com/pictures/thumb/105955.jpg?v=1619471639",
      "keyword": "nicole hollander",
      "tier": "namematch",
      "punsafe": 0.0001482069492340088,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"Mercy, it's the revolution and I'm in my bathrobe\"\"\"\"  by Nicole Hollander\"\"\"",
-     "imageUrl": "http://images.gr-assets.com/books/1330380837l/2705070.jpg",
-     "keyword": "nicole hollander",
-     "tier": "namematch",
-     "punsafe": 0.0016432106494903564,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1326,25 +1270,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Psycho Kitties book written by Nicole Hollander",
-     "imageUrl": "https://wonderclub.com/images/covers/72/97/9781402207297.jpg",
-     "keyword": "nicole hollander",
-     "tier": "namematch",
-     "punsafe": 0.0009469985961914062,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "\"\"\"\"\"\"\"We Ate Wonder Bread\"\"\"\" by Nicole Hollander.\"\"\"",
-    "Psycho Kitties book written by Nicole Hollander"
+    "\"\"\"\"\"\"\"We Ate Wonder Bread\"\"\"\" by Nicole Hollander.\"\"\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1632,7 +1561,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 35,
+  "evidenceShown": 30,
   "evidenceWithheld": {
    "unverified": 128,
    "person_photo": 34,
@@ -1640,7 +1569,8 @@
    "merchandise": 3,
    "unrelated": 13,
    "storefront": 5,
-   "explicit": 2
+   "explicit": 2,
+   "near_duplicate": 5
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

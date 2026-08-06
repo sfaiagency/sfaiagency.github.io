@@ -1302,20 +1302,6 @@
     },
     {
      "text": "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
-     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/i1arvhkjhimt6vc9vrv2",
-     "keyword": "scott willis",
-     "tier": "namematch",
-     "punsafe": 8.458953857370943e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
      "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto,w_500/v1/wescover-user-uploaded/rab2jdtjsaqcgcchfprl",
      "keyword": "scott willis",
      "tier": "namematch",
@@ -1359,7 +1345,6 @@
    ],
    "samples": [
     "Murals by Scott Willis at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
-    "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
     "Murals by Scott Willis seen at The Harker School - Preschool Campus, San Jose - Harker Preschool Mural",
     "Speechless by Scott Willis Piano",
     "Speechless by Scott Willis Piano"
@@ -1486,20 +1471,6 @@
      }
     },
     {
-     "text": "Murals by Scott Willis at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
-     "imageUrl": "https://rs.wescover.com/c_limit,f_auto,q_auto:eco,w_500/v1/wescover-user-uploaded/h4hpycqizghzh9uveoql",
-     "keyword": "scott willis",
-     "tier": "namematch",
-     "punsafe": 1.0044922191809746e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Dexter's Laboratory by Scott Willis",
      "imageUrl": "http://i.pinimg.com/236x/95/29/bd/9529bd80eb865741ef091c1a92f790bc.jpg",
      "keyword": "scott willis",
@@ -1550,9 +1521,9 @@
     "Last Hurrah by Scott Willis Piano",
     "Murals by Scott Willis at Microsoft, Sunnyvale - Microsoft Office Mural",
     "Undrunk by Scott Willis Piano",
-    "Murals by Scott Willis at Saratoga French Cultural Preschool, Saratoga - Saratoga French School Mural",
     "Dexter's Laboratory by Scott Willis",
-    "Terminal Paradise by Scott Willis Piano"
+    "Terminal Paradise by Scott Willis Piano",
+    "Blueskin Resilient Communities Trust manager Scott Willis. Photos by Gerard O'Brien."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1875,7 +1846,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 53,
+  "evidenceShown": 51,
   "evidenceWithheld": {
    "unrelated": 3,
    "person_photo": 100,
@@ -1883,7 +1854,8 @@
    "storefront": 29,
    "derivative": 9,
    "explicit": 3,
-   "merchandise": 8
+   "merchandise": 8,
+   "near_duplicate": 2
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

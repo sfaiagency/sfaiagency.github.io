@@ -1324,20 +1324,6 @@
      }
     },
     {
-     "text": "Stroppy by Marc Bell",
-     "imageUrl": "https://www.canadacomicsol.org/wp-content/uploads/2018/11/Stroppy-by-Marc-Bell.jpg",
-     "keyword": "marc bell",
-     "tier": "high",
-     "punsafe": 0.004067420959472656,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "<i>Stroppy</i> by Marc Bell Review",
      "imageUrl": "http://cdn.pastemagazine.com/www/articles/2015/06/25/Stroppy_Lead.jpg?635713415359731323",
      "keyword": "marc bell",
@@ -2100,7 +2086,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 70,
+  "evidenceShown": 69,
   "evidenceWithheld": {
    "unverified": 583,
    "unrelated": 25,
@@ -2108,7 +2094,8 @@
    "person_photo": 93,
    "merchandise": 32,
    "derivative": 8,
-   "explicit": 3
+   "explicit": 3,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

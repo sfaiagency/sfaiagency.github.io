@@ -950,20 +950,6 @@
      }
     },
     {
-     "text": "Mr. Squid by Omnidoll, from Piranha Club, posing with original art by the cartoonist Bud Grace.",
-     "imageUrl": "https://effigipie.files.wordpress.com/2014/08/dsc01306.jpg?w=129&",
-     "keyword": "bud grace",
-     "tier": "namematch",
-     "punsafe": 0.000415802001953125,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"Dr. Ernie Comic Strip Psychologist answers your letters. Roger M. writes from Seattle: \"\"Dear Dr. Ernie, I have been in analysis for 10 years and all I have to show for it is a shrivelled bank account!\"\" Why do you think they call us \"\"shrinks\"\"?\"",
      "imageUrl": "https://cartoonistgroup.com/properties/fande/art_images/cg4e93036b43a26.jpg",
      "keyword": "ernie comic strip",
@@ -981,7 +967,6 @@
    "samples": [
     "Mr. Squid by Omnidoll, from Piranha Club, posing with original art by the cartoonist Bud Grace.",
     "Ernie out of Control by Bud Grace",
-    "Mr. Squid by Omnidoll, from Piranha Club, posing with original art by the cartoonist Bud Grace.",
     "\"Dr. Ernie Comic Strip Psychologist answers your letters. Roger M. writes from Seattle: \"\"Dear Dr. Ernie, I have been in analysis for 10 years and all I have to show for it is a shrivelled bank account!\"\" Why do you think they call us \"\"shrinks\"\"?\""
    ],
    "partial": false,
@@ -1384,14 +1369,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 18,
+  "evidenceShown": 17,
   "evidenceWithheld": {
    "unverified": 227,
    "person_photo": 17,
    "storefront": 5,
    "merchandise": 13,
    "unrelated": 12,
-   "derivative": 1
+   "derivative": 1,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

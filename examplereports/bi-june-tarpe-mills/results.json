@@ -1013,20 +1013,6 @@
      }
     },
     {
-     "text": "\"\"\"In Tarpe Mills' 1940s comic strip \"\"\"\"Miss Fury,\"\"\"\" socialite Marla Drake has all sorts of noir-style adventures and sometimes even fights crime as a costumed crusader in a panther suit. (Via PrintMag.com)\"\"\"",
-     "imageUrl": "https://i.pinimg.com/originals/fc/00/f8/fc00f8aca2c2ad3f78461c0997e64a84.jpg",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.0008336901664733887,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Miss Fury, Golden Age Comic Book Character",
      "imageUrl": "https://comicsagogo.files.wordpress.com/2015/01/miss-fury.jpg?w=840",
      "keyword": "miss fury",
@@ -1083,62 +1069,6 @@
      }
     },
     {
-     "text": "Miss Fury, Golden Age Comic Book Character",
-     "imageUrl": "https://comicsagogo.files.wordpress.com/2015/01/miss-fury.jpg?w=490",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.04200345277786255,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Miss Fury, Golden Age Comic Book Character",
-     "imageUrl": "https://comicsagogo.files.wordpress.com/2015/01/miss-fury.jpg?w=768",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.04200345277786255,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"In Tarpe Mills' 1940s comic strip \"\"Miss Fury,\"\" socialite Marla Drake has all sorts of noir-style adventures and sometimes even fights crime as a costumed crusader in a panther suit. (Via PrintMag.com)\"",
-     "imageUrl": "https://d3h6k4kfl8m9p0.cloudfront.net/uploads/2014/09/trina_40s_comics_missfury3.jpg",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.0006160140037536621,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Miss Fury, Golden Age Comic Book Character",
-     "imageUrl": "https://comicsagogo.files.wordpress.com/2015/01/miss-fury.jpg?w=326",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.04200345277786255,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Miss Fury Comic Strip",
      "imageUrl": "https://static.wixstatic.com/media/1b4b3a_ce0204c77d464e85ba49b3426144b7bc~mv2_d_1920_1260_s_2.jpg/v1/fill/w_826,h_542,al_c,q_85,usm_0.66_1.00_0.01/3640_001-1920w.jpg",
      "keyword": "miss fury",
@@ -1183,15 +1113,13 @@
    ],
    "samples": [
     "\"In Tarpe Mills' 1940s comic strip \"\"Miss Fury,\"\" socialite Marla Drake has all sorts of noir-style adventures and sometimes even fights crime as a costumed crusader in a panther suit. (Via PrintMag.com)\"",
-    "\"\"\"In Tarpe Mills' 1940s comic strip \"\"\"\"Miss Fury,\"\"\"\" socialite Marla Drake has all sorts of noir-style adventures and sometimes even fights crime as a costumed crusader in a panther suit. (Via PrintMag.com)\"\"\"",
     "Miss Fury, Golden Age Comic Book Character",
     "Miss Fury Newspaper Sunday Page,  August 13, 1944",
     "Detail of June Tarp\u00e9 Mills's Miss Fury, May 10, 1942. Weekly Sunday strip. Photo: The Library of American Comics.",
     "Miss Fury Newspaper Sunday Page,  June 13, 1943 Miss Fury in Catsuit",
-    "Miss Fury, Golden Age Comic Book Character",
-    "Miss Fury, Golden Age Comic Book Character",
-    "\"In Tarpe Mills' 1940s comic strip \"\"Miss Fury,\"\" socialite Marla Drake has all sorts of noir-style adventures and sometimes even fights crime as a costumed crusader in a panther suit. (Via PrintMag.com)\"",
-    "Miss Fury, Golden Age Comic Book Character"
+    "Miss Fury Comic Strip",
+    "Miss Fury #1 Photocopy Comic Book, Black and White Reprint Interior",
+    "\"\"\"Miss Fury #6\"\" Grade 3.5 Comic Book\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1241,53 +1169,11 @@
    "totalIncludingLowConfidence": 317,
    "rows": [
     {
-     "text": "Miss Fury Comic Strip by Tarpe Mills",
-     "imageUrl": "https://static.wixstatic.com/media/1b4b3a_ce0204c77d464e85ba49b3426144b7bc~mv2_d_1920_1260_s_2.jpg/v1/fill/w_1048,h_658,al_c,q_85,usm_0.66_1.00_0.01/3640_001-1920w.webp",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.003767848014831543,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "MISS FURY, Comic Book Paper Doll 1942",
      "imageUrl": "https://i.pinimg.com/236x/48/58/09/4858092992cf828f60197a5a7b475eee--vintage-paper-dolls-vintage-comics.jpg",
      "keyword": "miss fury",
      "tier": "high",
      "punsafe": 0.01174163818359375,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Miss Fury #6\"\" Grade 3.5 Comic Book\"",
-     "imageUrl": "https://ebth-com-production.imgix.net/2020/10/05/07/28/21/da7ef9b1-5356-462d-94ca-6ea8ebb42198/file?ixlib=rb-3.1.0&w=400&h=400&fit=crop&crop=&auto=format",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.008924543857574463,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Miss Fury Comic Strip by Tarpe Mills",
-     "imageUrl": "https://static.wixstatic.com/media/1b4b3a_ce0204c77d464e85ba49b3426144b7bc~mv2_d_1920_1260_s_2.jpg/v1/fill/w_1013,h_665,al_c,q_85,usm_0.66_1.00_0.01/3640_001-1920w.jpg",
-     "keyword": "miss fury",
-     "tier": "high",
-     "punsafe": 0.0007464587688446045,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1312,10 +1198,7 @@
     }
    ],
    "samples": [
-    "Miss Fury Comic Strip by Tarpe Mills",
     "MISS FURY, Comic Book Paper Doll 1942",
-    "\"\"\"Miss Fury #6\"\" Grade 3.5 Comic Book\"",
-    "Miss Fury Comic Strip by Tarpe Mills",
     "Miss Fury #2 Photocopy Comic Book"
    ],
    "partial": false,
@@ -2318,7 +2201,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 84,
+  "evidenceShown": 76,
   "evidenceWithheld": {
    "storefront": 279,
    "unverified": 1319,
@@ -2326,7 +2209,8 @@
    "merchandise": 74,
    "derivative": 24,
    "unrelated": 51,
-   "explicit": 5
+   "explicit": 5,
+   "near_duplicate": 8
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

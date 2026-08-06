@@ -1193,20 +1193,6 @@
      }
     },
     {
-     "text": "92217: Jeff MacNelly Shoe Sunday Comic Strip Original A",
-     "imageUrl": "https://p1.liveauctioneers.com/906/27036/10187248_1_x.jpg?version=1320183601&amp;width=64&amp;format=pjpg&amp;auto=webp&amp;quality=50",
-     "keyword": "jeff macnelly",
-     "tier": "high",
-     "punsafe": 0.0013390779495239258,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Shoe 43 Sunday comic strips 1978 - Jeff MacNelly",
      "imageUrl": "https://www.picclickimg.com/d/l400/pict/122232230636_/Shoe-43-Sunday-comic-strips-1978-Jeff.jpg",
      "keyword": "jeff macnelly",
@@ -1247,20 +1233,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "92216: Jeff MacNelly Shoe Sunday Comic Strip Original A",
-     "imageUrl": "https://p1.liveauctioneers.com/906/27036/10187243_1_x.jpg?version=1320183601&amp;width=1600&amp;format=pjpg&amp;auto=webp",
-     "keyword": "jeff macnelly",
-     "tier": "high",
-     "punsafe": 0.0004931092262268066,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1270,7 +1242,6 @@
     "Original Comic Art:Comic Strip Art, Jeff MacNelly Shoe Sunday Comic Strip Original Art dated 4-5-92 (Tribune Media Services Inc., 1992)....",
     "92217: Jeff MacNelly Shoe Sunday Comic Strip Original A",
     "Drawing A Cartoon Strip Comic Strip Shoe by Jeff Macnelly Cartoons Pinterest Imagination",
-    "92217: Jeff MacNelly Shoe Sunday Comic Strip Original A",
     "Shoe 43 Sunday comic strips 1978 - Jeff MacNelly",
     "92216: Jeff MacNelly Shoe Sunday Comic Strip Original A",
     "Drawing A Cartoon Strip Comic Strip Shoe by Jeff Macnelly Cartoons Pinterest Imagination"
@@ -1705,14 +1676,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 5340
   },
-  "evidenceShown": 39,
+  "evidenceShown": 37,
   "evidenceWithheld": {
    "unverified": 157,
    "person_photo": 32,
    "storefront": 22,
    "unrelated": 10,
    "merchandise": 29,
-   "derivative": 3
+   "derivative": 3,
+   "near_duplicate": 2
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

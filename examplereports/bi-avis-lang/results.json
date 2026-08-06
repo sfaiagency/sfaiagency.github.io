@@ -953,20 +953,6 @@
      }
     },
     {
-     "text": "Accessory to War by Avis Lang & Neil deGrasse Tyson",
-     "imageUrl": "https://images.randomhouse.com/cover/700jpg/9781984833983",
-     "keyword": "avis lang",
-     "tier": "namematch",
-     "punsafe": 0.0002835392951965332,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
      "imageUrl": "https://dcls.org/sites/default/files/2019-05/Space%20chronicles%20%20facing%20the%20ultimate%20frontier%20%20Neil%20deGrasse.jpg",
      "keyword": "avis lang",
@@ -993,28 +979,12 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Download Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Avis Lang, Neil Degrasse Tyson",
-     "imageUrl": "https://covers.audiobooks.com/images/covers/full/9781984833990.jpg",
-     "keyword": "avis lang",
-     "tier": "namematch",
-     "punsafe": 0.0003096461296081543,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "Accessory to War by Avis Lang, Neil deGrasse Tyson",
-    "Accessory to War by Avis Lang & Neil deGrasse Tyson",
     "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
-    "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang",
-    "Download Accessory to War: The Unspoken Alliance Between Astrophysics and the Military by Avis Lang, Neil Degrasse Tyson"
+    "Space chronicles : facing the ultimate frontier / Neil deGrasse                Tyson ; edited by Avis Lang"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1062,25 +1032,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 11,
-   "rows": [
-    {
-     "text": "Accessory to War by Avis Lang, Neil deGrasse Tyson",
-     "imageUrl": "https://d1exhaoem38lup.cloudfront.net/c/p/cpbt/cpbt-square-140.jpg",
-     "keyword": "avis lang",
-     "tier": "namematch",
-     "punsafe": 0.0002582073211669922,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    }
-   ],
-   "samples": [
-    "Accessory to War by Avis Lang, Neil deGrasse Tyson"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -1254,13 +1207,14 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 11,
+  "evidenceShown": 8,
   "evidenceWithheld": {
    "unrelated": 14,
    "unverified": 129,
    "storefront": 8,
    "person_photo": 7,
-   "derivative": 2
+   "derivative": 2,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -626,25 +626,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "\"\"\"\"\"\"\"QUEEN\"\"\"\" - DOG / QUAIL by WILL RANNELLS ANTIQUE USWN WIDE NAMED SWAP PLAYING CARD\"\"\"",
-     "imageUrl": "http://s.ecrater.com/stores/388796/57c6737585f8c_388796f.jpg",
-     "keyword": "will rannells",
-     "tier": "namematch",
-     "punsafe": 1.7796340046061232e-07,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "\"\"\"QUEEN\"\" - DOG / QUAIL by WILL RANNELLS ANTIQUE USWN WIDE NAMED SWAP PLAYING CARD\"",
-    "\"\"\"\"\"\"\"QUEEN\"\"\"\" - DOG / QUAIL by WILL RANNELLS ANTIQUE USWN WIDE NAMED SWAP PLAYING CARD\"\"\""
+    "\"\"\"QUEEN\"\" - DOG / QUAIL by WILL RANNELLS ANTIQUE USWN WIDE NAMED SWAP PLAYING CARD\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -821,10 +806,11 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 3,
+  "evidenceShown": 2,
   "evidenceWithheld": {
    "storefront": 3,
-   "unverified": 10
+   "unverified": 10,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

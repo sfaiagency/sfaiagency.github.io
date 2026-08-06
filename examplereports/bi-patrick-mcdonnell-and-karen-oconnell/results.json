@@ -950,20 +950,6 @@
      }
     },
     {
-     "text": "The adorable little stars from Mutts Comic Strip",
-     "imageUrl": "https://i.pinimg.com/236x/30/81/c2/3081c230dc5748ece5cad80366a73283--dog-humour-humor.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 1.5012012227089144e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Call of the Wild: A MUTTS Comic Strip Treasury (Mutts Treasury) ~ Patrick McDonnell",
      "imageUrl": "http://ecx.images-amazon.com/images/I/51oB6ewcZ1L._SL500_OU01_SS160_.jpg",
      "keyword": "mutts comic strip",
@@ -997,20 +983,6 @@
      "keyword": "mutts comic strip",
      "tier": "high",
      "punsafe": 0.00021925568580627441,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Call of the Wild: A MUTTS Comic Strip Treasury",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/XhQAAOSwepJXYZxO/s-l225.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 4.2163384932791814e-05,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1062,20 +1034,6 @@
      }
     },
     {
-     "text": "Call of the Wild: A MUTTS Comic Strip Treasury",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51oB6ewcZ1L._AC_US218_.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 1.2712056559394114e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Mutts Comic Strip Featured On PBS Nature",
      "imageUrl": "https://2187.smushcdn.com/991/wp-content/blogs.dir/1/files/2009/05/mutts_nownownow-150x150.jpg?lossy=1&strip=1&webp=0",
      "keyword": "mutts comic strip",
@@ -1095,20 +1053,6 @@
      "keyword": "mutts comic strip",
      "tier": "high",
      "punsafe": 0.0006398260593414307,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Mutts comic strip for the summer solstice 2007",
-     "imageUrl": "http://blogphotos.flyingdreams.org/mutts06212007.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 0.00292128324508667,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1200,89 +1144,19 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Mutts comic strip for the summer solstice 2007",
-     "imageUrl": "https://lh3.googleusercontent.com/proxy/fDfJHdiVduiHd6uyREjqUvi7Xi_CSwAoZlPHaLpNiFcFvEqxpdRyWLcNt16t4bbsQaxJ1wPVfRfP2pKEgvbj766XbPkprFd7=s0-d",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 0.004259556531906128,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "From GUARDIANS OF BEING by Eckhart Tolle & Mutts comic strip creator Patrick McDonnell.",
-     "imageUrl": "https://i.pinimg.com/236x/fd/39/4d/fd394d2cc4779d582e5cfb0c33be8171.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 0.0006398260593414307,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Call of the Wild: A MUTTS Comic Strip Treasury (Volume 17)",
-     "imageUrl": "https://d3525k1ryd2155.cloudfront.net/f/999/770/9780740770999.ME.0.m.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 2.495949956937693e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Call of the Wild: A Mutts Comic Strip Treasury (Mutts Treasury) por Patrick Mcdonnell",
-     "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51oB6ewcZ1L.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 5.2356510423123837e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The adorable little stars from Mutts Comic Strip",
-     "imageUrl": "https://i.pinimg.com/736x/30/81/c2/3081c230dc5748ece5cad80366a73283.jpg",
-     "keyword": "mutts comic strip",
-     "tier": "high",
-     "punsafe": 2.7181116820429452e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "petco love changes everything MUTTS comic strip Patrick McDonnell",
     "The adorable little stars from Mutts Comic Strip",
-    "The adorable little stars from Mutts Comic Strip",
     "Call of the Wild: A MUTTS Comic Strip Treasury (Mutts Treasury) ~ Patrick McDonnell",
     "Call of the Wild : A MUTTS Comic Strip Treasury",
     "Mutts Comic Strip Featured On PBS Nature",
-    "Call of the Wild: A MUTTS Comic Strip Treasury",
     "Call of the Wild: A Mutts Comic Strip Treasury",
     "Signed MUTTS ArtworkMuseum quality MUTTS comic strip hand-signed by Patrick McDonnell, the creator of the beloved daily comic strip Mutts. In 1994, Patrick McDonnell created the comic strip MUTTS which now appears in over 700 newspapers and 20 countries.",
-    "Mutts comic strip features a weeks worth of quotes"
+    "Mutts comic strip features a weeks worth of quotes",
+    "Mutts Comic Strip Featured On PBS Nature",
+    "From GUARDIANS OF BEING by Eckhart Tolle & Mutts comic strip creator Patrick McDonnell."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2006,14 +1880,15 @@
    "thirdPartyPropertyMentions": 5364,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 61,
+  "evidenceShown": 52,
   "evidenceWithheld": {
    "unverified": 17,
    "derivative": 2,
    "person_photo": 5,
    "storefront": 6,
    "unrelated": 2,
-   "merchandise": 2
+   "merchandise": 2,
+   "near_duplicate": 9
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

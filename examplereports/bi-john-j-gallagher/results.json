@@ -939,20 +939,6 @@
    "totalIncludingLowConfidence": 18,
    "rows": [
     {
-     "text": "Book: The Seven Recurring Questions of Life by John J. Gallagher & Margot Maurice",
-     "imageUrl": "https://m.media-amazon.com/images/I/51alWx904tL._SL500_.jpg",
-     "keyword": "john j. gallagher",
-     "tier": "namematch",
-     "punsafe": 3.764001667150296e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Book: Winning Golf and Poker's Mind Game by John J. Gallagher",
      "imageUrl": "https://m.media-amazon.com/images/I/51ZJ2oFzGQL.jpg",
      "keyword": "john j. gallagher",
@@ -1023,34 +1009,6 @@
      }
     },
     {
-     "text": "Book: The Seven Recurring Questions of Life by John J. Gallagher & Margot Maurice",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51alWx904tL.jpg",
-     "keyword": "john j. gallagher",
-     "tier": "namematch",
-     "punsafe": 3.764001667150296e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Book: Winning Golf and Poker's Mind Game by John J. Gallagher",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51ZJ2oFzGQL.jpg",
-     "keyword": "john j. gallagher",
-     "tier": "namematch",
-     "punsafe": 0.0005016624927520752,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Book: The Golf Island Siege by John J. Gallagher",
      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51A2rbfXZ5L.jpg",
      "keyword": "john j. gallagher",
@@ -1094,16 +1052,14 @@
     }
    ],
    "samples": [
-    "Book: The Seven Recurring Questions of Life by John J. Gallagher & Margot Maurice",
     "Book: Winning Golf and Poker's Mind Game by John J. Gallagher",
     "Black Ice: The Val James Story by John J. Gallagher, 9781770413634",
     "POLICEMEN'S ANNUITY & BENEFIT FUND, CHICAGO Welcome.... 2011 Retirement Seminar Presented by John J. Gallagher, Jr. Executive Director.",
     "The Battle of Brooklyn, 1776 (1885119690) by John J. Gallagher",
     "Battle Of Brooklyn 1776 ebook by John J. Gallagher",
-    "Book: The Seven Recurring Questions of Life by John J. Gallagher & Margot Maurice",
-    "Book: Winning Golf and Poker's Mind Game by John J. Gallagher",
     "Book: The Golf Island Siege by John J. Gallagher",
-    "Book: Match Play by John J. Gallagher"
+    "Book: Match Play by John J. Gallagher",
+    "Policemen's Annuity & Benefit Fund Chicago Welcome.... 2012 Retirement Seminar Presented by John J. Gallagher, Jr. Executive Director."
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1297,14 +1253,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 14,
+  "evidenceShown": 11,
   "evidenceWithheld": {
    "unverified": 30,
    "person_photo": 5,
    "derivative": 1,
    "storefront": 4,
    "merchandise": 1,
-   "unrelated": 1
+   "unrelated": 1,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -995,20 +995,6 @@
      }
     },
     {
-     "text": "Detroit Triple Fan Fair 1965 Poster Designed by Shel Dorf",
-     "imageUrl": "http://www.comicconmemories.com/wp-content/themes/thesis_16/custom/rotator/DTFF_Poster_1965.jpg",
-     "keyword": "shel dorf",
-     "tier": "namematch",
-     "punsafe": 0.0002525150775909424,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Pencil sketch done by Shel Dorf in 1948.",
      "imageUrl": "http://www.sheldorftribute.com/images/Shel_sketch_1948.jpg",
      "keyword": "shel dorf",
@@ -1027,7 +1013,6 @@
     "Mike Towry (left) and Richard Alf at their comic-dealer tables in the basement of the U.S. Grant Hotel at the March 21, 1970 one-day San Diego's Golden State Comic-Minicon. [photo by Shel Dorf]",
     "The Charles Schulz Snoopy roll from Comic-Con 1974 (picture by Shel Dorf courtesy of Matt Lorentz)",
     "June Foray and comic strip letterer Shel Dorf at Chuck Jones studio in Los Angeles, 1978.",
-    "Detroit Triple Fan Fair 1965 Poster Designed by Shel Dorf",
     "Detroit Triple Fan Fair 1965 Poster Designed by Shel Dorf",
     "Pencil sketch done by Shel Dorf in 1948."
    ],
@@ -1765,14 +1750,15 @@
    "thirdPartyPropertyMentions": 2571,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 43,
+  "evidenceShown": 42,
   "evidenceWithheld": {
    "person_photo": 35,
    "unverified": 169,
    "storefront": 15,
    "unrelated": 4,
    "derivative": 9,
-   "merchandise": 2
+   "merchandise": 2,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -1044,34 +1044,6 @@
    "totalIncludingLowConfidence": 323,
    "rows": [
     {
-     "text": "Bug Belly Babysitting Trouble by Paul Morton",
-     "imageUrl": "https://static.wixstatic.com/media/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg/v1/fit/w_174,h_232,q_88/854a60_2035dc223a0c401eb77ccba507f39de3~mv2.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.00010499927157070488,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Nelson Mandela and the ANC flag by Paul Morton",
-     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Mandela-front.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.00011457240179879591,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
      "imageUrl": "http://direct.rhapsody.com/imageserver/images/Alb.202803481/170x170.jpg",
      "keyword": "paul morton",
@@ -1184,39 +1156,11 @@
      }
     },
     {
-     "text": "Let It Rain (Low Key) [Originally Performed by Paul Morton] [Instrumental Track] SAMPLE",
-     "imageUrl": "https://i.ytimg.com/vi/00fiCJk0DYw/mqdefault.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.0005242526531219482,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
      "imageUrl": "http://direct.rhapsody.com/imageserver/v2/albums/Alb.107625616/images/170x170.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
      "punsafe": 0.00046950578689575195,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Bug Belly Babysitting Trouble by Paul Morton",
-     "imageUrl": "https://www.madgereviews.co.uk/wp-content/uploads/2020/03/Bug-Belly.jpeg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.0007787048816680908,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1296,20 +1240,6 @@
      }
     },
     {
-     "text": "A high-volume, low-pressure spray gun is pictured here. (Paul Morton/iStock)",
-     "imageUrl": "https://www.repairerdrivennews.com/wp-content/uploads/2016/06/hvlp-paint-gun-iStock_3822797_MEDIUM-e1465362825562-300x264.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 6.443185702664778e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Clare at one of our Sketch Crawls. Photo by Paul Morton.",
      "imageUrl": "https://britishisles.scbwi.org/wp-content/blogs.dir/15/files/2017/07/scrawl-crawl-300x210.jpg",
      "keyword": "paul morton",
@@ -1353,8 +1283,6 @@
     }
    ],
    "samples": [
-    "Bug Belly Babysitting Trouble by Paul Morton",
-    "Nelson Mandela and the ANC flag by Paul Morton",
     "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
     "Play & Download Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc. | Napster",
     "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
@@ -1362,7 +1290,9 @@
     "Bow Down (Originally Performed by Paul Morton) [Instrumental Versions] by Fruition Music Inc.",
     "Let It Rain (Medium Key) [Originally Performed by Paul Morton] [Instrumental Track] SAMPLE",
     "Bug Belly  Babysitting Trouble by Paul Morton",
-    "This naval appointment was signed by Paul Morton and was used for relic card PR-PM01 from 2017 The Bar - Pieces of the Past Volume Two."
+    "This naval appointment was signed by Paul Morton and was used for relic card PR-PM01 from 2017 The Bar - Pieces of the Past Volume Two.",
+    "Your Best Days yet [Originally Performed by Paul Morton] [Instrumental Performance Tracks] by Fruition Music Inc.",
+    "Clouseau fans against the beumb by Paul Morton"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1444,39 +1374,11 @@
      }
     },
     {
-     "text": "Clouseau fans against the beumb by Paul Morton",
-     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Clouseau-front.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 0.00038376450538635254,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Lake Bonney (1 of 1) by Paul Morton",
      "imageUrl": "https://df0179xsabjj8.cloudfront.net/large/95294_OAUdw4BoYrDx4Xyf_675323.jpg",
      "keyword": "paul morton",
      "tier": "namematch",
      "punsafe": 3.070817547268234e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Neutron Artwork by Paul Morton",
-     "imageUrl": "https://yorkshirecnd.org.uk/wp-content/uploads/2016/08/Neutron-front-705x1024.jpg",
-     "keyword": "paul morton",
-     "tier": "namematch",
-     "punsafe": 6.164117394291679e-07,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1491,9 +1393,7 @@
     "Clouseau fans against the beumb by Paul Morton",
     "Benjamin Pilgrim receives his award PHOTO: Paul Morton",
     "Let It Rain (Originally Performed by Paul Morton) [Piano Version]",
-    "Clouseau fans against the beumb by Paul Morton",
-    "Lake Bonney (1 of 1) by Paul Morton",
-    "Neutron Artwork by Paul Morton"
+    "Lake Bonney (1 of 1) by Paul Morton"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1800,7 +1700,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 48,
+  "evidenceShown": 41,
   "evidenceWithheld": {
    "unverified": 709,
    "storefront": 15,
@@ -1808,7 +1708,8 @@
    "merchandise": 17,
    "derivative": 13,
    "unrelated": 3,
-   "explicit": 2
+   "explicit": 2,
+   "near_duplicate": 7
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

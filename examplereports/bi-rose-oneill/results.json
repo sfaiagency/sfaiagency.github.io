@@ -994,42 +994,12 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Kewpie were initially conceived as comic strip characters by Rose O'Neill. The cartoons, appearing as baby cupid characters, began to gain popularity after the publication of O'Neill's comic strips in 1909, and O'Neill began to illustrate and sell paper doll versions of the Kewpies. The characters w",
-     "imageUrl": "https://i.pinimg.com/736x/45/7a/9f/457a9fc47f0bafe3e1aa6bc5c8487665.jpg",
-     "keyword": "kewpies",
-     "tier": "high",
-     "punsafe": 0.0003857910633087158,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Kewpie were initially conceived as comic strip characters by Rose O'Neill. The cartoons, appearing as baby cupid characters, began to gain popularity after the publication of O'Neill's comic strips in 1909, and O'Neill began to illustrate and sell paper doll versions of the Kewpies. The characters w",
-     "imageUrl": "https://i.pinimg.com/236x/45/7a/9f/457a9fc47f0bafe3e1aa6bc5c8487665--kewpie-doll-weight-lifting.jpg",
-     "keyword": "kewpies",
-     "tier": "high",
-     "punsafe": 0.00011425935372244567,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
     "Kewpie were initially conceived as comic strip characters by Rose O'Neill. The cartoons, appearing as baby cupid characters, began to gain popularity after the publication of O'Neill's comic strips in 1909, and O'Neill began to illustrate and sell paper doll versions of the Kewpies. The characters w",
     "Flink turns away from a pile of Kewpies around him. Throughout the game, Flink slid many passes through the HHS defense. Flink has been a controlling factor of the Bruins' midfield this season. Photo by Allie Pigg.",
-    "Vintage July 1928 The Kewpies Comic Page Cute Images ! Great for framing",
-    "Kewpie were initially conceived as comic strip characters by Rose O'Neill. The cartoons, appearing as baby cupid characters, began to gain popularity after the publication of O'Neill's comic strips in 1909, and O'Neill began to illustrate and sell paper doll versions of the Kewpies. The characters w",
-    "Kewpie were initially conceived as comic strip characters by Rose O'Neill. The cartoons, appearing as baby cupid characters, began to gain popularity after the publication of O'Neill's comic strips in 1909, and O'Neill began to illustrate and sell paper doll versions of the Kewpies. The characters w"
+    "Vintage July 1928 The Kewpies Comic Page Cute Images ! Great for framing"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1067,25 +1037,10 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "kewpie illustrated cartoon by rose o neill from good housekeeping the kewpies and their school of jollity kewpies",
-     "imageUrl": "https://jf-studios.com/wp-content/uploads/2019/02/drawing-a-cartoon-rose-kewpie-illustrated-cartoon-by-rose-o-neill-from-good-housekeeping-of-drawing-a-cartoon-rose.jpg",
-     "keyword": "kewpies",
-     "tier": "high",
-     "punsafe": 8.10119672678411e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "\"\"\"Kewpie illustrated cartoon by Rose O'Neill from Good Housekeeping \"\"\"\"The Kewpies and Their School of Jollity.\"\"\"\" #kewpies\"\"\"",
-    "kewpie illustrated cartoon by rose o neill from good housekeeping the kewpies and their school of jollity kewpies"
+    "\"\"\"Kewpie illustrated cartoon by Rose O'Neill from Good Housekeeping \"\"\"\"The Kewpies and Their School of Jollity.\"\"\"\" #kewpies\"\"\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1668,7 +1623,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 22800
   },
-  "evidenceShown": 36,
+  "evidenceShown": 33,
   "evidenceWithheld": {
    "storefront": 177,
    "merchandise": 101,
@@ -1676,7 +1631,8 @@
    "person_photo": 105,
    "derivative": 43,
    "unrelated": 22,
-   "explicit": 2
+   "explicit": 2,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

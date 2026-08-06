@@ -939,34 +939,6 @@
    "totalIncludingLowConfidence": 51,
    "rows": [
     {
-     "text": "Reading Thomas Hardy by George Levine",
-     "imageUrl": "https://books.boomerangbooks.com.au/Large/808/9781316630808.jpg?20190324",
-     "keyword": "george levine",
-     "tier": "namematch",
-     "punsafe": 2.6314559363527223e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Reading Thomas Hardy by George Levine",
-     "imageUrl": "https://books.boomerangbooks.com.au/Large/808/9781316630808.jpg?20190526",
-     "keyword": "george levine",
-     "tier": "namematch",
-     "punsafe": 2.6314559363527223e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Darwin Loves You - Natural Selection and the Re-enchantment of the World ebook by George Levine",
      "imageUrl": "https://kbimages1-a.akamaihd.net/72d27e6d-1ac1-4dcf-af25-65e83c82ec81/166/300/False/Darwin+Loves+You.jpg",
      "keyword": "george levine",
@@ -1065,20 +1037,6 @@
      }
     },
     {
-     "text": "Reading Thomas Hardy by George Levine",
-     "imageUrl": "https://books.boomerangbooks.com.au/Large/808/9781316630808.jpg?20201023",
-     "keyword": "george levine",
-     "tier": "namematch",
-     "punsafe": 2.6314559363527223e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "The Joy of Secularism - 11 Essays for How We Live Now by George Levine",
      "imageUrl": "https://img-4.fruugo.com/product/6/93/91261936_0340_0340.jpg",
      "keyword": "george levine",
@@ -1108,8 +1066,6 @@
     }
    ],
    "samples": [
-    "Reading Thomas Hardy by George Levine",
-    "Reading Thomas Hardy by George Levine",
     "Darwin Loves You - Natural Selection and the Re-enchantment of the World ebook by George Levine",
     "One Culture - Essays in Science and Literature by George Levine - Levi",
     "The Cambridge Companion to George Eliot by George Levine",
@@ -1117,7 +1073,8 @@
     "Realism, Ethics and Secularism by George Levine",
     "The Cambridge Companion to George Eliot by George Levine",
     "Darwin and the novelists by George Levine",
-    "Reading Thomas Hardy by George Levine"
+    "The Joy of Secularism - 11 Essays for How We Live Now by George Levine",
+    "Realism, Ethics and Secularism by George Levine"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1325,14 +1282,15 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 16,
+  "evidenceShown": 13,
   "evidenceWithheld": {
    "person_photo": 13,
    "unverified": 132,
    "derivative": 4,
    "storefront": 7,
    "unrelated": 9,
-   "merchandise": 5
+   "merchandise": 5,
+   "near_duplicate": 3
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

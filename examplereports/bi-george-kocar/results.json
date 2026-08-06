@@ -1052,20 +1052,6 @@
      }
     },
     {
-     "text": "\"\"\"Pablo Banana's Red Studio\"\" original fine art by George Kocar\"",
-     "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/auction_e35eb3c8-7ba0-4af0-9507-c5076cf32776.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 0.11097034811973572,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "#3430- Brand New Original Watercolor by George Kocar Two Cats",
      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/gXYAAOSwMyteFktV/s-l225.jpg",
      "keyword": "george kocar",
@@ -1080,39 +1066,11 @@
      }
     },
     {
-     "text": "\"\"\"Smoker  #106\"\" original fine art by George Kocar\"",
-     "imageUrl": "http://fineartimages.dailypaintworks.com/cae4d9d0-aa70-46d3-9846-90a37f0c5248.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 0.00018364191055297852,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"Fall Skull #5\"\" original fine art by George Kocar\"",
      "imageUrl": "http://fineartimages.dailypaintworks.com/715abcdc-01b2-49a5-9579-3058dec4f431.jpg?imageVersion=",
      "keyword": "george kocar",
      "tier": "namematch",
      "punsafe": 0.0001310110092163086,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Pablo playing poker with dogs\"\" original fine art by George Kocar\"",
-     "imageUrl": "http://fineartimages.dailypaintworks.com/auction_c17b4431-9035-45ed-8391-1dfc8d6e7760.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 6.907590432092547e-06,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1150,20 +1108,6 @@
      }
     },
     {
-     "text": "\"\"\"Red Dog\"\" original fine art by George Kocar\"",
-     "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/d61b3dfd-0d18-4b29-bd52-4733e6119a74.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 2.7039332053391263e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"Yellow Dog\"\" original fine art by George Kocar\"",
      "imageUrl": "http://fineartimages.dailypaintworks.com/68e6a2bd-40f1-40c8-9cfb-41e055517bf3.jpg?imageVersion=",
      "keyword": "george kocar",
@@ -1190,20 +1134,6 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "\"\"\"Yellow Dog\"\" original fine art by George Kocar\"",
-     "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/68e6a2bd-40f1-40c8-9cfb-41e055517bf3.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 1.5682377124903724e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
@@ -1214,9 +1144,9 @@
     "\"\"\"Pablo Banana's Red Studio\"\" original fine art by George Kocar\"",
     "\"\"\"Smoker  #106\"\" original fine art by George Kocar\"",
     "\"\"\"\"\"\"\"Pablo playing poker with dogs\"\"\"\" original fine art by George Kocar\"\"\"",
-    "\"\"\"Pablo Banana's Red Studio\"\" original fine art by George Kocar\"",
     "#3430- Brand New Original Watercolor by George Kocar Two Cats",
-    "\"\"\"Smoker  #106\"\" original fine art by George Kocar\""
+    "\"\"\"Fall Skull #5\"\" original fine art by George Kocar\"",
+    "#3554-Wild creature monster acrylic paintings by George Kocar Red Monster"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1325,20 +1255,6 @@
      }
     },
     {
-     "text": "\"\"\"Pablo Banana's Orange Studio\"\" original fine art by George Kocar\"",
-     "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/auction_27f76f80-fb50-4241-a477-9b6bbbd304b5.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 0.018842339515686035,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"Fall Skull #6\"\" original fine art by George Kocar\"",
      "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/4b506785-01ab-4694-aa65-d5e4311f1d3c.jpg?imageVersion=",
      "keyword": "george kocar",
@@ -1367,81 +1283,11 @@
      }
     },
     {
-     "text": "\"\"\"Smokin' Skull #14\"\" original fine art by George Kocar\"",
-     "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/e5681e85-579a-4ba7-953c-8b1f3c7529ae.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 8.659090963192284e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Studio Dog\"\" original fine art by George Kocar\"",
-     "imageUrl": "https://s3.amazonaws.com/fineartimages.dailypaintworks.com/e331c3d3-c882-4094-8aec-b0bec95ca002.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 0.003792375326156616,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Fall Skull #6\"\" original fine art by George Kocar\"",
-     "imageUrl": "http://fineartimages.dailypaintworks.com/4b506785-01ab-4694-aa65-d5e4311f1d3c.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 3.060222661588341e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Fall Skull #1\"\" original fine art by George Kocar\"",
-     "imageUrl": "http://fineartimages.dailypaintworks.com/401fd654-b38b-446c-99c4-7e03978c6b31.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 0.0001232064823852852,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "\"\"\"Pablo's Dutch Masters\"\" original fine art by George Kocar\"",
      "imageUrl": "http://fineartimages.dailypaintworks.com/auction_eb41598f-d9e1-4629-80fc-d5891a1affe3.jpg?imageVersion=",
      "keyword": "george kocar",
      "tier": "namematch",
      "punsafe": 1.3833855518896598e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"Pablo Banana's Purple Studio\"\" original fine art by George Kocar\"",
-     "imageUrl": "http://fineartimages.dailypaintworks.com/auction_9cf22c42-7902-4e80-9603-56927ae92232.jpg?imageVersion=",
-     "keyword": "george kocar",
-     "tier": "namematch",
-     "punsafe": 0.14227119088172913,
      "validation": {
       "category": "artwork",
       "reason": "",
@@ -1455,13 +1301,9 @@
     "\"\"\"Pablo Banana's Purple Studio\"\" original fine art by George Kocar\"",
     "\"\"\"Pablo Banana's Orange Studio\"\" original fine art by George Kocar\"",
     "\"\"\"Fall Skull #1\"\" original fine art by George Kocar\"",
-    "\"\"\"Pablo Banana's Orange Studio\"\" original fine art by George Kocar\"",
     "\"\"\"Fall Skull #6\"\" original fine art by George Kocar\"",
     "\"\"\"Smokin' Skull\"\" original fine art by George Kocar\"",
-    "\"\"\"Smokin' Skull #14\"\" original fine art by George Kocar\"",
-    "\"\"\"Studio Dog\"\" original fine art by George Kocar\"",
-    "\"\"\"Fall Skull #6\"\" original fine art by George Kocar\"",
-    "\"\"\"Fall Skull #1\"\" original fine art by George Kocar\""
+    "\"\"\"Pablo's Dutch Masters\"\" original fine art by George Kocar\""
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1574,11 +1416,12 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 33,
+  "evidenceShown": 22,
   "evidenceWithheld": {
    "unverified": 14,
    "explicit": 1,
-   "storefront": 1
+   "storefront": 1,
+   "near_duplicate": 11
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

@@ -951,24 +951,9 @@
       "source": "heuristic",
       "confidence": 0.6
      }
-    },
-    {
-     "text": "Forgotten Gems: Quincy by Ted Shearer",
-     "imageUrl": "https://1.bp.blogspot.com/-KwsWGe5R03Q/XwBrk1wfeVI/AAAAAAAA0tU/-TbN68QV4M8eRrQMDtHR99BQ-qwpTQNUwCK4BGAYYCw/s1600/quincy%2Bcover.jpg",
-     "keyword": "ted shearer",
-     "tier": "namematch",
-     "punsafe": 1.2382625754980836e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
     }
    ],
    "samples": [
-    "Forgotten Gems: Quincy by Ted Shearer",
     "Forgotten Gems: Quincy by Ted Shearer"
    ],
    "partial": false,
@@ -1222,11 +1207,12 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 9,
+  "evidenceShown": 8,
   "evidenceWithheld": {
    "storefront": 4,
    "person_photo": 3,
-   "unverified": 29
+   "unverified": 29,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },

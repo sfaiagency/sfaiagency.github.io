@@ -937,25 +937,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 0,
    "totalIncludingLowConfidence": 7,
-   "rows": [
-    {
-     "text": "The Serialized Comics panel moderated by Jeff Krell. From left to right: Kurt Erichsen and Diana Green.",
-     "imageUrl": "https://paigebraddockcomics.files.wordpress.com/2019/05/paige-panel-1.jpg?w=1075",
-     "keyword": "jeff krell",
-     "tier": "namematch",
-     "punsafe": 1.2309930752962828e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    }
-   ],
-   "samples": [
-    "The Serialized Comics panel moderated by Jeff Krell. From left to right: Kurt Erichsen and Diana Green."
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 128,
    "shardsTotal": 128
@@ -1191,11 +1174,12 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 0
   },
-  "evidenceShown": 6,
+  "evidenceShown": 5,
   "evidenceWithheld": {
    "unverified": 19,
    "merchandise": 2,
-   "explicit": 1
+   "explicit": 1,
+   "near_duplicate": 1
   },
   "generatedAt": "2026-08-06T11:28:14.205497+00:00"
  },
