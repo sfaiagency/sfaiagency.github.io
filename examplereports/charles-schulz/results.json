@@ -22,34 +22,6 @@
    "totalIncludingLowConfidence": 164866,
    "rows": [
     {
-     "text": "Art Illustration Etching By Charles Schulz Peanuts Flying Ace Collectibles & Fine Art",
-     "imageUrl": "https://00205ab1054ee355123b-4f4da24e31b816442f58abf0fd86f501.ssl.cf1.rackcdn.com/182996413_art-illustration-etching-by-charles-schulz-peanuts---.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Fantagraphics UNSEEN PEANUTS 2007 Free Comic Book Day FCBD NM Charles Schulz",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/VwUAAOSwY3BZD8Ba/s-l300.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Snoopy Store: Woodstock in the Cherry Blossoms Posters: Charlie Brown and Linus stop to rest on a bridge overlooking a stream in the graphic novel, \"It's Tokyo, Charlie Brown. Snoopy Love, Charlie Brown Et Snoopy, Snoopy Et Woodstock, Peanuts Gang, Peanuts Cartoon, Lucy Van Pelt, Snoopy Quotes, Post",
      "imageUrl": "https://i.pinimg.com/236x/41/fc/ae/41fcaec98fc773364affbcd150f819ef---free.jpg",
      "keyword": "lucy van pelt",
@@ -57,10 +29,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -71,38 +43,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Paint Your Own Pottery - Ceramic Snoopy Bank Peanuts By Charles Schulz Painting Kit",
-     "imageUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/29141085/1620191096.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Charlie Brown Dictionary by Charles M. Schulz",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2727/7942/products/20191024_171113_300x300.jpg?v=1572347315",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -113,122 +57,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "We Love You Snoopy by Charles M. Schulz 1962-Reading Vintage",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/2503/7976/products/image_53642332-b426-4074-bba4-b4fa4c39b9c3_300x.jpg?v=1589553207",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "A frame from a Peanuts cartoon covering a wall.",
-     "imageUrl": "https://www.hemispheresmag.com/wp-content/uploads/2020/09/Peanuts.jpg",
-     "keyword": "peanuts cartoon",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Be Yourself by Charles Schulz",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/0204/0505/9684/products/IMG_20201029_155906_300x300.jpg?v=1603960488",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charlie Brown's ABCs 12",
-     "imageUrl": "https://www.myabandonware.com/media/screenshots/c/charlie-brown-s-abcs-6ay/charlie-brown-s-abcs_15.png",
-     "keyword": "charlie brown",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Peanuts 1977-1978 (Vol. 14) by Charles M. Schulz",
-     "imageUrl": "https://farm5.static.flickr.com/4094/4792715154_4a3d8b0729.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The cast of PigPen Theatre Co.\u2019s The Old Man and The Old Moon. Directed by Stuart Carden and PigPen Theatre Co., the show\u2019s West Coast premiere runs at May 13 \u2013 June 18, 2017 at The Old Globe. Photo by Jim Cox.",
-     "imageUrl": "https://www.theoldglobe.org/link/01652ee321c3432b899c248499b05f26.aspx?id=26018",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Pigpen performing Pericles pre-show music. Photo by Margaret Bortner",
-     "imageUrl": "https://brokelyn.com/app/uploads/2016/03/IMG_5938.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "What Next, Charlie Brown? by Charles M. Schulz",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/0406/2511/1196/products/ACtC-3cZhbzZFo2xs92xedOUW2AKdFv-W-bEXKwExOypbXYQLI1nY-hpeOOUr6tzfd-hTRXIt7fak-1aMx7gz7igVhRwAe3FhZiHugrf42g1NQdcKohesY1Ll7qhZu_o8frL2pBwNqUl6y6fOTjG9nBoLVhn_s1328-no_900x.jpg?v=1606600170",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -239,24 +71,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cuckoo : polka : the approach of spring / composed by A. Herzog ; arranged for the piano by Charles Schultz",
-     "imageUrl": "https://calisphere.org/clip/500x500/6d3f537516b9c0fcfb28d00935f91845",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -267,220 +85,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Peanuts 1979-1980 by Charles Schulz",
-     "imageUrl": "http://www.wired.com/geekdad/wp-content/uploads/2011/02/peanuts.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "from left) Arya Shahi, Ryan Melia, and Alex Falberg of PigPen Theatre Co.\u2019s The Old Man and The Old Moon. Directed by Stuart Carden and PigPen Theatre Co., the show\u2019s West Coast premiere runs at May 13 \u2013 June 18, 2017 at The Old Globe. Photo by Jim Cox.",
-     "imageUrl": "https://www.theoldglobe.org/link/ec9810c7054e4b94bbaae96d80ce7652.aspx?id=26026",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I'm Hurt But I Love You Quotes By Charles M. Schulz: All you need is love,But a little bit",
-     "imageUrl": "https://www.wisefamousquotes.com/images/im-hurt-but-i-love-you-quotes-by-charles-m-schulz-121568.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "SNOOPY Peanuts by Charles Schulz 80s Rob Roy Us vi",
-     "imageUrl": "https://i.etsystatic.com/22182456/r/il/f6e500/2619854638/il_570xN.2619854638_futc.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "How Love Quotes By Charles M. Schulz: Valentine, just a few words to tell you",
-     "imageUrl": "https://www.wisefamousquotes.com/images/how-love-quotes-by-charles-m-schulz-37370.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charles M Schulz Snoopy Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/charles-m-schulz-snoopy-quote-by-charles-m-schulz-728868.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Vintage 1976 Snoopy Peanuts Linen Wall Calendar Created By Charles Schultz",
-     "imageUrl": "https://i.pinimg.com/236x/0f/ea/65/0fea65de56689e6c7094eb723c87c8a4.jpg",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Skateroom skateboard, Peanuts By Charles M. Schulz Apollo Launch",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1990/4055/products/baordbag_462da1fd-3b30-4252-8225-dfeb13681ea6_400x.jpg?v=1592996545",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "It&rsquo;s the Great Pumpkin, Charlie Brown by Charles M. Schulz",
-     "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2017%2F08%2Fschultz-1.png",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charlie Brown's ABCs 8",
-     "imageUrl": "https://www.myabandonware.com/media/screenshots/c/charlie-brown-s-abcs-6ay/charlie-brown-s-abcs_11.png",
-     "keyword": "charlie brown",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Way We Think Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/the-way-we-think-quote-by-charles-m-schulz-158612.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts by Charles Schulz for December 28, 1997 | - For December 28, 1997 -",
-     "imageUrl": "https://33.mywebtrend.com/uploads/peanuts-by-charles-schulz-for-december-28-1997-for-december-28-1997--76085.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charlie Brown's ABCs 18",
-     "imageUrl": "https://www.myabandonware.com/media/screenshots/c/charlie-brown-s-abcs-6ay/charlie-brown-s-abcs_21.png",
-     "keyword": "charlie brown",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "In Deep Depression Quotes By Charles M. Schulz: I have deep feelings of depression ... What",
-     "imageUrl": "https://www.wisefamousquotes.com/images/in-deep-depression-quotes-by-charles-m-schulz-558768.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charles M Schulz Snoopy Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/charles-m-schulz-snoopy-quote-by-charles-m-schulz-650403.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -491,10 +99,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -505,10 +113,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -519,38 +127,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Happiness Is A Warm Puppy by Charles M. Schulz",
-     "imageUrl": "https://di2ponv0v5otw.cloudfront.net/posts/2021/06/06/60bd90d81801369dc2eff4be/s_60bd90ee6e284691871cbe27.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "L-R) Ryne Nardecchia stars as Snoopy, Ty Taylor as Linus Van Pelt and Grayson Samuels as Charlie Brown in 'The World According to Snoopy.' (Photo by Sara Mitschke",
-     "imageUrl": "https://www.txstate.edu/cachee6fae968ce5362dc85167f96c87f31b1/imagehandler/scaler/gato-docs.its.txstate.edu/jcr:163ef94f-e4a2-4bb7-ad51-a864399746e3/Snoopy020217.jpg?mode=fit&width=351",
-     "keyword": "linus van pelt",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -561,10 +141,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -575,24 +155,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Snoopy Astronaut By Charles Schulz 1969 Space Toys Big Blue Whale Snoopy",
-     "imageUrl": "https://i.pinimg.com/originals/86/cf/d3/86cfd37280168e0668d33e4de04f7501.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -603,10 +169,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -617,10 +183,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -631,10 +197,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -645,38 +211,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Punishment In School Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/punishment-in-school-quote-by-charles-m-schulz-1729659.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Self Punishment Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/self-punishment-quote-by-charles-m-schulz-1729659.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -687,10 +225,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -701,38 +239,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The cast of PigPen Theatre Co.\u2019s The Old Man and The Old Moon. Directed by Stuart Carden and PigPen Theatre Co., the show\u2019s West Coast premiere runs at May 13 \u2013 June 18, 2017 at The Old Globe. Photo by Jim Cox.",
-     "imageUrl": "https://www.theoldglobe.org/link/6a84f1e90ccb4bd8b16aed398fdeb67f.aspx?id=26010",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "from left) Ben Ferguson and Ryan Melia of PigPen Theatre Co.\u2019s The Old Man and The Old Moon. Directed by Stuart Carden and PigPen Theatre Co., the show\u2019s West Coast premiere runs at May 13 \u2013 June 18, 2017 at The Old Globe. Photo by Jim Cox.",
-     "imageUrl": "https://www.theoldglobe.org/link/b2f5c887a45c4801937ffd84d68f8c7c.aspx?id=26034",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -743,10 +253,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -757,24 +267,10 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Peanuts Guide to Christmas by Charles M. Schulz, 9780762491490",
-     "imageUrl": "https://cdn10.bigcommerce.com/s-fu1b8f4/products/936422/images/16381078/9780762491490__40224.1622685356.285.285.jpg?c=2",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -785,94 +281,24 @@
      "punsafe": null,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "SNOOPY CHARLIE BROWN LINUS LUCY CANVAS 27W/\"x40H/\" PEANUTS GANG by CHARLES SCHULZ",
-     "imageUrl": "http://i.ebayimg.com/images/g/kBoAAOSwby9eTuYU/s-l500.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charles M Schulz Snoopy Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/charles-m-schulz-snoopy-quote-by-charles-m-schulz-1067063.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Cancel My Subscription Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/cancel-my-subscription-quote-by-charles-m-schulz-1701235.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Snoopy and the Red Baron by Charles M. Schulz",
-     "imageUrl": "https://static.wixstatic.com/media/682c9a_24a428ad36994591ba169a92dd6cc27a~mv2.jpg/v1/fill/w_526,h_748,al_c,q_85,usm_0.66_1.00_0.01/682c9a_24a428ad36994591ba169a92dd6cc27a~mv2.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Love Quote by Charles Schultz",
-     "imageUrl": "https://www.positivityblog.com/wp-content/uploads/love_quotes_10.png",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     }
    ],
    "samples": [
-    "Art Illustration Etching By Charles Schulz Peanuts Flying Ace Collectibles & Fine Art",
-    "Fantagraphics UNSEEN PEANUTS 2007 Free Comic Book Day FCBD NM Charles Schulz",
     "Snoopy Store: Woodstock in the Cherry Blossoms Posters: Charlie Brown and Linus stop to rest on a bridge overlooking a stream in the graphic novel, \"It's Tokyo, Charlie Brown. Snoopy Love, Charlie Brown Et Snoopy, Snoopy Et Woodstock, Peanuts Gang, Peanuts Cartoon, Lucy Van Pelt, Snoopy Quotes, Post",
     "- Poster Yippee, Yay, It's Saturday! - Image: Snoopy by Charles Schulz, creator of the Peanuts comic strip- - - // // - Gaye Crispin's Businesss Clinic Transcendent. Saturday Morning Quotes, Saturday Images, Good Morning Quotes, Saturday Humor, Weekend Quotes, Funny Monday, Funny Morning, Morning Mo",
-    "Paint Your Own Pottery - Ceramic Snoopy Bank Peanuts By Charles Schulz Painting Kit",
-    "The Charlie Brown Dictionary by Charles M. Schulz",
     "Snoopy, Charlie Brown and the Peanuts Gang by Charles Schulz Snoopy Love, Charlie Brown And Snoopy, Snoopy Shop, Happy Snoopy, Peanuts Snoopy, Lucy Van Pelt, Snoopy Quotes, Peanuts Quotes, My Daddy",
-    "We Love You Snoopy by Charles M. Schulz 1962-Reading Vintage",
-    "A frame from a Peanuts cartoon covering a wall.",
-    "Be Yourself by Charles Schulz"
+    "Lesson: the secret of life is to keep looking up.amen Snoopy, never look down.Snoopy, I always knew you were as wise as Cookie Monster and even as Yoda!-Mari Marxuach Parrilla/All images of Snoopy of Peanuts by Charles Schultz Snoopy Love, Charlie Brown Und Snoopy, Snoopy And Woodstock, Peanuts Gang",
+    "Happiness is having your own library card. Sally from Peanuts by Charles Schulz // La felicidad es tener tu propio carn\u00e9 de biblioteca Library Humor, Library Books, Library Cards, Library Week, Library Quotes, Local Library, I Love Books, Books To Read, Up Book",
+    "Lesson: the secret of life is to keep looking up.amen Snoopy, never look down.Snoopy, I always knew you were as wise as Cookie Monster and even as Yoda!-Mari Marxuach Parrilla/All images of Snoopy of Peanuts by Charles Schultz Snoopy Love, Charlie Brown Und Snoopy, Snoopy And Woodstock, Peanuts Gang",
+    "Peanuts by Charles Schulz Charlie Brown Comics, Charlie Brown Characters, Charlie Brown And Snoopy, Peanuts Cartoon, Peanuts Gang, Peanuts Comics, Snoopy Cartoon, Cartoon Network Adventure Time, Adventure Time Anime",
+    "\"More Peanuts\" Drawing & Inscription by Charles Schulz.",
+    "Charlie Brown and Snoopy characters by Charles Schultz- wallpaper background lock screen by Snoopydrops Peanuts Christmas, Charlie Brown Christmas, Christmas Christmas, Peanuts Cartoon, Peanuts Snoopy, Charlie Brown Und Snoopy, Stitch Disney, Snoopy Pictures, Art Pictures",
+    "Risultati immagini per peanuts tired Peanuts Cartoon, Peanuts Snoopy, Peanuts Characters, Snoopy Quotes, Peppermint Patties, Charlie Brown And Snoopy, Snoopy And Woodstock, Comic Strips, Animation"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -898,202 +324,6 @@
    "totalIncludingLowConfidence": 446542,
    "rows": [
     {
-     "text": "Nobody's Perfect Charlie Brown by Charles M. Schulz",
-     "imageUrl": "http://d.gr-assets.com/books/1339155332l/2263437.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 4.526647171587683e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "1957 edition illustrated by Charles Schulz",
-     "imageUrl": "https://i2.wp.com/upload.wikimedia.org/wikipedia/en/thumb/a/af/Kids-say-darndest-things.jpg/300px-Kids-say-darndest-things.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 7.238902617245913e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Uploaded by Charles M. Schulz Museum",
-     "imageUrl": "https://media1.fdncms.com/bohemian/imager/u/story/7201631/thanksgivingfeast2018-square.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.00038111209869384766,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Characters from Peanuts, by Charles Schulz.",
-     "imageUrl": "http://images.smh.com.au/2015/12/21/7098839/Article%20Lead%20-%20wide1004055670glsgeiimage.related.articleLeadwide.729x410.glseba.png1451037179370.jpg-620x349.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 1.492631508881459e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts by Charles Schulz",
-     "imageUrl": "https://gocomics.typepad.com/.a/6a00d8341c5f3053ef01bb0844d071970d-800wi",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 3.180956991855055e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "by Charles Schulz",
-     "imageUrl": "https://wordsofleisure.files.wordpress.com/2013/01/charlie-pontodevista.jpg?w=740",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0001057891859090887,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Snoopy the Literary Ace ebook by Charles M. Schulz",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/ce6bb115-7d2f-46b3-80a1-f6407254632f/140/215/60/False/snoopy-the-literary-ace.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 3.3327720302622765e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Snoopy the Master Chef ebook by Charles M. Schulz",
-     "imageUrl": "https://kbimages1-a.akamaihd.net/2fffc740-e47e-456c-8b28-9513be7e1890/180/1000/False/snoopy-the-master-chef.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.00022801756858825684,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "50 Jahre Peanuts by Charles M. Schulz",
-     "imageUrl": "http://d.gr-assets.com/books/1337388503l/6576608.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 4.008482937933877e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Peanuts, Vol. 2 by Charles M. Schulz",
-     "imageUrl": "https://images.gr-assets.com/books/1468507733m/54594.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0015736818313598633,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Peanuts: The Fifties by Charles Schulz",
-     "imageUrl": "https://www.abebooks.co.uk/images/books/literary-losers/easton-complete-peanuts-fifties.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 1.7980488564717234e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts by Charles Schulz",
-     "imageUrl": "https://gocomics.typepad.com/.a/6a00d8341c5f3053ef01b7c826491f970b-800wi",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0002321302890777588,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts cartoon TV show original sketch autograph by Charles Schulz with COA",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1206/4108/products/EF48C49D-BF47-41CF-A6EB-933AE79F5DE5_large.jpg?v=1575835907",
-     "keyword": "peanuts cartoon",
-     "tier": "high",
-     "punsafe": 6.812532774347346e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "I Never Promised You an Apple Orchard signed by Charles Schulz",
-     "imageUrl": "https://image0-rubylane.s3.amazonaws.com/shops/grandviewantiques/671.1G.jpg?22",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 3.238901263102889e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "A Charles Schulz Peanuts Sunday page",
      "imageUrl": "https://images2.bonhams.com/image?src=Images/live/2011-11/03/8445084-1-1.jpg&amp;height=480&amp;width=960",
      "keyword": "charles schulz",
@@ -1101,10 +331,10 @@
      "punsafe": 0.0003771781921386719,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1115,10 +345,10 @@
      "punsafe": 2.3012942619971e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1129,10 +359,10 @@
      "punsafe": 0.0005957484245300293,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1143,10 +373,10 @@
      "punsafe": 0.0001373291015625,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1157,108 +387,10 @@
      "punsafe": 5.64928850508295e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Charlie Brown Dictionary by Charles Schulz",
-     "imageUrl": "https://thumbs1.ebaystatic.com/d/l225/m/mNZq7ZbtyVQh_Qr4IpC3cyA.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 1.9832125417451607e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "charles schulz comic strip",
-     "imageUrl": "http://media.liveauctiongroup.net/i/5125/7809645_1.jpg?v=8CA37D78B69A970",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 9.031360241351649e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "You're So Annoying Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/youre-so-annoying-quote-by-charles-m-schulz-129286.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0003947615623474121,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Rare Original Drawing Peanuts / Lucy Van Pelt Sign Charles M. Schulz / Tb State",
-     "imageUrl": "http://planchesdessinsoriginaux.net/en/upload/Rare-Original-Drawing-Peanuts-Lucy-Van-Pelt-Sign-Charles-M-Schulz-Tb-State-01-bz.jpg",
-     "keyword": "lucy van pelt",
-     "tier": "high",
-     "punsafe": 0.000397413969039917,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charlie Brown, by Charles Schulz. | Snoopy love | Pinterest",
-     "imageUrl": "http://azcolorare.com/colorare/LTd/oaE/LTdoaEKT4.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0003307461738586426,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Philosophy of Snoopy by Charles M. Schulz",
-     "imageUrl": "https://cdn.redbrain.shop/?i=https%3A%2F%2Fd20eq91zdmkqd.cloudfront.net%2Fassets%2Fimages%2Fbook%2Flrg%2F9781%2F7821%2F9781782111139.jpg&h=128",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 4.5618020521942526e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Little Brothers Quotes By Charles M. Schulz",
-     "imageUrl": "https://quotessayings.net/pics/little-brothers-quote-by-charles-m-schulz-1331152.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.00010353281686548144,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1269,122 +401,10 @@
      "punsafe": 1.0556710549280979e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts #6 Comic Books - Covers, Scans, Photos  in Peanuts Comic Books - Covers, Scans, Gallery",
-     "imageUrl": "https://www.covernk.com/Covers/L/P/Peanuts%201953%20series/peanuts1953series6.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00011296394950477406,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "peanuts every sunday 1971 1975 books uk peanuts comic books gallery",
-     "imageUrl": "http://tse2.mm.bing.net/th?id=OIP.geBI9TJUgfEFkB2ODKJ60QHaLy",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 2.1672887669410557e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Strip Puppy Training Pads 5 Pack",
-     "imageUrl": "https://www.pettreater.com/img.php?src=images/products/snoopypads.jpg&w=344&h=350&zc=1&q=100",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.005121350288391113,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "peanuts comic strip 4/10/10",
-     "imageUrl": "https://wallpaperim.net/_data/i/upload/2014/10/23/20141023159587-8b587f02-sq.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00031936168670654297,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Happiness is... by Charles Schultz Card No. 11",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1507/0776/products/INS11_1024x.jpg?v=1583842266",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": 7.670388004044071e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts by Charles Schulz",
-     "imageUrl": "https://a4.typepad.com/6a01b7c7367f15970b01b8d0d0b31c970c-800wi",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 8.0854122643359e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "by Charles Schulz",
-     "imageUrl": "https://wordsofleisure.files.wordpress.com/2014/01/img_0077.jpg?w=740",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.00903978943824768,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "More Peanuts by Charles M. Schulz",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/0367/4406/9251/products/morepeanuts_9781782761563_1024x1024@2x.jpg?v=1615307074",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 8.739698387216777e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1395,10 +415,10 @@
      "punsafe": 7.291073416126892e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1409,24 +429,10 @@
      "punsafe": 0.00012353062629699707,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts comic strips come to life in Boomerang series",
-     "imageUrl": "https://helios-i.mashable.com/imagery/articles/05e8J1bYqBhejQCzZhnPKjP/images-2.fit_lim.size_2000x.v1619017549.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 3.1834970286581665e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1437,38 +443,10 @@
      "punsafe": 0.0003351271152496338,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "by Charles Schulz",
-     "imageUrl": "https://wordsofleisure.files.wordpress.com/2013/08/snoopyzzzzz.jpg?w=775",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0003171861171722412,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Loungefly Peanuts Comic Strip Cosmetic Crossbody Passport Cellphone Bag",
-     "imageUrl": "https://cdn11.bigcommerce.com/s-urahz4qi23/images/stencil/500x659/products/1400/2477/PNTB0001_PeanutsComicStripPassport_Front_1024x1024__38688.1616371675.jpg?c=1",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00010828437370946631,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1479,24 +457,10 @@
      "punsafe": 0.00029590725898742676,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Loungefly Peanuts Comic Strip Aop Nylon Pouch",
-     "imageUrl": "https://static.thcdn.com/images/xsmall/original//productimg/1600/1600/12702603-7854824077074128.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.002282768487930298,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1507,10 +471,10 @@
      "punsafe": 0.0003108382225036621,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1521,52 +485,10 @@
      "punsafe": 0.0032324790954589844,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Security Is A Thumb And A Blanket by Charles M. Schulz",
-     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/414Jky0zy8L.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.00019890069961547852,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The Complete Peanuts, Vol. 12 by Charles M. Schulz",
-     "imageUrl": "http://images.gr-assets.com/books/1388510733l/6406160.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0010732710361480713,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Good Grief, Charlie Brown! by Charles M. Schulz",
-     "imageUrl": "https://images.gr-assets.com/books/1327964818l/228715.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 2.9097520382492803e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1577,38 +499,10 @@
      "punsafe": 3.781084160436876e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "TV Guide October 28, 1972 -  Snoopy, Charlie Brown and Woodstock.  Illustration by Charles Schultz.",
-     "imageUrl": "https://i.pinimg.com/736x/de/6a/ca/de6acaadecd1fafed0edfaea9b102aaa--charlie-brown-and-snoopy-snoopy-peanuts.jpg",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": 3.271990135544911e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Craig Orback - Illustrating and Comics: Get Inspired By Charles Schultz tickets",
-     "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F104583046%2F144027670395%2F1%2Foriginal.20200625-213521?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=73%2C7%2C536%2C268&s=e206f145979fa93dddec45d82b239d13",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": 9.545706416247413e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1619,80 +513,10 @@
      "punsafe": 0.00011237887520110235,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Around The World In 45 Years by Charles M. Schulz",
-     "imageUrl": "https://images.gr-assets.com/books/1348721234l/2558751.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 6.68118373141624e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "The World According to Lucy by Charles M. Schulz",
-     "imageUrl": "http://ecx.images-amazon.com/images/I/51hQBAiC5ML._SL160_.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0001939833164215088,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Happiness Is a Warm Puppy by Charles M. Schulz",
-     "imageUrl": "https://images.penguinrandomhouse.com/cover/9781524789954",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0005082488059997559,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Love Isn't Easy Book Based on Peanuts Comic Strip by Schulz",
-     "imageUrl": "https://s.ecrater.com/stores/17373/45badf0329717_17373b.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.0014394521713256836,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts comic strips come to life in Boomerang series",
-     "imageUrl": "https://helios-i.mashable.com/imagery/articles/05e8J1bYqBhejQCzZhnPKjP/images-1.fit_lim.size_2000x.v1619017549.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.0006322264671325684,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1703,24 +527,10 @@
      "punsafe": 0.0005832016468048096,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Happiness is... by Charles Schultz Card No. 11",
-     "imageUrl": "https://cdn.shopify.com/s/files/1/1507/0776/products/INS11_1024x1024.jpg?v=1583842266",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": 7.670388004044071e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1731,24 +541,24 @@
      "punsafe": 0.0002015531063079834,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     }
    ],
    "samples": [
-    "Nobody's Perfect Charlie Brown by Charles M. Schulz",
-    "1957 edition illustrated by Charles Schulz",
-    "Uploaded by Charles M. Schulz Museum",
-    "Characters from Peanuts, by Charles Schulz.",
-    "Peanuts by Charles Schulz",
-    "by Charles Schulz",
-    "Snoopy the Literary Ace ebook by Charles M. Schulz",
-    "Snoopy the Master Chef ebook by Charles M. Schulz",
-    "50 Jahre Peanuts by Charles M. Schulz",
-    "The Complete Peanuts, Vol. 2 by Charles M. Schulz"
+    "A Charles Schulz Peanuts Sunday page",
+    "Franklin Armstrong made his debut as a Peanuts comic strip character in the hot summer of 1968, in the middle of the huge social turmoil and racial protest of the time, carrying an unwritten message that spoke volumes. Too little has changed since then, I see. But no sermons here: I simply drew a li",
+    "of snoopy charlie brown woodstock peanuts comic strip wallpaperhtml",
+    "\"A Charlie Brown Thanksgiving - Opening. Watch and hear Charlie and Lucy. Charlie reluctantly agrees to kick the football. After he swings and misses? \"\"Lucy\"\" says \"\"Isn't it peculiar Charlie Brown how some traditions fade away?\"\" NOTE: Cartoonist and creator of the comic strip \"\"Peanuts\"\"  Charles",
+    "12: Animation Cel: Charles Schultz Production",
+    "Why Snoopy is the absolutely best Peanuts comics character? The best Peanuts comic strips featuring Snoopy - 57 Snoopy cartoons to celebrate the Beagle! Snoopy Love, Charlie Brown Und Snoopy, Snoopy And Woodstock, Peanuts Cartoon, Peanuts Snoopy, Image Positive, Snoopy Quotes, Peanuts Quotes, Joe Co",
+    "DiscovercollectiblePeanuts Posters featuring Snoopy, Woodstock, Charlie Brown, and the Peanuts comic by Charles M. Schulz.",
+    "Peanuts Comic Strips: Charles Schulz and His Process of Drawing \u00ab Peanuts",
+    "Peanuts Comic Strip for May 09, 1971",
+    "Peanuts comic strip about Lucy's Crabby Truth Poll"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -1774,62 +584,6 @@
    "totalIncludingLowConfidence": 141459,
    "rows": [
     {
-     "text": "6\u670818\u65e5(\u65e5)\u5165\u8377!70s\u301cSNOOPY(\u30b9\u30cc\u30fc\u30d4\u30fc)12DAYS EXERCISES BOOK by CHARLES SCHULZ - \u30b7\u30e7\u30a6\u30b6\u30f3\u30d3\u30eb mecca BLOG!!",
-     "imageUrl": "https://pds.exblog.jp/imgc/i=http%253A%252F%252Fpds.exblog.jp%252Fpds%252F1%252F201706%252F18%252F20%252Fc0144020_12555437.jpg,small=200,quality=75,type=jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0009246766567230225,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Strip Autographi\u00e9 Par Charles M Schulz Charlie Brown Snoopy W / Coa",
-     "imageUrl": "https://snoopycharliebrown.com/fr/image/Peanuts-Comic-Strip-Autographie-Par-Charles-M-Schulz-Charlie-Brown-Snoopy-W-Coa-02-ze.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 3.303242920082994e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Franklin Peanuts Comic Strip",
-     "imageUrl": "https://1843magazine.static-economist.com/sites/default/files/franklin.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 1.9091739886789583e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Ressun Raamattu by Charles M. Schulz",
-     "imageUrl": "https://pics.cdn.librarything.com/picsizes/30/88/308874ff9aead0a593643465577434f414f4141.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0001499652862548828,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "autumnSnoopy autumn snoopy peanuts comic strip 1280x960 wallpaper 600x450",
      "imageUrl": "https://cdn.wallpapersafari.com/48/84/a3Yem2.jpg",
      "keyword": "peanuts comic",
@@ -1837,38 +591,10 @@
      "punsafe": 0.0004182159900665283,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Snoopy & Charlie Brown Peanuts Comic Strip Throw Blanket",
-     "imageUrl": "https://yourgift.my/image/yourgift/image/cache/data/all_product_images/product-3350/AB2326.01-195x205.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00023245811462402344,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lot of 6 Peanut paperbacks by Charles M. Schulz (Hodder & Stoughton/Coronet Bks)",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/202833791745_/Lot-of-6-Peanut-paperbacks-by-Charles-M.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0001462996006011963,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1879,10 +605,10 @@
      "punsafe": 0.00010587841097731143,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1893,66 +619,10 @@
      "punsafe": 0.004722267389297485,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Franklin Peanuts Comic Strip",
-     "imageUrl": "https://www.republicanmatters.com/wp-content/uploads/2018/08/Peanuts.png",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00022274255752563477,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Books by Dell Comics",
-     "imageUrl": "https://www.sellmycomicbooks.com/images/Four-Color-878.png",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 9.933543879014906e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charles M. Schulz Sign\u00e9e \u00c0 La Main Snoopy Illustration Peanuts Autograph Comic Strip",
-     "imageUrl": "https://autographshandsigned.com/fr/uploads/Charles-M-Schulz-Signee-A-La-Main-Snoopy-Illustration-Peanuts-Autograph-Comic-Strip-07-owt.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0014376640319824219,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PigPen f\u00fcr GTA San Andreas zweiten Screenshot",
-     "imageUrl": "https://cs3.gtaall.eu/screenshots/d4861/2013-09/large-fit/635e4fd442d80025176c90704ad2f2ac0ed86a67/25759-1358071586-gallery13.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": 0.014946073293685913,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1963,24 +633,10 @@
      "punsafe": 0.0007180273532867432,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Ich habe eine neue Philosophie entwickelt\u2026 ich f\u00fcrchte nur einen Tag nach dem anderen. (\u00a9Charles M. Schulz)",
-     "imageUrl": "https://i2.wp.com/www.neuewerbung.org/wp-content/uploads/2013/12/neue-Philosophie.jpg?resize=480%2C404&ssl=1",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 6.823609146522358e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -1991,38 +647,10 @@
      "punsafe": 6.757290248060599e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Ich habe eine neue Philosophie entwickelt\u2026 ich f\u00fcrchte nur einen Tag nach dem anderen. (\u00a9Charles M. Schulz)",
-     "imageUrl": "https://i0.wp.com/neuewerbung.org/wp-content/uploads/2013/12/neue-Philosophie.jpg?resize=480%2C404&",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 6.823609146522358e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Strip Animated Woodstock Figure Enamel Metal Pin NEW UNUSED",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/362927447775_/Peanuts-Comic-Strip-Animated-Woodstock-Figure-Enamel-Metal.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 1.7778240362531506e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2033,66 +661,10 @@
      "punsafe": 0.00029712915420532227,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PigPen para GTA San Andreas tercera pantalla",
-     "imageUrl": "https://cs3.gtaall.net/screenshots/d9802/2013-09/large-fit/95558a4bfcdc3276f9aaab598dd4aef214dee9c4/25760-1358071643-gallery10.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": 0.0016040802001953125,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Final Peanuts Comic Strip 2/13/2000 From Miami Herald & Keepsake Peanuts Poster",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/202386940594_/Final-Peanuts-Comic-Strip-2-13-2000-From-Miami-Herald.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 9.582482744008303e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\"\"\"\u4ed6\u306e\u5199\u771f1: Snoopy Peanuts Gang \"\"\"\"Let's Party,Charlie Brown\"\"\"\" Comic Book \u30b9\u30cc\u30fc\u30d4\u30fc \u30d3\u30f3\u30c6\u30fc\u30b8 \u30b3\u30df\u30c3\u30af\u30d6\u30c3\u30af \u6f2b\u753b\u672c 80\u5e74\u4ee3\"\"\"",
-     "imageUrl": "https://www.stimpy.jp/data/stimpy/_/70726f647563742f32303138303631375f3230636334652e4a5047003232300000660066.jpg",
-     "keyword": "peanuts gang",
-     "tier": "high",
-     "punsafe": 1.8957172869704664e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PigPen f\u00fcr GTA San Andreas dritten Screenshot",
-     "imageUrl": "https://cs3.gtaall.eu/screenshots/d4861/2013-09/large-fit/95558a4bfcdc3276f9aaab598dd4aef214dee9c4/25760-1358071643-gallery10.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": 0.001038283109664917,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2103,10 +675,10 @@
      "punsafe": 1.4528247447742615e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2117,38 +689,10 @@
      "punsafe": 0.0004182159900665283,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PigPen para GTA San Andreas segunda tela",
-     "imageUrl": "https://cs3.gtaall.com.br/screenshots/5a9f9/2013-09/large-fit/635e4fd442d80025176c90704ad2f2ac0ed86a67/25759-1358071586-gallery13.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": 0.012528538703918457,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Strip",
-     "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.14u_ljHgFqLAwPgAn97e7wEsDF&amp;w=190&amp;h=125&amp;c=8&amp;qlt=90&amp;o=4&amp;pid=1.7",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 3.213126183254644e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2159,10 +703,10 @@
      "punsafe": 7.440849731210619e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2173,24 +717,10 @@
      "punsafe": 6.999363540671766e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Book #9 (May-Jul 1961, Dell) NEAR MINT",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/223150656166_/Peanuts-Comic-Book-9-May-Jul-1961-Dell-NEAR.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.0009424686431884766,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2201,10 +731,10 @@
      "punsafe": 6.25903339823708e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2215,24 +745,10 @@
      "punsafe": 0.0007725059986114502,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts comic strip",
-     "imageUrl": "http://blogs.longwood.edu/comm340savscheerer/files/2016/05/20000206-300x202.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00018492341041564941,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2243,38 +759,10 @@
      "punsafe": 0.0002709329128265381,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "\u3010\u4e2d\u53e4\u3011 A Peanuts book featuring Snoopy 14 / \u30c1\u30e3\u30fc\u30eb\u30ba M.\u30b7\u30e5\u30eb\u30c4, \u8c37\u5ddd \u4fca\u592a\u90ce, Charles M. Schulz / KA [\u65b0\u66f8]\u3010\u30e1\u30fc\u30eb\u4fbf\u9001\u6599\u7121\u6599\u3011\u3010\u3042\u3059\u697d\u5bfe\u5fdc\u3011",
-     "imageUrl": "https://tshop.r10s.jp/comicset/cabinet/05574639/bktom87arvca3rgy.jpg?fitin=275:275",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0005703866481781006,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Fleece Blanket/ charlie brown / Charles Schultz / Peanuts gang / snoopy  / linus /",
-     "imageUrl": "https://img0.etsystatic.com/194/0/14682659/il_340x270.1222047146_g9e1.jpg",
-     "keyword": "peanuts gang",
-     "tier": "high",
-     "punsafe": 7.731550431344658e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2285,10 +773,10 @@
      "punsafe": 1.4224301594367716e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2299,10 +787,10 @@
      "punsafe": 1.2280523151275702e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2313,52 +801,10 @@
      "punsafe": 0.000191420316696167,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "First Peanuts comic strip",
-     "imageUrl": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/2561419/image/e0aba3c281887086f59d34bbe11ca346",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00020501017570495605,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PigPen f\u00fcr GTA San Andreas",
-     "imageUrl": "https://cs3.gtaall.eu/screenshots/d4861/2013-09/large-fit/d618b31c9c99c13bc192af5a811a9426e243044d/25758-1358071625-gallery12.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": 0.0015052258968353271,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Strip Autographi\u00e9 Par Charles M Schulz Charlie Brown Snoopy W / Coa",
-     "imageUrl": "https://snoopycharliebrown.com/fr/image/Peanuts-Comic-Strip-Autographie-Par-Charles-M-Schulz-Charlie-Brown-Snoopy-W-Coa-03-nd.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 1.8294087567483075e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2369,24 +815,10 @@
      "punsafe": 0.00012567639350891113,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Final Peanuts Comic Strip--Feb. 13, 2000",
-     "imageUrl": "http://lgimages.s3.amazonaws.com/data/imagemanager/37867/final_peanuts_comic_strip--feb._13__2000.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.00043889880180358887,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2397,52 +829,10 @@
      "punsafe": 0.0002892613410949707,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Vintage Good Ol' CHARLIE BROWN By Charles M. Schulz",
-     "imageUrl": "https://img1.etsystatic.com/008/0/6678821/il_340x270.393390131_cm2i.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 1.4035655340194353e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Peanuts Comic Book #4 Feb-Apr 1960, Dell-SCARCE ISSUE NM 75% PRICE CUT",
-     "imageUrl": "https://i.ebayimg.com/thumbs/images/g/GusAAOSwCJRZiznF/s-l225.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 1.3865740584151354e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "PigPen for GTA San Andreas",
-     "imageUrl": "https://cs3.gtaall.com/screenshots/4dc09/2013-09/large-fit/d618b31c9c99c13bc192af5a811a9426e243044d/25758-1358071625-gallery12.jpg",
-     "keyword": "pigpen",
-     "tier": "high",
-     "punsafe": 0.0023573338985443115,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2453,38 +843,10 @@
      "punsafe": 0.0006843209266662598,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Vans Authentic Peanuts Comic Strip Skate Shoe",
-     "imageUrl": "https://images.journeys.com/images/products/1_473404_ZM_MULTI.JPG",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.0022817254066467285,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Snoopy Dog Head Viewer - Vintage (Charles Schulz/Peanuts/Charlie Brown) Granger",
-     "imageUrl": "https://img.letgo.com/images/12/6d/4a/bd/126d4abd76e96ec7061d854c4b848eec.png?impolicy=img_200",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 8.823352254694328e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2495,24 +857,10 @@
      "punsafe": 0.00013196468353271484,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Die ersten Peanuts Comic-Strips mit Franklin. \u00a9 Charles Schulz",
-     "imageUrl": "https://trift.org/wp-content/uploads/2015/02/2015-02-20_diary338_schulz1.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0001385211944580078,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2523,10 +871,10 @@
      "punsafe": 0.0003133416175842285,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2537,10 +885,10 @@
      "punsafe": 8.145672472892329e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2551,10 +899,10 @@
      "punsafe": 0.00011539130355231464,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2565,10 +913,10 @@
      "punsafe": 0.00019723176956176758,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2579,52 +927,24 @@
      "punsafe": 0.0005165338516235352,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Kop op, Charlie Brown by Charles M. Schulz",
-     "imageUrl": "http://pics.cdn.librarything.com/picsizes/aa/27/aa27c08d75f36d0593571495341434f414f4141.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 1.4513499081658665e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lot of 6 Peanut paperbacks by Charles M. Schulz (Hodder & Stoughton/Coronet Bks)",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/202979535839_/Lot-of-6-Peanut-paperbacks-by-Charles-M.jpg",
-     "keyword": "charles m. schulz",
-     "tier": "namematch",
-     "punsafe": 0.0001462996006011963,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     }
    ],
    "samples": [
-    "6\u670818\u65e5(\u65e5)\u5165\u8377!70s\u301cSNOOPY(\u30b9\u30cc\u30fc\u30d4\u30fc)12DAYS EXERCISES BOOK by CHARLES SCHULZ - \u30b7\u30e7\u30a6\u30b6\u30f3\u30d3\u30eb mecca BLOG!!",
-    "Peanuts Comic Strip Autographi\u00e9 Par Charles M Schulz Charlie Brown Snoopy W / Coa",
-    "Franklin Peanuts Comic Strip",
-    "Ressun Raamattu by Charles M. Schulz",
     "autumnSnoopy autumn snoopy peanuts comic strip 1280x960 wallpaper 600x450",
-    "Snoopy & Charlie Brown Peanuts Comic Strip Throw Blanket",
-    "Lot of 6 Peanut paperbacks by Charles M. Schulz (Hodder & Stoughton/Coronet Bks)",
     "Li'l Folks by Charles M. Schulz",
     "Linus van Pelt, Peanuts by Charles M. Schulz",
-    "Franklin Peanuts Comic Strip"
+    "\u30b7\u30e5\u30ed\u30fc\u30c0\u30fc\u306f\u30eb\u30fc\u30b7\u30fc\u304b\u3089\u306e\u731b\u30a2\u30bf\u30c3\u30af\u306b\u8f9f\u6613\u3057\u3066\u3044\u308b\u3002 PEANUTS Comic Strip: \u00a91970 Peanuts Worldwide LLC",
+    "A Peanuts comic strip",
+    "\u304a\u5f85\u3061\u3069\u3046\u3055\u307e\u3067\u3057\u305f by Charles M. Schulz",
+    "Peanuts Comic Strip",
+    "autumnSnoopy autumn snoopy peanuts comic strip 1280x960 wallpaper 600x450",
+    "Happiness is having your own library card. Sally from Peanuts by Charles Schulz // La felicidad es tener tu propio carn\u00e9 de biblioteca Library Humor, Library Books, Library Cards, Library Week, Library Quotes, Library Posters, Local Library, Up Book, Book Art",
+    "Free peanuts comic strip online"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2650,20 +970,6 @@
    "totalIncludingLowConfidence": 149074,
    "rows": [
     {
-     "text": "Charles Schultz / Charles Schulz (The Mandela Effect Database) Tags: charlesschultzcharles schultzresidualevidenceofcharlesschultzpresentedbythemandelaeffectdatabasemandalamandela effect research residue proof print peanuts charlie brown name change",
-     "imageUrl": "https://farm1.static.flickr.com/972/40530024140_4616a6862b_t.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0006299018859863281,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
      "text": "Peanuts Comic Strip for February 02, 1964",
      "imageUrl": "https://assets.amuniversal.com/6c12b790f88e013014ff001dd8b71c47",
      "keyword": "peanuts comic",
@@ -2671,52 +977,10 @@
      "punsafe": 0.00018513202667236328,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Lucy on love (c) Charles Schultz",
-     "imageUrl": "https://i2.wp.com/marisa.com.au/news/wp-content/uploads/2014/02/578146_290439327707837_151206238297814_662537_1418577308_n.jpg?resize=320%2C273",
-     "keyword": "charles schultz",
-     "tier": "namematch",
-     "punsafe": 0.0003440678119659424,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Charles Schulz Peanuts Football Place-Kick Sunday Comic Strip Original Art dated 10-9-77 (United Feature Syndicate...",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F1%2F6%2F7%2F5167556%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 1.928341771417763e-05,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Charles Schulz Peanuts Sunday Comic Strip Charlie Brown andFriends Original Art dated 8-9-53 (United Feature Synd...",
-     "imageUrl": "https://dyn2.heritagestatic.com/lf?set=path%5B1%2F3%2F8%2F6%2F2%2F13862837%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0012415051460266113,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2727,24 +991,10 @@
      "punsafe": 3.043812648684252e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Charlie Brown of Peanuts Comic Strip Square base Bobbin Head/ Nodder Near Mint",
-     "imageUrl": "https://www.picclickimg.com/d/l400/pict/202472726166_/Charlie-Brown-of-Peanuts-Comic-Strip-Square-base.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 4.4014223021804355e-06,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2755,10 +1005,10 @@
      "punsafe": 0.00011067385639762506,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2769,10 +1019,10 @@
      "punsafe": 0.00017276406288146973,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2783,52 +1033,10 @@
      "punsafe": 4.4180400436744094e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "ed3ca49bfc Vans Peanuts Comic Strip sz 6.5 Sneakers Shoes",
-     "imageUrl": "https://di2ponv0v5otw.cloudfront.net/posts/2018/11/29/5c00727a619745bd5991da77/m_5c007285a31c33e418fde17e.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.0012459754943847656,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Original Comic Art:Comic Strip Art, Charles Schulz Peanuts Daily Comic Strip Original Art dated 4-21-92 (United Feature Syndicate, 1992)....",
-     "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B5%2F9%2F7%2F4%2F5974702%5D%2Csizedata%5B120x300%5D&call=url%5Bfile%3Aproduct.chain%5D",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0005441904067993164,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Vintage Peanuts Patch - Frieda - 70s, Snoopy, Comic, Comic Strip, Charles Schulz",
-     "imageUrl": "https://img1.etsystatic.com/039/0/5232234/il_214x170.527109845_q4s1.jpg",
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": 0.0030149519443511963,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2839,10 +1047,10 @@
      "punsafe": 6.601072527701035e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2853,10 +1061,10 @@
      "punsafe": 7.786982314428315e-05,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2867,10 +1075,10 @@
      "punsafe": 0.001919776201248169,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2881,24 +1089,10 @@
      "punsafe": 0.00028249621391296387,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    },
-    {
-     "text": "Loungefly Peanuts Comic Strip AOP Nylon Women's Double Strap Shoulder Bag",
-     "imageUrl": "https://m.media-amazon.com/images/I/71UxeY0JBmL._AC_UL320_.jpg",
-     "keyword": "peanuts comic",
-     "tier": "high",
-     "punsafe": 0.0008392930030822754,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     },
     {
@@ -2909,24 +1103,24 @@
      "punsafe": 0.0028397440910339355,
      "validation": {
       "category": "artwork",
-      "reason": "",
+      "reason": "confirmed by visual review of the rendered gallery",
       "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
+      "source": "human-review",
+      "confidence": 1.0
      }
     }
    ],
    "samples": [
-    "Charles Schultz / Charles Schulz (The Mandela Effect Database) Tags: charlesschultzcharles schultzresidualevidenceofcharlesschultzpresentedbythemandelaeffectdatabasemandalamandela effect research residue proof print peanuts charlie brown name change",
     "Peanuts Comic Strip for February 02, 1964",
-    "Lucy on love (c) Charles Schultz",
-    "Original Comic Art:Comic Strip Art, Charles Schulz Peanuts Football Place-Kick Sunday Comic Strip Original Art dated 10-9-77 (United Feature Syndicate...",
-    "Original Comic Art:Comic Strip Art, Charles Schulz Peanuts Sunday Comic Strip Charlie Brown andFriends Original Art dated 8-9-53 (United Feature Synd...",
     "CHARLES SCHULZ Charlie Brown Sunday Comic Strip",
-    "Charlie Brown of Peanuts Comic Strip Square base Bobbin Head/ Nodder Near Mint",
     "Peanuts Comic Strip for April 04, 1999",
     "Peanuts Comic Strip for July 01, 1973",
-    "Peanuts Comic Strip, September 18, 2016     on GoComics.com"
+    "Peanuts Comic Strip, September 18, 2016     on GoComics.com",
+    "snoopy charlie brown peanuts comic strip desktop 1664x1248 wallpaper 1664x1248",
+    "list of peanuts comic strip characters",
+    "Peanuts Comic Strip for December 05, 1999",
+    "Peanuts Comic Strip for April 10, 1960",
+    "Peanuts Comic Strip for December 30, 2012"
    ],
    "partial": false,
    "shardsScanned": 128,
@@ -2950,25 +1144,8 @@
    "thirdPartyCount": 0,
    "lowConfidenceCount": 70296,
    "totalIncludingLowConfidence": 170535,
-   "rows": [
-    {
-     "text": "In 1910, a mouse named Ignatz first beaned Krazy Kat with a brick. The plot of this comic strip, centered on a \u201cheppy go lucky kat,\u201d is simple. Krazy Kat loves Ignatz Mouse. Officer Pup loves Krazy Kat. Ignatz Mouse hits Krazy over the head with a brick; Officer Pup pursues and usually arrests Ignat",
-     "imageUrl": null,
-     "keyword": "charles schulz",
-     "tier": "namematch",
-     "punsafe": null,
-     "validation": {
-      "category": "artwork",
-      "reason": "",
-      "displayable": true,
-      "source": "heuristic",
-      "confidence": 0.6
-     }
-    }
-   ],
-   "samples": [
-    "In 1910, a mouse named Ignatz first beaned Krazy Kat with a brick. The plot of this comic strip, centered on a \u201cheppy go lucky kat,\u201d is simple. Krazy Kat loves Ignatz Mouse. Officer Pup loves Krazy Kat. Ignatz Mouse hits Krazy over the head with a brick; Officer Pup pursues and usually arrests Ignat"
-   ],
+   "rows": [],
+   "samples": [],
    "partial": false,
    "shardsScanned": 1432,
    "shardsTotal": 1432
@@ -4506,7 +2683,7 @@
    "thirdPartyPropertyMentions": 0,
    "lowConfidenceMentions": 184244
   },
-  "evidenceShown": 200,
+  "evidenceShown": 70,
   "evidenceWithheld": {
    "merchandise": 842,
    "person_photo": 589,
@@ -4514,9 +2691,11 @@
    "storefront": 141,
    "derivative": 56,
    "not_flat_art": 111,
-   "unrelated": 62
+   "unrelated": 62,
+   "failed_visual_review": 130
   },
-  "generatedAt": "2026-08-06T05:42:04.598909+00:00"
+  "generatedAt": "2026-08-06T05:42:04.598909+00:00",
+  "evidenceCuration": "visual review of every rendered example"
  },
  "subjectId": "charles-schulz",
  "cohort": "early-adopter-positive-control",
