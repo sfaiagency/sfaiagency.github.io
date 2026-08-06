@@ -66,6 +66,32 @@
   .card { border:1px solid var(--line); border-radius:12px; overflow:hidden; }
   .card img { width:100%; height:170px; object-fit:cover; display:block; background:var(--bg); }
   .card .cap { padding:10px 12px; font-size:13px; }
+  /* Share modal — mirrors the app's "Get assets" flow, minus the canvas card
+     generator: a static report has no server, so it offers the caption and the
+     platform links and lets the artist post from there. */
+  .modal { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none;
+           align-items:center; justify-content:center; padding:24px; z-index:50; }
+  .modal.open { display:flex; }
+  .modal-card { background:#fff; border-radius:20px; max-width:520px; width:100%;
+                padding:28px; position:relative; max-height:90vh; overflow:auto; }
+  .modal-card h2 { margin:0 0 6px; font-size:22px; }
+  .modal-card p.sub { color:var(--gray); font-size:14px; margin:0 0 18px; }
+  .modal-close { position:absolute; top:14px; right:18px; border:0; background:none;
+                 font-size:26px; line-height:1; color:var(--gray); cursor:pointer; }
+  .share-row { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }
+  .btn { font:inherit; font-size:14px; font-weight:700; border-radius:24px;
+         padding:10px 18px; border:1px solid var(--line); background:#fff;
+         color:var(--dark); cursor:pointer; text-decoration:none; display:inline-block; }
+  .btn-primary { background:var(--coral); border-color:var(--coral); color:#fff; }
+  .btn:hover { opacity:.9; }
+  .caption-box { background:var(--bg); border:1px solid var(--line); border-radius:12px;
+                 padding:14px 16px; font-size:14px; line-height:1.6; margin-bottom:12px;
+                 white-space:pre-wrap; }
+  /* How we searched — the app's methodology cards, condensed. */
+  .how { display:grid; gap:10px; }
+  .how-card { background:var(--bg); border-radius:16px; padding:16px 20px; }
+  .how-card h3 { font-size:15px; font-weight:700; margin:0 0 3px; }
+  .how-card p { font-size:14px; color:var(--gray); line-height:1.55; margin:0; }
   .site-footer { background:var(--bg-footer); border-top:1px solid var(--line); margin-top:48px; }
   .site-footer-inner { max-width:900px; margin:0 auto; padding:32px 24px; text-align:center; }
   .site-footer img { height:30px; margin-bottom:12px; }
@@ -218,7 +244,7 @@ document.getElementById('app').innerHTML = `
     <div class="num"><b>${fmt(S.totalMentions)}</b><span>times your work was mentioned in training data</span></div>
   </div>`:''}
   <div class="next"><h2>What&rsquo;s next</h2><div class="steps">
-    <div class="step"><div class="n">1</div><h3>Spread awareness</h3><p>Post your score. The more artists know, the harder it is to ignore.</p></div>
+    <div class="step"><div class="n">1</div><h3>Spread awareness</h3><p>Post your score. The more artists know, the harder it is to ignore.</p><p style="margin-top:10px"><button class="btn btn-primary" id="shareBtn">Get assets</button></p></div>
     <div class="step"><div class="n">2</div><h3>Protect your work</h3><p>Free tools can make new work much harder for AI companies to scrape.</p></div>
     <div class="step"><div class="n">3</div><h3>Seek counsel</h3><p>You may have legal options. A lawyer who knows artists' rights can tell you what they are.</p></div>
   </div></div>
@@ -232,12 +258,62 @@ document.getElementById('app').innerHTML = `
     <div class="grid">
     ${shownEvidence.map(e=>`<div class="card">${e.imageUrl?`<img src="${esc(e.imageUrl)}" loading="lazy" onerror="this.style.display='none'">`:''}<div class="cap">${esc(e.text||'')}</div></div>`).join('')}
   </div></section>`:''}
+  <section><h2>How we searched</h2>
+    <div class="how">
+      <div class="how-card"><h3>We read the text next to every image</h3>
+        <p>AI models are trained on huge collections of images scraped from the web, each with a caption. We searched those captions for ${esc(R.artistName||'this artist')} and the names of their characters and strips.</p></div>
+      <div class="how-card"><h3>We searched every file, not a sample</h3>
+        <p>${(R.datasets||[]).filter(d=>d.coverageComplete).length} of the datasets were read in full — every one of their ${((R.datasets||[]).reduce((a,d)=>a+(d.coverageComplete?(d.rowsCovered||0):0),0)/1e9).toFixed(1)} billion rows. So these counts are exact, not estimates.</p></div>
+      <div class="how-card"><h3>We only show your actual work</h3>
+        <p>A caption mentioning a name pulls back merchandise, news photos and fan art too. Those are counted but kept out of the examples above, so what you see is the work itself.</p></div>
+      <div class="how-card"><h3>What a match means</h3>
+        <p>Finding your work in a training dataset is strong evidence it was used to build these models. It does not by itself prove a model memorised any single piece.</p></div>
+    </div>
+  </section>
   <section><h2>Where we looked</h2>
     <p>Searched ${(R.datasets||[]).length} public AI training datasets. Your work appeared in <b>${present}</b> of them.</p>
     ${(R.datasets||[]).map(d=>`<div class="row"><span class="name">${esc(d.datasetName)}</span><span class="sp"></span><span style="color:var(--gray);font-size:13px">${mentions(d)}</span></div>`).join('')}
   </section>
 
 `;
+
+// ── Share modal ─────────────────────────────────────────────────────────────
+const shareText = (present>0
+  ? `My work was found in ${present} major AI training dataset${present===1?'':'s'}` +
+    (S.totalMentions ? ` — ${fmt(S.totalMentions)} mentions` : '') + '.'
+  : 'I checked whether my work is in the datasets used to train AI image models.')
+  + ' Check yours at croquis.sfai.agency';
+const shareUrl = 'https://croquis.sfai.agency';
+document.body.insertAdjacentHTML('beforeend', `
+  <div class="modal" id="shareModal">
+    <div class="modal-card">
+      <button class="modal-close" id="shareClose" aria-label="Close">&times;</button>
+      <h2>Share your report</h2>
+      <p class="sub">The more artists know this is happening, the harder it is to ignore.</p>
+      <div class="caption-box" id="shareCaption">${esc(shareText)}</div>
+      <div class="share-row">
+        <button class="btn btn-primary" id="copyCaption">Copy caption</button>
+        <a class="btn" target="_blank" rel="noopener"
+           href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}">Post on X</a>
+        <a class="btn" target="_blank" rel="noopener"
+           href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}">LinkedIn</a>
+        <a class="btn" target="_blank" rel="noopener"
+           href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}">Facebook</a>
+      </div>
+      <p class="sub" style="margin:0">Nothing is uploaded — the text is composed here in your browser.</p>
+    </div>
+  </div>`);
+const modal=document.getElementById('shareModal');
+const open=()=>modal.classList.add('open'), close=()=>modal.classList.remove('open');
+document.getElementById('shareBtn')?.addEventListener('click',open);
+document.getElementById('shareClose').addEventListener('click',close);
+modal.addEventListener('click',e=>{ if(e.target===modal) close(); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') close(); });
+document.getElementById('copyCaption').addEventListener('click',async e=>{
+  try{ await navigator.clipboard.writeText(shareText); e.target.textContent='Copied'; }
+  catch{ e.target.textContent='Select and copy above'; }
+  setTimeout(()=>{ e.target.textContent='Copy caption'; },1800);
+});
 </script>
 <footer class="site-footer">
   <div class="site-footer-inner">
