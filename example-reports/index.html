@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../nav.css">
     <style>
-      .er-wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
+      .er-wrap { max-width: 1080px; margin: 0 auto; padding: 76px 24px 90px; }
+      .er-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 26px; }
+      .er-brand img { height: 44px; width: 44px; object-fit: contain; }
+      .er-brand b { color: var(--coral); font-size: 34px; font-weight: 800;
+                     letter-spacing: -0.02em; }
       .er-wrap h1 { font-size: 34px; margin: 0 0 8px; }
       .er-sub { color: var(--text-gray); font-size: 17px; line-height: 1.6;
                  max-width: 720px; margin: 0 0 28px; }
@@ -41,6 +45,11 @@
       .er-coll h2 { margin: 0 0 8px; font-size: 22px; color: var(--coral); }
       .er-coll p { margin: 0 0 14px; font-size: 15px; color: var(--text-gray); line-height: 1.55; }
       .er-coll .n { font-size: 13px; font-weight: 700; }
+      .er-faces { position: relative; display: block; height: 46px;
+                   margin: 0 0 16px; overflow: hidden; }
+      .er-faces img { position: absolute; top: 0; width: 44px; height: 44px;
+                       border-radius: 50%; object-fit: cover;
+                       border: 2px solid var(--white); background: var(--bg-light); }
       @media (max-width: 700px) { .er-stats { grid-template-columns: repeat(2, 1fr); } }
     </style>
 </head>
@@ -59,9 +68,10 @@
         </div>
     </header>
     <main class="er-wrap">
-<h1>Example reports</h1>
+<div class="er-brand"><img src="../assets/croquis-logo.png" alt="Croquis"><b>Croquis</b></div>
+<h1>Pinned collections</h1>
 <p class='er-sub'>Croquis reports showing where artists' work appears in the datasets used to train today's image models.</p>
-<div class="er-colls"><a class="er-coll" href="early-adopters/"><h2>Early Adopters</h2><p>The artists who joined first — cartoonists, photographers and journalists.</p><span class="n">20 artists &rarr;</span></a><a class="er-coll" href="new-yorker/"><h2>The New Yorker Cartoonists</h2><p>Artists who have drawn for <em>The New Yorker</em>.</p><span class="n">115 artists &rarr;</span></a><a class="er-coll" href="osu-archive/"><h2>The OSU Archive Collection</h2><p>Cartoonists whose papers are held at Ohio State.</p><span class="n">117 artists &rarr;</span></a></div>
+<div class="er-colls"><a class="er-coll" href="early-adopters/"><h2>Early Adopters</h2><span class="er-faces"><img src="avatars/charles-schulz.jpg" alt="" loading="lazy" style="left:0px;opacity:1.00;z-index:7"><img src="avatars/the-simpsons.jpg" alt="" loading="lazy" style="left:26px;opacity:0.88;z-index:6"><img src="avatars/david-carson.jpg" alt="" loading="lazy" style="left:52px;opacity:0.76;z-index:5"><img src="avatars/ami-vitale.jpg" alt="" loading="lazy" style="left:78px;opacity:0.64;z-index:4"><img src="avatars/ted-rall.jpg" alt="" loading="lazy" style="left:104px;opacity:0.51;z-index:3"><img src="avatars/herblock.jpg" alt="" loading="lazy" style="left:130px;opacity:0.39;z-index:2"><img src="avatars/keith-knight.jpg" alt="" loading="lazy" style="left:156px;opacity:0.27;z-index:1"></span><span class="n">20 artists &rarr;</span></a><a class="er-coll" href="new-yorker/"><h2>The New Yorker Cartoonists</h2><span class="er-faces"><img src="avatars/ny-daniel-clowes.jpg" alt="" loading="lazy" style="left:0px;opacity:1.00;z-index:7"><img src="avatars/ny-roz-chast.jpg" alt="" loading="lazy" style="left:26px;opacity:0.88;z-index:6"><img src="avatars/ny-saul-steinberg.jpg" alt="" loading="lazy" style="left:52px;opacity:0.76;z-index:5"><img src="avatars/ny-jules-feiffer.jpg" alt="" loading="lazy" style="left:78px;opacity:0.64;z-index:4"><img src="avatars/ny-alison-bechdel.jpg" alt="" loading="lazy" style="left:104px;opacity:0.51;z-index:3"><img src="avatars/ny-chris-ware.jpg" alt="" loading="lazy" style="left:130px;opacity:0.39;z-index:2"><img src="avatars/ny-ronald-searle.jpg" alt="" loading="lazy" style="left:156px;opacity:0.27;z-index:1"></span><span class="n">115 artists &rarr;</span></a><a class="er-coll" href="osu-archive/"><h2>The OSU Archive Collection</h2><span class="er-faces"><img src="avatars/bi-will-eisner.jpg" alt="" loading="lazy" style="left:0px;opacity:1.00;z-index:7"><img src="avatars/bi-art-spiegelman-and-francoise-mouly.jpg" alt="" loading="lazy" style="left:26px;opacity:0.88;z-index:6"><img src="avatars/bi-milton-caniff.jpg" alt="" loading="lazy" style="left:52px;opacity:0.76;z-index:5"><img src="avatars/bi-derf-backderf.jpg" alt="" loading="lazy" style="left:78px;opacity:0.64;z-index:4"><img src="avatars/bi-pogo.jpg" alt="" loading="lazy" style="left:104px;opacity:0.51;z-index:3"><img src="avatars/bi-king-features-syndicate.jpg" alt="" loading="lazy" style="left:130px;opacity:0.39;z-index:2"><img src="avatars/bi-jennifer-l-holm-and-matthew-holm.jpg" alt="" loading="lazy" style="left:156px;opacity:0.27;z-index:1"></span><span class="n">117 artists &rarr;</span></a></div>
     </main>
     <footer class="footer">
         <div class="footer-content">
