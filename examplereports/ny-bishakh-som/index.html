@@ -258,23 +258,27 @@ document.getElementById('app').innerHTML = `
     <div class="grid">
     ${shownEvidence.map(e=>`<div class="card">${e.imageUrl?`<img src="${esc(e.imageUrl)}" loading="lazy" onerror="this.style.display='none'">`:''}<div class="cap">${esc(e.text||'')}</div></div>`).join('')}
   </div></section>`:''}
+  <section><h2>Where we looked</h2>
+    <p>Searched ${(R.datasets||[]).length} public AI training datasets. Your work appeared in <b>${present}</b> of them.</p>
+    ${(R.datasets||[]).map(d=>`<div class="row"><span class="name">${esc(d.datasetName)}</span><span class="sp"></span><span style="color:var(--gray);font-size:13px">${mentions(d)}</span></div>`).join('')}
+  </section>
+
   <section><h2>How we searched</h2>
     <div class="how">
-      <div class="how-card"><h3>We read the text next to every image</h3>
-        <p>AI models are trained on huge collections of images scraped from the web, each with a caption. We searched those captions for ${esc(R.artistName||'this artist')} and the names of their characters and strips.</p></div>
+      <div class="how-card"><h3>We search by style, not just by name</h3>
+        <p>We build a style profile from example works by ${esc(R.artistName||'the artist')} and search the datasets with it. This is the main method: it finds work whether or not anyone labelled it with a name.</p></div>
+      <div class="how-card"><h3>We combine that with names and titles</h3>
+        <p>Every image in these datasets carries a caption. We read those for ${esc(R.artistName||'the artist')} and the names of their characters and strips, and use it alongside the style search rather than in place of it.</p></div>
+      <div class="how-card"><h3>We test the models directly</h3>
+        <p>Beyond the datasets, we probe the AI models themselves with membership inference &mdash; measuring how they respond to specific works to see whether the model already knows them. Where that has run, the results are in &ldquo;Evidence from models&rdquo; above.</p></div>
       <div class="how-card"><h3>We searched every file, not a sample</h3>
-        <p>${(R.datasets||[]).filter(d=>d.coverageComplete).length} of the datasets were read in full — every one of their ${((R.datasets||[]).reduce((a,d)=>a+(d.coverageComplete?(d.rowsCovered||0):0),0)/1e9).toFixed(1)} billion rows. So these counts are exact, not estimates.</p></div>
+        <p>${(R.datasets||[]).filter(d=>d.coverageComplete).length} of the datasets were read in full &mdash; every one of their ${((R.datasets||[]).reduce((a,d)=>a+(d.coverageComplete?(d.rowsCovered||0):0),0)/1e9).toFixed(1)} billion rows. So these counts are exact, not estimates.</p></div>
       <div class="how-card"><h3>We only show your actual work</h3>
         <p>A caption mentioning a name pulls back merchandise, news photos and fan art too. Those are counted but kept out of the examples above, so what you see is the work itself.</p></div>
       <div class="how-card"><h3>What a match means</h3>
         <p>Finding your work in a training dataset is strong evidence it was used to build these models. It does not by itself prove a model memorised any single piece.</p></div>
     </div>
   </section>
-  <section><h2>Where we looked</h2>
-    <p>Searched ${(R.datasets||[]).length} public AI training datasets. Your work appeared in <b>${present}</b> of them.</p>
-    ${(R.datasets||[]).map(d=>`<div class="row"><span class="name">${esc(d.datasetName)}</span><span class="sp"></span><span style="color:var(--gray);font-size:13px">${mentions(d)}</span></div>`).join('')}
-  </section>
-
 `;
 
 // ── Share modal ─────────────────────────────────────────────────────────────
