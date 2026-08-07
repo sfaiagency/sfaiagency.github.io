@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example reports - SFAI.agency</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hhx2fen.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../nav.css">
+    <style>
+      .er-wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
+      .er-wrap h1 { font-size: 34px; margin: 0 0 8px; }
+      .er-sub { color: var(--text-gray); font-size: 17px; line-height: 1.6;
+                 max-width: 720px; margin: 0 0 28px; }
+      .er-back { display: inline-block; color: var(--coral); font-weight: 600;
+                  text-decoration: none; font-size: 14px; margin-bottom: 18px; }
+      .er-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+                   margin: 0 0 36px; }
+      .er-stat { border: 2px solid var(--text-gray); border-radius: 18px;
+                  padding: 18px; text-align: center; }
+      .er-stat b { display: block; font-size: 30px; font-weight: 800; line-height: 1.1; }
+      .er-stat span { color: var(--text-gray); font-size: 12px; }
+      .er-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                  gap: 22px 16px; }
+      .er-card { text-decoration: none; color: var(--text-dark); text-align: center;
+                  display: block; }
+      .er-av { width: 100%; aspect-ratio: 1; border-radius: 50%; object-fit: cover;
+                display: block; background: var(--bg-light); margin-bottom: 10px;
+                border: 1px solid #ececec; }
+      .er-mono { width: 100%; aspect-ratio: 1; border-radius: 50%; margin-bottom: 10px;
+                  background: var(--bg-light); border: 1px solid #ececec;
+                  display: flex; align-items: center; justify-content: center;
+                  font-size: 30px; font-weight: 800; color: var(--text-gray); }
+      .er-name { font-size: 14px; font-weight: 600; line-height: 1.35; }
+      .er-card:hover .er-name { color: var(--coral); }
+      .er-colls { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                   gap: 18px; }
+      .er-coll { border: 2px solid var(--text-gray); border-radius: 20px; padding: 26px;
+                  text-decoration: none; color: var(--text-dark); display: block; }
+      .er-coll:hover { border-color: var(--coral); }
+      .er-coll h2 { margin: 0 0 8px; font-size: 22px; color: var(--coral); }
+      .er-coll p { margin: 0 0 14px; font-size: 15px; color: var(--text-gray); line-height: 1.55; }
+      .er-coll .n { font-size: 13px; font-weight: 700; }
+      @media (max-width: 700px) { .er-stats { grid-template-columns: repeat(2, 1fr); } }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="../" class="logo"><img src="../assets/logo.png" alt="SFAI Agency"></a>
+            </div>
+            <div class="header-right">
+                <a href="../" class="nav-link">Home</a>
+                <a href="../research/" class="nav-link">Research</a>
+                <a href="../products/protect/" class="nav-link">Protect</a>
+                <a href="../artists.html" class="nav-link">Artists</a>
+            </div>
+        </div>
+    </header>
+    <main class="er-wrap">
+<h1>Example reports</h1>
+<p class='er-sub'>Croquis reports showing where artists' work appears in the datasets used to train today's image models.</p>
+<div class="er-colls"><a class="er-coll" href="early-adopters/"><h2>Early Adopters</h2><p>The artists who joined first — cartoonists, photographers and journalists.</p><span class="n">20 artists &rarr;</span></a><a class="er-coll" href="new-yorker/"><h2>The New Yorker Cartoonists</h2><p>Artists who have drawn for <em>The New Yorker</em>.</p><span class="n">115 artists &rarr;</span></a><a class="er-coll" href="osu-archive/"><h2>The OSU Archive Collection</h2><p>Cartoonists whose papers are held at Ohio State.</p><span class="n">117 artists &rarr;</span></a></div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../assets/logo.png" alt="SFAI" class="footer-logo">
+                <address><a href="mailto:info@sfai.agency">info@sfai.agency</a></address>
+                <p class="copyright">&copy; 2026, The SFAI.agency, San Francisco, CA</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../nav.js"></script>
+</body>
+</html>
