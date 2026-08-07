@@ -271,10 +271,6 @@ document.getElementById('app').innerHTML = `
         <p>Beyond the datasets, we probe the AI models themselves. For this, we employ membership inference methods, which test the AI models&rsquo; familiarity with the creator&rsquo;s style and work, allowing us to assign a likelihood for use.</p></div>
       <div class="how-card"><h3>Memorization distinction</h3>
         <p>Finding your work in a training dataset is strong evidence it was used to build these models. It does not by itself prove a model memorized the piece exactly.</p></div>
-      <div class="how-card"><h3>We searched every file, not a sample</h3>
-        <p>${(R.datasets||[]).filter(d=>d.coverageComplete).length} of the datasets were read in full &mdash; every one of their ${((R.datasets||[]).reduce((a,d)=>a+(d.coverageComplete?(d.rowsCovered||0):0),0)/1e9).toFixed(1)} billion rows. So these counts are exact, not estimates.</p></div>
-      <div class="how-card"><h3>We only show your actual work</h3>
-        <p>A caption mentioning a name pulls back merchandise, news photos and fan art too. Those are counted but kept out of the examples above, so what you see is the work itself.</p></div>
     </div>
   </section>
 `;
