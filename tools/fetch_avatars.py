@@ -40,11 +40,49 @@ UA = "sfai-avatars/1.0 (https://sfai.agency; info@sfai.agency)"
 API = "https://en.wikipedia.org/w/api.php"
 SIZE = 400
 
-# words that make an article plausibly about the right person
-GOOD = ["cartoonist", "comic", "illustrator", "animator", "artist",
-        "caricatur", "graphic novel", "strip", "editorial cartoon",
-        "photograph", "designer", "writer"]
-# words that indicate we matched the wrong famous person
+# Domains differ in what a correct match looks like. Searching "Bob Dylan
+# cartoonist" and then rejecting his article for not being art-related is how
+# the original single-domain version would have failed on the audio rosters,
+# so the disambiguating vocabulary is selected per domain.
+DOMAINS = {
+    "art": {
+        # parenthetical article suffixes, tried most specific first
+        "suffixes": [" (cartoonist)", " (comics)", " (illustrator)",
+                     " (artist)", ""],
+        "search_term": "cartoonist",
+        "good": ["cartoonist", "comic", "illustrator", "animator", "artist",
+                 "caricatur", "graphic novel", "strip", "editorial cartoon",
+                 "photograph", "designer", "writer"],
+    },
+    # Spoken and music are split rather than one "audio" domain because show
+    # titles collide with band names: searching the podcast "Criminal" as
+    # generic audio returned Criminal (band), a thrash metal group, which
+    # would have put four strangers on Phoebe Judge's report.
+    "spoken": {
+        "suffixes": [" (podcast)", " (radio program)", " (radio programme)",
+                     " (radio series)", " (journalist)", " (comedian)", ""],
+        "search_term": "podcast radio program",
+        "good": ["podcast", "radio", "broadcast", "npr", "public radio",
+                 "talk show", "host", "presenter", "journalist", "comedian",
+                 "correspondent", "episodes", "programme", "program"],
+        # A definition that opens with these is a musical act, not a
+        # spoken-word programme. "singer" is deliberately NOT here: plenty of
+        # podcast hosts also sing (it rejected Ashly Burch), and "band" plus
+        # the genre words are what actually catch a band article.
+        "disqualifying": ["band", "album", "discography", "thrash",
+                          "heavy metal", "guitarist"],
+    },
+    "music": {
+        "suffixes": [" (musician)", " (singer)", " (band)", " (rapper)", ""],
+        "search_term": "musician band",
+        "good": ["musician", "singer", "songwriter", "rapper", "band",
+                 "guitarist", "drummer", "bassist", "composer", "record",
+                 "album", "discography", "recording artist"],
+        "disqualifying": [],
+    },
+}
+# words that indicate we matched the wrong famous person. Shared: these are
+# wrong in every domain we publish.
 BAD = ["footballer", "baseball", "basketball", "cricketer", "politician",
         "senator", "governor", "bishop", "admiral", "rugby", "boxer",
         "racing driver", "golfer", "soccer"]
@@ -64,14 +102,12 @@ def get(url, params=None, binary=False, tries=3):
             time.sleep(1.5 * (a + 1))
 
 
-def search(name):
+def search(name, domain="art"):
     """Candidate article titles, most specific first."""
-    out = []
-    for suffix in [" (cartoonist)", " (comics)", " (illustrator)",
-                   " (artist)", ""]:
-        out.append(name + suffix)
+    d = DOMAINS[domain]
+    out = [name + suffix for suffix in d["suffixes"]]
     r = get(API, {"action": "query", "list": "search", "format": "json",
-                  "srsearch": f"{name} cartoonist", "srlimit": "3"})
+                  "srsearch": f"{name} {d['search_term']}", "srlimit": "3"})
     if r:
         for s in r.get("query", {}).get("search", []):
             if s["title"] not in out:
@@ -164,14 +200,23 @@ def wikidata_image(title):
     return None
 
 
-def plausible(extract, name):
+def plausible(extract, name, domain="art"):
+    d = DOMAINS[domain]
+    good = d["good"]
     t = (extract or "").lower()
     if not t:
         return False, "no article text"
-    if any(b in t for b in BAD) and not any(g in t for g in GOOD):
+    # Wikipedia's opening sentence is the definition -- "X is a Chilean thrash
+    # metal band". Checking only there keeps a passing later mention ("the
+    # theme is played by the band ...") from disqualifying a real match.
+    lead = re.split(r"(?<=[.!?])\s", t, maxsplit=1)[0]
+    for b in d.get("disqualifying", []):
+        if b in lead:
+            return False, f"article defines a {b}, not a {domain} subject"
+    if any(b in t for b in BAD) and not any(g in t for g in good):
         return False, "looks like a different public figure"
-    if not any(g in t for g in GOOD):
-        return False, "article does not look art-related"
+    if not any(g in t for g in good):
+        return False, f"article does not look {domain}-related"
     return True, ""
 
 
@@ -191,10 +236,17 @@ def square(data):
     return buf.getvalue()
 
 
+COLLECTION_DOMAIN = {
+    "early-adopters": "art", "new-yorker": "art", "osu-archive": "art",
+    "signup-form": "art",
+    "radio-hosts": "spoken", "podcasters": "spoken", "musicians": "music",
+}
+
+
 def missing_targets(only=None):
-    """(slug, display name) for every monogram tile across collections."""
+    """(slug, display name, domain) for every monogram tile across collections."""
     seen, out = set(), []
-    for coll in ["early-adopters", "new-yorker", "osu-archive"]:
+    for coll, domain in COLLECTION_DOMAIN.items():
         p = os.path.join(ROOT, "example-reports", coll, "index.html")
         if not os.path.exists(p):
             continue
@@ -207,7 +259,7 @@ def missing_targets(only=None):
             if only and not slug.startswith(only):
                 continue
             seen.add(slug)
-            out.append((slug, re.sub(r"\s+", " ", nm).strip()))
+            out.append((slug, re.sub(r"\s+", " ", nm).strip(), domain))
     return out
 
 
@@ -231,13 +283,13 @@ def main():
     print(f"{len(targets)} entries without a headshot\n", flush=True)
 
     rows, got, skipped = [], 0, []
-    for i, (slug, disp) in enumerate(targets, 1):
+    for i, (slug, disp, domain) in enumerate(targets, 1):
         dest = os.path.join(AVATARS, slug + ".jpg")
         if os.path.exists(dest):
             continue
         name = clean_name(disp)
         found, reason = None, "no Wikipedia article found"
-        for title in search(name):
+        for title in search(name, domain):
             info = page_info(title)
             if not info:
                 continue
@@ -245,7 +297,7 @@ def main():
                 if reason == "no Wikipedia article found":
                     reason = "only wrong-person matches"
                 continue
-            ok, why = plausible(info["extract"], name)
+            ok, why = plausible(info["extract"], name, domain)
             if not ok:
                 reason = why
                 continue
