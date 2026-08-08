@@ -28,6 +28,9 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AVATARS = os.path.join(ROOT, "example-reports", "avatars")
 MANIFEST = os.path.join(AVATARS, "PROVENANCE.csv")
+# licences worked out after the fact for portraits that predate the manifest;
+# kept separate so the audit trail still says which is which
+RECONSTRUCTED = os.path.join(AVATARS, "PROVENANCE_RECONSTRUCTED.csv")
 PAGE = os.path.join(ROOT, "example-reports", "credits", "index.html")
 
 
@@ -53,9 +56,13 @@ def load() -> list[dict]:
     last row is the one describing the file that is currently there.
     """
     by_slug: dict[str, dict] = {}
-    with open(MANIFEST, newline="") as f:
-        for row in csv.DictReader(f):
-            by_slug[row["slug"]] = row
+    # reconstructed first, so a row recorded at download time always wins
+    for path in (RECONSTRUCTED, MANIFEST):
+        if not os.path.exists(path):
+            continue
+        with open(path, newline="") as f:
+            for row in csv.DictReader(f):
+                by_slug[row["slug"]] = row
     rows = [r for s, r in by_slug.items()
             if os.path.exists(os.path.join(AVATARS, s + ".jpg"))]
     rows.sort(key=lambda r: r["display_name"].lower())
@@ -80,9 +87,21 @@ def main() -> None:
     if new == page and '<ul class="cr-list">' not in page:
         sys.exit("credits page has no cr-list block")
 
+    # Write BEFORE reporting. The missing list runs to dozens of lines, and
+    # piping this into head sends SIGPIPE partway through it -- which killed
+    # an earlier run after the report but before the write, leaving the page
+    # untouched and the exit code 0. Doing the work first makes that
+    # impossible.
+    stale = new != page
+    if not args.check and stale:
+        open(PAGE, "w").write(new)
+
     n_attrib = sum(1 for r in rows if "cc" in (r["license"] or "").lower())
     print(f"{len(rows)} portraits credited "
           f"({n_attrib} under attribution-requiring licences)")
+    if not args.check:
+        print("wrote " + os.path.relpath(PAGE, ROOT) if stale
+              else "page already up to date")
     if missing:
         print(f"\n{len(missing)} image(s) on disk with no provenance row -- "
               f"these are uncredited:")
@@ -90,13 +109,14 @@ def main() -> None:
             print("  " + s)
 
     if args.check:
-        print("\n" + ("page is up to date" if new == page
-                      else "page is STALE -- run without --check"))
-        sys.exit(1 if (new != page or missing) else 0)
-
-    open(PAGE, "w").write(new)
-    print("\nwrote " + os.path.relpath(PAGE, ROOT))
+        print("\n" + ("page is STALE -- run without --check" if stale
+                      else "page is up to date"))
+        sys.exit(1 if (stale or missing) else 0)
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BrokenPipeError:
+        # piping into head is normal here; the page is already written by now
+        os._exit(0)

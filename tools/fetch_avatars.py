@@ -263,6 +263,90 @@ def missing_targets(only=None):
     return out
 
 
+RECONSTRUCTED = os.path.join(AVATARS, "PROVENANCE_RECONSTRUCTED.csv")
+
+
+def all_cards(only=None):
+    """(slug, display name, domain) for EVERY card, portrait or monogram."""
+    seen, out = set(), []
+    for coll, domain in COLLECTION_DOMAIN.items():
+        p = os.path.join(ROOT, "example-reports", coll, "index.html")
+        if not os.path.exists(p):
+            continue
+        s = open(p).read()
+        for slug, nm in re.findall(
+                r'<a class="er-card" href="\.\./([^/"]+)/">(?:<img[^>]*>|'
+                r'<div class="er-mono">[^<]*</div>)<div class="er-name">([^<]*)', s):
+            if slug in seen or (only and not slug.startswith(only)):
+                continue
+            seen.add(slug)
+            out.append((slug, re.sub(r"\s+", " ", nm).strip(), domain))
+    return out
+
+
+def backfill(only=None):
+    """Recover licence metadata for portraits downloaded before the manifest.
+
+    125 images predate PROVENANCE.csv (or were written while the querystring
+    bug was corrupting filenames), so their authors were never recorded even
+    though most carry CC-BY, which obliges us to credit them. This re-resolves
+    each one the same way it was originally found and records what it gets.
+
+    These rows go in a SEPARATE file because they are reconstructed, not
+    observed: the resolver is deterministic and lands on the same article in
+    the normal case, but it cannot prove the file on disk came from that
+    article. Keeping them apart means the audit trail still distinguishes
+    "recorded at download time" from "worked out afterwards", while the
+    credits page can attribute both.
+    """
+    have = set()
+    if os.path.exists(MANIFEST):
+        have |= {r["slug"] for r in csv.DictReader(open(MANIFEST))}
+    if os.path.exists(RECONSTRUCTED):
+        have |= {r["slug"] for r in csv.DictReader(open(RECONSTRUCTED))}
+
+    todo = [(s, d, dom) for s, d, dom in all_cards(only)
+            if s not in have and os.path.exists(os.path.join(AVATARS, s + ".jpg"))]
+    print(f"{len(todo)} portraits with no recorded licence\n", flush=True)
+
+    rows, unresolved = [], []
+    for i, (slug, disp, domain) in enumerate(todo, 1):
+        name = clean_name(disp)
+        found = None
+        for title in search(name, domain):
+            info = page_info(title)
+            if not info or not title_matches(info["title"], name):
+                continue
+            ok, _ = plausible(info["extract"], name, domain)
+            if not ok:
+                continue
+            info["image"] = info.get("image") or wikidata_image(info["title"])
+            if info["image"]:
+                found = info
+            break
+        if not found:
+            unresolved.append((slug, disp))
+            print(f"[{i}/{len(todo)}] {disp:36s} -- unresolved", flush=True)
+            continue
+        lic = image_license(found["image"])
+        rows.append([slug, disp, found["title"], found["image"],
+                     lic.get("license", ""), lic.get("author", ""),
+                     lic.get("descurl", "")])
+        print(f"[{i}/{len(todo)}] {disp:36s} {lic.get('license','?')}", flush=True)
+
+    if rows:
+        new = not os.path.exists(RECONSTRUCTED)
+        with open(RECONSTRUCTED, "a", newline="") as f:
+            w = csv.writer(f)
+            if new:
+                w.writerow(["slug", "display_name", "wikipedia_article",
+                            "image_url", "license", "author", "description_url"])
+            w.writerows(rows)
+    print(f"\nrecovered {len(rows)}, unresolved {len(unresolved)}")
+    for s, d in unresolved:
+        print(f"  {d:36s} ({s})")
+
+
 def clean_name(nm):
     nm = re.sub(r"[“”\"]", "", nm)          # drop nicknames in quotes
     nm = re.sub(r"\s*/\s*.*$", "", nm)                 # "A/B" -> A
@@ -275,7 +359,12 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--only", default=None)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--backfill", action="store_true",
+                    help="recover licences for portraits already on disk")
     args = ap.parse_args()
+
+    if args.backfill:
+        return backfill(args.only)
 
     targets = missing_targets(args.only)
     if args.limit:
