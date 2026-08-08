@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../nav.css">
     <style>
-      .er-wrap { max-width: 1080px; margin: 0 auto; padding: 76px 24px 90px; }
+      .er-wrap { max-width: 1080px; margin: 0 auto; padding: 120px 24px 90px; }
+      /* header is position:fixed, 101px tall on desktop; 76px hid the
+         Croquis brand lockup behind it. 90px under 768px (header 71px). */
+      @media (max-width: 768px) { .er-wrap { padding-top: 90px; } }
       .er-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 26px; }
       .er-brand img { height: 44px; width: 44px; object-fit: contain; }
       .er-brand b { color: var(--coral); font-size: 34px; font-weight: 800;
