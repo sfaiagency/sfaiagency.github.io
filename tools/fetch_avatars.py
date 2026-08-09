@@ -265,6 +265,37 @@ def missing_targets(only=None):
 
 RECONSTRUCTED = os.path.join(AVATARS, "PROVENANCE_RECONSTRUCTED.csv")
 
+# A programme has no face of its own, and its logo is trademarked and not on
+# Commons under a free licence, so the monogram was standing in for every NPR
+# show on the list. The person who fronts the show does have a free portrait
+# in most cases, and for these shows the host IS the show as listeners know
+# it. The mapping is explicit rather than guessed, and the provenance file
+# records that the portrait is of the host, not of the programme.
+#
+# Shows with no single front (Planet Money, Life Kit, Up First) are left out
+# on purpose: picking one of a rotating ensemble would misrepresent them.
+HOSTS = {
+    "aud-it-s-been-a-minute": "Brittany Luse",
+    "aud-code-switch": "Gene Demby",
+    "aud-embedded": "Kelly McEvers",
+    "aud-throughline": "Rund Abdelfatah",
+    "aud-invisibilia": "Hanna Rosin",
+    "aud-rough-translation": "Gregory Warner",
+    "aud-short-wave": "Emily Kwong",
+    "aud-wait-wait": "Peter Sagal",
+    "aud-ologies": "Alie Ward",
+    "aud-art-of-manliness": "Brett McKay",
+    "aud-20k": "Dallas Taylor",
+    "aud-software-engineering-daily": "Jeff Meyerson",
+    # people whose own lookup failed on the generic search terms
+    "aud-sam-sanders": "Sam Sanders",
+    "aud-roman-mars": "Roman Mars",
+    "aud-nora-mcinerney": "Nora McInerney",
+    "aud-quincy-larson": "Quincy Larson",
+    "aud-elizabeth-laime": "Elizabeth Laime",
+    "aud-dave-asprey": "Dave Asprey",
+}
+
 
 def all_cards(only=None):
     """(slug, display name, domain) for EVERY card, portrait or monogram."""
@@ -313,7 +344,7 @@ def backfill(only=None):
     for i, (slug, disp, domain) in enumerate(todo, 1):
         name = clean_name(disp)
         found = None
-        for title in search(name, domain):
+        for title in search(name, dom):
             info = page_info(title)
             if not info or not title_matches(info["title"], name):
                 continue
@@ -376,7 +407,9 @@ def main():
         dest = os.path.join(AVATARS, slug + ".jpg")
         if os.path.exists(dest):
             continue
-        name = clean_name(disp)
+        name = HOSTS.get(slug) or clean_name(disp)
+        # a host stands in for a programme, so widen the accepted vocabulary
+        dom = "spoken" if slug in HOSTS else domain
         found, reason = None, "no Wikipedia article found"
         for title in search(name, domain):
             info = page_info(title)
@@ -386,7 +419,7 @@ def main():
                 if reason == "no Wikipedia article found":
                     reason = "only wrong-person matches"
                 continue
-            ok, why = plausible(info["extract"], name, domain)
+            ok, why = plausible(info["extract"], name, dom)
             if not ok:
                 reason = why
                 continue
@@ -424,7 +457,8 @@ def main():
             skipped.append((slug, disp, f"decode failed: {type(e).__name__}"))
             continue
         got += 1
-        rows.append([slug, disp, found["title"], found["image"],
+        label = disp if slug not in HOSTS else f"{disp} (host: {name})"
+        rows.append([slug, label, found["title"], found["image"],
                      lic.get("license", ""), lic.get("author", ""),
                      lic.get("descurl", "")])
         print(f"[{i}/{len(targets)}] {disp:38s} OK  [{lic.get('license','?')}]",
