@@ -78,6 +78,14 @@
   .card { border:1px solid var(--line); border-radius:12px; overflow:hidden; }
   .card img { width:100%; height:170px; object-fit:cover; display:block; background:var(--bg); }
   .card .cap { padding:10px 12px; font-size:13px; }
+  /* An example has to be checkable. The title links to the recording when the
+     corpus gave us a resolvable id, and the row underneath opens the same
+     search on the services the creator already uses. */
+  .ev-title { color:var(--dark); font-weight:700; text-decoration:none; }
+  .ev-title:hover { color:var(--coral); text-decoration:underline; }
+  .ev-look { display:flex; flex-wrap:wrap; gap:10px; margin-top:7px; }
+  .ev-look a { font-size:11px; font-weight:600; color:var(--gray); text-decoration:none; }
+  .ev-look a:hover { color:var(--coral); text-decoration:underline; }
   /* Share modal — mirrors the app's "Get assets" flow, including the canvas
      card generator, so the artist leaves with an image they can actually post.
      A static report has no server: the cards are drawn in the browser and the
@@ -93,6 +101,7 @@
          border-radius:24px; padding:8px 14px; cursor:pointer; }
   .fmt.on { background:var(--coral); border-color:var(--coral); color:#fff; }
   .fmt svg { display:block; }
+  .fmt-ic { display:inline-flex; align-items:center; gap:6px; }
   .preview { background:var(--bg); border-radius:12px; padding:14px; margin-bottom:14px;
              text-align:center; min-height:60px; }
   .preview img { max-width:100%; max-height:300px; border-radius:8px;
@@ -128,15 +137,19 @@
 <header class="site-header">
   <div class="site-header-inner">
     <a href="https://sfai.agency/"><img src="../../assets/logo.png" alt="SFAI Agency"></a>
+    <!-- Same links, same order, as the collection pages and the main site.
+         These used to be three links in a different order, so the nav visibly
+         changed as you moved between a collection and a report. -->
     <nav class="hnav">
       <a href="https://sfai.agency/">Home</a>
-      <a href="https://sfai.agency/products/protect/">Protect</a>
       <a href="https://sfai.agency/research/">Research</a>
+      <a href="https://sfai.agency/products/protect/">Protect</a>
+      <a href="https://sfai.agency/artists.html">Artists</a>
     </nav>
   </div>
 </header>
 <div class="wrap" id="app"></div>
-<script id="data" type="application/json">{"artistName": "Neil Young", "reportName": "Neil Young", "modelDownloads": 9000010, "modality": "music", "generatedAt": "2026-08-09T01:49:13+00:00", "cohort": "musicians", "summary": {"datasetsPresent": 4, "totalDatasets": 8, "totalMentions": 1002, "confirmedModels": 5, "estimatedMonthlyUsers": 600000, "estimatedTotalGenerations": 120000000}, "holistic": {"datasetEvidence": 1002, "datasetsPresent": 4, "membershipInference": null, "confirmedModels": 5, "estimatedMonthlyUsers": 600000, "membershipInferenceAvailable": false, "note": "Dataset search only \u2014 no membership-inference probe was run for this report."}, "models": [{"name": "MusicGen Large", "isMajor": true, "monthlyActiveUsers": 600000}, {"name": "earlab/EAR_VAE", "isMajor": false, "monthlyActiveUsers": 0}, {"name": "Abdel098/Jmp", "isMajor": false, "monthlyActiveUsers": 0}, {"name": "JoakimL13/Song_lyrics_Analysis", "isMajor": false, "monthlyActiveUsers": 0}, {"name": "Lambent/braidbird-scribe-7B", "isMajor": false, "monthlyActiveUsers": 0}], "allegedModels": [{"name": "Suno", "basis": "admission", "claim": "Told a court it trained on \"essentially all music files of reasonable quality\" it could download from the open internet. It has never said which recordings, and declined to acknowledge any specific track.", "who": "Suno, in a 2024 court filing", "date": "2024", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}, {"name": "Suno", "basis": "lawsuit", "claim": "Sued by Universal, Sony and Warner, whose complaint documents Suno generating tracks closely resembling Thriller, Shape of You, Johnny B. Goode, Rock Around the Clock and The Thrill Is Gone. Some labels have since settled.", "who": "The three major record labels", "date": "2024", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}, {"name": "Udio", "basis": "lawsuit", "claim": "Sued by the same three major labels over training on copyrighted recordings. Some labels have since settled. Udio did not respond to questions about its training data.", "who": "The three major record labels", "date": "2024", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}, {"name": "OpenAI (Jukebox)", "basis": "admission", "claim": "Scraped 1.2 million songs from the web to train Jukebox, a model built to generate variations on existing music. OpenAI published the training procedure but has never published the list of songs.", "who": "OpenAI", "date": "2020", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}], "datasets": [{"datasetName": "Genius Song Lyrics", "hfPath": "sebastiandizon/genius-song-lyrics", "found": true, "count": 496, "mentionsFound": 496, "exact": true, "coverageComplete": true, "rowsCovered": 0, "evidenceTier": "credit", "rows": [{"text": "A Man Needs a Maid"}, {"text": "Dont Be Denied"}, {"text": "My My Hey Hey Out of the Blue"}, {"text": "Sugar Mountain"}]}, {"datasetName": "LAION-DISCO-12M", "hfPath": "laion/LAION-DISCO-12M", "found": true, "count": 314, "mentionsFound": 314, "exact": true, "coverageComplete": true, "rowsCovered": 0, "evidenceTier": "credit", "rows": [{"text": "I Believe in You"}, {"text": "Don't Cry No Tears"}, {"text": "Over and Over"}, {"text": "Love and Only Love"}]}, {"datasetName": "Spotify Million Song", "hfPath": "vishnupriyavr/spotify-million-song-dataset", "found": true, "count": 185, "mentionsFound": 185, "exact": true, "coverageComplete": true, "rowsCovered": 0, "evidenceTier": "credit", "rows": [{"text": "Alabama"}, {"text": "Borrowed Tune"}, {"text": "Bound For Glory"}, {"text": "Drive Back"}]}, {"datasetName": "GigaSpeech transcripts", "hfPath": "speechcolab/gigaspeech", "found": true, "count": 7, "mentionsFound": 7, "exact": false, "coverageComplete": false, "rowsCovered": 0, "evidenceTier": "mention", "rows": []}], "datasetSearch": {"evidenceWithheld": {}, "evidenceShown": 12}}</script>
+<script id="data" type="application/json">{"artistName": "Neil Young", "reportName": "Neil Young", "modelDownloads": 9000010, "modality": "music", "generatedAt": "2026-08-09T02:23:08+00:00", "cohort": "musicians", "summary": {"datasetsPresent": 4, "totalDatasets": 8, "totalMentions": 1002, "confirmedModels": 5, "estimatedMonthlyUsers": 600000, "estimatedTotalGenerations": 120000000}, "holistic": {"datasetEvidence": 1002, "datasetsPresent": 4, "membershipInference": null, "confirmedModels": 5, "estimatedMonthlyUsers": 600000, "membershipInferenceAvailable": false, "note": "Dataset search only \u2014 no membership-inference probe was run for this report."}, "models": [{"name": "MusicGen Large", "isMajor": true, "monthlyActiveUsers": 600000}, {"name": "earlab/EAR_VAE", "isMajor": false, "monthlyActiveUsers": 0}, {"name": "Abdel098/Jmp", "isMajor": false, "monthlyActiveUsers": 0}, {"name": "JoakimL13/Song_lyrics_Analysis", "isMajor": false, "monthlyActiveUsers": 0}, {"name": "Lambent/braidbird-scribe-7B", "isMajor": false, "monthlyActiveUsers": 0}], "allegedModels": [{"name": "Suno", "basis": "admission", "claim": "Told a court it trained on \"essentially all music files of reasonable quality\" it could download from the open internet. It has never said which recordings, and declined to acknowledge any specific track.", "who": "Suno, in a 2024 court filing", "date": "2024", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}, {"name": "Suno", "basis": "lawsuit", "claim": "Sued by Universal, Sony and Warner, whose complaint documents Suno generating tracks closely resembling Thriller, Shape of You, Johnny B. Goode, Rock Around the Clock and The Thrill Is Gone. Some labels have since settled.", "who": "The three major record labels", "date": "2024", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}, {"name": "Udio", "basis": "lawsuit", "claim": "Sued by the same three major labels over training on copyrighted recordings. Some labels have since settled. Udio did not respond to questions about its training data.", "who": "The three major record labels", "date": "2024", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}, {"name": "OpenAI (Jukebox)", "basis": "admission", "claim": "Scraped 1.2 million songs from the web to train Jukebox, a model built to generate variations on existing music. OpenAI published the training procedure but has never published the list of songs.", "who": "OpenAI", "date": "2020", "citation": "Alex Reisner, \"The Millions of Songs Mashed Into AI-Generated Music\", The Atlantic, 14 June 2026"}], "datasets": [{"datasetName": "Genius Song Lyrics", "hfPath": "sebastiandizon/genius-song-lyrics", "found": true, "count": 496, "mentionsFound": 496, "exact": true, "coverageComplete": true, "rowsCovered": 0, "evidenceTier": "credit", "rows": [{"text": "A Man Needs a Maid", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+A+Man+Needs+a+Maid"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+A+Man+Needs+a+Maid"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+A+Man+Needs+a+Maid"}]}, {"text": "Dont Be Denied", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Dont+Be+Denied"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Dont+Be+Denied"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Dont+Be+Denied"}]}, {"text": "My My Hey Hey Out of the Blue", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+My+My+Hey+Hey+Out+of+the+Blue"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+My+My+Hey+Hey+Out+of+the+Blue"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+My+My+Hey+Hey+Out+of+the+Blue"}]}, {"text": "Sugar Mountain", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Sugar+Mountain"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Sugar+Mountain"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Sugar+Mountain"}]}]}, {"datasetName": "LAION-DISCO-12M", "hfPath": "laion/LAION-DISCO-12M", "found": true, "count": 314, "mentionsFound": 314, "exact": true, "coverageComplete": true, "rowsCovered": 0, "evidenceTier": "credit", "rows": [{"text": "I Believe in You", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+I+Believe+in+You"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+I+Believe+in+You"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+I+Believe+in+You"}]}, {"text": "Don't Cry No Tears", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Don%27t+Cry+No+Tears"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Don%27t+Cry+No+Tears"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Don%27t+Cry+No+Tears"}]}, {"text": "Over and Over", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Over+and+Over"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Over+and+Over"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Over+and+Over"}]}, {"text": "Love and Only Love", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Love+and+Only+Love"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Love+and+Only+Love"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Love+and+Only+Love"}]}]}, {"datasetName": "Spotify Million Song", "hfPath": "vishnupriyavr/spotify-million-song-dataset", "found": true, "count": 185, "mentionsFound": 185, "exact": true, "coverageComplete": true, "rowsCovered": 0, "evidenceTier": "credit", "rows": [{"text": "Alabama", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Alabama"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Alabama"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Alabama"}]}, {"text": "Borrowed Tune", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Borrowed+Tune"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Borrowed+Tune"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Borrowed+Tune"}]}, {"text": "Bound For Glory", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Bound+For+Glory"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Bound+For+Glory"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Bound+For+Glory"}]}, {"text": "Drive Back", "lookups": [{"label": "YouTube", "url": "https://www.youtube.com/results?search_query=Neil+Young+Drive+Back"}, {"label": "Spotify", "url": "https://open.spotify.com/search/Neil+Young+Drive+Back"}, {"label": "Apple Music", "url": "https://music.apple.com/us/search?term=Neil+Young+Drive+Back"}]}]}, {"datasetName": "GigaSpeech transcripts", "hfPath": "speechcolab/gigaspeech", "found": true, "count": 7, "mentionsFound": 7, "exact": false, "coverageComplete": false, "rowsCovered": 0, "evidenceTier": "mention", "rows": []}], "datasetSearch": {"evidenceWithheld": {}, "evidenceShown": 12}}</script>
 <script>
 const R = JSON.parse(document.getElementById('data').textContent);
 const S = R.summary || {};
@@ -184,8 +197,17 @@ for(const inf of [R.imageInference,R.audioInference,R.writingInference]){
     if(m.riskLevel==='HIGH'||m.riskLevel==='MODERATE') flagged.add(m.model||m.imageModel);
 }
 const modelCount = (R.models||[]).length + flagged.size;
-const noun = R.modality==='music'||R.modality==='podcast_radio' ? 'recordings'
-  : R.modality==='writing' ? 'writing' : R.modality==='video'||R.modality==='animation' ? 'videos' : 'images';
+const MOD = R.modality||'';
+const noun = MOD==='music' ? 'recordings'
+  : MOD==='audio'||MOD==='podcast_radio' ? 'episodes'
+  : MOD==='writing' ? 'pieces of writing'
+  : MOD==='video'||MOD==='animation' ? 'videos' : 'images';
+// What one row of evidence IS, for headings and captions. 'audio' and 'music'
+// were both falling through to 'images', so a podcaster's report offered to
+// show them "images" of episodes that are sound.
+const workNoun = MOD==='music' ? 'track'
+  : MOD==='audio'||MOD==='podcast_radio' ? 'episode'
+  : MOD==='writing' ? 'passage' : MOD==='video'||MOD==='animation' ? 'video' : 'image';
 const cor = s => '<span style="color:var(--coral)">'+s+'</span>';
 // Big plain-language summary + a detailed line beneath it (numbers highlighted).
 // The overall message unifies TWO signals: whether the work was found in
@@ -294,8 +316,9 @@ document.getElementById('app').innerHTML = `
     </div>`).join('')}
   </section>`:''}
   ${evidence.length?`<section><h2>Examples of what we found in the datasets</h2>
+    <p class="alleged-why" style="margin:0 0 14px">Each one is a real row from a training dataset. Open it to check the ${workNoun} yourself.</p>
     <div class="grid">
-    ${shownEvidence.map(e=>`<div class="card">${e.imageUrl?`<img src="${esc(e.imageUrl)}" loading="lazy" onerror="this.style.display='none'">`:''}<div class="cap">${esc(e.text||'')}</div></div>`).join('')}
+    ${shownEvidence.map(e=>`<div class="card">${e.imageUrl?`<img src="${esc(e.imageUrl)}" loading="lazy" onerror="this.style.display='none'">`:''}<div class="cap">${e.url?`<a class="ev-title" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text||'')}</a>`:esc(e.text||'')}${(e.lookups||[]).length?`<div class="ev-look">${(e.lookups||[]).map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join('')}</div>`:''}</div></div>`).join('')}
   </div></section>`:''}
   <section><h2>Where we looked</h2>
     <p>Searched ${(R.datasets||[]).length} public AI training datasets. Your work appeared in <b>${present}</b> of them.</p>
@@ -318,7 +341,9 @@ document.getElementById('app').innerHTML = `
 const shareText = (present>0
   ? `My work was found in ${present} major AI training dataset${present===1?'':'s'}` +
     (S.totalMentions ? ` — ${fmt(S.totalMentions)} mentions` : '') + '.'
-  : 'I checked whether my work is in the datasets used to train AI image models.')
+  : `I checked whether my work is in the datasets used to train AI ${
+      MOD==='music' ? 'music' : MOD==='audio'||MOD==='podcast_radio' ? 'voice'
+      : MOD==='writing' ? 'text' : MOD==='video'||MOD==='animation' ? 'video' : 'image'} models.`)
   + ' Check yours at croquis.sfai.agency';
 const shareUrl = 'https://croquis.sfai.agency';
 
@@ -413,7 +438,10 @@ const IG_ICON = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" str
   + '<circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>';
 const X_ICON = '<svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 const LI_ICON = '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21H20.6v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H13V9z"/></svg>';
-const FMT_ICON = {square:IG_ICON, story:IG_ICON, wide:X_ICON+LI_ICON};
+const FMT_ICON = {square:IG_ICON, story:IG_ICON,
+  // two marks on one button: they need their own flex box, otherwise
+  // the SVGs butt together and read as a single mangled glyph
+  wide:'<span class="fmt-ic">'+X_ICON+LI_ICON+'</span>'};
 
 const cardData = {
   grade: grade.g, color: grade.c, logo: null, url: 'croquis.sfai.agency',
@@ -452,7 +480,6 @@ document.body.insertAdjacentHTML('beforeend', `
       <div class="share-row" style="margin-bottom:12px">
         <button class="btn" id="copyCaption">Copy caption</button>
       </div>
-      <p class="sub" style="margin:0">Nothing is uploaded — the image is drawn here in your browser.</p>
     </div>
   </div>`);
 
@@ -520,7 +547,7 @@ document.getElementById('copyCaption').addEventListener('click',async e=>{
   <div class="site-footer-inner">
     <img src="../../assets/logo.png" alt="SFAI">
     <div><a href="mailto:info@sfai.agency">info@sfai.agency</a></div>
-    <p class="copyright">Powered by SFAI.agency &middot; &copy; 2026, The SFAI.agency, San Francisco, CA</p>
+    <p class="copyright">&copy; 2026, The SFAI.agency, San Francisco, CA</p>
   </div>
 </footer>
 </body>

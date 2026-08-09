@@ -13,12 +13,22 @@
   .er-wrap h1 { font-size: 34px; margin: 0 0 8px; }
   .er-sub { color: var(--text-gray); font-size: 17px; line-height: 1.6;
              max-width: 720px; margin: 0 0 28px; }
-  .er-back { display:inline-block; color: var(--coral); font-weight:600;
-              text-decoration:none; font-size:14px; margin-bottom:18px; }
-  .er-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:0 0 36px; }
-  .er-stat { border:2px solid var(--text-gray); border-radius:18px; padding:18px; text-align:center; }
-  .er-stat b { display:block; font-size:30px; font-weight:800; line-height:1.1; }
-  .er-stat span { color: var(--text-gray); font-size:12px; }
+  .er-back { display:inline-flex; align-items:center; gap:7px; color:var(--coral);
+              font-weight:600; text-decoration:none; font-size:14px; margin-bottom:18px; }
+  .er-arw { flex:none; }
+  /* Four stats in a three-column grid left the fourth stranded on its own
+     row at full width, which is most of why this block read as broken. Now
+     four columns, and styled like the main site's .stat-box -- white card,
+     hairline border, big number over a plain label -- instead of the heavy
+     2px grey outline that framed every figure like a warning and appears
+     nowhere else on the site. */
+  .er-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; margin:0 0 44px; }
+  .er-stat { background:var(--white); border:1px solid #e8e8e8; border-radius:20px;
+              padding:30px 22px; text-align:center; }
+  .er-stat b { display:block; font-size:40px; font-weight:700; line-height:1.05;
+                letter-spacing:-0.02em; margin-bottom:10px; }
+  .er-stat span { color:var(--text-gray); font-size:14px; font-weight:500; line-height:1.35; }
+  @media (max-width: 900px) { .er-stats { grid-template-columns:repeat(2,1fr); } }
   .er-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:22px 16px; }
   .er-card { text-decoration:none; color:var(--text-dark); text-align:center; display:block; }
   .er-av { width:100%; aspect-ratio:1; border-radius:50%; object-fit:cover;
@@ -44,13 +54,13 @@
   </div>
 </div></header>
 <main class="er-wrap">
-<a class="er-back" href="../">&larr; All collections</a>
+<a class="er-back" href="../"><svg class="er-arw" width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3M7 4L3 8l4 4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg> All collections</a>
 <h1>Podcasters</h1>
 <p class="er-sub">Independent podcast hosts whose episodes appear in open speech corpora used to train AI models.</p>
 <div class="er-stats">
-  <div class="er-stat"><b>20</b><span>creators</span></div>
+  <div class="er-stat"><b>20</b><span>creators in this collection</span></div>
   <div class="er-stat"><b>42.2k</b><span>inclusions found in datasets</span></div>
-  <div class="er-stat"><b>52</b><span>AI models built on them</span></div>
+  <div class="er-stat"><b>50</b><span>AI models built on them</span></div>
   <div class="er-stat"><b>5.3k</b><span>downloads of those models</span></div>
 </div>
 <div class="er-grid"><a class="er-card" href="../aud-jackie-kashian/"><img class="er-av" src="../avatars/aud-jackie-kashian.jpg" alt="" loading="lazy"><div class="er-name">Jackie Kashian</div></a><a class="er-card" href="../aud-nora-mcinerney/"><div class="er-mono">NM</div><div class="er-name">Nora McInerney</div></a><a class="er-card" href="../aud-cameron-esposito/"><img class="er-av" src="../avatars/aud-cameron-esposito.jpg" alt="" loading="lazy"><div class="er-name">Cameron Esposito</div></a><a class="er-card" href="../aud-art-of-manliness/"><div class="er-mono">AO</div><div class="er-name">Art of Manliness</div></a><a class="er-card" href="../aud-todd-glass/"><img class="er-av" src="../avatars/aud-todd-glass.jpg" alt="" loading="lazy"><div class="er-name">Todd Glass</div></a><a class="er-card" href="../aud-quincy-larson/"><div class="er-mono">QL</div><div class="er-name">Quincy Larson</div></a><a class="er-card" href="../aud-elizabeth-laime/"><div class="er-mono">EL</div><div class="er-name">Elizabeth Laime</div></a><a class="er-card" href="../aud-20k/"><div class="er-mono">2</div><div class="er-name">20k</div></a><a class="er-card" href="../aud-chris-gethard/"><img class="er-av" src="../avatars/aud-chris-gethard.jpg" alt="" loading="lazy"><div class="er-name">Chris Gethard</div></a><a class="er-card" href="../aud-kulap-vilaysack/"><img class="er-av" src="../avatars/aud-kulap-vilaysack.jpg" alt="" loading="lazy"><div class="er-name">Kulap Vilaysack</div></a><a class="er-card" href="../aud-ashly-burch/"><img class="er-av" src="../avatars/aud-ashly-burch.jpg" alt="" loading="lazy"><div class="er-name">Ashly Burch</div></a><a class="er-card" href="../aud-dave-asprey/"><div class="er-mono">DA</div><div class="er-name">Dave Asprey</div></a><a class="er-card" href="../aud-software-engineering-daily/"><div class="er-mono">SE</div><div class="er-name">Software Engineering Daily</div></a><a class="er-card" href="../aud-criminal/"><img class="er-av" src="../avatars/aud-criminal.jpg" alt="" loading="lazy"><div class="er-name">Criminal</div></a><a class="er-card" href="../aud-roman-mars/"><div class="er-mono">RM</div><div class="er-name">Roman Mars</div></a><a class="er-card" href="../aud-tim-ferriss/"><img class="er-av" src="../avatars/aud-tim-ferriss.jpg" alt="" loading="lazy"><div class="er-name">Tim Ferriss</div></a><a class="er-card" href="../aud-bill-burr/"><img class="er-av" src="../avatars/aud-bill-burr.jpg" alt="" loading="lazy"><div class="er-name">Bill Burr</div></a><a class="er-card" href="../aud-ologies/"><img class="er-av" src="../avatars/aud-ologies.jpg" alt="" loading="lazy"><div class="er-name">Ologies</div></a><a class="er-card" href="../aud-andrew-huberman/"><img class="er-av" src="../avatars/aud-andrew-huberman.jpg" alt="" loading="lazy"><div class="er-name">Andrew Huberman</div></a><a class="er-card" href="../aud-paul-gilmartin/"><img class="er-av" src="../avatars/aud-paul-gilmartin.jpg" alt="" loading="lazy"><div class="er-name">Paul Gilmartin</div></a></div>
