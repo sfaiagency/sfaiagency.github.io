@@ -43,6 +43,14 @@ def entry(row: dict) -> str:
     author = esc(row["author"]) or "unknown author"
     lic = esc(row["license"]) or "see source"
     url = esc(row["description_url"])
+    # Not everything comes from Commons: show artwork reproduced with the
+    # rights holder's permission is credited as exactly that, and must not
+    # be presented as a free licence.
+    if row["license"] == "Used with permission":
+        link = (f' (<a href="{url}" rel="noopener" target="_blank">source</a>)'
+                if url else "")
+        return (f"        <li><b>{name}</b> &mdash; official artwork by "
+                f"{author}, used with permission{link}.</li>")
     link = (f'<a href="{url}" rel="noopener" target="_blank">{lic}</a>'
             if url else lic)
     return (f"        <li><b>{name}</b> &mdash; portrait by {author}, "
