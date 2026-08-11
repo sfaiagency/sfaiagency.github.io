@@ -1,11 +1,8 @@
 """Resolve report evidence rows to specific tracks / episodes on listening platforms.
 
-The reports embed, for every piece of evidence, a small set of "lookups" —
-links a reader follows to check the match for themselves. Those links used to
-be plain search URLs built out of the row text, which meant a transcript
-sentence became a search query and the reader landed on an empty result page.
-
-This module resolves a row to the actual item instead:
+Every piece of evidence in a report carries links a reader follows to check
+the match for themselves. This module works out where each row actually
+lives:
 
   song rows      iTunes Search API      -> the track's Apple Music page
                  YouTube search         -> the artist's video for that track
@@ -14,10 +11,10 @@ This module resolves a row to the actual item instead:
                  iTunes lookup          -> the episode on Apple Podcasts
   snippet rows   iTunes Search API      -> the show the transcript came from
 
-Spotify is the exception: its search API needs client credentials and it
-forbids the web player's anonymous token endpoint, so those links stay
-searches — field-scoped ones that put the item at the top of the page rather
-than free text that matches nothing.
+Spotify is absent throughout: its search API needs client credentials and it
+forbids the web player's anonymous token endpoint, so there is no legitimate
+way to resolve a track or episode id here. Given credentials, that is the one
+platform left to add.
 
 Every network answer is cached in tools/lookup_cache.json, which is build
 scratch rather than a committed artefact.
@@ -269,29 +266,6 @@ def resolve_youtube_episode(cache, show, title):
         if owner_ok and overlap(title, cand["title"]) >= 0.6:
             return "https://www.youtube.com/watch?v=" + cand["id"]
     return None
-
-
-# Spotify is the one platform these links cannot resolve. Its search API needs
-# client credentials, and the web player's anonymous token endpoint answers
-# "Usage of this endpoint is not permitted under the Spotify Developer Terms",
-# so there is no legitimate credential-free path to a track or episode id.
-# Give it a field-scoped query instead, which puts the item at the top of the
-# results rather than searching a whole sentence. Wire in a client id/secret
-# and these three helpers become real /track/ and /episode/ links.
-
-def spotify_track_search(artist, title):
-    query = 'track:"%s" artist:"%s"' % (norm_spaces(title), norm_spaces(artist))
-    return "https://open.spotify.com/search/%s/tracks" % urllib.parse.quote(query)
-
-
-def spotify_episode_search(show, title):
-    query = "%s %s" % (norm_spaces(show), norm_spaces(title))
-    return "https://open.spotify.com/search/%s/episodes" % urllib.parse.quote(query.strip())
-
-
-def spotify_show_search(show):
-    return ("https://open.spotify.com/search/%s/shows"
-            % urllib.parse.quote(norm_spaces(show)))
 
 
 # --------------------------------------------------------------------------

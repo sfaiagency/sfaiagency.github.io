@@ -1,12 +1,11 @@
 """Check that the links in the reports still resolve.
 
-    python3 tools/check_report_lookups.py                # every non-search link
+    python3 tools/check_report_lookups.py                # every link
     python3 tools/check_report_lookups.py --sample 40    # spot check
     python3 tools/check_report_lookups.py --only aud-planet-money
 
-Links whose label ends in "search" are deliberately searches and are only
-checked for shape. Everything else claims to point at one specific track,
-episode, show or artist, so it is fetched and its status reported.
+Every link claims to point at one specific track, episode, show or artist, so
+each is fetched and anything that does not answer 200 is printed.
 """
 
 import argparse
@@ -40,7 +39,9 @@ def links(dirs):
             continue
         for dataset in json.loads(m.group(1)).get("datasets") or []:
             for row in dataset.get("rows") or []:
-                for lk in row.get("lookups") or []:
+                if row.get("url"):
+                    yield d, row.get("text", ""), "title", row["url"]
+                for lk in row.get("links") or []:
                     yield d, row.get("text", ""), lk["label"], lk["url"]
 
 
@@ -66,8 +67,7 @@ def main():
     ap.add_argument("--sample", type=int, default=0)
     args = ap.parse_args()
 
-    rows = [r for r in links(args.only or sorted(os.listdir(REPORTS)))
-            if not r[2].endswith("search")]
+    rows = list(links(args.only or sorted(os.listdir(REPORTS))))
     if args.sample and args.sample < len(rows):
         random.seed(0)
         rows = random.sample(rows, args.sample)

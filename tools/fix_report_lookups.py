@@ -1,4 +1,4 @@
-"""Rewrite the "lookups" links in every example report so they resolve.
+"""Point every audio evidence row at the recording it matched.
 
 Usage
     python3 tools/fix_report_lookups.py            # rewrite every report
@@ -7,12 +7,15 @@ Usage
     python3 tools/fix_report_lookups.py --offline   # cache only, no network
 
 Each report carries its data in <script id="data" type="application/json">.
-Rows under datasets[].rows[] hold a .lookups array of {label, url}. Those URLs
-were search pages built from the row text; this rewrites them to the track,
-the episode or — for a transcript snippet, which names no single item — the
-show it was spoken on. Anything that cannot be resolved keeps a scoped search
-and says so in its label, so a reader is never told a link is an exact match
-when it is not.
+A row under datasets[].rows[] renders as a card, where `url` makes the title
+clickable and `links` lists the platforms underneath. This fills both in for
+rows from the audio datasets: the track for a song, the episode for an episode
+title, and — for a transcript line, which names no single recording — the show
+or artist who spoke it, in `links` only, because a sentence is not a work.
+
+A row keeps no link at all rather than a search. `url` is only ever the work
+itself, so a bare publisher homepage found on a row is dropped: it is not the
+episode.
 
 Network answers land in tools/lookup_cache.json, which is build scratch and
 not committed: re-running is cheap while the cache is warm, and the resolved
@@ -31,10 +34,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from lookup_resolver import (  # noqa: E402
     Cache, EPISODE_DATASETS, SNIPPET_DATASETS, SONG_DATASETS, apple_episode_index,
-    apple_show, feed_index, norm, norm_spaces, resolve_artist_page, resolve_episode,
+    apple_show, norm_spaces, resolve_artist_page, resolve_episode,
     itunes_search, resolve_song, resolve_youtube_episode, resolve_youtube_song,
-    spotify_episode_search, spotify_show_search, spotify_track_search, title_variants,
-    youtube_candidates,
+    title_variants, useful_page, youtube_candidates,
 )
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -101,54 +103,35 @@ def link(label, url):
 # --------------------------------------------------------------------------
 
 def song_lookups(cache, artist, title, stats):
-    exact, search = [], []
-    video = resolve_youtube_song(cache, artist, title)
-    if video:
-        exact.append(link("YouTube", video))
-        stats["youtube.exact"] += 1
-    else:
-        search.append(link("YouTube search",
-                           "https://www.youtube.com/results?search_query=" +
-                           _q("%s %s" % (artist, title))))
-        stats["youtube.search"] += 1
-
+    """Links for a song row: the track, then the video, then the artist."""
+    item, about = [], []
     track = resolve_song(cache, artist, title)
     if track:
-        exact.append(link("Apple Music", track["url"]))
+        item.append(link("Apple Music", track["url"]))
         stats["apple.exact"] += 1
-    else:
+
+    video = resolve_youtube_song(cache, artist, title)
+    if video:
+        item.append(link("YouTube", video))
+        stats["youtube.exact"] += 1
+
+    if not item:
         page = resolve_artist_page(cache, artist)
         if page:
-            exact.append(link("Apple Music artist", page))
+            about.append(link("Apple Music artist", page))
             stats["apple.artist"] += 1
-        else:
-            search.append(link("Apple Music search",
-                               "https://music.apple.com/us/search?term=" +
-                               _q("%s %s" % (artist, title))))
-            stats["apple.search"] += 1
-
-    # Spotify exposes no search API without client credentials, so this stays a
-    # search — but a field-scoped one that lands the track at the top.
-    search.append(link("Spotify search", spotify_track_search(artist, title)))
-    stats["spotify.search"] += 1
-    return exact + search
+    return item, about
 
 
 def episode_lookups(cache, show_hint, title, date_hint, report_show, stats):
+    """Links for an episode row: the episode, then where it is published."""
     found = resolve_episode(cache, title, [show_hint, report_show], date_hint)
     show = (found or {}).get("show") or show_hint or report_show
-    exact, search = [], []
+    item, about = [], []
 
     if found and found.get("page"):
-        exact.append(link("Episode page", found["page"]))
+        item.append(link("Episode page", found["page"]))
         stats["episode.page"] += 1
-    elif report_show:
-        # Not in the index: try the show's own feed directly.
-        info = apple_show(cache, report_show)
-        entry = feed_index(cache, info["feed"]).get(norm(title)) if info and info.get("feed") else None
-        if entry and entry.get("link"):
-            exact.append(link("Episode page", entry["link"]))
-            stats["episode.page"] += 1
 
     info = apple_show(cache, show)
     if info and info.get("id"):
@@ -156,62 +139,99 @@ def episode_lookups(cache, show_hint, title, date_hint, report_show, stats):
         episode_url = next((apple_eps[v] for v in title_variants(title)
                             if v in apple_eps), None)
         if episode_url:
-            exact.append(link("Apple Podcasts", episode_url))
+            item.append(link("Apple Podcasts", episode_url))
             stats["apple.exact"] += 1
         elif info.get("url"):
-            exact.append(link("Apple Podcasts show", info["url"]))
+            about.append(link("Apple Podcasts show", info["url"]))
             stats["apple.show"] += 1
-    else:
-        search.append(link("Apple Podcasts search",
-                           "https://podcasts.apple.com/us/search?term=" +
-                           _q("%s %s" % (show, title))))
-        stats["apple.search"] += 1
 
     video = resolve_youtube_episode(cache, show, title)
     if video:
-        exact.append(link("YouTube", video))
+        item.append(link("YouTube", video))
         stats["youtube.exact"] += 1
-
-    search.append(link("Spotify search", spotify_episode_search(show, title)))
-    stats["spotify.search"] += 1
-    return exact + search
+    return item, about
 
 
 def snippet_lookups(cache, subject, is_music, stats):
     """A transcript line names no single recording.
 
-    There is nothing to resolve to, so point at whoever was speaking — the
-    show for a podcast, the artist for a musician — rather than searching a
-    platform for a sentence, which is what these rows used to do.
+    There is no episode to resolve to, so point at whoever was speaking — the
+    show for a podcast, the artist for a musician. Never the row's own title:
+    a sentence is not a work, and linking it as one would overstate what the
+    match actually is.
     """
-    out = []
     if is_music:
         page = resolve_artist_page(cache, subject)
         if page:
-            out.append(link("Apple Music artist", page))
             stats["apple.artist"] += 1
-        out.append(link("Spotify search",
-                        "https://open.spotify.com/search/%s/artists" % _q(subject)))
-        stats["spotify.search"] += 1
-        return out
+            return [], [link("Apple Music artist", page)]
+        return [], []
 
     info = apple_show(cache, subject) if subject else None
     if info and info.get("url"):
-        out.append(link("Apple Podcasts show", info["url"]))
         stats["apple.show"] += 1
-    out.append(link("Spotify search", spotify_show_search(subject)))
-    stats["spotify.search"] += 1
-    return out
-
-
-def _q(text):
-    import urllib.parse
-    return urllib.parse.quote(norm_spaces(text))
+        return [], [link("Apple Podcasts show", info["url"])]
+    return [], []
 
 
 # --------------------------------------------------------------------------
 # driver
 # --------------------------------------------------------------------------
+
+PLATFORM_ORDER = ["Episode page", "Apple Podcasts", "Apple Music", "YouTube"]
+
+
+def platform(label):
+    """'Apple Podcasts show' and 'Apple Podcasts' are the same destination."""
+    return re.sub(r"\s+(show|artist)$", "", label)
+
+
+def apply_links(row, item, about):
+    """Merge freshly resolved links into whatever the row already carries.
+
+    A row may already hold links resolved by an earlier pass, and those are
+    not all reproducible here — Apple exposes only a show's most recent
+    episodes, so an episode link captured earlier cannot be looked up again.
+    Keep the more specific link per platform rather than overwriting.
+
+    `url` makes the row's title clickable and should only ever be the work
+    itself, so a show or artist page goes in `links` alone, and a bare
+    publisher homepage is dropped: it is not the episode.
+    """
+    before = (row.get("url"), row.get("links"), "lookups" in row)
+
+    # rank 2 = the recording itself, 1 = the show or artist behind it
+    best = {}
+    for rank, links in ((1, about), (2, item)):
+        for lk in links:
+            key = platform(lk["label"])
+            if rank >= best.get(key, (0,))[0]:
+                best[key] = (rank, lk)
+    for lk in row.get("links") or []:
+        key = platform(lk["label"])
+        if key not in best or best[key][0] < 2:
+            best[key] = (2, lk)  # an earlier pass only ever wrote exact links
+
+    merged = [best[k][1] for k in PLATFORM_ORDER if k in best]
+    merged += [v[1] for k, v in best.items() if k not in PLATFORM_ORDER]
+    if merged:
+        row["links"] = merged
+    else:
+        row.pop("links", None)
+
+    # The title should open the work, so prefer the publisher's own page, then
+    # Apple, and only then the podcast directory that stands in when a show's
+    # feed no longer carries the episode.
+    exact = [best[k][1]["url"] for k in PLATFORM_ORDER
+             if k in best and best[k][0] == 2]
+    exact.sort(key=lambda u: "fyyd.de" in u)
+    if exact:
+        row["url"] = exact[0]
+    elif not useful_page(row.get("url")):
+        row.pop("url", None)
+    row.pop("lookups", None)  # the search-link schema this replaces
+    return before != (row.get("url"), row.get("links"), False)
+
 
 def prefetch_songs(cache, artist, data):
     """Warm the two calls every song row makes, several at a time.
@@ -224,7 +244,7 @@ def prefetch_songs(cache, artist, data):
         if dataset.get("datasetName") not in SONG_DATASETS:
             continue
         for row in dataset.get("rows") or []:
-            if row.get("lookups"):
+            if row.get("text"):
                 terms.append("%s %s" % (artist, norm_spaces(row.get("text"))))
     if not terms:
         return
@@ -253,34 +273,36 @@ def rewrite(report_dir, cache, stats, dry_run=False):
     # row with nothing to resolve should fall back to.
     counts = Counter()
     for dataset in data.get("datasets") or []:
-        for row in dataset.get("rows") or []:
-            if row.get("lookups"):
-                counts["song" if dataset.get("datasetName") in SONG_DATASETS
-                       else "spoken"] += 1
+        name = dataset.get("datasetName")
+        if name in SONG_DATASETS or name in EPISODE_DATASETS or name in SNIPPET_DATASETS:
+            for row in dataset.get("rows") or []:
+                if row.get("text"):
+                    counts["song" if name in SONG_DATASETS else "spoken"] += 1
     is_music = counts["song"] > counts["spoken"]
     prefetch_songs(cache, artist, data)
 
     for dataset in data.get("datasets") or []:
         name = dataset.get("datasetName")
         for row in dataset.get("rows") or []:
-            if not row.get("lookups"):
+            if not row.get("text"):
                 continue
             text = norm_spaces(row.get("text"))
             show_hint, date_hint = parse_meta(row.get("meta"))
             if name in SONG_DATASETS:
-                new = song_lookups(cache, artist, text, stats)
+                item, about = song_lookups(cache, artist, text, stats)
             elif name in EPISODE_DATASETS:
-                new = episode_lookups(cache, show_hint, text, date_hint,
-                                      report_show, stats)
+                item, about = episode_lookups(cache, show_hint, text, date_hint,
+                                              report_show, stats)
             elif name in SNIPPET_DATASETS:
-                new = snippet_lookups(cache, artist if is_music else report_show,
-                                      is_music, stats)
+                item, about = snippet_lookups(
+                    cache, artist if is_music else report_show, is_music, stats)
             else:
                 continue
             stats["rows"] += 1
-            if new != row["lookups"]:
-                row["lookups"] = new
+            if apply_links(row, item, about):
                 changed = True
+            if not item and not about:
+                stats["unresolved"] += 1
 
     if changed and not dry_run:
         body = json.dumps(data, ensure_ascii=False)
