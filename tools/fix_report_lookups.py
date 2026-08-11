@@ -209,8 +209,19 @@ def apply_links(row, item, about):
                 best[key] = (rank, lk)
     for lk in row.get("links") or []:
         key = platform(lk["label"])
-        if key not in best or best[key][0] < 2:
-            best[key] = (2, lk)  # an earlier pass only ever wrote exact links
+        # A link left by an earlier pass is the recording itself unless its
+        # own label says otherwise — which is what this pass writes for a show
+        # or an artist, so re-running must not promote those to the work.
+        rank = 1 if lk["label"] != key else 2
+        if rank >= best.get(key, (0,))[0]:
+            best[key] = (rank, lk)
+
+    # A podcast directory stands in only where nothing else opens the episode.
+    # Once Apple has it, the directory link is the same episode twice.
+    if "Apple Podcasts" in best and best["Apple Podcasts"][0] == 2:
+        page = best.get("Episode page")
+        if page and "fyyd.de" in page[1]["url"]:
+            del best["Episode page"]
 
     merged = [best[k][1] for k in PLATFORM_ORDER if k in best]
     merged += [v[1] for k, v in best.items() if k not in PLATFORM_ORDER]
