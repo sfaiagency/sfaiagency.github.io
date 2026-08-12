@@ -1,5 +1,14 @@
 [
     {
+        "slug": "what-cartoonists-think-of-ai",
+        "title": "What Cartoonists Think of AI",
+        "date": "2026-08-12",
+        "author": "Mark Fiore",
+        "excerpt": "We brought a scroll of paper and a fistful of Sharpies to the National Cartoonists Society convention and asked cartoonists how they feel about AI. Here's what they drew.",
+        "featured": true,
+        "image": "posts/images/NCS_scroll01.png"
+    },
+    {
         "slug": "meet-croquis",
         "title": "Croquis: See What AI Ate",
         "date": "2026-06-02",
