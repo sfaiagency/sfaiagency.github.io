@@ -5,7 +5,7 @@ With that in mind, we thought we’d ask the assembled conference hall full of c
 Here’s just a sampling of what they came up with…
 
 <figure>
-  <img src="../posts/images/NCS_scroll01.jpg" alt="A long scroll of paper covered in cartoonists' hand-drawn reactions to AI — skulls and crossbones, screaming faces, a magician pulling cash from a top hat, and hand-lettered commentary.">
+  <img src="../posts/images/NCS_scroll01.jpg" alt="A long scroll of paper covered in cartoonists' hand-drawn reactions to AI — skulls and crossbones, screaming faces, a magician pulling cash from a top hat, and hand-lettered commentary." style="width: 50%;">
   <figcaption>A sampling of what cartoonists drew when we asked them how they feel about AI, at the National Cartoonists Society convention.</figcaption>
 </figure>
 
