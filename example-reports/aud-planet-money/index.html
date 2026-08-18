@@ -4,6 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Planet Money — Croquis report</title>
+<!-- Link previews. Without these, LinkedIn and Facebook have nothing to read
+     and the share dialog comes up blank. The URL is absolute for the same
+     reason the typeface link is: the scrapers only ever see the hosted copy. -->
+<meta name="description" content="Planet Money's work was found in 3 major AI training datasets — 31,524 mentions. See what was found, and check your own work with Croquis.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Croquis by SFAI">
+<meta property="og:title" content="Planet Money — Croquis report">
+<meta property="og:description" content="Planet Money's work was found in 3 major AI training datasets — 31,524 mentions. See what was found, and check your own work with Croquis.">
+<meta property="og:url" content="https://sfai.agency/example-reports/aud-planet-money/">
+<meta property="og:image" content="https://sfai.agency/example-reports/avatars/aud-planet-money.jpg">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+<meta property="og:image:alt" content="Planet Money">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Planet Money — Croquis report">
+<meta name="twitter:description" content="Planet Money's work was found in 3 major AI training datasets — 31,524 mentions. See what was found, and check your own work with Croquis.">
+<meta name="twitter:image" content="https://sfai.agency/example-reports/avatars/aud-planet-money.jpg">
 <!-- Official SFAI typeface (franklin-gothic-atf). Absolute URL so the report is
      correctly set whether it is opened from disk or served from sfai.agency. -->
 <link rel="stylesheet" href="https://use.typekit.net/hhx2fen.css">
@@ -242,7 +259,7 @@ const S = R.summary || {};
 // lives in croquis_local/data/explainers.json and is inlined here, so a report
 // opened from disk still explains itself. `side` is 'r' where a centered popup
 // would hang off the right edge of the page.
-const TIPS = {"grade": {"title": "Your Croquis Score", "body": "One letter summing up how much of your work we found inside AI training data. A means we found nothing. F means your work is everywhere. Like school \u2014 except here, an A is what you want."}, "dataset": {"title": "What's a dataset?", "body": "A dataset is basically just an enormous collection of material, often billions of pieces of data scraped from the internet and used to train AI models. Some datasets are private and some you have to pay to get access to. But since AI is an industry where even big companies do some open-source work, there are also a lot that are public. If your work is included in a dataset, or if your name appears, there is a very high chance that your work was used by an AI model for training.", "faq": "datasets"}, "aiModel": {"title": "What's an AI model?", "body": "An AI model is a computer program that has been trained to make things \u2014 images, text, music, voices. When someone types a prompt like \"a photograph of a cat and a dog sleeping together\", the program knows how to make it because it was trained by looking at millions of pieces of work from the internet. Possibly including yours."}, "downloads": {"title": "What does downloading a model mean?", "body": "These models are published for anyone to take a copy of and run on their own computer. Each download is someone doing exactly that \u2014 a developer putting the model into an app, a product or a service. Once it has been downloaded it can be used any number of times, by anyone, and we have no way of counting that."}, "mentions": {"title": "What counts as a mention?", "body": "One row of a dataset where your name, or the title of one of your works, appears in the text stored alongside the material. Each mention is a place your work is identifiable inside data that was used to train AI."}, "monthlyUsers": {"title": "People using these models", "body": "A rough estimate of how many people, each month, use AI software trained on data containing your work. We add up the monthly users of every AI model we linked to your work."}, "generations": {"title": "How we estimate this", "body": "A rough estimate of how much those AI models have generated in total. We take the monthly users of every model linked to your work and multiply by a conservative average of how much each person makes. It is an order-of-magnitude figure, not an exact count."}, "lineUp": {"title": "The line-up test", "body": "We show the AI model one real passage of your writing alongside close rewrites of it, and ask which one you actually wrote. A model that has never read your work is guessing, and guessing gets it right 25 times in 100. Scoring well above that, again and again, is the clearest sign we can get that your writing was in its training.", "faq": "tests"}, "verbatim": {"title": "Your exact words, written back", "body": "We give the model the opening of one of your passages and ask it to carry on. This counts the longest unbroken run of your own words it produced. A few words in a row is coincidence \u2014 any two people writing about the same subject share phrases. A long run is not."}, "match": {"title": "What does a match mean?", "body": "Finding your work in a dataset doesn't prove an AI memorized it \u2014 but it is a strong sign your work was used for training. And if a model did memorize your work, it can reproduce it almost word-for-word.", "faq": "tests"}};
+const TIPS = {"grade": {"title": "Your Croquis Score", "body": "A letter grade that represents how much of your work we found in the data AI companies use to train their software. Just like in school, an \"A\" is the best grade possible. It means we didn't find any of your work. The lowest grade, an \"F\", means we found your work everywhere we're able to search."}, "dataset": {"title": "What's a dataset?", "body": "A dataset is basically just an enormous collection of material, often billions of pieces of data scraped from the internet and used to train AI models. Some datasets are private and some you have to pay to get access to. But since AI is an industry where even big companies do some open-source work, there are also a lot that are public. If your work is included in a dataset, or if your name appears, there is a very high chance that your work was used by an AI model for training.", "faq": "datasets"}, "aiModel": {"title": "What's an AI model?", "body": "An AI model is a computer program that has been trained to make things \u2014 images, text, music, voices. When someone types a prompt like \"a photograph of a cat and a dog sleeping together\", the program knows how to make it because it was trained by looking at millions of pieces of work from the internet. Possibly including yours."}, "downloads": {"title": "What does downloading a model mean?", "body": "These models are published for anyone to take a copy of and run on their own computer. Each download is someone doing exactly that \u2014 a developer putting the model into an app, a product or a service. Once it has been downloaded it can be used any number of times, by anyone, and we have no way of counting that."}, "mentions": {"title": "What counts as a mention?", "body": "One row of a dataset where your name, or the title of one of your works, appears in the text stored alongside the material. Each mention is a place your work is identifiable inside data that was used to train AI."}, "monthlyUsers": {"title": "People using these models", "body": "A rough estimate of how many people, each month, use AI software trained on data containing your work. We add up the monthly users of every AI model we linked to your work."}, "generations": {"title": "How we estimate this", "body": "A rough estimate of how many episodes those AI models have generated in total. We take the number of monthly users of every model linked to your work and multiply by a conservative average of how many episodes each person makes. It is an order-of-magnitude figure, not an exact count."}, "lineUp": {"title": "The line-up test", "body": "We show the AI model one real passage of your writing alongside close rewrites of it, and ask which one you actually wrote. A model that has never read your work is guessing, and guessing gets it right 25 times in 100. Scoring well above that, again and again, is the clearest sign we can get that your writing was in its training.", "faq": "tests"}, "verbatim": {"title": "Your exact words, written back", "body": "We give the model the opening of one of your passages and ask it to carry on. This counts the longest unbroken run of your own words it produced. A few words in a row is coincidence \u2014 any two people writing about the same subject share phrases. A long run is not."}, "match": {"title": "What does a match mean?", "body": "Finding your work in a dataset doesn't prove an AI memorized it \u2014 but it is a strong sign your work was used for training. And if a model did memorize your work, it can reproduce it almost word-for-word.", "faq": "tests"}};
 function tip(key, side){
   const e = TIPS[key];
   if(!e) return '';
@@ -586,8 +603,11 @@ const shareText = (present>0
   : `I checked whether my work is in the datasets used to train AI ${
       MOD==='music' ? 'music' : MOD==='audio'||MOD==='podcast_radio' ? 'voice'
       : MOD==='writing' ? 'text' : MOD==='video'||MOD==='animation' ? 'video' : 'image'} models.`)
-  + ' Check yours at croquis.sfai.agency';
-const shareUrl = 'https://croquis.sfai.agency';
+  + ' Check yours at sfai.agency/croquis';
+// The link LinkedIn and Facebook post. It is this report's own page, which
+// carries the og: tags in <head>, so their scrapers have a title, a summary and
+// an image to show. The caption still points readers at sfai.agency/croquis.
+const shareUrl = 'https://sfai.agency/example-reports/aud-planet-money/';
 
 // Card generator, ported from the app's shareCard.js so a downloaded report
 // produces the same three assets the web app does. Instagram has no web intent
@@ -686,7 +706,7 @@ const FMT_ICON = {square:IG_ICON, story:IG_ICON,
   wide:'<span class="fmt-ic">'+X_ICON+LI_ICON+'</span>'};
 
 const cardData = {
-  grade: grade.g, color: grade.c, logo: null, url: 'croquis.sfai.agency',
+  grade: grade.g, color: grade.c, logo: null, url: 'sfai.agency/croquis',
   headline: present===0
     ? 'No sign of my work in AI training data — for now.'
     : 'My work was found in at least '+present+' major AI training dataset'+(present===1?'':'s')
