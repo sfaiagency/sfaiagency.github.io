@@ -182,9 +182,13 @@
                 return;
             }
             container.innerHTML = posts.map(function (post) {
+                const thumb = post.image
+                    ? `<div class="post-item-thumb"><img src="${escapeHtml(post.image)}" alt=""></div>`
+                    : `<div class="post-item-thumb post-item-thumb-placeholder" aria-hidden="true"></div>`;
                 return `
                     <a href="${escapeHtml(postUrl(post.slug))}" class="post-item">
                         <div class="post-item-meta">
+                            ${thumb}
                             <span class="post-item-date">${escapeHtml(formatDate(post.date))}</span>
                         </div>
                         <div class="post-item-body">

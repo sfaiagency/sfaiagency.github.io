@@ -95,6 +95,9 @@
                 <h1 class="post-title" id="post-title"></h1>
                 <p class="post-byline" id="post-byline" hidden></p>
             </header>
+            <div class="post-hero-image" id="post-hero-image" hidden>
+                <img id="post-hero-image-img" src="" alt="">
+            </div>
             <div class="post-body" id="post-body">
                 <p>Loading post&hellip;</p>
             </div>
@@ -191,6 +194,11 @@
                 bylineEl.hidden = false;
             }
             document.getElementById('post-header').hidden = false;
+
+            if (meta.image) {
+                document.getElementById('post-hero-image-img').src = '../' + meta.image;
+                document.getElementById('post-hero-image').hidden = false;
+            }
 
             // Render markdown body
             document.getElementById('post-body').innerHTML = md.render(markdown);
