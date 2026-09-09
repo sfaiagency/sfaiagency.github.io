@@ -438,6 +438,11 @@ a {
     display: block;
 }
 
+/* Crop below the masthead so the byline and opening line of text show. */
+.post-hero-image img[src*="KAL_AIBaltimoreSun"] {
+    object-position: 50% 87%;
+}
+
 .post-body {
     font-size: 17px;
     line-height: 1.75;
