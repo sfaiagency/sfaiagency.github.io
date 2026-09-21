@@ -389,7 +389,7 @@
                 Our unique technology can identify when large AI models have incorporated your copyrighted work during their training or down-stream generation. We provide a transparent report with supporting evidence, enabling you to address past usage and move towards a clearer and more collaborative future – one that gives agency to creatives and AI innovators alike.
             </p>
             <p>
-                We’re now rolling out this tool to our waitlist. Interested? You’ll get the opportunity to protect your unique style and body of work. In exchange we may ask you for feedback on the technology. The cost is zero. Through this close partnership, we are ensuring that the tool meets the needs of artists working across modalities, domains, and scales.
+                We’re now rolling out this tool to our waitlist. <a href="#signup" class="signup-link description-link">You can sign up here.</a> You’ll get the opportunity to protect your unique style and body of work. In exchange we may ask you for feedback on the technology. The cost is zero. Through this close partnership, we are ensuring that the tool meets the needs of artists working across modalities, domains, and scales.
             </p>
         </div>
     </section>
@@ -397,7 +397,7 @@
     <!-- Waitlist -->
     <section id="waitlist" class="waitlist-section">
         <div class="waitlist-inner">
-            <h2 class="waitlist-heading">Some of Our Waitlist</h2>
+            <h2 class="waitlist-heading">Trusted By</h2>
             <p class="waitlist-subhead">A growing community of artists protecting their work with SFAI — across cartooning, photography, journalism, film and television.</p>
 
             <!-- Cartoonists -->
@@ -2409,7 +2409,7 @@
 
         // Modal functionality
         const modal = document.getElementById('signupModal');
-        const ctaButton = document.querySelector('.signup-link');
+        const ctaButtons = document.querySelectorAll('.signup-link');
         const closeBtn = document.querySelector('#signupModal .modal-close');
         const form = document.getElementById('signupForm');
         const formMessage = document.getElementById('formMessage');
@@ -2419,12 +2419,14 @@
         const reportButton = document.querySelector('.sample-report-link');
         const reportCloseBtn = document.querySelector('.report-modal-close');
 
-        // Open signup modal when clicking CTA button
-        if (ctaButton && modal) {
-            ctaButton.addEventListener('click', function(e) {
-                e.preventDefault();
-                modal.style.display = 'block';
-                document.body.style.overflow = 'hidden';
+        // Open signup modal when clicking any signup link (CTA button, inline links)
+        if (ctaButtons.length && modal) {
+            ctaButtons.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    modal.style.display = 'block';
+                    document.body.style.overflow = 'hidden';
+                });
             });
         }
 
