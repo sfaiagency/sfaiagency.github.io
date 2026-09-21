@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} &mdash; SFAI.agency</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <link rel="canonical" href="{{URL}}">
+
+    <!-- Open Graph / LinkedIn / Facebook / Slack. These have to be real tags in
+         the served HTML: social crawlers do not run JavaScript, so anything the
+         renderer below sets at runtime is invisible to them. -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="SFAI.agency">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="{{TITLE}}">
+    <meta property="og:description" content="{{DESCRIPTION}}">
+    <meta property="og:url" content="{{URL}}">
+    <meta property="og:image" content="{{IMAGE}}">
+    <meta property="og:image:secure_url" content="{{IMAGE}}">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{IMAGE_ALT}}">
+    <meta property="article:published_time" content="{{DATE}}">
+    <meta property="article:author" content="{{AUTHOR}}">
+    <meta property="article:section" content="Blog">
+
+    <!-- X / Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{TITLE}}">
+    <meta name="twitter:description" content="{{DESCRIPTION}}">
+    <meta name="twitter:image" content="{{IMAGE}}">
+    <meta name="twitter:image:alt" content="{{IMAGE_ALT}}">
+
+    <script type="application/ld+json">{{JSONLD}}</script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/hhx2fen.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../nav.css">
+</head>
+<body data-post-slug="{{SLUG}}">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="../../" class="logo">
+                    <img src="../../assets/logo.png" alt="SFAI Agency">
+                </a>
+            </div>
+            <div class="header-right">
+                <a href="../../" class="nav-link">Home</a>
+                <a href="../../research/" class="nav-link">Research</a>
+                <div class="nav-group">
+                    <button type="button" class="nav-group-toggle" aria-haspopup="true" aria-expanded="false">Products<span class="nav-caret" aria-hidden="true"></span></button>
+                    <div class="nav-dropdown">
+                        <div class="nav-dropdown-inner nav-dropdown-mega">
+                            <div class="nav-mega-col">
+                                <span class="nav-dropdown-label">Products</span>
+                                <a href="../../products/protect/" class="nav-card nav-mega-item" data-product="protect">
+                                    <span class="nav-card-title">Protect</span>
+                                    <span class="nav-card-desc">Detect AI use of creative work&mdash;with evidence you can act on.</span>
+                                </a>
+                                <a href="../../products/license/" class="nav-card nav-mega-item" data-product="license">
+                                    <span class="nav-card-title">License</span>
+                                    <span class="nav-card-desc">License your work on your terms or find work licensed for AI.</span>
+                                </a>
+                                <a href="../../products/audit/" class="nav-card nav-mega-item" data-product="audit">
+                                    <span class="nav-card-title">Audit</span>
+                                    <span class="nav-card-desc">Verify AI disclosure and data-policy compliance across jurisdictions.</span>
+                                </a>
+                            </div>
+                            <div class="nav-mega-col">
+                                <span class="nav-dropdown-label">Solutions</span>
+                                <div class="nav-mega-uses">
+                                    <a href="../../products/artists/" class="nav-card nav-use" data-use="artists" data-desc-protect="Protect your work and style." data-desc-license="License your work for AI&mdash;if you choose, on your terms.">
+                                        <span class="nav-card-title">Individual creators</span>
+                                        <span class="nav-card-desc">Protect your work and style.</span>
+                                    </a>
+                                    <a href="../../products/ip-holders/" class="nav-card nav-use" data-use="ip-holders" data-desc-protect="Portfolio-scale protection for studios, publishers, and estates." data-desc-license="Licensing for studios, publishers, and estates.">
+                                        <span class="nav-card-title">Enterprise</span>
+                                        <span class="nav-card-desc">Portfolio-scale protection for studios, publishers, and estates.</span>
+                                    </a>
+                                    <a href="../../products/ai-companies/" class="nav-card nav-use" data-use="ai-companies">
+                                        <span class="nav-card-title">AI Companies</span>
+                                        <span class="nav-card-desc">Find creative data licensed for AI training and generation.</span>
+                                    </a>
+                                    <a href="../../products/legal/" class="nav-card nav-use" data-use="legal">
+                                        <span class="nav-card-title">Legal</span>
+                                        <span class="nav-card-desc">Case assessment and evidence for AI training-data claims.</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group">
+                    <button type="button" class="nav-group-toggle nav-link-active" aria-haspopup="true" aria-expanded="false">Company<span class="nav-caret" aria-hidden="true"></span></button>
+                    <div class="nav-dropdown">
+                        <div class="nav-dropdown-inner">
+                            <a href="../../about/" class="nav-card">
+                                <span class="nav-card-title">About</span>
+                                <span class="nav-card-desc">Who we are and why we&rsquo;re building this.</span>
+                            </a>
+                            <a href="../../blog/" class="nav-card nav-card-active">
+                                <span class="nav-card-title">Blog</span>
+                                <span class="nav-card-desc">News and notes from the agency.</span>
+                            </a>
+                            <a href="../../faq/" class="nav-card">
+                                <span class="nav-card-title">FAQ</span>
+                                <span class="nav-card-desc">How our detection methods work.</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article -->
+    <article class="post-article">
+        <div class="post-article-inner">
+            <a href="../" class="post-back-link">&larr; All posts</a>
+            <header class="post-header" id="post-header">
+                <p class="post-date" id="post-date">{{DATE_DISPLAY}}</p>
+                <h1 class="post-title" id="post-title">{{TITLE}}</h1>
+                {{BYLINE}}
+            </header>
+            {{HERO}}
+            <div class="post-body" id="post-body">
+                <noscript><p>{{DESCRIPTION}}</p></noscript>
+            </div>
+        </div>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../../assets/logo.png" alt="SFAI" class="footer-logo">
+                <address>
+                    <a href="mailto:info@sfai.agency">info@sfai.agency</a>
+                </address>
+                <p class="copyright">&copy; 2026, The SFAI.agency, San Francisco, CA</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- markdown-it + footnote plugin for full markdown support -->
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-footnote@3.0.3/dist/markdown-it-footnote.min.js"></script>
+    <script src="../post.js"></script>
+    <script src="../../nav.js"></script>
+</body>
+</html>

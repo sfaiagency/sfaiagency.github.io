@@ -29,6 +29,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Regenerate the per-post pages under /blog/<slug>/ before uploading, so a
+      # post added to the manifest without running the generator locally still
+      # deploys with its og: tags instead of sharing as a blank card. Standard
+      # library only, so there is nothing to install.
+      #
+      # continue-on-error because the generated pages are committed as well: if
+      # a manifest entry is malformed the script skips it and exits non-zero,
+      # and the right answer is to deploy the checked-in pages and flag it, not
+      # to take the whole site offline over one bad post.
+      - name: Build blog post pages
+        continue-on-error: true
+        run: |
+          python3 tools/build_blog_pages.py
+          git diff --stat --exit-code -- blog/ \
+            || echo "::warning::Generated blog pages differ from the committed ones. Run tools/build_blog_pages.py and commit the result."
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
