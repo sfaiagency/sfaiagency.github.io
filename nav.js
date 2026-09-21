@@ -76,7 +76,7 @@
         var MEGA_USES = {
             protect: ['artists', 'ip-holders'],
             license: ['artists', 'ip-holders', 'ai-companies'],
-            audit: ['legal']
+            audit: ['ip-holders', 'ai-companies', 'legal']
         };
         headerInner.querySelectorAll('.nav-dropdown-mega').forEach(function (mega) {
             var items = mega.querySelectorAll('.nav-mega-item');

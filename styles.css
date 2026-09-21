@@ -402,6 +402,50 @@ body.nav-open {
     font-weight: 400;
 }
 
+/* Design Partners */
+.design-partners {
+    padding: 56px 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.design-partners-inner {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.design-partners-label {
+    font-size: 14px;
+    color: var(--text-dark);
+    opacity: 0.6;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.design-partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px 72px;
+}
+
+/* Partner logos range from square marks to long wordmarks, so cap both
+   dimensions and let each one settle at whichever limit it reaches first. */
+.design-partner-logo {
+    max-height: 50px;
+    max-width: 220px;
+    width: auto;
+    height: auto;
+}
+
+/* A square mark reads smaller than a wordmark at the same height. */
+.design-partner-logo--mark {
+    max-height: 62px;
+}
+
 /* Description Section */
 .description {
     padding: 60px 40px 100px;
@@ -1256,6 +1300,23 @@ body.nav-open {
         padding: 15px 20px;
         font-size: 16px;
         white-space: normal;
+    }
+
+    .design-partners {
+        padding: 40px 24px 0;
+    }
+
+    .design-partners-logos {
+        gap: 26px 40px;
+    }
+
+    .design-partner-logo {
+        max-height: 34px;
+        max-width: 145px;
+    }
+
+    .design-partner-logo--mark {
+        max-height: 44px;
     }
 
     .supported-by {
