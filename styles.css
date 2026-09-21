@@ -402,6 +402,50 @@ body.nav-open {
     font-weight: 400;
 }
 
+/* Design Partners */
+.design-partners {
+    padding: 56px 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.design-partners-inner {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.design-partners-label {
+    font-size: 14px;
+    color: var(--text-dark);
+    opacity: 0.6;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.design-partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px 72px;
+}
+
+/* Partner logos range from square marks to long wordmarks, so cap both
+   dimensions and let each one settle at whichever limit it reaches first. */
+.design-partner-logo {
+    max-height: 50px;
+    max-width: 220px;
+    width: auto;
+    height: auto;
+}
+
+/* A square mark reads smaller than a wordmark at the same height. */
+.design-partner-logo--mark {
+    max-height: 62px;
+}
+
 /* Description Section */
 .description {
     padding: 60px 40px 100px;
@@ -1258,6 +1302,23 @@ body.nav-open {
         white-space: normal;
     }
 
+    .design-partners {
+        padding: 40px 24px 0;
+    }
+
+    .design-partners-logos {
+        gap: 26px 40px;
+    }
+
+    .design-partner-logo {
+        max-height: 34px;
+        max-width: 145px;
+    }
+
+    .design-partner-logo--mark {
+        max-height: 44px;
+    }
+
     .supported-by {
         margin-top: 60px;
     }
@@ -1874,21 +1935,21 @@ body.nav-open {
 }
 
 /* ======================= */
-/* EARLY ADOPTERS SECTION */
+/* WAITLIST SECTION */
 /* ======================= */
-.early-adopters-section {
+.waitlist-section {
     padding: 76px 40px 88px;
     background: var(--bg-light);
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
 }
 
-.early-adopters-inner {
+.waitlist-inner {
     max-width: 1080px;
     margin: 0 auto;
 }
 
-.early-adopters-heading {
+.waitlist-heading {
     font-size: 40px;
     font-weight: 700;
     color: var(--coral);
@@ -1897,7 +1958,7 @@ body.nav-open {
     margin-bottom: 14px;
 }
 
-.early-adopters-subhead {
+.waitlist-subhead {
     font-size: 18px;
     line-height: 1.6;
     color: var(--text-gray);
@@ -1906,15 +1967,15 @@ body.nav-open {
     margin: 0 auto 64px;
 }
 
-.early-adopters-category {
+.waitlist-category {
     margin-bottom: 60px;
 }
 
-.early-adopters-category:last-child {
+.waitlist-category:last-child {
     margin-bottom: 0;
 }
 
-.early-adopters-category-title {
+.waitlist-category-title {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1924,14 +1985,14 @@ body.nav-open {
     margin-bottom: 36px;
 }
 
-.early-adopters-grid {
+.waitlist-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px 28px;
 }
 
-.early-adopter-card {
+.waitlist-card {
     width: 210px;
     display: flex;
     flex-direction: column;
@@ -1939,7 +2000,7 @@ body.nav-open {
     text-align: center;
 }
 
-.early-adopter-photo {
+.waitlist-photo {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -1949,12 +2010,12 @@ body.nav-open {
     transition: border-color 0.2s, transform 0.2s;
 }
 
-.early-adopter-card:hover .early-adopter-photo {
+.waitlist-card:hover .waitlist-photo {
     border-color: var(--coral);
     transform: translateY(-3px);
 }
 
-.early-adopter-name {
+.waitlist-name {
     font-size: 17px;
     font-weight: 700;
     color: var(--text-dark);
@@ -1962,53 +2023,53 @@ body.nav-open {
     margin: 16px 0 4px;
 }
 
-.early-adopter-title {
+.waitlist-title {
     font-size: 13px;
     color: var(--text-gray);
     line-height: 1.45;
 }
 
 @media (max-width: 768px) {
-    .early-adopters-section {
+    .waitlist-section {
         padding: 56px 20px 72px;
     }
 
-    .early-adopters-heading {
+    .waitlist-heading {
         font-size: 30px;
     }
 
-    .early-adopters-subhead {
+    .waitlist-subhead {
         font-size: 16px;
         margin-bottom: 44px;
     }
 
-    .early-adopters-category {
+    .waitlist-category {
         margin-bottom: 44px;
     }
 
-    .early-adopters-category-title {
+    .waitlist-category-title {
         margin-bottom: 28px;
     }
 
-    .early-adopters-grid {
+    .waitlist-grid {
         gap: 30px 18px;
     }
 
-    .early-adopter-card {
+    .waitlist-card {
         width: 140px;
     }
 
-    .early-adopter-photo {
+    .waitlist-photo {
         width: 96px;
         height: 96px;
     }
 
-    .early-adopter-name {
+    .waitlist-name {
         font-size: 15px;
         margin-top: 12px;
     }
 
-    .early-adopter-title {
+    .waitlist-title {
         font-size: 12px;
     }
 }

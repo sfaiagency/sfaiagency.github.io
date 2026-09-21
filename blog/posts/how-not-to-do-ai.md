@@ -10,7 +10,7 @@ Much of the existing AI technology that allows for the creation of the kind of m
 
 I believe that human creators come first, deserve protection from AI theft and should be paid if their work is used to train AI models.
 
-I am proud that KAL has signed on as one of SFAI's Early Adopters.
+I am proud that KAL has signed on to SFAI's Waitlist.
 
 As AI innovation grows by leaps and bounds, maintaining human agency in these tools is what I strive to do at SFAI every day.
 
