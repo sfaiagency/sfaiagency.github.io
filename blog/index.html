@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - SFAI.agency</title>
+    <meta name="description" content="News and notes from the Artificial Intelligence Agency of San Francisco.">
+
+    <link rel="canonical" href="https://sfai.agency/blog/">
+
+    <!-- Open Graph / LinkedIn / Facebook / Slack. Social crawlers do not run
+         JavaScript, so these have to be real tags in the served HTML. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SFAI.agency">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="SFAI.agency Blog">
+    <meta property="og:description" content="News and notes from the Artificial Intelligence Agency of San Francisco.">
+    <meta property="og:url" content="https://sfai.agency/blog/">
+    <meta property="og:image" content="https://sfai.agency/assets/share/blog.jpg">
+    <meta property="og:image:secure_url" content="https://sfai.agency/assets/share/blog.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SFAI.agency Blog">
+
+    <!-- X / Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SFAI.agency Blog">
+    <meta name="twitter:description" content="News and notes from the Artificial Intelligence Agency of San Francisco.">
+    <meta name="twitter:image" content="https://sfai.agency/assets/share/blog.jpg">
+    <meta name="twitter:image:alt" content="SFAI.agency Blog">
     <link rel="stylesheet" href="https://use.typekit.net/hhx2fen.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../nav.css">
@@ -148,7 +173,10 @@
         }
 
         function postUrl(slug) {
-            return 'post/?slug=' + encodeURIComponent(slug);
+            // Each post has its own generated page (tools/build_blog_pages.py)
+            // so that links shared on social carry the post's own title and
+            // image. The old post/?slug= URLs still redirect here.
+            return encodeURIComponent(slug) + '/';
         }
 
         function renderFeatured(post) {
