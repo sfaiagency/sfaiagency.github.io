@@ -11,7 +11,7 @@ Here’s just a sampling of what they came up with…
 
 After spending time with old friends and new ones, I’m more determined than ever to build tools that can help creatives of all kinds get agency amid the chaos of AI.
 
-If you’d like to get early access to what we’re building, sign up to be an Early Adopter [here](https://sfai.agency/).
+If you’d like to get early access to what we’re building, sign up for the Waitlist [here](https://sfai.agency/).
 
 -Mark
 
