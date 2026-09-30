@@ -480,6 +480,18 @@ body.nav-open {
     color: var(--text-dark);
 }
 
+/* Inline link inside body copy (e.g. the waitlist sign-up link in the intro) */
+.description-link {
+    color: var(--coral);
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.description-link:hover {
+    color: var(--coral-dark);
+}
+
 .cta-link {
     display: block;
     font-size: 22px;
