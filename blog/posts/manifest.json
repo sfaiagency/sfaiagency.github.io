@@ -1,5 +1,23 @@
 [
     {
+        "slug": "yup-its-theft-say-ai-companies",
+        "title": "Yup, It’s Theft, Say AI Companies",
+        "date": "2026-10-06",
+        "author": "Mark Fiore",
+        "excerpt": "Newly public court documents quote Microsoft and OpenAI insiders calling AI training the “largest theft of labor in human history.” There has got to be a better way.",
+        "featured": true,
+        "image": "posts/images/Thief01.png"
+    },
+    {
+        "slug": "canaries-in-a-coal-mine",
+        "title": "Canaries in a Coal Mine",
+        "date": "2026-10-06",
+        "author": "Mark Fiore",
+        "excerpt": "ChatGPT is signing real cartoonists’ names to AI-generated cartoons. Look to cartoonists for early warning of what AI will do to everyone else.",
+        "featured": false,
+        "image": "posts/images/Canary01.png"
+    },
+    {
         "slug": "how-not-to-do-ai",
         "title": "How Not To Do AI",
         "date": "2026-09-08",
