@@ -24,6 +24,7 @@
             '.mobile-nav-group a{font-size:21px;font-weight:600;color:var(--coral,#E15A4A);}',
             '.mobile-nav-group a.mobile-nav-sublink{font-size:17px;font-weight:500;}',
             '.mobile-nav a.mobile-nav-active{text-decoration:underline;text-underline-offset:6px;}',
+            '.mobile-nav-links>a.mobile-nav-app{font-size:18px;color:var(--white,#FFFFFF);background:var(--coral,#E15A4A);padding:12px 34px;border-radius:999px;}',
             'body.nav-open{overflow:hidden;}',
             '@media (max-width:768px){.header-right,.header-nav{display:none;}.nav-toggle{display:flex;}}'
         ].join('');
@@ -141,7 +142,10 @@
 
         items.forEach(function (item) {
             if (item.tagName === 'A') {
-                nav.appendChild(makeLink(item));
+                var link = makeLink(item);
+                // The app link (.nav-app) stays a pill in the mobile menu.
+                if (item.classList.contains('nav-app')) link.className = 'mobile-nav-app';
+                nav.appendChild(link);
             } else if (item.classList.contains('nav-group')) {
                 var groupToggle = item.querySelector('.nav-group-toggle');
                 var section = document.createElement('div');
