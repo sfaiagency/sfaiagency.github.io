@@ -168,6 +168,32 @@
 
 }
 
+/* "Log in" pill: links to the Croquis web app. Last item in .header-right
+   on every page; nav.js shows it as a pill at the end of the mobile menu. */
+.nav-app {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 20px;
+    border-radius: 999px;
+    background: var(--coral, #E15A4A);
+    color: var(--white, #FFFFFF);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: background 0.2s;
+}
+
+.nav-app:hover {
+    background: var(--coral-dark, #D14A3A);
+}
+
+@media (max-width: 960px) {
+    .header-right {
+        gap: 22px;
+    }
+}
+
 /* On mobile the whole desktop nav is hidden (see each page's stylesheet and
    nav.js); the dropdown groups reappear as labeled sections in the
    full-screen menu that nav.js builds. */
