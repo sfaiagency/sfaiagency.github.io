@@ -228,7 +228,8 @@
   .site-footer-inner { max-width:900px; margin:0 auto; padding:32px 24px; text-align:center; }
   .site-footer img { height:30px; margin-bottom:12px; }
   .site-footer a { color:var(--coral); text-decoration:none; }
-  .site-footer .copyright { color:var(--gray); font-size:13px; margin:6px 0 0; }
+  .site-footer .footer-legal { font-size: 13px; margin-top: 6px; color: #666; } .footer-legal a { color: #666; text-decoration: underline; }
+  .copyright { color:var(--gray); font-size:13px; margin:6px 0 0; }
   @media (max-width:680px){ .nums,.steps{grid-template-columns:1fr;} .hero{flex-direction:column;} }
 </style>
 </head>
@@ -808,7 +809,8 @@ document.getElementById('copyCaption').addEventListener('click',async e=>{
   <div class="site-footer-inner">
     <img src="../../assets/logo.png" alt="SFAI">
     <div><a href="mailto:info@sfai.agency">info@sfai.agency</a></div>
-    <p class="copyright">&copy; 2026, The SFAI.agency, San Francisco, CA</p>
+    <p class="copyright">&copy; 2026 The Artificial Intelligence Agency of San Francisco (SFAI)</p>
+    <p class="footer-legal"><a href="/terms/">Terms of Service</a> &middot; <a href="/privacy/">Privacy Policy</a></p>
   </div>
 </footer>
 </body>
