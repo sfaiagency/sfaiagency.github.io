@@ -307,6 +307,17 @@ a {
     text-decoration: underline;
 }
 
+.footer-legal {
+    font-size: 13px;
+    margin-top: 6px;
+    color: var(--text-gray);
+}
+
+.footer-legal a {
+    color: var(--text-gray);
+    text-decoration: underline;
+}
+
 .copyright {
     font-size: 13px;
     color: var(--text-gray);
